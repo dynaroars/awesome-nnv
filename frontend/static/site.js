@@ -283,6 +283,7 @@
 			card.style.top = Math.max(8, top) + "px";
 		}
 		function placeBy(el) { var r = el.getBoundingClientRect(); place(r.right, r.top + r.height / 2); }
+		var flagBase = (document.querySelector("link[rel=icon]") || {}).href ? new URL("img/flags/", document.querySelector("link[rel=icon]").href).href : "img/flags/";
 		function showCard(slug, person) {
 			if (!card) return;
 			var g = info[slug], html = "";
@@ -293,6 +294,8 @@
 			}
 			if (g) {
 				html += "<p class=\"card-name\">" + esc(g.name) + "</p>";
+				if (g.country) html += "<p class=\"note\"><img class=\"flag\" src=\"" + flagBase + g.country.toLowerCase() + ".svg\" alt=\"\" width=\"16\" height=\"12\"> " +
+					esc(g.country_name) + " (where most members are)</p>";
 				if (g.description) html += "<p>" + esc(g.description) + "</p>";
 				if (g.tools && g.tools.length) html += "<p><span class=\"note\">Tools:</span> " + esc(g.tools.join(", ")) + "</p>";
 				html += "<p class=\"note\">" + g.researchers + " researcher" + (g.researchers === 1 ? "" : "s") + " on the list, " +

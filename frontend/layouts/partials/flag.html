@@ -1,0 +1,1 @@
+{{- with . }}{{ $name := index hugo.Data.meta.countries . | default . }}<img class="flag" src="{{ printf "img/flags/%s.svg" (lower .) | relURL }}" alt="{{ $name }}" title="{{ $name }}" width="16" height="12" loading="lazy">{{ end -}}

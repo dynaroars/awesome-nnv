@@ -373,6 +373,15 @@
   "matched": "doi+title",
   "fetched": "2026-11-26"
  },
+ "conf/cav/WangZ25": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W4412544449"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-26"
+ },
  "conf/cav/WeiHMYNLL25": {
   "citations": 22,
   "arxiv": "",
@@ -405,6 +414,15 @@
   "arxiv": "",
   "openalex": [
    "W3185438801"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-26"
+ },
+ "conf/cav/YangZZTPZ23": {
+  "citations": 9,
+  "arxiv": "",
+  "openalex": [
+   "W4384471488"
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
@@ -657,6 +675,15 @@
   "arxiv": "",
   "openalex": [
    "W7133541898"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-26"
+ },
+ "conf/eccv/ChoiJJS24": {
+  "citations": 7,
+  "arxiv": "",
+  "openalex": [
+   "W4403940532"
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
@@ -2490,6 +2517,15 @@
   "matched": "doi+title",
   "fetched": "2026-11-26"
  },
+ "conf/issta/LiWW23": {
+  "citations": 10,
+  "arxiv": "",
+  "openalex": [
+   "W4384154593"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-26"
+ },
  "conf/issta/Pham024": {
   "citations": 7,
   "arxiv": "",
@@ -3594,6 +3630,15 @@
   "matched": "title",
   "fetched": "2026-11-26"
  },
+ "conf/nips/SotoudehT19": {
+  "citations": 29,
+  "arxiv": "1908.06214",
+  "openalex": [
+   "W2967526509"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-26"
+ },
  "conf/nips/SteinhardtKL17": {
   "citations": 979,
   "arxiv": "1706.03691",
@@ -4597,6 +4642,15 @@
   "arxiv": "2606.27698",
   "openalex": [
    "W7166507924"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-26"
+ },
+ "researchr/issta2026/7759d38a-5271-49ae-a40e-2ad7679f519c": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4404348764"
   ],
   "matched": "title",
   "fetched": "2026-11-26"

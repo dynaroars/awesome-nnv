@@ -18,8 +18,40 @@ The top level holds only `backend/`, `frontend/`, `README.md`, `makefile`, `AGEN
     from the conference site (`<site>/static/virtual/data/<venue>-<year>-orals-posters.json`, as vn-ai-ranking reads
     them; same track rule: no Datasets & Benchmarks, position, journal or blog entries) into
     `backend/work/virtual.jsonl.gz`, keyed `openreview/<forum id>`, linking the OpenReview forum. `all_papers()` in
-    `common.py` drops a site's venue-year as soon as dblp lists it: then label the dblp rows again (the
-    `openreview/...` rows of `topics.csv` become unused and the build warns about them; delete them).
+    `common.py` drops a site's venue-year as soon as dblp lists it; `scan_topics.py` carries each label over to the
+    dblp row with the same venue and title (the old row stays, unused).
+  - `fetch_researchr.py`: for ICSE, FSE, ASE, ISSTA, POPL, PLDI and OOPSLA, this year's and next year's accepted
+    main-track papers from the conference's own pages on conf.researchr.org (`RESEARCHR_TRACKS` in `common.py`: track
+    page and the label of the main research track on it; journal-first, earlier-venue, keynote and other talks are
+    left out), into `backend/work/researchr.jsonl.gz`, keyed `researchr/<venue><year>/<event id>`. Used only for a
+    venue-year dblp lists under 80% of (`COMPLETE`), and only for papers whose title dblp does not have; refreshed
+    weekly. Authors are matched by name, as for the ICML/NeurIPS/ICLR sites.
+  - `backend/data/csv/accepted.csv`: accepted papers known only from an author's page or announcement (venue, year,
+    title, all authors in order, track, source_url, fetched, note), keyed `accepted/<venue><year>/<title>`. They count
+    like any paper and show an "unofficial" tag (the maintainer's rule, 2026-11-26); a conference list or dblp listing
+    the same title replaces the row. Record the full author list (credit is 1/N) and the exact source.
+  - `fetch_pdfs.py` (`make pdfs`): a PDF of every NNV paper in `backend/data/pdf/<area>/<paper id>.pdf` (git-ignored;
+    the area is the primary area, the id the Scholar-style id). Copied from the maintainer's `~/Area/llmwiki/raw` when
+    a PDF there has the paper's title on its first page (matched by title, never by file name: ids clash), downloaded
+    otherwise from arXiv, OpenReview, proceedings pages (PMLR, NeurIPS, CVF) or OpenAlex open-access links. Rerun after
+    relabelling: a PDF moves with its paper's area.
+  - `fetch_reviews.py` (`make reviews`): for ICLR, NeurIPS and ICML papers, the OpenReview decision, meta-review and
+    official reviews as `backend/data/pdf/<area>/<paper id>.md` next to the PDF, only when the forum has them. Logs in
+    with `OPENREVIEW_USERNAME` / `OPENREVIEW_PASSWORD` (run under `zsh -ic`, as in vn-ai-ranking); the forum is the
+    conference's own submission with the exact title (`ICLR.cc/<year>/Conference` etc., never a dblp or arXiv record),
+    cached in `backend/work/openreview_forums.json`. The PDFs and reviews stay local (git-ignored, the maintainer's
+    rule): never commit or publish them.
+  - `site_affiliations.py` (part of `make data`): each listed researcher's institution as printed on their latest
+    ICML/NeurIPS/ICLR paper's conference page (cached site lists, 2020 on; a department with no university named is
+    skipped), into `backend/data/json/site_affiliations.json`.
+  - `fetch_photos.py`: `--profiles` finds each researcher's OpenReview profile (the author id OpenReview records on one
+    of their own submissions; failing that, a profile that links their dblp pid *and* lists one of their NNV papers:
+    namesakes link the wrong dblp page) and Google Scholar page (from that profile or their homepage) into
+    `backend/data/json/profiles.json`, with the profile's current institution and country; `--collect` gathers photo
+    candidates from their pages and Scholar into `backend/data/raw/images/people/`, `--sheets` makes contact sheets to
+    check them by eye, `--apply` copies the photos recorded in `images.csv` (kind `person`) to
+    `frontend/static/img/people/<slug>.jpg`; `--flags` downloads the flags shown (flag-icons, MIT) to
+    `frontend/static/img/flags/`.
   - `scan_topics.py`: a broad title prefilter; adds every hit to `topics.csv` with an empty `decision`.
   - `find_candidates.py`: ranks the authors of the `yes` papers who are not decided in `roster.csv` (`candidates.csv`).
   - `fetch_people.py`: DBLP person records (affiliation, homepage, ORCID) of roster and top candidates into
@@ -73,8 +105,10 @@ the site uses.
   odd years, ECCV in even years; added at the maintainer's request on 2026-11-26), PL (PLDI, POPL, ICFP,
   OOPSLA), SE (FSE, ICSE, ASE, ISSTA), LV, logic and verification (CAV, LICS). NFM is not tracked at all (the maintainer's
   choice, 2026-11-26; it was an unscored "Other FM" field before).
-- **Years** 2017 on (Reluplex, CAV 2017). Conference years: the year in the DBLP table of contents, or the PACMPL /
-  PACMSE issue year.
+- **Years** 2017 on (Reluplex, CAV 2017), with **no upper limit** (the maintainer's rule): an accepted paper of next
+  year's conference counts as soon as it is confirmed, officially (the conference site) or unofficially (an author's
+  page, tagged). `YEARS` runs to the latest year with an NNV paper; a future year is never listed as missing.
+  Conference years: the year in the DBLP table of contents, or the PACMPL / PACMSE issue year.
 - **Main track only.** Each venue is a DBLP stream plus a whitelist of table-of-contents pages (`tocs` in `VENUES`):
   POPL, OOPSLA, ICFP and PLDI (2023 on) are PACMPL issues, FSE (2024 on) and ISSTA (2025 on) PACMSE issues.
   CVPR and ICCV workshop volumes (`cvprw`, `iccvw`, `iccv2025w`), ECCV workshop volumes (`-w`), companion, workshop, NIER, SEIS, demo, Tiny Papers, position-paper and Datasets & Benchmarks volumes are left out,
@@ -110,6 +144,11 @@ the site uses.
   the maintainer's.
 - **arXiv links:** `fetch_citations.py` keeps the arXiv id of the OpenAlex preprint it adds up (`arxiv` in
   `citations.json`), shown as an "arXiv" link next to the title.
+- **Institutions and countries:** public: the roster's confirmed institution, else the current one on the person's
+  OpenReview profile, else the latest conference-page one, else dblp's; someone with none of these takes the
+  institution of the co-author they share the most NNV papers with (likely supervisor), shown with a `*` and a note under
+  the table (the maintainer's rule). The flag is the country of the institution shown (`country_of` in `common.py`); a
+  group's flag (Collaboration legend and card) is the country most of its members are at.
 - **People:** every author with `TRACK_MIN` (2) or more NNV papers is listed (the maintainer's rule,
   2026-11-26), students and industry researchers included. Roster rows below the threshold are kept (with their
   group) but shown only on the local Candidates page; they reappear on the site once they reach 2. Identity is the
@@ -198,7 +237,8 @@ listed gets `approved` = `no` with the reason. Mark anything unconfirmed in `to_
 when their cache is more than 7 days old (`stale`), every year with `--refresh`. A table of contents whose parsed
 papers fall under 80% of the count DBLP lists is downloaded again, then reported as a warning (a table of contents once came
 back empty). DBLP adds proceedings some weeks after a conference. The front page and Conferences page list the venue-years not
-yet in DBLP (`gaps` in `meta.json`); run `make refresh` after a conference's proceedings appear.
+yet in DBLP and not on a conference site (`gaps` in `meta.json`); run `make refresh` after a conference's proceedings
+appear. When checking groups' pages for missing papers, include accepted papers of next year's conferences.
 
 ## Git and publishing
 

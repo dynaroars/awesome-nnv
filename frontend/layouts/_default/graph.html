@@ -7,7 +7,7 @@
 <script type="application/json" id="group-info">{{ $g.groups | jsonify | safeJS }}</script>
 <ul class="graph-legend">
 	{{- range $g.legend }}
-	<li data-color="{{ .color }}" data-group="{{ .slug }}">{{ partial "swatch.html" . }}{{ with .logo }}<img class="legend-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
+	<li data-color="{{ .color }}" data-group="{{ .slug }}">{{ partial "swatch.html" . }}{{ with .logo }}<img class="legend-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .country }}{{ partial "flag.html" . }}{{ end }}{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
 	{{- end }}
 	<li class="edge-key"><span class="line-key"></span>Shared NNV papers</li>
 	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" true) }}Group of {{ hugo.Data.meta.label_min }}+ researchers</li>

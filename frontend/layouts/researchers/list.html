@@ -1,3 +1,8 @@
+{{ define "title" -}}
+Neural-network verification researchers, {{ hugo.Data.meta.first_year }}&ndash;{{ hugo.Data.meta.last_year }}
+{{- end }}
 {{ define "main" -}}
-<p>All researchers are listed on the <a href="{{ "" | relURL }}">front page</a>.</p>
+{{ .Content }}
+{{ partial "researcher-table.html" (dict "rows" hugo.Data.researchers "id" "researchers-table" "page" 50) }}
+<aside class="callout"><p>Scores use the <a href="https://csrankings.org/">CSRankings</a> adjusted count: each NNV paper gives 1 / (number of authors) credit to every listed author. See <a href="{{ "about/" | relURL }}">About</a> for details.</p></aside>
 {{- end }}

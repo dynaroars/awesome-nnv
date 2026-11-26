@@ -92,7 +92,7 @@ def selected_tocs(venue, refresh=False):
             m = re.fullmatch(pattern, label)
             if m:
                 year = int(m.group(1)) if m.groups() else int(row["year"])
-                if FIRST_YEAR <= year <= LAST_YEAR:
+                if FIRST_YEAR <= year:
                     out.append({"toc": toc, "issue": issue, "year": year, "listed": int(row["n"])})
                 break
     return sorted(out, key=lambda t: (t["year"], t["toc"], t["issue"]))

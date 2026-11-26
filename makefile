@@ -5,16 +5,22 @@ install:
 	pip install networkx
 
 fetch:
-	cd backend/code && $(PYTHON) fetch_dblp.py && $(PYTHON) fetch_virtual.py
+	cd backend/code && $(PYTHON) fetch_dblp.py && $(PYTHON) fetch_virtual.py && $(PYTHON) fetch_researchr.py
 
 refresh:
-	cd backend/code && $(PYTHON) fetch_dblp.py --refresh && $(PYTHON) fetch_virtual.py --refresh && $(PYTHON) scan_topics.py && $(PYTHON) find_candidates.py
+	cd backend/code && $(PYTHON) fetch_dblp.py --refresh && $(PYTHON) fetch_virtual.py --refresh && $(PYTHON) fetch_researchr.py --refresh && $(PYTHON) scan_topics.py && $(PYTHON) find_candidates.py
 
 topics:
 	cd backend/code && $(PYTHON) scan_topics.py
 
 candidates:
 	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) fetch_people.py && $(PYTHON) find_candidates.py
+
+pdfs:
+	cd backend/code && zsh -ic '$(PYTHON) fetch_pdfs.py'
+
+reviews:
+	cd backend/code && zsh -ic '$(PYTHON) fetch_reviews.py'
 
 citations:
 	cd backend/code && zsh -ic '$(PYTHON) fetch_citations.py'
@@ -23,7 +29,7 @@ people:
 	cd backend/code && $(PYTHON) fetch_people.py
 
 data:
-	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) build_site_data.py
+	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) site_affiliations.py && $(PYTHON) build_site_data.py
 
 run:
 	cd frontend && hugo serve --buildDrafts --noHTTPCache --disableFastRender

@@ -1,7 +1,7 @@
 {
  "generated_date": "2026-11-26",
  "first_year": 2017,
- "last_year": 2026,
+ "last_year": 2027,
  "years": [
   2017,
   2018,
@@ -12,7 +12,8 @@
   2023,
   2024,
   2025,
-  2026
+  2026,
+  2027
  ],
  "venues": [
   {
@@ -213,30 +214,58 @@
   }
  ],
  "label_min": 4,
- "papers": 543,
- "tracked_papers": 451,
- "researchers": 361,
+ "countries": {
+  "US": "United States",
+  "CN": "China",
+  "GB": "United Kingdom",
+  "DE": "Germany",
+  "CH": "Switzerland",
+  "FR": "France",
+  "AU": "Australia",
+  "SG": "Singapore",
+  "AT": "Austria",
+  "JP": "Japan",
+  "IL": "Israel",
+  "CA": "Canada",
+  "RU": "Russia",
+  "ES": "Spain",
+  "KR": "South Korea",
+  "IN": "India",
+  "HK": "Hong Kong",
+  "DK": "Denmark",
+  "HU": "Hungary",
+  "TW": "Taiwan",
+  "RS": "Serbia",
+  "VN": "Vietnam",
+  "PT": "Portugal",
+  "FI": "Finland",
+  "MO": "Macao",
+  "NL": "Netherlands",
+  "BE": "Belgium",
+  "SE": "Sweden",
+  "IT": "Italy",
+  "NO": "Norway",
+  "IE": "Ireland",
+  "PL": "Poland",
+  "CZ": "Czechia",
+  "GR": "Greece",
+  "SA": "Saudi Arabia",
+  "AE": "United Arab Emirates",
+  "BR": "Brazil",
+  "NZ": "New Zealand",
+  "LU": "Luxembourg",
+  "CY": "Cyprus",
+  "IR": "Iran",
+  "TR": "Turkey",
+  "MX": "Mexico",
+  "CL": "Chile",
+  "QA": "Qatar"
+ },
+ "papers": 550,
+ "tracked_papers": 458,
+ "researchers": 367,
  "groups": 109,
- "gaps": [
-  {
-   "venue": "ICSE",
-   "years": [
-    2026
-   ]
-  },
-  {
-   "venue": "ASE",
-   "years": [
-    2026
-   ]
-  },
-  {
-   "venue": "ISSTA",
-   "years": [
-    2026
-   ]
-  }
- ],
+ "gaps": [],
  "from_sites": [
   {
    "venue": "NeurIPS",
@@ -247,6 +276,31 @@
    "venue": "ICML",
    "year": 2026,
    "site": "icml.cc"
+  },
+  {
+   "venue": "ICSE",
+   "year": 2026,
+   "site": "conf.researchr.org"
+  },
+  {
+   "venue": "ASE",
+   "year": 2026,
+   "site": "conf.researchr.org"
+  },
+  {
+   "venue": "ISSTA",
+   "year": 2026,
+   "site": "conf.researchr.org"
+  },
+  {
+   "venue": "POPL",
+   "year": 2027,
+   "site": "conf.researchr.org"
+  },
+  {
+   "venue": "OOPSLA",
+   "year": 2026,
+   "site": "conf.researchr.org"
   }
  ]
 }

@@ -6,3 +6,4 @@ backend/work/
 frontend/public/
 frontend/resources/
 frontend/.hugo_build.lock
+backend/data/pdf/

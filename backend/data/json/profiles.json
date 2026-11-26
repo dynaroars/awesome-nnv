@@ -1,0 +1,35 @@
+{
+ "huan-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Huan_Zhang1",
+  "openreview_match": "author id on NeurIPS 2026 submission jJKsS0Cmjn",
+  "homepage": "http://huan-zhang.com",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "LTa3GzEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "martin-vechev": {
+  "fetched": "2026-11-26",
+  "openreview": "~Martin_Vechev1",
+  "openreview_match": "author id on ICLR 2026 submission syvfsHSqm2",
+  "homepage": "https://www.sri.inf.ethz.ch/people/martin",
+  "institution": "ETHZ - ETH Zurich",
+  "country": "CH",
+  "position": "Full Professor",
+  "scholar": "aZ1Rh50AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "thanh-le": {
+  "fetched": "2026-11-26",
+  "openreview": "~Thanh_Le2",
+  "openreview_match": "author id on NeurIPS 2026 submission U2N3YhilwS",
+  "homepage": "https://thanhle.xyz",
+  "institution": "National Institute of Information and Communications Technology (NICT)",
+  "country": "JP",
+  "position": "Researcher",
+  "scholar": "UkCDAXUAAAAJ",
+  "scholar_from": "OpenReview profile"
+ }
+}

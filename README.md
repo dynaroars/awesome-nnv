@@ -46,3 +46,5 @@ make test        # unit tests
 The code and data are released into the public domain (Unlicense). The group logos in
 `frontend/static/img/groups/` belong to their owners and are not covered by the licence; their sources are listed
 in `backend/data/csv/images.csv`.
+
+Country flags in `frontend/static/img/flags/` are from [flag-icons](https://github.com/lipis/flag-icons) (MIT licence).

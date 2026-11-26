@@ -3,7 +3,7 @@ import collections
 import re
 import sys
 
-from common import ROSTER, all_papers, CSV_DIR, PAPERS, TOPICS, WORK, read_csv, read_jsonl_gz, split_list, write_csv
+from common import ROSTER, all_papers, CSV_DIR, PAPERS, TOPICS, WORK, norm_title, read_csv, read_jsonl_gz, split_list, write_csv
 
 MODEL = (r"neural|network|\bnets?\b|\bdnns?\b|\bcnns?\b|\brnns?\b|\bgnns?\b|\bllms?\b|deep|relu|transformer|perceptron"
          r"|classifier|learn(ed|ing)[- ]enabled|learned (controller|component|model|polic)|machine[- ]learn|\bml\b|\bai\b"
@@ -57,7 +57,19 @@ def main():
     pids = {pid for r in roster for pid in split_list(r["dblp_pids"])}
     names = {n for r in roster for n in [r["name"], *split_list(r["aliases"])]}
     counts, added = collections.Counter(), []
-    for p in all_papers():
+    # A paper first known from a conference site or an author's page gets a new key once dblp lists it: its label
+    # follows it by venue and title.
+    decided = {(r["venue"], norm_title(r["title"])): r for r in rows if r["decision"]}
+    papers = all_papers()
+    live = {p["key"] for p in papers}
+    for p in papers:
+        old = decided.get((p["venue"], norm_title(p["title"])))
+        if p["key"] in known or not old or old["key"] in live:
+            continue
+        added.append({**old, "key": p["key"], "year": p["year"], "title": p["title"],
+                      "note": f"{old['note']}; carried over from {old['key']}"})
+        known.add(p["key"])
+    for p in papers:
         kind = hit(p["title"], listed(p, pids, names))
         if not kind:
             continue

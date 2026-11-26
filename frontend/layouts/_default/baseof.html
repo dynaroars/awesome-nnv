@@ -25,11 +25,11 @@
 	<a class="site" href="{{ "" | relURL }}"><img class="site-logo" src="{{ "favicon.svg" | relURL }}" alt="" width="22" height="22">{{ site.Title }}</a>
 	<span class="links">
 	{{- range site.Menus.main }}
-	{{- $current := cond (eq .Identifier "researchers") (or $.IsHome (eq $.Section "researchers")) (hasPrefix $.RelPermalink .URL) }}
+	{{- $current := cond (eq .Identifier "groups") (or $.IsHome (eq $.Section "groups")) (hasPrefix $.RelPermalink .URL) }}
 	<a href="{{ .URL }}"{{ if $current }} class="current"{{ end }}>{{ .Name }}</a>
 	{{- end }}
-	{{- with site.GetPage "/candidates" }}
-	<a href="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} class="current"{{ end }}>Candidates</a>
+	{{- range sort (where site.Pages "Params.local_tab" true) "Weight" }}
+	<a href="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} class="current"{{ end }}>{{ .Title }}</a>
 	{{- end }}
 	</span>
 </nav>

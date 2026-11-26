@@ -132,7 +132,7 @@ def layout(researchers, groups, papers):
                       "width": round(1.2 + 1.3 * math.sqrt(w), 1)})
     drawn = {n["color"] for n in nodes}
     legend = [{"color": gr["color"], "hue": gr["hue"], "shape": gr["shape"], "filled": gr["filled"], "label": gr["name"],
-               "slug": gr["slug"], "logo": gr["logo"]}
+               "slug": gr["slug"], "logo": gr["logo"], "country": gr["country"], "country_name": gr["country_name"]}
               for gr in sorted((x for x in groups if x["legend_order"] is not None), key=lambda x: x["legend_order"])
               if gr["color"] in drawn]
     if "other" in drawn:
@@ -140,6 +140,7 @@ def layout(researchers, groups, papers):
     on_graph = {n["group_slug"] for n in nodes}
     info = {gr["slug"]: {"name": gr["name"], "description": gr["description"], "tools": gr["tools"],
                          "researchers": len(gr["members"]), "papers": gr["papers"], "logo": gr["logo"],
+                         "country": gr["country"], "country_name": gr["country_name"],
                          "hue": gr["hue"], "shape": gr["shape"], "filled": gr["filled"]}
             for gr in groups if gr["slug"] in on_graph}
     return {"width": round(width), "height": round(height), "nodes": nodes, "edges": edges, "legend": legend,

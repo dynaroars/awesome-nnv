@@ -362,6 +362,14 @@
   "orcid": "",
   "fetched": "2026-11-26"
  },
+ "132/8024": {
+  "name": "Yuning Wang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "132/8938": {
   "name": "Bhavya Kailkhura",
   "affiliations": [],
@@ -396,6 +404,16 @@
   "primary": "University of Melbourne, School of Computing and Information Systems, Australia",
   "homepage": "https://cis.unimelb.edu.au/people/sarah-erfani",
   "orcid": "0000-0003-0885-0643",
+  "fetched": "2026-11-26"
+ },
+ "136/0901-2": {
+  "name": "Yannan Li",
+  "affiliations": [
+   "University of Southern California, Los Angeles, CA, USA"
+  ],
+  "primary": "University of Southern California, Los Angeles, CA, USA",
+  "homepage": "",
+  "orcid": "",
   "fetched": "2026-11-26"
  },
  "137/9852": {
@@ -1139,6 +1157,14 @@
  },
  "215/3626": {
   "name": "Klas Leino",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "215/4310": {
+  "name": "Matthew Sotoudeh",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1927,6 +1953,14 @@
   "orcid": "",
   "fetched": "2026-11-26"
  },
+ "297/3667": {
+  "name": "Xiaochao Tang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "297/5403": {
   "name": "Zhongzhu Chen",
   "affiliations": [],
@@ -2609,6 +2643,14 @@
   "orcid": "",
   "fetched": "2026-11-26"
  },
+ "56/2636": {
+  "name": "Zhenbing Zeng",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0002-9728-1114",
+  "fetched": "2026-11-26"
+ },
  "56/7175": {
   "name": "Ivan V. Oseledets",
   "affiliations": [
@@ -2708,6 +2750,14 @@
   "primary": "",
   "homepage": "http://www.macs.hw.ac.uk/~ek19/",
   "orcid": "0000-0002-3240-0987",
+  "fetched": "2026-11-26"
+ },
+ "62/6760": {
+  "name": "Xia Zeng",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
   "fetched": "2026-11-26"
  },
  "64/1811-1": {

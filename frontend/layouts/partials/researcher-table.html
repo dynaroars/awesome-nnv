@@ -23,8 +23,8 @@
 	<tr{{ if and $page (ge $n $page) }} class="off-page"{{ end }}>
 		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
 		<td class="l pin1"><a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a></td>
-		{{- if $group }}<td class="l pin2">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .group | relURL }}">{{ .group_name }}</a></td>{{ end }}
-		<td class="l">{{ if site.Params.local }}{{ .institution_local_short }}{{ else }}{{ .institution_short }}{{ end }}</td>
+		{{- if $group }}<td class="l pin2">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .group | relURL }}" title="{{ .group_name }}">{{ cond site.Params.local .group_label_local .group_label }}</a></td>{{ end }}
+		<td class="l">{{ if site.Params.local }}{{ partial "flag.html" .country_local }} {{ .institution_local_name }}{{ with .institution_local_via }}<span class="note" title="Institution of {{ . }}, their likely supervisor">*</span>{{ end }}{{ else }}{{ partial "flag.html" .country }} {{ .institution_name }}{{ with .institution_via }}<span class="note" title="Institution of {{ . }}, their likely supervisor">*</span>{{ end }}{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}
 		<td class="score">{{ printf "%.2f" .score }}</td>
 		<td class="total good">{{ .papers }}</td>
@@ -34,6 +34,9 @@
 	</tbody>
 </table>
 </div>
+{{- if where $rows (cond site.Params.local "institution_local_via" "institution_via") "ne" nil }}
+<p class="note table-note">* No affiliation on record for this researcher: shown with the institution of the co-author they share the most NNV papers with, most likely their supervisor.</p>
+{{- end }}
 {{- with $page }}
 <nav class="pager" aria-controls="{{ $id }}" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
 <noscript><style>#{{ $id }} tr.off-page { display: table-row ; }</style></noscript>

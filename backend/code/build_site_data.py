@@ -3,11 +3,12 @@ import collections
 import datetime
 import json
 import math
+import re
 import sys
 
 import charts
 import graph
-from common import (all_papers, display_title, conference_month, TRACK_MIN, LABEL_MIN, slugify, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
+from common import (COUNTRY_NAME, country_of, CSV_DIR, RESEARCHR_COVERAGE, FIRST_YEAR, all_papers, display_title, conference_month, TRACK_MIN, LABEL_MIN, slugify, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
                     PAPERS, PEOPLE_JSON, ROSTER, SCORED_FIELDS, TOPICS, VENUE_KEYS, VENUE_NAME, VENUES, WORK, YEARS,
                     norm_name, read_csv, read_json, read_jsonl_gz, split_list, write_json)
 
@@ -144,22 +145,35 @@ def geomean(values):
 def paper_entry(p, names):
     return {"id": p["id"], "key": p["key"], "date": p["date"], "venue": p["venue"], "venue_name": VENUE_NAME[p["venue"]], "year": p["year"],
             "field": FIELD_OF[p["venue"]], "title": display_title(p["title"]), "url": p["url"], "citations": p["citations"],
-            "arxiv": p["arxiv"], "source": p["source"],
+            "arxiv": p["arxiv"], "source": p["source"], "unofficial": bool(p.get("unofficial")),
             "area": p["area"],
             "area_name": AREA_NAME[p["area"]], "tags": [{"key": t, "name": AREA_NAME[t]} for t in p["tags"]],
             "authors": [{"name": names.get(a["slug"], a["name"]), "slug": a["slug"]} for a in p["authors"]]}
 
 
-def institution(r, info):
+def institution(r, info, prof=None, site=None):
+    """Public: the roster's confirmed institution, else the current one on the person's own OpenReview profile, else
+    the one printed on their latest ICML/NeurIPS/ICLR conference page, else dblp's. Local: the roster's, then the same
+    fallbacks. The country goes with the institution shown."""
+    prof = prof or {}
     dblp = info.get("primary", "")
-    local = r["institution"] or dblp
+    fallback = prof.get("institution") or (site or {}).get("institution") or dblp
+    local = r["institution"] or fallback
     local_short = r["institution_short"] or local.split(",")[0]
     if "current post" in r["to_confirm"] or not r["institution"]:
-        public, public_short = dblp, dblp.split(",")[0]
+        public, public_short = fallback, fallback.split(",")[0]
     else:
         public, public_short = r["institution"], r["institution_short"] or r["institution"]
+
+    def country(name):
+        if prof.get("institution") and name == prof["institution"]:
+            return prof.get("country", "")
+        return country_of(name) or prof.get("country", "") or country_of(dblp) or next(
+            (c for c in map(country_of, info.get("affiliations", [])) if c), "")
+
     return {"institution": public, "institution_short": public_short,
-            "institution_local": local, "institution_local_short": local_short}
+            "institution_local": local, "institution_local_short": local_short,
+            "country": country(public), "country_local": country(local)}
 
 
 def build_researchers(people, groups, papers, dblp_people):
@@ -168,6 +182,8 @@ def build_researchers(people, groups, papers, dblp_people):
         for s in p["slugs"]:
             by_slug[s].append(p)
     names = {r["slug"]: r["name"] for r in people}
+    links = read_json(JSON_DIR / "profiles.json", {})
+    printed = read_json(JSON_DIR / "site_affiliations.json", {})
     out = []
     for r in people:
         mine = by_slug.get(r["slug"], [])
@@ -178,8 +194,11 @@ def build_researchers(people, groups, papers, dblp_people):
         info = dblp_people.get(pids[0], {}) if pids else {}
         out.append({
             "slug": r["slug"], "name": r["name"], "group": r["group"], "group_name": g.get("name", r["group"]),
-            "role": r["role"], **institution(r, info),
-            "homepage": r["homepage"] or info.get("homepage", ""), "orcid": info.get("orcid", ""),
+            "role": r["role"], **institution(r, info, links.get(r["slug"]), printed.get(r["slug"])),
+            "homepage": r["homepage"] or info.get("homepage", "") or links.get(r["slug"], {}).get("homepage", ""),
+            "orcid": info.get("orcid", ""),
+            "openreview": links.get(r["slug"], {}).get("openreview", ""), "scholar": links.get(r["slug"], {}).get("scholar", ""),
+            "photo": photo_of(r["slug"]),
             "dblp": [f"https://dblp.org/pid/{p}.html" for p in pids], "to_confirm": r["to_confirm"],
             **counts(mine), "score_fields": sf, "score": round(sum(sf.values()), 3),
             "first_author": sum(1 for p in mine if p["authors"] and p["authors"][0]["slug"] == r["slug"]),
@@ -187,8 +206,139 @@ def build_researchers(people, groups, papers, dblp_people):
             "coauthors": [{"slug": s, "name": names[s], "papers": n} for s, n in co.most_common()],
             "paper_list": [paper_entry(p, names) for p in mine],
         })
+    inherit_institutions(out)
+    for r in out:
+        r["institution_name"] = institution_name(r["institution"])
+        r["institution_local_name"] = institution_name(r["institution_local"])
+        r["group_label"] = group_label(r["group_name"], r["institution"], r["institution_short"])
+        r["group_label_local"] = group_label(r["group_name"], r["institution_local"], r["institution_local_short"])
     out.sort(key=lambda r: (-r["score"], -r["papers"], r["name"]))
     return out, names
+
+
+# Short names in group names ("Reliable AI Lab (UMD)") and the institution names they stand for.
+SHORT_NAMES = {"UMD": r"maryland", "UIUC": r"illinois at urbana|illinois urbana|urbana-champaign|\buiuc\b|siebel school", "TUM": r"technical university of munich|"
+               r"technische universität münchen", "CMU": r"carnegie mellon", "MIT": r"massachusetts institute of technology",
+               "SMU": r"singapore management", "UCSD": r"san diego", "SFU": r"simon fraser", "USC": r"southern california",
+               "WashU": r"washington university", "JHU": r"johns hopkins|whiting school", "UCI": r"irvine", "UT Austin": r"texas at austin",
+               "Penn": r"university of pennsylvania", "Penn State": r"pennsylvania state|penn state",
+               "UW-Madison": r"wisconsin", "ISTA": r"institute of science and technology austria|ist austria",
+               "CMU/NASA": r"carnegie mellon|nasa", "Imperial": r"imperial college", "Tübingen": r"tübingen|tuebingen"}
+
+
+def group_label(name, *institutions):
+    """The group's name without its "(short name)" when the row's institution already says it."""
+    m = re.match(r"^(.*\S)\s*\(([^()]+)\)$", name)
+    if not m:
+        return name
+    short = m.group(2)
+    for inst in institutions:
+        if not inst:
+            continue
+        if short.lower() in inst.lower() or (short in SHORT_NAMES and re.search(SHORT_NAMES[short], inst, re.I)):
+            return m.group(1)
+    return name
+
+
+# Institutions written out in full in the Institution column (the maintainer's rule: no abbreviations).
+FULL_NAMES = {"UIUC": "University of Illinois Urbana-Champaign", "UMD": "University of Maryland",
+              "CMU": "Carnegie Mellon University", "MIT": "Massachusetts Institute of Technology",
+              "UCSB": "University of California, Santa Barbara", "UCLA": "University of California, Los Angeles",
+              "UC Berkeley": "University of California, Berkeley", "UCSD": "University of California San Diego",
+              "UT Austin": "University of Texas at Austin", "UW Madison": "University of Wisconsin–Madison",
+              "NYU": "New York University", "LSE": "London School of Economics and Political Science",
+              "KAIST": "Korea Advanced Institute of Science and Technology", "Oxford": "University of Oxford",
+              "EPFL": "École Polytechnique Fédérale de Lausanne", "TU Delft": "Delft University of Technology",
+              "TU Wien": "Vienna University of Technology", "IST Austria": "Institute of Science and Technology Austria",
+              "ISTA": "Institute of Science and Technology Austria", "Technion": "Technion – Israel Institute of Technology",
+              "CISPA": "CISPA Helmholtz Center for Information Security", "DeepMind": "Google DeepMind",
+              "Deepmind": "Google DeepMind", "ANITI": "Artificial and Natural Intelligence Toulouse Institute",
+              "IRIT": "Institut de Recherche en Informatique de Toulouse",
+              "LAAS-CNRS": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
+              "LAAS / CNRS": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
+              "ETHZ - ETH Zurich": "ETH Zurich", "CNRS": "French National Centre for Scientific Research", "VMWare": "VMware", "GMU": "George Mason University",
+              "ECNU": "East China Normal University", "SMU": "Singapore Management University",
+              "TUM": "Technical University of Munich", "JHU": "Johns Hopkins University", "HUJI": "Hebrew University of Jerusalem",
+              "USC": "University of Southern California", "SFU": "Simon Fraser University", "NUS": "National University of Singapore",
+              "PKU": "Peking University", "UCI": "University of California, Irvine", "WashU": "Washington University in St. Louis",
+              "Siebel School of Computing and Data Science": "University of Illinois Urbana-Champaign",
+              "Whiting School of Engineering": "Johns Hopkins University",
+              "Software Engineering Institute": "Software Engineering Institute, Carnegie Mellon University",
+              "Tsinghua Univiersity": "Tsinghua University", "university Paul Sabatier": "Université Paul Sabatier",
+              "Karlsruhe Institute of Technologie": "Karlsruhe Institute of Technology",
+              "CISPA Helmholtz Center for Infomation Security": "CISPA Helmholtz Center for Information Security",
+              "CISPA Helmholtz Center": "CISPA Helmholtz Center for Information Security",
+              "Technical University Munich": "Technical University of Munich", "Universität Kassel": "University of Kassel",
+              "University of Tuebingen": "University of Tübingen", "University of Wisconsin-Madison": "University of Wisconsin–Madison",
+              "MPI for Informatics": "Max Planck Institute for Informatics",
+              "Lawrence Livermore National Lab": "Lawrence Livermore National Laboratory",
+              "University of Illinois Urbana Champaign": "University of Illinois Urbana-Champaign",
+              "University of Illinois at Urbana-Champaign": "University of Illinois Urbana-Champaign",
+              "University of California Berkeley": "University of California, Berkeley",
+              "Singapore Management University (SMU)": "Singapore Management University",
+              "The Chinese University of Hong Kong": "Chinese University of Hong Kong",
+              "Technische Universität Wien": "Vienna University of Technology",
+              "University of Illinois, Urbana Champaign": "University of Illinois Urbana-Champaign",
+              "University of Illinois, Urbana-Champaign": "University of Illinois Urbana-Champaign",
+              "University of Wisconsin, Madison": "University of Wisconsin–Madison",
+              "Washington University, Saint Louis": "Washington University in St. Louis",
+              "Washington University, St. Louis": "Washington University in St. Louis",
+              "University of Maryland College Park": "University of Maryland, College Park",
+              "The University of Melbourne": "University of Melbourne", "The Hebrew University of Jerusalem":
+              "Hebrew University of Jerusalem", "The Pennsylvania State University": "Pennsylvania State University"}
+# Names that need the next part ("University of California, Berkeley") or the one before ("Birkbeck, University of London").
+CAMPUS = {"University of California", "University of Illinois", "University of Wisconsin", "University of Texas",
+          "University of Massachusetts", "Washington University", "University of Colorado"}
+UNIT = re.compile(r"^(?:the\s+)?(?:department|dept\.?|school of|faculty|division|chair|group|laboratory for|lab of)\b", re.I)
+ORG = re.compile(r"universit|institut|college|eth\b|epfl|technion|kaist|cnrs|inria|deepmind|google|microsoft|ibm|"
+                 r"amazon|nvidia|meta|research|center|centre|laborator|academy|school of economics", re.I)
+
+
+def institution_name(full):
+    """The institution as written out in full: the part of an affiliation that names the organisation (not the
+    department, city or country), with abbreviations expanded."""
+    parts = [p.strip() for p in (full or "").split(",") if p.strip()]
+    parts = list(dict.fromkeys(parts))
+    if not parts:
+        return ""
+    keep = [p for p in parts if not UNIT.match(p)] or parts
+    i = next((k for k, p in enumerate(keep) if ORG.search(p)), 0)
+    name = keep[i]
+    after = keep[i + 1] if i + 1 < len(keep) else ""
+    if name in CAMPUS and after and len(after) > 3 and not country_of(after) == after:
+        name = f"{name}, {after}" if not re.fullmatch(r"[A-Z]{2}|USA|United States", after) else name
+    elif re.match(r"institute of|state key lab", name, re.I) and "universit" not in name.lower() and ORG.search(after):
+        name = f"{name}, {after}"
+    elif name == "University of London" and i > 0:
+        name = f"{keep[i - 1]}, {name}"
+    name = re.sub(r"\bUniv\.\s*", "University ", name)
+    return FULL_NAMES.get(name, name)
+
+
+def inherit_institutions(researchers):
+    """Someone with no institution on record (the roster, their OpenReview profile and dblp have none; usually a
+    student) takes their supervisor's: the co-author they share the most NNV papers with, preferring a member of their
+    own group and someone often last author. Shown with a * and a note under the table."""
+    by_slug = {r["slug"]: r for r in researchers}
+    for r in researchers:
+        for public, short, country in (("institution", "institution_short", "country"),
+                                       ("institution_local", "institution_local_short", "country_local")):
+            if r[public]:
+                continue
+            options = [(by_slug[c["slug"]], c["papers"]) for c in r["coauthors"]
+                       if c["slug"] in by_slug and by_slug[c["slug"]][public]]
+            if not options:
+                continue
+            boss, _ = max(options, key=lambda o: (o[0]["group"] == r["group"], o[1], o[0]["last_author"]))
+            r.update({public: boss[public], short: boss[short], country: boss[country]})
+            r[f"{public}_via"] = boss["name"]
+
+
+def photo_of(slug):
+    """A researcher's photo: only one recorded in images.csv (kind person) and copied by fetch_photos.py --apply."""
+    approved = {r["key"] for r in read_csv(CSV_DIR / "images.csv") if r["kind"] == "person"}
+    f = FRONTEND / "static" / "img" / "people" / f"{slug}.jpg"
+    return f"img/people/{slug}.jpg" if slug in approved and f.exists() else ""
 
 
 def logo_of(slug):
@@ -205,7 +355,11 @@ def build_groups(groups, researchers, papers, names):
         ids = {r["slug"] for r in members}
         mine = [p for p in papers if ids & set(p["slugs"])]
         sf = score_fields(mine, ids)
-        out.append({"slug": slug, "name": g["name"], "tools": split_list(g["tools"]), "url": g["url"],
+        # The country most members are at; a tie goes to the higher-ranked member's country.
+        where = collections.Counter(r["country"] for r in members if r["country"]).most_common(1)
+        country = where[0][0] if where else ""
+        out.append({"country": country, "country_name": COUNTRY_NAME.get(country, country),
+                    "slug": slug, "name": g["name"], "tools": split_list(g["tools"]), "url": g["url"],
                     "description": g["description"],
                     "members": [{"slug": r["slug"], "name": r["name"], "institution_short": r["institution_short"],
                                  "papers": r["papers"], "score": r["score"]} for r in members],
@@ -255,7 +409,7 @@ def build_venues(papers, researchers, coverage, names):
                     "field_name": FIELD_NAME[FIELD_OF[v["key"]]], **counts(mine), "all_years": totals,
                     "all_papers": sum(totals.values()),
                     "share": round(100 * len(mine) / max(sum(totals.values()), 1), 2),
-                    "missing": [y for y in YEARS if not totals[str(y)] and held(v["key"], y)],
+                    "missing": [y for y in YEARS if not totals[str(y)] and held(v["key"], y) and y <= LAST_YEAR],
                     "not_held": [y for y in YEARS if not held(v["key"], y)],
                     "researchers": [{"slug": r["slug"], "name": r["name"], "papers": r["venues"].get(v["key"], 0)}
                                     for r in top(researchers, lambda r: r["venues"].get(v["key"], 0))],
@@ -341,6 +495,9 @@ def main():
     by_pid = {k: v for k, v in by_pid.items() if v in shown}
     by_name = {k: v for k, v in by_name.items() if v in shown}
     papers = nnv_papers(topics, by_pid, by_name)
+    # No upper year limit: the charts and per-year counts run to the latest year with an NNV paper (an accepted
+    # paper of next year's conference).
+    YEARS[:] = list(range(FIRST_YEAR, max([LAST_YEAR, *(p["year"] for p in papers)]) + 1))
     for p in papers:
         for slug in p["by_name"]:
             warn(warnings, f"name match to check: {slug} on {p['key']} ({VENUE_NAME[p['venue']]} {p['year']}) {p['title'][:60]}")
@@ -350,9 +507,12 @@ def main():
     dblp_people = read_json(PEOPLE_JSON, {})
     coverage = read_json(WORK / "coverage.json", {})
     from_sites = read_json(VIRTUAL_COVERAGE, {})
+    for venue, years in read_json(RESEARCHR_COVERAGE, {}).items():
+        from_sites.setdefault(venue, {}).update(years)
     for venue, years in from_sites.items():
         for y, c in years.items():
-            coverage.setdefault(venue, {}).setdefault(y, c)
+            if c["papers"] > coverage.setdefault(venue, {}).get(y, {}).get("papers", 0):
+                coverage[venue][y] = c
     researchers, names = build_researchers(people, groups, papers, dblp_people)
     group_list = build_groups(groups, researchers, papers, names)
     mark = {g["slug"]: {k: g[k] for k in ("color", "hue", "shape", "filled")} for g in group_list}
@@ -363,11 +523,11 @@ def main():
     add_panels(venues)
     decided = {pid for r in read_csv(ROSTER) for pid in split_list(r["dblp_pids"])}
     gaps = [{"venue": VENUE_NAME[v["key"]], "years": v["missing"]} for v in venues if v["missing"]]
-    meta = {"generated_date": datetime.date.today().isoformat(), "first_year": YEARS[0], "last_year": LAST_YEAR,
+    meta = {"generated_date": datetime.date.today().isoformat(), "first_year": YEARS[0], "last_year": YEARS[-1],
             "years": YEARS, "venues": [{"key": v["key"], "name": v["name"]} for v in VENUES],
             "fields": [{**f, "names": f["names"]} for f in FIELDS], "scored_fields": SCORED_FIELDS,
             "areas": [{"key": a["key"], "name": a["name"]} for a in AREAS],
-            "label_min": LABEL_MIN, "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
+            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
             "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps,
             "from_sites": [{"venue": VENUE_NAME[v], "year": int(y), "site": c["tocs"][0]}
                            for v, ys in from_sites.items() for y, c in ys.items()

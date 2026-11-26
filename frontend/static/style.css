@@ -686,3 +686,13 @@ tr[data-area].row-hl td { background: var(--callout) ; }
 main.wide { max-width: none ; padding: 0 2rem ; }
 main.wide svg.net { max-width: none ; }
 @media (min-width: 900px) { main.wide .graph-page { grid-template-columns: minmax(0, 1fr) 16rem ; } }
+
+/* An accepted paper known only from an author's page (accepted.csv). */
+span.unofficial {
+    font-size: 0.78em ; color: var(--muted) ; border: 1px solid var(--faint) ; border-radius: 3px ;
+    padding: 0 0.3em ; margin-left: 0.3em ; white-space: nowrap ; vertical-align: 0.1em ;
+}
+
+/* Country flags (flag-icons, MIT): institutions, group legend and cards. */
+img.flag { width: 16px ; height: 12px ; vertical-align: -1px ; border: 1px solid var(--faint) ; border-radius: 1px ; margin-right: 0.15em ; }
+.graph-legend img.flag { margin: 0 0.35em 0 0.2em ; }

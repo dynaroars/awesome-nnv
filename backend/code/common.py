@@ -17,16 +17,28 @@ PAPERS = WORK / "papers.jsonl.gz"
 VIRTUAL = WORK / "virtual.jsonl.gz"
 VIRTUAL_COVERAGE = WORK / "coverage_virtual.json"
 VIRTUAL_SITES = {"neurips": "https://neurips.cc", "icml": "https://icml.cc", "iclr": "https://iclr.cc"}
+RESEARCHR = WORK / "researchr.jsonl.gz"
+RESEARCHR_COVERAGE = WORK / "coverage_researchr.json"
+# Accepted-paper lists on conf.researchr.org (the conference's own site) for the SE and PL venues: track page and the
+# track label of the main research track on it ({y} is the year).
+RESEARCHR_TRACKS = {"icse": ("icse-{y}/icse-{y}-research-track", "Research Track"),
+                    "fse": ("fse-{y}/fse-{y}-research-papers", "Research Papers"),
+                    "ase": ("ase-{y}/ase-{y}-research-track", "Research Papers"),
+                    "issta": ("issta-{y}/issta-{y}-research-papers", "Research papers"),
+                    "popl": ("popl-{y}/popl-{y}-popl-research-papers", "POPL"),
+                    "pldi": ("pldi-{y}/pldi-{y}-papers", "PLDI Research Papers"),
+                    "oopsla": ("splash-{y}/oopsla-{y}", "OOPSLA")}
 
 ROSTER = CSV_DIR / "roster.csv"
 TOPICS = CSV_DIR / "topics.csv"
 GROUPS_CSV = CSV_DIR / "groups.csv"
 CANDIDATES = CSV_DIR / "candidates.csv"
+ACCEPTED = CSV_DIR / "accepted.csv"
 PEOPLE_JSON = JSON_DIR / "people.json"
 
 FIRST_YEAR = 2017
-LAST_YEAR = datetime.date.today().year
-YEARS = list(range(FIRST_YEAR, LAST_YEAR + 1))
+LAST_YEAR = datetime.date.today().year  # the current year; there is no upper limit on paper years
+YEARS = list(range(FIRST_YEAR, LAST_YEAR + 1))  # build_site_data.py extends it to the latest year with a paper
 MIN_PAGES = 6
 TRACK_MIN = 2
 LABEL_MIN = 4
@@ -266,11 +278,30 @@ def read_jsonl_gz(path):
                 yield json.loads(line)
 
 
+def accepted_rows():
+    """Accepted papers known only from an author's page or announcement (accepted.csv): counted, tagged unofficial."""
+    out = []
+    for r in read_csv(ACCEPTED) if Path(ACCEPTED).exists() else []:
+        key = f"accepted/{r['venue']}{r['year']}/{norm_title(r['title'])[:60]}"
+        out.append({"key": key, "venue": r["venue"], "year": int(r["year"]), "title": r["title"], "doi": "", "pages": "",
+                    "page_count": None, "url": r["source_url"], "source": "author page", "unofficial": True,
+                    "authors": [{"name": n, "dblp_name": "", "pid": "", "inst": []} for n in split_list(r["authors"])]})
+    return out
+
+
 def all_papers():
+    """dblp, then the conference sites for venue-years dblp lacks (ICML/NeurIPS/ICLR lists, researchr lists), then
+    accepted.csv; a paper already listed by an earlier source (same venue, same title) is not added again."""
     papers = list(read_jsonl_gz(PAPERS))
     listed = {(p["venue"], p["year"]) for p in papers}
     if Path(VIRTUAL).exists():
         papers.extend(p for p in read_jsonl_gz(VIRTUAL) if (p["venue"], p["year"]) not in listed)
+    seen = {(p["venue"], norm_title(p["title"])) for p in papers}
+    later = list(read_jsonl_gz(RESEARCHR)) if Path(RESEARCHR).exists() else []
+    for p in later + accepted_rows():
+        if (p["venue"], norm_title(p["title"])) not in seen:
+            seen.add((p["venue"], norm_title(p["title"])))
+            papers.append(p)
     return papers
 
 
@@ -308,3 +339,80 @@ def read_csv(path):
         return []
     with open(path, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
+
+
+COUNTRY_NAME = {"US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
+                "FR": "France", "AU": "Australia", "SG": "Singapore", "AT": "Austria", "JP": "Japan", "IL": "Israel",
+                "CA": "Canada", "RU": "Russia", "ES": "Spain", "KR": "South Korea", "IN": "India", "HK": "Hong Kong",
+                "DK": "Denmark", "HU": "Hungary", "TW": "Taiwan", "RS": "Serbia", "VN": "Vietnam", "PT": "Portugal",
+                "FI": "Finland", "MO": "Macao", "NL": "Netherlands", "BE": "Belgium", "SE": "Sweden", "IT": "Italy",
+                "NO": "Norway", "IE": "Ireland", "PL": "Poland", "CZ": "Czechia", "GR": "Greece", "SA": "Saudi Arabia",
+                "AE": "United Arab Emirates", "BR": "Brazil", "NZ": "New Zealand", "LU": "Luxembourg", "CY": "Cyprus",
+                "IR": "Iran", "TR": "Turkey", "MX": "Mexico", "CL": "Chile", "QA": "Qatar"}
+_COUNTRY_WORDS = {**{v.lower(): k for k, v in COUNTRY_NAME.items()}, "usa": "US", "u.s.a.": "US", "uk": "GB",
+                  "england": "GB", "scotland": "GB", "korea": "KR", "republic of korea": "KR", "prc": "CN",
+                  "finnland": "FI", "the netherlands": "NL", "macau": "MO"}
+# Institutions that dblp or the roster name without a country.
+_COUNTRY_HINTS = [
+    ("CH", r"\beth\b|zurich|zürich|epfl|lausanne|\bidsia\b|swiss federal"),
+    ("GB", r"\blse\b|london school|oxford|cambridge|imperial college|\bucl\b|university college london|edinburgh|liverpool|manchester|"
+           r"surrey|birmingham|southampton|warwick|king's college|queen mary|bristol|glasgow|\bdeepmind\b"),
+    ("IL", r"technion|hebrew university|tel aviv|weizmann|bar-ilan|ben-gurion"),
+    ("DE", r"\btum\b|technical university of munich|technische universität münchen|tübingen|tuebingen|cispa|saarland|"
+           r"saarbrücken|konstanz|kassel|cologne|köln|rwth|aachen|freiburg|max planck|darmstadt|heidelberg|bosch|"
+           r"bielefeld|stuttgart|karlsruhe|berlin|dresden|oldenburg|ludwig-maximilians"),
+    ("AT", r"\bista\b|ist austria|institute of science and technology austria|klosterneuburg|tu wien|vienna|graz|linz"),
+    ("FR", r"paul sabatier|aniti|\birit\b|sncf|foxstream|paris|espci|inria|sorbonne|toulouse|grenoble|\bens\b|cnrs|saclay|lille|lyon|thales|irt saint"),
+    ("NL", r"delft|amsterdam|eindhoven|utrecht|radboud|twente|leiden"),
+    ("BE", r"leuven|ghent|louvain"),
+    ("SE", r"\bkth\b|lund|uppsala|chalmers|linköping"),
+    ("DK", r"aalborg|copenhagen|\bdtu\b|aarhus"),
+    ("HU", r"szeged|budapest"),
+    ("CZ", r"masaryk|prague|brno|czech technical"),
+    ("CY", r"limassol|cyprus"),
+    ("CN", r"nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
+           r"beijing|harbin|sun yat-sen|huazhong|xi'an|xidian|nankai|tianjin|sichuan|shenzhen|hunan|"
+           r"university of science and technology of china|\bustc\b|alibaba|baidu|tencent|huawei|beihang|jilin|"
+           r"guangzhou|zhengzhou|chongqing|hangzhou|southern university of science"),
+    ("HK", r"hong kong"),
+    ("TW", r"taiwan|national tsing hua|academia sinica"),
+    ("SG", r"singapore|\bnus\b|nanyang|\bntu\b|\bsmu\b|a\*star"),
+    ("AU", r"melbourne|sydney|monash|\banu\b|australian national|queensland|adelaide|unsw|csiro|data61|deakin|"
+           r"western australia|macquarie"),
+    ("CA", r"toronto|waterloo|simon fraser|british columbia|\bubc\b|mcgill|montr[eé]al|mila\b|alberta|ottawa|"
+           r"vector institute|queen's university|calgary|concordia"),
+    ("KR", r"kaist|seoul|korea|yonsei|postech|sungkyunkwan"),
+    ("JP", r"tokyo|kyoto|nict|\bnii\b|national institute of informatics|osaka|kyushu|riken|tohoku|nagoya|japan"),
+    ("IN", r"\biit\b|indian institute|bangalore|bengaluru|iisc|delhi|mumbai"),
+    ("IT", r"milano|milan|politecnico|roma|rome|torino|turin|pisa|bologna|padova|trento"),
+    ("ES", r"madrid|barcelona|imdea|valencia"),
+    ("US", r"\buiuc\b|\bucsb\b|santa barbara|whiting school|siebel school|machine learning department|milwaukee|morgan stanley|massachusetts|\bmit\b|stanford|carnegie mellon|\bcmu\b|illinois|berkeley|university of california|"
+           r"\bucla\b|\bucsd\b|uc san diego|princeton|harvard|columbia university|cornell|duke|purdue|penn state|"
+           r"pennsylvania|university of texas|ut austin|maryland|virginia|wisconsin|university of chicago|michigan|"
+           r"university of washington|washington university|vanderbilt|rutgers|johns hopkins|george mason|"
+           r"stony brook|drexel|nebraska|southern california|\busc\b|nasa|northeastern|georgia tech|"
+           r"georgia institute|caltech|california institute|new york university|\bnyu\b|yale|brown university|"
+           r"boston|rice university|northwestern|university of minnesota|ohio state|arizona|utah|colorado|"
+           r"oregon|florida|north carolina|iowa|indiana|kansas|kentucky|tennessee|notre dame|dartmouth|"
+           r"lehigh|syracuse|case western|vmware|ibm|microsoft|nvidia|amazon|meta ai|\bmeta\b|openai|google|"
+           r"toyota research|sri international|lawrence livermore|los alamos|sandia|argonne|oak ridge|"
+           r"pacific northwest|mitre|\bnec labs|rice|tufts|emory|clemson|auburn|univ.* of houston|texas a&m|"
+           r"university at buffalo|rensselaer|worcester|stevens|new jersey|delaware|missouri|alabama|"
+           r"louisiana|vermont|new hampshire|connecticut|rhode island|wyoming|montana|idaho|nevada|"
+           r"new mexico|oklahoma|arkansas|mississippi|south carolina|west virginia|maine|hawaii|alaska"),
+]
+_COUNTRY_RX = [(cc, re.compile(rx, re.I)) for cc, rx in _COUNTRY_HINTS]
+
+
+def country_of(text):
+    """ISO code of the country an affiliation string names (its last comma part) or implies (a known institution)."""
+    t = (text or "").strip()
+    if not t:
+        return ""
+    last = t.rsplit(",", 1)[-1].strip().lower().rstrip(".")
+    if last in _COUNTRY_WORDS:
+        return _COUNTRY_WORDS[last]
+    for cc, rx in _COUNTRY_RX:
+        if rx.search(t):
+            return cc
+    return ""
