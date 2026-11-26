@@ -10,7 +10,7 @@
 		<th class="good">NNV papers</th>
 		<th title="Papers as last author">Last</th>
 		<th title="Papers as first author">First</th>
-		<th>Years</th>
+		<th title="First and last year with an NNV paper; sorts by the last year">Years</th>
 		<th class="l">Venues</th>
 		<th class="l">Affiliation (dblp)</th>
 		<th class="l" data-nosort>Recent titles</th>
@@ -24,7 +24,7 @@
 		<td class="total good">{{ .nnv_papers }}</td>
 		{{ partial "num.html" .last_author }}
 		{{ partial "num.html" .first_author }}
-		<td>{{ .first_year }}&ndash;{{ .last_year }}</td>
+		<td data-sort="{{ .last_year }}.{{ .first_year }}">{{ .first_year }}&ndash;{{ .last_year }}</td>
 		<td class="l">{{ .venues }}</td>
 		<td class="l wrap-cell">{{ .affiliation }}</td>
 		<td class="l wrap-cell note">{{ delimit .titles " · " }}</td>

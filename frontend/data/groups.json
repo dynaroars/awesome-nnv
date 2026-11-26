@@ -1,5 +1,1279 @@
 [
  {
+  "slug": "eran",
+  "name": "ERAN (SRI Lab)",
+  "tools": [
+   "ERAN",
+   "DeepPoly",
+   "PRIMA",
+   "MN-BaB",
+   "DiffAI"
+  ],
+  "url": "https://github.com/eth-sri/eran",
+  "description": "Abstract interpretation, certified training and branch and bound at ETH Zurich.",
+  "members": [
+   {
+    "slug": "martin-vechev",
+    "name": "Martin Vechev",
+    "institution_short": "ETH Zurich",
+    "papers": 32,
+    "score": 8.534
+   },
+   {
+    "slug": "mark-niklas-muller",
+    "name": "Mark Niklas Müller",
+    "institution_short": "ETH Zürich",
+    "papers": 12,
+    "score": 3.033
+   },
+   {
+    "slug": "marc-fischer",
+    "name": "Marc Fischer",
+    "institution_short": "ETH Zürich",
+    "papers": 11,
+    "score": 2.867
+   },
+   {
+    "slug": "yuhao-mao",
+    "name": "Yuhao Mao",
+    "institution_short": "",
+    "papers": 7,
+    "score": 2.0
+   },
+   {
+    "slug": "timon-gehr",
+    "name": "Timon Gehr",
+    "institution_short": "",
+    "papers": 7,
+    "score": 1.683
+   },
+   {
+    "slug": "markus-puschel",
+    "name": "Markus Püschel",
+    "institution_short": "ETH Zurich",
+    "papers": 5,
+    "score": 1.15
+   }
+  ],
+  "institutions": [
+   "ETH Zurich",
+   "ETH Zürich"
+  ],
+  "papers": 32,
+  "citations": 3816,
+  "venues": {
+   "iclr": 13,
+   "icml": 4,
+   "neurips": 7,
+   "pldi": 3,
+   "popl": 2,
+   "cav": 2,
+   "iccv": 1
+  },
+  "fields": {
+   "ml": 24,
+   "cv": 1,
+   "pl": 5,
+   "se": 0,
+   "lv": 2,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 1,
+   "bounds": 10,
+   "probabilistic": 6,
+   "training": 7,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 4,
+   "architectures": 3,
+   "quantized": 0,
+   "other": 1
+  },
+  "years": {
+   "2017": 0,
+   "2018": 2,
+   "2019": 4,
+   "2020": 4,
+   "2021": 6,
+   "2022": 6,
+   "2023": 4,
+   "2024": 2,
+   "2025": 2,
+   "2026": 2
+  },
+  "score_fields": {
+   "ml": 15.75,
+   "cv": 0.2,
+   "pl": 2.75,
+   "se": 0.0,
+   "lv": 0.567
+  },
+  "score": 2.597,
+  "paper_list": [
+   {
+    "id": "sun2026dual",
+    "key": "conf/iclr/SunMV26",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2026,
+    "field": "ml",
+    "title": "Dual Randomized Smoothing: Beyond Global Noise Variance",
+    "url": "https://dblp.org/rec/conf/iclr/SunMV26",
+    "citations": 2,
+    "arxiv": "2512.01782",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chenhao Sun",
+      "slug": ""
+     },
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mao2026expressiveness",
+    "key": "conf/iclr/MaoZV26",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2026,
+    "field": "ml",
+    "title": "Expressiveness of Multi-Neuron Convex Relaxations in Neural Network Certification",
+    "url": "https://dblp.org/rec/conf/iclr/MaoZV26",
+    "citations": 7,
+    "arxiv": "2410.06816",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Yani Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "sun2025average",
+    "key": "conf/icml/SunMMV25",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2025,
+    "field": "ml",
+    "title": "Average Certified Radius is a Poor Metric for Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/icml/SunMMV25",
+    "citations": 3,
+    "arxiv": "2410.06895",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chenhao Sun",
+      "slug": ""
+     },
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mao2025ctbench",
+    "key": "conf/icml/MaoBV25",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2025,
+    "field": "ml",
+    "title": "CTBench: A Library and Benchmark for Certified Training",
+    "url": "https://dblp.org/rec/conf/icml/MaoBV25",
+    "citations": 18,
+    "arxiv": "2406.04848",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [
+     {
+      "key": "other",
+      "name": "Other"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Stefan Balauca",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "baader2024expressivity",
+    "key": "conf/iclr/BaaderMMV24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Expressivity of ReLU-Networks under Convex Relaxations",
+    "url": "https://dblp.org/rec/conf/iclr/BaaderMMV24",
+    "citations": 7,
+    "arxiv": "2311.04015",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mao2024understanding",
+    "key": "conf/iclr/MaoM0V24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Understanding Certified Training with Interval Bound Propagation",
+    "url": "https://dblp.org/rec/conf/iclr/MaoM0V24",
+    "citations": 34,
+    "arxiv": "2306.10426",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "muller2023certified",
+    "key": "conf/iclr/MullerE0V23",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "Certified Training: Small Boxes are All You Need",
+    "url": "https://dblp.org/rec/conf/iclr/MullerE0V23",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Franziska Eckert",
+      "slug": ""
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "zeqiri2023efficient",
+    "key": "conf/iclr/ZeqiriM0V23",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "Efficient Certified Training and Robustness Verification of Neural ODEs",
+    "url": "https://dblp.org/rec/conf/iclr/ZeqiriM0V23",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     },
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Mustafa Zeqiri",
+      "slug": ""
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mao2023connecting",
+    "key": "conf/nips/MaoM0V23",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2023,
+    "field": "ml",
+    "title": "Connecting Certified and Adversarial Training",
+    "url": "https://dblp.org/rec/conf/nips/MaoM0V23",
+    "citations": 35,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yuhao Mao",
+      "slug": "yuhao-mao"
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "muller2023abstract",
+    "key": "journals/pacmpl/Muller0SV23",
+    "venue": "pldi",
+    "venue_name": "PLDI",
+    "year": 2023,
+    "field": "pl",
+    "title": "Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks",
+    "url": "https://doi.org/10.1145/3591252",
+    "citations": 10,
+    "arxiv": "2110.08260",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Robin Staab",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "horvath2022boosting",
+    "key": "conf/iclr/HorvathM0V22",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "Boosting Randomized Smoothing with Variance Reduced Classifiers",
+    "url": "https://dblp.org/rec/conf/iclr/HorvathM0V22",
+    "citations": 54,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Miklós Z. Horváth",
+      "slug": ""
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "ferrari2022complete",
+    "key": "conf/iclr/FerrariMJV22",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "Complete Verification via Multi-Neuron Relaxation Guided Branch-and-Bound",
+    "url": "https://dblp.org/rec/conf/iclr/FerrariMJV22",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Claudio Ferrari",
+      "slug": ""
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Nikola Jovanovic",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "dimitrov2022provably",
+    "key": "conf/iclr/Dimitrov0GV22",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "Provably Robust Adversarial Examples",
+    "url": "https://dblp.org/rec/conf/iclr/Dimitrov0GV22",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Dimitar Iliev Dimitrov",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "horvath2022de",
+    "key": "conf/nips/HorvathM0V22",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "(De-)Randomized Smoothing for Decision Stump Ensembles",
+    "url": "https://dblp.org/rec/conf/nips/HorvathM0V22",
+    "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Miklós Z. Horváth",
+      "slug": ""
+     },
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "muller2022prima",
+    "key": "journals/pacmpl/MullerMSPV22",
+    "venue": "popl",
+    "venue_name": "POPL",
+    "year": 2022,
+    "field": "pl",
+    "title": "PRIMA: general and precise neural network certification via scalable convex hull approximations",
+    "url": "https://doi.org/10.1145/3498704",
+    "citations": 202,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Gleb Makarchuk",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Markus Püschel",
+      "slug": "markus-puschel"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "fischer2022shared",
+    "key": "conf/cav/FischerSDSV22",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2022,
+    "field": "lv",
+    "title": "Shared Certificates for Neural Network Verification",
+    "url": "https://doi.org/10.1007/978-3-031-13185-1_7",
+    "citations": 32,
+    "arxiv": "2109.00542",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Christian Sprecher",
+      "slug": ""
+     },
+     {
+      "name": "Dimitar I. Dimitrov",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "fischer2021scalable",
+    "key": "conf/icml/FischerBV21",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scalable Certified Segmentation via Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/icml/FischerBV21",
+    "citations": 47,
+    "arxiv": "2107.00228",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "muller2021certify",
+    "key": "conf/iclr/MullerBV21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Certify or Predict: Boosting Certified Robustness with Compositional Architectures",
+    "url": "https://dblp.org/rec/conf/iclr/MullerBV21",
+    "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mark Niklas Müller",
+      "slug": "mark-niklas-muller"
+     },
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "lorenz2021robustness",
+    "key": "conf/iccv/0002RB0V21",
+    "venue": "iccv",
+    "venue_name": "ICCV",
+    "year": 2021,
+    "field": "cv",
+    "title": "Robustness Certification for Point Cloud Models",
+    "url": "https://doi.org/10.1109/iccv48922.2021.00751",
+    "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     },
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Tobias Lorenz",
+      "slug": ""
+     },
+     {
+      "name": "Anian Ruoss",
+      "slug": ""
+     },
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "bonaert2021fast",
+    "key": "conf/pldi/BonaertDBV21",
+    "venue": "pldi",
+    "venue_name": "PLDI",
+    "year": 2021,
+    "field": "pl",
+    "title": "Fast and precise certification of transformers",
+    "url": "https://doi.org/10.1145/3453483.3454056",
+    "citations": 62,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Gregory Bonaert",
+      "slug": ""
+     },
+     {
+      "name": "Dimitar I. Dimitrov",
+      "slug": ""
+     },
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mirman2021robustness",
+    "key": "conf/pldi/MirmanHBGV21",
+    "venue": "pldi",
+    "venue_name": "PLDI",
+    "year": 2021,
+    "field": "pl",
+    "title": "Robustness certification with generative models",
+    "url": "https://doi.org/10.1145/3453483.3454100",
+    "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Matthew Mirman",
+      "slug": ""
+     },
+     {
+      "name": "Alexander Hägele",
+      "slug": ""
+     },
+     {
+      "name": "Pavol Bielik",
+      "slug": ""
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "ryou2021scalable",
+    "key": "conf/cav/RyouCBSDV21",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2021,
+    "field": "lv",
+    "title": "Scalable Polyhedral Verification of Recurrent Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-030-81685-8_10",
+    "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Wonryong Ryou",
+      "slug": ""
+     },
+     {
+      "name": "Jiayu Chen",
+      "slug": ""
+     },
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Andrei Marian Dan",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "balunovic2020adversarial",
+    "key": "conf/iclr/BalunovicV20",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2020,
+    "field": "ml",
+    "title": "Adversarial Training and Provable Defenses: Bridging the Gap",
+    "url": "https://dblp.org/rec/conf/iclr/BalunovicV20",
+    "citations": 166,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "baader2020universal",
+    "key": "conf/iclr/BaaderMV20",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2020,
+    "field": "ml",
+    "title": "Universal Approximation with Certified Networks",
+    "url": "https://dblp.org/rec/conf/iclr/BaaderMV20",
+    "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Matthew Mirman",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "fischer2020certified",
+    "key": "conf/nips/FischerBV20",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "Certified Defense to Image Transformations via Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/nips/FischerBV20",
+    "citations": 79,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "relational",
+      "name": "Global & relational properties"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "ruoss2020learning",
+    "key": "conf/nips/RuossBFV20",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "Learning Certified Individually Fair Representations",
+    "url": "https://dblp.org/rec/conf/nips/RuossBFV20",
+    "citations": 122,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Anian Ruoss",
+      "slug": ""
+     },
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Marc Fischer",
+      "slug": "marc-fischer"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "singh2019boosting",
+    "key": "conf/iclr/SinghGPV19",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2019,
+    "field": "ml",
+    "title": "Boosting Robustness Certification of Neural Networks",
+    "url": "https://dblp.org/rec/conf/iclr/SinghGPV19",
+    "citations": 224,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [
+     {
+      "key": "complete",
+      "name": "Complete verification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Markus Püschel",
+      "slug": "markus-puschel"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "singh2019beyond",
+    "key": "conf/nips/SinghGPV19",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2019,
+    "field": "ml",
+    "title": "Beyond the Single Neuron Convex Barrier for Neural Network Certification",
+    "url": "https://dblp.org/rec/conf/nips/SinghGPV19",
+    "citations": 249,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Rupanshu Ganvir",
+      "slug": ""
+     },
+     {
+      "name": "Markus Püschel",
+      "slug": "markus-puschel"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "balunovic2019certifying",
+    "key": "conf/nips/BalunovicBSGV19",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2019,
+    "field": "ml",
+    "title": "Certifying Geometric Robustness of Neural Networks",
+    "url": "https://dblp.org/rec/conf/nips/BalunovicBSGV19",
+    "citations": 61,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Mislav Balunovic",
+      "slug": ""
+     },
+     {
+      "name": "Maximilian Baader",
+      "slug": ""
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "singh2019abstract",
+    "key": "journals/pacmpl/SinghGPV19",
+    "venue": "popl",
+    "venue_name": "POPL",
+    "year": 2019,
+    "field": "pl",
+    "title": "An abstract domain for certifying neural networks",
+    "url": "https://doi.org/10.1145/3290354",
+    "citations": 1031,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Markus Püschel",
+      "slug": "markus-puschel"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "mirman2018differentiable",
+    "key": "conf/icml/MirmanGV18",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2018,
+    "field": "ml",
+    "title": "Differentiable Abstract Interpretation for Provably Robust Neural Networks",
+    "url": "https://dblp.org/rec/conf/icml/MirmanGV18",
+    "citations": 591,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Matthew Mirman",
+      "slug": ""
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "singh2018fast",
+    "key": "conf/nips/SinghGMPV18",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2018,
+    "field": "ml",
+    "title": "Fast and Effective Robustness Certification",
+    "url": "https://dblp.org/rec/conf/nips/SinghGMPV18",
+    "citations": 607,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Timon Gehr",
+      "slug": "timon-gehr"
+     },
+     {
+      "name": "Matthew Mirman",
+      "slug": ""
+     },
+     {
+      "name": "Markus Püschel",
+      "slug": "markus-puschel"
+     },
+     {
+      "name": "Martin Vechev",
+      "slug": "martin-vechev"
+     }
+    ]
+   }
+  ],
+  "color": "g0"
+ },
+ {
   "slug": "neuralsat",
   "name": "NeuralSAT",
   "tools": [
@@ -463,1273 +1737,6 @@
      {
       "name": "Sebastian Elbaum",
       "slug": "sebastian-elbaum"
-     }
-    ]
-   }
-  ],
-  "color": "g0"
- },
- {
-  "slug": "eran",
-  "name": "ERAN (SRI Lab)",
-  "tools": [
-   "ERAN",
-   "DeepPoly",
-   "PRIMA",
-   "MN-BaB",
-   "DiffAI"
-  ],
-  "url": "https://github.com/eth-sri/eran",
-  "description": "Abstract interpretation, certified training and branch and bound at ETH Zurich.",
-  "members": [
-   {
-    "slug": "martin-vechev",
-    "name": "Martin Vechev",
-    "institution_short": "ETH Zurich",
-    "papers": 32,
-    "score": 8.534
-   },
-   {
-    "slug": "mark-niklas-muller",
-    "name": "Mark Niklas Müller",
-    "institution_short": "ETH Zürich",
-    "papers": 12,
-    "score": 3.033
-   },
-   {
-    "slug": "yuhao-mao",
-    "name": "Yuhao Mao",
-    "institution_short": "",
-    "papers": 7,
-    "score": 2.0
-   },
-   {
-    "slug": "timon-gehr",
-    "name": "Timon Gehr",
-    "institution_short": "",
-    "papers": 7,
-    "score": 1.683
-   },
-   {
-    "slug": "markus-puschel",
-    "name": "Markus Püschel",
-    "institution_short": "ETH Zurich",
-    "papers": 5,
-    "score": 1.15
-   }
-  ],
-  "institutions": [
-   "ETH Zurich",
-   "ETH Zürich"
-  ],
-  "papers": 32,
-  "citations": 3816,
-  "venues": {
-   "iclr": 13,
-   "icml": 4,
-   "neurips": 7,
-   "pldi": 3,
-   "popl": 2,
-   "cav": 2,
-   "iccv": 1
-  },
-  "fields": {
-   "ml": 24,
-   "cv": 1,
-   "pl": 5,
-   "se": 0,
-   "lv": 2,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 10,
-   "probabilistic": 6,
-   "training": 7,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 4,
-   "architectures": 3,
-   "quantized": 0,
-   "other": 1
-  },
-  "years": {
-   "2017": 0,
-   "2018": 2,
-   "2019": 4,
-   "2020": 4,
-   "2021": 6,
-   "2022": 6,
-   "2023": 4,
-   "2024": 2,
-   "2025": 2,
-   "2026": 2
-  },
-  "score_fields": {
-   "ml": 13.333,
-   "cv": 0.2,
-   "pl": 2.5,
-   "se": 0.0,
-   "lv": 0.367
-  },
-  "score": 2.416,
-  "paper_list": [
-   {
-    "id": "sun2026dual",
-    "key": "conf/iclr/SunMV26",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2026,
-    "field": "ml",
-    "title": "Dual Randomized Smoothing: Beyond Global Noise Variance",
-    "url": "https://dblp.org/rec/conf/iclr/SunMV26",
-    "citations": 2,
-    "arxiv": "2512.01782",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Chenhao Sun",
-      "slug": ""
-     },
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mao2026expressiveness",
-    "key": "conf/iclr/MaoZV26",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2026,
-    "field": "ml",
-    "title": "Expressiveness of Multi-Neuron Convex Relaxations in Neural Network Certification",
-    "url": "https://dblp.org/rec/conf/iclr/MaoZV26",
-    "citations": 7,
-    "arxiv": "2410.06816",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Yani Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "sun2025average",
-    "key": "conf/icml/SunMMV25",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2025,
-    "field": "ml",
-    "title": "Average Certified Radius is a Poor Metric for Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/icml/SunMMV25",
-    "citations": 3,
-    "arxiv": "2410.06895",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Chenhao Sun",
-      "slug": ""
-     },
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mao2025ctbench",
-    "key": "conf/icml/MaoBV25",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2025,
-    "field": "ml",
-    "title": "CTBench: A Library and Benchmark for Certified Training",
-    "url": "https://dblp.org/rec/conf/icml/MaoBV25",
-    "citations": 18,
-    "arxiv": "2406.04848",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [
-     {
-      "key": "other",
-      "name": "Other"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Stefan Balauca",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "baader2024expressivity",
-    "key": "conf/iclr/BaaderMMV24",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2024,
-    "field": "ml",
-    "title": "Expressivity of ReLU-Networks under Convex Relaxations",
-    "url": "https://dblp.org/rec/conf/iclr/BaaderMMV24",
-    "citations": 7,
-    "arxiv": "2311.04015",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [
-     {
-      "key": "training",
-      "name": "Certified training"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mao2024understanding",
-    "key": "conf/iclr/MaoM0V24",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2024,
-    "field": "ml",
-    "title": "Understanding Certified Training with Interval Bound Propagation",
-    "url": "https://dblp.org/rec/conf/iclr/MaoM0V24",
-    "citations": 34,
-    "arxiv": "2306.10426",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "muller2023certified",
-    "key": "conf/iclr/MullerE0V23",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2023,
-    "field": "ml",
-    "title": "Certified Training: Small Boxes are All You Need",
-    "url": "https://dblp.org/rec/conf/iclr/MullerE0V23",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Franziska Eckert",
-      "slug": ""
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "zeqiri2023efficient",
-    "key": "conf/iclr/ZeqiriM0V23",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2023,
-    "field": "ml",
-    "title": "Efficient Certified Training and Robustness Verification of Neural ODEs",
-    "url": "https://dblp.org/rec/conf/iclr/ZeqiriM0V23",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [
-     {
-      "key": "training",
-      "name": "Certified training"
-     },
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Mustafa Zeqiri",
-      "slug": ""
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mao2023connecting",
-    "key": "conf/nips/MaoM0V23",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2023,
-    "field": "ml",
-    "title": "Connecting Certified and Adversarial Training",
-    "url": "https://dblp.org/rec/conf/nips/MaoM0V23",
-    "citations": 35,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Yuhao Mao",
-      "slug": "yuhao-mao"
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "muller2023abstract",
-    "key": "journals/pacmpl/Muller0SV23",
-    "venue": "pldi",
-    "venue_name": "PLDI",
-    "year": 2023,
-    "field": "pl",
-    "title": "Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks",
-    "url": "https://doi.org/10.1145/3591252",
-    "citations": 10,
-    "arxiv": "2110.08260",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Robin Staab",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "horvath2022boosting",
-    "key": "conf/iclr/HorvathM0V22",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "Boosting Randomized Smoothing with Variance Reduced Classifiers",
-    "url": "https://dblp.org/rec/conf/iclr/HorvathM0V22",
-    "citations": 54,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Miklós Z. Horváth",
-      "slug": ""
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "ferrari2022complete",
-    "key": "conf/iclr/FerrariMJV22",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "Complete Verification via Multi-Neuron Relaxation Guided Branch-and-Bound",
-    "url": "https://dblp.org/rec/conf/iclr/FerrariMJV22",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Claudio Ferrari",
-      "slug": ""
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Nikola Jovanovic",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "dimitrov2022provably",
-    "key": "conf/iclr/Dimitrov0GV22",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "Provably Robust Adversarial Examples",
-    "url": "https://dblp.org/rec/conf/iclr/Dimitrov0GV22",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Dimitar Iliev Dimitrov",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "horvath2022de",
-    "key": "conf/nips/HorvathM0V22",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "(De-)Randomized Smoothing for Decision Stump Ensembles",
-    "url": "https://dblp.org/rec/conf/nips/HorvathM0V22",
-    "citations": 7,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Miklós Z. Horváth",
-      "slug": ""
-     },
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "muller2022prima",
-    "key": "journals/pacmpl/MullerMSPV22",
-    "venue": "popl",
-    "venue_name": "POPL",
-    "year": 2022,
-    "field": "pl",
-    "title": "PRIMA: general and precise neural network certification via scalable convex hull approximations",
-    "url": "https://doi.org/10.1145/3498704",
-    "citations": 202,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Gleb Makarchuk",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Markus Püschel",
-      "slug": "markus-puschel"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "fischer2022shared",
-    "key": "conf/cav/FischerSDSV22",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2022,
-    "field": "lv",
-    "title": "Shared Certificates for Neural Network Verification",
-    "url": "https://doi.org/10.1007/978-3-031-13185-1_7",
-    "citations": 32,
-    "arxiv": "2109.00542",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Christian Sprecher",
-      "slug": ""
-     },
-     {
-      "name": "Dimitar I. Dimitrov",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "fischer2021scalable",
-    "key": "conf/icml/FischerBV21",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2021,
-    "field": "ml",
-    "title": "Scalable Certified Segmentation via Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/icml/FischerBV21",
-    "citations": 47,
-    "arxiv": "2107.00228",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "muller2021certify",
-    "key": "conf/iclr/MullerBV21",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2021,
-    "field": "ml",
-    "title": "Certify or Predict: Boosting Certified Robustness with Compositional Architectures",
-    "url": "https://dblp.org/rec/conf/iclr/MullerBV21",
-    "citations": 9,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Mark Niklas Müller",
-      "slug": "mark-niklas-muller"
-     },
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "lorenz2021robustness",
-    "key": "conf/iccv/0002RB0V21",
-    "venue": "iccv",
-    "venue_name": "ICCV",
-    "year": 2021,
-    "field": "cv",
-    "title": "Robustness Certification for Point Cloud Models",
-    "url": "https://doi.org/10.1109/iccv48922.2021.00751",
-    "citations": 31,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     },
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Tobias Lorenz",
-      "slug": ""
-     },
-     {
-      "name": "Anian Ruoss",
-      "slug": ""
-     },
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "bonaert2021fast",
-    "key": "conf/pldi/BonaertDBV21",
-    "venue": "pldi",
-    "venue_name": "PLDI",
-    "year": 2021,
-    "field": "pl",
-    "title": "Fast and precise certification of transformers",
-    "url": "https://doi.org/10.1145/3453483.3454056",
-    "citations": 62,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Gregory Bonaert",
-      "slug": ""
-     },
-     {
-      "name": "Dimitar I. Dimitrov",
-      "slug": ""
-     },
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mirman2021robustness",
-    "key": "conf/pldi/MirmanHBGV21",
-    "venue": "pldi",
-    "venue_name": "PLDI",
-    "year": 2021,
-    "field": "pl",
-    "title": "Robustness certification with generative models",
-    "url": "https://doi.org/10.1145/3453483.3454100",
-    "citations": 40,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Matthew Mirman",
-      "slug": ""
-     },
-     {
-      "name": "Alexander Hägele",
-      "slug": ""
-     },
-     {
-      "name": "Pavol Bielik",
-      "slug": ""
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "ryou2021scalable",
-    "key": "conf/cav/RyouCBSDV21",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2021,
-    "field": "lv",
-    "title": "Scalable Polyhedral Verification of Recurrent Neural Networks",
-    "url": "https://doi.org/10.1007/978-3-030-81685-8_10",
-    "citations": 64,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Wonryong Ryou",
-      "slug": ""
-     },
-     {
-      "name": "Jiayu Chen",
-      "slug": ""
-     },
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Andrei Marian Dan",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "balunovic2020adversarial",
-    "key": "conf/iclr/BalunovicV20",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2020,
-    "field": "ml",
-    "title": "Adversarial Training and Provable Defenses: Bridging the Gap",
-    "url": "https://dblp.org/rec/conf/iclr/BalunovicV20",
-    "citations": 166,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "baader2020universal",
-    "key": "conf/iclr/BaaderMV20",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2020,
-    "field": "ml",
-    "title": "Universal Approximation with Certified Networks",
-    "url": "https://dblp.org/rec/conf/iclr/BaaderMV20",
-    "citations": 22,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Matthew Mirman",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "fischer2020certified",
-    "key": "conf/nips/FischerBV20",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2020,
-    "field": "ml",
-    "title": "Certified Defense to Image Transformations via Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/nips/FischerBV20",
-    "citations": 79,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "relational",
-      "name": "Global & relational properties"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "ruoss2020learning",
-    "key": "conf/nips/RuossBFV20",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2020,
-    "field": "ml",
-    "title": "Learning Certified Individually Fair Representations",
-    "url": "https://dblp.org/rec/conf/nips/RuossBFV20",
-    "citations": 122,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [
-     {
-      "key": "training",
-      "name": "Certified training"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Anian Ruoss",
-      "slug": ""
-     },
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Marc Fischer",
-      "slug": ""
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "singh2019boosting",
-    "key": "conf/iclr/SinghGPV19",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2019,
-    "field": "ml",
-    "title": "Boosting Robustness Certification of Neural Networks",
-    "url": "https://dblp.org/rec/conf/iclr/SinghGPV19",
-    "citations": 224,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [
-     {
-      "key": "complete",
-      "name": "Complete verification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Markus Püschel",
-      "slug": "markus-puschel"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "singh2019beyond",
-    "key": "conf/nips/SinghGPV19",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2019,
-    "field": "ml",
-    "title": "Beyond the Single Neuron Convex Barrier for Neural Network Certification",
-    "url": "https://dblp.org/rec/conf/nips/SinghGPV19",
-    "citations": 249,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Rupanshu Ganvir",
-      "slug": ""
-     },
-     {
-      "name": "Markus Püschel",
-      "slug": "markus-puschel"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "balunovic2019certifying",
-    "key": "conf/nips/BalunovicBSGV19",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2019,
-    "field": "ml",
-    "title": "Certifying Geometric Robustness of Neural Networks",
-    "url": "https://dblp.org/rec/conf/nips/BalunovicBSGV19",
-    "citations": 61,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Mislav Balunovic",
-      "slug": ""
-     },
-     {
-      "name": "Maximilian Baader",
-      "slug": ""
-     },
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "singh2019abstract",
-    "key": "journals/pacmpl/SinghGPV19",
-    "venue": "popl",
-    "venue_name": "POPL",
-    "year": 2019,
-    "field": "pl",
-    "title": "An abstract domain for certifying neural networks",
-    "url": "https://doi.org/10.1145/3290354",
-    "citations": 1031,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Markus Püschel",
-      "slug": "markus-puschel"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "mirman2018differentiable",
-    "key": "conf/icml/MirmanGV18",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2018,
-    "field": "ml",
-    "title": "Differentiable Abstract Interpretation for Provably Robust Neural Networks",
-    "url": "https://dblp.org/rec/conf/icml/MirmanGV18",
-    "citations": 591,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Matthew Mirman",
-      "slug": ""
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
-     }
-    ]
-   },
-   {
-    "id": "singh2018fast",
-    "key": "conf/nips/SinghGMPV18",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2018,
-    "field": "ml",
-    "title": "Fast and Effective Robustness Certification",
-    "url": "https://dblp.org/rec/conf/nips/SinghGMPV18",
-    "citations": 607,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Gagandeep Singh",
-      "slug": "gagandeep-singh"
-     },
-     {
-      "name": "Timon Gehr",
-      "slug": "timon-gehr"
-     },
-     {
-      "name": "Matthew Mirman",
-      "slug": ""
-     },
-     {
-      "name": "Markus Püschel",
-      "slug": "markus-puschel"
-     },
-     {
-      "name": "Martin Vechev",
-      "slug": "martin-vechev"
      }
     ]
    }
@@ -2438,7 +2445,7 @@
     "authors": [
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Christian Sprecher",
@@ -2812,6 +2819,20 @@
     "score": 0.45
    },
    {
+    "slug": "haoyu-li",
+    "name": "Haoyu Li",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.25
+   },
+   {
+    "slug": "hesun-chen",
+    "name": "Hesun Chen",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.2
+   },
+   {
     "slug": "xiangru-zhong",
     "name": "Xiangru Zhong",
     "institution_short": "",
@@ -2869,13 +2890,13 @@
    "2026": 2
   },
   "score_fields": {
-   "ml": 16.042,
+   "ml": 16.492,
    "cv": 0.333,
    "pl": 0.0,
    "se": 0.0,
    "lv": 0.0
   },
-  "score": 1.868,
+  "score": 1.877,
   "paper_list": [
    {
     "id": "chiu2026affine",
@@ -2899,7 +2920,7 @@
      },
      {
       "name": "Haoyu Li",
-      "slug": ""
+      "slug": "haoyu-li"
      },
      {
       "name": "Huan Zhang",
@@ -3061,7 +3082,7 @@
      },
      {
       "name": "Hesun Chen",
-      "slug": ""
+      "slug": "hesun-chen"
      },
      {
       "name": "Grani A. Hanasusanto",
@@ -3187,7 +3208,7 @@
      },
      {
       "name": "Christopher Brix",
-      "slug": ""
+      "slug": "christopher-brix"
      },
      {
       "name": "Grani A. Hanasusanto",
@@ -3365,7 +3386,7 @@
      },
      {
       "name": "Christopher Brix",
-      "slug": ""
+      "slug": "christopher-brix"
      },
      {
       "name": "Zico Kolter",
@@ -4969,7 +4990,7 @@
      },
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Volkan Sahin",
@@ -5754,7 +5775,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -5822,7 +5843,7 @@
      },
      {
       "name": "Christopher Brix",
-      "slug": ""
+      "slug": "christopher-brix"
      },
      {
       "name": "Zico Kolter",
@@ -6214,6 +6235,492 @@
   "color": "g5"
  },
  {
+  "slug": "nnv",
+  "name": "NNV (VeriVITAL)",
+  "tools": [
+   "NNV",
+   "star sets"
+  ],
+  "url": "https://github.com/verivital/nnv",
+  "description": "Star-set reachability of neural networks and neural control systems.",
+  "members": [
+   {
+    "slug": "taylor-t-johnson",
+    "name": "Taylor T. Johnson",
+    "institution_short": "Vanderbilt",
+    "papers": 6,
+    "score": 1.2
+   },
+   {
+    "slug": "hoang-dung-tran",
+    "name": "Hoang-Dung Tran",
+    "institution_short": "UNL",
+    "papers": 7,
+    "score": 1.143
+   },
+   {
+    "slug": "samuel-sasaki",
+    "name": "Samuel Sasaki",
+    "institution_short": "",
+    "papers": 2,
+    "score": 0.533
+   },
+   {
+    "slug": "diego-manzanas-lopez",
+    "name": "Diego Manzanas Lopez",
+    "institution_short": "",
+    "papers": 3,
+    "score": 0.5
+   },
+   {
+    "slug": "navid-hashemi",
+    "name": "Navid Hashemi",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.2
+   }
+  ],
+  "institutions": [
+   "Vanderbilt",
+   "UNL"
+  ],
+  "papers": 9,
+  "citations": 964,
+  "venues": {
+   "neurips": 2,
+   "cav": 6,
+   "nfm": 1
+  },
+  "fields": {
+   "ml": 2,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 6,
+   "fm": 1
+  },
+  "areas": {
+   "complete": 1,
+   "bounds": 2,
+   "probabilistic": 2,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 1,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 3
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 3,
+   "2021": 1,
+   "2022": 1,
+   "2023": 1,
+   "2024": 0,
+   "2025": 2,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 0.933,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 2.643
+  },
+  "score": 1.478,
+  "paper_list": [
+   {
+    "id": "sasaki2026learning",
+    "key": "openreview/CENjUqCe8j",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Learning Reach-Set Geometry for Tighter Probabilistic Neural Network Verification",
+    "url": "https://openreview.net/forum?id=CENjUqCe8j",
+    "citations": null,
+    "arxiv": "",
+    "source": "neurips.cc",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Samuel Sasaki",
+      "slug": "samuel-sasaki"
+     },
+     {
+      "name": "Ben Wooding",
+      "slug": ""
+     },
+     {
+      "name": "Taylor Johnson",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "hashemi2025scaling",
+    "key": "conf/nips/HashemiSOMJ25",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2025,
+    "field": "ml",
+    "title": "Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks",
+    "url": "https://dblp.org/rec/conf/nips/HashemiSOMJ25",
+    "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Navid Hashemi",
+      "slug": "navid-hashemi"
+     },
+     {
+      "name": "Samuel Sasaki",
+      "slug": "samuel-sasaki"
+     },
+     {
+      "name": "Ipek Oguz",
+      "slug": ""
+     },
+     {
+      "name": "Meiyi Ma",
+      "slug": ""
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   },
+   {
+    "id": "tran2025starv",
+    "key": "conf/cav/TranCLLOHF25",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2025,
+    "field": "lv",
+    "title": "StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems",
+    "url": "https://doi.org/10.1007/978-3-031-98679-6_17",
+    "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "control",
+      "name": "NN control systems"
+     },
+     {
+      "key": "probabilistic",
+      "name": "Probabilistic certification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Sung Woo Choi",
+      "slug": ""
+     },
+     {
+      "name": "Yuntao Li",
+      "slug": ""
+     },
+     {
+      "name": "Qing Liu",
+      "slug": ""
+     },
+     {
+      "name": "Hideki Okamoto",
+      "slug": ""
+     },
+     {
+      "name": "Bardh Hoxha",
+      "slug": ""
+     },
+     {
+      "name": "Georgios Fainekos",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "lopez2023nnv",
+    "key": "conf/cav/LopezCTJ23",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2023,
+    "field": "lv",
+    "title": "NNV 2.0: The Neural Network Verification Tool",
+    "url": "https://doi.org/10.1007/978-3-031-37703-7_19",
+    "citations": 105,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "control",
+      "name": "NN control systems"
+     },
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Diego Manzanas Lopez",
+      "slug": "diego-manzanas-lopez"
+     },
+     {
+      "name": "Sung Woo Choi",
+      "slug": ""
+     },
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   },
+   {
+    "id": "bak2022neural",
+    "key": "conf/nfm/BakT22",
+    "venue": "nfm",
+    "venue_name": "NFM",
+    "year": 2022,
+    "field": "fm",
+    "title": "Neural Network Compression of ACAS Xu Early Prototype Is Unsafe: Closed-Loop Verification Through Quantized State Backreachability",
+    "url": "https://doi.org/10.1007/978-3-031-06773-0_15",
+    "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     },
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     }
+    ]
+   },
+   {
+    "id": "tran2021robustness",
+    "key": "conf/cav/TranPMLHYBJ21",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2021,
+    "field": "lv",
+    "title": "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
+    "url": "https://doi.org/10.1007/978-3-030-81685-8_12",
+    "citations": 65,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Neelanjana Pal",
+      "slug": ""
+     },
+     {
+      "name": "Patrick Musau",
+      "slug": ""
+     },
+     {
+      "name": "Diego Manzanas Lopez",
+      "slug": "diego-manzanas-lopez"
+     },
+     {
+      "name": "Nathaniel Hamilton",
+      "slug": ""
+     },
+     {
+      "name": "Xiaodong Yang",
+      "slug": ""
+     },
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   },
+   {
+    "id": "bak2020improved",
+    "key": "conf/cav/BakTHJ20",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2020,
+    "field": "lv",
+    "title": "Improved Geometric Path Enumeration for Verifying ReLU Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-030-53288-8_4",
+    "citations": 153,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     },
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Kerianne Hobbs",
+      "slug": ""
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   },
+   {
+    "id": "tran2020nnv",
+    "key": "conf/cav/TranYLMNXBJ20",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2020,
+    "field": "lv",
+    "title": "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems",
+    "url": "https://doi.org/10.1007/978-3-030-53288-8_1",
+    "citations": 383,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "control",
+      "name": "NN control systems"
+     },
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Xiaodong Yang",
+      "slug": ""
+     },
+     {
+      "name": "Diego Manzanas Lopez",
+      "slug": "diego-manzanas-lopez"
+     },
+     {
+      "name": "Patrick Musau",
+      "slug": ""
+     },
+     {
+      "name": "Luan Viet Nguyen",
+      "slug": ""
+     },
+     {
+      "name": "Weiming Xiang",
+      "slug": ""
+     },
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   },
+   {
+    "id": "tran2020verification",
+    "key": "conf/cav/TranBXJ20",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2020,
+    "field": "lv",
+    "title": "Verification of Deep Convolutional Neural Networks Using ImageStars",
+    "url": "https://doi.org/10.1007/978-3-030-53288-8_2",
+    "citations": 205,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hoang-Dung Tran",
+      "slug": "hoang-dung-tran"
+     },
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     },
+     {
+      "name": "Weiming Xiang",
+      "slug": ""
+     },
+     {
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
+     }
+    ]
+   }
+  ],
+  "color": "g6"
+ },
+ {
   "slug": "dlv",
   "name": "DLV / DeepGame",
   "tools": [
@@ -6513,7 +7020,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g7"
  },
  {
   "slug": "socrates",
@@ -6634,7 +7141,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Lei Huang",
@@ -6738,7 +7245,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Fu Song",
@@ -6773,7 +7280,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Zhe Zhao",
@@ -6833,7 +7340,7 @@
     ]
    }
   ],
-  "color": "g7"
+  "color": "g-other"
  },
  {
   "slug": "drachsler-cohen",
@@ -9740,7 +10247,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Zhe Zhao",
@@ -10303,97 +10810,178 @@
   "color": "g-other"
  },
  {
-  "slug": "nnv",
-  "name": "NNV (VeriVITAL)",
+  "slug": "cora",
+  "name": "CORA (TUM)",
   "tools": [
-   "NNV",
-   "star sets"
+   "CORA"
   ],
-  "url": "https://github.com/verivital/nnv",
-  "description": "Star-set reachability of neural networks and neural control systems.",
+  "url": "https://tumcps.github.io/CORA/",
+  "description": "Set-based reachability for neural networks and cyber-physical systems.",
   "members": [
    {
-    "slug": "taylor-t-johnson",
-    "name": "Taylor T. Johnson",
-    "institution_short": "Vanderbilt",
-    "papers": 6,
-    "score": 1.2
+    "slug": "matthias-althoff",
+    "name": "Matthias Althoff",
+    "institution_short": "TUM",
+    "papers": 4,
+    "score": 0.809
    },
    {
-    "slug": "hoang-dung-tran",
-    "name": "Hoang-Dung Tran",
-    "institution_short": "UNL",
-    "papers": 7,
-    "score": 1.143
+    "slug": "tobias-ladner",
+    "name": "Tobias Ladner",
+    "institution_short": "",
+    "papers": 3,
+    "score": 0.809
+   },
+   {
+    "slug": "lukas-koller",
+    "name": "Lukas Koller",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.333
    }
   ],
   "institutions": [
-   "Vanderbilt",
-   "UNL"
+   "TUM"
   ],
-  "papers": 8,
-  "citations": 964,
+  "papers": 4,
+  "citations": 105,
   "venues": {
-   "neurips": 1,
-   "cav": 6,
+   "iclr": 2,
+   "cav": 1,
    "nfm": 1
   },
   "fields": {
-   "ml": 1,
+   "ml": 2,
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 6,
+   "lv": 1,
    "fm": 1
   },
   "areas": {
-   "complete": 1,
+   "complete": 0,
    "bounds": 2,
-   "probabilistic": 1,
+   "probabilistic": 0,
    "training": 0,
    "repair": 0,
-   "explanations": 0,
+   "explanations": 1,
    "control": 1,
    "relational": 0,
    "architectures": 0,
    "quantized": 0,
-   "other": 3
+   "other": 0
   },
   "years": {
    "2017": 0,
    "2018": 0,
    "2019": 0,
-   "2020": 3,
-   "2021": 1,
-   "2022": 1,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
    "2023": 1,
    "2024": 0,
-   "2025": 2,
-   "2026": 0
+   "2025": 0,
+   "2026": 3
   },
   "score_fields": {
-   "ml": 0.2,
+   "ml": 1.286,
    "cv": 0.0,
    "pl": 0.0,
    "se": 0.0,
-   "lv": 2.143
+   "lv": 0.667
   },
-  "score": 1.304,
+  "score": 1.307,
   "paper_list": [
    {
-    "id": "hashemi2025scaling",
-    "key": "conf/nips/HashemiSOMJ25",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2025,
+    "id": "koller2026out",
+    "key": "conf/iclr/KollerLA26",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2026,
     "field": "ml",
-    "title": "Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks",
-    "url": "https://dblp.org/rec/conf/nips/HashemiSOMJ25",
-    "citations": 7,
+    "title": "Out of the Shadows: Exploring a Latent Space for Neural Network Verification",
+    "url": "https://dblp.org/rec/conf/iclr/KollerLA26",
+    "citations": 8,
+    "arxiv": "2505.17854",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Lukas Koller",
+      "slug": "lukas-koller"
+     },
+     {
+      "name": "Tobias Ladner",
+      "slug": "tobias-ladner"
+     },
+     {
+      "name": "Matthias Althoff",
+      "slug": "matthias-althoff"
+     }
+    ]
+   },
+   {
+    "id": "bassan2026provably",
+    "key": "conf/iclr/BassanELSKAK26",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2026,
+    "field": "ml",
+    "title": "Provably Explaining Neural Additive Models",
+    "url": "https://dblp.org/rec/conf/iclr/BassanELSKAK26",
+    "citations": 5,
+    "arxiv": "2602.17530",
+    "source": "dblp.org",
+    "area": "explanations",
+    "area_name": "Formal explanations",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Shahaf Bassan",
+      "slug": ""
+     },
+     {
+      "name": "Yizhak Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Tobias Ladner",
+      "slug": "tobias-ladner"
+     },
+     {
+      "name": "Volkan Sahin",
+      "slug": ""
+     },
+     {
+      "name": "Jan Kretínský",
+      "slug": ""
+     },
+     {
+      "name": "Matthias Althoff",
+      "slug": "matthias-althoff"
+     },
+     {
+      "name": "Guy Katz",
+      "slug": "guy-katz"
+     }
+    ]
+   },
+   {
+    "id": "ladner2026perception",
+    "key": "conf/cav/LadnerSA26",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2026,
+    "field": "lv",
+    "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
+    "url": "https://doi.org/10.1007/978-3-032-32537-2_23",
+    "citations": 2,
     "arxiv": "",
     "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
     "tags": [
      {
       "key": "architectures",
@@ -10402,259 +10990,34 @@
     ],
     "authors": [
      {
-      "name": "Navid Hashemi",
-      "slug": ""
+      "name": "Tobias Ladner",
+      "slug": "tobias-ladner"
      },
      {
-      "name": "Samuel Sasaki",
-      "slug": ""
+      "name": "Yasser Shoukry",
+      "slug": "yasser-shoukry"
      },
      {
-      "name": "Ipek Oguz",
-      "slug": ""
-     },
-     {
-      "name": "Meiyi Ma",
-      "slug": ""
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
+      "name": "Matthias Althoff",
+      "slug": "matthias-althoff"
      }
     ]
    },
    {
-    "id": "tran2025starv",
-    "key": "conf/cav/TranCLLOHF25",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2025,
-    "field": "lv",
-    "title": "StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems",
-    "url": "https://doi.org/10.1007/978-3-031-98679-6_17",
-    "citations": 6,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [
-     {
-      "key": "control",
-      "name": "NN control systems"
-     },
-     {
-      "key": "probabilistic",
-      "name": "Probabilistic certification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Sung Woo Choi",
-      "slug": ""
-     },
-     {
-      "name": "Yuntao Li",
-      "slug": ""
-     },
-     {
-      "name": "Qing Liu",
-      "slug": ""
-     },
-     {
-      "name": "Hideki Okamoto",
-      "slug": ""
-     },
-     {
-      "name": "Bardh Hoxha",
-      "slug": ""
-     },
-     {
-      "name": "Georgios Fainekos",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "lopez2023nnv",
-    "key": "conf/cav/LopezCTJ23",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2023,
-    "field": "lv",
-    "title": "NNV 2.0: The Neural Network Verification Tool",
-    "url": "https://doi.org/10.1007/978-3-031-37703-7_19",
-    "citations": 105,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [
-     {
-      "key": "control",
-      "name": "NN control systems"
-     },
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Diego Manzanas Lopez",
-      "slug": ""
-     },
-     {
-      "name": "Sung Woo Choi",
-      "slug": ""
-     },
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
-     }
-    ]
-   },
-   {
-    "id": "bak2022neural",
-    "key": "conf/nfm/BakT22",
+    "id": "kochdumper2023open",
+    "key": "conf/nfm/Kochdumper0AB23",
     "venue": "nfm",
     "venue_name": "NFM",
-    "year": 2022,
+    "year": 2023,
     "field": "fm",
-    "title": "Neural Network Compression of ACAS Xu Early Prototype Is Unsafe: Closed-Loop Verification Through Quantized State Backreachability",
-    "url": "https://doi.org/10.1007/978-3-031-06773-0_15",
-    "citations": 40,
-    "arxiv": "",
+    "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
+    "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
+    "citations": 90,
+    "arxiv": "2207.02715",
     "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     },
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     }
-    ]
-   },
-   {
-    "id": "tran2021robustness",
-    "key": "conf/cav/TranPMLHYBJ21",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2021,
-    "field": "lv",
-    "title": "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
-    "url": "https://doi.org/10.1007/978-3-030-81685-8_12",
-    "citations": 65,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
     "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Neelanjana Pal",
-      "slug": ""
-     },
-     {
-      "name": "Patrick Musau",
-      "slug": ""
-     },
-     {
-      "name": "Diego Manzanas Lopez",
-      "slug": ""
-     },
-     {
-      "name": "Nathaniel Hamilton",
-      "slug": ""
-     },
-     {
-      "name": "Xiaodong Yang",
-      "slug": ""
-     },
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
-     }
-    ]
-   },
-   {
-    "id": "bak2020improved",
-    "key": "conf/cav/BakTHJ20",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2020,
-    "field": "lv",
-    "title": "Improved Geometric Path Enumeration for Verifying ReLU Neural Networks",
-    "url": "https://doi.org/10.1007/978-3-030-53288-8_4",
-    "citations": 153,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     },
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Kerianne Hobbs",
-      "slug": ""
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
-     }
-    ]
-   },
-   {
-    "id": "tran2020nnv",
-    "key": "conf/cav/TranYLMNXBJ20",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2020,
-    "field": "lv",
-    "title": "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems",
-    "url": "https://doi.org/10.1007/978-3-030-53288-8_1",
-    "citations": 383,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [
-     {
-      "key": "control",
-      "name": "NN control systems"
-     },
      {
       "key": "bounds",
       "name": "Bound propagation & abstract interpretation"
@@ -10662,70 +11025,20 @@
     ],
     "authors": [
      {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Xiaodong Yang",
+      "name": "Niklas Kochdumper",
       "slug": ""
      },
      {
-      "name": "Diego Manzanas Lopez",
+      "name": "Christian Schilling",
       "slug": ""
      },
      {
-      "name": "Patrick Musau",
-      "slug": ""
-     },
-     {
-      "name": "Luan Viet Nguyen",
-      "slug": ""
-     },
-     {
-      "name": "Weiming Xiang",
-      "slug": ""
+      "name": "Matthias Althoff",
+      "slug": "matthias-althoff"
      },
      {
       "name": "Stanley Bak",
       "slug": "stanley-bak"
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
-     }
-    ]
-   },
-   {
-    "id": "tran2020verification",
-    "key": "conf/cav/TranBXJ20",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2020,
-    "field": "lv",
-    "title": "Verification of Deep Convolutional Neural Networks Using ImageStars",
-    "url": "https://doi.org/10.1007/978-3-030-53288-8_2",
-    "citations": 205,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     },
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     },
-     {
-      "name": "Weiming Xiang",
-      "slug": ""
-     },
-     {
-      "name": "Taylor T. Johnson",
-      "slug": "taylor-t-johnson"
      }
     ]
    }
@@ -12725,6 +13038,212 @@
      {
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
+  "slug": "fu-song",
+  "name": "QVIP / QEBVerif",
+  "tools": [
+   "QVIP",
+   "QEBVerif"
+  ],
+  "url": "",
+  "description": "Quantized neural network verification.",
+  "members": [
+   {
+    "slug": "fu-song",
+    "name": "Fu Song",
+    "institution_short": "",
+    "papers": 3,
+    "score": 0.643
+   },
+   {
+    "slug": "yedi-zhang",
+    "name": "Yedi Zhang",
+    "institution_short": "",
+    "papers": 3,
+    "score": 0.643
+   }
+  ],
+  "institutions": [],
+  "papers": 3,
+  "citations": 79,
+  "venues": {
+   "oopsla": 1,
+   "cav": 1,
+   "ase": 1
+  },
+  "fields": {
+   "ml": 0,
+   "cv": 0,
+   "pl": 1,
+   "se": 1,
+   "lv": 1,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 3,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 1,
+   "2023": 1,
+   "2024": 0,
+   "2025": 1,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 0.0,
+   "cv": 0.0,
+   "pl": 0.333,
+   "se": 0.286,
+   "lv": 0.667
+  },
+  "score": 1.234,
+  "paper_list": [
+   {
+    "id": "zhang2025verification",
+    "key": "journals/pacmpl/ZhangHGSSD25",
+    "venue": "oopsla",
+    "venue_name": "OOPSLA",
+    "year": 2025,
+    "field": "pl",
+    "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks",
+    "url": "https://doi.org/10.1145/3720471",
+    "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "quantized",
+    "area_name": "Quantized & bit-level",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yedi Zhang",
+      "slug": "yedi-zhang"
+     },
+     {
+      "name": "Lei Huang",
+      "slug": ""
+     },
+     {
+      "name": "Pengfei Gao",
+      "slug": ""
+     },
+     {
+      "name": "Fu Song",
+      "slug": "fu-song"
+     },
+     {
+      "name": "Jun Sun",
+      "slug": "jun-sun"
+     },
+     {
+      "name": "Jin Song Dong",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "zhang2023qebverif",
+    "key": "conf/cav/ZhangSS23",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2023,
+    "field": "lv",
+    "title": "QEBVerif: Quantization Error Bound Verification of Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-031-37703-7_20",
+    "citations": 30,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "quantized",
+    "area_name": "Quantized & bit-level",
+    "tags": [
+     {
+      "key": "relational",
+      "name": "Global & relational properties"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Yedi Zhang",
+      "slug": "yedi-zhang"
+     },
+     {
+      "name": "Fu Song",
+      "slug": "fu-song"
+     },
+     {
+      "name": "Jun Sun",
+      "slug": "jun-sun"
+     }
+    ]
+   },
+   {
+    "id": "zhang2022qvip",
+    "key": "conf/kbse/ZhangZCSZCS22",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2022,
+    "field": "se",
+    "title": "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks",
+    "url": "https://doi.org/10.1145/3551349.3556916",
+    "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "quantized",
+    "area_name": "Quantized & bit-level",
+    "tags": [
+     {
+      "key": "complete",
+      "name": "Complete verification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Yedi Zhang",
+      "slug": "yedi-zhang"
+     },
+     {
+      "name": "Zhe Zhao",
+      "slug": ""
+     },
+     {
+      "name": "Guangke Chen",
+      "slug": ""
+     },
+     {
+      "name": "Fu Song",
+      "slug": "fu-song"
+     },
+     {
+      "name": "Min Zhang",
+      "slug": "min-zhang"
+     },
+     {
+      "name": "Taolue Chen",
+      "slug": ""
+     },
+     {
+      "name": "Jun Sun",
+      "slug": "jun-sun"
      }
     ]
    }
@@ -14791,6 +15310,230 @@
   "color": "g-other"
  },
  {
+  "slug": "venus",
+  "name": "Venus (Imperial)",
+  "tools": [
+   "Venus",
+   "VeriNet"
+  ],
+  "url": "",
+  "description": "Alessio Lomuscio's group: MILP-based and symbolic-interval verification.",
+  "members": [
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "institution_short": "Imperial",
+    "papers": 4,
+    "score": 1.117
+   }
+  ],
+  "institutions": [
+   "Imperial"
+  ],
+  "papers": 4,
+  "citations": 37,
+  "venues": {
+   "neurips": 1,
+   "eccv": 1,
+   "iclr": 1,
+   "cvpr": 1
+  },
+  "fields": {
+   "ml": 2,
+   "cv": 2,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 1,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 1,
+   "architectures": 2,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 1,
+   "2024": 1,
+   "2025": 0,
+   "2026": 2
+  },
+  "score_fields": {
+   "ml": 0.417,
+   "cv": 0.7,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.192,
+  "paper_list": [
+   {
+    "id": "hekal2026end",
+    "key": "openreview/SHNolnMBUT",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "End-to-End Verification of Neuro-symbolic Automata via Contrastive Logit-Gaps",
+    "url": "https://openreview.net/forum?id=SHNolnMBUT",
+    "citations": 0,
+    "arxiv": "",
+    "source": "neurips.cc",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Abdelrahman Hekal",
+      "slug": ""
+     },
+     {
+      "name": "Vasileios Manginas",
+      "slug": ""
+     },
+     {
+      "name": "Nikolaos Manginas",
+      "slug": ""
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "bruckner2026ioucert",
+    "key": "conf/eccv/BrucknerMZKL26",
+    "venue": "eccv",
+    "venue_name": "ECCV",
+    "year": 2026,
+    "field": "cv",
+    "title": "IoUCert: Robustness Verification for Anchor-Based Object Detectors",
+    "url": "https://doi.org/10.1007/978-3-032-37574-2_20",
+    "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Benedikt Brückner",
+      "slug": ""
+     },
+     {
+      "name": "Alejandro J. Mercado",
+      "slug": ""
+     },
+     {
+      "name": "Yanghao Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Panagiotis Kouvaros",
+      "slug": ""
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "palma2024expressive",
+    "key": "conf/iclr/PalmaBDKSL24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
+    "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "hanspal2023efficient",
+    "key": "conf/cvpr/HanspalL23",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2023,
+    "field": "cv",
+    "title": "Efficient Verification of Neural Networks Against LVM-Based Specifications",
+    "url": "https://doi.org/10.1109/cvpr52729.2023.00379",
+    "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Harleen Hanspal",
+      "slug": ""
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
   "slug": "misailovic",
   "name": "Misailovic group (UIUC)",
   "tools": [],
@@ -16527,228 +17270,6 @@
   "color": "g-other"
  },
  {
-  "slug": "cora",
-  "name": "CORA (TUM)",
-  "tools": [
-   "CORA"
-  ],
-  "url": "https://tumcps.github.io/CORA/",
-  "description": "Set-based reachability for neural networks and cyber-physical systems.",
-  "members": [
-   {
-    "slug": "matthias-althoff",
-    "name": "Matthias Althoff",
-    "institution_short": "TUM",
-    "papers": 4,
-    "score": 0.809
-   }
-  ],
-  "institutions": [
-   "TUM"
-  ],
-  "papers": 4,
-  "citations": 105,
-  "venues": {
-   "iclr": 2,
-   "cav": 1,
-   "nfm": 1
-  },
-  "fields": {
-   "ml": 2,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 1,
-   "fm": 1
-  },
-  "areas": {
-   "complete": 0,
-   "bounds": 2,
-   "probabilistic": 0,
-   "training": 0,
-   "repair": 0,
-   "explanations": 1,
-   "control": 1,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 0,
-   "2021": 0,
-   "2022": 0,
-   "2023": 1,
-   "2024": 0,
-   "2025": 0,
-   "2026": 3
-  },
-  "score_fields": {
-   "ml": 0.476,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.333
-  },
-  "score": 1.145,
-  "paper_list": [
-   {
-    "id": "koller2026out",
-    "key": "conf/iclr/KollerLA26",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2026,
-    "field": "ml",
-    "title": "Out of the Shadows: Exploring a Latent Space for Neural Network Verification",
-    "url": "https://dblp.org/rec/conf/iclr/KollerLA26",
-    "citations": 8,
-    "arxiv": "2505.17854",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Lukas Koller",
-      "slug": ""
-     },
-     {
-      "name": "Tobias Ladner",
-      "slug": ""
-     },
-     {
-      "name": "Matthias Althoff",
-      "slug": "matthias-althoff"
-     }
-    ]
-   },
-   {
-    "id": "bassan2026provably",
-    "key": "conf/iclr/BassanELSKAK26",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2026,
-    "field": "ml",
-    "title": "Provably Explaining Neural Additive Models",
-    "url": "https://dblp.org/rec/conf/iclr/BassanELSKAK26",
-    "citations": 5,
-    "arxiv": "2602.17530",
-    "source": "dblp.org",
-    "area": "explanations",
-    "area_name": "Formal explanations",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Shahaf Bassan",
-      "slug": ""
-     },
-     {
-      "name": "Yizhak Elboher",
-      "slug": ""
-     },
-     {
-      "name": "Tobias Ladner",
-      "slug": ""
-     },
-     {
-      "name": "Volkan Sahin",
-      "slug": ""
-     },
-     {
-      "name": "Jan Kretínský",
-      "slug": ""
-     },
-     {
-      "name": "Matthias Althoff",
-      "slug": "matthias-althoff"
-     },
-     {
-      "name": "Guy Katz",
-      "slug": "guy-katz"
-     }
-    ]
-   },
-   {
-    "id": "ladner2026perception",
-    "key": "conf/cav/LadnerSA26",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2026,
-    "field": "lv",
-    "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
-    "url": "https://doi.org/10.1007/978-3-032-32537-2_23",
-    "citations": 2,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Tobias Ladner",
-      "slug": ""
-     },
-     {
-      "name": "Yasser Shoukry",
-      "slug": "yasser-shoukry"
-     },
-     {
-      "name": "Matthias Althoff",
-      "slug": "matthias-althoff"
-     }
-    ]
-   },
-   {
-    "id": "kochdumper2023open",
-    "key": "conf/nfm/Kochdumper0AB23",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
-    "citations": 90,
-    "arxiv": "2207.02715",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Niklas Kochdumper",
-      "slug": ""
-     },
-     {
-      "name": "Christian Schilling",
-      "slug": ""
-     },
-     {
-      "name": "Matthias Althoff",
-      "slug": "matthias-althoff"
-     },
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
- },
- {
   "slug": "gao-ucsd",
   "name": "Gao group (UCSD)",
   "tools": [],
@@ -17068,7 +17589,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -17585,50 +18106,56 @@
   "color": "g-other"
  },
  {
-  "slug": "fu-song",
-  "name": "QVIP / QEBVerif",
+  "slug": "vnncomp",
+  "name": "VNN-COMP (RWTH Aachen)",
   "tools": [
-   "QVIP",
-   "QEBVerif"
+   "VNN-COMP",
+   "VNN-LIB"
   ],
-  "url": "",
-  "description": "Quantized neural network verification.",
+  "url": "https://sites.google.com/view/vnn2025",
+  "description": "Organisers of the International Verification of Neural Networks Competition at RWTH Aachen University.",
   "members": [
    {
-    "slug": "fu-song",
-    "name": "Fu Song",
+    "slug": "christopher-brix",
+    "name": "Christopher Brix",
     "institution_short": "",
-    "papers": 3,
-    "score": 0.643
+    "papers": 2,
+    "score": 0.45
+   },
+   {
+    "slug": "konstantin-kaulen",
+    "name": "Konstantin Kaulen",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.333
    }
   ],
   "institutions": [],
   "papers": 3,
-  "citations": 79,
+  "citations": 131,
   "venues": {
-   "oopsla": 1,
-   "cav": 1,
-   "ase": 1
+   "icml": 1,
+   "neurips": 2
   },
   "fields": {
-   "ml": 0,
+   "ml": 3,
    "cv": 0,
-   "pl": 1,
-   "se": 1,
-   "lv": 1,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
    "fm": 0
   },
   "areas": {
-   "complete": 0,
-   "bounds": 0,
+   "complete": 1,
+   "bounds": 1,
    "probabilistic": 0,
-   "training": 0,
+   "training": 1,
    "repair": 0,
    "explanations": 0,
    "control": 0,
    "relational": 0,
    "architectures": 0,
-   "quantized": 3,
+   "quantized": 0,
    "other": 0
   },
   "years": {
@@ -17637,146 +18164,120 @@
    "2019": 0,
    "2020": 0,
    "2021": 0,
-   "2022": 1,
+   "2022": 0,
    "2023": 1,
-   "2024": 0,
-   "2025": 1,
-   "2026": 0
+   "2024": 1,
+   "2025": 0,
+   "2026": 1
   },
   "score_fields": {
-   "ml": 0.0,
+   "ml": 0.783,
    "cv": 0.0,
-   "pl": 0.167,
-   "se": 0.143,
-   "lv": 0.333
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
   },
-  "score": 1.122,
+  "score": 1.123,
   "paper_list": [
    {
-    "id": "zhang2025verification",
-    "key": "journals/pacmpl/ZhangHGSSD25",
-    "venue": "oopsla",
-    "venue_name": "OOPSLA",
-    "year": 2025,
-    "field": "pl",
-    "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks",
-    "url": "https://doi.org/10.1145/3720471",
-    "citations": 8,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "quantized",
-    "area_name": "Quantized & bit-level",
+    "id": "kaulen2026rethinking",
+    "key": "openreview/XoaS2r1ezP",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2026,
+    "field": "ml",
+    "title": "Rethinking Evaluation Paradigms in IBP-based Certified Training",
+    "url": "https://openreview.net/forum?id=XoaS2r1ezP",
+    "citations": 1,
+    "arxiv": "2606.02134",
+    "source": "icml.cc",
+    "area": "training",
+    "area_name": "Certified training",
     "tags": [],
     "authors": [
      {
-      "name": "Yedi Zhang",
+      "name": "Konstantin Kaulen",
+      "slug": "konstantin-kaulen"
+     },
+     {
+      "name": "Hadar Shavit",
       "slug": ""
      },
      {
-      "name": "Lei Huang",
-      "slug": ""
-     },
-     {
-      "name": "Pengfei Gao",
-      "slug": ""
-     },
-     {
-      "name": "Fu Song",
-      "slug": "fu-song"
-     },
-     {
-      "name": "Jun Sun",
-      "slug": "jun-sun"
-     },
-     {
-      "name": "Jin Song Dong",
+      "name": "Holger Hoos",
       "slug": ""
      }
     ]
    },
    {
-    "id": "zhang2023qebverif",
-    "key": "conf/cav/ZhangSS23",
-    "venue": "cav",
-    "venue_name": "CAV",
+    "id": "zhou2024scalable",
+    "key": "conf/nips/ZhouBH024",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2024,
+    "field": "ml",
+    "title": "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes",
+    "url": "https://dblp.org/rec/conf/nips/ZhouBH024",
+    "citations": 66,
+    "arxiv": "2501.00200",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Duo Zhou",
+      "slug": "duo-zhou"
+     },
+     {
+      "name": "Christopher Brix",
+      "slug": "christopher-brix"
+     },
+     {
+      "name": "Grani A. Hanasusanto",
+      "slug": ""
+     },
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     }
+    ]
+   },
+   {
+    "id": "kotha2023provably",
+    "key": "conf/nips/KothaBKD023",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
     "year": 2023,
-    "field": "lv",
-    "title": "QEBVerif: Quantization Error Bound Verification of Neural Networks",
-    "url": "https://doi.org/10.1007/978-3-031-37703-7_20",
-    "citations": 30,
+    "field": "ml",
+    "title": "Provably Bounding Neural Network Preimages",
+    "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
+    "citations": 64,
     "arxiv": "",
     "source": "dblp.org",
-    "area": "quantized",
-    "area_name": "Quantized & bit-level",
-    "tags": [
-     {
-      "key": "relational",
-      "name": "Global & relational properties"
-     }
-    ],
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
     "authors": [
      {
-      "name": "Yedi Zhang",
+      "name": "Suhas Kotha",
       "slug": ""
      },
      {
-      "name": "Fu Song",
-      "slug": "fu-song"
+      "name": "Christopher Brix",
+      "slug": "christopher-brix"
      },
      {
-      "name": "Jun Sun",
-      "slug": "jun-sun"
-     }
-    ]
-   },
-   {
-    "id": "zhang2022qvip",
-    "key": "conf/kbse/ZhangZCSZCS22",
-    "venue": "ase",
-    "venue_name": "ASE",
-    "year": 2022,
-    "field": "se",
-    "title": "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks",
-    "url": "https://doi.org/10.1145/3551349.3556916",
-    "citations": 41,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "quantized",
-    "area_name": "Quantized & bit-level",
-    "tags": [
-     {
-      "key": "complete",
-      "name": "Complete verification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Yedi Zhang",
-      "slug": ""
+      "name": "Zico Kolter",
+      "slug": "zico-kolter"
      },
      {
-      "name": "Zhe Zhao",
-      "slug": ""
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
      },
      {
-      "name": "Guangke Chen",
-      "slug": ""
-     },
-     {
-      "name": "Fu Song",
-      "slug": "fu-song"
-     },
-     {
-      "name": "Min Zhang",
-      "slug": "min-zhang"
-     },
-     {
-      "name": "Taolue Chen",
-      "slug": ""
-     },
-     {
-      "name": "Jun Sun",
-      "slug": "jun-sun"
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
      }
     ]
    }
@@ -18147,7 +18648,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Nathaniel Hamilton",
@@ -18258,7 +18759,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Patrick Musau",
@@ -18410,7 +18911,7 @@
     "authors": [
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Yasser Shoukry",

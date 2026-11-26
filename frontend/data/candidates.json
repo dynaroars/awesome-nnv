@@ -1,22 +1,5 @@
 [
  {
-  "pid": "37/9373-2",
-  "name": "Marc Fischer",
-  "nnv_papers": 11,
-  "last_author": 0,
-  "first_author": 3,
-  "first_year": "2020",
-  "last_year": "2024",
-  "venues": "ICLR 4; NeurIPS 4; ICML 1; PLDI 1; CAV 1",
-  "affiliation": "ETH Zürich, Department of Computer Science, Switzerland",
-  "homepage": "https://www.sri.inf.ethz.ch/people/marc",
-  "titles": [
-   "Understanding Certified Training with Interval Bound Propagation",
-   "Certified Training: Small Boxes are All You Need",
-   "Efficient Certified Training and Robustness Verification of Neural ODEs"
-  ]
- },
- {
   "pid": "51/6047-1",
   "name": "Alexander Levine",
   "nnv_papers": 8,
@@ -493,23 +476,6 @@
   ]
  },
  {
-  "pid": "l/AlessioLomuscio",
-  "name": "Alessio Lomuscio",
-  "nnv_papers": 3,
-  "last_author": 3,
-  "first_author": 0,
-  "first_year": "2023",
-  "last_year": "2026",
-  "venues": "ICLR 1; CVPR 1; ECCV 1",
-  "affiliation": "Imperial College London, UK",
-  "homepage": "http://www.doc.ic.ac.uk/~alessio/",
-  "titles": [
-   "IoUCert: Robustness Verification for Anchor-Based Object Detectors",
-   "Expressive Losses for Verified Robustness via Convex Combinations",
-   "Efficient Verification of Neural Networks Against LVM-Based Specifications"
-  ]
- },
- {
   "pid": "31/7062",
   "name": "Jinwoo Shin",
   "nnv_papers": 3,
@@ -796,23 +762,6 @@
    "Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems",
    "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks",
    "Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning"
-  ]
- },
- {
-  "pid": "215/3580",
-  "name": "Diego Manzanas Lopez",
-  "nnv_papers": 3,
-  "last_author": 0,
-  "first_author": 1,
-  "first_year": "2020",
-  "last_year": "2023",
-  "venues": "CAV 3",
-  "affiliation": "",
-  "homepage": "",
-  "titles": [
-   "NNV 2.0: The Neural Network Verification Tool",
-   "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
-   "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems"
   ]
  },
  {
@@ -1173,23 +1122,6 @@
   ]
  },
  {
-  "pid": "346/0467",
-  "name": "Tobias Ladner",
-  "nnv_papers": 3,
-  "last_author": 0,
-  "first_author": 1,
-  "first_year": "2026",
-  "last_year": "2026",
-  "venues": "ICLR 2; CAV 1",
-  "affiliation": "",
-  "homepage": "https://openreview.net/profile?id=~Tobias_Ladner1",
-  "titles": [
-   "Provably Explaining Neural Additive Models",
-   "Out of the Shadows: Exploring a Latent Space for Neural Network Verification",
-   "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis"
-  ]
- },
- {
   "pid": "132/0959",
   "name": "Victor Magron",
   "nnv_papers": 3,
@@ -1238,23 +1170,6 @@
    "Hierarchical Randomized Smoothing",
    "(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More",
    "Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks"
-  ]
- },
- {
-  "pid": "230/8027",
-  "name": "Yedi Zhang",
-  "nnv_papers": 3,
-  "last_author": 0,
-  "first_author": 3,
-  "first_year": "2022",
-  "last_year": "2025",
-  "venues": "OOPSLA 1; ASE 1; CAV 1",
-  "affiliation": "",
-  "homepage": "",
-  "titles": [
-   "Verification of Bit-Flip Attacks against Quantized Neural Networks",
-   "QEBVerif: Quantization Error Bound Verification of Neural Networks",
-   "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks"
   ]
  },
  {
@@ -2250,22 +2165,6 @@
   "titles": [
    "Safety Verification of Decision-Tree Policies in Continuous Time",
    "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes"
-  ]
- },
- {
-  "pid": "228/5443",
-  "name": "Christopher Brix",
-  "nnv_papers": 2,
-  "last_author": 0,
-  "first_author": 0,
-  "first_year": "2023",
-  "last_year": "2024",
-  "venues": "NeurIPS 2",
-  "affiliation": "",
-  "homepage": "",
-  "titles": [
-   "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes",
-   "Provably Bounding Neural Network Preimages"
   ]
  },
  {

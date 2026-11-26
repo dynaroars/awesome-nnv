@@ -83,7 +83,7 @@
 		var rows = Array.prototype.filter.call(body.rows, function (tr) { return !tr.classList.contains("total"); });
 		var totals = Array.prototype.filter.call(body.rows, function (tr) { return tr.classList.contains("total"); });
 		var values = rows.map(function (tr) {
-			var td = tr.cells[column], text = td ? td.textContent.trim() : "";
+			var td = tr.cells[column], text = td ? (td.dataset.sort || td.textContent).trim() : "";
 
 			if (td && td.hasAttribute("data-last")) text = "";
 			return { tr: tr, text: text, num: number(text) };

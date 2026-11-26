@@ -106,7 +106,10 @@ the site uses.
   maintainer may name anyone else to track, students included ("Track X, Y"): add them with `approved` = `yes`
   and the right `role` (`student`, `researcher`); on 2026-11-26 they added Yuhao Mao, Mark Niklas Müller,
   Hai Duong, Shiqi Wang, Anan Kabaha, Zhaodi Zhang, Vincent Tjeng, Dong Xu, Duo Zhou, Hong-Ming Chiu, George J.
-  Pappas, Timon Gehr, Debangshu Banerjee, David Shriver, Klas Leino, Xiangru Zhong and themselves (Thanh Le, NeuralSAT). Do not propose students on your own. Identity is the DBLP pid
+  Pappas, Timon Gehr, Debangshu Banerjee, David Shriver, Klas Leino, Xiangru Zhong, Alessio Lomuscio, Marc Fischer, Diego Manzanas Lopez, Tobias
+  Ladner, Yedi Zhang, the VNN-COMP 2025 report authors and tool teams
+  with an NNV paper here (Christopher Brix, Konstantin Kaulen, Lukas Koller, Navid Hashemi, Samuel Sasaki, Hesun
+  Chen, Haoyu Li) and themselves (Thanh Le, NeuralSAT). Do not propose students on your own. Identity is the DBLP pid
   (`dblp_pids`), never a name match, for DBLP papers.
 - **Groups, not institutions** (the maintainer's choice): each person belongs to one research group named by its
   signature tool or line of work; the institution is shown only as information. A person's papers all count for

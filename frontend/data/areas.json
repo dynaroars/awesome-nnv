@@ -174,6 +174,11 @@
     "papers": 1
    },
    {
+    "slug": "nnv",
+    "name": "NNV (VeriVITAL)",
+    "papers": 1
+   },
+   {
     "slug": "dlv",
     "name": "DLV / DeepGame",
     "papers": 1
@@ -196,11 +201,6 @@
    {
     "slug": "daml",
     "name": "DAML (TUM)",
-    "papers": 1
-   },
-   {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
     "papers": 1
    },
    {
@@ -246,6 +246,11 @@
    {
     "slug": "oval",
     "name": "OVAL (Oxford)",
+    "papers": 1
+   },
+   {
+    "slug": "vnncomp",
+    "name": "VNN-COMP (RWTH Aachen)",
     "papers": 1
    },
    {
@@ -631,7 +636,7 @@
      },
      {
       "name": "Christopher Brix",
-      "slug": ""
+      "slug": "christopher-brix"
      },
      {
       "name": "Grani A. Hanasusanto",
@@ -1768,7 +1773,7 @@
      },
      {
       "name": "Hesun Chen",
-      "slug": ""
+      "slug": "hesun-chen"
      },
      {
       "name": "Grani A. Hanasusanto",
@@ -2017,7 +2022,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Zhe Zhao",
@@ -2486,13 +2491,18 @@
     "papers": 3
    },
    {
+    "slug": "nnv",
+    "name": "NNV (VeriVITAL)",
+    "papers": 2
+   },
+   {
     "slug": "ecnu",
     "name": "ECNU (Min Zhang)",
     "papers": 2
    },
    {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
+    "slug": "cora",
+    "name": "CORA (TUM)",
     "papers": 2
    },
    {
@@ -2518,11 +2528,6 @@
    {
     "slug": "fazlyab",
     "name": "Fazlyab group (JHU)",
-    "papers": 2
-   },
-   {
-    "slug": "cora",
-    "name": "CORA (TUM)",
     "papers": 2
    },
    {
@@ -2585,11 +2590,11 @@
     "authors": [
      {
       "name": "Lukas Koller",
-      "slug": ""
+      "slug": "lukas-koller"
      },
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Matthias Althoff",
@@ -2619,7 +2624,7 @@
      },
      {
       "name": "Haoyu Li",
-      "slug": ""
+      "slug": "haoyu-li"
      },
      {
       "name": "Huan Zhang",
@@ -2744,7 +2749,7 @@
     "authors": [
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Yasser Shoukry",
@@ -2890,7 +2895,7 @@
      },
      {
       "name": "Hesun Chen",
-      "slug": ""
+      "slug": "hesun-chen"
      },
      {
       "name": "Grani A. Hanasusanto",
@@ -3499,7 +3504,7 @@
      },
      {
       "name": "Christopher Brix",
-      "slug": ""
+      "slug": "christopher-brix"
      },
      {
       "name": "Zico Kolter",
@@ -3542,7 +3547,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Robin Staab",
@@ -3913,7 +3918,7 @@
     "authors": [
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Christian Sprecher",
@@ -4068,7 +4073,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Nathaniel Hamilton",
@@ -5133,7 +5138,7 @@
     "authors": [
      {
       "name": "Samuel Sasaki",
-      "slug": ""
+      "slug": "samuel-sasaki"
      },
      {
       "name": "Ben Wooding",
@@ -5184,7 +5189,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -5590,7 +5595,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -5625,7 +5630,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -5656,7 +5661,7 @@
     "authors": [
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Sung Woo Choi",
@@ -6598,7 +6603,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Patrick Musau",
@@ -6955,7 +6960,7 @@
    "2026": 14
   },
   "tagged": 16,
-  "tracked": 70,
+  "tracked": 71,
   "researchers": [
    {
     "slug": "bo-li",
@@ -7019,6 +7024,13 @@
     "papers": 5,
     "group": "gong",
     "group_name": "Gong group (Duke)"
+   },
+   {
+    "slug": "marc-fischer",
+    "name": "Marc Fischer",
+    "papers": 4,
+    "group": "eran",
+    "group_name": "ERAN (SRI Lab)"
    },
    {
     "slug": "benjamin-rubinstein",
@@ -7555,7 +7567,7 @@
     "authors": [
      {
       "name": "Samuel Sasaki",
-      "slug": ""
+      "slug": "samuel-sasaki"
      },
      {
       "name": "Ben Wooding",
@@ -8151,11 +8163,11 @@
     "authors": [
      {
       "name": "Navid Hashemi",
-      "slug": ""
+      "slug": "navid-hashemi"
      },
      {
       "name": "Samuel Sasaki",
-      "slug": ""
+      "slug": "samuel-sasaki"
      },
      {
       "name": "Ipek Oguz",
@@ -9972,7 +9984,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -10093,7 +10105,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -10738,7 +10750,7 @@
     "authors": [
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Maximilian Baader",
@@ -11288,7 +11300,7 @@
     "authors": [
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Maximilian Baader",
@@ -12456,7 +12468,7 @@
    "2026": 6
   },
   "tagged": 19,
-  "tracked": 44,
+  "tracked": 45,
   "researchers": [
    {
     "slug": "martin-vechev",
@@ -12513,6 +12525,13 @@
     "papers": 4,
     "group": "pku",
     "group_name": "PKU (Liwei Wang)"
+   },
+   {
+    "slug": "marc-fischer",
+    "name": "Marc Fischer",
+    "papers": 3,
+    "group": "eran",
+    "group_name": "ERAN (SRI Lab)"
    },
    {
     "slug": "yuhao-mao",
@@ -12618,6 +12637,11 @@
     "papers": 1
    },
    {
+    "slug": "venus",
+    "name": "Venus (Imperial)",
+    "papers": 1
+   },
+   {
     "slug": "vehicle",
     "name": "Vehicle",
     "papers": 1
@@ -12640,6 +12664,11 @@
    {
     "slug": "oval",
     "name": "OVAL (Oxford)",
+    "papers": 1
+   },
+   {
+    "slug": "vnncomp",
+    "name": "VNN-COMP (RWTH Aachen)",
     "papers": 1
    },
    {
@@ -12667,7 +12696,7 @@
     "authors": [
      {
       "name": "Konstantin Kaulen",
-      "slug": ""
+      "slug": "konstantin-kaulen"
      },
      {
       "name": "Hadar Shavit",
@@ -13092,7 +13121,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -13160,7 +13189,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -13454,7 +13483,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -13556,7 +13585,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -15505,7 +15534,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -15954,7 +15983,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -16653,6 +16682,13 @@
     "group_name": "CORA (TUM)"
    },
    {
+    "slug": "tobias-ladner",
+    "name": "Tobias Ladner",
+    "papers": 1,
+    "group": "cora",
+    "group_name": "CORA (TUM)"
+   },
+   {
     "slug": "haoze-wu",
     "name": "Haoze Wu",
     "papers": 1,
@@ -16848,7 +16884,7 @@
      },
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Volkan Sahin",
@@ -17452,13 +17488,18 @@
     "papers": 2
    },
    {
+    "slug": "nnv",
+    "name": "NNV (VeriVITAL)",
+    "papers": 1
+   },
+   {
     "slug": "reliable-ai",
     "name": "Reliable AI Lab (UMD)",
     "papers": 1
    },
    {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
+    "slug": "cora",
+    "name": "CORA (TUM)",
     "papers": 1
    },
    {
@@ -17484,11 +17525,6 @@
    {
     "slug": "fazlyab",
     "name": "Fazlyab group (JHU)",
-    "papers": 1
-   },
-   {
-    "slug": "cora",
-    "name": "CORA (TUM)",
     "papers": 1
    },
    {
@@ -19426,7 +19462,7 @@
     "authors": [
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Sung Woo Choi",
@@ -19551,7 +19587,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Patrick Musau",
@@ -19630,7 +19666,7 @@
    "2026": 2
   },
   "tagged": 14,
-  "tracked": 18,
+  "tracked": 19,
   "researchers": [
    {
     "slug": "gagandeep-singh",
@@ -19696,6 +19732,13 @@
     "group_name": "Secure Learning Lab"
    },
    {
+    "slug": "marc-fischer",
+    "name": "Marc Fischer",
+    "papers": 1,
+    "group": "eran",
+    "group_name": "ERAN (SRI Lab)"
+   },
+   {
     "slug": "cho-jui-hsieh",
     "name": "Cho-Jui Hsieh",
     "papers": 1,
@@ -19743,6 +19786,13 @@
     "papers": 1,
     "group": "ibm",
     "group_name": "IBM Research"
+   },
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 1,
+    "group": "venus",
+    "group_name": "Venus (Imperial)"
    },
    {
     "slug": "sasa-misailovic",
@@ -19834,6 +19884,11 @@
    {
     "slug": "ibm",
     "name": "IBM Research",
+    "papers": 1
+   },
+   {
+    "slug": "venus",
+    "name": "Venus (Imperial)",
     "papers": 1
    },
    {
@@ -20368,7 +20423,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -20831,7 +20886,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -21360,7 +21415,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Fu Song",
@@ -21551,7 +21606,7 @@
     "authors": [
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Maximilian Baader",
@@ -21616,7 +21671,7 @@
    "2026": 11
   },
   "tagged": 48,
-  "tracked": 19,
+  "tracked": 21,
   "researchers": [
    {
     "slug": "gagandeep-singh",
@@ -21654,8 +21709,22 @@
     "group_name": "α,β-CROWN"
    },
    {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 2,
+    "group": "venus",
+    "group_name": "Venus (Imperial)"
+   },
+   {
     "slug": "mark-niklas-muller",
     "name": "Mark Niklas Müller",
+    "papers": 1,
+    "group": "eran",
+    "group_name": "ERAN (SRI Lab)"
+   },
+   {
+    "slug": "marc-fischer",
+    "name": "Marc Fischer",
     "papers": 1,
     "group": "eran",
     "group_name": "ERAN (SRI Lab)"
@@ -21762,6 +21831,11 @@
    {
     "slug": "marabou",
     "name": "Marabou",
+    "papers": 2
+   },
+   {
+    "slug": "venus",
+    "name": "Venus (Imperial)",
     "papers": 2
    },
    {
@@ -21997,7 +22071,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -22083,7 +22157,7 @@
      },
      {
       "name": "Alessio Lomuscio",
-      "slug": ""
+      "slug": "alessio-lomuscio"
      }
     ]
    },
@@ -22593,7 +22667,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -23415,7 +23489,7 @@
     "authors": [
      {
       "name": "Tobias Ladner",
-      "slug": ""
+      "slug": "tobias-ladner"
      },
      {
       "name": "Yasser Shoukry",
@@ -23731,11 +23805,11 @@
     "authors": [
      {
       "name": "Navid Hashemi",
-      "slug": ""
+      "slug": "navid-hashemi"
      },
      {
       "name": "Samuel Sasaki",
-      "slug": ""
+      "slug": "samuel-sasaki"
      },
      {
       "name": "Ipek Oguz",
@@ -24497,7 +24571,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Robin Staab",
@@ -24645,7 +24719,7 @@
      },
      {
       "name": "Marc Fischer",
-      "slug": ""
+      "slug": "marc-fischer"
      },
      {
       "name": "Martin Vechev",
@@ -25083,7 +25157,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Nathaniel Hamilton",
@@ -25338,6 +25412,13 @@
     "group_name": "QVIP / QEBVerif"
    },
    {
+    "slug": "yedi-zhang",
+    "name": "Yedi Zhang",
+    "papers": 3,
+    "group": "fu-song",
+    "group_name": "QVIP / QEBVerif"
+   },
+   {
     "slug": "dana-drachsler-cohen",
     "name": "Dana Drachsler-Cohen",
     "papers": 1,
@@ -25539,7 +25620,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Lei Huang",
@@ -25629,7 +25710,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Fu Song",
@@ -25664,7 +25745,7 @@
     "authors": [
      {
       "name": "Yedi Zhang",
-      "slug": ""
+      "slug": "yedi-zhang"
      },
      {
       "name": "Zhe Zhao",
@@ -25976,6 +26057,13 @@
     "group_name": "α,β-CROWN"
    },
    {
+    "slug": "diego-manzanas-lopez",
+    "name": "Diego Manzanas Lopez",
+    "papers": 2,
+    "group": "nnv",
+    "group_name": "NNV (VeriVITAL)"
+   },
+   {
     "slug": "changliu-liu",
     "name": "Changliu Liu",
     "papers": 2,
@@ -25990,6 +26078,11 @@
     "papers": 6
    },
    {
+    "slug": "nnv",
+    "name": "NNV (VeriVITAL)",
+    "papers": 3
+   },
+   {
     "slug": "socrates",
     "name": "Socrates (SMU)",
     "papers": 3
@@ -25997,11 +26090,6 @@
    {
     "slug": "reliable-ai",
     "name": "Reliable AI Lab (UMD)",
-    "papers": 3
-   },
-   {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
     "papers": 3
    },
    {
@@ -27047,7 +27135,7 @@
     "authors": [
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Sung Woo Choi",
@@ -27630,7 +27718,7 @@
      },
      {
       "name": "Diego Manzanas Lopez",
-      "slug": ""
+      "slug": "diego-manzanas-lopez"
      },
      {
       "name": "Patrick Musau",
