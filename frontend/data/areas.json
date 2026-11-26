@@ -160,6 +160,11 @@
     "papers": 2
    },
    {
+    "slug": "oval",
+    "name": "OVAL (Oxford)",
+    "papers": 2
+   },
+   {
     "slug": "nv-jl",
     "name": "NeuralVerification.jl",
     "papers": 2
@@ -219,8 +224,8 @@
     "tags": [],
     "authors": [
      {
-      "name": "Yizhak Y. Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Avraham Raviv",
@@ -1442,8 +1447,8 @@
       "slug": "pushmeet-kohli"
      },
      {
-      "name": "Pawan Kumar Mudigonda",
-      "slug": ""
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
      }
     ]
    },
@@ -1897,11 +1902,11 @@
      },
      {
       "name": "Zhe Zhao",
-      "slug": ""
+      "slug": "zhe-zhao"
      },
      {
       "name": "Guangke Chen",
-      "slug": ""
+      "slug": "guangke-chen"
      },
      {
       "name": "Fu Song",
@@ -1913,7 +1918,7 @@
      },
      {
       "name": "Taolue Chen",
-      "slug": ""
+      "slug": "taolue-chen"
      },
      {
       "name": "Jun Sun",
@@ -2231,10 +2236,10 @@
   ],
   "name": "Bound propagation & abstract interpretation",
   "description": "Sound over-approximations of network behavior using abstract domains, linear relaxations, and LP or SDP bounds.",
-  "papers": 75,
-  "citations": 9700,
+  "papers": 76,
+  "citations": 9716,
   "venues": {
-   "neurips": 27,
+   "neurips": 28,
    "cav": 6,
    "cvpr": 5,
    "pldi": 4,
@@ -2246,7 +2251,7 @@
    "ase": 1
   },
   "fields": {
-   "ml": 51,
+   "ml": 52,
    "cv": 5,
    "pl": 11,
    "se": 2,
@@ -2254,7 +2259,7 @@
   },
   "areas": {
    "complete": 0,
-   "bounds": 75,
+   "bounds": 76,
    "probabilistic": 0,
    "training": 0,
    "repair": 0,
@@ -2269,7 +2274,7 @@
    "2017": 1,
    "2018": 6,
    "2019": 10,
-   "2020": 9,
+   "2020": 10,
    "2021": 6,
    "2022": 10,
    "2023": 8,
@@ -2278,9 +2283,9 @@
    "2026": 10
   },
   "tagged": 44,
-  "total": 119,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Bound propagation &amp; abstract interpretation: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">15</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">20</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"205.0\" width=\"30.0\" height=\"9.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"200.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><rect class=\"ar-ml seg\" x=\"108.4\" y=\"124.0\" width=\"30.0\" height=\"90.0\"><title>2018, ML: 10 papers</title></rect><text class=\"value\" x=\"123.4\" y=\"119.0\" text-anchor=\"middle\">10</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"124.0\" width=\"30.0\" height=\"90.0\"><title>2019, ML: 10 papers</title></rect><rect class=\"ar-cv seg\" x=\"168.0\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2019, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"168.0\" y=\"97.0\" width=\"30.0\" height=\"18.0\"><title>2019, PL: 2 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"92.0\" text-anchor=\"middle\">13</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"97.0\" width=\"30.0\" height=\"117.0\"><title>2020, ML: 13 papers</title></rect><rect class=\"ar-cv seg\" x=\"227.6\" y=\"79.0\" width=\"30.0\" height=\"18.0\"><title>2020, CV: 2 papers</title></rect><rect class=\"ar-se seg\" x=\"227.6\" y=\"61.0\" width=\"30.0\" height=\"18.0\"><title>2020, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"227.6\" y=\"43.0\" width=\"30.0\" height=\"18.0\"><title>2020, LV: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"38.0\" text-anchor=\"middle\">19</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2021, ML: 8 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"124.0\" width=\"30.0\" height=\"18.0\"><title>2021, CV: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"287.2\" y=\"97.0\" width=\"30.0\" height=\"27.0\"><title>2021, LV: 3 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"92.0\" text-anchor=\"middle\">13</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2022, ML: 8 papers</title></rect><rect class=\"ar-pl seg\" x=\"346.8\" y=\"115.0\" width=\"30.0\" height=\"27.0\"><title>2022, PL: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"106.0\" width=\"30.0\" height=\"9.0\"><title>2022, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"88.0\" width=\"30.0\" height=\"18.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"83.0\" text-anchor=\"middle\">14</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2023, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2023, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"406.4\" y=\"133.0\" width=\"30.0\" height=\"9.0\"><title>2023, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"406.4\" y=\"124.0\" width=\"30.0\" height=\"9.0\"><title>2023, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2023, LV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"110.0\" text-anchor=\"middle\">11</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2024, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2024, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"466.0\" y=\"133.0\" width=\"30.0\" height=\"9.0\"><title>2024, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"124.0\" width=\"30.0\" height=\"9.0\"><title>2024, SE: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"119.0\" text-anchor=\"middle\">10</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2025, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2025, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"124.0\" width=\"30.0\" height=\"18.0\"><title>2025, PL: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"110.0\" text-anchor=\"middle\">11</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2026, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"585.2\" y=\"124.0\" width=\"30.0\" height=\"36.0\"><title>2026, CV: 4 papers</title></rect><rect class=\"ar-pl seg\" x=\"585.2\" y=\"106.0\" width=\"30.0\" height=\"18.0\"><title>2026, PL: 2 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"97.0\" width=\"30.0\" height=\"9.0\"><title>2026, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"585.2\" y=\"61.0\" width=\"30.0\" height=\"36.0\"><title>2026, LV: 4 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"56.0\" text-anchor=\"middle\">17</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
-  "tracked": 67,
+  "total": 120,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Bound propagation &amp; abstract interpretation: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">15</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">20</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"205.0\" width=\"30.0\" height=\"9.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"200.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><rect class=\"ar-ml seg\" x=\"108.4\" y=\"124.0\" width=\"30.0\" height=\"90.0\"><title>2018, ML: 10 papers</title></rect><text class=\"value\" x=\"123.4\" y=\"119.0\" text-anchor=\"middle\">10</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"124.0\" width=\"30.0\" height=\"90.0\"><title>2019, ML: 10 papers</title></rect><rect class=\"ar-cv seg\" x=\"168.0\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2019, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"168.0\" y=\"97.0\" width=\"30.0\" height=\"18.0\"><title>2019, PL: 2 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"92.0\" text-anchor=\"middle\">13</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"88.0\" width=\"30.0\" height=\"126.0\"><title>2020, ML: 14 papers</title></rect><rect class=\"ar-cv seg\" x=\"227.6\" y=\"70.0\" width=\"30.0\" height=\"18.0\"><title>2020, CV: 2 papers</title></rect><rect class=\"ar-se seg\" x=\"227.6\" y=\"52.0\" width=\"30.0\" height=\"18.0\"><title>2020, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"227.6\" y=\"34.0\" width=\"30.0\" height=\"18.0\"><title>2020, LV: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"29.0\" text-anchor=\"middle\">20</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2021, ML: 8 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"124.0\" width=\"30.0\" height=\"18.0\"><title>2021, CV: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"287.2\" y=\"97.0\" width=\"30.0\" height=\"27.0\"><title>2021, LV: 3 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"92.0\" text-anchor=\"middle\">13</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2022, ML: 8 papers</title></rect><rect class=\"ar-pl seg\" x=\"346.8\" y=\"115.0\" width=\"30.0\" height=\"27.0\"><title>2022, PL: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"106.0\" width=\"30.0\" height=\"9.0\"><title>2022, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"88.0\" width=\"30.0\" height=\"18.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"83.0\" text-anchor=\"middle\">14</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2023, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2023, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"406.4\" y=\"133.0\" width=\"30.0\" height=\"9.0\"><title>2023, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"406.4\" y=\"124.0\" width=\"30.0\" height=\"9.0\"><title>2023, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2023, LV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"110.0\" text-anchor=\"middle\">11</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2024, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2024, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"466.0\" y=\"133.0\" width=\"30.0\" height=\"9.0\"><title>2024, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"124.0\" width=\"30.0\" height=\"9.0\"><title>2024, SE: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"119.0\" text-anchor=\"middle\">10</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"151.0\" width=\"30.0\" height=\"63.0\"><title>2025, ML: 7 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"142.0\" width=\"30.0\" height=\"9.0\"><title>2025, CV: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"124.0\" width=\"30.0\" height=\"18.0\"><title>2025, PL: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"115.0\" width=\"30.0\" height=\"9.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"110.0\" text-anchor=\"middle\">11</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2026, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"585.2\" y=\"124.0\" width=\"30.0\" height=\"36.0\"><title>2026, CV: 4 papers</title></rect><rect class=\"ar-pl seg\" x=\"585.2\" y=\"106.0\" width=\"30.0\" height=\"18.0\"><title>2026, PL: 2 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"97.0\" width=\"30.0\" height=\"9.0\"><title>2026, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"585.2\" y=\"61.0\" width=\"30.0\" height=\"36.0\"><title>2026, LV: 4 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"56.0\" text-anchor=\"middle\">17</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tracked": 68,
   "researchers": [
    {
     "slug": "martin-vechev",
@@ -2304,6 +2309,13 @@
     "group_name": "α,β-CROWN"
    },
    {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 6,
+    "group": "deepmind",
+    "group_name": "DeepMind verification"
+   },
+   {
     "slug": "cho-jui-hsieh",
     "name": "Cho-Jui Hsieh",
     "papers": 5,
@@ -2311,8 +2323,8 @@
     "group_name": "α,β-CROWN"
    },
    {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
+    "slug": "rudy-bunel",
+    "name": "Rudy Bunel",
     "papers": 5,
     "group": "deepmind",
     "group_name": "DeepMind verification"
@@ -2344,13 +2356,6 @@
     "papers": 4,
     "group": "tvg",
     "group_name": "Torr Vision Group (Oxford)"
-   },
-   {
-    "slug": "rudy-bunel",
-    "name": "Rudy Bunel",
-    "papers": 4,
-    "group": "deepmind",
-    "group_name": "DeepMind verification"
    }
   ],
   "groups": [
@@ -2372,7 +2377,7 @@
    {
     "slug": "deepmind",
     "name": "DeepMind verification",
-    "papers": 6
+    "papers": 7
    },
    {
     "slug": "tvg",
@@ -4173,6 +4178,41 @@
     ]
    },
    {
+    "id": "bunel2020efficient",
+    "key": "conf/nips/BunelHBD20",
+    "date": "2020-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "An efficient nonconvex reformulation of stagewise convex optimization problems",
+    "url": "https://dblp.org/rec/conf/nips/BunelHBD20",
+    "citations": 16,
+    "arxiv": "2010.14322",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Oliver Hinder",
+      "slug": ""
+     },
+     {
+      "name": "Srinadh Bhojanapalli",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     }
+    ]
+   },
+   {
     "id": "xu2020automatic",
     "key": "conf/nips/XuS0WCHKLH20",
     "date": "2020-12",
@@ -5208,8 +5248,8 @@
       "slug": ""
      },
      {
-      "name": "Taylor Johnson",
-      "slug": ""
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
      }
     ]
    },
@@ -6277,7 +6317,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": "tong-wu"
+      "slug": ""
      },
      {
       "name": "Guodong Xu",
@@ -7067,20 +7107,20 @@
   ],
   "name": "Probabilistic certification",
   "description": "Randomized smoothing and statistical (PAC) certification guarantees.",
-  "papers": 129,
-  "citations": 7913,
+  "papers": 135,
+  "citations": 8123,
   "venues": {
-   "neurips": 44,
-   "icml": 39,
+   "neurips": 45,
+   "icml": 40,
    "fse": 1,
-   "iclr": 29,
+   "iclr": 33,
    "cvpr": 7,
    "eccv": 5,
    "iccv": 2,
    "icse": 2
   },
   "fields": {
-   "ml": 112,
+   "ml": 118,
    "cv": 14,
    "pl": 0,
    "se": 3,
@@ -7089,7 +7129,7 @@
   "areas": {
    "complete": 0,
    "bounds": 0,
-   "probabilistic": 129,
+   "probabilistic": 135,
    "training": 0,
    "repair": 0,
    "explanations": 0,
@@ -7102,24 +7142,24 @@
   "years": {
    "2017": 0,
    "2018": 0,
-   "2019": 6,
+   "2019": 7,
    "2020": 15,
    "2021": 9,
-   "2022": 29,
-   "2023": 13,
-   "2024": 24,
-   "2025": 17,
+   "2022": 30,
+   "2023": 15,
+   "2024": 25,
+   "2025": 18,
    "2026": 16
   },
   "tagged": 20,
-  "total": 149,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Probabilistic certification: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">20</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">30</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">40</text><rect class=\"ar-pl seg\" x=\"48.8\" y=\"209.5\" width=\"30.0\" height=\"4.5\"><title>2017, PL: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"204.5\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"187.0\" width=\"30.0\" height=\"27.0\"><title>2019, ML: 6 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"182.0\" text-anchor=\"middle\">6</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2020, ML: 16 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"137.0\" text-anchor=\"middle\">16</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"187.0\" width=\"30.0\" height=\"27.0\"><title>2021, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"173.5\" width=\"30.0\" height=\"13.5\"><title>2021, CV: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"287.2\" y=\"169.0\" width=\"30.0\" height=\"4.5\"><title>2021, SE: 1 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"164.0\" text-anchor=\"middle\">10</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"106.0\" width=\"30.0\" height=\"108.0\"><title>2022, ML: 24 papers</title></rect><rect class=\"ar-cv seg\" x=\"346.8\" y=\"74.5\" width=\"30.0\" height=\"31.5\"><title>2022, CV: 7 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"70.0\" width=\"30.0\" height=\"4.5\"><title>2022, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"65.5\" width=\"30.0\" height=\"4.5\"><title>2022, LV: 1 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"60.5\" text-anchor=\"middle\">33</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"146.5\" width=\"30.0\" height=\"67.5\"><title>2023, ML: 15 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"142.0\" width=\"30.0\" height=\"4.5\"><title>2023, CV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"137.0\" text-anchor=\"middle\">16</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"119.5\" width=\"30.0\" height=\"94.5\"><title>2024, ML: 21 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"101.5\" width=\"30.0\" height=\"18.0\"><title>2024, CV: 4 papers</title></rect><rect class=\"ar-lv seg\" x=\"466.0\" y=\"97.0\" width=\"30.0\" height=\"4.5\"><title>2024, LV: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"92.0\" text-anchor=\"middle\">26</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"124.0\" width=\"30.0\" height=\"90.0\"><title>2025, ML: 20 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"119.5\" width=\"30.0\" height=\"4.5\"><title>2025, CV: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"115.0\" width=\"30.0\" height=\"4.5\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"110.0\" text-anchor=\"middle\">22</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"133.0\" width=\"30.0\" height=\"81.0\"><title>2026, ML: 18 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"128.5\" width=\"30.0\" height=\"4.5\"><title>2026, SE: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"123.5\" text-anchor=\"middle\">19</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
-  "tracked": 107,
+  "total": 155,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Probabilistic certification: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">20</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">30</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">40</text><rect class=\"ar-pl seg\" x=\"48.8\" y=\"209.5\" width=\"30.0\" height=\"4.5\"><title>2017, PL: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"204.5\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"182.5\" width=\"30.0\" height=\"31.5\"><title>2019, ML: 7 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"177.5\" text-anchor=\"middle\">7</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2020, ML: 16 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"137.0\" text-anchor=\"middle\">16</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"187.0\" width=\"30.0\" height=\"27.0\"><title>2021, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"173.5\" width=\"30.0\" height=\"13.5\"><title>2021, CV: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"287.2\" y=\"169.0\" width=\"30.0\" height=\"4.5\"><title>2021, SE: 1 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"164.0\" text-anchor=\"middle\">10</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"101.5\" width=\"30.0\" height=\"112.5\"><title>2022, ML: 25 papers</title></rect><rect class=\"ar-cv seg\" x=\"346.8\" y=\"70.0\" width=\"30.0\" height=\"31.5\"><title>2022, CV: 7 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"65.5\" width=\"30.0\" height=\"4.5\"><title>2022, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"61.0\" width=\"30.0\" height=\"4.5\"><title>2022, LV: 1 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"56.0\" text-anchor=\"middle\">34</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"137.5\" width=\"30.0\" height=\"76.5\"><title>2023, ML: 17 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"133.0\" width=\"30.0\" height=\"4.5\"><title>2023, CV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"128.0\" text-anchor=\"middle\">18</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"115.0\" width=\"30.0\" height=\"99.0\"><title>2024, ML: 22 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"97.0\" width=\"30.0\" height=\"18.0\"><title>2024, CV: 4 papers</title></rect><rect class=\"ar-lv seg\" x=\"466.0\" y=\"92.5\" width=\"30.0\" height=\"4.5\"><title>2024, LV: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"87.5\" text-anchor=\"middle\">27</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"119.5\" width=\"30.0\" height=\"94.5\"><title>2025, ML: 21 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"115.0\" width=\"30.0\" height=\"4.5\"><title>2025, CV: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"110.5\" width=\"30.0\" height=\"4.5\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"105.5\" text-anchor=\"middle\">23</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"133.0\" width=\"30.0\" height=\"81.0\"><title>2026, ML: 18 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"128.5\" width=\"30.0\" height=\"4.5\"><title>2026, SE: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"123.5\" text-anchor=\"middle\">19</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tracked": 113,
   "researchers": [
    {
     "slug": "bo-li",
     "name": "Bo Li",
-    "papers": 12,
+    "papers": 14,
     "group": "secure-learning",
     "group_name": "Secure Learning Lab"
    },
@@ -7189,19 +7229,19 @@
   ],
   "groups": [
    {
+    "slug": "secure-learning",
+    "name": "Secure Learning Lab",
+    "papers": 15
+   },
+   {
     "slug": "daml",
     "name": "DAML (TUM)",
     "papers": 14
    },
    {
-    "slug": "secure-learning",
-    "name": "Secure Learning Lab",
-    "papers": 12
-   },
-   {
     "slug": "abcrown",
     "name": "α,β-CROWN",
-    "papers": 10
+    "papers": 11
    },
    {
     "slug": "jia-psu",
@@ -7229,6 +7269,11 @@
     "papers": 6
    },
    {
+    "slug": "ibm",
+    "name": "IBM Research",
+    "papers": 6
+   },
+   {
     "slug": "rubinstein",
     "name": "Rubinstein group (Melbourne)",
     "papers": 5
@@ -7236,11 +7281,6 @@
    {
     "slug": "gong",
     "name": "Gong group (Duke)",
-    "papers": 5
-   },
-   {
-    "slug": "ibm",
-    "name": "IBM Research",
     "papers": 5
    },
    {
@@ -7376,8 +7416,8 @@
       "slug": ""
      },
      {
-      "name": "Taylor Johnson",
-      "slug": ""
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
      }
     ]
    },
@@ -8503,6 +8543,61 @@
     ]
    },
    {
+    "id": "lei2025robust",
+    "key": "conf/iclr/LeiBWCXBR0A25",
+    "date": "2025-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2025,
+    "field": "ml",
+    "title": "Robust Representation Consistency Model via Contrastive Denoising",
+    "url": "https://dblp.org/rec/conf/iclr/LeiBWCXBR0A25",
+    "citations": 1,
+    "arxiv": "2501.13094",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jiachen Lei",
+      "slug": "jiachen-lei"
+     },
+     {
+      "name": "Julius Berner",
+      "slug": ""
+     },
+     {
+      "name": "Jiongxiao Wang",
+      "slug": "jiongxiao-wang"
+     },
+     {
+      "name": "Zhongzhu Chen",
+      "slug": "zhongzhu-chen"
+     },
+     {
+      "name": "Chaowei Xiao",
+      "slug": "chaowei-xiao"
+     },
+     {
+      "name": "Zhongjie Ba",
+      "slug": ""
+     },
+     {
+      "name": "Kui Ren",
+      "slug": ""
+     },
+     {
+      "name": "Jun Zhu",
+      "slug": "jun-zhu"
+     },
+     {
+      "name": "Anima Anandkumar",
+      "slug": "anima-anandkumar"
+     }
+    ]
+   },
+   {
     "id": "emde2025towards",
     "key": "conf/iclr/EmdePL0B25",
     "date": "2025-05",
@@ -8678,19 +8773,19 @@
      },
      {
       "name": "Zhongzhu Chen",
-      "slug": ""
+      "slug": "zhongzhu-chen"
      },
      {
       "name": "Kun Jin",
-      "slug": ""
+      "slug": "kun-jin"
      },
      {
       "name": "Jiongxiao Wang",
-      "slug": ""
+      "slug": "jiongxiao-wang"
      },
      {
       "name": "Jiachen Lei",
-      "slug": ""
+      "slug": "jiachen-lei"
      },
      {
       "name": "Bo Li",
@@ -8970,6 +9065,45 @@
      },
      {
       "name": "Dawn Song",
+      "slug": "dawn-song"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "kang2024certifiably",
+    "key": "conf/icml/KangL0X024",
+    "date": "2024-07",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Certifiably Byzantine-Robust Federated Conformal Prediction",
+    "url": "https://dblp.org/rec/conf/icml/KangL0X024",
+    "citations": 15,
+    "arxiv": "2406.01960",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mintong Kang",
+      "slug": "mintong-kang"
+     },
+     {
+      "name": "Zhen Lin",
+      "slug": ""
+     },
+     {
+      "name": "Jimeng Sun",
+      "slug": ""
+     },
+     {
+      "name": "Cao Xiao",
       "slug": ""
      },
      {
@@ -9862,6 +9996,109 @@
      {
       "name": "Jan Hendrik Metzen",
       "slug": "jan-hendrik-metzen"
+     }
+    ]
+   },
+   {
+    "id": "wu2023denoising",
+    "key": "conf/iclr/WuYGZ0H23",
+    "date": "2023-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "Denoising Masked Autoencoders Help Robust Classification",
+    "url": "https://dblp.org/rec/conf/iclr/WuYGZ0H23",
+    "citations": 43,
+    "arxiv": "2210.06983",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Quanlin Wu",
+      "slug": ""
+     },
+     {
+      "name": "Hang Ye",
+      "slug": ""
+     },
+     {
+      "name": "Yuntian Gu",
+      "slug": ""
+     },
+     {
+      "name": "Huishuai Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Liwei Wang",
+      "slug": "liwei-wang"
+     },
+     {
+      "name": "Di He",
+      "slug": "di-he"
+     }
+    ]
+   },
+   {
+    "id": "xiao2023densepure",
+    "key": "conf/iclr/XiaoCJWNLA0S23",
+    "date": "2023-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "DensePure: Understanding Diffusion Models for Adversarial Robustness",
+    "url": "https://dblp.org/rec/conf/iclr/XiaoCJWNLA0S23",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chaowei Xiao",
+      "slug": "chaowei-xiao"
+     },
+     {
+      "name": "Zhongzhu Chen",
+      "slug": "zhongzhu-chen"
+     },
+     {
+      "name": "Kun Jin",
+      "slug": "kun-jin"
+     },
+     {
+      "name": "Jiongxiao Wang",
+      "slug": "jiongxiao-wang"
+     },
+     {
+      "name": "Weili Nie",
+      "slug": ""
+     },
+     {
+      "name": "Mingyan Liu",
+      "slug": ""
+     },
+     {
+      "name": "Anima Anandkumar",
+      "slug": "anima-anandkumar"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     },
+     {
+      "name": "Dawn Song",
+      "slug": "dawn-song"
      }
     ]
    },
@@ -11039,6 +11276,53 @@
     ]
    },
    {
+    "id": "zhang2022how",
+    "key": "conf/iclr/ZhangYJYHC022",
+    "date": "2022-04",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective",
+    "url": "https://dblp.org/rec/conf/iclr/ZhangYJYHC022",
+    "citations": 52,
+    "arxiv": "2203.14195",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yimeng Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Yuguang Yao",
+      "slug": ""
+     },
+     {
+      "name": "Jinghan Jia",
+      "slug": ""
+     },
+     {
+      "name": "Jinfeng Yi",
+      "slug": "jinfeng-yi"
+     },
+     {
+      "name": "Mingyi Hong",
+      "slug": ""
+     },
+     {
+      "name": "Shiyu Chang",
+      "slug": "shiyu-chang"
+     },
+     {
+      "name": "Sijia Liu",
+      "slug": "sijia-liu"
+     }
+    ]
+   },
+   {
     "id": "yang2022certified",
     "key": "conf/iclr/YangLXK0L22",
     "date": "2022-04",
@@ -11980,8 +12264,8 @@
       "slug": ""
      },
      {
-      "name": "Kai Xiao",
-      "slug": ""
+      "name": "Kai Yuanqing Xiao",
+      "slug": "kai-yuanqing-xiao"
      },
      {
       "name": "Sven Gowal",
@@ -12112,6 +12396,53 @@
      {
       "name": "Greg Yang",
       "slug": "greg-yang"
+     }
+    ]
+   },
+   {
+    "id": "pinot2019theoretical",
+    "key": "conf/nips/PinotMAKYGA19",
+    "date": "2019-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2019,
+    "field": "ml",
+    "title": "Theoretical evidence for adversarial robustness through randomization",
+    "url": "https://dblp.org/rec/conf/nips/PinotMAKYGA19",
+    "citations": 99,
+    "arxiv": "1902.01148",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rafael Pinot",
+      "slug": ""
+     },
+     {
+      "name": "Laurent Meunier",
+      "slug": "laurent-meunier"
+     },
+     {
+      "name": "Alexandre Araujo",
+      "slug": "alexandre-araujo"
+     },
+     {
+      "name": "Hisashi Kashima",
+      "slug": ""
+     },
+     {
+      "name": "Florian Yger",
+      "slug": ""
+     },
+     {
+      "name": "Cédric Gouy-Pailler",
+      "slug": ""
+     },
+     {
+      "name": "Jamal Atif",
+      "slug": ""
      }
     ]
    },
@@ -12291,12 +12622,12 @@
     ],
     "authors": [
      {
-      "name": "Andrew Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
-      "name": "Neil Marchant",
-      "slug": ""
+      "name": "Neil G. Marchant",
+      "slug": "neil-g-marchant"
      },
      {
       "name": "Jiani Xie",
@@ -13170,21 +13501,21 @@
   ],
   "name": "Certified training",
   "description": "Training networks to be easier to verify, including IBP, CROWN-IBP, SABR, and related methods.",
-  "papers": 81,
-  "citations": 8182,
+  "papers": 83,
+  "citations": 8264,
   "venues": {
-   "neurips": 29,
+   "neurips": 30,
    "eccv": 4,
    "icml": 18,
    "iclr": 23,
    "oopsla": 1,
-   "cvpr": 4,
+   "cvpr": 5,
    "cav": 1,
    "iccv": 1
   },
   "fields": {
-   "ml": 70,
-   "cv": 9,
+   "ml": 71,
+   "cv": 10,
    "pl": 1,
    "se": 0,
    "lv": 1
@@ -13193,7 +13524,7 @@
    "complete": 0,
    "bounds": 0,
    "probabilistic": 0,
-   "training": 81,
+   "training": 83,
    "repair": 0,
    "explanations": 0,
    "control": 0,
@@ -13207,17 +13538,17 @@
    "2018": 6,
    "2019": 4,
    "2020": 10,
-   "2021": 12,
-   "2022": 17,
+   "2021": 13,
+   "2022": 18,
    "2023": 11,
    "2024": 9,
    "2025": 6,
    "2026": 6
   },
-  "tagged": 19,
-  "total": 100,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Certified training: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">15</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">20</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"205.0\" width=\"30.0\" height=\"9.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"200.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><rect class=\"ar-ml seg\" x=\"108.4\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2018, ML: 6 papers</title></rect><text class=\"value\" x=\"123.4\" y=\"155.0\" text-anchor=\"middle\">6</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2019, ML: 4 papers</title></rect><rect class=\"ar-cv seg\" x=\"168.0\" y=\"169.0\" width=\"30.0\" height=\"9.0\"><title>2019, CV: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"164.0\" text-anchor=\"middle\">5</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"88.0\" width=\"30.0\" height=\"126.0\"><title>2020, ML: 14 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"83.0\" text-anchor=\"middle\">14</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"106.0\" width=\"30.0\" height=\"108.0\"><title>2021, ML: 12 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"88.0\" width=\"30.0\" height=\"18.0\"><title>2021, CV: 2 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"83.0\" text-anchor=\"middle\">14</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"70.0\" width=\"30.0\" height=\"144.0\"><title>2022, ML: 16 papers</title></rect><rect class=\"ar-cv seg\" x=\"346.8\" y=\"61.0\" width=\"30.0\" height=\"9.0\"><title>2022, CV: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"43.0\" width=\"30.0\" height=\"18.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"38.0\" text-anchor=\"middle\">19</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"88.0\" width=\"30.0\" height=\"126.0\"><title>2023, ML: 14 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"79.0\" width=\"30.0\" height=\"9.0\"><title>2023, CV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"74.0\" text-anchor=\"middle\">15</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2024, ML: 8 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"115.0\" width=\"30.0\" height=\"27.0\"><title>2024, CV: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"106.0\" width=\"30.0\" height=\"9.0\"><title>2024, SE: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"101.0\" text-anchor=\"middle\">12</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2025, ML: 6 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"151.0\" width=\"30.0\" height=\"9.0\"><title>2025, PL: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"146.0\" text-anchor=\"middle\">7</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2026, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"585.2\" y=\"151.0\" width=\"30.0\" height=\"9.0\"><title>2026, CV: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"146.0\" text-anchor=\"middle\">7</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
-  "tracked": 65,
+  "tagged": 20,
+  "total": 103,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Certified training: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"169.0\" x2=\"630\" y2=\"169.0\"/><text x=\"28\" y=\"173.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"124.0\" x2=\"630\" y2=\"124.0\"/><text x=\"28\" y=\"128.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"79.0\" x2=\"630\" y2=\"79.0\"/><text x=\"28\" y=\"83.0\" text-anchor=\"end\">15</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">20</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"205.0\" width=\"30.0\" height=\"9.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"200.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><rect class=\"ar-ml seg\" x=\"108.4\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2018, ML: 6 papers</title></rect><text class=\"value\" x=\"123.4\" y=\"155.0\" text-anchor=\"middle\">6</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2019, ML: 4 papers</title></rect><rect class=\"ar-cv seg\" x=\"168.0\" y=\"169.0\" width=\"30.0\" height=\"9.0\"><title>2019, CV: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"164.0\" text-anchor=\"middle\">5</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"88.0\" width=\"30.0\" height=\"126.0\"><title>2020, ML: 14 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"83.0\" text-anchor=\"middle\">14</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"106.0\" width=\"30.0\" height=\"108.0\"><title>2021, ML: 12 papers</title></rect><rect class=\"ar-cv seg\" x=\"287.2\" y=\"79.0\" width=\"30.0\" height=\"27.0\"><title>2021, CV: 3 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"74.0\" text-anchor=\"middle\">15</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"61.0\" width=\"30.0\" height=\"153.0\"><title>2022, ML: 17 papers</title></rect><rect class=\"ar-cv seg\" x=\"346.8\" y=\"52.0\" width=\"30.0\" height=\"9.0\"><title>2022, CV: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"34.0\" width=\"30.0\" height=\"18.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"29.0\" text-anchor=\"middle\">20</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"79.0\" width=\"30.0\" height=\"135.0\"><title>2023, ML: 15 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"70.0\" width=\"30.0\" height=\"9.0\"><title>2023, CV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"65.0\" text-anchor=\"middle\">16</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2024, ML: 8 papers</title></rect><rect class=\"ar-cv seg\" x=\"466.0\" y=\"115.0\" width=\"30.0\" height=\"27.0\"><title>2024, CV: 3 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"106.0\" width=\"30.0\" height=\"9.0\"><title>2024, SE: 1 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"101.0\" text-anchor=\"middle\">12</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2025, ML: 6 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"151.0\" width=\"30.0\" height=\"9.0\"><title>2025, PL: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"146.0\" text-anchor=\"middle\">7</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"160.0\" width=\"30.0\" height=\"54.0\"><title>2026, ML: 6 papers</title></rect><rect class=\"ar-cv seg\" x=\"585.2\" y=\"151.0\" width=\"30.0\" height=\"9.0\"><title>2026, CV: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"146.0\" text-anchor=\"middle\">7</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tracked": 67,
   "researchers": [
    {
     "slug": "martin-vechev",
@@ -13295,6 +13626,13 @@
     "papers": 4,
     "group": "pku",
     "group_name": "PKU (Liwei Wang)"
+   },
+   {
+    "slug": "mathieu-serrurier",
+    "name": "Mathieu Serrurier",
+    "papers": 4,
+    "group": "mathieu-serrurier",
+    "group_name": "Mathieu Serrurier group"
    }
   ],
   "groups": [
@@ -13319,13 +13657,18 @@
     "papers": 5
    },
    {
-    "slug": "pku",
-    "name": "PKU (Liwei Wang)",
+    "slug": "mathieu-serrurier",
+    "name": "Mathieu Serrurier group",
     "papers": 4
    },
    {
     "slug": "alexandre-araujo",
     "name": "Alexandre Araujo group",
+    "papers": 4
+   },
+   {
+    "slug": "pku",
+    "name": "PKU (Liwei Wang)",
     "papers": 4
    },
    {
@@ -13339,14 +13682,9 @@
     "papers": 3
    },
    {
-    "slug": "singh-uiuc",
-    "name": "Singh group (UIUC)",
-    "papers": 2
-   },
-   {
     "slug": "secure-learning",
     "name": "Secure Learning Lab",
-    "papers": 2
+    "papers": 3
    }
   ],
   "paper_list": [
@@ -13368,8 +13706,8 @@
     "tags": [],
     "authors": [
      {
-      "name": "Andrew Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
       "name": "Paul Montague",
@@ -14376,7 +14714,7 @@
     "authors": [
      {
       "name": "Louis Béthune",
-      "slug": ""
+      "slug": "louis-bethune"
      },
      {
       "name": "Paul Novello",
@@ -14615,6 +14953,49 @@
     ]
    },
    {
+    "id": "bethune2022pay",
+    "key": "conf/nips/BethuneBSMFG22",
+    "date": "2022-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Pay attention to your loss : understanding misconceptions about Lipschitz neural networks",
+    "url": "https://dblp.org/rec/conf/nips/BethuneBSMFG22",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Louis Béthune",
+      "slug": "louis-bethune"
+     },
+     {
+      "name": "Thibaut Boissin",
+      "slug": "thibaut-boissin"
+     },
+     {
+      "name": "Mathieu Serrurier",
+      "slug": "mathieu-serrurier"
+     },
+     {
+      "name": "Franck Mamalet",
+      "slug": "franck-mamalet"
+     },
+     {
+      "name": "Corentin Friedrich",
+      "slug": "corentin-friedrich"
+     },
+     {
+      "name": "Alberto González-Sanz",
+      "slug": "alberto-gonzalez-sanz"
+     }
+    ]
+   },
+   {
     "id": "meinke2022provably",
     "key": "conf/nips/MeinkeB022",
     "date": "2022-12",
@@ -14775,7 +15156,7 @@
     "authors": [
      {
       "name": "Laurent Meunier",
-      "slug": ""
+      "slug": "laurent-meunier"
      },
      {
       "name": "Blaise Delattre",
@@ -15267,7 +15648,7 @@
      },
      {
       "name": "Anima Anandkumar",
-      "slug": ""
+      "slug": "anima-anandkumar"
      }
     ]
    },
@@ -15369,6 +15750,49 @@
     ]
    },
    {
+    "id": "serrurier2021achieving",
+    "key": "conf/cvpr/SerrurierMGBLB21",
+    "date": "2021-06",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2021,
+    "field": "cv",
+    "title": "Achieving Robustness in Classification Using Optimal Transport With Hinge Regularization",
+    "url": "https://doi.org/10.1109/cvpr46437.2021.00057",
+    "citations": 82,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mathieu Serrurier",
+      "slug": "mathieu-serrurier"
+     },
+     {
+      "name": "Franck Mamalet",
+      "slug": "franck-mamalet"
+     },
+     {
+      "name": "Alberto González-Sanz",
+      "slug": "alberto-gonzalez-sanz"
+     },
+     {
+      "name": "Thibaut Boissin",
+      "slug": "thibaut-boissin"
+     },
+     {
+      "name": "Jean-Michel Loubes",
+      "slug": ""
+     },
+     {
+      "name": "Eustasio del Barrio",
+      "slug": ""
+     }
+    ]
+   },
+   {
     "id": "zhen2021simpler",
     "key": "conf/cvpr/ZhenCS21",
     "date": "2021-06",
@@ -15436,7 +15860,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": "tong-wu"
+      "slug": ""
      },
      {
       "name": "Guodong Xu",
@@ -16563,6 +16987,54 @@
     ]
    },
    {
+    "id": "wu2023denoising",
+    "key": "conf/iclr/WuYGZ0H23",
+    "date": "2023-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "Denoising Masked Autoencoders Help Robust Classification",
+    "url": "https://dblp.org/rec/conf/iclr/WuYGZ0H23",
+    "citations": 43,
+    "arxiv": "2210.06983",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Quanlin Wu",
+      "slug": ""
+     },
+     {
+      "name": "Hang Ye",
+      "slug": ""
+     },
+     {
+      "name": "Yuntian Gu",
+      "slug": ""
+     },
+     {
+      "name": "Huishuai Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Liwei Wang",
+      "slug": "liwei-wang"
+     },
+     {
+      "name": "Di He",
+      "slug": "di-he"
+     }
+    ]
+   },
+   {
     "id": "zeqiri2023efficient",
     "key": "conf/iclr/ZeqiriM0V23",
     "date": "2023-05",
@@ -16630,11 +17102,11 @@
     "authors": [
      {
       "name": "Rem Yang",
-      "slug": ""
+      "slug": "rem-yang"
      },
      {
       "name": "Jacob Laurel",
-      "slug": ""
+      "slug": "jacob-laurel"
      },
      {
       "name": "Sasa Misailovic",
@@ -17583,7 +18055,7 @@
      },
      {
       "name": "Divya Gopinath",
-      "slug": ""
+      "slug": "divya-gopinath"
      },
      {
       "name": "Youcheng Sun",
@@ -17724,9 +18196,9 @@
    "2025": 7,
    "2026": 7
   },
-  "tagged": 3,
-  "total": 24,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Formal explanations: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-lv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"178.0\" x2=\"630\" y2=\"178.0\"/><text x=\"28\" y=\"182.0\" text-anchor=\"end\">2</text><line class=\"grid\" x1=\"34\" y1=\"142.0\" x2=\"630\" y2=\"142.0\"/><text x=\"28\" y=\"146.0\" text-anchor=\"end\">4</text><line class=\"grid\" x1=\"34\" y1=\"106.0\" x2=\"630\" y2=\"106.0\"/><text x=\"28\" y=\"110.0\" text-anchor=\"end\">6</text><line class=\"grid\" x1=\"34\" y1=\"70.0\" x2=\"630\" y2=\"70.0\"/><text x=\"28\" y=\"74.0\" text-anchor=\"end\">8</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">10</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"196.0\" width=\"30.0\" height=\"18.0\"><title>2019, ML: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"191.0\" text-anchor=\"middle\">1</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"196.0\" width=\"30.0\" height=\"18.0\"><title>2020, ML: 1 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"191.0\" text-anchor=\"middle\">1</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2021, ML: 2 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2023, ML: 2 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2024, ML: 2 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"106.0\" width=\"30.0\" height=\"108.0\"><title>2025, ML: 6 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"88.0\" width=\"30.0\" height=\"18.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"83.0\" text-anchor=\"middle\">7</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"52.0\" width=\"30.0\" height=\"162.0\"><title>2026, ML: 9 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"47.0\" text-anchor=\"middle\">9</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tagged": 4,
+  "total": 25,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Formal explanations: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-se\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"178.0\" x2=\"630\" y2=\"178.0\"/><text x=\"28\" y=\"182.0\" text-anchor=\"end\">2</text><line class=\"grid\" x1=\"34\" y1=\"142.0\" x2=\"630\" y2=\"142.0\"/><text x=\"28\" y=\"146.0\" text-anchor=\"end\">4</text><line class=\"grid\" x1=\"34\" y1=\"106.0\" x2=\"630\" y2=\"106.0\"/><text x=\"28\" y=\"110.0\" text-anchor=\"end\">6</text><line class=\"grid\" x1=\"34\" y1=\"70.0\" x2=\"630\" y2=\"70.0\"/><text x=\"28\" y=\"74.0\" text-anchor=\"end\">8</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">10</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml seg\" x=\"168.0\" y=\"196.0\" width=\"30.0\" height=\"18.0\"><title>2019, ML: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"168.0\" y=\"178.0\" width=\"30.0\" height=\"18.0\"><title>2019, SE: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"196.0\" width=\"30.0\" height=\"18.0\"><title>2020, ML: 1 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"191.0\" text-anchor=\"middle\">1</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2021, ML: 2 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2023, ML: 2 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2024, ML: 2 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"173.0\" text-anchor=\"middle\">2</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"106.0\" width=\"30.0\" height=\"108.0\"><title>2025, ML: 6 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"88.0\" width=\"30.0\" height=\"18.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"83.0\" text-anchor=\"middle\">7</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"52.0\" width=\"30.0\" height=\"162.0\"><title>2026, ML: 9 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"47.0\" text-anchor=\"middle\">9</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
   "tracked": 18,
   "researchers": [
    {
@@ -17749,6 +18221,13 @@
     "papers": 3,
     "group": "formal-xai",
     "group_name": "Formal XAI (Marques-Silva)"
+   },
+   {
+    "slug": "yizhak-yisrael-elboher",
+    "name": "Yizhak Yisrael Elboher",
+    "papers": 3,
+    "group": "marabou",
+    "group_name": "Marabou"
    },
    {
     "slug": "alexey-ignatiev",
@@ -17791,13 +18270,6 @@
     "papers": 2,
     "group": "marabou",
     "group_name": "Marabou"
-   },
-   {
-    "slug": "anton-xue",
-    "name": "Anton Xue",
-    "papers": 2,
-    "group": "abcrown",
-    "group_name": "α,β-CROWN"
    }
   ],
   "groups": [
@@ -17845,8 +18317,8 @@
       "slug": "idan-refaeli"
      },
      {
-      "name": "Yizhak Y. Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Guy Katz",
@@ -18033,8 +18505,8 @@
       "slug": "shahaf-bassan"
      },
      {
-      "name": "Yizhak Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Tobias Ladner",
@@ -18703,6 +19175,46 @@
       "slug": "gagandeep-singh"
      }
     ]
+   },
+   {
+    "id": "gopinath2019property",
+    "key": "conf/kbse/GopinathCPT19",
+    "date": "2019-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2019,
+    "field": "se",
+    "title": "Property Inference for Deep Neural Networks",
+    "url": "https://doi.org/10.1109/ase.2019.00079",
+    "citations": 105,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "explanations",
+      "name": "Formal explanations"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Divya Gopinath",
+      "slug": "divya-gopinath"
+     },
+     {
+      "name": "Hayes Converse",
+      "slug": ""
+     },
+     {
+      "name": "Corina S. Pasareanu",
+      "slug": "corina-s-pasareanu"
+     },
+     {
+      "name": "Ankur Taly",
+      "slug": ""
+     }
+    ]
    }
   ]
  },
@@ -19181,7 +19693,7 @@
      },
      {
       "name": "Bin Hu",
-      "slug": ""
+      "slug": "bin-hu"
      },
      {
       "name": "Huan Zhang",
@@ -21079,8 +21591,8 @@
       "slug": ""
      },
      {
-      "name": "Sarah Erfani",
-      "slug": ""
+      "name": "Sarah M. Erfani",
+      "slug": "sarah-m-erfani"
      }
     ]
    },
@@ -21614,11 +22126,11 @@
     "authors": [
      {
       "name": "Rem Yang",
-      "slug": ""
+      "slug": "rem-yang"
      },
      {
       "name": "Jacob Laurel",
-      "slug": ""
+      "slug": "jacob-laurel"
      },
      {
       "name": "Sasa Misailovic",
@@ -23189,12 +23701,12 @@
     ],
     "authors": [
      {
-      "name": "Andrew Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
-      "name": "Neil Marchant",
-      "slug": ""
+      "name": "Neil G. Marchant",
+      "slug": "neil-g-marchant"
      },
      {
       "name": "Jiani Xie",
@@ -23580,7 +24092,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": "tong-wu"
+      "slug": ""
      },
      {
       "name": "Chong Xiang",
@@ -24833,8 +25345,8 @@
       "slug": ""
      },
      {
-      "name": "Sarah Erfani",
-      "slug": ""
+      "name": "Sarah M. Erfani",
+      "slug": "sarah-m-erfani"
      }
     ]
    },
@@ -25446,7 +25958,7 @@
      },
      {
       "name": "Dawn Song",
-      "slug": ""
+      "slug": "dawn-song"
      },
      {
       "name": "Bo Li",
@@ -26856,13 +27368,13 @@
   ],
   "name": "Quantized & bit-level",
   "description": "Bit-precise verification of quantized and binarized networks, including bit-flip resilience.",
-  "papers": 10,
-  "citations": 219,
+  "papers": 11,
+  "citations": 260,
   "venues": {
    "neurips": 2,
    "oopsla": 2,
    "icml": 1,
-   "cav": 2,
+   "cav": 3,
    "iclr": 2,
    "ase": 1
   },
@@ -26871,7 +27383,7 @@
    "cv": 0,
    "pl": 2,
    "se": 1,
-   "lv": 2
+   "lv": 3
   },
   "areas": {
    "complete": 0,
@@ -26883,7 +27395,7 @@
    "control": 0,
    "relational": 0,
    "architectures": 0,
-   "quantized": 10,
+   "quantized": 11,
    "other": 0
   },
   "years": {
@@ -26891,7 +27403,7 @@
    "2018": 0,
    "2019": 0,
    "2020": 2,
-   "2021": 0,
+   "2021": 1,
    "2022": 1,
    "2023": 1,
    "2024": 0,
@@ -26899,30 +27411,30 @@
    "2026": 1
   },
   "tagged": 3,
-  "total": 13,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Quantized &amp; bit-level: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"178.0\" x2=\"630\" y2=\"178.0\"/><text x=\"28\" y=\"182.0\" text-anchor=\"end\">1</text><line class=\"grid\" x1=\"34\" y1=\"142.0\" x2=\"630\" y2=\"142.0\"/><text x=\"28\" y=\"146.0\" text-anchor=\"end\">2</text><line class=\"grid\" x1=\"34\" y1=\"106.0\" x2=\"630\" y2=\"106.0\"/><text x=\"28\" y=\"110.0\" text-anchor=\"end\">3</text><line class=\"grid\" x1=\"34\" y1=\"70.0\" x2=\"630\" y2=\"70.0\"/><text x=\"28\" y=\"74.0\" text-anchor=\"end\">4</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">5</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2020, ML: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-cv seg\" x=\"287.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2021, CV: 1 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"173.0\" text-anchor=\"middle\">1</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-pl seg\" x=\"346.8\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2022, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"142.0\" width=\"30.0\" height=\"36.0\"><title>2022, SE: 1 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2023, ML: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"142.0\" width=\"30.0\" height=\"36.0\"><title>2023, LV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2025, ML: 2 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"70.0\" width=\"30.0\" height=\"72.0\"><title>2025, PL: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"34.0\" width=\"30.0\" height=\"36.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"29.0\" text-anchor=\"middle\">5</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2026, ML: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"173.0\" text-anchor=\"middle\">1</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
-  "tracked": 9,
+  "total": 14,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Quantized &amp; bit-level: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"178.0\" x2=\"630\" y2=\"178.0\"/><text x=\"28\" y=\"182.0\" text-anchor=\"end\">1</text><line class=\"grid\" x1=\"34\" y1=\"142.0\" x2=\"630\" y2=\"142.0\"/><text x=\"28\" y=\"146.0\" text-anchor=\"end\">2</text><line class=\"grid\" x1=\"34\" y1=\"106.0\" x2=\"630\" y2=\"106.0\"/><text x=\"28\" y=\"110.0\" text-anchor=\"end\">3</text><line class=\"grid\" x1=\"34\" y1=\"70.0\" x2=\"630\" y2=\"70.0\"/><text x=\"28\" y=\"74.0\" text-anchor=\"end\">4</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">5</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2020, ML: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-cv seg\" x=\"287.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2021, CV: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"287.2\" y=\"142.0\" width=\"30.0\" height=\"36.0\"><title>2021, LV: 1 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-pl seg\" x=\"346.8\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2022, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"346.8\" y=\"142.0\" width=\"30.0\" height=\"36.0\"><title>2022, SE: 1 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2023, ML: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"142.0\" width=\"30.0\" height=\"36.0\"><title>2023, LV: 1 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"137.0\" text-anchor=\"middle\">2</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2025, ML: 2 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"70.0\" width=\"30.0\" height=\"72.0\"><title>2025, PL: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"34.0\" width=\"30.0\" height=\"36.0\"><title>2025, LV: 1 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"29.0\" text-anchor=\"middle\">5</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"178.0\" width=\"30.0\" height=\"36.0\"><title>2026, ML: 1 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"173.0\" text-anchor=\"middle\">1</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tracked": 10,
   "researchers": [
-   {
-    "slug": "jun-sun",
-    "name": "Jun Sun",
-    "papers": 3,
-    "group": "socrates",
-    "group_name": "Socrates (SMU)"
-   },
    {
     "slug": "fu-song",
     "name": "Fu Song",
-    "papers": 3,
+    "papers": 4,
     "group": "fu-song",
     "group_name": "QVIP / QEBVerif"
    },
    {
     "slug": "yedi-zhang",
     "name": "Yedi Zhang",
-    "papers": 3,
+    "papers": 4,
     "group": "fu-song",
     "group_name": "QVIP / QEBVerif"
+   },
+   {
+    "slug": "jun-sun",
+    "name": "Jun Sun",
+    "papers": 3,
+    "group": "socrates",
+    "group_name": "Socrates (SMU)"
    },
    {
     "slug": "balazs-banhelyi",
@@ -26937,17 +27449,38 @@
     "papers": 2,
     "group": "mark-jelasity",
     "group_name": "Márk Jelasity group"
+   },
+   {
+    "slug": "guangke-chen",
+    "name": "Guangke Chen",
+    "papers": 2,
+    "group": "fu-song",
+    "group_name": "QVIP / QEBVerif"
+   },
+   {
+    "slug": "taolue-chen",
+    "name": "Taolue Chen",
+    "papers": 2,
+    "group": "fu-song",
+    "group_name": "QVIP / QEBVerif"
+   },
+   {
+    "slug": "zhe-zhao",
+    "name": "Zhe Zhao",
+    "papers": 2,
+    "group": "fu-song",
+    "group_name": "QVIP / QEBVerif"
    }
   ],
   "groups": [
    {
-    "slug": "socrates",
-    "name": "Socrates (SMU)",
-    "papers": 3
-   },
-   {
     "slug": "fu-song",
     "name": "QVIP / QEBVerif",
+    "papers": 4
+   },
+   {
+    "slug": "socrates",
+    "name": "Socrates (SMU)",
     "papers": 3
    },
    {
@@ -27256,11 +27789,11 @@
      },
      {
       "name": "Zhe Zhao",
-      "slug": ""
+      "slug": "zhe-zhao"
      },
      {
       "name": "Guangke Chen",
-      "slug": ""
+      "slug": "guangke-chen"
      },
      {
       "name": "Fu Song",
@@ -27272,11 +27805,50 @@
      },
      {
       "name": "Taolue Chen",
-      "slug": ""
+      "slug": "taolue-chen"
      },
      {
       "name": "Jun Sun",
       "slug": "jun-sun"
+     }
+    ]
+   },
+   {
+    "id": "zhang2021bdd4bnn",
+    "key": "conf/cav/ZhangZCSC21",
+    "date": "2021-07",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2021,
+    "field": "lv",
+    "title": "BDD4BNN: A BDD-Based Quantitative Analysis Framework for Binarized Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-030-81685-8_8",
+    "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "quantized",
+    "area_name": "Quantized & bit-level",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yedi Zhang",
+      "slug": "yedi-zhang"
+     },
+     {
+      "name": "Zhe Zhao",
+      "slug": "zhe-zhao"
+     },
+     {
+      "name": "Guangke Chen",
+      "slug": "guangke-chen"
+     },
+     {
+      "name": "Fu Song",
+      "slug": "fu-song"
+     },
+     {
+      "name": "Taolue Chen",
+      "slug": "taolue-chen"
      }
     ]
    },
@@ -27465,24 +28037,25 @@
   ],
   "name": "Other",
   "description": "Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys.",
-  "papers": 49,
-  "citations": 2145,
+  "papers": 53,
+  "citations": 2314,
   "venues": {
-   "neurips": 13,
+   "neurips": 14,
    "icml": 4,
    "fse": 2,
    "cav": 12,
-   "iclr": 10,
-   "ase": 4,
+   "iclr": 11,
+   "ase": 5,
    "oopsla": 1,
    "cvpr": 2,
-   "issta": 1
+   "issta": 1,
+   "popl": 1
   },
   "fields": {
-   "ml": 27,
+   "ml": 29,
    "cv": 2,
-   "pl": 1,
-   "se": 7,
+   "pl": 2,
+   "se": 8,
    "lv": 12
   },
   "areas": {
@@ -27496,29 +28069,43 @@
    "relational": 0,
    "architectures": 0,
    "quantized": 0,
-   "other": 49
+   "other": 53
   },
   "years": {
    "2017": 1,
    "2018": 0,
-   "2019": 0,
+   "2019": 1,
    "2020": 5,
    "2021": 7,
-   "2022": 5,
+   "2022": 7,
    "2023": 8,
-   "2024": 7,
+   "2024": 8,
    "2025": 8,
    "2026": 8
   },
   "tagged": 16,
-  "total": 65,
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Other: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"154.0\" x2=\"630\" y2=\"154.0\"/><text x=\"28\" y=\"158.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"94.0\" x2=\"630\" y2=\"94.0\"/><text x=\"28\" y=\"98.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">15</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"202.0\" width=\"30.0\" height=\"12.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"197.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-lv seg\" x=\"168.0\" y=\"202.0\" width=\"30.0\" height=\"12.0\"><title>2019, LV: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"197.0\" text-anchor=\"middle\">1</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2020, ML: 5 papers</title></rect><rect class=\"ar-lv seg\" x=\"227.6\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2020, LV: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"125.0\" text-anchor=\"middle\">7</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2021, ML: 5 papers</title></rect><rect class=\"ar-se seg\" x=\"287.2\" y=\"142.0\" width=\"30.0\" height=\"12.0\"><title>2021, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"287.2\" y=\"118.0\" width=\"30.0\" height=\"24.0\"><title>2021, LV: 2 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"113.0\" text-anchor=\"middle\">8</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2022, ML: 5 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"125.0\" text-anchor=\"middle\">7</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"166.0\" width=\"30.0\" height=\"48.0\"><title>2023, ML: 4 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"154.0\" width=\"30.0\" height=\"12.0\"><title>2023, CV: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"406.4\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2023, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"106.0\" width=\"30.0\" height=\"24.0\"><title>2023, LV: 2 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"101.0\" text-anchor=\"middle\">9</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"166.0\" width=\"30.0\" height=\"48.0\"><title>2024, ML: 4 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"142.0\" width=\"30.0\" height=\"24.0\"><title>2024, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"466.0\" y=\"106.0\" width=\"30.0\" height=\"36.0\"><title>2024, LV: 3 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"101.0\" text-anchor=\"middle\">9</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2025, ML: 5 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2025, CV: 2 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"118.0\" width=\"30.0\" height=\"12.0\"><title>2025, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"525.6\" y=\"106.0\" width=\"30.0\" height=\"12.0\"><title>2025, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"70.0\" width=\"30.0\" height=\"36.0\"><title>2025, LV: 3 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"65.0\" text-anchor=\"middle\">12</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"130.0\" width=\"30.0\" height=\"84.0\"><title>2026, ML: 7 papers</title></rect><rect class=\"ar-pl seg\" x=\"585.2\" y=\"118.0\" width=\"30.0\" height=\"12.0\"><title>2026, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"106.0\" width=\"30.0\" height=\"12.0\"><title>2026, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"585.2\" y=\"82.0\" width=\"30.0\" height=\"24.0\"><title>2026, LV: 2 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"77.0\" text-anchor=\"middle\">11</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
-  "tracked": 35,
+  "total": 69,
+  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 238\" role=\"img\" aria-label=\"Other: NNV papers per year by field\"><rect class=\"ar-ml\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"52\" y=\"16\">ML</text><rect class=\"ar-cv\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"94.8\" y=\"16\">CV</text><rect class=\"ar-pl\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">PL</text><rect class=\"ar-se\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">SE</text><rect class=\"ar-lv\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">LV</text><line class=\"axis\" x1=\"34\" y1=\"214.0\" x2=\"630\" y2=\"214.0\"/><text x=\"28\" y=\"218.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"154.0\" x2=\"630\" y2=\"154.0\"/><text x=\"28\" y=\"158.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"94.0\" x2=\"630\" y2=\"94.0\"/><text x=\"28\" y=\"98.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">15</text><rect class=\"ar-ml seg\" x=\"48.8\" y=\"202.0\" width=\"30.0\" height=\"12.0\"><title>2017, ML: 1 papers</title></rect><text class=\"value\" x=\"63.8\" y=\"197.0\" text-anchor=\"middle\">1</text><text x=\"63.8\" y=\"231\" text-anchor=\"middle\">2017</text><text x=\"123.4\" y=\"231\" text-anchor=\"middle\">2018</text><rect class=\"ar-se seg\" x=\"168.0\" y=\"202.0\" width=\"30.0\" height=\"12.0\"><title>2019, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"168.0\" y=\"190.0\" width=\"30.0\" height=\"12.0\"><title>2019, LV: 1 papers</title></rect><text class=\"value\" x=\"183.0\" y=\"185.0\" text-anchor=\"middle\">2</text><text x=\"183.0\" y=\"231\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml seg\" x=\"227.6\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2020, ML: 5 papers</title></rect><rect class=\"ar-lv seg\" x=\"227.6\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2020, LV: 2 papers</title></rect><text class=\"value\" x=\"242.6\" y=\"125.0\" text-anchor=\"middle\">7</text><text x=\"242.6\" y=\"231\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml seg\" x=\"287.2\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2021, ML: 5 papers</title></rect><rect class=\"ar-se seg\" x=\"287.2\" y=\"142.0\" width=\"30.0\" height=\"12.0\"><title>2021, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"287.2\" y=\"118.0\" width=\"30.0\" height=\"24.0\"><title>2021, LV: 2 papers</title></rect><text class=\"value\" x=\"302.2\" y=\"113.0\" text-anchor=\"middle\">8</text><text x=\"302.2\" y=\"231\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml seg\" x=\"346.8\" y=\"142.0\" width=\"30.0\" height=\"72.0\"><title>2022, ML: 6 papers</title></rect><rect class=\"ar-pl seg\" x=\"346.8\" y=\"130.0\" width=\"30.0\" height=\"12.0\"><title>2022, PL: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"346.8\" y=\"106.0\" width=\"30.0\" height=\"24.0\"><title>2022, LV: 2 papers</title></rect><text class=\"value\" x=\"361.8\" y=\"101.0\" text-anchor=\"middle\">9</text><text x=\"361.8\" y=\"231\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml seg\" x=\"406.4\" y=\"166.0\" width=\"30.0\" height=\"48.0\"><title>2023, ML: 4 papers</title></rect><rect class=\"ar-cv seg\" x=\"406.4\" y=\"154.0\" width=\"30.0\" height=\"12.0\"><title>2023, CV: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"406.4\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2023, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"406.4\" y=\"106.0\" width=\"30.0\" height=\"24.0\"><title>2023, LV: 2 papers</title></rect><text class=\"value\" x=\"421.4\" y=\"101.0\" text-anchor=\"middle\">9</text><text x=\"421.4\" y=\"231\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml seg\" x=\"466.0\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2024, ML: 5 papers</title></rect><rect class=\"ar-se seg\" x=\"466.0\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2024, SE: 2 papers</title></rect><rect class=\"ar-lv seg\" x=\"466.0\" y=\"94.0\" width=\"30.0\" height=\"36.0\"><title>2024, LV: 3 papers</title></rect><text class=\"value\" x=\"481.0\" y=\"89.0\" text-anchor=\"middle\">10</text><text x=\"481.0\" y=\"231\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml seg\" x=\"525.6\" y=\"154.0\" width=\"30.0\" height=\"60.0\"><title>2025, ML: 5 papers</title></rect><rect class=\"ar-cv seg\" x=\"525.6\" y=\"130.0\" width=\"30.0\" height=\"24.0\"><title>2025, CV: 2 papers</title></rect><rect class=\"ar-pl seg\" x=\"525.6\" y=\"118.0\" width=\"30.0\" height=\"12.0\"><title>2025, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"525.6\" y=\"106.0\" width=\"30.0\" height=\"12.0\"><title>2025, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"525.6\" y=\"70.0\" width=\"30.0\" height=\"36.0\"><title>2025, LV: 3 papers</title></rect><text class=\"value\" x=\"540.6\" y=\"65.0\" text-anchor=\"middle\">12</text><text x=\"540.6\" y=\"231\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml seg\" x=\"585.2\" y=\"130.0\" width=\"30.0\" height=\"84.0\"><title>2026, ML: 7 papers</title></rect><rect class=\"ar-pl seg\" x=\"585.2\" y=\"118.0\" width=\"30.0\" height=\"12.0\"><title>2026, PL: 1 papers</title></rect><rect class=\"ar-se seg\" x=\"585.2\" y=\"106.0\" width=\"30.0\" height=\"12.0\"><title>2026, SE: 1 papers</title></rect><rect class=\"ar-lv seg\" x=\"585.2\" y=\"82.0\" width=\"30.0\" height=\"24.0\"><title>2026, LV: 2 papers</title></rect><text class=\"value\" x=\"600.2\" y=\"77.0\" text-anchor=\"middle\">11</text><text x=\"600.2\" y=\"231\" text-anchor=\"middle\">2026</text></svg>",
+  "tracked": 39,
   "researchers": [
    {
     "slug": "soheil-feizi",
     "name": "Soheil Feizi",
-    "papers": 5,
+    "papers": 6,
+    "group": "reliable-ai",
+    "group_name": "Reliable AI Lab (UMD)"
+   },
+   {
+    "slug": "gagandeep-singh",
+    "name": "Gagandeep Singh",
+    "papers": 3,
+    "group": "singh-uiuc",
+    "group_name": "Singh group (UIUC)"
+   },
+   {
+    "slug": "alexander-levine",
+    "name": "Alexander Levine",
+    "papers": 3,
     "group": "reliable-ai",
     "group_name": "Reliable AI Lab (UMD)"
    },
@@ -27544,25 +28131,18 @@
     "group_name": "NeuralSAT"
    },
    {
+    "slug": "wenxiao-wang",
+    "name": "Wenxiao Wang",
+    "papers": 3,
+    "group": "reliable-ai",
+    "group_name": "Reliable AI Lab (UMD)"
+   },
+   {
     "slug": "hoang-dung-tran",
     "name": "Hoang-Dung Tran",
     "papers": 3,
     "group": "nnv",
     "group_name": "NNV (VeriVITAL)"
-   },
-   {
-    "slug": "gagandeep-singh",
-    "name": "Gagandeep Singh",
-    "papers": 2,
-    "group": "singh-uiuc",
-    "group_name": "Singh group (UIUC)"
-   },
-   {
-    "slug": "alexander-levine",
-    "name": "Alexander Levine",
-    "papers": 2,
-    "group": "reliable-ai",
-    "group_name": "Reliable AI Lab (UMD)"
    },
    {
     "slug": "hai-duong",
@@ -27577,25 +28157,23 @@
     "papers": 2,
     "group": "gong",
     "group_name": "Gong group (Duke)"
-   },
-   {
-    "slug": "taylor-t-johnson",
-    "name": "Taylor T. Johnson",
-    "papers": 2,
-    "group": "nnv",
-    "group_name": "NNV (VeriVITAL)"
    }
   ],
   "groups": [
+   {
+    "slug": "reliable-ai",
+    "name": "Reliable AI Lab (UMD)",
+    "papers": 6
+   },
    {
     "slug": "neuralsat",
     "name": "NeuralSAT",
     "papers": 5
    },
    {
-    "slug": "reliable-ai",
-    "name": "Reliable AI Lab (UMD)",
-    "papers": 5
+    "slug": "singh-uiuc",
+    "name": "Singh group (UIUC)",
+    "papers": 3
    },
    {
     "slug": "socrates",
@@ -27608,11 +28186,6 @@
     "papers": 3
    },
    {
-    "slug": "singh-uiuc",
-    "name": "Singh group (UIUC)",
-    "papers": 2
-   },
-   {
     "slug": "jia-psu",
     "name": "Jia group (Penn State)",
     "papers": 2
@@ -27623,8 +28196,18 @@
     "papers": 2
    },
    {
+    "slug": "aaron-j-havens",
+    "name": "Aaron J. Havens group",
+    "papers": 2
+   },
+   {
     "slug": "gong",
     "name": "Gong group (Duke)",
+    "papers": 2
+   },
+   {
+    "slug": "pasareanu",
+    "name": "Pasareanu group (CMU/NASA)",
     "papers": 2
    }
   ],
@@ -28463,6 +29046,53 @@
     ]
    },
    {
+    "id": "pauli2024novel",
+    "key": "conf/iclr/PauliHAGKA024",
+    "date": "2024-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Novel Quadratic Constraints for Extending LipSDP beyond Slope-Restricted Activations",
+    "url": "https://dblp.org/rec/conf/iclr/PauliHAGKA024",
+    "citations": 18,
+    "arxiv": "2401.14033",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Patricia Pauli",
+      "slug": ""
+     },
+     {
+      "name": "Aaron J. Havens",
+      "slug": "aaron-j-havens"
+     },
+     {
+      "name": "Alexandre Araujo",
+      "slug": "alexandre-araujo"
+     },
+     {
+      "name": "Siddharth Garg",
+      "slug": "siddharth-garg"
+     },
+     {
+      "name": "Farshad Khorrami",
+      "slug": "farshad-khorrami"
+     },
+     {
+      "name": "Frank Allgöwer",
+      "slug": ""
+     },
+     {
+      "name": "Bin Hu",
+      "slug": "bin-hu"
+     }
+    ]
+   },
+   {
     "id": "wang2023temporal",
     "key": "conf/nips/0002F23",
     "date": "2023-12",
@@ -28810,6 +29440,37 @@
     ]
    },
    {
+    "id": "wang2022lethal",
+    "key": "conf/nips/00020F22",
+    "date": "2022-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Lethal Dose Conjecture on Data Poisoning",
+    "url": "https://dblp.org/rec/conf/nips/00020F22",
+    "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Wenxiao Wang",
+      "slug": "wenxiao-wang"
+     },
+     {
+      "name": "Alexander Levine",
+      "slug": "alexander-levine"
+     },
+     {
+      "name": "Soheil Feizi",
+      "slug": "soheil-feizi"
+     }
+    ]
+   },
+   {
     "id": "bharti2022provable",
     "key": "conf/nips/BhartiZSZ22",
     "date": "2022-12",
@@ -28909,6 +29570,41 @@
      {
       "name": "Jun Sun",
       "slug": "jun-sun"
+     }
+    ]
+   },
+   {
+    "id": "laurel2022dual",
+    "key": "journals/pacmpl/LaurelYSM22",
+    "date": "2022-01",
+    "venue": "popl",
+    "venue_name": "POPL",
+    "year": 2022,
+    "field": "pl",
+    "title": "A dual number abstraction for static analysis of Clarke Jacobians",
+    "url": "https://doi.org/10.1145/3498718",
+    "citations": 29,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jacob Laurel",
+      "slug": "jacob-laurel"
+     },
+     {
+      "name": "Rem Yang",
+      "slug": "rem-yang"
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Sasa Misailovic",
+      "slug": "sasa-misailovic"
      }
     ]
    },
@@ -29344,6 +30040,46 @@
      {
       "name": "Martin Vechev",
       "slug": "martin-vechev"
+     }
+    ]
+   },
+   {
+    "id": "gopinath2019property",
+    "key": "conf/kbse/GopinathCPT19",
+    "date": "2019-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2019,
+    "field": "se",
+    "title": "Property Inference for Deep Neural Networks",
+    "url": "https://doi.org/10.1109/ase.2019.00079",
+    "citations": 105,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "explanations",
+      "name": "Formal explanations"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Divya Gopinath",
+      "slug": "divya-gopinath"
+     },
+     {
+      "name": "Hayes Converse",
+      "slug": ""
+     },
+     {
+      "name": "Corina S. Pasareanu",
+      "slug": "corina-s-pasareanu"
+     },
+     {
+      "name": "Ankur Taly",
+      "slug": ""
      }
     ]
    },

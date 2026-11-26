@@ -9,6 +9,14 @@
   "orcid": "0000-0001-7319-8845",
   "fetched": "2026-11-26"
  },
+ "00/6381": {
+  "name": "Bin Hu",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "00/6381-2": {
   "name": "Bin Hu",
   "affiliations": [
@@ -77,6 +85,14 @@
   "primary": "Stanford University, Computer Science Department",
   "homepage": "http://cs.stanford.edu/~pliang/",
   "orcid": "0000-0002-0458-6139",
+  "fetched": "2026-11-26"
+ },
+ "04/2721": {
+  "name": "Kai Xiao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
   "fetched": "2026-11-26"
  },
  "04/5623": {
@@ -457,6 +473,14 @@
   "orcid": "0000-0003-3578-7432",
   "fetched": "2026-11-26"
  },
+ "15/4624": {
+  "name": "Laurent Meunier",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "15/6625": {
   "name": "Franck Mamalet",
   "affiliations": [],
@@ -481,6 +505,14 @@
   "primary": "Singapore Management University, Singapore",
   "homepage": "",
   "orcid": "0000-0002-4681-1699",
+  "fetched": "2026-11-26"
+ },
+ "151/0307": {
+  "name": "Kun Jin",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
   "fetched": "2026-11-26"
  },
  "151/5889": {
@@ -574,6 +606,14 @@
  },
  "16/7787": {
   "name": "Stanley Bak",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "16/7856": {
+  "name": "Divya Gopinath",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1509,6 +1549,18 @@
   "orcid": "0000-0002-9271-6422",
   "fetched": "2026-11-26"
  },
+ "25/1529": {
+  "name": "Anima Anandkumar",
+  "affiliations": [
+   "California Institute of Technology, Pasadena, USA",
+   "NVIDIA, USA",
+   "University of California Irvine, Center for Pervasive Communications and Computing"
+  ],
+  "primary": "California Institute of Technology, Pasadena, USA",
+  "homepage": "http://tensorlab.cms.caltech.edu/users/anima/",
+  "orcid": "0000-0002-6974-6797",
+  "fetched": "2026-11-26"
+ },
  "25/6006-2": {
   "name": "Tobias Lorenz",
   "affiliations": [
@@ -1549,6 +1601,14 @@
  },
  "251/9586": {
   "name": "Yizhak Yisrael Elboher",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "252/5255": {
+  "name": "Guangke Chen",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1614,8 +1674,24 @@
   "orcid": "0000-0002-4535-2902",
   "fetched": "2026-11-26"
  },
+ "263/1193": {
+  "name": "Jacob Laurel",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://jsl1994.github.io/",
+  "orcid": "0000-0002-4065-4063",
+  "fetched": "2026-11-26"
+ },
  "264/0078": {
   "name": "Mohammad Sadegh Akhondzadeh",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "267/2369": {
+  "name": "Alberto González-Sanz",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1643,6 +1719,14 @@
  },
  "270/0220": {
   "name": "Zhongkai Hao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "270/0797": {
+  "name": "Louis Béthune",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1721,6 +1805,26 @@
   "primary": "",
   "homepage": "",
   "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "28/4743": {
+  "name": "Taolue Chen",
+  "affiliations": [
+   "School of Computing and Mathematical Sciences, Birkbeck, University of London, UK"
+  ],
+  "primary": "School of Computing and Mathematical Sciences, Birkbeck, University of London, UK",
+  "homepage": "https://chentaolue.github.io/",
+  "orcid": "0000-0002-5993-1665",
+  "fetched": "2026-11-26"
+ },
+ "28/6429-7": {
+  "name": "Zhe Zhao",
+  "affiliations": [
+   "ShanghaiTech University, China"
+  ],
+  "primary": "ShanghaiTech University, China",
+  "homepage": "",
+  "orcid": "0000-0003-4189-3258",
   "fetched": "2026-11-26"
  },
  "28/9798": {
@@ -1823,6 +1927,14 @@
   "orcid": "",
   "fetched": "2026-11-26"
  },
+ "297/5403": {
+  "name": "Zhongzhu Chen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "298/2914": {
   "name": "Linhan Li",
   "affiliations": [],
@@ -1863,6 +1975,14 @@
   "orcid": "",
   "fetched": "2026-11-26"
  },
+ "305/9400": {
+  "name": "Rem Yang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "31/7062": {
   "name": "Jinwoo Shin",
   "affiliations": [],
@@ -1889,6 +2009,14 @@
  },
  "322/0262": {
   "name": "Ruikun Zhou",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "322/5991": {
+  "name": "Jiongxiao Wang",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -1977,6 +2105,14 @@
  },
  "334/1651": {
   "name": "Zhiyi Xue",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "334/4133": {
+  "name": "Jiachen Lei",
   "affiliations": [],
   "primary": "",
   "homepage": "",
@@ -2281,6 +2417,14 @@
   "primary": "Technical University of Munich, Germany",
   "homepage": "http://www.kdd.in.tum.de/en/home/",
   "orcid": "0000-0001-7772-5059",
+  "fetched": "2026-11-26"
+ },
+ "446/9437": {
+  "name": "Yizhak Elboher",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
   "fetched": "2026-11-26"
  },
  "45/2527": {
@@ -2988,6 +3132,14 @@
   "orcid": "0000-0002-5181-4560",
   "fetched": "2026-11-26"
  },
+ "87/5298": {
+  "name": "Pawan Kumar Mudigonda",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
  "89/11072": {
   "name": "Quentin Barthélemy",
   "affiliations": [],
@@ -3351,6 +3503,16 @@
   "primary": "Max Planck Institute for Informatics, Saarbücken, Germany",
   "homepage": "http://www.d2.mpi-inf.mpg.de/schiele/",
   "orcid": "0000-0001-9683-5237",
+  "fetched": "2026-11-26"
+ },
+ "s/DXSong": {
+  "name": "Dawn Song",
+  "affiliations": [
+   "University of California, Berkeley, Computer Science Division"
+  ],
+  "primary": "University of California, Berkeley, Computer Science Division",
+  "homepage": "http://www.cs.berkeley.edu/~dawnsong/",
+  "orcid": "0000-0001-9745-6802",
   "fetched": "2026-11-26"
  },
  "s/JunSun1": {

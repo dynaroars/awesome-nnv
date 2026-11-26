@@ -5,13 +5,13 @@
   "full_name": "International Conference on Machine Learning",
   "field": "ml",
   "field_name": "ML",
-  "papers": 101,
-  "citations": 7837,
+  "papers": 102,
+  "citations": 7852,
   "venues": {
-   "icml": 101
+   "icml": 102
   },
   "fields": {
-   "ml": 101,
+   "ml": 102,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -20,7 +20,7 @@
   "areas": {
    "complete": 2,
    "bounds": 12,
-   "probabilistic": 39,
+   "probabilistic": 40,
    "training": 18,
    "repair": 1,
    "explanations": 7,
@@ -38,7 +38,7 @@
    "2021": 9,
    "2022": 17,
    "2023": 11,
-   "2024": 16,
+   "2024": 17,
    "2025": 16,
    "2026": 14
   },
@@ -55,10 +55,15 @@
    "2026": 6341
   },
   "all_papers": 19291,
-  "share": 0.52,
+  "share": 0.53,
   "missing": [],
   "not_held": [],
   "researchers": [
+   {
+    "slug": "bo-li",
+    "name": "Bo Li",
+    "papers": 7
+   },
    {
     "slug": "soheil-feizi",
     "name": "Soheil Feizi",
@@ -67,11 +72,6 @@
    {
     "slug": "huan-zhang",
     "name": "Huan Zhang",
-    "papers": 6
-   },
-   {
-    "slug": "bo-li",
-    "name": "Bo Li",
     "papers": 6
    },
    {
@@ -120,13 +120,13 @@
     "papers": 3
    },
    {
-    "slug": "cho-jui-hsieh",
-    "name": "Cho-Jui Hsieh",
+    "slug": "alexander-levine",
+    "name": "Alexander Levine",
     "papers": 3
    },
    {
-    "slug": "alexander-levine",
-    "name": "Alexander Levine",
+    "slug": "cho-jui-hsieh",
+    "name": "Cho-Jui Hsieh",
     "papers": 3
    },
    {
@@ -717,8 +717,8 @@
       "slug": ""
      },
      {
-      "name": "Sarah Erfani",
-      "slug": ""
+      "name": "Sarah M. Erfani",
+      "slug": "sarah-m-erfani"
      }
     ]
    },
@@ -1501,6 +1501,45 @@
      },
      {
       "name": "Dawn Song",
+      "slug": "dawn-song"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "kang2024certifiably",
+    "key": "conf/icml/KangL0X024",
+    "date": "2024-07",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Certifiably Byzantine-Robust Federated Conformal Prediction",
+    "url": "https://dblp.org/rec/conf/icml/KangL0X024",
+    "citations": 15,
+    "arxiv": "2406.01960",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mintong Kang",
+      "slug": "mintong-kang"
+     },
+     {
+      "name": "Zhen Lin",
+      "slug": ""
+     },
+     {
+      "name": "Jimeng Sun",
+      "slug": ""
+     },
+     {
+      "name": "Cao Xiao",
       "slug": ""
      },
      {
@@ -2296,7 +2335,7 @@
     "authors": [
      {
       "name": "Louis Béthune",
-      "slug": ""
+      "slug": "louis-bethune"
      },
      {
       "name": "Paul Novello",
@@ -2405,7 +2444,7 @@
     "authors": [
      {
       "name": "Laurent Meunier",
-      "slug": ""
+      "slug": "laurent-meunier"
      },
      {
       "name": "Blaise Delattre",
@@ -3979,7 +4018,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICML: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2017: 0 of 434 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V73.5 Q47.2,71.0 49.7,71.0 H57.9 Q60.4,71.0 60.4,73.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2018: 3 of 621 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V71.2 Q68.4,68.7 70.9,68.7 H79.1 Q81.6,68.7 81.6,71.2 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2019: 4 of 773 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V54.8 Q89.6,52.3 92.1,52.3 H100.3 Q102.8,52.3 102.8,54.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2020: 11 of 1,085 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V59.5 Q110.8,57.0 113.3,57.0 H121.5 Q124.0,57.0 124.0,59.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2021: 9 of 1,183 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V40.8 Q132.0,38.3 134.5,38.3 H142.7 Q145.2,38.3 145.2,40.8 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2022: 17 of 1,234 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V54.8 Q153.2,52.3 155.7,52.3 H163.9 Q166.4,52.3 166.4,54.8 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2023: 11 of 1,828 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V43.2 Q174.4,40.7 176.9,40.7 H185.1 Q187.6,40.7 187.6,43.2 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2024: 16 of 2,535 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V43.2 Q195.6,40.7 198.1,40.7 H206.3 Q208.8,40.7 208.8,43.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2025: 16 of 3,257 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V47.8 Q216.8,45.3 219.3,45.3 H227.5 Q230.0,45.3 230.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2026: 14 of 6,341 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICML: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2017: 0 of 434 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V73.5 Q47.2,71.0 49.7,71.0 H57.9 Q60.4,71.0 60.4,73.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2018: 3 of 621 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V71.2 Q68.4,68.7 70.9,68.7 H79.1 Q81.6,68.7 81.6,71.2 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2019: 4 of 773 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V54.8 Q89.6,52.3 92.1,52.3 H100.3 Q102.8,52.3 102.8,54.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2020: 11 of 1,085 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V59.5 Q110.8,57.0 113.3,57.0 H121.5 Q124.0,57.0 124.0,59.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2021: 9 of 1,183 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V40.8 Q132.0,38.3 134.5,38.3 H142.7 Q145.2,38.3 145.2,40.8 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2022: 17 of 1,234 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V54.8 Q153.2,52.3 155.7,52.3 H163.9 Q166.4,52.3 166.4,54.8 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2023: 11 of 1,828 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V40.8 Q174.4,38.3 176.9,38.3 H185.1 Q187.6,38.3 187.6,40.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2024: 17 of 2,535 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V43.2 Q195.6,40.7 198.1,40.7 H206.3 Q208.8,40.7 208.8,43.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2025: 16 of 3,257 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V47.8 Q216.8,45.3 219.3,45.3 H227.5 Q230.0,45.3 230.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2026: 14 of 6,341 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 30
  },
  {
@@ -3988,13 +4027,13 @@
   "full_name": "International Conference on Learning Representations",
   "field": "ml",
   "field_name": "ML",
-  "papers": 107,
-  "citations": 6740,
+  "papers": 112,
+  "citations": 6854,
   "venues": {
-   "iclr": 107
+   "iclr": 112
   },
   "fields": {
-   "ml": 107,
+   "ml": 112,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -4003,7 +4042,7 @@
   "areas": {
    "complete": 6,
    "bounds": 12,
-   "probabilistic": 29,
+   "probabilistic": 33,
    "training": 23,
    "repair": 1,
    "explanations": 5,
@@ -4011,7 +4050,7 @@
    "relational": 3,
    "architectures": 10,
    "quantized": 2,
-   "other": 10
+   "other": 11
   },
   "years": {
    "2017": 0,
@@ -4019,10 +4058,10 @@
    "2019": 5,
    "2020": 14,
    "2021": 14,
-   "2022": 14,
-   "2023": 15,
-   "2024": 15,
-   "2025": 15,
+   "2022": 15,
+   "2023": 17,
+   "2024": 16,
+   "2025": 16,
    "2026": 13
   },
   "all_years": {
@@ -4038,7 +4077,7 @@
    "2026": 5351
   },
   "all_papers": 16565,
-  "share": 0.65,
+  "share": 0.68,
   "missing": [],
   "not_held": [],
   "researchers": [
@@ -4068,6 +4107,11 @@
     "papers": 7
    },
    {
+    "slug": "bo-li",
+    "name": "Bo Li",
+    "papers": 6
+   },
+   {
     "slug": "cho-jui-hsieh",
     "name": "Cho-Jui Hsieh",
     "papers": 6
@@ -4078,11 +4122,6 @@
     "papers": 5
    },
    {
-    "slug": "bo-li",
-    "name": "Bo Li",
-    "papers": 5
-   },
-   {
     "slug": "jinyuan-jia",
     "name": "Jinyuan Jia",
     "papers": 5
@@ -4090,6 +4129,11 @@
    {
     "slug": "krishnamurthy-dvijotham",
     "name": "Krishnamurthy Dvijotham",
+    "papers": 5
+   },
+   {
+    "slug": "alexandre-araujo",
+    "name": "Alexandre Araujo",
     "papers": 5
    }
   ],
@@ -4530,8 +4574,8 @@
       "slug": "shahaf-bassan"
      },
      {
-      "name": "Yizhak Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Tobias Ladner",
@@ -4900,6 +4944,61 @@
      {
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
+     }
+    ]
+   },
+   {
+    "id": "lei2025robust",
+    "key": "conf/iclr/LeiBWCXBR0A25",
+    "date": "2025-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2025,
+    "field": "ml",
+    "title": "Robust Representation Consistency Model via Contrastive Denoising",
+    "url": "https://dblp.org/rec/conf/iclr/LeiBWCXBR0A25",
+    "citations": 1,
+    "arxiv": "2501.13094",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jiachen Lei",
+      "slug": "jiachen-lei"
+     },
+     {
+      "name": "Julius Berner",
+      "slug": ""
+     },
+     {
+      "name": "Jiongxiao Wang",
+      "slug": "jiongxiao-wang"
+     },
+     {
+      "name": "Zhongzhu Chen",
+      "slug": "zhongzhu-chen"
+     },
+     {
+      "name": "Chaowei Xiao",
+      "slug": "chaowei-xiao"
+     },
+     {
+      "name": "Zhongjie Ba",
+      "slug": ""
+     },
+     {
+      "name": "Kui Ren",
+      "slug": ""
+     },
+     {
+      "name": "Jun Zhu",
+      "slug": "jun-zhu"
+     },
+     {
+      "name": "Anima Anandkumar",
+      "slug": "anima-anandkumar"
      }
     ]
    },
@@ -5624,6 +5723,53 @@
     ]
    },
    {
+    "id": "pauli2024novel",
+    "key": "conf/iclr/PauliHAGKA024",
+    "date": "2024-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Novel Quadratic Constraints for Extending LipSDP beyond Slope-Restricted Activations",
+    "url": "https://dblp.org/rec/conf/iclr/PauliHAGKA024",
+    "citations": 18,
+    "arxiv": "2401.14033",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Patricia Pauli",
+      "slug": ""
+     },
+     {
+      "name": "Aaron J. Havens",
+      "slug": "aaron-j-havens"
+     },
+     {
+      "name": "Alexandre Araujo",
+      "slug": "alexandre-araujo"
+     },
+     {
+      "name": "Siddharth Garg",
+      "slug": "siddharth-garg"
+     },
+     {
+      "name": "Farshad Khorrami",
+      "slug": "farshad-khorrami"
+     },
+     {
+      "name": "Frank Allgöwer",
+      "slug": ""
+     },
+     {
+      "name": "Bin Hu",
+      "slug": "bin-hu"
+     }
+    ]
+   },
+   {
     "id": "wang2024scalability",
     "key": "conf/iclr/Wang0HAZCJ24",
     "date": "2024-05",
@@ -5985,6 +6131,109 @@
     ]
    },
    {
+    "id": "wu2023denoising",
+    "key": "conf/iclr/WuYGZ0H23",
+    "date": "2023-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "Denoising Masked Autoencoders Help Robust Classification",
+    "url": "https://dblp.org/rec/conf/iclr/WuYGZ0H23",
+    "citations": 43,
+    "arxiv": "2210.06983",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Quanlin Wu",
+      "slug": ""
+     },
+     {
+      "name": "Hang Ye",
+      "slug": ""
+     },
+     {
+      "name": "Yuntian Gu",
+      "slug": ""
+     },
+     {
+      "name": "Huishuai Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Liwei Wang",
+      "slug": "liwei-wang"
+     },
+     {
+      "name": "Di He",
+      "slug": "di-he"
+     }
+    ]
+   },
+   {
+    "id": "xiao2023densepure",
+    "key": "conf/iclr/XiaoCJWNLA0S23",
+    "date": "2023-05",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "DensePure: Understanding Diffusion Models for Adversarial Robustness",
+    "url": "https://dblp.org/rec/conf/iclr/XiaoCJWNLA0S23",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chaowei Xiao",
+      "slug": "chaowei-xiao"
+     },
+     {
+      "name": "Zhongzhu Chen",
+      "slug": "zhongzhu-chen"
+     },
+     {
+      "name": "Kun Jin",
+      "slug": "kun-jin"
+     },
+     {
+      "name": "Jiongxiao Wang",
+      "slug": "jiongxiao-wang"
+     },
+     {
+      "name": "Weili Nie",
+      "slug": ""
+     },
+     {
+      "name": "Mingyan Liu",
+      "slug": ""
+     },
+     {
+      "name": "Anima Anandkumar",
+      "slug": "anima-anandkumar"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     },
+     {
+      "name": "Dawn Song",
+      "slug": "dawn-song"
+     }
+    ]
+   },
+   {
     "id": "zeqiri2023efficient",
     "key": "conf/iclr/ZeqiriM0V23",
     "date": "2023-05",
@@ -6162,11 +6411,11 @@
     "authors": [
      {
       "name": "Rem Yang",
-      "slug": ""
+      "slug": "rem-yang"
      },
      {
       "name": "Jacob Laurel",
-      "slug": ""
+      "slug": "jacob-laurel"
      },
      {
       "name": "Sasa Misailovic",
@@ -6676,6 +6925,53 @@
      {
       "name": "Bo Li",
       "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "zhang2022how",
+    "key": "conf/iclr/ZhangYJYHC022",
+    "date": "2022-04",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective",
+    "url": "https://dblp.org/rec/conf/iclr/ZhangYJYHC022",
+    "citations": 52,
+    "arxiv": "2203.14195",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yimeng Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Yuguang Yao",
+      "slug": ""
+     },
+     {
+      "name": "Jinghan Jia",
+      "slug": ""
+     },
+     {
+      "name": "Jinfeng Yi",
+      "slug": "jinfeng-yi"
+     },
+     {
+      "name": "Mingyi Hong",
+      "slug": ""
+     },
+     {
+      "name": "Shiyu Chang",
+      "slug": "shiyu-chang"
+     },
+     {
+      "name": "Sijia Liu",
+      "slug": "sijia-liu"
      }
     ]
    },
@@ -7422,8 +7718,8 @@
       "slug": ""
      },
      {
-      "name": "Kai Xiao",
-      "slug": ""
+      "name": "Kai Yuanqing Xiao",
+      "slug": "kai-yuanqing-xiao"
      },
      {
       "name": "Sven Gowal",
@@ -8204,7 +8500,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICLR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2017: 0 of 198 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V75.8 Q47.2,73.3 49.7,73.3 H57.9 Q60.4,73.3 60.4,75.8 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2018: 2 of 336 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V68.8 Q68.4,66.3 70.9,66.3 H79.1 Q81.6,66.3 81.6,68.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2019: 5 of 502 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V47.8 Q89.6,45.3 92.1,45.3 H100.3 Q102.8,45.3 102.8,47.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2020: 14 of 687 papers (2.0%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V47.8 Q110.8,45.3 113.3,45.3 H121.5 Q124.0,45.3 124.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2021: 14 of 860 papers (1.6%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V47.8 Q132.0,45.3 134.5,45.3 H142.7 Q145.2,45.3 145.2,47.8 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2022: 14 of 1,094 papers (1.3%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V45.5 Q153.2,43.0 155.7,43.0 H163.9 Q166.4,43.0 166.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2023: 15 of 1,573 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V45.5 Q174.4,43.0 176.9,43.0 H185.1 Q187.6,43.0 187.6,45.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2024: 15 of 2,260 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V45.5 Q195.6,43.0 198.1,43.0 H206.3 Q208.8,43.0 208.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2025: 15 of 3,704 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V50.2 Q216.8,47.7 219.3,47.7 H227.5 Q230.0,47.7 230.0,50.2 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2026: 13 of 5,351 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICLR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2017: 0 of 198 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V75.8 Q47.2,73.3 49.7,73.3 H57.9 Q60.4,73.3 60.4,75.8 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2018: 2 of 336 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V68.8 Q68.4,66.3 70.9,66.3 H79.1 Q81.6,66.3 81.6,68.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2019: 5 of 502 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V47.8 Q89.6,45.3 92.1,45.3 H100.3 Q102.8,45.3 102.8,47.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2020: 14 of 687 papers (2.0%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V47.8 Q110.8,45.3 113.3,45.3 H121.5 Q124.0,45.3 124.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2021: 14 of 860 papers (1.6%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V45.5 Q132.0,43.0 134.5,43.0 H142.7 Q145.2,43.0 145.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2022: 15 of 1,094 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V40.8 Q153.2,38.3 155.7,38.3 H163.9 Q166.4,38.3 166.4,40.8 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2023: 17 of 1,573 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V43.2 Q174.4,40.7 176.9,40.7 H185.1 Q187.6,40.7 187.6,43.2 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2024: 16 of 2,260 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V43.2 Q195.6,40.7 198.1,40.7 H206.3 Q208.8,40.7 208.8,43.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2025: 16 of 3,704 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V50.2 Q216.8,47.7 219.3,47.7 H227.5 Q230.0,47.7 230.0,50.2 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2026: 13 of 5,351 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 30
  },
  {
@@ -8213,13 +8509,13 @@
   "full_name": "Conference on Neural Information Processing Systems",
   "field": "ml",
   "field_name": "ML",
-  "papers": 181,
-  "citations": 16621,
+  "papers": 185,
+  "citations": 16753,
   "venues": {
-   "neurips": 181
+   "neurips": 185
   },
   "fields": {
-   "ml": 181,
+   "ml": 185,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -8227,24 +8523,24 @@
   },
   "areas": {
    "complete": 12,
-   "bounds": 27,
-   "probabilistic": 44,
-   "training": 29,
+   "bounds": 28,
+   "probabilistic": 45,
+   "training": 30,
    "repair": 3,
    "explanations": 8,
    "control": 24,
    "relational": 8,
    "architectures": 11,
    "quantized": 2,
-   "other": 13
+   "other": 14
   },
   "years": {
    "2017": 3,
    "2018": 9,
-   "2019": 15,
-   "2020": 27,
+   "2019": 16,
+   "2020": 28,
    "2021": 14,
-   "2022": 27,
+   "2022": 29,
    "2023": 22,
    "2024": 18,
    "2025": 18,
@@ -8263,7 +8559,7 @@
    "2026": 7896
   },
   "all_papers": 30459,
-  "share": 0.59,
+  "share": 0.61,
   "missing": [],
   "not_held": [],
   "researchers": [
@@ -8308,8 +8604,18 @@
     "papers": 6
    },
    {
+    "slug": "soheil-feizi",
+    "name": "Soheil Feizi",
+    "papers": 5
+   },
+   {
     "slug": "linyi-li",
     "name": "Linyi Li",
+    "papers": 5
+   },
+   {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
     "papers": 5
    },
    {
@@ -8587,8 +8893,8 @@
       "slug": "idan-refaeli"
      },
      {
-      "name": "Yizhak Y. Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Guy Katz",
@@ -8763,8 +9069,8 @@
     "tags": [],
     "authors": [
      {
-      "name": "Andrew Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
       "name": "Paul Montague",
@@ -8935,8 +9241,8 @@
       "slug": ""
      },
      {
-      "name": "Taylor Johnson",
-      "slug": ""
+      "name": "Taylor T. Johnson",
+      "slug": "taylor-t-johnson"
      }
     ]
    },
@@ -8985,8 +9291,8 @@
     "tags": [],
     "authors": [
      {
-      "name": "Yizhak Y. Elboher",
-      "slug": ""
+      "name": "Yizhak Yisrael Elboher",
+      "slug": "yizhak-yisrael-elboher"
      },
      {
       "name": "Avraham Raviv",
@@ -9304,12 +9610,12 @@
     ],
     "authors": [
      {
-      "name": "Andrew Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
-      "name": "Neil Marchant",
-      "slug": ""
+      "name": "Neil G. Marchant",
+      "slug": "neil-g-marchant"
      },
      {
       "name": "Jiani Xie",
@@ -9812,7 +10118,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": "tong-wu"
+      "slug": ""
      },
      {
       "name": "Chong Xiang",
@@ -9962,7 +10268,7 @@
      },
      {
       "name": "Bin Hu",
-      "slug": ""
+      "slug": "bin-hu"
      },
      {
       "name": "Huan Zhang",
@@ -10142,19 +10448,19 @@
      },
      {
       "name": "Zhongzhu Chen",
-      "slug": ""
+      "slug": "zhongzhu-chen"
      },
      {
       "name": "Kun Jin",
-      "slug": ""
+      "slug": "kun-jin"
      },
      {
       "name": "Jiongxiao Wang",
-      "slug": ""
+      "slug": "jiongxiao-wang"
      },
      {
       "name": "Jiachen Lei",
-      "slug": ""
+      "slug": "jiachen-lei"
      },
      {
       "name": "Bo Li",
@@ -11956,6 +12262,37 @@
     ]
    },
    {
+    "id": "wang2022lethal",
+    "key": "conf/nips/00020F22",
+    "date": "2022-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Lethal Dose Conjecture on Data Poisoning",
+    "url": "https://dblp.org/rec/conf/nips/00020F22",
+    "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Wenxiao Wang",
+      "slug": "wenxiao-wang"
+     },
+     {
+      "name": "Alexander Levine",
+      "slug": "alexander-levine"
+     },
+     {
+      "name": "Soheil Feizi",
+      "slug": "soheil-feizi"
+     }
+    ]
+   },
+   {
     "id": "xu2022lot",
     "key": "conf/nips/XuL022",
     "date": "2022-12",
@@ -12085,6 +12422,49 @@
      {
       "name": "Jun Liu",
       "slug": "jun-liu"
+     }
+    ]
+   },
+   {
+    "id": "bethune2022pay",
+    "key": "conf/nips/BethuneBSMFG22",
+    "date": "2022-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Pay attention to your loss : understanding misconceptions about Lipschitz neural networks",
+    "url": "https://dblp.org/rec/conf/nips/BethuneBSMFG22",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Louis Béthune",
+      "slug": "louis-bethune"
+     },
+     {
+      "name": "Thibaut Boissin",
+      "slug": "thibaut-boissin"
+     },
+     {
+      "name": "Mathieu Serrurier",
+      "slug": "mathieu-serrurier"
+     },
+     {
+      "name": "Franck Mamalet",
+      "slug": "franck-mamalet"
+     },
+     {
+      "name": "Corentin Friedrich",
+      "slug": "corentin-friedrich"
+     },
+     {
+      "name": "Alberto González-Sanz",
+      "slug": "alberto-gonzalez-sanz"
      }
     ]
    },
@@ -13025,7 +13405,7 @@
      },
      {
       "name": "Anima Anandkumar",
-      "slug": ""
+      "slug": "anima-anandkumar"
      }
     ]
    },
@@ -13053,6 +13433,41 @@
      {
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
+     }
+    ]
+   },
+   {
+    "id": "bunel2020efficient",
+    "key": "conf/nips/BunelHBD20",
+    "date": "2020-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "An efficient nonconvex reformulation of stagewise convex optimization problems",
+    "url": "https://dblp.org/rec/conf/nips/BunelHBD20",
+    "citations": 16,
+    "arxiv": "2010.14322",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Oliver Hinder",
+      "slug": ""
+     },
+     {
+      "name": "Srinadh Bhojanapalli",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
      }
     ]
    },
@@ -14563,6 +14978,53 @@
     ]
    },
    {
+    "id": "pinot2019theoretical",
+    "key": "conf/nips/PinotMAKYGA19",
+    "date": "2019-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2019,
+    "field": "ml",
+    "title": "Theoretical evidence for adversarial robustness through randomization",
+    "url": "https://dblp.org/rec/conf/nips/PinotMAKYGA19",
+    "citations": 99,
+    "arxiv": "1902.01148",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rafael Pinot",
+      "slug": ""
+     },
+     {
+      "name": "Laurent Meunier",
+      "slug": "laurent-meunier"
+     },
+     {
+      "name": "Alexandre Araujo",
+      "slug": "alexandre-araujo"
+     },
+     {
+      "name": "Hisashi Kashima",
+      "slug": ""
+     },
+     {
+      "name": "Florian Yger",
+      "slug": ""
+     },
+     {
+      "name": "Cédric Gouy-Pailler",
+      "slug": ""
+     },
+     {
+      "name": "Jamal Atif",
+      "slug": ""
+     }
+    ]
+   },
+   {
     "id": "lee2019tight",
     "key": "conf/nips/LeeYCJ19",
     "date": "2019-12",
@@ -14631,8 +15093,8 @@
       "slug": "pushmeet-kohli"
      },
      {
-      "name": "Pawan Kumar Mudigonda",
-      "slug": ""
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
      }
     ]
    },
@@ -15017,7 +15479,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NeurIPS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-ml\" d=\"M26.0,78 V73.5 Q26.0,71.0 28.5,71.0 H36.7 Q39.2,71.0 39.2,73.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2017: 3 of 677 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V59.5 Q47.2,57.0 49.7,57.0 H57.9 Q60.4,57.0 60.4,59.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2018: 9 of 1,009 papers (0.9%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V45.5 Q68.4,43.0 70.9,43.0 H79.1 Q81.6,43.0 81.6,45.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2019: 15 of 1,426 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V17.5 Q89.6,15.0 92.1,15.0 H100.3 Q102.8,15.0 102.8,17.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2020: 27 of 1,898 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V47.8 Q110.8,45.3 113.3,45.3 H121.5 Q124.0,45.3 124.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2021: 14 of 2,334 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V17.5 Q132.0,15.0 134.5,15.0 H142.7 Q145.2,15.0 145.2,17.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2022: 27 of 2,671 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V29.2 Q153.2,26.7 155.7,26.7 H163.9 Q166.4,26.7 166.4,29.2 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2023: 22 of 3,221 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2024: 18 of 4,039 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V38.5 Q195.6,36.0 198.1,36.0 H206.3 Q208.8,36.0 208.8,38.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2025: 18 of 5,288 papers (0.3%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V15.2 Q216.8,12.7 219.3,12.7 H227.5 Q230.0,12.7 230.0,15.2 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2026: 28 of 7,896 papers (0.4%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NeurIPS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-ml\" d=\"M26.0,78 V73.5 Q26.0,71.0 28.5,71.0 H36.7 Q39.2,71.0 39.2,73.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2017: 3 of 677 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V59.5 Q47.2,57.0 49.7,57.0 H57.9 Q60.4,57.0 60.4,59.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2018: 9 of 1,009 papers (0.9%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V43.2 Q68.4,40.7 70.9,40.7 H79.1 Q81.6,40.7 81.6,43.2 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2019: 16 of 1,426 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V15.2 Q89.6,12.7 92.1,12.7 H100.3 Q102.8,12.7 102.8,15.2 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2020: 28 of 1,898 papers (1.5%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V47.8 Q110.8,45.3 113.3,45.3 H121.5 Q124.0,45.3 124.0,47.8 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2021: 14 of 2,334 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V12.8 Q132.0,10.3 134.5,10.3 H142.7 Q145.2,10.3 145.2,12.8 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2022: 29 of 2,671 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V29.2 Q153.2,26.7 155.7,26.7 H163.9 Q166.4,26.7 166.4,29.2 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2023: 22 of 3,221 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2024: 18 of 4,039 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V38.5 Q195.6,36.0 198.1,36.0 H206.3 Q208.8,36.0 208.8,38.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2025: 18 of 5,288 papers (0.3%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V15.2 Q216.8,12.7 219.3,12.7 H227.5 Q230.0,12.7 230.0,15.2 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2026: 28 of 7,896 papers (0.4%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 30
  },
  {
@@ -15026,14 +15488,14 @@
   "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
   "field": "cv",
   "field_name": "CV",
-  "papers": 23,
-  "citations": 686,
+  "papers": 24,
+  "citations": 768,
   "venues": {
-   "cvpr": 23
+   "cvpr": 24
   },
   "fields": {
    "ml": 0,
-   "cv": 23,
+   "cv": 24,
    "pl": 0,
    "se": 0,
    "lv": 0
@@ -15042,7 +15504,7 @@
    "complete": 0,
    "bounds": 5,
    "probabilistic": 7,
-   "training": 4,
+   "training": 5,
    "repair": 0,
    "explanations": 0,
    "control": 0,
@@ -15056,7 +15518,7 @@
    "2018": 0,
    "2019": 2,
    "2020": 2,
-   "2021": 3,
+   "2021": 4,
    "2022": 3,
    "2023": 3,
    "2024": 4,
@@ -15076,7 +15538,7 @@
    "2026": 4042
   },
   "all_papers": 20230,
-  "share": 0.11,
+  "share": 0.12,
   "missing": [],
   "not_held": [],
   "researchers": [
@@ -15749,6 +16211,49 @@
     ]
    },
    {
+    "id": "serrurier2021achieving",
+    "key": "conf/cvpr/SerrurierMGBLB21",
+    "date": "2021-06",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2021,
+    "field": "cv",
+    "title": "Achieving Robustness in Classification Using Optimal Transport With Hinge Regularization",
+    "url": "https://doi.org/10.1109/cvpr46437.2021.00057",
+    "citations": 82,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mathieu Serrurier",
+      "slug": "mathieu-serrurier"
+     },
+     {
+      "name": "Franck Mamalet",
+      "slug": "franck-mamalet"
+     },
+     {
+      "name": "Alberto González-Sanz",
+      "slug": "alberto-gonzalez-sanz"
+     },
+     {
+      "name": "Thibaut Boissin",
+      "slug": "thibaut-boissin"
+     },
+     {
+      "name": "Jean-Michel Loubes",
+      "slug": ""
+     },
+     {
+      "name": "Eustasio del Barrio",
+      "slug": ""
+     }
+    ]
+   },
+   {
     "id": "liu2021pointguard",
     "key": "conf/cvpr/LiuJG21",
     "date": "2021-06",
@@ -15847,7 +16352,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": "tong-wu"
+      "slug": ""
      },
      {
       "name": "Guodong Xu",
@@ -16030,7 +16535,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CVPR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">5</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2017: 0 of 782 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2018: 0 of 979 papers (0.0%)</title></rect><path class=\"ar-cv\" d=\"M68.4,78 V52.5 Q68.4,50.0 70.9,50.0 H79.1 Q81.6,50.0 81.6,52.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2019: 2 of 1,294 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M89.6,78 V52.5 Q89.6,50.0 92.1,50.0 H100.3 Q102.8,50.0 102.8,52.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2020: 2 of 1,465 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M110.8,78 V38.5 Q110.8,36.0 113.3,36.0 H121.5 Q124.0,36.0 124.0,38.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2021: 3 of 1,660 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M132.0,78 V38.5 Q132.0,36.0 134.5,36.0 H142.7 Q145.2,36.0 145.2,38.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2022: 3 of 2,070 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M153.2,78 V38.5 Q153.2,36.0 155.7,36.0 H163.9 Q166.4,36.0 166.4,38.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2023: 3 of 2,352 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M174.4,78 V24.5 Q174.4,22.0 176.9,22.0 H185.1 Q187.6,22.0 187.6,24.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2024: 4 of 2,715 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M195.6,78 V24.5 Q195.6,22.0 198.1,22.0 H206.3 Q208.8,22.0 208.8,24.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2025: 4 of 2,871 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M216.8,78 V52.5 Q216.8,50.0 219.3,50.0 H227.5 Q230.0,50.0 230.0,52.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2026: 2 of 4,042 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CVPR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">5</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2017: 0 of 782 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2018: 0 of 979 papers (0.0%)</title></rect><path class=\"ar-cv\" d=\"M68.4,78 V52.5 Q68.4,50.0 70.9,50.0 H79.1 Q81.6,50.0 81.6,52.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2019: 2 of 1,294 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M89.6,78 V52.5 Q89.6,50.0 92.1,50.0 H100.3 Q102.8,50.0 102.8,52.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2020: 2 of 1,465 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M110.8,78 V24.5 Q110.8,22.0 113.3,22.0 H121.5 Q124.0,22.0 124.0,24.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2021: 4 of 1,660 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M132.0,78 V38.5 Q132.0,36.0 134.5,36.0 H142.7 Q145.2,36.0 145.2,38.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2022: 3 of 2,070 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M153.2,78 V38.5 Q153.2,36.0 155.7,36.0 H163.9 Q166.4,36.0 166.4,38.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2023: 3 of 2,352 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M174.4,78 V24.5 Q174.4,22.0 176.9,22.0 H185.1 Q187.6,22.0 187.6,24.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2024: 4 of 2,715 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M195.6,78 V24.5 Q195.6,22.0 198.1,22.0 H206.3 Q208.8,22.0 208.8,24.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2025: 4 of 2,871 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M216.8,78 V52.5 Q216.8,50.0 219.3,50.0 H227.5 Q230.0,50.0 230.0,52.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2026: 2 of 4,042 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 5
  },
  {
@@ -17334,15 +17839,15 @@
   "full_name": "ACM SIGPLAN Symposium on Principles of Programming Languages",
   "field": "pl",
   "field_name": "PL",
-  "papers": 4,
-  "citations": 1287,
+  "papers": 5,
+  "citations": 1316,
   "venues": {
-   "popl": 4
+   "popl": 5
   },
   "fields": {
    "ml": 0,
    "cv": 0,
-   "pl": 4,
+   "pl": 5,
    "se": 0,
    "lv": 0
   },
@@ -17357,7 +17862,7 @@
    "relational": 0,
    "architectures": 0,
    "quantized": 0,
-   "other": 0
+   "other": 1
   },
   "years": {
    "2017": 0,
@@ -17365,7 +17870,7 @@
    "2019": 1,
    "2020": 0,
    "2021": 0,
-   "2022": 2,
+   "2022": 3,
    "2023": 0,
    "2024": 1,
    "2025": 0,
@@ -17384,18 +17889,18 @@
    "2026": 91
   },
   "all_papers": 738,
-  "share": 0.54,
+  "share": 0.68,
   "missing": [],
   "not_held": [],
   "researchers": [
    {
-    "slug": "martin-vechev",
-    "name": "Martin Vechev",
-    "papers": 2
-   },
-   {
     "slug": "gagandeep-singh",
     "name": "Gagandeep Singh",
+    "papers": 3
+   },
+   {
+    "slug": "martin-vechev",
+    "name": "Martin Vechev",
     "papers": 2
    },
    {
@@ -17433,6 +17938,41 @@
      {
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
+     }
+    ]
+   },
+   {
+    "id": "laurel2022dual",
+    "key": "journals/pacmpl/LaurelYSM22",
+    "date": "2022-01",
+    "venue": "popl",
+    "venue_name": "POPL",
+    "year": 2022,
+    "field": "pl",
+    "title": "A dual number abstraction for static analysis of Clarke Jacobians",
+    "url": "https://doi.org/10.1145/3498718",
+    "citations": 29,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jacob Laurel",
+      "slug": "jacob-laurel"
+     },
+     {
+      "name": "Rem Yang",
+      "slug": "rem-yang"
+     },
+     {
+      "name": "Gagandeep Singh",
+      "slug": "gagandeep-singh"
+     },
+     {
+      "name": "Sasa Misailovic",
+      "slug": "sasa-misailovic"
      }
     ]
    },
@@ -17546,7 +18086,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"POPL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2017: 0 of 64 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2018: 0 of 66 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M68.4,78 V71.8 Q68.4,69.2 70.9,69.2 H79.1 Q81.6,69.2 81.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2019: 1 of 77 papers (1.3%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2020: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2021: 0 of 61 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M132.0,78 V63.0 Q132.0,60.5 134.5,60.5 H142.7 Q145.2,60.5 145.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2022: 2 of 65 papers (3.1%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2023: 0 of 74 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M174.4,78 V71.8 Q174.4,69.2 176.9,69.2 H185.1 Q187.6,69.2 187.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2024: 1 of 93 papers (1.1%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2025: 0 of 79 papers (0.0%)</title></rect><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2026: 0 of 91 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"POPL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2017: 0 of 64 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2018: 0 of 66 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M68.4,78 V71.8 Q68.4,69.2 70.9,69.2 H79.1 Q81.6,69.2 81.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2019: 1 of 77 papers (1.3%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2020: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2021: 0 of 61 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M132.0,78 V54.2 Q132.0,51.8 134.5,51.8 H142.7 Q145.2,51.8 145.2,54.2 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2022: 3 of 65 papers (4.6%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2023: 0 of 74 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M174.4,78 V71.8 Q174.4,69.2 176.9,69.2 H185.1 Q187.6,69.2 187.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2024: 1 of 93 papers (1.1%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2025: 0 of 79 papers (0.0%)</title></rect><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2026: 0 of 91 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 8
  },
  {
@@ -18911,16 +19451,16 @@
   "full_name": "IEEE/ACM International Conference on Automated Software Engineering",
   "field": "se",
   "field_name": "SE",
-  "papers": 8,
-  "citations": 150,
+  "papers": 9,
+  "citations": 255,
   "venues": {
-   "ase": 8
+   "ase": 9
   },
   "fields": {
    "ml": 0,
    "cv": 0,
    "pl": 0,
-   "se": 8,
+   "se": 9,
    "lv": 0
   },
   "areas": {
@@ -18934,12 +19474,12 @@
    "relational": 1,
    "architectures": 0,
    "quantized": 1,
-   "other": 4
+   "other": 5
   },
   "years": {
    "2017": 0,
    "2018": 0,
-   "2019": 0,
+   "2019": 1,
    "2020": 1,
    "2021": 1,
    "2022": 2,
@@ -18961,7 +19501,7 @@
    "2026": 0
   },
   "all_papers": 1248,
-  "share": 0.64,
+  "share": 0.72,
   "missing": [
    2026
   ],
@@ -19166,11 +19706,11 @@
      },
      {
       "name": "Zhe Zhao",
-      "slug": ""
+      "slug": "zhe-zhao"
      },
      {
       "name": "Guangke Chen",
-      "slug": ""
+      "slug": "guangke-chen"
      },
      {
       "name": "Fu Song",
@@ -19182,7 +19722,7 @@
      },
      {
       "name": "Taolue Chen",
-      "slug": ""
+      "slug": "taolue-chen"
      },
      {
       "name": "Jun Sun",
@@ -19264,9 +19804,49 @@
       "slug": "chao-wang"
      }
     ]
+   },
+   {
+    "id": "gopinath2019property",
+    "key": "conf/kbse/GopinathCPT19",
+    "date": "2019-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2019,
+    "field": "se",
+    "title": "Property Inference for Deep Neural Networks",
+    "url": "https://doi.org/10.1109/ase.2019.00079",
+    "citations": 105,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [
+     {
+      "key": "explanations",
+      "name": "Formal explanations"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Divya Gopinath",
+      "slug": "divya-gopinath"
+     },
+     {
+      "name": "Hayes Converse",
+      "slug": ""
+     },
+     {
+      "name": "Corina S. Pasareanu",
+      "slug": "corina-s-pasareanu"
+     },
+     {
+      "name": "Ankur Taly",
+      "slug": ""
+     }
+    ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ASE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2017: 0 of 108 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2018: 0 of 84 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2019: 0 of 84 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M89.6,78 V63.0 Q89.6,60.5 92.1,60.5 H100.3 Q102.8,60.5 102.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2020: 1 of 93 papers (1.1%)</title></rect><path class=\"ar-se\" d=\"M110.8,78 V63.0 Q110.8,60.5 113.3,60.5 H121.5 Q124.0,60.5 124.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2021: 1 of 85 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M132.0,78 V45.5 Q132.0,43.0 134.5,43.0 H142.7 Q145.2,43.0 145.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2022: 2 of 138 papers (1.4%)</title></rect><path class=\"ar-se\" d=\"M153.2,78 V45.5 Q153.2,43.0 155.7,43.0 H163.9 Q166.4,43.0 166.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2023: 2 of 161 papers (1.2%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2024: 0 of 186 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M195.6,78 V45.5 Q195.6,43.0 198.1,43.0 H206.3 Q208.8,43.0 208.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2025: 2 of 309 papers (0.6%)</title></rect><circle class=\"pending\" cx=\"223.4\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2026: not yet in dblp</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ASE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2017: 0 of 108 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2018: 0 of 84 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M68.4,78 V63.0 Q68.4,60.5 70.9,60.5 H79.1 Q81.6,60.5 81.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2019: 1 of 84 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M89.6,78 V63.0 Q89.6,60.5 92.1,60.5 H100.3 Q102.8,60.5 102.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2020: 1 of 93 papers (1.1%)</title></rect><path class=\"ar-se\" d=\"M110.8,78 V63.0 Q110.8,60.5 113.3,60.5 H121.5 Q124.0,60.5 124.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2021: 1 of 85 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M132.0,78 V45.5 Q132.0,43.0 134.5,43.0 H142.7 Q145.2,43.0 145.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2022: 2 of 138 papers (1.4%)</title></rect><path class=\"ar-se\" d=\"M153.2,78 V45.5 Q153.2,43.0 155.7,43.0 H163.9 Q166.4,43.0 166.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2023: 2 of 161 papers (1.2%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2024: 0 of 186 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M195.6,78 V45.5 Q195.6,43.0 198.1,43.0 H206.3 Q208.8,43.0 208.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2025: 2 of 309 papers (0.6%)</title></rect><circle class=\"pending\" cx=\"223.4\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2026: not yet in dblp</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 4
  },
  {
@@ -19413,17 +19993,17 @@
   "full_name": "International Conference on Computer Aided Verification",
   "field": "lv",
   "field_name": "LV",
-  "papers": 47,
-  "citations": 6982,
+  "papers": 48,
+  "citations": 7023,
   "venues": {
-   "cav": 47
+   "cav": 48
   },
   "fields": {
    "ml": 0,
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 47
+   "lv": 48
   },
   "areas": {
    "complete": 9,
@@ -19435,7 +20015,7 @@
    "control": 7,
    "relational": 4,
    "architectures": 4,
-   "quantized": 2,
+   "quantized": 3,
    "other": 12
   },
   "years": {
@@ -19443,7 +20023,7 @@
    "2018": 0,
    "2019": 1,
    "2020": 5,
-   "2021": 9,
+   "2021": 10,
    "2022": 7,
    "2023": 4,
    "2024": 6,
@@ -19463,7 +20043,7 @@
    "2026": 81
   },
   "all_papers": 693,
-  "share": 6.78,
+  "share": 6.93,
   "missing": [],
   "not_held": [],
   "researchers": [
@@ -20816,6 +21396,45 @@
     ]
    },
    {
+    "id": "zhang2021bdd4bnn",
+    "key": "conf/cav/ZhangZCSC21",
+    "date": "2021-07",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2021,
+    "field": "lv",
+    "title": "BDD4BNN: A BDD-Based Quantitative Analysis Framework for Binarized Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-030-81685-8_8",
+    "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "quantized",
+    "area_name": "Quantized & bit-level",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yedi Zhang",
+      "slug": "yedi-zhang"
+     },
+     {
+      "name": "Zhe Zhao",
+      "slug": "zhe-zhao"
+     },
+     {
+      "name": "Guangke Chen",
+      "slug": "guangke-chen"
+     },
+     {
+      "name": "Fu Song",
+      "slug": "fu-song"
+     },
+     {
+      "name": "Taolue Chen",
+      "slug": "taolue-chen"
+     }
+    ]
+   },
+   {
     "id": "shriver2021dnnv",
     "key": "conf/cav/ShriverED21",
     "date": "2021-07",
@@ -20874,7 +21493,7 @@
      },
      {
       "name": "Divya Gopinath",
-      "slug": ""
+      "slug": "divya-gopinath"
      },
      {
       "name": "Youcheng Sun",
@@ -21446,7 +22065,7 @@
     ]
    }
   ],
-  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CAV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">10</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-lv\" d=\"M26.0,78 V66.5 Q26.0,64.0 28.5,64.0 H36.7 Q39.2,64.0 39.2,66.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2017: 2 of 61 papers (3.3%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2018: 0 of 70 papers (0.0%)</title></rect><path class=\"ar-lv\" d=\"M68.4,78 V73.5 Q68.4,71.0 70.9,71.0 H79.1 Q81.6,71.0 81.6,73.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2019: 1 of 67 papers (1.5%)</title></rect><path class=\"ar-lv\" d=\"M89.6,78 V45.5 Q89.6,43.0 92.1,43.0 H100.3 Q102.8,43.0 102.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2020: 5 of 65 papers (7.7%)</title></rect><path class=\"ar-lv\" d=\"M110.8,78 V17.5 Q110.8,15.0 113.3,15.0 H121.5 Q124.0,15.0 124.0,17.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2021: 9 of 83 papers (10.8%)</title></rect><path class=\"ar-lv\" d=\"M132.0,78 V31.5 Q132.0,29.0 134.5,29.0 H142.7 Q145.2,29.0 145.2,31.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2022: 7 of 51 papers (13.7%)</title></rect><path class=\"ar-lv\" d=\"M153.2,78 V52.5 Q153.2,50.0 155.7,50.0 H163.9 Q166.4,50.0 166.4,52.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2023: 4 of 67 papers (6.0%)</title></rect><path class=\"ar-lv\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2024: 6 of 69 papers (8.7%)</title></rect><path class=\"ar-lv\" d=\"M195.6,78 V31.5 Q195.6,29.0 198.1,29.0 H206.3 Q208.8,29.0 208.8,31.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2025: 7 of 79 papers (8.9%)</title></rect><path class=\"ar-lv\" d=\"M216.8,78 V38.5 Q216.8,36.0 219.3,36.0 H227.5 Q230.0,36.0 230.0,38.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2026: 6 of 81 papers (7.4%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CAV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">10</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-lv\" d=\"M26.0,78 V66.5 Q26.0,64.0 28.5,64.0 H36.7 Q39.2,64.0 39.2,66.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2017: 2 of 61 papers (3.3%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2018: 0 of 70 papers (0.0%)</title></rect><path class=\"ar-lv\" d=\"M68.4,78 V73.5 Q68.4,71.0 70.9,71.0 H79.1 Q81.6,71.0 81.6,73.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2019: 1 of 67 papers (1.5%)</title></rect><path class=\"ar-lv\" d=\"M89.6,78 V45.5 Q89.6,43.0 92.1,43.0 H100.3 Q102.8,43.0 102.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2020: 5 of 65 papers (7.7%)</title></rect><path class=\"ar-lv\" d=\"M110.8,78 V10.5 Q110.8,8.0 113.3,8.0 H121.5 Q124.0,8.0 124.0,10.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2021: 10 of 83 papers (12.0%)</title></rect><path class=\"ar-lv\" d=\"M132.0,78 V31.5 Q132.0,29.0 134.5,29.0 H142.7 Q145.2,29.0 145.2,31.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2022: 7 of 51 papers (13.7%)</title></rect><path class=\"ar-lv\" d=\"M153.2,78 V52.5 Q153.2,50.0 155.7,50.0 H163.9 Q166.4,50.0 166.4,52.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2023: 4 of 67 papers (6.0%)</title></rect><path class=\"ar-lv\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2024: 6 of 69 papers (8.7%)</title></rect><path class=\"ar-lv\" d=\"M195.6,78 V31.5 Q195.6,29.0 198.1,29.0 H206.3 Q208.8,29.0 208.8,31.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2025: 7 of 79 papers (8.9%)</title></rect><path class=\"ar-lv\" d=\"M216.8,78 V38.5 Q216.8,36.0 219.3,36.0 H227.5 Q230.0,36.0 230.0,38.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2026: 6 of 81 papers (7.4%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
   "panel_top": 10
  },
  {
