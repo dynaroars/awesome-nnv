@@ -233,7 +233,7 @@ def build_areas(papers, researchers, groups, names):
     for a in AREAS:
         mine = [p for p in papers if p["area"] == a["key"]]
         tagged = [p for p in papers if a["key"] in p["tags"]]
-        out.append({**a, **counts(mine), "tagged": len(tagged),
+        out.append({**a, **counts(mine), "tagged": len(tagged), "total": len(mine) + len(tagged),
                     "chart": year_chart(f"{a['name']}: NNV papers per year by field", mine + tagged),
                     "tracked": sum(1 for p in mine if p["slugs"]),
                     "researchers": [{"slug": r["slug"], "name": r["name"], "papers": r["areas"][a["key"]],
