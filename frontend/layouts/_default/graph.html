@@ -5,9 +5,11 @@
 <p class="toc-title">Groups</p>
 <ul class="graph-legend">
 	{{- range $g.legend }}
-	<li data-color="{{ .color }}"><span class="dot {{ .color }}"></span>{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
+	<li data-color="{{ .color }}"><span class="dot {{ .color }}{{ if .small }} ring{{ end }}"></span>{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
 	{{- end }}
 	<li class="edge-key"><span class="line-key"></span>Shared NNV papers</li>
+	<li class="size-key"><span class="dot g-other"></span>Group of {{ 3 }}+ researchers</li>
+	<li class="size-key"><span class="dot g-other ring"></span>Group of 1&ndash;2 researchers</li>
 </ul>
 </aside>
 <div class="toc-body">
@@ -20,7 +22,7 @@
 	<text class="ew" data-a="{{ .a }}" data-b="{{ .b }}" x="{{ .wx }}" y="{{ add .wy 4 }}" text-anchor="middle">{{ .weight }}</text>
 	{{- end }}{{ end }}
 	{{- range $g.nodes }}
-	<a href="{{ .url | relURL }}" class="node {{ .color }}" data-id="{{ .id }}" data-color="{{ .color }}">
+	<a href="{{ .url | relURL }}" class="node {{ .color }}{{ if .small }} ring{{ end }}" data-id="{{ .id }}" data-color="{{ .color }}">
 		<circle cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}"/>
 		<text class="deg" x="{{ .x }}" y="{{ add .y 4 }}" text-anchor="middle">{{ .degree }}</text>
 		<text x="{{ .lx }}" y="{{ .ly }}">{{ .name }}</text>

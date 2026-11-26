@@ -1,6 +1,6 @@
 {
  "width": 1371,
- "height": 1611,
+ "height": 1563,
  "nodes": [
   {
    "id": "haoyu-li",
@@ -14,6 +14,7 @@
    "papers": 1,
    "degree": 2,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/haoyu-li/"
   },
   {
@@ -28,6 +29,7 @@
    "papers": 3,
    "degree": 2,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/hong-ming-chiu/"
   },
   {
@@ -42,6 +44,7 @@
    "papers": 27,
    "degree": 25,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/huan-zhang/"
   },
   {
@@ -56,6 +59,7 @@
    "papers": 1,
    "degree": 1,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/ben-wooding/"
   },
   {
@@ -70,6 +74,7 @@
    "papers": 2,
    "degree": 3,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/samuel-sasaki/"
   },
   {
@@ -84,6 +89,7 @@
    "papers": 15,
    "degree": 9,
    "group": "Marabou",
+   "small": false,
    "url": "researchers/guy-katz/"
   },
   {
@@ -98,6 +104,7 @@
    "papers": 8,
    "degree": 6,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/zhouxing-shi/"
   },
   {
@@ -108,10 +115,11 @@
    "r": 11.4,
    "lx": 380.4,
    "ly": 102.0,
-   "color": "g-other",
+   "color": "g9",
    "papers": 4,
    "degree": 7,
    "group": "Venus (Imperial)",
+   "small": false,
    "url": "researchers/alessio-lomuscio/"
   },
   {
@@ -122,10 +130,11 @@
    "r": 9.2,
    "lx": 316.8,
    "ly": 46.0,
-   "color": "g-other",
+   "color": "g9",
    "papers": 1,
    "degree": 2,
    "group": "Venus (Imperial)",
+   "small": false,
    "url": "researchers/benedikt-bruckner/"
   },
   {
@@ -136,10 +145,11 @@
    "r": 9.2,
    "lx": 433.6,
    "ly": 74.0,
-   "color": "g-other",
+   "color": "g9",
    "papers": 1,
    "degree": 2,
    "group": "Venus (Imperial)",
+   "small": false,
    "url": "researchers/panagiotis-kouvaros/"
   },
   {
@@ -154,6 +164,7 @@
    "papers": 3,
    "degree": 5,
    "group": "Vehicle",
+   "small": true,
    "url": "researchers/ekaterina-komendantskaya/"
   },
   {
@@ -168,6 +179,7 @@
    "papers": 4,
    "degree": 5,
    "group": "Vehicle",
+   "small": true,
    "url": "researchers/matthew-l-daggitt/"
   },
   {
@@ -182,6 +194,7 @@
    "papers": 4,
    "degree": 6,
    "group": "CORA (TUM)",
+   "small": false,
    "url": "researchers/matthias-althoff/"
   },
   {
@@ -196,6 +209,7 @@
    "papers": 3,
    "degree": 4,
    "group": "CORA (TUM)",
+   "small": false,
    "url": "researchers/tobias-ladner/"
   },
   {
@@ -210,6 +224,7 @@
    "papers": 3,
    "degree": 2,
    "group": "PeregriNN (UCI)",
+   "small": true,
    "url": "researchers/yasser-shoukry/"
   },
   {
@@ -224,6 +239,7 @@
    "papers": 6,
    "degree": 2,
    "group": "Singh group (UIUC)",
+   "small": true,
    "url": "researchers/debangshu-banerjee/"
   },
   {
@@ -238,6 +254,7 @@
    "papers": 24,
    "degree": 12,
    "group": "Singh group (UIUC)",
+   "small": true,
    "url": "researchers/gagandeep-singh/"
   },
   {
@@ -252,6 +269,7 @@
    "papers": 32,
    "degree": 6,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/martin-vechev/"
   },
   {
@@ -266,6 +284,7 @@
    "papers": 7,
    "degree": 3,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/yuhao-mao/"
   },
   {
@@ -280,6 +299,7 @@
    "papers": 1,
    "degree": 2,
    "group": "CORA (TUM)",
+   "small": false,
    "url": "researchers/lukas-koller/"
   },
   {
@@ -294,6 +314,7 @@
    "papers": 1,
    "degree": 1,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/xiangru-zhong/"
   },
   {
@@ -308,6 +329,7 @@
    "papers": 2,
    "degree": 3,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/duo-zhou/"
   },
   {
@@ -322,6 +344,7 @@
    "papers": 1,
    "degree": 2,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/hesun-chen/"
   },
   {
@@ -336,6 +359,7 @@
    "papers": 1,
    "degree": 2,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/navid-hashemi/"
   },
   {
@@ -350,6 +374,7 @@
    "papers": 6,
    "degree": 5,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/taylor-t-johnson/"
   },
   {
@@ -364,6 +389,7 @@
    "papers": 3,
    "degree": 3,
    "group": "QVIP / QEBVerif",
+   "small": true,
    "url": "researchers/fu-song/"
   },
   {
@@ -378,6 +404,7 @@
    "papers": 7,
    "degree": 3,
    "group": "Socrates (SMU)",
+   "small": true,
    "url": "researchers/jun-sun/"
   },
   {
@@ -392,6 +419,7 @@
    "papers": 3,
    "degree": 3,
    "group": "QVIP / QEBVerif",
+   "small": true,
    "url": "researchers/yedi-zhang/"
   },
   {
@@ -406,6 +434,7 @@
    "papers": 12,
    "degree": 5,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/mark-niklas-muller/"
   },
   {
@@ -420,6 +449,7 @@
    "papers": 4,
    "degree": 4,
    "group": "Torr Vision Group (Oxford)",
+   "small": true,
    "url": "researchers/adel-bibi/"
   },
   {
@@ -434,6 +464,7 @@
    "papers": 7,
    "degree": 6,
    "group": "Torr Vision Group (Oxford)",
+   "small": true,
    "url": "researchers/philip-torr/"
   },
   {
@@ -448,6 +479,7 @@
    "papers": 2,
    "degree": 3,
    "group": "NeuralVerification.jl",
+   "small": true,
    "url": "researchers/changliu-liu/"
   },
   {
@@ -462,6 +494,7 @@
    "papers": 6,
    "degree": 10,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/kaidi-xu/"
   },
   {
@@ -476,6 +509,7 @@
    "papers": 2,
    "degree": 4,
    "group": "VNN-COMP (RWTH Aachen)",
+   "small": true,
    "url": "researchers/christopher-brix/"
   },
   {
@@ -490,6 +524,7 @@
    "papers": 4,
    "degree": 3,
    "group": "Vorobeychik group (WashU)",
+   "small": true,
    "url": "researchers/yevgeniy-vorobeychik/"
   },
   {
@@ -504,6 +539,7 @@
    "papers": 3,
    "degree": 1,
    "group": "Gao group (UCSD)",
+   "small": true,
    "url": "researchers/sicun-gao/"
   },
   {
@@ -518,6 +554,7 @@
    "papers": 6,
    "degree": 5,
    "group": "Weng group (UCSD)",
+   "small": true,
    "url": "researchers/tsui-wei-weng/"
   },
   {
@@ -532,6 +569,7 @@
    "papers": 19,
    "degree": 11,
    "group": "Secure Learning Lab",
+   "small": true,
    "url": "researchers/bo-li/"
   },
   {
@@ -546,6 +584,7 @@
    "papers": 13,
    "degree": 8,
    "group": "Linyi Li group (SFU)",
+   "small": true,
    "url": "researchers/linyi-li/"
   },
   {
@@ -560,6 +599,7 @@
    "papers": 10,
    "degree": 14,
    "group": "DeepMind verification",
+   "small": false,
    "url": "researchers/krishnamurthy-dvijotham/"
   },
   {
@@ -574,6 +614,7 @@
    "papers": 5,
    "degree": 7,
    "group": "OVAL (Oxford)",
+   "small": true,
    "url": "researchers/m-pawan-kumar/"
   },
   {
@@ -588,6 +629,7 @@
    "papers": 7,
    "degree": 11,
    "group": "DeepMind verification",
+   "small": false,
    "url": "researchers/rudy-bunel/"
   },
   {
@@ -602,6 +644,7 @@
    "papers": 17,
    "degree": 15,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/cho-jui-hsieh/"
   },
   {
@@ -616,6 +659,7 @@
    "papers": 2,
    "degree": 4,
    "group": "MIPVerify (MIT)",
+   "small": true,
    "url": "researchers/russ-tedrake/"
   },
   {
@@ -630,6 +674,7 @@
    "papers": 6,
    "degree": 7,
    "group": "Marabou",
+   "small": false,
    "url": "researchers/clark-barrett/"
   },
   {
@@ -644,6 +689,7 @@
    "papers": 4,
    "degree": 7,
    "group": "Marabou",
+   "small": false,
    "url": "researchers/haoze-wu/"
   },
   {
@@ -658,6 +704,7 @@
    "papers": 9,
    "degree": 9,
    "group": "ECNU (Min Zhang)",
+   "small": true,
    "url": "researchers/min-zhang/"
   },
   {
@@ -672,6 +719,7 @@
    "papers": 3,
    "degree": 6,
    "group": "OVAL (Oxford)",
+   "small": true,
    "url": "researchers/alessandro-de-palma/"
   },
   {
@@ -686,6 +734,7 @@
    "papers": 5,
    "degree": 10,
    "group": "DeepMind verification",
+   "small": false,
    "url": "researchers/robert-stanforth/"
   },
   {
@@ -700,6 +749,7 @@
    "papers": 4,
    "degree": 2,
    "group": "Misailovic group (UIUC)",
+   "small": true,
    "url": "researchers/sasa-misailovic/"
   },
   {
@@ -714,6 +764,7 @@
    "papers": 11,
    "degree": 4,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/marc-fischer/"
   },
   {
@@ -728,6 +779,7 @@
    "papers": 16,
    "degree": 13,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/zico-kolter/"
   },
   {
@@ -742,6 +794,7 @@
    "papers": 3,
    "degree": 1,
    "group": "ECNU (Min Zhang)",
+   "small": true,
    "url": "researchers/zhaodi-zhang/"
   },
   {
@@ -756,6 +809,7 @@
    "papers": 3,
    "degree": 3,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/diego-manzanas-lopez/"
   },
   {
@@ -770,6 +824,7 @@
    "papers": 7,
    "degree": 3,
    "group": "NNV (VeriVITAL)",
+   "small": false,
    "url": "researchers/hoang-dung-tran/"
   },
   {
@@ -784,6 +839,7 @@
    "papers": 2,
    "degree": 2,
    "group": "JuliaReach",
+   "small": true,
    "url": "researchers/christian-schilling/"
   },
   {
@@ -794,10 +850,11 @@
    "r": 12.8,
    "lx": 885.9,
    "ly": 624.2,
-   "color": "g9",
+   "color": "g10",
    "papers": 7,
    "degree": 5,
    "group": "nnenum",
+   "small": true,
    "url": "researchers/stanley-bak/"
   },
   {
@@ -812,6 +869,7 @@
    "papers": 4,
    "degree": 7,
    "group": "α,β-CROWN",
+   "small": false,
    "url": "researchers/shiqi-wang/"
   },
   {
@@ -826,6 +884,7 @@
    "papers": 4,
    "degree": 7,
    "group": "Neurify (Columbia)",
+   "small": true,
    "url": "researchers/suman-jana/"
   },
   {
@@ -840,6 +899,7 @@
    "papers": 7,
    "degree": 5,
    "group": "IBM Research",
+   "small": true,
    "url": "researchers/pin-yu-chen/"
   },
   {
@@ -854,6 +914,7 @@
    "papers": 7,
    "degree": 3,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/timon-gehr/"
   },
   {
@@ -868,6 +929,7 @@
    "papers": 5,
    "degree": 4,
    "group": "ERAN (SRI Lab)",
+   "small": false,
    "url": "researchers/markus-puschel/"
   },
   {
@@ -882,6 +944,7 @@
    "papers": 4,
    "degree": 2,
    "group": "Fazlyab group (JHU)",
+   "small": true,
    "url": "researchers/mahyar-fazlyab/"
   },
   {
@@ -896,6 +959,7 @@
    "papers": 3,
    "degree": 4,
    "group": "Raghunathan group (CMU)",
+   "small": true,
    "url": "researchers/aditi-raghunathan/"
   },
   {
@@ -910,6 +974,7 @@
    "papers": 4,
    "degree": 4,
    "group": "Liang group (Stanford)",
+   "small": true,
    "url": "researchers/percy-liang/"
   },
   {
@@ -924,6 +989,7 @@
    "papers": 6,
    "degree": 8,
    "group": "DeepMind verification",
+   "small": false,
    "url": "researchers/pushmeet-kohli/"
   },
   {
@@ -938,6 +1004,7 @@
    "papers": 7,
    "degree": 4,
    "group": "Daniel group (MIT)",
+   "small": true,
    "url": "researchers/luca-daniel/"
   },
   {
@@ -952,6 +1019,7 @@
    "papers": 5,
    "degree": 8,
    "group": "DeepMind verification",
+   "small": false,
    "url": "researchers/sven-gowal/"
   },
   {
@@ -966,6 +1034,7 @@
    "papers": 4,
    "degree": 2,
    "group": "PKU (Liwei Wang)",
+   "small": true,
    "url": "researchers/liwei-wang/"
   },
   {
@@ -980,6 +1049,7 @@
    "papers": 2,
    "degree": 1,
    "group": "Pappas group (Penn)",
+   "small": true,
    "url": "researchers/george-j-pappas/"
   },
   {
@@ -994,6 +1064,7 @@
    "papers": 2,
    "degree": 3,
    "group": "NeuralVerification.jl",
+   "small": true,
    "url": "researchers/mykel-j-kochenderfer/"
   },
   {
@@ -1008,301 +1079,323 @@
    "papers": 2,
    "degree": 1,
    "group": "MIPVerify (MIT)",
+   "small": true,
    "url": "researchers/vincent-tjeng/"
   },
   {
-   "id": "dong-xu",
-   "name": "Dong Xu",
-   "x": 339.7,
-   "y": 969.9,
-   "r": 10.1,
-   "lx": 353.8,
-   "ly": 973.9,
-   "color": "g1",
-   "papers": 2,
-   "degree": 5,
-   "group": "NeuralSAT",
-   "url": "researchers/dong-xu/"
-  },
-  {
-   "id": "thanh-le",
-   "name": "Thanh Le",
-   "x": 350.7,
-   "y": 1247.7,
-   "r": 10.8,
-   "lx": 365.5,
-   "ly": 1251.7,
-   "color": "g1",
-   "papers": 3,
-   "degree": 2,
-   "group": "NeuralSAT",
-   "url": "researchers/thanh-le/"
-  },
-  {
-   "id": "hai-duong",
-   "name": "Hai Duong",
-   "x": 240.0,
-   "y": 1169.3,
+   "id": "matthew-b-dwyer",
+   "name": "Matthew B. Dwyer",
+   "x": 191.9,
+   "y": 1096.8,
    "r": 12.8,
-   "lx": 256.8,
-   "ly": 1173.3,
+   "lx": 208.7,
+   "ly": 1100.8,
    "color": "g1",
    "papers": 7,
    "degree": 5,
    "group": "NeuralSAT",
-   "url": "researchers/hai-duong/"
+   "small": false,
+   "url": "researchers/matthew-b-dwyer/"
+  },
+  {
+   "id": "thanh-le",
+   "name": "Thanh Le",
+   "x": 429.8,
+   "y": 1200.2,
+   "r": 10.8,
+   "lx": 444.6,
+   "ly": 1204.2,
+   "color": "g1",
+   "papers": 3,
+   "degree": 2,
+   "group": "NeuralSAT",
+   "small": false,
+   "url": "researchers/thanh-le/"
+  },
+  {
+   "id": "thanhvu-nguyen",
+   "name": "ThanhVu Nguyen",
+   "x": 283.2,
+   "y": 1175.5,
+   "r": 13.2,
+   "lx": 300.4,
+   "ly": 1179.5,
+   "color": "g1",
+   "papers": 8,
+   "degree": 5,
+   "group": "NeuralSAT",
+   "small": false,
+   "url": "researchers/thanhvu-nguyen/"
+  },
+  {
+   "id": "david-shriver",
+   "name": "David Shriver",
+   "x": 70.4,
+   "y": 1145.0,
+   "r": 11.4,
+   "lx": 85.8,
+   "ly": 1149.0,
+   "color": "g1",
+   "papers": 4,
+   "degree": 5,
+   "group": "NeuralSAT",
+   "small": false,
+   "url": "researchers/david-shriver/"
   },
   {
    "id": "sebastian-elbaum",
    "name": "Sebastian Elbaum",
    "x": 54.8,
-   "y": 1056.1,
+   "y": 1048.7,
    "r": 10.8,
    "lx": 69.6,
-   "ly": 1060.1,
+   "ly": 1052.7,
    "color": "g1",
    "papers": 3,
    "degree": 3,
    "group": "NeuralSAT",
+   "small": false,
    "url": "researchers/sebastian-elbaum/"
   },
   {
-   "id": "david-shriver",
-   "name": "David Shriver",
-   "x": 143.4,
-   "y": 985.5,
-   "r": 11.4,
-   "lx": 158.8,
-   "ly": 989.5,
+   "id": "dong-xu",
+   "name": "Dong Xu",
+   "x": 234.3,
+   "y": 969.9,
+   "r": 10.1,
+   "lx": 248.4,
+   "ly": 973.9,
    "color": "g1",
-   "papers": 4,
+   "papers": 2,
    "degree": 5,
    "group": "NeuralSAT",
-   "url": "researchers/david-shriver/"
+   "small": false,
+   "url": "researchers/dong-xu/"
   },
   {
-   "id": "thanhvu-nguyen",
-   "name": "ThanhVu Nguyen",
-   "x": 319.4,
-   "y": 1135.3,
-   "r": 13.2,
-   "lx": 336.6,
-   "ly": 1139.3,
-   "color": "g1",
-   "papers": 8,
-   "degree": 5,
-   "group": "NeuralSAT",
-   "url": "researchers/thanhvu-nguyen/"
-  },
-  {
-   "id": "matthew-b-dwyer",
-   "name": "Matthew B. Dwyer",
-   "x": 210.8,
-   "y": 1072.6,
+   "id": "hai-duong",
+   "name": "Hai Duong",
+   "x": 326.4,
+   "y": 1124.8,
    "r": 12.8,
-   "lx": 227.6,
-   "ly": 1076.6,
+   "lx": 343.2,
+   "ly": 1128.8,
    "color": "g1",
    "papers": 7,
    "degree": 5,
    "group": "NeuralSAT",
-   "url": "researchers/matthew-b-dwyer/"
-  },
-  {
-   "id": "klas-leino",
-   "name": "Klas Leino",
-   "x": 696.0,
-   "y": 1017.1,
-   "r": 11.4,
-   "lx": 711.4,
-   "ly": 1021.1,
-   "color": "g-other",
-   "papers": 4,
-   "degree": 2,
-   "group": "GloRo (CMU)",
-   "url": "researchers/klas-leino/"
+   "small": false,
+   "url": "researchers/hai-duong/"
   },
   {
    "id": "corina-s-pasareanu",
    "name": "Corina S. Pasareanu",
-   "x": 517.5,
-   "y": 1151.7,
+   "x": 301.4,
+   "y": 1317.2,
    "r": 10.1,
-   "lx": 531.6,
-   "ly": 1155.7,
+   "lx": 315.5,
+   "ly": 1321.2,
    "color": "g-other",
    "papers": 2,
    "degree": 2,
    "group": "Pasareanu group (CMU/NASA)",
+   "small": true,
    "url": "researchers/corina-s-pasareanu/"
   },
   {
    "id": "matt-fredrikson",
    "name": "Matt Fredrikson",
-   "x": 585.7,
-   "y": 969.9,
+   "x": 55.9,
+   "y": 1364.1,
    "r": 11.9,
-   "lx": 601.6,
-   "ly": 973.9,
+   "lx": 71.8,
+   "ly": 1368.1,
    "color": "g-other",
    "papers": 5,
    "degree": 2,
    "group": "GloRo (CMU)",
+   "small": true,
    "url": "researchers/matt-fredrikson/"
+  },
+  {
+   "id": "klas-leino",
+   "name": "Klas Leino",
+   "x": 55.9,
+   "y": 1270.2,
+   "r": 11.4,
+   "lx": 71.3,
+   "ly": 1274.2,
+   "color": "g-other",
+   "papers": 4,
+   "degree": 2,
+   "group": "GloRo (CMU)",
+   "small": true,
+   "url": "researchers/klas-leino/"
   },
   {
    "id": "lijun-zhang",
    "name": "Lijun Zhang",
-   "x": 300.9,
-   "y": 1422.7,
+   "x": 779.2,
+   "y": 1270.2,
    "r": 11.4,
-   "lx": 316.3,
-   "ly": 1426.7,
+   "lx": 794.6,
+   "ly": 1274.2,
    "color": "g-other",
    "papers": 4,
    "degree": 1,
    "group": "ISCAS (Lijun Zhang)",
+   "small": true,
    "url": "researchers/lijun-zhang/"
-  },
-  {
-   "id": "xiaowei-huang",
-   "name": "Xiaowei Huang",
-   "x": 177.5,
-   "y": 1371.1,
-   "r": 10.8,
-   "lx": 192.3,
-   "ly": 1375.1,
-   "color": "g7",
-   "papers": 3,
-   "degree": 2,
-   "group": "DLV / DeepGame",
-   "url": "researchers/xiaowei-huang/"
   },
   {
    "id": "marta-kwiatkowska",
    "name": "Marta Kwiatkowska",
-   "x": 55.4,
-   "y": 1317.7,
+   "x": 533.7,
+   "y": 1375.2,
    "r": 11.4,
-   "lx": 70.8,
-   "ly": 1321.7,
+   "lx": 549.1,
+   "ly": 1379.2,
    "color": "g7",
    "papers": 4,
    "degree": 1,
    "group": "DLV / DeepGame",
+   "small": true,
    "url": "researchers/marta-kwiatkowska/"
   },
   {
-   "id": "dana-drachsler-cohen",
-   "name": "Dana Drachsler-Cohen",
-   "x": 676.8,
-   "y": 1317.7,
-   "r": 12.4,
-   "lx": 693.2,
-   "ly": 1321.7,
-   "color": "g-other",
-   "papers": 6,
-   "degree": 1,
-   "group": "Drachsler-Cohen group (Technion)",
-   "url": "researchers/dana-drachsler-cohen/"
+   "id": "xiaowei-huang",
+   "name": "Xiaowei Huang",
+   "x": 655.8,
+   "y": 1321.9,
+   "r": 10.8,
+   "lx": 670.6,
+   "ly": 1325.9,
+   "color": "g7",
+   "papers": 3,
+   "degree": 2,
+   "group": "DLV / DeepGame",
+   "small": true,
+   "url": "researchers/xiaowei-huang/"
   },
   {
    "id": "anan-kabaha",
    "name": "Anan Kabaha",
-   "x": 476.3,
-   "y": 1317.7,
+   "x": 256.9,
+   "y": 1445.2,
    "r": 10.8,
-   "lx": 491.1,
-   "ly": 1321.7,
+   "lx": 271.7,
+   "ly": 1449.2,
    "color": "g-other",
    "papers": 3,
    "degree": 1,
    "group": "Drachsler-Cohen group (Technion)",
+   "small": true,
    "url": "researchers/anan-kabaha/"
+  },
+  {
+   "id": "dana-drachsler-cohen",
+   "name": "Dana Drachsler-Cohen",
+   "x": 56.4,
+   "y": 1445.2,
+   "r": 12.4,
+   "lx": 72.8,
+   "ly": 1449.2,
+   "color": "g-other",
+   "papers": 6,
+   "degree": 1,
+   "group": "Drachsler-Cohen group (Technion)",
+   "small": true,
+   "url": "researchers/dana-drachsler-cohen/"
   },
   {
    "id": "isil-dillig",
    "name": "Isil Dillig",
-   "x": 254.6,
-   "y": 1492.7,
+   "x": 631.4,
+   "y": 1445.2,
    "r": 10.8,
-   "lx": 269.4,
-   "ly": 1496.7,
+   "lx": 646.2,
+   "ly": 1449.2,
    "color": "g-other",
    "papers": 3,
    "degree": 1,
    "group": "Charon (UT Austin)",
+   "small": true,
    "url": "researchers/isil-dillig/"
   },
   {
    "id": "swarat-chaudhuri",
    "name": "Swarat Chaudhuri",
-   "x": 54.1,
-   "y": 1492.7,
+   "x": 431.0,
+   "y": 1445.2,
    "r": 10.1,
-   "lx": 68.2,
-   "ly": 1496.7,
+   "lx": 445.1,
+   "ly": 1449.2,
    "color": "g-other",
    "papers": 2,
    "degree": 1,
    "group": "Charon (UT Austin)",
+   "small": true,
    "url": "researchers/swarat-chaudhuri/"
   },
   {
    "id": "neil-gong",
    "name": "Neil Gong",
-   "x": 633.3,
-   "y": 1492.7,
+   "x": 258.8,
+   "y": 1515.2,
    "r": 12.8,
-   "lx": 650.1,
-   "ly": 1496.7,
+   "lx": 275.6,
+   "ly": 1519.2,
    "color": "g-other",
    "papers": 7,
    "degree": 1,
    "group": "Gong group (Duke)",
+   "small": true,
    "url": "researchers/neil-gong/"
   },
   {
    "id": "jinyuan-jia",
    "name": "Jinyuan Jia",
-   "x": 432.9,
-   "y": 1492.7,
+   "x": 58.3,
+   "y": 1515.2,
    "r": 14.3,
-   "lx": 451.2,
-   "ly": 1496.7,
+   "lx": 76.6,
+   "ly": 1519.2,
    "color": "g-other",
    "papers": 11,
    "degree": 1,
    "group": "Jia group (Penn State)",
+   "small": true,
    "url": "researchers/jinyuan-jia/"
-  },
-  {
-   "id": "soheil-feizi",
-   "name": "Soheil Feizi",
-   "x": 257.7,
-   "y": 1562.7,
-   "r": 14.6,
-   "lx": 276.3,
-   "ly": 1566.7,
-   "color": "g-other",
-   "papers": 12,
-   "degree": 1,
-   "group": "Reliable AI Lab (UMD)",
-   "url": "researchers/soheil-feizi/"
   },
   {
    "id": "tom-goldstein",
    "name": "Tom Goldstein",
-   "x": 57.2,
-   "y": 1562.7,
+   "x": 625.4,
+   "y": 1515.2,
    "r": 13.2,
-   "lx": 74.4,
-   "ly": 1566.7,
+   "lx": 642.6,
+   "ly": 1519.2,
    "color": "g-other",
    "papers": 8,
    "degree": 1,
    "group": "Goldstein group (UMD)",
+   "small": true,
    "url": "researchers/tom-goldstein/"
+  },
+  {
+   "id": "soheil-feizi",
+   "name": "Soheil Feizi",
+   "x": 425.0,
+   "y": 1515.2,
+   "r": 14.6,
+   "lx": 443.6,
+   "ly": 1519.2,
+   "color": "g-other",
+   "papers": 12,
+   "degree": 1,
+   "group": "Reliable AI Lab (UMD)",
+   "small": true,
+   "url": "researchers/soheil-feizi/"
   }
  ],
  "edges": [
@@ -1382,12 +1475,12 @@
    "a_name": "Hai Duong",
    "b_name": "Thanh Le",
    "weight": 3,
-   "x1": 240.0,
-   "y1": 1169.3,
-   "x2": 350.7,
-   "y2": 1247.7,
-   "wx": 295.4,
-   "wy": 1208.5,
+   "x1": 326.4,
+   "y1": 1124.8,
+   "x2": 429.8,
+   "y2": 1200.2,
+   "wx": 378.1,
+   "wy": 1162.5,
    "width": 3.5
   },
   {
@@ -1396,12 +1489,12 @@
    "a_name": "Hai Duong",
    "b_name": "ThanhVu Nguyen",
    "weight": 7,
-   "x1": 240.0,
-   "y1": 1169.3,
-   "x2": 319.4,
-   "y2": 1135.3,
-   "wx": 279.7,
-   "wy": 1152.3,
+   "x1": 326.4,
+   "y1": 1124.8,
+   "x2": 283.2,
+   "y2": 1175.5,
+   "wx": 304.8,
+   "wy": 1150.2,
    "width": 4.6
   },
   {
@@ -1410,12 +1503,12 @@
    "a_name": "Thanh Le",
    "b_name": "ThanhVu Nguyen",
    "weight": 3,
-   "x1": 350.7,
-   "y1": 1247.7,
-   "x2": 319.4,
-   "y2": 1135.3,
-   "wx": 335.1,
-   "wy": 1191.5,
+   "x1": 429.8,
+   "y1": 1200.2,
+   "x2": 283.2,
+   "y2": 1175.5,
+   "wx": 356.5,
+   "wy": 1187.9,
    "width": 3.5
   },
   {
@@ -1662,12 +1755,12 @@
    "a_name": "David Shriver",
    "b_name": "Hai Duong",
    "weight": 1,
-   "x1": 143.4,
-   "y1": 985.5,
-   "x2": 240.0,
-   "y2": 1169.3,
-   "wx": 191.7,
-   "wy": 1077.4,
+   "x1": 70.4,
+   "y1": 1145.0,
+   "x2": 326.4,
+   "y2": 1124.8,
+   "wx": 198.4,
+   "wy": 1134.9,
    "width": 2.5
   },
   {
@@ -1676,12 +1769,12 @@
    "a_name": "David Shriver",
    "b_name": "Matthew B. Dwyer",
    "weight": 4,
-   "x1": 143.4,
-   "y1": 985.5,
-   "x2": 210.8,
-   "y2": 1072.6,
-   "wx": 177.1,
-   "wy": 1029.1,
+   "x1": 70.4,
+   "y1": 1145.0,
+   "x2": 191.9,
+   "y2": 1096.8,
+   "wx": 131.2,
+   "wy": 1120.9,
    "width": 3.8
   },
   {
@@ -1690,12 +1783,12 @@
    "a_name": "David Shriver",
    "b_name": "ThanhVu Nguyen",
    "weight": 1,
-   "x1": 143.4,
-   "y1": 985.5,
-   "x2": 319.4,
-   "y2": 1135.3,
-   "wx": 231.4,
-   "wy": 1060.4,
+   "x1": 70.4,
+   "y1": 1145.0,
+   "x2": 283.2,
+   "y2": 1175.5,
+   "wx": 176.8,
+   "wy": 1160.3,
    "width": 2.5
   },
   {
@@ -1704,12 +1797,12 @@
    "a_name": "Hai Duong",
    "b_name": "Matthew B. Dwyer",
    "weight": 4,
-   "x1": 240.0,
-   "y1": 1169.3,
-   "x2": 210.8,
-   "y2": 1072.6,
-   "wx": 225.4,
-   "wy": 1120.9,
+   "x1": 326.4,
+   "y1": 1124.8,
+   "x2": 191.9,
+   "y2": 1096.8,
+   "wx": 259.2,
+   "wy": 1110.8,
    "width": 3.8
   },
   {
@@ -1718,12 +1811,12 @@
    "a_name": "Matthew B. Dwyer",
    "b_name": "ThanhVu Nguyen",
    "weight": 4,
-   "x1": 210.8,
-   "y1": 1072.6,
-   "x2": 319.4,
-   "y2": 1135.3,
-   "wx": 265.1,
-   "wy": 1103.9,
+   "x1": 191.9,
+   "y1": 1096.8,
+   "x2": 283.2,
+   "y2": 1175.5,
+   "wx": 237.6,
+   "wy": 1136.2,
    "width": 3.8
   },
   {
@@ -1774,12 +1867,12 @@
    "a_name": "Anan Kabaha",
    "b_name": "Dana Drachsler-Cohen",
    "weight": 3,
-   "x1": 476.3,
-   "y1": 1317.7,
-   "x2": 676.8,
-   "y2": 1317.7,
-   "wx": 576.6,
-   "wy": 1317.7,
+   "x1": 256.9,
+   "y1": 1445.2,
+   "x2": 56.4,
+   "y2": 1445.2,
+   "wx": 156.6,
+   "wy": 1445.2,
    "width": 3.5
   },
   {
@@ -1872,12 +1965,12 @@
    "a_name": "Lijun Zhang",
    "b_name": "Xiaowei Huang",
    "weight": 1,
-   "x1": 300.9,
-   "y1": 1422.7,
-   "x2": 177.5,
-   "y2": 1371.1,
-   "wx": 239.2,
-   "wy": 1396.9,
+   "x1": 779.2,
+   "y1": 1270.2,
+   "x2": 655.8,
+   "y2": 1321.9,
+   "wx": 717.5,
+   "wy": 1296.0,
    "width": 2.5
   },
   {
@@ -2012,12 +2105,12 @@
    "a_name": "Jinyuan Jia",
    "b_name": "Neil Gong",
    "weight": 6,
-   "x1": 432.9,
-   "y1": 1492.7,
-   "x2": 633.3,
-   "y2": 1492.7,
-   "wx": 533.1,
-   "wy": 1492.7,
+   "x1": 58.3,
+   "y1": 1515.2,
+   "x2": 258.8,
+   "y2": 1515.2,
+   "wx": 158.5,
+   "wy": 1515.2,
    "width": 4.4
   },
   {
@@ -2264,12 +2357,12 @@
    "a_name": "Dong Xu",
    "b_name": "Hai Duong",
    "weight": 1,
-   "x1": 339.7,
+   "x1": 234.3,
    "y1": 969.9,
-   "x2": 240.0,
-   "y2": 1169.3,
-   "wx": 289.9,
-   "wy": 1069.6,
+   "x2": 326.4,
+   "y2": 1124.8,
+   "wx": 280.4,
+   "wy": 1047.3,
    "width": 2.5
   },
   {
@@ -2278,12 +2371,12 @@
    "a_name": "Dong Xu",
    "b_name": "Matthew B. Dwyer",
    "weight": 2,
-   "x1": 339.7,
+   "x1": 234.3,
    "y1": 969.9,
-   "x2": 210.8,
-   "y2": 1072.6,
-   "wx": 275.2,
-   "wy": 1021.2,
+   "x2": 191.9,
+   "y2": 1096.8,
+   "wx": 213.1,
+   "wy": 1033.3,
    "width": 3.0
   },
   {
@@ -2292,12 +2385,12 @@
    "a_name": "Dong Xu",
    "b_name": "ThanhVu Nguyen",
    "weight": 1,
-   "x1": 339.7,
+   "x1": 234.3,
    "y1": 969.9,
-   "x2": 319.4,
-   "y2": 1135.3,
-   "wx": 329.5,
-   "wy": 1052.6,
+   "x2": 283.2,
+   "y2": 1175.5,
+   "wx": 258.7,
+   "wy": 1072.7,
    "width": 2.5
   },
   {
@@ -2502,12 +2595,12 @@
    "a_name": "Klas Leino",
    "b_name": "Matt Fredrikson",
    "weight": 4,
-   "x1": 696.0,
-   "y1": 1017.1,
-   "x2": 585.7,
-   "y2": 969.9,
-   "wx": 640.9,
-   "wy": 993.5,
+   "x1": 55.9,
+   "y1": 1270.2,
+   "x2": 55.9,
+   "y2": 1364.1,
+   "wx": 55.9,
+   "wy": 1317.2,
    "width": 3.8
   },
   {
@@ -2880,12 +2973,12 @@
    "a_name": "Soheil Feizi",
    "b_name": "Tom Goldstein",
    "weight": 3,
-   "x1": 257.7,
-   "y1": 1562.7,
-   "x2": 57.2,
-   "y2": 1562.7,
-   "wx": 157.4,
-   "wy": 1562.7,
+   "x1": 425.0,
+   "y1": 1515.2,
+   "x2": 625.4,
+   "y2": 1515.2,
+   "wx": 525.2,
+   "wy": 1515.2,
    "width": 3.5
   },
   {
@@ -3524,12 +3617,12 @@
    "a_name": "David Shriver",
    "b_name": "Sebastian Elbaum",
    "weight": 3,
-   "x1": 143.4,
-   "y1": 985.5,
+   "x1": 70.4,
+   "y1": 1145.0,
    "x2": 54.8,
-   "y2": 1056.1,
-   "wx": 99.1,
-   "wy": 1020.8,
+   "y2": 1048.7,
+   "wx": 62.6,
+   "wy": 1096.8,
    "width": 3.5
   },
   {
@@ -3538,12 +3631,12 @@
    "a_name": "Matthew B. Dwyer",
    "b_name": "Sebastian Elbaum",
    "weight": 3,
-   "x1": 210.8,
-   "y1": 1072.6,
+   "x1": 191.9,
+   "y1": 1096.8,
    "x2": 54.8,
-   "y2": 1056.1,
-   "wx": 132.8,
-   "wy": 1064.3,
+   "y2": 1048.7,
+   "wx": 123.4,
+   "wy": 1072.7,
    "width": 3.5
   },
   {
@@ -3608,12 +3701,12 @@
    "a_name": "Corina S. Pasareanu",
    "b_name": "Klas Leino",
    "weight": 1,
-   "x1": 517.5,
-   "y1": 1151.7,
-   "x2": 696.0,
-   "y2": 1017.1,
-   "wx": 606.8,
-   "wy": 1084.4,
+   "x1": 301.4,
+   "y1": 1317.2,
+   "x2": 55.9,
+   "y2": 1270.2,
+   "wx": 178.7,
+   "wy": 1293.7,
    "width": 2.5
   },
   {
@@ -3622,12 +3715,12 @@
    "a_name": "Corina S. Pasareanu",
    "b_name": "Matt Fredrikson",
    "weight": 1,
-   "x1": 517.5,
-   "y1": 1151.7,
-   "x2": 585.7,
-   "y2": 969.9,
-   "wx": 551.6,
-   "wy": 1060.8,
+   "x1": 301.4,
+   "y1": 1317.2,
+   "x2": 55.9,
+   "y2": 1364.1,
+   "wx": 178.7,
+   "wy": 1340.6,
    "width": 2.5
   },
   {
@@ -3832,12 +3925,12 @@
    "a_name": "Isil Dillig",
    "b_name": "Swarat Chaudhuri",
    "weight": 2,
-   "x1": 254.6,
-   "y1": 1492.7,
-   "x2": 54.1,
-   "y2": 1492.7,
-   "wx": 154.3,
-   "wy": 1492.7,
+   "x1": 631.4,
+   "y1": 1445.2,
+   "x2": 431.0,
+   "y2": 1445.2,
+   "wx": 531.2,
+   "wy": 1445.2,
    "width": 3.0
   },
   {
@@ -3846,12 +3939,12 @@
    "a_name": "David Shriver",
    "b_name": "Dong Xu",
    "weight": 1,
-   "x1": 143.4,
-   "y1": 985.5,
-   "x2": 339.7,
+   "x1": 70.4,
+   "y1": 1145.0,
+   "x2": 234.3,
    "y2": 969.9,
-   "wx": 241.5,
-   "wy": 977.7,
+   "wx": 152.3,
+   "wy": 1057.4,
    "width": 2.5
   },
   {
@@ -3860,12 +3953,12 @@
    "a_name": "Dong Xu",
    "b_name": "Sebastian Elbaum",
    "weight": 1,
-   "x1": 339.7,
+   "x1": 234.3,
    "y1": 969.9,
    "x2": 54.8,
-   "y2": 1056.1,
-   "wx": 197.2,
-   "wy": 1013.0,
+   "y2": 1048.7,
+   "wx": 144.6,
+   "wy": 1009.3,
    "width": 2.5
   },
   {
@@ -4252,12 +4345,12 @@
    "a_name": "Marta Kwiatkowska",
    "b_name": "Xiaowei Huang",
    "weight": 1,
-   "x1": 55.4,
-   "y1": 1317.7,
-   "x2": 177.5,
-   "y2": 1371.1,
-   "wx": 116.4,
-   "wy": 1344.4,
+   "x1": 533.7,
+   "y1": 1375.2,
+   "x2": 655.8,
+   "y2": 1321.9,
+   "wx": 594.8,
+   "wy": 1348.5,
    "width": 2.5
   }
  ],
@@ -4265,57 +4358,74 @@
   {
    "color": "g0",
    "label": "ERAN (SRI Lab)",
-   "slug": "eran"
+   "slug": "eran",
+   "small": false
   },
   {
    "color": "g1",
    "label": "NeuralSAT",
-   "slug": "neuralsat"
+   "slug": "neuralsat",
+   "small": false
   },
   {
    "color": "g2",
    "label": "Singh group (UIUC)",
-   "slug": "singh-uiuc"
+   "slug": "singh-uiuc",
+   "small": true
   },
   {
    "color": "g3",
    "label": "α,β-CROWN",
-   "slug": "abcrown"
+   "slug": "abcrown",
+   "small": false
   },
   {
    "color": "g4",
    "label": "Marabou",
-   "slug": "marabou"
+   "slug": "marabou",
+   "small": false
   },
   {
    "color": "g5",
    "label": "NNV (VeriVITAL)",
-   "slug": "nnv"
+   "slug": "nnv",
+   "small": false
   },
   {
    "color": "g6",
    "label": "DeepMind verification",
-   "slug": "deepmind"
+   "slug": "deepmind",
+   "small": false
   },
   {
    "color": "g7",
    "label": "DLV / DeepGame",
-   "slug": "dlv"
+   "slug": "dlv",
+   "small": true
   },
   {
    "color": "g8",
    "label": "CORA (TUM)",
-   "slug": "cora"
+   "slug": "cora",
+   "small": false
   },
   {
    "color": "g9",
+   "label": "Venus (Imperial)",
+   "slug": "venus",
+   "small": false
+  },
+  {
+   "color": "g10",
    "label": "nnenum",
-   "slug": "nnenum"
+   "slug": "nnenum",
+   "small": true
   },
   {
    "color": "g-other",
    "label": "",
-   "slug": ""
+   "slug": "",
+   "small": false
   }
  ]
 }

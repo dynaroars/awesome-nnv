@@ -50,6 +50,6 @@ mipverify,MIPVerify (MIT),MIPVerify,https://github.com/vtjeng/MIPVerify.jl,Russ 
 fu-song,QVIP / QEBVerif,QVIP; QEBVerif,,Quantized neural network verification.,,"proposed by Claude 2026-11-26, to confirm"
 raghunathan,Raghunathan group (CMU),,,,,"proposed by Claude 2026-11-26, to confirm"
 pappas,Pappas group (Penn),Verisig; LipSDP,,George Pappas's group at the University of Pennsylvania.,,added 2026-11-26 for George J. Pappas
-venus,Venus (Imperial),Venus; VeriNet,,Alessio Lomuscio's group: MILP-based and symbolic-interval verification.,,added 2026-11-26 for Alessio Lomuscio
+venus,Venus (Imperial),Venus; VeriNet,,Alessio Lomuscio's group: MILP-based and symbolic-interval verification.,yes,added 2026-11-26 for Alessio Lomuscio
 vnncomp,VNN-COMP (RWTH Aachen),VNN-COMP; VNN-LIB,https://sites.google.com/view/vnn2025,Organisers of the International Verification of Neural Networks Competition at RWTH Aachen University.,,added 2026-11-26 from the VNN-COMP 2025 report
 juliareach,JuliaReach,JuliaReach; ClosedLoopReachability.jl,https://github.com/JuliaReach,Set-based reachability in Julia for hybrid systems and neural-network control systems.,,added 2026-11-26 from the ARCH-COMP AINNCS reports

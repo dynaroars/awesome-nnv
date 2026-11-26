@@ -73,7 +73,11 @@ def component_layout(g, size, seed):
     return {k: (x - x0, y - y0) for k, (x, y) in pos.items()}
 
 
+SMALL_GROUP = 3
+
+
 def layout(researchers, groups, papers):
+    group_size = {g["slug"]: len(g["members"]) for g in groups}
     ids = {r["slug"] for r in researchers}
     by_slug = {r["slug"]: r for r in researchers}
     weight = edges_of(papers, ids)
@@ -104,6 +108,7 @@ def layout(researchers, groups, papers):
         nodes.append({"id": s, "name": r["name"], "x": round(x, 1), "y": round(y, 1), "r": radius,
                       "lx": round(x + radius + 4, 1), "ly": round(y + 4, 1), "color": r["color"],
                       "papers": r["papers"], "degree": degree[s], "group": r["group_name"],
+                      "small": group_size.get(r["group"], 0) < SMALL_GROUP,
                       "url": f"researchers/{s}/"})
     edges = []
     for (a, b), w in weight.items():
@@ -112,8 +117,9 @@ def layout(researchers, groups, papers):
                       "x1": round(x1, 1), "y1": round(y1, 1), "x2": round(x2, 1), "y2": round(y2, 1),
                       "wx": round((x1 + x2) / 2, 1), "wy": round((y1 + y2) / 2, 1),
                       "width": round(1.2 + 1.3 * math.sqrt(w), 1)})
-    legend = [{"color": gr["color"], "label": gr["name"], "slug": gr["slug"]} for gr in groups
+    legend = [{"color": gr["color"], "label": gr["name"], "slug": gr["slug"], "small": len(gr["members"]) < SMALL_GROUP}
+              for gr in groups
               if gr["color"] != "g-other" and any(n["color"] == gr["color"] for n in nodes)]
     if any(n["color"] == "g-other" for n in nodes):
-        legend.append({"color": "g-other", "label": "", "slug": ""})
+        legend.append({"color": "g-other", "label": "", "slug": "", "small": False})
     return {"width": round(width), "height": round(height), "nodes": nodes, "edges": edges, "legend": legend}

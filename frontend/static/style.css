@@ -479,7 +479,6 @@ svg.net .ew { font-size: 13px ; font-weight: 700 ; fill: var(--chart-value) ; pa
 svg.net .node circle { stroke: var(--bg) ; stroke-width: 2px ; }
 svg.net .node text { font-size: 14px ; fill: var(--fg) ; paint-order: stroke ; stroke: var(--bg) ; stroke-width: 4px ; stroke-linejoin: round ; }
 svg.net .node text.deg { font-size: 12px ; font-weight: 700 ; fill: #ffffff ; stroke: none ; pointer-events: none ; }
-svg.net .node.c4 text.deg, svg.net .node.c0 text.deg { fill: #1d1d1f ; }
 svg.net .node { cursor: pointer ; transition: opacity .15s ; }
 svg.net a.node:not([href]) { cursor: default ; }
 svg.net.focus .edge:not(.hl), svg.net.focus .ew:not(.hl), svg.net.focus .node:not(.hl) { opacity: 0.12 ; }
@@ -495,16 +494,7 @@ svg.net.focus .edge.hl { stroke: var(--chart-value) ; }
 .g-ochre circle, .dot.g-ochre { fill: #ab8704 ; background: #ab8704 ; }
 .g-green circle, .dot.g-green { fill: #1b7e2a ; background: #1b7e2a ; }
 .g-purple circle, .dot.g-purple { fill: #8e479d ; background: #8e479d ; }
-svg.net .node.c-cyan text.deg, svg.net .node.g-ochre text.deg { fill: #1d1d1f ; }
 
-svg.net .node.ring.g-ochre circle { fill: color-mix(in srgb, #ab8704 20%, var(--bg)) ; stroke: #ab8704 ; }
-svg.net .node.ring.g-green circle { fill: color-mix(in srgb, #1b7e2a 20%, var(--bg)) ; stroke: #1b7e2a ; }
-svg.net .node.ring.g-purple circle { fill: color-mix(in srgb, #8e479d 20%, var(--bg)) ; stroke: #8e479d ; }
-svg.net .node.ring text.deg { fill: var(--fg) ; }
-.dot.ring { box-sizing: border-box ; border: 3px solid ; }
-.dot.ring.g-ochre { background: color-mix(in srgb, #ab8704 20%, var(--bg)) ; border-color: #ab8704 ; }
-.dot.ring.g-green { background: color-mix(in srgb, #1b7e2a 20%, var(--bg)) ; border-color: #1b7e2a ; }
-.dot.ring.g-purple { background: color-mix(in srgb, #8e479d 20%, var(--bg)) ; border-color: #8e479d ; }
 .graph-legend { list-style: none ; padding: 0 ; display: flex ; flex-wrap: wrap ; gap: 6px 18px ; font-size: 0.9em ; }
 
 .legend-box .graph-legend { display: block ; margin: 0 ; }
@@ -616,17 +606,23 @@ td.wrap-cell { white-space: normal ; min-width: 14em ; max-width: 34em ; }
 td .dot, p .dot { display: inline-block ; width: 0.7em ; height: 0.7em ; border-radius: 50% ; vertical-align: 0.02em ; }
 ul.area-counts { columns: 2 ; padding-left: 1.2em ; }
 @media (max-width: 640px) { ul.area-counts { columns: 1 ; } }
-.g0 circle, .dot.g0 { fill: #2d66bd ; background: #2d66bd ; }
-.g1 circle, .dot.g1 { fill: #ca5558 ; background: #ca5558 ; }
-.g2 circle, .dot.g2 { fill: #1b7e2a ; background: #1b7e2a ; }
-.g3 circle, .dot.g3 { fill: #ab8704 ; background: #ab8704 ; }
-.g4 circle, .dot.g4 { fill: #8e479d ; background: #8e479d ; }
-.g5 circle, .dot.g5 { fill: #009cba ; background: #009cba ; }
-.g6 circle, .dot.g6 { fill: #eb6834 ; background: #eb6834 ; }
-.g7 circle, .dot.g7 { fill: #5d6b2f ; background: #5d6b2f ; }
-.g8 circle, .dot.g8 { fill: #d6538f ; background: #d6538f ; }
-.g9 circle, .dot.g9 { fill: #8c5a3c ; background: #8c5a3c ; }
-.g-other circle, .dot.g-other { fill: #9a9890 ; background: #9a9890 ; }
-svg.net .node.g3 text.deg, svg.net .node.g5 text.deg, svg.net .node.g-other text.deg { fill: #1d1d1f ; }
 code.pid { font-size: 0.82em ; color: var(--muted) ; margin-right: 0.4em ; }
 :target { background: var(--flag) ; }
+.g0 { --c: #2d66bd ; }
+.g1 { --c: #ca5558 ; }
+.g2 { --c: #1b7e2a ; }
+.g3 { --c: #ab8704 ; }
+.g4 { --c: #8e479d ; }
+.g5 { --c: #009cba ; }
+.g6 { --c: #eb6834 ; }
+.g7 { --c: #5d6b2f ; }
+.g8 { --c: #d6538f ; }
+.g9 { --c: #8c5a3c ; }
+.g10 { --c: #6a5acd ; }
+.g-other { --c: #9a9890 ; }
+svg.net .node circle, .dot { fill: var(--c) ; background: var(--c) ; }
+svg.net .node.g3 text.deg, svg.net .node.g5 text.deg, svg.net .node.g-other text.deg { fill: #1d1d1f ; }
+svg.net .node.ring circle { fill: var(--bg) ; stroke: var(--c) ; stroke-width: 3px ; }
+svg.net .node.ring text.deg { fill: var(--fg) ; }
+.dot.ring { background: var(--bg) ; box-sizing: border-box ; border: 2.5px solid var(--c) ; }
+.graph-legend .size-key { color: var(--muted) ; font-size: 0.95em ; }

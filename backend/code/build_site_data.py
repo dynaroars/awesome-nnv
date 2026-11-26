@@ -13,7 +13,7 @@ from common import (all_papers, conference_month, dblp_name, VIRTUAL_COVERAGE, A
 
 CONTENT = FRONTEND / "content"
 DATA = FRONTEND / "data"
-GROUP_COLORS = 10
+GROUP_COLORS = 11
 FIELD_NAME = {f["key"]: f["name"] for f in FIELDS}
 
 
