@@ -15,7 +15,7 @@
   "orcid": "0000-0002-0054-9568",
   "openreview": "~Martin_Vechev1",
   "scholar": "aZ1Rh50AAAAJ",
-  "photo": "",
+  "photo": "img/people/martin-vechev.jpg",
   "dblp": [
    "https://dblp.org/pid/93/2189.html"
   ],
@@ -1457,6 +1457,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.667,
+  "recent_rank": 13,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -1481,8 +1484,8 @@
   "homepage": "https://ggndpsngh.github.io/",
   "orcid": "0000-0002-9299-2961",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "m4b2ruEAAAAJ",
+  "photo": "img/people/gagandeep-singh.jpg",
   "dblp": [
    "https://dblp.org/pid/64/3747-1.html"
   ],
@@ -2770,6 +2773,9 @@
     ]
    }
   ],
+  "recent_papers": 4,
+  "recent_score": 1.034,
+  "recent_rank": 2,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -2794,8 +2800,8 @@
   "homepage": "https://www.cs.umd.edu/~sfeizi/",
   "orcid": "0000-0003-0944-8242",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "lptAmrMAAAAJ",
+  "photo": "img/people/soheil-feizi.jpg",
   "dblp": [
    "https://dblp.org/pid/57/2132.html"
   ],
@@ -3473,6 +3479,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 77,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Reliable AI Lab",
@@ -3498,7 +3507,7 @@
   "orcid": "0000-0002-4426-9736",
   "openreview": "~Huan_Zhang1",
   "scholar": "LTa3GzEAAAAJ",
-  "photo": "",
+  "photo": "img/people/huan-zhang.jpg",
   "dblp": [
    "https://dblp.org/pid/23/1797-1.html",
    "https://dblp.org/pid/23/1797.html"
@@ -5110,6 +5119,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 40,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -5135,7 +5147,7 @@
   "orcid": "0000-0002-8106-5759",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/zico-kolter.jpg",
   "dblp": [
    "https://dblp.org/pid/67/2526.html"
   ],
@@ -6002,6 +6014,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 78,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "α,β-CROWN",
@@ -6451,6 +6466,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 79,
   "institution_name": "University of Tübingen",
   "institution_local_name": "University of Tübingen",
   "group_label": "Hein group",
@@ -6475,8 +6493,8 @@
   "homepage": "https://aisecure.github.io/",
   "orcid": "0000-0003-4883-7267",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "K8vJkTcAAAAJ",
+  "photo": "img/people/bo-li.jpg",
   "dblp": [
    "https://dblp.org/pid/50/3402-26.html"
   ],
@@ -7655,6 +7673,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 80,
   "institution_name": "UIUC/Virtue AI",
   "institution_local_name": "University of Chicago",
   "group_label": "Secure Learning Lab",
@@ -8229,6 +8250,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.5,
+  "recent_rank": 17,
   "institution_name": "Technical University of Munich",
   "institution_local_name": "Technical University of Munich",
   "group_label": "DAML",
@@ -8745,6 +8769,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 1.167,
+  "recent_rank": 3,
   "institution_name": "University of Cologne",
   "institution_local_name": "University of Cologne",
   "group_label": "DAML (TUM)",
@@ -8769,8 +8796,8 @@
   "homepage": "https://www.katz-lab.com/",
   "orcid": "0000-0001-5292-801X",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "3nYG5BMAAAAJ",
+  "photo": "img/people/guy-katz.jpg",
   "dblp": [
    "https://dblp.org/pid/23/10321.html"
   ],
@@ -9692,6 +9719,9 @@
     ]
    }
   ],
+  "recent_papers": 7,
+  "recent_score": 1.626,
+  "recent_rank": 0,
   "institution_name": "Hebrew University of Jerusalem",
   "institution_local_name": "Hebrew University of Jerusalem",
   "group_label": "Marabou",
@@ -10089,6 +10119,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 81,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Reliable AI Lab",
@@ -10114,7 +10147,7 @@
   "orcid": "0000-0002-2496-6542",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/mark-niklas-muller.jpg",
   "dblp": [
    "https://dblp.org/pid/287/4254.html"
   ],
@@ -10753,6 +10786,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 82,
   "institution_name": "ETH Zurich / LogicStar.ai",
   "institution_local_name": "LogicStar AI",
   "group_label": "ERAN (SRI Lab)",
@@ -11834,6 +11870,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 83,
   "institution_name": "University of California, Los Angeles",
   "institution_local_name": "University of California, Los Angeles",
   "group_label": "α,β-CROWN",
@@ -11858,8 +11897,8 @@
   "homepage": "https://jinyuan-jia.github.io/",
   "orcid": "0000-0002-9785-7769",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "iyg4ytkAAAAJ",
+  "photo": "img/people/jinyuan-jia.jpg",
   "dblp": [
    "https://dblp.org/pid/24/5124-1.html"
   ],
@@ -12399,6 +12438,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.5,
+  "recent_rank": 25,
   "institution_name": "Pennsylvania State University",
   "institution_local_name": "Pennsylvania State University",
   "group_label": "Jia group",
@@ -12424,7 +12466,7 @@
   "orcid": "0000-0002-4157-1235",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/marc-fischer.jpg",
   "dblp": [
    "https://dblp.org/pid/37/9373-2.html"
   ],
@@ -12951,6 +12993,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 84,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -13337,6 +13382,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 85,
   "institution_name": "Singapore Management University",
   "institution_local_name": "Singapore Management University",
   "group_label": "Socrates",
@@ -13983,6 +14031,9 @@
     ]
    }
   ],
+  "recent_papers": 6,
+  "recent_score": 1.46,
+  "recent_rank": 1,
   "institution_name": "Hebrew University of Jerusalem",
   "institution_local_name": "Hebrew University of Jerusalem",
   "group_label": "Marabou",
@@ -14008,7 +14059,7 @@
   "orcid": "0000-0001-6644-5377",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/dana-drachsler-cohen.jpg",
   "dblp": [
    "https://dblp.org/pid/155/1628.html"
   ],
@@ -14256,6 +14307,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 86,
   "institution_name": "Technion – Israel Institute of Technology",
   "institution_local_name": "Technion – Israel Institute of Technology",
   "group_label": "Drachsler-Cohen group",
@@ -15044,6 +15098,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 41,
   "institution_name": "Simon Fraser University",
   "institution_local_name": "Simon Fraser University",
   "group_label": "Linyi Li group",
@@ -15442,6 +15499,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 27,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -15831,6 +15891,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.833,
+  "recent_rank": 4,
   "institution_name": "George Mason University",
   "institution_local_name": "George Mason University",
   "group_label": "NeuralSAT",
@@ -16038,6 +16101,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 87,
   "institution_name": "University of Tübingen",
   "institution_local_name": "University of Tübingen",
   "group_label": "Hein group",
@@ -16276,6 +16342,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 88,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Reliable AI Lab",
@@ -16852,6 +16921,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 89,
   "institution_name": "University of California San Diego",
   "institution_local_name": "University of California San Diego",
   "group_label": "Weng group",
@@ -17098,6 +17170,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 90,
   "institution_name": "University of California, Davis",
   "institution_local_name": "University of California, Davis",
   "group_label": "PRDNN",
@@ -17560,6 +17635,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 91,
   "institution_name": "Swiss Federal Institute of Technology",
   "institution_local_name": "Swiss Federal Institute of Technology",
   "group_label": "ERAN (SRI Lab)",
@@ -17862,6 +17940,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 92,
   "institution_name": "University of Southern California",
   "institution_local_name": "University of Southern California",
   "group_label": "Chao Wang group",
@@ -17886,8 +17967,8 @@
   "homepage": "https://dvij.github.io/",
   "orcid": "0000-0002-1328-4677",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "BUtloecAAAAJ",
+  "photo": "img/people/krishnamurthy-dvijotham.jpg",
   "dblp": [
    "https://dblp.org/pid/16/8758.html"
   ],
@@ -18692,6 +18773,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 93,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -19058,6 +19142,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 42,
   "institution_name": "Morgan Stanley",
   "institution_local_name": "Morgan Stanley",
   "group_label": "DAML (TUM)",
@@ -19083,7 +19170,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/alexandre-araujo.jpg",
   "dblp": [
    "https://dblp.org/pid/228/6599.html"
   ],
@@ -19620,6 +19707,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 94,
   "institution_name": "New York University",
   "institution_local_name": "New York University",
   "group_label": "Alexandre Araujo group",
@@ -19980,6 +20070,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.833,
+  "recent_rank": 5,
   "institution_name": "George Mason University",
   "institution_local_name": "George Mason University",
   "group_label": "NeuralSAT",
@@ -20005,7 +20098,7 @@
   "orcid": "0000-0002-1937-1544",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/matthew-b-dwyer.jpg",
   "dblp": [
    "https://dblp.org/pid/d/MatthewBDwyer.html"
   ],
@@ -20335,6 +20428,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 95,
   "institution_name": "University of Virginia",
   "institution_local_name": "University of Virginia",
   "group_label": "NeuralSAT",
@@ -20694,6 +20790,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.667,
+  "recent_rank": 14,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -20718,8 +20817,8 @@
   "homepage": "https://ryz.ece.illinois.edu/",
   "orcid": "0000-0003-3980-2791",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "5r5Jyb4AAAAJ",
+  "photo": "img/people/richard-y-zhang.jpg",
   "dblp": [
    "https://dblp.org/pid/169/9027.html"
   ],
@@ -20916,6 +21015,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 43,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -21272,6 +21374,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 28,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "GloRo",
@@ -21296,8 +21401,8 @@
   "homepage": "https://www.cs.umd.edu/~tomg/",
   "orcid": "0000-0003-1660-9307",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "KmSuVtgAAAAJ",
+  "photo": "img/people/tom-goldstein.jpg",
   "dblp": [
    "https://dblp.org/pid/25/8184.html"
   ],
@@ -21713,6 +21818,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 96,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Goldstein group",
@@ -22122,6 +22230,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 97,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -22597,6 +22708,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 98,
   "institution_name": "Google DeepMind",
   "institution_local_name": "University of Oxford",
   "group_label": "OVAL (Oxford)",
@@ -22923,6 +23037,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 99,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Albarghouthi group",
@@ -23249,6 +23366,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.5,
+  "recent_rank": 18,
   "institution_name": "Technical University of Munich",
   "institution_local_name": "Technical University of Munich",
   "group_label": "DAML",
@@ -23611,6 +23731,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 52,
   "institution_name": "Duke University",
   "institution_local_name": "Duke University",
   "group_label": "Gong group",
@@ -23636,7 +23759,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/aounon-kumar.jpg",
   "dblp": [
    "https://dblp.org/pid/191/8334.html"
   ],
@@ -23952,6 +24075,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 100,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Goldstein group",
@@ -23977,7 +24103,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/binghui-wang.jpg",
   "dblp": [
    "https://dblp.org/pid/123/7149.html"
   ],
@@ -24353,6 +24479,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 101,
   "institution_name": "Illinois Institute of Technology",
   "institution_local_name": "Illinois Institute of Technology",
   "group_label": "Jia group (Penn State)",
@@ -24378,7 +24507,7 @@
   "orcid": "0000-0003-3420-723X",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/alessio-lomuscio.jpg",
   "dblp": [
    "https://dblp.org/pid/l/AlessioLomuscio.html"
   ],
@@ -24699,6 +24828,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.7,
+  "recent_rank": 9,
   "institution_name": "Imperial College London",
   "institution_local_name": "Imperial College London",
   "group_label": "Venus",
@@ -25097,6 +25229,9 @@
   ],
   "institution_via": "Martin Vechev",
   "institution_local_via": "Martin Vechev",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 102,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -25421,6 +25556,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 103,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "GloRo",
@@ -25817,6 +25955,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.533,
+  "recent_rank": 16,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -25842,7 +25983,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/rudy-bunel.jpg",
   "dblp": [
    "https://dblp.org/pid/180/5419.html"
   ],
@@ -26469,6 +26610,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 104,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -26970,6 +27114,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 105,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "Daniel group",
@@ -27244,6 +27391,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 106,
   "institution_name": "Purdue University",
   "institution_local_name": "Purdue University",
   "group_label": "Chao Wang group (USC)",
@@ -27268,8 +27418,8 @@
   "homepage": "https://cseweb.ucsd.edu/~ldantoni/",
   "orcid": "0000-0001-9625-4037",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "ao8EeJ8AAAAJ",
+  "photo": "img/people/loris-d-antoni.jpg",
   "dblp": [
    "https://dblp.org/pid/85/770.html"
   ],
@@ -27518,6 +27668,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 107,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Albarghouthi group",
@@ -27542,8 +27695,8 @@
   "homepage": "http://users.ece.utexas.edu/~dimakis/",
   "orcid": "0000-0002-4244-7033",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "JSFmVQEAAAAJ",
+  "photo": "img/people/alex-dimakis.jpg",
   "dblp": [
    "https://dblp.org/pid/19/5000.html"
   ],
@@ -27735,6 +27888,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 108,
   "institution_name": "University of Texas, Austin",
   "institution_local_name": "University of California, Berkeley",
   "group_label": "Dimakis group (UT Austin)",
@@ -27952,6 +28108,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 109,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "Dimakis group",
@@ -27976,8 +28135,8 @@
   "homepage": "http://www.taylortjohnson.com/",
   "orcid": "0000-0001-8021-9923",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "MdTkXNYAAAAJ",
+  "photo": "img/people/taylor-t-johnson.jpg",
   "dblp": [
    "https://dblp.org/pid/96/11505.html"
   ],
@@ -28392,6 +28551,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 29,
   "institution_name": "Vanderbilt University",
   "institution_local_name": "Vanderbilt University",
   "group_label": "NNV (VeriVITAL)",
@@ -28416,8 +28578,8 @@
   "homepage": "https://riceric22.github.io/",
   "orcid": "0000-0002-8568-6659",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "pWnTMRkAAAAJ",
+  "photo": "img/people/eric-wong.jpg",
   "dblp": [
    "https://dblp.org/pid/64/1811-1.html"
   ],
@@ -28703,6 +28865,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 110,
   "institution_name": "University of Pennsylvania",
   "institution_local_name": "University of Pennsylvania",
   "group_label": "α,β-CROWN",
@@ -28921,6 +29086,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 30,
   "institution_name": "CISPA Helmholtz Center for Information Security",
   "institution_local_name": "CISPA Helmholtz Center for Information Security",
   "group_label": "DAML (TUM)",
@@ -29093,6 +29261,9 @@
    }
   ],
   "institution_via": "Dana Drachsler-Cohen",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 111,
   "institution_name": "Technion – Israel Institute of Technology",
   "institution_local_name": "Technion – Israel Institute of Technology",
   "group_label": "Drachsler-Cohen group",
@@ -29117,8 +29288,8 @@
   "homepage": "http://misailo.web.engr.illinois.edu/",
   "orcid": "0000-0001-7319-8845",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "3qJQjIYAAAAJ",
+  "photo": "img/people/sasa-misailovic.jpg",
   "dblp": [
    "https://dblp.org/pid/00/4734.html"
   ],
@@ -29444,6 +29615,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 53,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Misailovic group",
@@ -29469,7 +29643,7 @@
   "orcid": "0000-0003-1938-2902",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/min-zhang.jpg",
   "dblp": [
    "https://dblp.org/pid/83/5342-2.html"
   ],
@@ -30127,6 +30301,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 66,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -30639,6 +30816,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 67,
   "institution_name": "University of California, Riverside",
   "institution_local_name": "University of California, Riverside",
   "group_label": "α,β-CROWN",
@@ -30878,6 +31058,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 112,
   "institution_name": "Korea Advanced Institute of Science and Technology",
   "institution_local_name": "Korea Advanced Institute of Science and Technology",
   "group_label": "Jinwoo Shin group",
@@ -31117,6 +31300,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 113,
   "institution_name": "Korea Advanced Institute of Science and Technology",
   "institution_local_name": "Korea Advanced Institute of Science and Technology",
   "group_label": "Jongheon Jeong group",
@@ -31460,6 +31646,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.45,
+  "recent_rank": 20,
   "institution_name": "Institute of Science Tokyo",
   "institution_local_name": "Institute of Science Tokyo",
   "group_label": "Blaise Delattre group",
@@ -31485,7 +31674,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/wenxiao-wang.jpg",
   "dblp": [
    "https://dblp.org/pid/243/5853-2.html"
   ],
@@ -31686,6 +31875,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 114,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Reliable AI Lab",
@@ -31711,7 +31903,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/alessandro-de-palma.jpg",
   "dblp": [
    "https://dblp.org/pid/211/7156.html"
   ],
@@ -31912,6 +32104,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 1.0,
+  "recent_rank": 24,
   "institution_name": "London School of Economics and Political Science",
   "institution_local_name": "London School of Economics and Political Science",
   "group_label": "OVAL (Oxford)",
@@ -32353,6 +32548,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 115,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "Torr Vision Group",
@@ -32574,6 +32772,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.667,
+  "recent_rank": 15,
   "institution_name": "Saarland University",
   "institution_local_name": "Saarland University",
   "group_label": "DAML (TUM)",
@@ -32599,7 +32800,7 @@
   "orcid": "0000-0001-9606-150X",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/he-zhu.jpg",
   "dblp": [
    "https://dblp.org/pid/59/2802-1.html"
   ],
@@ -32754,6 +32955,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 116,
   "institution_name": "Rutgers University",
   "institution_local_name": "Rutgers University",
   "group_label": "He Zhu group",
@@ -32934,6 +33138,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 117,
   "institution_name": "University of California, Davis",
   "institution_local_name": "University of California, Davis",
   "group_label": "PRDNN",
@@ -33393,6 +33600,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 118,
   "institution_name": "IBM Research",
   "institution_local_name": "IBM Research",
   "group_label": "IBM Research",
@@ -33417,8 +33627,8 @@
   "homepage": "https://www.t-lorenz.com/",
   "orcid": "0000-0003-4369-2644",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "gf-aMd0AAAAJ",
+  "photo": "img/people/tobias-lorenz.jpg",
   "dblp": [
    "https://dblp.org/pid/25/6006-2.html"
   ],
@@ -33710,6 +33920,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 54,
   "institution_name": "CISPA Helmholtz Center for Information Security",
   "institution_local_name": "CISPA Helmholtz Center for Information Security",
   "group_label": "DLV / DeepGame",
@@ -33950,6 +34163,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 119,
   "institution_name": "École Polytechnique Fédérale de Lausanne",
   "institution_local_name": "École Polytechnique Fédérale de Lausanne",
   "group_label": "LIONS",
@@ -33975,7 +34191,7 @@
   "orcid": "0000-0002-5632-7737",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/bin-hu.jpg",
   "dblp": [
    "https://dblp.org/pid/00/6381-2.html",
    "https://dblp.org/pid/00/6381.html"
@@ -34348,6 +34564,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 120,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Bin Hu group",
@@ -34656,6 +34875,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 121,
   "institution_name": "VMware",
   "institution_local_name": "VMware",
   "group_label": "Formal XAI (Marques-Silva)",
@@ -34851,6 +35073,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 122,
   "institution_name": "University of Tübingen",
   "institution_local_name": "University of Tübingen",
   "group_label": "Hein group",
@@ -35153,6 +35378,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 123,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -35474,6 +35702,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 124,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -35883,6 +36114,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 125,
   "institution_name": "University of Nebraska-Lincoln",
   "institution_local_name": "University of Nebraska-Lincoln",
   "group_label": "NNV (VeriVITAL)",
@@ -35907,8 +36141,8 @@
   "homepage": "https://cs.stanford.edu/~minwu/",
   "orcid": "0009-0008-7801-5807",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "KIvRCsoAAAAJ",
+  "photo": "img/people/min-wu.jpg",
   "dblp": [
    "https://dblp.org/pid/16/0-11.html"
   ],
@@ -36231,6 +36465,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 126,
   "institution_name": "Stanford University",
   "institution_local_name": "Stanford University",
   "group_label": "Marabou",
@@ -36655,6 +36892,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 127,
   "institution_name": "University of California, Los Angeles",
   "institution_local_name": "University of California, Los Angeles",
   "group_label": "α,β-CROWN",
@@ -36971,6 +37211,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.56,
+  "recent_rank": 12,
   "institution_name": "Masaryk University",
   "institution_local_name": "Masaryk University",
   "group_label": "Marabou",
@@ -37254,6 +37497,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 128,
   "institution_name": "University of California, Berkeley",
   "institution_local_name": "University of California, Berkeley",
   "group_label": "Liang group (Stanford)",
@@ -37278,8 +37524,8 @@
   "homepage": "http://cs.stanford.edu/~pliang/",
   "orcid": "0000-0002-0458-6139",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "pouyVyUAAAAJ",
+  "photo": "img/people/percy-liang.jpg",
   "dblp": [
    "https://dblp.org/pid/04/1701.html"
   ],
@@ -37537,6 +37783,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 129,
   "institution_name": "Stanford University",
   "institution_local_name": "Stanford University",
   "group_label": "Liang group",
@@ -37791,6 +38040,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 130,
   "institution_name": "Software Engineering Institute, Carnegie Mellon University",
   "institution_local_name": "Software Engineering Institute, Carnegie Mellon University",
   "group_label": "NeuralSAT",
@@ -37993,6 +38245,9 @@
   ],
   "institution_via": "Chao Wang",
   "institution_local_via": "Chao Wang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 131,
   "institution_name": "University of Southern California",
   "institution_local_name": "University of Southern California",
   "group_label": "Chao Wang group",
@@ -38017,7 +38272,7 @@
   "homepage": "https://cmxu.io/",
   "orcid": "0000-0003-3079-5652",
   "openreview": "",
-  "scholar": "",
+  "scholar": "_Zg49pIAAAAJ",
   "photo": "",
   "dblp": [
    "https://dblp.org/pid/29/7802-1.html"
@@ -38193,6 +38448,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 132,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -38218,7 +38476,7 @@
   "orcid": "0000-0001-9022-7599",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/marta-kwiatkowska.jpg",
   "dblp": [
    "https://dblp.org/pid/k/MartaZKwiatkowska.html"
   ],
@@ -38398,6 +38656,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 133,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "DLV / DeepGame",
@@ -38717,6 +38978,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.676,
+  "recent_rank": 10,
   "institution_name": "University of Melbourne &amp; EthiCan",
   "institution_local_name": "University of Melbourne &amp; EthiCan",
   "group_label": "Rubinstein group",
@@ -39036,6 +39300,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.676,
+  "recent_rank": 11,
   "institution_name": "Defence Science and Technology Group",
   "institution_local_name": "Defence Science and Technology Group",
   "group_label": "Rubinstein group (Melbourne)",
@@ -39300,6 +39567,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 134,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -39543,6 +39813,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 135,
   "institution_name": "Johns Hopkins University",
   "institution_local_name": "Johns Hopkins University",
   "group_label": "Fazlyab group",
@@ -39567,7 +39840,7 @@
   "homepage": "https://scalable.mpi-inf.mpg.de/",
   "orcid": "0000-0001-8949-9896",
   "openreview": "",
-  "scholar": "",
+  "scholar": "4V1nNm4AAAAJ",
   "photo": "",
   "dblp": [
    "https://dblp.org/pid/07/5701.html"
@@ -39790,6 +40063,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 55,
   "institution_name": "CISPA Helmholtz Center for Information Security",
   "institution_local_name": "CISPA Helmholtz Center for Information Security",
   "group_label": "DLV / DeepGame",
@@ -40056,6 +40332,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.809,
+  "recent_rank": 7,
   "institution_name": "Technical University of Munich",
   "institution_local_name": "Technical University of Munich",
   "group_label": "CORA",
@@ -40322,6 +40601,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.809,
+  "recent_rank": 8,
   "institution_name": "Technical University of Munich",
   "institution_local_name": "Technical University of Munich",
   "group_label": "CORA",
@@ -40603,6 +40885,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 136,
   "institution_name": "Washington University in St. Louis",
   "institution_local_name": "Washington University in St. Louis",
   "group_label": "Vorobeychik group",
@@ -40801,6 +41086,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 44,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -40957,6 +41245,9 @@
   ],
   "institution_via": "Jun Sun",
   "institution_local_via": "Jun Sun",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 137,
   "institution_name": "Singapore Management University",
   "institution_local_name": "Singapore Management University",
   "group_label": "Socrates",
@@ -41112,6 +41403,9 @@
   ],
   "institution_via": "Matthias Hein",
   "institution_local_via": "Matthias Hein",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 138,
   "institution_name": "University of Tübingen",
   "institution_local_name": "University of Tübingen",
   "group_label": "Hein group",
@@ -41263,6 +41557,9 @@
   ],
   "institution_via": "Aditya V. Thakur",
   "institution_local_via": "Aditya V. Thakur",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 139,
   "institution_name": "University of California, Davis",
   "institution_local_name": "University of California, Davis",
   "group_label": "PRDNN",
@@ -41288,7 +41585,7 @@
   "orcid": "0009-0006-6669-7076",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/ruihan-zhang.jpg",
   "dblp": [
    "https://dblp.org/pid/214/7380-5.html"
   ],
@@ -41412,6 +41709,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 140,
   "institution_name": "Singapore Management University",
   "institution_local_name": "Singapore Management University",
   "group_label": "Socrates",
@@ -41557,6 +41857,9 @@
   ],
   "institution_via": "He Zhu",
   "institution_local_via": "He Zhu",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 141,
   "institution_name": "Rutgers University",
   "institution_local_name": "Rutgers University",
   "group_label": "He Zhu group",
@@ -41581,8 +41884,8 @@
   "homepage": "https://dihe-pku.github.io/",
   "orcid": "0009-0003-0468-1288",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "orVoz4IAAAAJ",
+  "photo": "img/people/di-he.jpg",
   "dblp": [
    "https://dblp.org/pid/74/184-1.html"
   ],
@@ -41889,6 +42192,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 142,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "PKU (Liwei Wang)",
@@ -42221,6 +42527,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 143,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "PKU (Liwei Wang)",
@@ -42623,6 +42932,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 144,
   "institution_name": "Cornell University",
   "institution_local_name": "Cornell University",
   "group_label": "Marabou",
@@ -42886,6 +43198,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 56,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -43238,6 +43553,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 145,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "α,β-CROWN",
@@ -43262,8 +43580,8 @@
   "homepage": "https://allauzen.github.io/",
   "orcid": "0000-0002-8627-1965",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "B2-gXkkAAAAJ",
+  "photo": "img/people/alexandre-allauzen.jpg",
   "dblp": [
    "https://dblp.org/pid/54/8163.html"
   ],
@@ -43504,6 +43822,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 146,
   "institution_name": "Ecole supérieure de physique et chimie",
   "institution_local_name": "Ecole supérieure de physique et chimie",
   "group_label": "Alexandre Allauzen group",
@@ -43529,7 +43850,7 @@
   "orcid": "0000-0001-9813-0900",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/dimitar-i-dimitrov.jpg",
   "dblp": [
    "https://dblp.org/pid/271/0915.html"
   ],
@@ -43772,6 +44093,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 147,
   "institution_name": "Swiss Federal Institute of Technology",
   "institution_local_name": "Swiss Federal Institute of Technology",
   "group_label": "ERAN (SRI Lab)",
@@ -44028,6 +44352,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 148,
   "institution_name": "Tiny Fish Inc.",
   "institution_local_name": "Tiny Fish Inc.",
   "group_label": "GloRo (CMU)",
@@ -44250,6 +44577,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 149,
   "institution_name": "Bosch Center for Artificial Intelligence",
   "institution_local_name": "Bosch Center for Artificial Intelligence",
   "group_label": "Hein group (Tübingen)",
@@ -44601,6 +44931,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 150,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Aaron J. Havens group",
@@ -45134,6 +45467,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 151,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -45342,6 +45678,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 152,
   "institution_name": "University of California San Diego",
   "institution_local_name": "University of California San Diego",
   "group_label": "Gao group",
@@ -45541,6 +45880,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 31,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -45889,6 +46231,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 153,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ECNU (Min Zhang)",
@@ -46253,6 +46598,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 45,
   "institution_name": "Chinese Academy of Sciences",
   "institution_local_name": "Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -46278,7 +46626,7 @@
   "orcid": "0000-0002-9522-3084",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/clark-barrett.jpg",
   "dblp": [
    "https://dblp.org/pid/b/ClarkWBarrett.html"
   ],
@@ -46699,6 +47047,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 154,
   "institution_name": "Stanford University",
   "institution_local_name": "Stanford University",
   "group_label": "Marabou",
@@ -47039,6 +47390,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 46,
   "institution_name": "Université Paul Sabatier",
   "institution_local_name": "Université Paul Sabatier",
   "group_label": "Mathieu Serrurier group",
@@ -47242,6 +47596,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 32,
   "institution_name": "University of Szeged",
   "institution_local_name": "University of Szeged",
   "group_label": "Balázs Bánhelyi group",
@@ -47458,6 +47815,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 57,
   "institution_name": "University of Konstanz",
   "institution_local_name": "University of Konstanz",
   "group_label": "David Boetius group",
@@ -47473,12 +47833,12 @@
   "group": "guangdong-bai",
   "group_name": "Guangdong Bai group",
   "role": "",
-  "institution": "",
-  "institution_short": "",
-  "institution_local": "",
-  "institution_local_short": "",
-  "country": "",
-  "country_local": "",
+  "institution": "University of Queensland",
+  "institution_short": "UQ",
+  "institution_local": "University of Queensland",
+  "institution_local_short": "UQ",
+  "country": "AU",
+  "country_local": "AU",
   "homepage": "",
   "orcid": "0000-0002-6390-9890",
   "openreview": "",
@@ -47651,8 +48011,13 @@
     ]
    }
   ],
-  "institution_name": "",
-  "institution_local_name": "",
+  "institution_via": "Zhongkui Ma",
+  "institution_local_via": "Zhongkui Ma",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 155,
+  "institution_name": "University of Queensland",
+  "institution_local_name": "University of Queensland",
   "group_label": "Guangdong Bai group",
   "group_label_local": "Guangdong Bai group",
   "color": "other",
@@ -47676,7 +48041,7 @@
   "orcid": "0000-0001-9363-1482",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/mark-jelasity.jpg",
   "dblp": [
    "https://dblp.org/pid/99/618.html"
   ],
@@ -47854,6 +48219,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 33,
   "institution_name": "University of Szeged",
   "institution_local_name": "University of Szeged",
   "group_label": "Márk Jelasity group",
@@ -48070,6 +48438,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 58,
   "institution_name": "University of Konstanz",
   "institution_local_name": "University of Konstanz",
   "group_label": "Stefan Leue group",
@@ -48286,6 +48657,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 59,
   "institution_name": "University of Konstanz",
   "institution_local_name": "University of Konstanz",
   "group_label": "Tobias Sutter group",
@@ -48300,22 +48674,22 @@
   "name": "Zhongkui Ma",
   "group": "zhongkui-ma",
   "group_name": "Zhongkui Ma group",
-  "role": "",
-  "institution": "",
-  "institution_short": "",
-  "institution_local": "",
-  "institution_local_short": "",
-  "country": "",
-  "country_local": "",
-  "homepage": "",
+  "role": "student",
+  "institution": "University of Queensland",
+  "institution_short": "UQ",
+  "institution_local": "University of Queensland",
+  "institution_local_short": "UQ",
+  "country": "AU",
+  "country_local": "AU",
+  "homepage": "https://zhongkuima.github.io",
   "orcid": "0000-0002-2392-3751",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "r2Z7bCMAAAAJ",
+  "photo": "img/people/zhongkui-ma.jpg",
   "dblp": [
    "https://dblp.org/pid/247/9274.html"
   ],
-  "to_confirm": "added automatically (2 NNV papers); no co-author on the list: own group; current post",
+  "to_confirm": "added automatically (2 NNV papers); no co-author on the list: own group",
   "papers": 3,
   "citations": 21,
   "venues": {
@@ -48479,8 +48853,11 @@
     ]
    }
   ],
-  "institution_name": "",
-  "institution_local_name": "",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 156,
+  "institution_name": "University of Queensland",
+  "institution_local_name": "University of Queensland",
   "group_label": "Zhongkui Ma group",
   "group_label_local": "Zhongkui Ma group",
   "color": "other",
@@ -48768,6 +49145,9 @@
    }
   ],
   "institution_via": "Taolue Chen",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 157,
   "institution_name": "Birkbeck, University of London",
   "institution_local_name": "Institute of Software, Chinese Academy of Sciences",
   "group_label": "QVIP / QEBVerif",
@@ -49058,6 +49438,9 @@
   ],
   "institution_via": "Fu Song",
   "institution_local_via": "Fu Song",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 158,
   "institution_name": "Birkbeck, University of London",
   "institution_local_name": "Institute of Software, Chinese Academy of Sciences",
   "group_label": "QVIP / QEBVerif",
@@ -49541,6 +49924,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 159,
   "institution_name": "Northeastern University",
   "institution_local_name": "Drexel University",
   "group_label": "α,β-CROWN",
@@ -49752,6 +50138,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 160,
   "institution_name": "Washington University in St. Louis",
   "institution_local_name": "Washington University in St. Louis",
   "group_label": "Vorobeychik group",
@@ -49959,6 +50348,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 161,
   "institution_name": "University of Virginia",
   "institution_local_name": "University of Virginia",
   "group_label": "NeuralSAT",
@@ -49984,7 +50376,7 @@
   "orcid": "0000-0003-4460-2225",
   "openreview": "~Thanh_Le2",
   "scholar": "UkCDAXUAAAAJ",
-  "photo": "",
+  "photo": "img/people/thanh-le.jpg",
   "dblp": [
    "https://dblp.org/pid/230/9643.html",
    "https://dblp.org/pid/61/7969.html"
@@ -50168,6 +50560,9 @@
     ]
    }
   ],
+  "recent_papers": 3,
+  "recent_score": 0.833,
+  "recent_rank": 6,
   "institution_name": "National Institute of Information and Communications Technology (NICT)",
   "institution_local_name": "National Institute of Information and Communications Technology (NICT)",
   "group_label": "NeuralSAT",
@@ -50325,6 +50720,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 162,
   "institution_name": "University of Kassel",
   "institution_local_name": "University of Kassel",
   "group_label": "Marco Sälzer group",
@@ -50482,6 +50880,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 163,
   "institution_name": "University of Kassel",
   "institution_local_name": "University of Kassel",
   "group_label": "Martin Lange group",
@@ -50756,6 +51157,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 164,
   "institution_name": "Carnegie Mellon University / NASA Ames",
   "institution_local_name": "Carnegie Mellon University / NASA Ames",
   "group_label": "Pasareanu group",
@@ -51034,6 +51438,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.143,
+  "recent_rank": 73,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -51245,6 +51652,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 165,
   "institution_name": "Duke University",
   "institution_local_name": "Duke University",
   "group_label": "Jia group (Penn State)",
@@ -51451,6 +51861,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 34,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "GloRo",
@@ -51658,6 +52071,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.45,
+  "recent_rank": 21,
   "institution_name": "University of Limassol",
   "institution_local_name": "University of Limassol",
   "group_label": "Venus (Imperial)",
@@ -52149,6 +52565,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 166,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -52400,6 +52819,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 167,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "Raghunathan group",
@@ -52702,6 +53124,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 168,
   "institution_name": "Stony Brook University",
   "institution_local_name": "Stony Brook University",
   "group_label": "nnenum",
@@ -52726,8 +53151,8 @@
   "homepage": "https://engineering.wustl.edu/faculty/Andrew-Clark.html",
   "orcid": "0000-0002-5868-6186",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "x6Mt_esAAAAJ",
+  "photo": "img/people/andrew-clark.jpg",
   "dblp": [
    "https://dblp.org/pid/05/104.html"
   ],
@@ -52922,6 +53347,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 169,
   "institution_name": "Washington University in St. Louis",
   "institution_local_name": "Washington University in St. Louis",
   "group_label": "Vorobeychik group",
@@ -52946,8 +53374,8 @@
   "homepage": "http://www.cs.utexas.edu/~isil/",
   "orcid": "0000-0001-8006-1230",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "Wlq5rZEAAAAJ",
+  "photo": "img/people/isil-dillig.jpg",
   "dblp": [
    "https://dblp.org/pid/85/3688.html"
   ],
@@ -53133,6 +53561,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 170,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "Charon",
@@ -53287,6 +53718,9 @@
   ],
   "institution_via": "Christoph H. Lampert",
   "institution_local_via": "Christoph H. Lampert",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 171,
   "institution_name": "Institute of Science and Technology Austria",
   "institution_local_name": "Institute of Science and Technology Austria",
   "group_label": "Bernd Prach group",
@@ -53312,7 +53746,7 @@
   "orcid": "0000-0001-8622-7887",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/christoph-h-lampert.jpg",
   "dblp": [
    "https://dblp.org/pid/67/2136.html"
   ],
@@ -53439,6 +53873,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 172,
   "institution_name": "Institute of Science and Technology Austria",
   "institution_local_name": "Institute of Science and Technology Austria",
   "group_label": "Christoph H. Lampert group",
@@ -53463,8 +53900,8 @@
   "homepage": "https://wang-yanting.github.io/",
   "orcid": "",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "ClAr4UYAAAAJ",
+  "photo": "img/people/yanting-wang.jpg",
   "dblp": [
    "https://dblp.org/pid/72/7715-1.html"
   ],
@@ -53601,6 +54038,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.5,
+  "recent_rank": 26,
   "institution_name": "Pennsylvania State University",
   "institution_local_name": "Pennsylvania State University",
   "group_label": "Jia group",
@@ -53816,6 +54256,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 173,
   "institution_name": "Monash University",
   "institution_local_name": "Monash University",
   "group_label": "Formal XAI (Marques-Silva)",
@@ -54031,6 +54474,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 174,
   "institution_name": "French National Centre for Scientific Research",
   "institution_local_name": "French National Centre for Scientific Research",
   "group_label": "Formal XAI (Marques-Silva)",
@@ -54323,6 +54769,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 47,
   "institution_name": "IRT Saint Exupéry",
   "institution_local_name": "IRT Saint Exupéry",
   "group_label": "Mathieu Serrurier group",
@@ -54826,6 +55275,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 175,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -54850,8 +55302,8 @@
   "homepage": "http://www.cs.wisc.edu/~jha/",
   "orcid": "0000-0001-5877-0436",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "BaI7l8QAAAAJ",
+  "photo": "img/people/somesh-jha.jpg",
   "dblp": [
    "https://dblp.org/pid/j/SomeshJha.html"
   ],
@@ -55056,6 +55508,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 176,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Aaron J. Havens group",
@@ -55080,8 +55535,8 @@
   "homepage": "https://z1w.github.io/",
   "orcid": "0000-0002-0815-1343",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "UOaHqKEAAAAJ",
+  "photo": "img/people/zi-wang.jpg",
   "dblp": [
    "https://dblp.org/pid/78/8711-16.html"
   ],
@@ -55286,6 +55741,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 177,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Aaron J. Havens group",
@@ -55586,6 +56044,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 178,
   "institution_name": "Microsoft Research",
   "institution_local_name": "Microsoft Research",
   "group_label": "α,β-CROWN",
@@ -55881,6 +56342,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 179,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Goldstein group",
@@ -55906,7 +56370,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/adrian-weller.jpg",
   "dblp": [
    "https://dblp.org/pid/73/8324.html"
   ],
@@ -56105,6 +56569,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 180,
   "institution_name": "University of Cambridge",
   "institution_local_name": "University of Cambridge",
   "group_label": "Matthew Wicker group (Imperial)",
@@ -56329,6 +56796,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 181,
   "institution_name": "Imperial College London",
   "institution_local_name": "Imperial College London",
   "group_label": "Matthew Wicker group",
@@ -56538,6 +57008,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 60,
   "institution_name": "Max Planck Institute &amp; CISPA",
   "institution_local_name": "Max Planck Institute &amp; CISPA",
   "group_label": "DLV / DeepGame",
@@ -56747,6 +57220,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 61,
   "institution_name": "Max Planck Institute for Informatics",
   "institution_local_name": "Max Planck Institute for Informatics",
   "group_label": "DLV / DeepGame",
@@ -56958,6 +57434,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 182,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "PKU (Liwei Wang)",
@@ -57178,6 +57657,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 183,
   "institution_name": "LAAS / CNRS &amp; Toulouse School of Economics (TSE)",
   "institution_local_name": "LAAS / CNRS &amp; Toulouse School of Economics (TSE)",
   "group_label": "Jean B. Lasserre group",
@@ -57398,6 +57880,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 184,
   "institution_name": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
   "institution_local_name": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
   "group_label": "Victor Magron group",
@@ -57568,6 +58053,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 185,
   "institution_name": "Bosch Center for Artificial Intelligence",
   "institution_local_name": "Bosch Center for Artificial Intelligence",
   "group_label": "Hein group (Tübingen)",
@@ -57815,6 +58303,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 186,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "MIPVerify",
@@ -58124,6 +58615,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 187,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "Torr Vision Group",
@@ -58530,6 +59024,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 188,
   "institution_name": "Stanford University",
   "institution_local_name": "Amherst College",
   "group_label": "Marabou",
@@ -58748,6 +59245,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 189,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -58904,6 +59404,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 190,
   "institution_name": "Chinese Academy of Sciences",
   "institution_local_name": "Chinese Academy of Sciences",
   "group_label": "Ji Guan group",
@@ -59070,6 +59573,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 191,
   "institution_name": "University of Tübingen",
   "institution_local_name": "University of Tübingen",
   "group_label": "Hein group",
@@ -59094,8 +59600,8 @@
   "homepage": "https://profiles.uts.edu.au/mingsheng.ying",
   "orcid": "0000-0003-4847-702X",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "jjPif6cAAAAJ",
+  "photo": "img/people/mingsheng-ying.jpg",
   "dblp": [
    "https://dblp.org/pid/13/6525.html"
   ],
@@ -59226,6 +59732,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 192,
   "institution_name": "Centre for Quantum Software and Information",
   "institution_local_name": "Centre for Quantum Software and Information",
   "group_label": "Mingsheng Ying group",
@@ -59382,6 +59891,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 193,
   "institution_name": "University of Edinburgh",
   "institution_local_name": "University of Edinburgh",
   "group_label": "Wang Fang group",
@@ -59543,6 +60055,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 35,
   "institution_name": "University of California, Irvine",
   "institution_local_name": "University of California, Irvine",
   "group_label": "PeregriNN",
@@ -59693,6 +60208,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 194,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "Yisen Wang group",
@@ -59850,6 +60368,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 195,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Albarghouthi group",
@@ -60007,6 +60528,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 196,
   "institution_name": "University of Southern California",
   "institution_local_name": "University of Southern California",
   "group_label": "Chao Wang group",
@@ -60326,6 +60850,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 62,
   "institution_name": "Institute of Software, Chinese Academy of Sciences",
   "institution_local_name": "Institute of Software, Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -60636,6 +61163,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 197,
   "institution_name": "Michigan State University",
   "institution_local_name": "Michigan State University",
   "group_label": "IBM Research",
@@ -60885,6 +61415,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 198,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -61109,6 +61642,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 199,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -61438,6 +61974,9 @@
   ],
   "institution_via": "Pengfei Yang",
   "institution_local_via": "Pengfei Yang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 200,
   "institution_name": "Chinese Academy of Sciences",
   "institution_local_name": "Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -61463,7 +62002,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/thibaut-boissin.jpg",
   "dblp": [
    "https://dblp.org/pid/267/2403.html"
   ],
@@ -61741,6 +62280,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 201,
   "institution_name": "IRT Saint Exupéry",
   "institution_local_name": "IRT Saint Exupéry",
   "group_label": "Mathieu Serrurier group",
@@ -62068,6 +62610,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 202,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "α,β-CROWN",
@@ -62395,6 +62940,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 203,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "α,β-CROWN",
@@ -62603,6 +63151,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 68,
   "institution_name": "Delft University of Technology",
   "institution_local_name": "Delft University of Technology",
   "group_label": "Luca Laurenti group",
@@ -62628,7 +63179,7 @@
   "orcid": "0000-0001-5713-4235",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/neil-g-marchant.jpg",
   "dblp": [
    "https://dblp.org/pid/198/0542.html"
   ],
@@ -62840,6 +63391,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 63,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -62864,8 +63418,8 @@
   "homepage": "https://www.cs.columbia.edu/~tcwangshiqi/",
   "orcid": "0000-0002-6338-1432",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "u_MzXeMAAAAJ",
+  "photo": "img/people/shiqi-wang.jpg",
   "dblp": [
    "https://dblp.org/pid/58/9145-2.html"
   ],
@@ -63176,6 +63730,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 204,
   "institution_name": "Amazon",
   "institution_local_name": "Amazon",
   "group_label": "α,β-CROWN",
@@ -63200,8 +63757,8 @@
   "homepage": "http://sumanj.info/",
   "orcid": "",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "SDY9FwUAAAAJ",
+  "photo": "img/people/suman-jana.jpg",
   "dblp": [
    "https://dblp.org/pid/74/28.html"
   ],
@@ -63512,6 +64069,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 205,
   "institution_name": "Columbia University",
   "institution_local_name": "Columbia University",
   "group_label": "Neurify",
@@ -63537,7 +64097,7 @@
   "orcid": "0000-0002-2552-3671",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/matthew-l-daggitt.jpg",
   "dblp": [
    "https://dblp.org/pid/222/4171.html"
   ],
@@ -63895,6 +64455,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.393,
+  "recent_rank": 23,
   "institution_name": "University of Western Australia",
   "institution_local_name": "University of Western Australia",
   "group_label": "Vehicle",
@@ -64143,6 +64706,9 @@
     ]
    }
   ],
+  "recent_papers": 2,
+  "recent_score": 0.417,
+  "recent_rank": 22,
   "institution_name": "Carl von Ossietzky Universität Oldenburg",
   "institution_local_name": "Carl von Ossietzky Universität Oldenburg",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -64309,6 +64875,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 36,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -64474,6 +65043,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 206,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "α,β-CROWN",
@@ -64647,6 +65219,9 @@
   ],
   "institution_via": "Zico Kolter",
   "institution_local_via": "Zico Kolter",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 207,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "α,β-CROWN",
@@ -64813,6 +65388,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 208,
   "institution_name": "Chinese University of Hong Kong",
   "institution_local_name": "Chinese University of Hong Kong",
   "group_label": "Aaron J. Havens group",
@@ -64978,6 +65556,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 209,
   "institution_name": "Argonne National Laboratory",
   "institution_local_name": "Argonne National Laboratory",
   "group_label": "Hongwei Jin group",
@@ -65133,6 +65714,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 210,
   "institution_name": "Seoul National University",
   "institution_local_name": "Seoul National University",
   "group_label": "Jaewook Lee group",
@@ -65304,6 +65888,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 211,
   "institution_name": "Technical University of Munich",
   "institution_local_name": "Technical University of Munich",
   "group_label": "DAML (TUM)",
@@ -65472,6 +66059,9 @@
   ],
   "institution_via": "Loris D'Antoni",
   "institution_local_via": "Loris D'Antoni",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 212,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Albarghouthi group",
@@ -65627,6 +66217,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 213,
   "institution_name": "Korea Institute for Advanced Study",
   "institution_local_name": "Korea Institute for Advanced Study",
   "group_label": "Sungyoon Lee group",
@@ -65783,6 +66376,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 214,
   "institution_name": "Johns Hopkins University",
   "institution_local_name": "Johns Hopkins University",
   "group_label": "Fazlyab group",
@@ -65950,6 +66546,9 @@
   ],
   "institution_via": "Kai Yuanqing Xiao",
   "institution_local_via": "Kai Yuanqing Xiao",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 215,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "MIPVerify",
@@ -66115,6 +66714,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 216,
   "institution_name": "University of Illinois at Chicago (UIC)",
   "institution_local_name": "University of Illinois at Chicago (UIC)",
   "group_label": "Xinhua Zhang group",
@@ -66275,6 +66877,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 217,
   "institution_name": "Technion – Israel Institute of Technology",
   "institution_local_name": "Technion – Israel Institute of Technology",
   "group_label": "Romano group",
@@ -66300,7 +66905,7 @@
   "orcid": "0000-0003-4095-4506",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/yuan-hong.jpg",
   "dblp": [
    "https://dblp.org/pid/79/5433-1.html"
   ],
@@ -66436,6 +67041,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 218,
   "institution_name": "University of Connecticut",
   "institution_local_name": "University of Connecticut",
   "group_label": "Jia group (Penn State)",
@@ -66594,6 +67202,9 @@
   ],
   "institution_via": "Dana Drachsler-Cohen",
   "institution_local_via": "Dana Drachsler-Cohen",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 219,
   "institution_name": "Technion – Israel Institute of Technology",
   "institution_local_name": "Technion – Israel Institute of Technology",
   "group_label": "Drachsler-Cohen group",
@@ -66838,6 +67449,9 @@
   ],
   "institution_via": "Min Zhang",
   "institution_local_via": "Min Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 220,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -67213,6 +67827,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 221,
   "institution_name": "Lawrence Livermore National Laboratory",
   "institution_local_name": "Lawrence Livermore National Laboratory",
   "group_label": "Linyi Li group (SFU)",
@@ -67460,6 +68077,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 48,
   "institution_name": "IRT Saint Exupéry",
   "institution_local_name": "IRT Saint Exupéry",
   "group_label": "Mathieu Serrurier group",
@@ -67696,6 +68316,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 222,
   "institution_name": "New York University",
   "institution_local_name": "New York University",
   "group_label": "Alexandre Araujo group",
@@ -67937,6 +68560,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 223,
   "institution_name": "JD AI Research",
   "institution_local_name": "JD AI Research",
   "group_label": "α,β-CROWN",
@@ -67961,8 +68587,8 @@
   "homepage": "http://engineering.nyu.edu/people/siddharth-garg",
   "orcid": "",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "Yf8OqQQAAAAJ",
+  "photo": "img/people/siddharth-garg.jpg",
   "dblp": [
    "https://dblp.org/pid/94/3807.html"
   ],
@@ -68173,6 +68799,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 224,
   "institution_name": "New York University",
   "institution_local_name": "New York University",
   "group_label": "Alexandre Araujo group",
@@ -68412,6 +69041,9 @@
   ],
   "institution_via": "Min Zhang",
   "institution_local_via": "Min Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 225,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -68684,6 +69316,9 @@
   ],
   "institution_via": "Jingyi Wang",
   "institution_local_via": "Jingyi Wang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 226,
   "institution_name": "Zhejiang University",
   "institution_local_name": "Zhejiang University",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -68954,6 +69589,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 227,
   "institution_name": "Zhejiang University",
   "institution_local_name": "Zhejiang University",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -68978,8 +69616,8 @@
   "homepage": "https://jpdickerson.com/",
   "orcid": "0000-0003-2231-680X",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "QgDpfCQAAAAJ",
+  "photo": "img/people/john-dickerson.jpg",
   "dblp": [
    "https://dblp.org/pid/75/8479.html"
   ],
@@ -69199,6 +69837,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 228,
   "institution_name": "Arthur AI & University of Maryland",
   "institution_local_name": "Arthur AI & University of Maryland",
   "group_label": "Goldstein group",
@@ -69429,6 +70070,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 229,
   "institution_name": "Vienna University of Technology",
   "institution_local_name": "Vienna University of Technology",
   "group_label": "Maria Christakis group",
@@ -69453,8 +70097,8 @@
   "homepage": "https://currymj.github.io/",
   "orcid": "0000-0001-8052-5074",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "EOlowBUAAAAJ",
+  "photo": "img/people/michael-j-curry.jpg",
   "dblp": [
    "https://dblp.org/pid/255/4719.html"
   ],
@@ -69674,6 +70318,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 230,
   "institution_name": "University of Maryland, College Park",
   "institution_local_name": "University of Maryland, College Park",
   "group_label": "Goldstein group",
@@ -69910,6 +70557,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 231,
   "institution_name": "University of California, Santa Barbara",
   "institution_local_name": "University of California, Santa Barbara",
   "group_label": "IBM Research",
@@ -70161,6 +70811,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 69,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -70429,6 +71082,9 @@
   ],
   "institution_via": "Pengfei Yang",
   "institution_local_via": "Pengfei Yang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 232,
   "institution_name": "Chinese Academy of Sciences",
   "institution_local_name": "Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -70603,6 +71259,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 233,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "α,β-CROWN",
@@ -70778,6 +71437,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 234,
   "institution_name": "École Polytechnique Fédérale de Lausanne",
   "institution_local_name": "École Polytechnique Fédérale de Lausanne",
   "group_label": "LIONS",
@@ -70802,8 +71464,8 @@
   "homepage": "https://grigorisg9gr.github.io/_pages/about/",
   "orcid": "0000-0002-0650-1856",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "1bU041kAAAAJ",
+  "photo": "img/people/grigorios-chrysos.jpg",
   "dblp": [
    "https://dblp.org/pid/75/6117-2.html"
   ],
@@ -70953,6 +71615,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 235,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "LIONS (EPFL)",
@@ -71122,6 +71787,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 37,
   "institution_name": "Vanderbilt University",
   "institution_local_name": "Vanderbilt University",
   "group_label": "NNV (VeriVITAL)",
@@ -71297,6 +71965,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 236,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -71467,6 +72138,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 64,
   "institution_name": "Safe Intelligence &amp; Imperial College London",
   "institution_local_name": "Safe Intelligence &amp; Imperial College London",
   "group_label": "Venus",
@@ -71491,8 +72165,8 @@
   "homepage": "https://cgi.csc.liv.ac.uk/~xiaowei/",
   "orcid": "0000-0001-6267-0366",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "X4fLCCIAAAAJ",
+  "photo": "img/people/xiaowei-huang.jpg",
   "dblp": [
    "https://dblp.org/pid/60/5414-1.html"
   ],
@@ -71737,6 +72411,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 237,
   "institution_name": "University of Liverpool",
   "institution_local_name": "University of Liverpool",
   "group_label": "DLV / DeepGame",
@@ -72019,6 +72696,9 @@
   ],
   "institution_via": "Taylor T. Johnson",
   "institution_local_via": "Taylor T. Johnson",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 238,
   "institution_name": "Vanderbilt University",
   "institution_local_name": "Vanderbilt University",
   "group_label": "NNV (VeriVITAL)",
@@ -72201,6 +72881,9 @@
   ],
   "institution_via": "Kai Yuanqing Xiao",
   "institution_local_via": "Kai Yuanqing Xiao",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 239,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "MIPVerify",
@@ -72365,6 +73048,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 240,
   "institution_name": "NVIDIA",
   "institution_local_name": "NVIDIA",
   "group_label": "Chong Xiang group",
@@ -72530,6 +73216,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 241,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -72710,6 +73399,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 242,
   "institution_name": "University of Virginia",
   "institution_local_name": "University of Virginia",
   "group_label": "NeuralSAT",
@@ -72880,6 +73572,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 243,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "PKU (Liwei Wang)",
@@ -72905,7 +73600,7 @@
   "orcid": "0000-0002-8180-075X",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/edouard-pauwels.jpg",
   "dblp": [
    "https://dblp.org/pid/52/9593.html"
   ],
@@ -73054,6 +73749,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 244,
   "institution_name": "Institut de Recherche en Informatique de Toulouse",
   "institution_local_name": "Institut de Recherche en Informatique de Toulouse",
   "group_label": "Victor Magron group",
@@ -73079,7 +73777,7 @@
   "orcid": "0000-0003-1128-4339",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/greg-anderson.jpg",
   "dblp": [
    "https://dblp.org/pid/53/6132-3.html"
   ],
@@ -73229,6 +73927,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 245,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "Charon",
@@ -73408,6 +74109,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 49,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -73592,6 +74296,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 246,
   "institution_name": "Washington University in St. Louis",
   "institution_local_name": "Washington University in St. Louis",
   "group_label": "Vorobeychik group",
@@ -73616,8 +74323,8 @@
   "homepage": "https://jsl1994.github.io/",
   "orcid": "0000-0002-4065-4063",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "tasR7iIAAAAJ",
+  "photo": "img/people/jacob-laurel.jpg",
   "dblp": [
    "https://dblp.org/pid/263/1193.html"
   ],
@@ -73769,6 +74476,9 @@
   ],
   "institution_via": "Sasa Misailovic",
   "institution_local_via": "Sasa Misailovic",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 247,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Misailovic group",
@@ -73938,6 +74648,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 38,
   "institution_name": "Kyushu University",
   "institution_local_name": "Kyushu University",
   "group_label": "Jianjun Zhao group",
@@ -73953,12 +74666,12 @@
   "group": "neuralsat",
   "group_name": "NeuralSAT",
   "role": "researcher",
-  "institution": "George Mason University",
-  "institution_short": "GMU",
-  "institution_local": "George Mason University",
-  "institution_local_short": "GMU",
-  "country": "US",
-  "country_local": "US",
+  "institution": "CMC Corporation",
+  "institution_short": "CMC",
+  "institution_local": "CMC Corporation",
+  "institution_local_short": "CMC",
+  "country": "VN",
+  "country_local": "VN",
   "homepage": "",
   "orcid": "",
   "openreview": "",
@@ -73967,7 +74680,7 @@
   "dblp": [
    "https://dblp.org/pid/23/7347.html"
   ],
-  "to_confirm": "current post and role",
+  "to_confirm": "role",
   "papers": 2,
   "citations": 9,
   "venues": {
@@ -74113,10 +74826,11 @@
     ]
    }
   ],
-  "institution_via": "ThanhVu Nguyen",
-  "institution_local_via": "ThanhVu Nguyen",
-  "institution_name": "George Mason University",
-  "institution_local_name": "George Mason University",
+  "recent_papers": 2,
+  "recent_score": 0.5,
+  "recent_rank": 19,
+  "institution_name": "CMC Corporation",
+  "institution_local_name": "CMC Corporation",
   "group_label": "NeuralSAT",
   "group_label_local": "NeuralSAT",
   "color": "neuralsat",
@@ -74290,6 +75004,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 248,
   "institution_name": "Swiss Federal Institute of Technology",
   "institution_local_name": "Swiss Federal Institute of Technology",
   "group_label": "ERAN (SRI Lab)",
@@ -74315,7 +75032,7 @@
   "orcid": "0000-0002-3785-2069",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/nikola-jovanovic.jpg",
   "dblp": [
    "https://dblp.org/pid/230/4424-1.html"
   ],
@@ -74470,6 +75187,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 249,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "ERAN (SRI Lab)",
@@ -74634,6 +75354,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 250,
   "institution_name": "Princeton University",
   "institution_local_name": "Princeton University",
   "group_label": "Prateek Mittal group",
@@ -74809,6 +75532,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 251,
   "institution_name": "Foxstream",
   "institution_local_name": "Foxstream",
   "group_label": "Alexandre Allauzen group",
@@ -74833,8 +75559,8 @@
   "homepage": "http://www.cis.upenn.edu/~alur/",
   "orcid": "0000-0003-1733-7083",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "ZvLa1RIAAAAJ",
+  "photo": "img/people/rajeev-alur.jpg",
   "dblp": [
    "https://dblp.org/pid/a/RAlur.html"
   ],
@@ -74988,6 +75714,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 252,
   "institution_name": "University of Pennsylvania",
   "institution_local_name": "University of Pennsylvania",
   "group_label": "Pappas group",
@@ -75013,7 +75742,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/rem-yang.jpg",
   "dblp": [
    "https://dblp.org/pid/305/9400.html"
   ],
@@ -75163,6 +75892,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 253,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -75347,6 +76079,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 254,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "MIPVerify",
@@ -75512,6 +76247,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 255,
   "institution_name": "Imperial College London",
   "institution_local_name": "Imperial College London",
   "group_label": "Ruth Misener group",
@@ -75675,6 +76413,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 256,
   "institution_name": "Vienna University of Technology",
   "institution_local_name": "Vienna University of Technology",
   "group_label": "Sagar Malhotra group",
@@ -75850,6 +76591,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 257,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "Charon",
@@ -76024,6 +76768,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 258,
   "institution_name": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
   "institution_local_name": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
   "group_label": "Victor Magron group",
@@ -76213,6 +76960,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 259,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -76382,6 +77132,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.333,
+  "recent_rank": 39,
   "institution_name": "National Institute of Informatics",
   "institution_local_name": "National Institute of Informatics",
   "group_label": "Zhenya Zhang group",
@@ -76752,6 +77505,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 260,
   "institution_name": "University of Wisconsin, Madison/NVIDIA",
   "institution_local_name": "University of Wisconsin, Madison/NVIDIA",
   "group_label": "Secure Learning Lab",
@@ -76777,7 +77533,7 @@
   "orcid": "0000-0001-7945-9110",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/samuel-teuber.jpg",
   "dblp": [
    "https://dblp.org/pid/273/3924.html"
   ],
@@ -76930,6 +77686,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.143,
+  "recent_rank": 74,
   "institution_name": "Karlsruhe Institute of Technology",
   "institution_local_name": "Karlsruhe Institute of Technology",
   "group_label": "Vehicle",
@@ -77180,6 +77939,9 @@
   ],
   "institution_via": "Zhiming Liu",
   "institution_local_via": "Zhiming Liu",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 261,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Zhengfeng Yang group",
@@ -77510,6 +78272,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 50,
   "institution_name": "Hebrew University of Jerusalem",
   "institution_local_name": "Hebrew University of Jerusalem",
   "group_label": "Vehicle",
@@ -77534,8 +78299,8 @@
   "homepage": "https://averma8053.github.io/",
   "orcid": "0000-0002-9820-8285",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "jM1HeCIAAAAJ",
+  "photo": "img/people/abhinav-verma.jpg",
   "dblp": [
    "https://dblp.org/pid/01/1084-1.html"
   ],
@@ -77703,6 +78468,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 262,
   "institution_name": "Pennsylvania State University",
   "institution_local_name": "Pennsylvania State University",
   "group_label": "Charon (UT Austin)",
@@ -77886,6 +78654,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 263,
   "institution_name": "RWTH Aachen University",
   "institution_local_name": "RWTH Aachen University",
   "group_label": "VNN-COMP",
@@ -78062,6 +78833,9 @@
   ],
   "institution_via": "Corina S. Pasareanu",
   "institution_local_via": "Corina S. Pasareanu",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 264,
   "institution_name": "Carnegie Mellon University / NASA Ames",
   "institution_local_name": "Carnegie Mellon University / NASA Ames",
   "group_label": "Pasareanu group",
@@ -78240,6 +79014,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 265,
   "institution_name": "Singapore Management University",
   "institution_local_name": "Singapore Management University",
   "group_label": "Henzinger group (ISTA)",
@@ -78264,7 +79041,7 @@
   "homepage": "https://www.duo-zhou.com/",
   "orcid": "0000-0003-2673-4451",
   "openreview": "",
-  "scholar": "",
+  "scholar": "QnBzRsIAAAAJ",
   "photo": "",
   "dblp": [
    "https://dblp.org/pid/39/9110-2.html"
@@ -78418,6 +79195,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 266,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -78442,8 +79222,8 @@
   "homepage": "http://grani.hanasusanto.com/",
   "orcid": "0000-0003-4900-2958",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "93X6nhMAAAAJ",
+  "photo": "img/people/grani-a-hanasusanto.jpg",
   "dblp": [
    "https://dblp.org/pid/37/8653.html"
   ],
@@ -78596,6 +79376,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 267,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -78780,6 +79563,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 268,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "OVAL",
@@ -78969,6 +79755,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 269,
   "institution_name": "Illinois Institute of Technology",
   "institution_local_name": "Illinois Institute of Technology",
   "group_label": "Jia group (Penn State)",
@@ -79142,6 +79931,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 270,
   "institution_name": "Auburn University",
   "institution_local_name": "Auburn University",
   "group_label": "Jiayin Jin group",
@@ -79166,8 +79958,8 @@
   "homepage": "http://pub.ist.ac.at/~kchatterjee/",
   "orcid": "0000-0002-4561-241X",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "1kaW8bwAAAAJ",
+  "photo": "img/people/krishnendu-chatterjee.jpg",
   "dblp": [
    "https://dblp.org/pid/92/5602.html"
   ],
@@ -79320,6 +80112,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 271,
   "institution_name": "Institute of Science and Technology Austria",
   "institution_local_name": "Institute of Science and Technology Austria",
   "group_label": "Henzinger group",
@@ -79498,6 +80293,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 272,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "Henzinger group (ISTA)",
@@ -79687,6 +80485,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 273,
   "institution_name": "Nanchang University",
   "institution_local_name": "Nanchang University",
   "group_label": "Jia group (Penn State)",
@@ -79712,7 +80513,7 @@
   "orcid": "0000-0001-7549-4365",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/morteza-lahijanian.jpg",
   "dblp": [
    "https://dblp.org/pid/93/7736.html"
   ],
@@ -79851,6 +80652,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 274,
   "institution_name": "University of Colorado, Boulder",
   "institution_local_name": "University of Colorado, Boulder",
   "group_label": "Morteza Lahijanian group",
@@ -80040,6 +80844,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 275,
   "institution_name": "Delft University of Technology",
   "institution_local_name": "Delft University of Technology",
   "group_label": "Secure Learning Lab",
@@ -80064,8 +80871,8 @@
   "homepage": "https://www.cs.utexas.edu/~lqiang/",
   "orcid": "",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "XEx1fZkAAAAJ",
+  "photo": "img/people/qiang-liu.jpg",
   "dblp": [
    "https://dblp.org/pid/61/3234-1.html"
   ],
@@ -80202,6 +81009,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 276,
   "institution_name": "University of Texas at Austin",
   "institution_local_name": "University of Texas at Austin",
   "group_label": "Qiang Liu group",
@@ -80376,6 +81186,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 277,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -80400,8 +81213,8 @@
   "homepage": "http://pub.ist.ac.at/~tah/",
   "orcid": "0000-0002-2985-7724",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "jpgplxUAAAAJ",
+  "photo": "img/people/thomas-a-henzinger.jpg",
   "dblp": [
    "https://dblp.org/pid/h/ThomasAHenzinger.html"
   ],
@@ -80554,6 +81367,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 278,
   "institution_name": "Institute of Science and Technology Austria",
   "institution_local_name": "Institute of Science and Technology Austria",
   "group_label": "Henzinger group",
@@ -80737,6 +81553,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 279,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -80915,6 +81734,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 280,
   "institution_name": "Duke University",
   "institution_local_name": "Duke University",
   "group_label": "Gong group",
@@ -80939,8 +81761,8 @@
   "homepage": "http://eng.auburn.edu/users/yangzhou/",
   "orcid": "0000-0001-7839-4933",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "yvE8Po0AAAAJ",
+  "photo": "img/people/yang-zhou.jpg",
   "dblp": [
    "https://dblp.org/pid/07/4580-1.html"
   ],
@@ -81088,6 +81910,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 281,
   "institution_name": "Auburn University",
   "institution_local_name": "Auburn University",
   "group_label": "Yang Zhou group",
@@ -81277,6 +82102,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 282,
   "institution_name": "Milwaukee School of Engineering",
   "institution_local_name": "Milwaukee School of Engineering",
   "group_label": "Jia group (Penn State)",
@@ -81644,6 +82472,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 283,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -81924,6 +82755,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 284,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "Linyi Li group (SFU)",
@@ -82209,6 +83043,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 285,
   "institution_name": "Caltech / Amazon AI",
   "institution_local_name": "Caltech / Amazon AI",
   "group_label": "Secure Learning Lab",
@@ -82486,6 +83323,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 286,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "Jun Zhu group",
@@ -82510,8 +83350,8 @@
   "homepage": "http://www.eziobartocci.com/",
   "orcid": "0000-0002-8004-6601",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "EeK43rAAAAAJ",
+  "photo": "img/people/ezio-bartocci.jpg",
   "dblp": [
    "https://dblp.org/pid/b/EzioBartocci.html"
   ],
@@ -82659,6 +83499,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 287,
   "institution_name": "Vienna University of Technology",
   "institution_local_name": "Vienna University of Technology",
   "group_label": "Maria Christakis group",
@@ -82827,6 +83670,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 288,
   "institution_name": "University of Waterloo",
   "institution_local_name": "University of Waterloo",
   "group_label": "Jun Liu group",
@@ -82995,6 +83841,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 289,
   "institution_name": "University of Waterloo",
   "institution_local_name": "University of Waterloo",
   "group_label": "Ruikun Zhou group",
@@ -83019,8 +83868,8 @@
   "homepage": "https://taoxiease.github.io/",
   "orcid": "0000-0002-6731-216X",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "DhhH9J4AAAAJ",
+  "photo": "img/people/tao-xie.jpg",
   "dblp": [
    "https://dblp.org/pid/x/TaoXie.html"
   ],
@@ -83193,6 +84042,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 290,
   "institution_name": "Peking University",
   "institution_local_name": "Peking University",
   "group_label": "Secure Learning Lab",
@@ -83391,6 +84243,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 291,
   "institution_name": "Hangzhou Dianzi University",
   "institution_local_name": "Hangzhou Dianzi University",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -83416,7 +84271,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/zhuoqun-huang.jpg",
   "dblp": [
    "https://dblp.org/pid/272/9127.html"
   ],
@@ -83573,6 +84428,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 292,
   "institution_name": "University of Melbourne",
   "institution_local_name": "University of Melbourne",
   "group_label": "Rubinstein group",
@@ -83756,6 +84614,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 293,
   "institution_name": "University of Toulouse 3",
   "institution_local_name": "University of Toulouse 3",
   "group_label": "Formal XAI (Marques-Silva)",
@@ -83939,6 +84800,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 294,
   "institution_name": "Artificial and Natural Intelligence Toulouse Institute",
   "institution_local_name": "Artificial and Natural Intelligence Toulouse Institute",
   "group_label": "Formal XAI (Marques-Silva)",
@@ -84129,6 +84993,9 @@
   ],
   "institution_via": "Min Zhang",
   "institution_local_via": "Min Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 295,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -84153,8 +85020,8 @@
   "homepage": "https://xuelin.sites.northeastern.edu/",
   "orcid": "0000-0001-6210-8883",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "p87KNLIAAAAJ",
+  "photo": "img/people/xue-lin.jpg",
   "dblp": [
    "https://dblp.org/pid/94/7236-1.html"
   ],
@@ -84434,6 +85301,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 296,
   "institution_name": "Northeastern University",
   "institution_local_name": "Northeastern University",
   "group_label": "α,β-CROWN",
@@ -84616,6 +85486,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 297,
   "institution_name": "Dauphine University - FAIR Paris",
   "institution_local_name": "Dauphine University - FAIR Paris",
   "group_label": "Alexandre Araujo group",
@@ -84817,6 +85690,9 @@
   ],
   "institution_via": "Hoang-Dung Tran",
   "institution_local_via": "Hoang-Dung Tran",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 298,
   "institution_name": "University of Nebraska-Lincoln",
   "institution_local_name": "University of Nebraska-Lincoln",
   "group_label": "NNV (VeriVITAL)",
@@ -85009,6 +85885,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.25,
+  "recent_rank": 51,
   "institution_name": "IRIT / SNCF DTIPG",
   "institution_local_name": "IRIT / SNCF DTIPG",
   "group_label": "Mathieu Serrurier group",
@@ -85200,6 +86079,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 299,
   "institution_name": "Imperial College London",
   "institution_local_name": "Imperial College London",
   "group_label": "Ruth Misener group",
@@ -85411,6 +86293,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 300,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "α,β-CROWN",
@@ -85585,6 +86470,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.125,
+  "recent_rank": 76,
   "institution_name": "Nanyang Technological University",
   "institution_local_name": "Nanyang Technological University",
   "group_label": "Song Xia group",
@@ -85785,6 +86673,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 301,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "OVAL",
@@ -85968,6 +86859,9 @@
   ],
   "institution_via": "Maria Christakis",
   "institution_local_via": "Maria Christakis",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 302,
   "institution_name": "Vienna University of Technology",
   "institution_local_name": "Vienna University of Technology",
   "group_label": "Maria Christakis group",
@@ -86177,6 +87071,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 303,
   "institution_name": "Augusta University",
   "institution_local_name": "Augusta University",
   "group_label": "NNV (VeriVITAL)",
@@ -86202,7 +87099,7 @@
   "orcid": "",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/francisco-eiras.jpg",
   "dblp": [
    "https://dblp.org/pid/218/5843.html"
   ],
@@ -86373,6 +87270,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 304,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "Torr Vision Group",
@@ -86397,8 +87297,8 @@
   "homepage": "https://www.georgejpappas.org/",
   "orcid": "0000-0001-9081-0637",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "Kia-4B0AAAAJ",
+  "photo": "img/people/george-j-pappas.jpg",
   "dblp": [
    "https://dblp.org/pid/p/GeorgeJPappas.html"
   ],
@@ -86550,6 +87450,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 305,
   "institution_name": "University of Pennsylvania",
   "institution_local_name": "University of Pennsylvania",
   "group_label": "Pappas group",
@@ -86747,6 +87650,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 306,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "Daniel group",
@@ -86944,6 +87850,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 307,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -87131,6 +88040,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 308,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "α,β-CROWN",
@@ -87318,6 +88230,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 309,
   "institution_name": "Korea Advanced Institute of Science and Technology",
   "institution_local_name": "Korea Advanced Institute of Science and Technology",
   "group_label": "Jongheon Jeong group",
@@ -87601,6 +88516,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 310,
   "institution_name": "University of Wisconsin–Madison",
   "institution_local_name": "University of Wisconsin–Madison",
   "group_label": "Secure Learning Lab",
@@ -87884,6 +88802,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 311,
   "institution_name": "University of Michigan",
   "institution_local_name": "University of Michigan",
   "group_label": "Secure Learning Lab",
@@ -88232,6 +89153,9 @@
    }
   ],
   "institution_via": "Matthew L. Daggitt",
+  "recent_papers": 1,
+  "recent_score": 0.143,
+  "recent_rank": 75,
   "institution_name": "University of Western Australia",
   "institution_local_name": "University of Southampton",
   "group_label": "Vehicle",
@@ -88440,6 +89364,9 @@
   ],
   "institution_via": "Taolue Chen",
   "institution_local_via": "Taolue Chen",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 312,
   "institution_name": "Birkbeck, University of London",
   "institution_local_name": "Birkbeck, University of London",
   "group_label": "QVIP / QEBVerif",
@@ -88465,7 +89392,7 @@
   "orcid": "0000-0003-2071-2163",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/ivan-v-oseledets.jpg",
   "dblp": [
    "https://dblp.org/pid/56/7175.html"
   ],
@@ -88631,6 +89558,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 313,
   "institution_name": "Skolkovo Institute of Science and Technology",
   "institution_local_name": "Skolkovo Institute of Science and Technology",
   "group_label": "Daniel group (MIT)",
@@ -88827,6 +89757,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 314,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -89018,6 +89951,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 315,
   "institution_name": "Sony Research",
   "institution_local_name": "Sony Research",
   "group_label": "α,β-CROWN",
@@ -89225,6 +90161,9 @@
   ],
   "institution_via": "Huan Zhang",
   "institution_local_via": "Huan Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 316,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "α,β-CROWN",
@@ -89249,8 +90188,8 @@
   "homepage": "https://chentaolue.github.io/",
   "orcid": "0000-0002-5993-1665",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "Qv_-WU4AAAAJ",
+  "photo": "img/people/taolue-chen.jpg",
   "dblp": [
    "https://dblp.org/pid/28/4743.html"
   ],
@@ -89431,6 +90370,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 317,
   "institution_name": "Birkbeck, University of London",
   "institution_local_name": "Birkbeck, University of London",
   "group_label": "QVIP / QEBVerif",
@@ -89637,6 +90579,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 318,
   "institution_name": "ShanghaiTech University",
   "institution_local_name": "ShanghaiTech University",
   "group_label": "QVIP / QEBVerif",
@@ -89835,6 +90780,9 @@
   ],
   "institution_via": "Min Zhang",
   "institution_local_via": "Min Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 319,
   "institution_name": "East China Normal University",
   "institution_local_name": "East China Normal University",
   "group_label": "ECNU (Min Zhang)",
@@ -90058,6 +91006,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 320,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -90422,6 +91373,9 @@
   ],
   "institution_via": "Guy Katz",
   "institution_local_via": "Guy Katz",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 321,
   "institution_name": "Hebrew University of Jerusalem",
   "institution_local_name": "Hebrew University of Jerusalem",
   "group_label": "Marabou",
@@ -90618,6 +91572,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 322,
   "institution_name": "Mathématiques Informatique Télécommunications de Toulouse",
   "institution_local_name": "Mathématiques Informatique Télécommunications de Toulouse",
   "group_label": "Mathieu Serrurier group",
@@ -90819,6 +91776,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 323,
   "institution_name": "Chinese University of Hong Kong",
   "institution_local_name": "Chinese University of Hong Kong",
   "group_label": "Daniel group (MIT)",
@@ -91022,6 +91982,9 @@
   ],
   "institution_via": "Dahua Lin",
   "institution_local_via": "Dahua Lin",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 324,
   "institution_name": "Chinese University of Hong Kong",
   "institution_local_name": "Chinese University of Hong Kong",
   "group_label": "Daniel group (MIT)",
@@ -91313,6 +92276,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 325,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -91519,6 +92485,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 326,
   "institution_name": "University of Maryland",
   "institution_local_name": "University of Maryland",
   "group_label": "Goldstein group",
@@ -91730,6 +92699,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 327,
   "institution_name": "Massachusetts Institute of Technology",
   "institution_local_name": "Massachusetts Institute of Technology",
   "group_label": "Daniel group",
@@ -91929,6 +92901,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 70,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Singh group",
@@ -92130,6 +93105,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 328,
   "institution_name": "Swiss Federal Institute of Technology",
   "institution_local_name": "Swiss Federal Institute of Technology",
   "group_label": "Secure Learning Lab",
@@ -92329,6 +93307,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 71,
   "institution_name": "Amazon",
   "institution_local_name": "Amazon",
   "group_label": "Singh group (UIUC)",
@@ -92528,6 +93509,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.167,
+  "recent_rank": 72,
   "institution_name": "Amazon",
   "institution_local_name": "Amazon",
   "group_label": "Singh group (UIUC)",
@@ -92727,6 +93711,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 329,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "Torr Vision Group",
@@ -92751,8 +93738,8 @@
   "homepage": "https://www.cs.ox.ac.uk/thomas.lukasiewicz/",
   "orcid": "0000-0002-7644-1668",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "arjucpEAAAAJ",
+  "photo": "img/people/thomas-lukasiewicz.jpg",
   "dblp": [
    "https://dblp.org/pid/l/ThomasLukasiewicz.html"
   ],
@@ -92926,6 +93913,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 330,
   "institution_name": "University of Oxford",
   "institution_local_name": "University of Oxford",
   "group_label": "Torr Vision Group",
@@ -93141,6 +94131,9 @@
     ]
    }
   ],
+  "recent_papers": 1,
+  "recent_score": 0.2,
+  "recent_rank": 65,
   "institution_name": "University of the Chinese Academy of Sciences",
   "institution_local_name": "University of the Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -93365,6 +94358,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 331,
   "institution_name": "University of California, Berkeley",
   "institution_local_name": "University of California, Berkeley",
   "group_label": "Secure Learning Lab",
@@ -93389,8 +94385,8 @@
   "homepage": "https://web.cs.ucla.edu/~kwchang/",
   "orcid": "0000-0001-5365-0072",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "fqDBtzYAAAAJ",
+  "photo": "img/people/kai-wei-chang.jpg",
   "dblp": [
    "https://dblp.org/pid/18/2428-1.html"
   ],
@@ -93594,6 +94590,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 332,
   "institution_name": "University of California, Los Angeles",
   "institution_local_name": "University of California, Los Angeles",
   "group_label": "α,β-CROWN",
@@ -93787,6 +94786,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 333,
   "institution_name": "University of California, Santa Barbara",
   "institution_local_name": "University of California, Santa Barbara",
   "group_label": "Ling Liang group",
@@ -93811,8 +94813,8 @@
   "homepage": "https://coai.cs.tsinghua.edu.cn/hml",
   "orcid": "0000-0001-7111-1849",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "P1jPSzMAAAAJ",
+  "photo": "img/people/minlie-huang.jpg",
   "dblp": [
    "https://dblp.org/pid/47/6668.html"
   ],
@@ -94016,6 +95018,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 334,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "α,β-CROWN",
@@ -94209,6 +95214,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 335,
   "institution_name": "Institute of Computing Technology, Chinese Academy of Sciences",
   "institution_local_name": "Institute of Computing Technology, Chinese Academy of Sciences",
   "group_label": "Ling Liang group",
@@ -94423,6 +95431,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 336,
   "institution_name": "Carnegie Mellon University",
   "institution_local_name": "Carnegie Mellon University",
   "group_label": "Secure Learning Lab",
@@ -94637,6 +95648,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 337,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -94832,6 +95846,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 338,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "Hang Su group",
@@ -94856,8 +95873,8 @@
   "homepage": "http://www.ilyaraz.org/",
   "orcid": "",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "CMZAKkEAAAAJ",
+  "photo": "img/people/ilya-p-razenshteyn.jpg",
   "dblp": [
    "https://dblp.org/pid/10/7611.html"
   ],
@@ -95037,6 +96054,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 339,
   "institution_name": "Microsoft Research",
   "institution_local_name": "Microsoft Research",
   "group_label": "α,β-CROWN",
@@ -95242,6 +96262,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 340,
   "institution_name": "Microsoft",
   "institution_local_name": "Microsoft",
   "group_label": "α,β-CROWN",
@@ -95442,6 +96465,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 341,
   "institution_name": "Artificial and Natural Intelligence Toulouse Institute",
   "institution_local_name": "Artificial and Natural Intelligence Toulouse Institute",
   "group_label": "Mathieu Serrurier group",
@@ -95651,6 +96677,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 342,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -95852,6 +96881,9 @@
   ],
   "institution_via": "Zhengfeng Yang",
   "institution_local_via": "Zhengfeng Yang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 343,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Zhengfeng Yang group",
@@ -96053,6 +97085,9 @@
   ],
   "institution_via": "Zhengfeng Yang",
   "institution_local_via": "Zhengfeng Yang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 344,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Zhengfeng Yang group",
@@ -96248,6 +97283,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 345,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "Yinpeng Dong group",
@@ -96449,6 +97487,9 @@
   ],
   "institution_via": "Zhengfeng Yang",
   "institution_local_via": "Zhengfeng Yang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 346,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Zhengfeng Yang group",
@@ -96644,6 +97685,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 347,
   "institution_name": "Tsinghua University",
   "institution_local_name": "Tsinghua University",
   "group_label": "Zhongkai Hao group",
@@ -96869,6 +97913,9 @@
   ],
   "institution_via": "Lijun Zhang",
   "institution_local_via": "Lijun Zhang",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 348,
   "institution_name": "Institute of Software, Chinese Academy of Sciences",
   "institution_local_name": "Institute of Software, Chinese Academy of Sciences",
   "group_label": "ISCAS (Lijun Zhang)",
@@ -97075,6 +98122,9 @@
   ],
   "institution_via": "Zhiming Liu",
   "institution_local_via": "Zhiming Liu",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 349,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Wang Lin group",
@@ -97279,6 +98329,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 350,
   "institution_name": "Southwest University",
   "institution_local_name": "Southwest University",
   "group_label": "Zhiming Liu group",
@@ -97481,6 +98534,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 351,
   "institution_name": "Nanjing University",
   "institution_local_name": "Nanjing University",
   "group_label": "Jia group (Penn State)",
@@ -97505,7 +98561,7 @@
   "homepage": "https://people.cs.umass.edu/~shiqingma/",
   "orcid": "0000-0003-1551-8948",
   "openreview": "",
-  "scholar": "",
+  "scholar": "X_mDnjkAAAAJ",
   "photo": "",
   "dblp": [
    "https://dblp.org/pid/172/8745.html"
@@ -97683,6 +98739,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 352,
   "institution_name": "University of Massachusetts Amherst",
   "institution_local_name": "University of Massachusetts Amherst",
   "group_label": "Jia group (Penn State)",
@@ -97885,6 +98944,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 353,
   "institution_name": "Nanjing University",
   "institution_local_name": "Nanjing University",
   "group_label": "Jia group (Penn State)",
@@ -97909,8 +98971,8 @@
   "homepage": "http://software.nju.edu.cn/zychen/",
   "orcid": "0000-0002-9592-7022",
   "openreview": "",
-  "scholar": "",
-  "photo": "",
+  "scholar": "HQWxCnkAAAAJ",
+  "photo": "img/people/zhenyu-chen.jpg",
   "dblp": [
    "https://dblp.org/pid/86/541-1.html"
   ],
@@ -98087,6 +99149,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 354,
   "institution_name": "Nanjing University",
   "institution_local_name": "Nanjing University",
   "group_label": "Jia group (Penn State)",
@@ -98316,6 +99381,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 355,
   "institution_name": "Stanford University",
   "institution_local_name": "Stanford University",
   "group_label": "Marabou",
@@ -98341,7 +99409,7 @@
   "orcid": "0000-0002-7238-9663",
   "openreview": "",
   "scholar": "",
-  "photo": "",
+  "photo": "img/people/mykel-j-kochenderfer.jpg",
   "dblp": [
    "https://dblp.org/pid/34/2029.html"
   ],
@@ -98545,6 +99613,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 356,
   "institution_name": "Stanford University",
   "institution_local_name": "Stanford University",
   "group_label": "NeuralVerification.jl",
@@ -98776,6 +99847,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 357,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -99007,6 +100081,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 358,
   "institution_name": "ETH Zurich",
   "institution_local_name": "ETH Zurich",
   "group_label": "Secure Learning Lab",
@@ -99253,6 +100330,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 359,
   "institution_name": "University of Illinois Urbana-Champaign",
   "institution_local_name": "University of Illinois Urbana-Champaign",
   "group_label": "Secure Learning Lab",
@@ -99475,6 +100555,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 360,
   "institution_name": "Zhejiang University",
   "institution_local_name": "Zhejiang University",
   "group_label": "Secure Learning Lab",
@@ -99697,6 +100780,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 361,
   "institution_name": "University of Michigan",
   "institution_local_name": "University of Michigan",
   "group_label": "Secure Learning Lab",
@@ -99929,6 +101015,9 @@
   ],
   "institution_via": "Taylor T. Johnson",
   "institution_local_via": "Taylor T. Johnson",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 362,
   "institution_name": "Vanderbilt University",
   "institution_local_name": "Vanderbilt University",
   "group_label": "NNV (VeriVITAL)",
@@ -100159,6 +101248,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 363,
   "institution_name": "Vanderbilt University",
   "institution_local_name": "Vanderbilt University",
   "group_label": "NNV (VeriVITAL)",
@@ -100407,6 +101499,9 @@
     ]
    }
   ],
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 364,
   "institution_name": "Google DeepMind",
   "institution_local_name": "Google DeepMind",
   "group_label": "DeepMind verification",
@@ -100697,6 +101792,9 @@
   ],
   "institution_via": "Matthew L. Daggitt",
   "institution_local_via": "Matthew L. Daggitt",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 365,
   "institution_name": "University of Western Australia",
   "institution_local_name": "University of Western Australia",
   "group_label": "Vehicle",
@@ -101021,6 +102119,9 @@
   ],
   "institution_via": "Guy Katz",
   "institution_local_via": "Guy Katz",
+  "recent_papers": 0,
+  "recent_score": 0.0,
+  "recent_rank": 366,
   "institution_name": "Hebrew University of Jerusalem",
   "institution_local_name": "Hebrew University of Jerusalem",
   "group_label": "Marabou",

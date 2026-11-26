@@ -1,4 +1,64 @@
 {
+ "abhinav-verma": {
+  "scholar": "jM1HeCIAAAAJ",
+  "scholar_from": "https://averma8053.github.io/"
+ },
+ "alex-dimakis": {
+  "scholar": "JSFmVQEAAAAJ",
+  "scholar_from": "http://users.ece.utexas.edu/~dimakis/"
+ },
+ "alexandre-allauzen": {
+  "scholar": "B2-gXkkAAAAJ",
+  "scholar_from": "https://allauzen.github.io/"
+ },
+ "andrew-clark": {
+  "scholar": "x6Mt_esAAAAJ",
+  "scholar_from": "https://engineering.wustl.edu/faculty/Andrew-Clark.html"
+ },
+ "bo-li": {
+  "scholar": "K8vJkTcAAAAJ",
+  "scholar_from": "https://aisecure.github.io/"
+ },
+ "changming-xu": {
+  "scholar": "_Zg49pIAAAAJ",
+  "scholar_from": "https://cmxu.io/"
+ },
+ "di-he": {
+  "scholar": "orVoz4IAAAAJ",
+  "scholar_from": "https://dihe-pku.github.io/"
+ },
+ "duo-zhou": {
+  "scholar": "QnBzRsIAAAAJ",
+  "scholar_from": "https://www.duo-zhou.com/"
+ },
+ "eric-wong": {
+  "scholar": "pWnTMRkAAAAJ",
+  "scholar_from": "https://riceric22.github.io/"
+ },
+ "ezio-bartocci": {
+  "scholar": "EeK43rAAAAAJ",
+  "scholar_from": "http://www.eziobartocci.com/"
+ },
+ "gagandeep-singh": {
+  "scholar": "m4b2ruEAAAAJ",
+  "scholar_from": "https://ggndpsngh.github.io/"
+ },
+ "george-j-pappas": {
+  "scholar": "Kia-4B0AAAAJ",
+  "scholar_from": "https://www.georgejpappas.org/"
+ },
+ "grani-a-hanasusanto": {
+  "scholar": "93X6nhMAAAAJ",
+  "scholar_from": "http://grani.hanasusanto.com/"
+ },
+ "grigorios-chrysos": {
+  "scholar": "1bU041kAAAAJ",
+  "scholar_from": "https://grigorisg9gr.github.io/_pages/about/"
+ },
+ "guy-katz": {
+  "scholar": "3nYG5BMAAAAJ",
+  "scholar_from": "https://www.katz-lab.com/"
+ },
  "huan-zhang": {
   "fetched": "2026-11-26",
   "openreview": "~Huan_Zhang1",
@@ -9,6 +69,46 @@
   "position": "Assistant Professor",
   "scholar": "LTa3GzEAAAAJ",
   "scholar_from": "OpenReview profile"
+ },
+ "ilya-p-razenshteyn": {
+  "scholar": "CMZAKkEAAAAJ",
+  "scholar_from": "http://www.ilyaraz.org/"
+ },
+ "isil-dillig": {
+  "scholar": "Wlq5rZEAAAAJ",
+  "scholar_from": "http://www.cs.utexas.edu/~isil/"
+ },
+ "jacob-laurel": {
+  "scholar": "tasR7iIAAAAJ",
+  "scholar_from": "https://jsl1994.github.io/"
+ },
+ "jinyuan-jia": {
+  "scholar": "iyg4ytkAAAAJ",
+  "scholar_from": "https://jinyuan-jia.github.io/"
+ },
+ "john-dickerson": {
+  "scholar": "QgDpfCQAAAAJ",
+  "scholar_from": "https://jpdickerson.com/"
+ },
+ "kai-wei-chang": {
+  "scholar": "fqDBtzYAAAAJ",
+  "scholar_from": "https://web.cs.ucla.edu/~kwchang/"
+ },
+ "krishnamurthy-dvijotham": {
+  "scholar": "BUtloecAAAAJ",
+  "scholar_from": "https://dvij.github.io/"
+ },
+ "krishnendu-chatterjee": {
+  "scholar": "1kaW8bwAAAAJ",
+  "scholar_from": "http://pub.ist.ac.at/~kchatterjee/"
+ },
+ "loris-d-antoni": {
+  "scholar": "ao8EeJ8AAAAJ",
+  "scholar_from": "https://cseweb.ucsd.edu/~ldantoni/"
+ },
+ "mario-fritz": {
+  "scholar": "4V1nNm4AAAAJ",
+  "scholar_from": "https://scalable.mpi-inf.mpg.de/"
  },
  "martin-vechev": {
   "fetched": "2026-11-26",
@@ -21,6 +121,78 @@
   "scholar": "aZ1Rh50AAAAJ",
   "scholar_from": "OpenReview profile"
  },
+ "michael-j-curry": {
+  "scholar": "EOlowBUAAAAJ",
+  "scholar_from": "https://currymj.github.io/"
+ },
+ "min-wu": {
+  "scholar": "KIvRCsoAAAAJ",
+  "scholar_from": "https://cs.stanford.edu/~minwu/"
+ },
+ "mingsheng-ying": {
+  "scholar": "jjPif6cAAAAJ",
+  "scholar_from": "https://profiles.uts.edu.au/mingsheng.ying"
+ },
+ "minlie-huang": {
+  "scholar": "P1jPSzMAAAAJ",
+  "scholar_from": "https://coai.cs.tsinghua.edu.cn/hml"
+ },
+ "percy-liang": {
+  "scholar": "pouyVyUAAAAJ",
+  "scholar_from": "http://cs.stanford.edu/~pliang/"
+ },
+ "qiang-liu": {
+  "scholar": "XEx1fZkAAAAJ",
+  "scholar_from": "https://www.cs.utexas.edu/~lqiang/"
+ },
+ "rajeev-alur": {
+  "scholar": "ZvLa1RIAAAAJ",
+  "scholar_from": "http://www.cis.upenn.edu/~alur/"
+ },
+ "richard-y-zhang": {
+  "scholar": "5r5Jyb4AAAAJ",
+  "scholar_from": "https://ryz.ece.illinois.edu/"
+ },
+ "sasa-misailovic": {
+  "scholar": "3qJQjIYAAAAJ",
+  "scholar_from": "http://misailo.web.engr.illinois.edu/"
+ },
+ "shiqi-wang": {
+  "scholar": "u_MzXeMAAAAJ",
+  "scholar_from": "https://www.cs.columbia.edu/~tcwangshiqi/"
+ },
+ "shiqing-ma": {
+  "scholar": "X_mDnjkAAAAJ",
+  "scholar_from": "https://people.cs.umass.edu/~shiqingma/"
+ },
+ "siddharth-garg": {
+  "scholar": "Yf8OqQQAAAAJ",
+  "scholar_from": "http://engineering.nyu.edu/people/siddharth-garg"
+ },
+ "soheil-feizi": {
+  "scholar": "lptAmrMAAAAJ",
+  "scholar_from": "https://www.cs.umd.edu/~sfeizi/"
+ },
+ "somesh-jha": {
+  "scholar": "BaI7l8QAAAAJ",
+  "scholar_from": "http://www.cs.wisc.edu/~jha/"
+ },
+ "suman-jana": {
+  "scholar": "SDY9FwUAAAAJ",
+  "scholar_from": "http://sumanj.info/"
+ },
+ "tao-xie": {
+  "scholar": "DhhH9J4AAAAJ",
+  "scholar_from": "https://taoxiease.github.io/"
+ },
+ "taolue-chen": {
+  "scholar": "Qv_-WU4AAAAJ",
+  "scholar_from": "https://chentaolue.github.io/"
+ },
+ "taylor-t-johnson": {
+  "scholar": "MdTkXNYAAAAJ",
+  "scholar_from": "http://www.taylortjohnson.com/"
+ },
  "thanh-le": {
   "fetched": "2026-11-26",
   "openreview": "~Thanh_Le2",
@@ -31,5 +203,49 @@
   "position": "Researcher",
   "scholar": "UkCDAXUAAAAJ",
   "scholar_from": "OpenReview profile"
+ },
+ "thomas-a-henzinger": {
+  "scholar": "jpgplxUAAAAJ",
+  "scholar_from": "http://pub.ist.ac.at/~tah/"
+ },
+ "thomas-lukasiewicz": {
+  "scholar": "arjucpEAAAAJ",
+  "scholar_from": "https://www.cs.ox.ac.uk/thomas.lukasiewicz/"
+ },
+ "tobias-lorenz": {
+  "scholar": "gf-aMd0AAAAJ",
+  "scholar_from": "https://www.t-lorenz.com/"
+ },
+ "tom-goldstein": {
+  "scholar": "KmSuVtgAAAAJ",
+  "scholar_from": "https://www.cs.umd.edu/~tomg/"
+ },
+ "xiaowei-huang": {
+  "scholar": "X4fLCCIAAAAJ",
+  "scholar_from": "https://cgi.csc.liv.ac.uk/~xiaowei/"
+ },
+ "xue-lin": {
+  "scholar": "p87KNLIAAAAJ",
+  "scholar_from": "https://xuelin.sites.northeastern.edu/"
+ },
+ "yang-zhou": {
+  "scholar": "yvE8Po0AAAAJ",
+  "scholar_from": "http://eng.auburn.edu/users/yangzhou/"
+ },
+ "yanting-wang": {
+  "scholar": "ClAr4UYAAAAJ",
+  "scholar_from": "https://wang-yanting.github.io/"
+ },
+ "zhenyu-chen": {
+  "scholar": "HQWxCnkAAAAJ",
+  "scholar_from": "http://software.nju.edu.cn/zychen/"
+ },
+ "zhongkui-ma": {
+  "scholar": "r2Z7bCMAAAAJ",
+  "scholar_from": "https://zhongkuima.github.io"
+ },
+ "zi-wang": {
+  "scholar": "UOaHqKEAAAAJ",
+  "scholar_from": "https://z1w.github.io/"
  }
 }

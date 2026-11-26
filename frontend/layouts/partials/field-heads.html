@@ -1,3 +1,3 @@
 {{- range hugo.Data.meta.fields }}
-<th title="{{ .full_name }}: {{ delimit .names ", " }}">{{ .name }}</th>
+<th data-extra title="{{ .full_name }}: {{ delimit .names ", " }}">{{ .name }}</th>
 {{- end }}

@@ -367,6 +367,7 @@ _COUNTRY_HINTS = [
     ("BE", r"leuven|ghent|louvain"),
     ("SE", r"\bkth\b|lund|uppsala|chalmers|linköping"),
     ("DK", r"aalborg|copenhagen|\bdtu\b|aarhus"),
+    ("VN", r"cmc corporation|cmc global|vietnam|hanoi|ho chi minh|vinai|vinuni|fpt software"),
     ("HU", r"szeged|budapest"),
     ("CZ", r"masaryk|prague|brno|czech technical"),
     ("CY", r"limassol|cyprus"),

@@ -88,6 +88,32 @@ def find_forum(clients, p):
     return ""
 
 
+def site_forums():
+    """(venue, year, title) -> OpenReview forum, from the conference sites' paper lists (cached; no search needed)."""
+    import gzip
+
+    from common import RAW
+
+    out = {}
+    for f in (RAW / "virtual").glob("*.json.gz"):
+        venue, year = f.name.split(".")[0].split("-")
+        try:
+            rows = json.loads(gzip.decompress(f.read_bytes())).get("results", [])
+        except ValueError:
+            continue
+        for r in rows:
+            m = re.search(r"openreview\.net/(?:forum|pdf)\?id=([\w-]+)", json.dumps(r))
+            if m:
+                out[(venue, int(year), norm_title(r.get("name") or ""))] = m.group(1)
+    return out
+
+
+def needs_search(p):
+    """Only ICLR before 2021 has public reviews that the conference site lists do not link; ICML before 2025 and
+    NeurIPS 2020 have no public OpenReview reviews at all."""
+    return p["venue"] == "iclr" and p["year"] <= 2020
+
+
 def forum_notes(clients, forum):
     for c in clients:
         try:
@@ -137,6 +163,7 @@ def main():
     papers = [p for p in read_json(FRONTEND / "data" / "papers.json", []) if p["venue"] in CONFERENCE
               and (not args.only or p["id"] in args.only)]
     forums = {} if args.refresh else read_json(FORUMS, {})
+    listed = site_forums()
     v2, v1 = login()
     clients = [c for c in (v2, v1) if c is not None]
     written = 0
@@ -149,9 +176,12 @@ def main():
         if dest.exists() and not args.refresh:
             written += 1
             continue
-        if p["key"] not in forums:
+        if not forums.get(p["key"]):
             m = re.search(r"openreview\.net/forum\?id=([\w-]+)", p.get("url") or "")
-            forums[p["key"]] = m.group(1) if m else find_forum(clients, p)
+            forum = m.group(1) if m else listed.get((p["venue"], p["year"], norm_title(p["title"])), "")
+            if not forum and needs_search(p) and p["key"] not in forums:
+                forum = find_forum(clients, p)
+            forums[p["key"]] = forum
             write_json(FORUMS, forums)
         forum = forums[p["key"]]
         if not forum:

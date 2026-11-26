@@ -30,7 +30,7 @@ def _timeout_requests():
 
 _timeout_requests()
 
-from common import CSV_DIR, FRONTEND, JSON_DIR, RAW, WORK, ROSTER, norm_name, read_csv, read_json, split_list, write_csv, write_json
+from common import CSV_DIR, FRONTEND, JSON_DIR, RAW, VIRTUAL_SITES, WORK, ROSTER, norm_name, norm_title, read_csv, read_json, split_list, write_csv, write_json
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 CAND = RAW / "images" / "people"
@@ -184,21 +184,52 @@ def scholar_photo(user):
     return f"https://scholar.googleusercontent.com/citations?view_op=view_photo&user={user}&citpid=2" if user else ""
 
 
-def collect(people, only, profiles):
+def site_pictures(papers):
+    """slug -> photos the ICML/NeurIPS/ICLR sites show for the person on their own papers (picture_url)."""
+    import gzip
+    from site_affiliations import same_person
+
+    lists = {}
+    for f in (RAW / "virtual").glob("*.json.gz"):
+        venue = f.name.split("-")[0]
+        try:
+            rows = json.loads(gzip.decompress(f.read_bytes())).get("results", [])
+        except ValueError:
+            continue
+        for r in rows:
+            lists[(venue, norm_title(r.get("name") or ""))] = [((a.get("fullname") or ""), a.get("picture_url") or "")
+                                                               for a in r.get("authors") or []]
+    out = {}
+    for p in papers:
+        printed = lists.get((p["venue"], norm_title(p["title"])), [])
+        for a in p["authors"]:
+            pic = next((u for n, u in printed if u and same_person(n, a["name"])), "") if a["slug"] else ""
+            if pic and pic not in out.setdefault(a["slug"], []):
+                out[a["slug"]].append(urllib.parse.urljoin(VIRTUAL_SITES[p["venue"]], pic))
+    return out
+
+
+def collect(people, only, profiles, papers):
+    """Photo candidates from places with no rate limit first: the person's homepages (and a Google Scholar link found
+    there), then the conference sites' author pictures; OpenReview profiles only add homepages already found."""
     CAND.mkdir(parents=True, exist_ok=True)
     rows = [r for r in read_csv(CAND_CSV)] if CAND_CSV.exists() else []
     done = {r["key"] for r in rows}
+    pictures = site_pictures(papers)
     for p in people:
         if p["slug"] in done and not only:
             continue
         rows = [r for r in rows if r["key"] != p["slug"]]
-        prof = profiles.get(p["slug"], {})
+        prof = profiles.setdefault(p["slug"], {})
         pages = list(dict.fromkeys(x for x in [p["homepage"], *p["dblp_homepages"], prof.get("homepage", "")]
                                    if x and not re.search(r"researchgate|openreview|linkedin|twitter|x\.com|github\.com/[^/]+/?$", x)))
         tokens = {t for t in norm_name(p["name"]).split() if len(t) > 2}
         found, seen = [], set()
         for page in pages:
             html = get(page)
+            m = SCHOLAR_LINK.search(html)
+            if m and not prof.get("scholar"):
+                prof.update(scholar=m.group(1), scholar_from=page)
             for url, alt, how in images_on(page, html):
                 if url in seen or NOT_PORTRAIT.search(url + " " + alt):
                     continue
@@ -210,14 +241,20 @@ def collect(people, only, profiles):
         photo = scholar_photo(prof.get("scholar"))
         if photo:
             found.append((photo, f"https://scholar.google.com/citations?user={prof['scholar']}", "Google Scholar profile photo"))
-        for url, page, note in found[:6]:
+        for url in pictures.get(p["slug"], [])[:2]:
+            found.append((url, url, "conference site author picture"))
+        for url, page, note in found[:8]:
             data = get(url, binary=True)
             if len(data) < 1500 or data[:5] in (b"<!DOC", b"<html", b"<?xml") and not url.endswith(".svg"):
                 continue
             name = f"{p['slug']}-{hashlib.md5(url.encode()).hexdigest()[:6]}"
             (CAND / name).write_bytes(data)
             rows.append({"key": p["slug"], "file": name, "image_url": url, "source_page": page, "note": note})
-        print(f"  {p['slug']}: {sum(r['key'] == p['slug'] for r in rows)} candidates from {len(pages)} pages", file=sys.stderr)
+        if not prof:
+            profiles.pop(p["slug"], None)
+        write_json(PROFILES, dict(sorted(profiles.items())))
+        print(f"  {p['slug']}: {sum(r['key'] == p['slug'] for r in rows)} candidates from {len(pages)} pages"
+              f"{', scholar ' + prof['scholar'] if prof.get('scholar') else ''}", file=sys.stderr)
         write_csv(CAND_CSV, ["key", "file", "image_url", "source_page", "note"], rows)
     return rows
 
@@ -298,7 +335,7 @@ def main():
     if args.profiles:
         profiles = profile_links(people, papers)
     if args.collect:
-        collect(people, args.only, profiles)
+        collect(people, args.only, profiles, papers)
     if args.sheets:
         sheets(read_csv(CAND_CSV))
     if args.apply:

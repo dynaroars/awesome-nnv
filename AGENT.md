@@ -149,6 +149,12 @@ the site uses.
   institution of the co-author they share the most NNV papers with (likely supervisor), shown with a `*` and a note under
   the table (the maintainer's rule). The flag is the country of the institution shown (`country_of` in `common.py`); a
   group's flag (Collaboration legend and card) is the country most of its members are at.
+- **Group leaderboard** (front page, the maintainer's rule): ordered by the group's NNV papers in `RECENT_YEAR` (this
+  year), then its score over that year's papers alone, then all-year score; columns: that year's papers and score, then
+  all years' papers, score and citations. The field breakdown is hidden behind a "Show the field breakdown" button
+  (`data-collapsible`, `data-extra`, as in vn-ai-ranking); 20 rows a page. The Researchers page works the same way:
+  ordered by `recent_rank` (that year's papers, then that year's adjusted count, then all-year score), same columns,
+  collapsible field breakdown, 20 rows a page.
 - **People:** every author with `TRACK_MIN` (2) or more NNV papers is listed (the maintainer's rule,
   2026-11-26), students and industry researchers included. Roster rows below the threshold are kept (with their
   group) but shown only on the local Candidates page; they reappear on the site once they reach 2. Identity is the

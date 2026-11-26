@@ -208,6 +208,14 @@ def build_researchers(people, groups, papers, dblp_people):
         })
     inherit_institutions(out)
     for r in out:
+        recent = [p for p in by_slug.get(r["slug"], []) if p["year"] == RECENT_YEAR]
+        r["recent_papers"] = len(recent)
+        r["recent_score"] = round(sum(score_fields(recent, {r["slug"]}).values()), 3)
+    # The Researchers page ranks active people: this year's papers, then this year's score, then the all-year score.
+    for k, r in enumerate(sorted(out, key=lambda r: (-r["recent_papers"], -r["recent_score"], -r["score"],
+                                                    -r["papers"], r["name"]))):
+        r["recent_rank"] = k
+    for r in out:
         r["institution_name"] = institution_name(r["institution"])
         r["institution_local_name"] = institution_name(r["institution_local"])
         r["group_label"] = group_label(r["group_name"], r["institution"], r["institution_short"])
@@ -348,6 +356,24 @@ def logo_of(slug):
     return ""
 
 
+RECENT_YEAR = LAST_YEAR  # the year the leaderboard ranks by: this year
+
+
+def group_home(g, members):
+    """A group's institution: groups.csv's `institution` if set; else the member institution its name's bracket names
+    ("Jia group (Penn State)"); else the one most members are at (a tie goes to the higher-ranked member)."""
+    named = [r for r in members if r["institution_name"]]
+    if g.get("institution"):
+        hit = next((r for r in named if r["institution_name"] == g["institution"]), None)
+        return g["institution"], hit["country"] if hit else country_of(g["institution"])
+    for r in named:
+        if group_label(g["name"], r["institution_name"], r["institution"]) != g["name"]:
+            return r["institution_name"], r["country"]
+    count = collections.Counter(r["institution_name"] for r in named)
+    best = max(named, key=lambda r: count[r["institution_name"]], default=None)  # first of the top count = highest rank
+    return (best["institution_name"], best["country"]) if best else ("", "")
+
+
 def build_groups(groups, researchers, papers, names):
     out = []
     for slug, g in groups.items():
@@ -358,7 +384,14 @@ def build_groups(groups, researchers, papers, names):
         # The country most members are at; a tie goes to the higher-ranked member's country.
         where = collections.Counter(r["country"] for r in members if r["country"]).most_common(1)
         country = where[0][0] if where else ""
-        out.append({"country": country, "country_name": COUNTRY_NAME.get(country, country),
+        home, home_country = group_home(g, members)
+        recent = [p for p in mine if p["year"] == RECENT_YEAR]
+        sf_recent = score_fields(recent, ids)
+        out.append({"recent_score": geomean(sf_recent.values()), "recent_papers": len(recent),
+                    "recent_score_fields": sf_recent,
+                    "country": country, "country_name": COUNTRY_NAME.get(country, country),
+                    "institution": home, "institution_country": home_country,
+                    "label": group_label(g["name"], home),
                     "slug": slug, "name": g["name"], "tools": split_list(g["tools"]), "url": g["url"],
                     "description": g["description"],
                     "members": [{"slug": r["slug"], "name": r["name"], "institution_short": r["institution_short"],
@@ -368,7 +401,9 @@ def build_groups(groups, researchers, papers, names):
                     "logo": logo_of(slug), "chart": year_chart(f"{g['name']}: NNV papers per year by field", mine),
                     "paper_list": [paper_entry(p, names) for p in mine]})
     out = [g for g in out if g["members"]]
-    out.sort(key=lambda g: (-g["score"], -g["papers"], g["name"]))
+    # The leaderboard ranks active groups: by this year's papers, then this year's score, then all-time score (the
+    # maintainer's rule).
+    out.sort(key=lambda g: (-g["recent_papers"], -g["recent_score"], -g["score"], -g["papers"], g["name"]))
     assign_marks(out, groups, papers)
     return out
 
@@ -527,7 +562,7 @@ def main():
             "years": YEARS, "venues": [{"key": v["key"], "name": v["name"]} for v in VENUES],
             "fields": [{**f, "names": f["names"]} for f in FIELDS], "scored_fields": SCORED_FIELDS,
             "areas": [{"key": a["key"], "name": a["name"]} for a in AREAS],
-            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
+            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "recent_year": RECENT_YEAR, "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
             "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps,
             "from_sites": [{"venue": VENUE_NAME[v], "year": int(y), "site": c["tocs"][0]}
                            for v, ys in from_sites.items() for y, c in ys.items()

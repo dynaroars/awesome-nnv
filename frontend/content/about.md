@@ -46,7 +46,7 @@ Rather than ranking by university, we organize people by **research group**, nam
 
 Individual scores follow the CSRankings adjusted count: a paper with `N` authors gives `1 / N` credit to each listed author.
 
-Group scores mirror how CSRankings ranks institutions. For each of the five fields (ML, CV, PL, SE, and LV), we sum the adjusted counts of all group members and take the geometric mean of `(field count + 1)` across the five fields. Adding 1 prevents a zero in one field from zeroing out the whole score, while the geometric mean rewards groups that publish across multiple communities. In a group's total paper count, a paper co-authored by several members is counted only once.
+Group scores mirror how CSRankings ranks institutions. For each of the five fields (ML, CV, PL, SE, and LV), we sum the adjusted counts of all group members and take the geometric mean of `(field count + 1)` across the five fields. Adding 1 prevents a zero in one field from zeroing out the whole score, while the geometric mean rewards groups that publish across multiple communities. In a group's total paper count, a paper co-authored by several members is counted only once. To follow active teams, the group leaderboard is ordered by each group's NNV papers in the current year, then by its score over that year's papers alone (the same formula); the all-year paper count and score are shown next to them.
 
 ## Citations
 

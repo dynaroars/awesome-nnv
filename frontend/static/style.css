@@ -696,3 +696,18 @@ span.unofficial {
 /* Country flags (flag-icons, MIT): institutions, group legend and cards. */
 img.flag { width: 16px ; height: 12px ; vertical-align: -1px ; border: 1px solid var(--faint) ; border-radius: 1px ; margin-right: 0.15em ; }
 .graph-legend img.flag { margin: 0 0.35em 0 0.2em ; }
+
+/* The institution under a group's name in the Groups table. */
+.group-home { font-size: 0.85em ; color: var(--muted) ; }
+
+/* Groups table: balanced columns (the advisor's budget within the 72rem page). */
+#groups-table td.pin1 { min-width: 13rem ; max-width: 13rem ; white-space: normal ; }
+#groups-table .tools { min-width: 10rem ; max-width: 10rem ; white-space: normal ; }
+#groups-table .members { min-width: 12.5rem ; max-width: 12.5rem ; white-space: normal ; }
+#groups-table .members a.more { color: var(--muted) ; white-space: nowrap ; }
+#groups-table tbody td:nth-child(n+5):nth-child(-n+9), #groups-table thead tr + tr th:nth-child(-n+5) {
+    width: 2.4rem ; min-width: 2.4rem ; padding-left: 0.3em ; padding-right: 0.3em ; }
+#groups-table tbody td:nth-child(n+10), #groups-table thead tr + tr th:nth-child(n+6) {
+    width: 3.6rem ; min-width: 3.6rem ; padding-left: 0.35em ; padding-right: 0.35em ; }
+
+@media (max-width: 600px) { #groups-table td.pin1 { min-width: 8rem ; max-width: 10rem ; } }

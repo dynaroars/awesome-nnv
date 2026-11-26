@@ -1,0 +1,5 @@
+{{- /* One line about a researcher for a hover title: group, institution, country. */ -}}
+{{- $inst := cond site.Params.local .institution_local_name .institution_name -}}
+{{- $cc := cond site.Params.local .country_local .country -}}
+{{- $via := cond site.Params.local .institution_local_via .institution_via -}}
+{{- .group_name }}{{ with $inst }} · {{ . }}{{ if $via }}*{{ end }}{{ end }}{{ with $cc }} · {{ index hugo.Data.meta.countries . | default . }}{{ end -}}

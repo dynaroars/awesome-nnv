@@ -3,6 +3,6 @@ Neural-network verification researchers, {{ hugo.Data.meta.first_year }}&ndash;{
 {{- end }}
 {{ define "main" -}}
 {{ .Content }}
-{{ partial "researcher-table.html" (dict "rows" hugo.Data.researchers "id" "researchers-table" "page" 50) }}
+{{ partial "researcher-table.html" (dict "rows" (sort hugo.Data.researchers "recent_rank") "id" "researchers-table" "page" 20 "collapse" true) }}
 <aside class="callout"><p>Scores use the <a href="https://csrankings.org/">CSRankings</a> adjusted count: each NNV paper gives 1 / (number of authors) credit to every listed author. See <a href="{{ "about/" | relURL }}">About</a> for details.</p></aside>
 {{- end }}

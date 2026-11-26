@@ -1,31 +1,38 @@
+<div class="table-box">
+<p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" aria-controls="groups-table" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button></p>
 <div class="scroll pinned top">
-<table class="podium" id="groups-table" data-page-size="50">
+<table class="podium collapsed" id="groups-table" data-collapsible data-page-size="20">
 	<thead>
 	<tr>
 		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
 		<th rowspan="2" class="l pin1">Group</th>
-		<th rowspan="2" class="l">Tools</th>
-		<th rowspan="2" class="l">Researchers</th>
-		<th colspan="{{ len hugo.Data.meta.fields }}">NNV papers by field</th>
-		<th colspan="3">Total</th>
+		<th rowspan="2" class="l tools">Tools</th>
+		<th rowspan="2" class="l members" title="Top three by score; the group page lists everyone">Researchers</th>
+		<th colspan="{{ len hugo.Data.meta.fields }}" data-extra>NNV papers by field</th>
+		<th colspan="2">{{ hugo.Data.meta.recent_year }}</th>
+		<th colspan="3">All years</th>
 	</tr>
 	<tr>
 		{{ partial "field-heads.html" . }}
-		<th class="score" data-podium title="Geometric mean of (adjusted count + 1) across ML, CV, PL, SE, and LV, matching CSRankings">Score</th>
-		<th class="good" title="NNV papers with at least one group member (counted once per paper)">Papers</th>
-		<th title="OpenAlex citations across these papers (counted once per paper)">Citations</th>
+		<th class="good" data-podium title="Papers, {{ hugo.Data.meta.recent_year }}: NNV papers from {{ hugo.Data.meta.recent_year }} with at least one group member among the authors, each paper counted once however many members wrote it. The table is ranked by this number, then by the {{ hugo.Data.meta.recent_year }} score.">Papers</th>
+		<th class="score" title="Score, {{ hugo.Data.meta.recent_year }}: the CSRankings formula over {{ hugo.Data.meta.recent_year }} papers only. Each paper gives 1 / (number of authors) to every author; a group's members' shares are added up in each of the five fields (ML, CV, PL, SE, LV), and the score is the geometric mean of (field total + 1). 1.00 means no {{ hugo.Data.meta.recent_year }} papers.">Score</th>
+		<th class="good" title="Papers, all years: NNV papers since 2017 with at least one group member among the authors, each paper counted once.">Papers</th>
+		<th class="score" title="Score, all years: the same CSRankings formula over every NNV paper since 2017. Each paper gives 1 / (number of authors) to every author; members' shares are added up per field (ML, CV, PL, SE, LV), and the score is the geometric mean of (field total + 1).">Score</th>
+		<th title="Citations: OpenAlex citations of the group's NNV papers, adding up a paper's preprint and published records and counting each paper once. Shown for reference; not used in the ranking.">Citations</th>
 	</tr>
 	</thead>
 	<tbody>
 	{{- range $n, $g := hugo.Data.groups }}
-	<tr{{ if ge $n 50 }} class="off-page"{{ end }}>
+	<tr{{ if ge $n 20 }} class="off-page"{{ end }}>
 		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
-		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .name }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}</td>
-		<td class="l">{{ delimit .tools ", " }}</td>
-		<td class="l">{{ range $k, $m := .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}</td>
+		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}" title="{{ .name }}">{{ .label }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .institution }}<br><span class="group-home">{{ partial "flag.html" $g.institution_country }} {{ . }}</span>{{ end }}</td>
+		<td class="l tools">{{ delimit .tools ", " }}</td>
+		<td class="l members" data-sort="{{ len .members }}">{{ range $k, $m := first 3 .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}{{ with sub (len .members) 3 }}{{ if gt . 0 }}, <a class="more" href="{{ printf "groups/%s/" $g.slug | relURL }}">+{{ . }} more</a>{{ end }}{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}
-		<td class="score">{{ printf "%.2f" .score }}</td>
+		<td class="total good">{{ .recent_papers }}</td>
+		<td class="score">{{ printf "%.2f" .recent_score }}</td>
 		<td class="total good">{{ .papers }}</td>
+		<td class="score">{{ printf "%.2f" .score }}</td>
 		<td>{{ .citations }}</td>
 	</tr>
 	{{- end }}
@@ -34,4 +41,5 @@
 </div>
 <nav class="pager" aria-controls="groups-table" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
 <noscript><style>#groups-table tr.off-page { display: table-row ; }</style></noscript>
+</div>
 <aside class="callout"><p>Groups represent research teams known for a signature tool or line of work, similar to teams at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>. Each researcher belongs to one group, and their institution is shown on their individual row.</p></aside>
