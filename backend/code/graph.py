@@ -6,7 +6,7 @@ import networkx as nx
 
 from common import LABEL_MIN
 
-WIDTH = 1000
+WIDTH = 1600
 PAD = 30
 LABEL_W = 7.2
 

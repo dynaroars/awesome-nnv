@@ -33,7 +33,7 @@
 	{{- end }}
 	</span>
 </nav>
-<main>
+<main{{ if eq .Layout "graph" }} class="wide"{{ end }}>
 <header><h1>{{ block "title" . }}{{ .Title }}{{ end }}</h1></header>
 <article>
 {{ block "main" . }}
@@ -46,5 +46,8 @@
 	<a href="{{ "about/" | relURL }}">Sources and rules</a> &middot; <a href="https://github.com/{{ site.Params.repository }}">Code and data</a>
 </footer>
 <script src="{{ "site.js" | relURL }}?v={{ readFile "static/site.js" | md5 | truncate 10 "" }}" defer></script>
+{{- with site.Params.goatcounter }}{{ if not site.Params.local }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{{- end }}{{ end }}
 </body>
 </html>
