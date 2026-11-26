@@ -38,7 +38,7 @@ build:
 	rm -rf frontend/public
 	cd frontend && hugo
 
-PAGES_REPO ?= thanhlexyz/awesome-nnv
+PAGES_REPO ?= dynaroars/awesome-nnv
 PAGES_REMOTE ?= $(shell git remote get-url origin)
 GIT_NAME := $(shell git config user.name)
 GIT_EMAIL := $(shell git config user.email)

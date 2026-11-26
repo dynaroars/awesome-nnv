@@ -7,7 +7,7 @@ disableKinds = ['taxonomy', 'term', 'rss']
 [params]
   description = 'Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.'
   local = true
-  repository = 'thanhlexyz/awesome-nnv'
+  repository = 'dynaroars/awesome-nnv'
 
 [[menus.main]]
   name = 'Researchers'

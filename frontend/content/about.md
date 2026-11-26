@@ -3,7 +3,7 @@ title: "About"
 toc: true
 ---
 
-Research grows through communities of people building on each other's work. **Awesome NNV** helps you find papers in **neural-network verification (NNV)** and see how the researchers behind them collaborate. It tracks NNV papers across 16 top conferences and maps co-authorship links between researchers. Everything is open source, and you can browse the code, data tables, and scripts on [GitHub](https://github.com/thanhlexyz/awesome-nnv).
+Research grows through communities of people building on each other's work. **Awesome NNV** helps you find papers in **neural-network verification (NNV)** and see how the researchers behind them collaborate. It tracks NNV papers across 16 top conferences and maps co-authorship links between researchers. Everything is open source, and you can browse the code, data tables, and scripts on [GitHub](https://github.com/dynaroars/awesome-nnv).
 
 ## Venues
 
@@ -54,4 +54,4 @@ Citation counts are pulled from [OpenAlex](https://openalex.org/). Because OpenA
 
 ## Corrections
 
-Spot something missing or wrong? Use the [Feedback](../feedback/) page or open an issue on [GitHub](https://github.com/thanhlexyz/awesome-nnv/issues) to suggest a researcher, recategorize a paper, or flag a paper that should or shouldn't be included.
+Spot something missing or wrong? Use the [Feedback](../feedback/) page or open an issue on [GitHub](https://github.com/dynaroars/awesome-nnv/issues) to suggest a researcher, recategorize a paper, or flag a paper that should or shouldn't be included.
