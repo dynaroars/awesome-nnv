@@ -1,0 +1,2332 @@
+{
+ "00/4734": {
+  "name": "Sasa Misailovic",
+  "affiliations": [
+   "University of Illinois at Urbana-Champaign, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, IL, USA",
+  "homepage": "http://misailo.web.engr.illinois.edu/",
+  "orcid": "0000-0001-7319-8845",
+  "fetched": "2026-11-26"
+ },
+ "00/6381-2": {
+  "name": "Bin Hu",
+  "affiliations": [
+   "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Champaign, IL, USA",
+   "University of Minnesota, Aerospace Engineering and Mechanics Department, Minneapolis, MN, USA",
+   "University of Wisconsin, Wisconsin Institute for Discovery, Madison, WI, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Champaign, IL, USA",
+  "homepage": "https://binhu7.github.io/",
+  "orcid": "0000-0002-5632-7737",
+  "fetched": "2026-11-26"
+ },
+ "01/1084-1": {
+  "name": "Abhinav Verma",
+  "affiliations": [
+   "Pennsylvania State University, USA",
+   "University of Texas at Austin, USA"
+  ],
+  "primary": "Pennsylvania State University, USA",
+  "homepage": "https://averma8053.github.io/",
+  "orcid": "0000-0002-9820-8285",
+  "fetched": "2026-11-26"
+ },
+ "01/10961": {
+  "name": "Tobias Sutter",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0003-1226-6845",
+  "fetched": "2026-11-26"
+ },
+ "03/4368": {
+  "name": "Corina Pasareanu",
+  "affiliations": [
+   "Carnegie Mellon University, Pittsburgh, USA",
+   "NASA Ames Research Center, Mountain View, CA, USA"
+  ],
+  "primary": "Carnegie Mellon University, Pittsburgh, USA",
+  "homepage": "http://ti.arc.nasa.gov/profile/pcorina/",
+  "orcid": "0000-0002-5579-6961",
+  "fetched": "2026-11-26"
+ },
+ "03/9437": {
+  "name": "Neil Zhenqiang Gong",
+  "affiliations": [
+   "Duke University, Durham, NC, USA"
+  ],
+  "primary": "Duke University, Durham, NC, USA",
+  "homepage": "",
+  "orcid": "0000-0002-9900-9309",
+  "fetched": "2026-11-26"
+ },
+ "04/1701": {
+  "name": "Percy Liang",
+  "affiliations": [
+   "Stanford University, Computer Science Department"
+  ],
+  "primary": "Stanford University, Computer Science Department",
+  "homepage": "http://cs.stanford.edu/~pliang/",
+  "orcid": "0000-0002-0458-6139",
+  "fetched": "2026-11-26"
+ },
+ "04/8800": {
+  "name": "Ruth Misener",
+  "affiliations": [
+   "Imperial College London, UK"
+  ],
+  "primary": "Imperial College London, UK",
+  "homepage": "https://openreview.net/profile?id=~Ruth_Misener1",
+  "orcid": "0000-0001-5612-5417",
+  "fetched": "2026-11-26"
+ },
+ "05/104": {
+  "name": "Andrew Clark",
+  "affiliations": [
+   "Washington University in St. Louis, Department of Electrical and Systems Engineering, MO, USA"
+  ],
+  "primary": "Washington University in St. Louis, Department of Electrical and Systems Engineering, MO, USA",
+  "homepage": "https://engineering.wustl.edu/faculty/Andrew-Clark.html",
+  "orcid": "0000-0002-5868-6186",
+  "fetched": "2026-11-26"
+ },
+ "05/7730": {
+  "name": "Maria Christakis",
+  "affiliations": [
+   "TU Wien, Faculty of Informatics, Vienna, Austria"
+  ],
+  "primary": "TU Wien, Faculty of Informatics, Vienna, Austria",
+  "homepage": "https://mariachris.github.io/",
+  "orcid": "0000-0002-2649-1958",
+  "fetched": "2026-11-26"
+ },
+ "07/3797-1": {
+  "name": "Sayan Mitra",
+  "affiliations": [
+   "Massachusetts Institute of Technology, Cambridge, MA, USA",
+   "University of Illinois at Urbana-Champaign, Champaign, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Champaign, IL, USA",
+  "homepage": "https://mitras.ece.illinois.edu/",
+  "orcid": "0000-0002-6672-8470",
+  "fetched": "2026-11-26"
+ },
+ "07/5701": {
+  "name": "Mario Fritz",
+  "affiliations": [
+   "CISPA Helmholtz Center for Information Security, Saarland Informatics Campus, Germany"
+  ],
+  "primary": "CISPA Helmholtz Center for Information Security, Saarland Informatics Campus, Germany",
+  "homepage": "https://scalable.mpi-inf.mpg.de/",
+  "orcid": "0000-0001-8949-9896",
+  "fetched": "2026-11-26"
+ },
+ "07/6378-11": {
+  "name": "Fan Wu",
+  "affiliations": [
+   "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Urbana, IL, USA",
+  "homepage": "https://kkkkahlua.github.io/",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "09/10016": {
+  "name": "Fu Song",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "09/3493-21": {
+  "name": "Dong Xu",
+  "affiliations": [
+   "University of Virginia, Charlottesville, VA, USA"
+  ],
+  "primary": "University of Virginia, Charlottesville, VA, USA",
+  "homepage": "",
+  "orcid": "0000-0001-5643-7197",
+  "fetched": "2026-11-26"
+ },
+ "10/1491-6": {
+  "name": "Jingbo Wang",
+  "affiliations": [
+   "Purdue University, West Lafayette, IN, USA",
+   "University of Southern California, CA, USA"
+  ],
+  "primary": "Purdue University, West Lafayette, IN, USA",
+  "homepage": "https://viterbi-web.usc.edu/~jingbow/",
+  "orcid": "0000-0001-5877-2677",
+  "fetched": "2026-11-26"
+ },
+ "115/9460-2": {
+  "name": "Pengfei Yang",
+  "affiliations": [
+   "Chinese Academy of Sciences, Institute of Software, Beijing, China",
+   "University of Chinese Academy of Sciences, Beijing, China"
+  ],
+  "primary": "Chinese Academy of Sciences, Institute of Software, Beijing, China",
+  "homepage": "",
+  "orcid": "0000-0003-4114-7757",
+  "fetched": "2026-11-26"
+ },
+ "121/1314": {
+  "name": "Yihan Wang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "123/7149": {
+  "name": "Binghui Wang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "123/7829": {
+  "name": "Yasser Shoukry",
+  "affiliations": [
+   "University of California at Irvine, CA, USA"
+  ],
+  "primary": "University of California at Irvine, CA, USA",
+  "homepage": "",
+  "orcid": "0000-0002-8224-8477",
+  "fetched": "2026-11-26"
+ },
+ "124/0310": {
+  "name": "Chunrong Fang",
+  "affiliations": [
+   "Nanjing University, China"
+  ],
+  "primary": "Nanjing University, China",
+  "homepage": "",
+  "orcid": "0000-0002-9930-7111",
+  "fetched": "2026-11-26"
+ },
+ "126/5212": {
+  "name": "Youcheng Sun",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0002-1893-6259",
+  "fetched": "2026-11-26"
+ },
+ "128/6972-1": {
+  "name": "Sijia Liu",
+  "affiliations": [
+   "IBM Research, MIT-IBM Watson AI Lab, Cambridge, MA, USA",
+   "Michigan State University, Department of Computer Science and Engineering, East Lansing, USA",
+   "Syracuse University, NY, USA",
+   "University of Michigan, Ann Arbor, MI, USA"
+  ],
+  "primary": "Michigan State University, Department of Computer Science and Engineering, East Lansing, USA",
+  "homepage": "http://sliu17.mysite.syr.edu/",
+  "orcid": "0000-0003-2817-6991",
+  "fetched": "2026-11-26"
+ },
+ "13/6525": {
+  "name": "Mingsheng Ying",
+  "affiliations": [
+   "Centre for Quantum Software and Information, University of Technology Sydney, Australia",
+   "Chinese Academy of Sciences, State Key Laboratory of Computer Science, Institute of Software, China"
+  ],
+  "primary": "Centre for Quantum Software and Information, University of Technology Sydney, Australia",
+  "homepage": "https://profiles.uts.edu.au/mingsheng.ying",
+  "orcid": "0000-0003-4847-702X",
+  "fetched": "2026-11-26"
+ },
+ "130/9842": {
+  "name": "Caterina Urban",
+  "affiliations": [
+   "Inria, Paris, France"
+  ],
+  "primary": "Inria, Paris, France",
+  "homepage": "https://caterinaurban.github.io/",
+  "orcid": "0000-0002-8127-9642",
+  "fetched": "2026-11-26"
+ },
+ "132/0959": {
+  "name": "Victor Magron",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "132/8938": {
+  "name": "Bhavya Kailkhura",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "133/5336-1": {
+  "name": "Chong Xiang",
+  "affiliations": [
+   "Shanghai Jiao Tong University, Shanghai, China"
+  ],
+  "primary": "Shanghai Jiao Tong University, Shanghai, China",
+  "homepage": "",
+  "orcid": "0000-0003-4694-7622",
+  "fetched": "2026-11-26"
+ },
+ "135/7202": {
+  "name": "Ding Zhao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0002-9400-8446",
+  "fetched": "2026-11-26"
+ },
+ "136/0170": {
+  "name": "Sarah M. Erfani",
+  "affiliations": [
+   "University of Melbourne, School of Computing and Information Systems, Australia"
+  ],
+  "primary": "University of Melbourne, School of Computing and Information Systems, Australia",
+  "homepage": "https://cis.unimelb.edu.au/people/sarah-erfani",
+  "orcid": "0000-0003-0885-0643",
+  "fetched": "2026-11-26"
+ },
+ "137/9852": {
+  "name": "Du Jiang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "139/8905": {
+  "name": "Kim Völlinger",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "14/2770": {
+  "name": "Cho-Jui Hsieh",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Cho-Jui_Hsieh1",
+  "orcid": "0000-0002-3520-9627",
+  "fetched": "2026-11-26"
+ },
+ "147/4846": {
+  "name": "Mahyar Fazlyab",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0001-9695-6178",
+  "fetched": "2026-11-26"
+ },
+ "147/5994": {
+  "name": "Aleksandar Zeljic",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "147/8363-3": {
+  "name": "Si Liu",
+  "affiliations": [
+   "ETH Zürich, Switzerland",
+   "University of Illinois at Urbana-Champaign, Department of Computer Science, IL, USA"
+  ],
+  "primary": "ETH Zürich, Switzerland",
+  "homepage": "",
+  "orcid": "0000-0003-3578-7432",
+  "fetched": "2026-11-26"
+ },
+ "150/3317": {
+  "name": "Chaowei Xiao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "150/8968": {
+  "name": "Dorde Zikelic",
+  "affiliations": [
+   "Singapore Management University, Singapore"
+  ],
+  "primary": "Singapore Management University, Singapore",
+  "homepage": "",
+  "orcid": "0000-0002-4681-1699",
+  "fetched": "2026-11-26"
+ },
+ "152/3505": {
+  "name": "Brandon Paulsen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "153/2097": {
+  "name": "Greg Yang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "155/1628": {
+  "name": "Dana Drachsler-Cohen",
+  "affiliations": [
+   "Technion - Israel Institute of Technology, Haifa, Israel"
+  ],
+  "primary": "Technion - Israel Institute of Technology, Haifa, Israel",
+  "homepage": "https://www.sri.inf.ethz.ch/people/dana",
+  "orcid": "0000-0001-6644-5377",
+  "fetched": "2026-11-26"
+ },
+ "156/9636-4": {
+  "name": "Shijie Liu",
+  "affiliations": [
+   "University of Melbourne, School of Computing and Information Systems, Parkville, Australia"
+  ],
+  "primary": "University of Melbourne, School of Computing and Information Systems, Parkville, Australia",
+  "homepage": "",
+  "orcid": "0009-0008-2980-6266",
+  "fetched": "2026-11-26"
+ },
+ "16/0-11": {
+  "name": "Min Wu",
+  "affiliations": [
+   "Stanford University, Department of Computer Science, Stanford, CA, USA",
+   "University of Oxford, Department of Computer Science, UK"
+  ],
+  "primary": "Stanford University, Department of Computer Science, Stanford, CA, USA",
+  "homepage": "https://cs.stanford.edu/~minwu/",
+  "orcid": "0009-0008-7801-5807",
+  "fetched": "2026-11-26"
+ },
+ "16/7787": {
+  "name": "Stanley Bak",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "16/8758": {
+  "name": "Krishnamurthy Dvijotham",
+  "affiliations": [
+   "California Institute of Technology, Department of Computing and Mathematical Sciences, Pasadena, CA, USA",
+   "Google DeepMind, London, UK",
+   "University of Washington, Dept. of Computer Science and Engineering, Seattle, WA, USA"
+  ],
+  "primary": "Google DeepMind, London, UK",
+  "homepage": "https://dvij.github.io/",
+  "orcid": "0000-0002-1328-4677",
+  "fetched": "2026-11-26"
+ },
+ "160/7295": {
+  "name": "Hoang-Dung Tran",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "162/8838": {
+  "name": "Jerry Li",
+  "affiliations": [
+   "Massachusetts Institute of Technology (MIT)",
+   "Microsoft Research AI",
+   "University of Washington, WA, USA"
+  ],
+  "primary": "University of Washington, WA, USA",
+  "homepage": "",
+  "orcid": "0009-0003-5035-3728",
+  "fetched": "2026-11-26"
+ },
+ "164/5860": {
+  "name": "Luca Laurenti",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0003-1190-6097",
+  "fetched": "2026-11-26"
+ },
+ "165/2836": {
+  "name": "Timon Gehr",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "166/1409": {
+  "name": "Aditi Raghunathan",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "166/3563": {
+  "name": "Changliu Liu",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "169/9027": {
+  "name": "Richard Y. Zhang",
+  "affiliations": [
+   "Massachusetts Institute of Technology, Cambridge, MA, USA",
+   "University of California, Department of Industrial Engineering and Operations Research, Berkeley, CA, USA",
+   "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Urbana, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Urbana, IL, USA",
+  "homepage": "https://ryz.ece.illinois.edu/",
+  "orcid": "0000-0003-3980-2791",
+  "fetched": "2026-11-26"
+ },
+ "172/1346-1": {
+  "name": "Yisen Wang",
+  "affiliations": [
+   "Peking University, Institute for Artificial Intelligence, School of Intelligence Science and Technology, Beijing, China",
+   "Shanghai Jiao Tong University, Department of Computer Science and Engineering, China",
+   "Tsinghua University, Beijing, China"
+  ],
+  "primary": "Peking University, Institute for Artificial Intelligence, School of Intelligence Science and Technology, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Yisen_Wang1",
+  "orcid": "0000-0002-8623-6318",
+  "fetched": "2026-11-26"
+ },
+ "172/3629": {
+  "name": "Cheng-Chao Huang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "176/0964": {
+  "name": "Adel Bibi",
+  "affiliations": [
+   "University of Oxford, UK"
+  ],
+  "primary": "University of Oxford, UK",
+  "homepage": "https://openreview.net/profile?id=~Adel_Bibi1",
+  "orcid": "0000-0002-6169-3918",
+  "fetched": "2026-11-26"
+ },
+ "177/9197": {
+  "name": "Tsui-Wei Weng",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "18/3178-4": {
+  "name": "Jingyi Wang",
+  "affiliations": [
+   "Singapore University of Technology and Design, Singapore",
+   "Zhejiang University, China"
+  ],
+  "primary": "Zhejiang University, China",
+  "homepage": "",
+  "orcid": "0000-0001-7113-7635",
+  "fetched": "2026-11-26"
+ },
+ "180/5419": {
+  "name": "Rudy Bunel",
+  "affiliations": [
+   "University of Oxford, Department of Engineering Science, UK"
+  ],
+  "primary": "University of Oxford, Department of Engineering Science, UK",
+  "homepage": "https://www.robots.ox.ac.uk/~rudy/",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "181/2007-1": {
+  "name": "Martin Lange",
+  "affiliations": [
+   "LMU Munich, Institute of Informatics, Germany",
+   "University of Kassel, School of Electrical Engineering and Computer Science, Germany"
+  ],
+  "primary": "University of Kassel, School of Electrical Engineering and Computer Science, Germany",
+  "homepage": "http://carrick.fmv.informatik.uni-kassel.de/~mlange/",
+  "orcid": "0000-0002-1621-0972",
+  "fetched": "2026-11-26"
+ },
+ "188/8292-1": {
+  "name": "Junlin Wu",
+  "affiliations": [
+   "Washington University, Saint Louis, MO, USA"
+  ],
+  "primary": "Washington University, Saint Louis, MO, USA",
+  "homepage": "",
+  "orcid": "0009-0006-1037-1827",
+  "fetched": "2026-11-26"
+ },
+ "19/5000": {
+  "name": "Alexandros G. Dimakis",
+  "affiliations": [
+   "University of Southern California, Los Angeles, USA",
+   "University of Texas at Austin, USA"
+  ],
+  "primary": "University of Texas at Austin, USA",
+  "homepage": "http://users.ece.utexas.edu/~dimakis/",
+  "orcid": "0000-0002-4244-7033",
+  "fetched": "2026-11-26"
+ },
+ "19/7057": {
+  "name": "ThanhVu Nguyen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "191/8334": {
+  "name": "Aounon Kumar",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "192/3204": {
+  "name": "Hadi Salman",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "195/5867": {
+  "name": "Kyle Julian",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "195/8175": {
+  "name": "Kaidi Xu",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "195/8725-1": {
+  "name": "Haoze Wu",
+  "affiliations": [
+   "Davidson College, Department of Mathematics and Computer Science, NC, USA",
+   "Stanford University, Department of Computer Science, CA, USA"
+  ],
+  "primary": "Stanford University, Department of Computer Science, CA, USA",
+  "homepage": "https://www.haozewu.com/",
+  "orcid": "0000-0002-5077-144X",
+  "fetched": "2026-11-26"
+ },
+ "198/0591": {
+  "name": "Hongge Chen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "198/1298": {
+  "name": "Jonathan Uesato",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "199/7027": {
+  "name": "Zhe Tao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "200/8865": {
+  "name": "Maksym Andriushchenko",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "202/8415": {
+  "name": "David Shriver",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "203/8114": {
+  "name": "Aleksandar Bojchevski",
+  "affiliations": [
+   "University of Cologne, Germany"
+  ],
+  "primary": "University of Cologne, Germany",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "206/6472": {
+  "name": "Ching Yun Ko",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "207/1300": {
+  "name": "Pengchuan Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "210/0853": {
+  "name": "Vincent Tjeng",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "215/3580": {
+  "name": "Diego Manzanas Lopez",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0003-0721-1241",
+  "fetched": "2026-11-26"
+ },
+ "215/3626": {
+  "name": "Klas Leino",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "217/2131": {
+  "name": "Robert Stanforth",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "218/5843": {
+  "name": "Francisco Girbal Eiras",
+  "affiliations": [
+   "University of Oxford, UK"
+  ],
+  "primary": "University of Oxford, UK",
+  "homepage": "https://openreview.net/profile?id=~Francisco_Eiras1",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "22/8296": {
+  "name": "Sicun Gao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "222/4171": {
+  "name": "Matthew L. Daggitt",
+  "affiliations": [
+   "The University of Western Australia, Perth, Australia"
+  ],
+  "primary": "The University of Western Australia, Perth, Australia",
+  "homepage": "https://research-repository.uwa.edu.au/en/persons/matthew-daggitt",
+  "orcid": "0000-0002-2552-3671",
+  "fetched": "2026-11-26"
+ },
+ "222/9876": {
+  "name": "Matthew Mirman",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "223/4066": {
+  "name": "Aaron J. Havens",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "227/3014": {
+  "name": "Shubham Ugare",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "228/5443": {
+  "name": "Christopher Brix",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "228/6599": {
+  "name": "Alexandre Araujo",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "229/4236": {
+  "name": "Chongli Qin",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "23/10321": {
+  "name": "Guy Katz",
+  "affiliations": [
+   "The Hebrew University of Jerusalem, Israel"
+  ],
+  "primary": "The Hebrew University of Jerusalem, Israel",
+  "homepage": "https://www.katz-lab.com/",
+  "orcid": "0000-0001-5292-801X",
+  "fetched": "2026-11-26"
+ },
+ "23/1797": {
+  "name": "Huan Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "23/1797-1": {
+  "name": "Huan Zhang",
+  "affiliations": [
+   "Carnegie Mellon University (CMU), Department of Computer Science, Pittsburgh, PA, USA",
+   "IBM T. J. Watson Research Center, Yorktown Heights, NY, USA",
+   "University of California, Davis, CA, USA",
+   "University of California, Los Angeles, CA, USA",
+   "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, IL, USA",
+  "homepage": "https://www.huan-zhang.com/",
+  "orcid": "0000-0002-4426-9736",
+  "fetched": "2026-11-26"
+ },
+ "230/8027": {
+  "name": "Yedi Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "230/9643": {
+  "name": "Thanh Tien Le",
+  "affiliations": [
+   "Graduate University for Advanced Studies (SOKENDAI), Department of Informatics, Tokyo, Japan",
+   "Hanoi University of Science and Technology, Vietnam",
+   "National Institute of Informatics, Tokyo, Japan"
+  ],
+  "primary": "National Institute of Informatics, Tokyo, Japan",
+  "homepage": "https://thanhle.xyz/",
+  "orcid": "0000-0003-4460-2225",
+  "fetched": "2026-11-26"
+ },
+ "231/7686": {
+  "name": "Mislav Balunovic",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "232/2169": {
+  "name": "Zhouxing Shi",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "236/4288": {
+  "name": "Ping-Yeh Chiang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "236/4508": {
+  "name": "Elan Rosenfeld",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "236/5728": {
+  "name": "Matt Jordan",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "236/6319": {
+  "name": "Boxin Wang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "238/6828": {
+  "name": "Andrew C. Cullen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0001-8243-6470",
+  "fetched": "2026-11-26"
+ },
+ "24/5124-1": {
+  "name": "Jinyuan Jia",
+  "affiliations": [
+   "Duke University, USA",
+   "Penn State University, State College, PA, USA",
+   "University of Illinois Urbana-Champaign, IL, USA"
+  ],
+  "primary": "Penn State University, State College, PA, USA",
+  "homepage": "https://jinyuan-jia.github.io/",
+  "orcid": "0000-0002-9785-7769",
+  "fetched": "2026-11-26"
+ },
+ "240/9194": {
+  "name": "Yan Scholten",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Yan_Scholten1",
+  "orcid": "0000-0002-3293-7733",
+  "fetched": "2026-11-26"
+ },
+ "241/5487": {
+  "name": "Jan Schuchardt",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "241/5923": {
+  "name": "Jongheon Jeong",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Jongheon_Jeong1",
+  "orcid": "0000-0002-4058-5774",
+  "fetched": "2026-11-26"
+ },
+ "242/3880": {
+  "name": "Lily Weng",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "245/4284": {
+  "name": "Chulin Xie",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "245/5901": {
+  "name": "Yuhao Mao",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "248/5802": {
+  "name": "Chenhao Sun",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "249/5767": {
+  "name": "Alexander Meinke",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "249/8060": {
+  "name": "Maximilian Baader",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Maximilian_Baader1",
+  "orcid": "0000-0002-9271-6422",
+  "fetched": "2026-11-26"
+ },
+ "25/6006-2": {
+  "name": "Tobias Lorenz",
+  "affiliations": [
+   "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+   "Max Planck Institute for Informatics, Saarbrücken, Germany"
+  ],
+  "primary": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+  "homepage": "https://www.t-lorenz.com/",
+  "orcid": "0000-0003-4369-2644",
+  "fetched": "2026-11-26"
+ },
+ "25/8184": {
+  "name": "Tom Goldstein",
+  "affiliations": [
+   "University of California, Los Angeles, CA, USA",
+   "University of Maryland, Department of Computer Science, College Park, MD, USA"
+  ],
+  "primary": "University of Maryland, Department of Computer Science, College Park, MD, USA",
+  "homepage": "https://www.cs.umd.edu/~tomg/",
+  "orcid": "0000-0003-1660-9307",
+  "fetched": "2026-11-26"
+ },
+ "255/4719": {
+  "name": "Michael J. Curry",
+  "affiliations": [
+   "Harvard University, Cambridge, MA, USA",
+   "University of Maryland, College Park, MD, USA",
+   "University of Zürich, Switzerland"
+  ],
+  "primary": "University of Zürich, Switzerland",
+  "homepage": "https://currymj.github.io/",
+  "orcid": "0000-0001-8052-5074",
+  "fetched": "2026-11-26"
+ },
+ "258/6442": {
+  "name": "Corentin Friedrich",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "259/2083": {
+  "name": "Anian Ruoss",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "26/1132": {
+  "name": "Duane S. Boning",
+  "affiliations": [
+   "Massachusetts Institute of Technology, Cambridge, USA"
+  ],
+  "primary": "Massachusetts Institute of Technology, Cambridge, USA",
+  "homepage": "",
+  "orcid": "0000-0002-0417-445X",
+  "fetched": "2026-11-26"
+ },
+ "26/5371-6": {
+  "name": "Hang Su",
+  "affiliations": [
+   "Tsinghua University, Department of Computer Science and Technology, Beijing, China",
+   "Tsinghua University, Tsinghua-Bosch Joint Center for ML, BNRist Center, THBI Lab, Beijing, China"
+  ],
+  "primary": "Tsinghua University, Department of Computer Science and Technology, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Hang_Su3",
+  "orcid": "0000-0001-8294-6315",
+  "fetched": "2026-11-26"
+ },
+ "268/6756-1": {
+  "name": "Debangshu Banerjee",
+  "affiliations": [
+   "Indian Institute of Technology Guwahati, Department of Computer Science and Engineering, India",
+   "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Urbana, IL, USA",
+  "homepage": "",
+  "orcid": "0009-0001-0163-9717",
+  "fetched": "2026-11-26"
+ },
+ "270/7873": {
+  "name": "Zhaodi Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "271/0915": {
+  "name": "Dimitar I. Dimitrov",
+  "affiliations": [
+   "ETH Zurich, Department of Computer Science, Zurich, Switzerland"
+  ],
+  "primary": "ETH Zurich, Department of Computer Science, Zurich, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/dimitadi",
+  "orcid": "0000-0001-9813-0900",
+  "fetched": "2026-11-26"
+ },
+ "276/0156": {
+  "name": "Bohang Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "277/9596": {
+  "name": "Guy Amir",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "28/9798": {
+  "name": "Valentin Wüstholz",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0003-1496-1104",
+  "fetched": "2026-11-26"
+ },
+ "282/4540": {
+  "name": "Hong-Ming Chiu",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "284/8781": {
+  "name": "Maksym Yatsura",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "287/4254": {
+  "name": "Mark Niklas Müller",
+  "affiliations": [
+   "ETH Zürich, Switzerland"
+  ],
+  "primary": "ETH Zürich, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/mark",
+  "orcid": "0000-0002-2496-6542",
+  "fetched": "2026-11-26"
+ },
+ "29/7802-1": {
+  "name": "Changming Xu",
+  "affiliations": [
+   "University of Illinois at Urbana-Champaign, Department of Computer Science, Urbana, IL, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign, Department of Computer Science, Urbana, IL, USA",
+  "homepage": "https://cmxu.io/",
+  "orcid": "0000-0003-3079-5652",
+  "fetched": "2026-11-26"
+ },
+ "292/3709": {
+  "name": "Cornelius Emde",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "292/8831": {
+  "name": "Václav Vorácek",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "30/2092": {
+  "name": "Mathieu Serrurier",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "303/0335": {
+  "name": "Mintong Kang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "304/4372": {
+  "name": "Idan Refaeli",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "304/8116": {
+  "name": "Blaise Delattre",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "31/7062": {
+  "name": "Jinwoo Shin",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "322/8139": {
+  "name": "Hai Duong",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "323/8527": {
+  "name": "Shahaf Bassan",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "326/1078": {
+  "name": "Dapeng Zhi",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "326/1549": {
+  "name": "Bernd Prach",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "327/1678": {
+  "name": "David Boetius",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "329/4351": {
+  "name": "Elías Abad-Rocamora",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "329/4874": {
+  "name": "Anan Kabaha",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "338/9623": {
+  "name": "Andrei Aleksandrov",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "34/2029": {
+  "name": "Mykel J. Kochenderfer",
+  "affiliations": [
+   "Stanford University, CA, USA"
+  ],
+  "primary": "Stanford University, CA, USA",
+  "homepage": "https://mykel.kochenderfer.com/",
+  "orcid": "0000-0002-7238-9663",
+  "fetched": "2026-11-26"
+ },
+ "346/0467": {
+  "name": "Tobias Ladner",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Tobias_Ladner1",
+  "orcid": "0000-0002-4556-8308",
+  "fetched": "2026-11-26"
+ },
+ "35/10147-1": {
+  "name": "Zifan Wang",
+  "affiliations": [
+   "Carnegie Mellon University, PA, USA"
+  ],
+  "primary": "Carnegie Mellon University, PA, USA",
+  "homepage": "",
+  "orcid": "0009-0004-6233-2120",
+  "fetched": "2026-11-26"
+ },
+ "35/10625": {
+  "name": "Jacob Steinhardt",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "35/5202": {
+  "name": "Luca Daniel",
+  "affiliations": [
+   "Massachusetts Institute of Technology, Cambridge, USA"
+  ],
+  "primary": "Massachusetts Institute of Technology, Cambridge, USA",
+  "homepage": "",
+  "orcid": "0000-0002-5880-3151",
+  "fetched": "2026-11-26"
+ },
+ "368/7744": {
+  "name": "Alaa Anani",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "37/6100": {
+  "name": "Swarat Chaudhuri",
+  "affiliations": [
+   "Rice University, Houston, USA",
+   "University of Texas, Austin, USA"
+  ],
+  "primary": "University of Texas, Austin, USA",
+  "homepage": "http://www.cs.rice.edu/~sc40/",
+  "orcid": "0000-0002-6859-1391",
+  "fetched": "2026-11-26"
+ },
+ "37/6355": {
+  "name": "Markus Püschel",
+  "affiliations": [
+   "ETH Zurich, Switzerland"
+  ],
+  "primary": "ETH Zurich, Switzerland",
+  "homepage": "http://www.inf.ethz.ch/personal/markusp/",
+  "orcid": "0000-0001-8834-8551",
+  "fetched": "2026-11-26"
+ },
+ "37/8653": {
+  "name": "Grani Adiwena Hanasusanto",
+  "affiliations": [
+   "Imperial College London, Department of Computing",
+   "University of Texas at Austin, TX, USA"
+  ],
+  "primary": "University of Texas at Austin, TX, USA",
+  "homepage": "http://grani.hanasusanto.com/",
+  "orcid": "0000-0003-4900-2958",
+  "fetched": "2026-11-26"
+ },
+ "37/9373-2": {
+  "name": "Marc Fischer",
+  "affiliations": [
+   "ETH Zürich, Department of Computer Science, Switzerland"
+  ],
+  "primary": "ETH Zürich, Department of Computer Science, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/marc",
+  "orcid": "0000-0002-4157-1235",
+  "fetched": "2026-11-26"
+ },
+ "38/2361": {
+  "name": "Jean B. Lasserre",
+  "affiliations": [
+   "LAAS, Toulouse, France"
+  ],
+  "primary": "LAAS, Toulouse, France",
+  "homepage": "http://homepages.laas.fr/lasserre/",
+  "orcid": "0000-0003-0860-9913",
+  "fetched": "2026-11-26"
+ },
+ "38/2612": {
+  "name": "Matt Fredrikson",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Matt_Fredrikson1",
+  "orcid": "0000-0003-1820-1698",
+  "fetched": "2026-11-26"
+ },
+ "38/7865": {
+  "name": "Sagar Malhotra",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "39/4985-1": {
+  "name": "Jaewook Lee",
+  "affiliations": [
+   "Cornell University, Ithaca, NY, USA",
+   "Pohang University of Science and Technology (POSTECH), Department of Industrial and Management Engineering, South Korea",
+   "Seoul National University, Department of Industrial Engineering, South Korea"
+  ],
+  "primary": "Seoul National University, Department of Industrial Engineering, South Korea",
+  "homepage": "",
+  "orcid": "0000-0001-5720-8337",
+  "fetched": "2026-11-26"
+ },
+ "39/6266": {
+  "name": "Prateek Mittal",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "39/8969": {
+  "name": "Pin-Yu Chen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "39/9110-2": {
+  "name": "Duo Zhou",
+  "affiliations": [
+   "University of Illinois Urbana-Champaign, IL, USA"
+  ],
+  "primary": "University of Illinois Urbana-Champaign, IL, USA",
+  "homepage": "https://www.duo-zhou.com/",
+  "orcid": "0000-0003-2673-4451",
+  "fetched": "2026-11-26"
+ },
+ "43/3011": {
+  "name": "Stephan Günnemann",
+  "affiliations": [
+   "Carnegie Mellon University, Pittsburgh, USA",
+   "Technical University of Munich, Germany"
+  ],
+  "primary": "Technical University of Munich, Germany",
+  "homepage": "http://www.kdd.in.tum.de/en/home/",
+  "orcid": "0000-0001-7772-5059",
+  "fetched": "2026-11-26"
+ },
+ "45/2527": {
+  "name": "M. Pawan Kumar",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "45/6863": {
+  "name": "Xinhua Zhang",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "47/1798-1": {
+  "name": "Liwei Wang",
+  "affiliations": [
+   "Peking University, Department of Machine Intelligence, Beijing, China"
+  ],
+  "primary": "Peking University, Department of Machine Intelligence, Beijing, China",
+  "homepage": "http://www.liweiwang-pku.com/",
+  "orcid": "0000-0003-1739-2621",
+  "fetched": "2026-11-26"
+ },
+ "50/2644-1": {
+  "name": "Jun Zhu",
+  "affiliations": [
+   "Carnegie Mellon University, Machine Learning Department, Pittsburgh, PA, USA",
+   "Tsinghua University, Department of Computer Science and Technology, Beijing, China",
+   "Tsinghua University, State Key Laboratory of Intelligent Technology and Systems, TNList, Beijing, China"
+  ],
+  "primary": "Tsinghua University, State Key Laboratory of Intelligent Technology and Systems, TNList, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Jun_Zhu2",
+  "orcid": "0000-0002-6254-2388",
+  "fetched": "2026-11-26"
+ },
+ "50/3402-26": {
+  "name": "Bo Li",
+  "affiliations": [
+   "Tongji University, Shanghai, China",
+   "University of California, Berkeley, CA, USA",
+   "University of Chicago, Department of Computer Science, IL, USA",
+   "University of Illinois at Urbana-Champaign (UIUC), Department of Computer Science, IL, USA",
+   "University of Michigan, Ann Arbor, MI, USA",
+   "Vanderbilt University, Nashville, TN, USA"
+  ],
+  "primary": "University of Illinois at Urbana-Champaign (UIUC), Department of Computer Science, IL, USA",
+  "homepage": "https://aisecure.github.io/",
+  "orcid": "0000-0003-4883-7267",
+  "fetched": "2026-11-26"
+ },
+ "51/6047-1": {
+  "name": "Alexander Levine",
+  "affiliations": [
+   "University of Maryland, MD, USA",
+   "University of Texas at Austin, TX, USA"
+  ],
+  "primary": "University of Texas at Austin, TX, USA",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "52/9593": {
+  "name": "Edouard Pauwels",
+  "affiliations": [
+   "Toulouse School of Economics, France"
+  ],
+  "primary": "Toulouse School of Economics, France",
+  "homepage": "https://edouardpauwels.fr/",
+  "orcid": "0000-0002-8180-075X",
+  "fetched": "2026-11-26"
+ },
+ "53/6088": {
+  "name": "Dahua Lin",
+  "affiliations": [
+   "Chinese University of Hong Kong, Department of Information Engineering, CUHK - SenseTime Joint Lab, Hong Kong",
+   "Massachusetts Institute of Technology, Cambridge, MA, USA",
+   "Toyota Technological Institute at Chicago, IL, USA"
+  ],
+  "primary": "Chinese University of Hong Kong, Department of Information Engineering, CUHK - SenseTime Joint Lab, Hong Kong",
+  "homepage": "http://dahualin.org/",
+  "orcid": "0000-0002-8865-7896",
+  "fetched": "2026-11-26"
+ },
+ "53/6132-3": {
+  "name": "Greg Anderson",
+  "affiliations": [
+   "Reed College, Portland, OR, USA",
+   "University of Texas at Austin, TX, USA"
+  ],
+  "primary": "Reed College, Portland, OR, USA",
+  "homepage": "https://gavlegoat.github.io/",
+  "orcid": "0000-0003-1128-4339",
+  "fetched": "2026-11-26"
+ },
+ "54/8163": {
+  "name": "Alexandre Allauzen",
+  "affiliations": [
+   "ESPCI Paris, France",
+   "Paris-Dauphine University, LAMSADE, Paris, France",
+   "University of Paris-Sud, LIMSI-CNRS, Paris, France"
+  ],
+  "primary": "ESPCI Paris, France",
+  "homepage": "https://allauzen.github.io/",
+  "orcid": "0000-0002-8627-1965",
+  "fetched": "2026-11-26"
+ },
+ "56/7175": {
+  "name": "Ivan V. Oseledets",
+  "affiliations": [
+   "Skolkovo Institute of Science and Technology, Moscow, Russia"
+  ],
+  "primary": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+  "homepage": "http://oseledets.github.io/people/oseledets/",
+  "orcid": "0000-0003-2071-2163",
+  "fetched": "2026-11-26"
+ },
+ "57/2132": {
+  "name": "Soheil Feizi",
+  "affiliations": [
+   "Massachusetts Institute of Technology (MIT), Research Laboratory of Electronics, Cambridge, MA, USA",
+   "Stanford University, Stanford, CA, USA",
+   "University of Maryland (UMD), Reliable AI Lab, College Park, MD, USA"
+  ],
+  "primary": "University of Maryland (UMD), Reliable AI Lab, College Park, MD, USA",
+  "homepage": "https://www.cs.umd.edu/~sfeizi/",
+  "orcid": "0000-0003-0944-8242",
+  "fetched": "2026-11-26"
+ },
+ "57/6633": {
+  "name": "Kai Hu",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "58/9145-2": {
+  "name": "Shiqi Wang",
+  "affiliations": [
+   "Columbia University, NY, USA"
+  ],
+  "primary": "Columbia University, NY, USA",
+  "homepage": "https://www.cs.columbia.edu/~tcwangshiqi/",
+  "orcid": "0000-0002-6338-1432",
+  "fetched": "2026-11-26"
+ },
+ "59/2802-1": {
+  "name": "He Zhu",
+  "affiliations": [
+   "Purdue University, Department of Computer Science, West Lafayette, IN, USA",
+   "Rutgers University, Department of Computer Science, New Brunswick, NJ, USA"
+  ],
+  "primary": "Rutgers University, Department of Computer Science, New Brunswick, NJ, USA",
+  "homepage": "https://herowanzhu.github.io/",
+  "orcid": "0000-0001-9606-150X",
+  "fetched": "2026-11-26"
+ },
+ "60/10175": {
+  "name": "Jianan Ma",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "60/5414-1": {
+  "name": "Xiaowei Huang",
+  "affiliations": [
+   "Chinese Academy of Sciences, Academy of Mathematics and System Science, Beijing, China",
+   "Jinan University, Guangzhou, China",
+   "University of Liverpool, UK",
+   "University of New South Wales, Sydney, Australia",
+   "University of Oxford, UK"
+  ],
+  "primary": "University of Liverpool, UK",
+  "homepage": "https://cgi.csc.liv.ac.uk/~xiaowei/",
+  "orcid": "0000-0001-6267-0366",
+  "fetched": "2026-11-26"
+ },
+ "61/3234-1": {
+  "name": "Qiang Liu",
+  "affiliations": [
+   "Dartmouth College, Department of Computer Science, Hanover, NH, USA",
+   "University of California, Irvine, Department of Computer Science, CA, USA",
+   "University of Texas at Austin, Department of Computer Science, TX, USA"
+  ],
+  "primary": "University of Texas at Austin, Department of Computer Science, TX, USA",
+  "homepage": "https://www.cs.utexas.edu/~lqiang/",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "61/7969": {
+  "name": "Thanh Le",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "62/4310": {
+  "name": "Ekaterina Komendantskaya",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "http://www.macs.hw.ac.uk/~ek19/",
+  "orcid": "0000-0002-3240-0987",
+  "fetched": "2026-11-26"
+ },
+ "64/1811-1": {
+  "name": "Eric Wong",
+  "affiliations": [
+   "Carnegie Mellon University, Machine Learning Department, Pittsburgh, PA, USA",
+   "Massachusetts Institute of Technology (MIT), CSAIL, Cambridge, MA, USA",
+   "University of Pennsylvania, Department of Computer and Information Science, Philadelphia, PA, USA"
+  ],
+  "primary": "University of Pennsylvania, Department of Computer and Information Science, Philadelphia, PA, USA",
+  "homepage": "https://riceric22.github.io/",
+  "orcid": "0000-0002-8568-6659",
+  "fetched": "2026-11-26"
+ },
+ "64/3747-1": {
+  "name": "Gagandeep Singh",
+  "affiliations": [
+   "ETH Zurich, Switzerland",
+   "University of Illinois Urbana-Champaign, IL, USA"
+  ],
+  "primary": "University of Illinois Urbana-Champaign, IL, USA",
+  "homepage": "https://ggndpsngh.github.io/",
+  "orcid": "0000-0002-9299-2961",
+  "fetched": "2026-11-26"
+ },
+ "66/9442": {
+  "name": "Ezra Winston",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "67/1387": {
+  "name": "Matthias Althoff",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "http://www6.in.tum.de/Main/Althoff",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "67/2136": {
+  "name": "Christoph H. Lampert",
+  "affiliations": [
+   "Institute of Science and Technology Austria, Klosterneuburg, Austria"
+  ],
+  "primary": "Institute of Science and Technology Austria, Klosterneuburg, Austria",
+  "homepage": "http://cvml.ist.ac.at/",
+  "orcid": "0000-0001-8622-7887",
+  "fetched": "2026-11-26"
+ },
+ "67/2454": {
+  "name": "Aleksander Madry",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "67/2526": {
+  "name": "J. Zico Kolter",
+  "affiliations": [
+   "Carnegie Mellon University, PA, USA",
+   "MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, USA"
+  ],
+  "primary": "Carnegie Mellon University, PA, USA",
+  "homepage": "http://www.zicokolter.com/",
+  "orcid": "0000-0002-8106-5759",
+  "fetched": "2026-11-26"
+ },
+ "68/1945": {
+  "name": "Aditya V. Thakur",
+  "affiliations": [
+   "Google",
+   "University of California, Davis, CA, USA"
+  ],
+  "primary": "Google",
+  "homepage": "http://pages.cs.wisc.edu/~adi/",
+  "orcid": "0000-0003-3166-1517",
+  "fetched": "2026-11-26"
+ },
+ "70/2217": {
+  "name": "Yevgeniy Vorobeychik",
+  "affiliations": [
+   "Washinton University in St. Louis, MO, USA"
+  ],
+  "primary": "Washinton University in St. Louis, MO, USA",
+  "homepage": "",
+  "orcid": "0000-0003-2471-5345",
+  "fetched": "2026-11-26"
+ },
+ "70/4765": {
+  "name": "Olga Ohrimenko",
+  "affiliations": [
+   "Microsoft Research",
+   "University of Melbourne, Australia"
+  ],
+  "primary": "University of Melbourne, Australia",
+  "homepage": "",
+  "orcid": "0000-0002-9735-0538",
+  "fetched": "2026-11-26"
+ },
+ "70/5301": {
+  "name": "Volkan Cevher",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "https://openreview.net/profile?id=~Volkan_Cevher1",
+  "orcid": "0000-0002-5004-201X",
+  "fetched": "2026-11-26"
+ },
+ "71/6948-1": {
+  "name": "Jianjun Zhao",
+  "affiliations": [
+   "Fukuoka Institute of Technology, Japan",
+   "Kyushu University, Fukuoka, Japan",
+   "Shanghai Jiao Tong University, China"
+  ],
+  "primary": "Kyushu University, Fukuoka, Japan",
+  "homepage": "",
+  "orcid": "0000-0001-8083-4352",
+  "fetched": "2026-11-26"
+ },
+ "72/2103-1": {
+  "name": "Christian Schilling",
+  "affiliations": [
+   "Aalborg University, Denmark",
+   "IST Austria",
+   "University of Freiburg, Freiburg im Breisgau, Germany",
+   "University of Konstanz, Konstanz, Germany"
+  ],
+  "primary": "Aalborg University, Denmark",
+  "homepage": "https://www.christianschilling.net/",
+  "orcid": "0000-0003-3658-1065",
+  "fetched": "2026-11-26"
+ },
+ "72/7860": {
+  "name": "Ahmed Abdelkader",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "73/1296": {
+  "name": "Russ Tedrake",
+  "affiliations": [
+   "Massachusetts Institute of Technology, Cambridge, USA"
+  ],
+  "primary": "Massachusetts Institute of Technology, Cambridge, USA",
+  "homepage": "",
+  "orcid": "0000-0002-8712-7092",
+  "fetched": "2026-11-26"
+ },
+ "74/184-1": {
+  "name": "Di He",
+  "affiliations": [
+   "Microsoft Research Asia, Machine Learning Group, Beijing, China",
+   "Peking University, School of EECS, Key Laboratory of Machine Perception, Beijing, China",
+   "Peking University, School of Intelligence Science and Technology, National Key Laboratory of General Artificial Intelligence, Beijing, China"
+  ],
+  "primary": "Peking University, School of Intelligence Science and Technology, National Key Laboratory of General Artificial Intelligence, Beijing, China",
+  "homepage": "https://dihe-pku.github.io/",
+  "orcid": "0009-0003-0468-1288",
+  "fetched": "2026-11-26"
+ },
+ "74/2716-1": {
+  "name": "Bai Xue",
+  "affiliations": [
+   "Beihang University, School of Mathematics and Systems Science, China",
+   "Carl von Ossietzky University of Oldenburg, Department of Computer Science, Germany",
+   "Chinese Academy of Sciences, Institute of Software, SKLCS, Beijing, China",
+   "Nanyang Technological University, Centre for High Performance Embedded Systems, Singapore"
+  ],
+  "primary": "Chinese Academy of Sciences, Institute of Software, SKLCS, Beijing, China",
+  "homepage": "",
+  "orcid": "0000-0001-9717-846X",
+  "fetched": "2026-11-26"
+ },
+ "74/28": {
+  "name": "Suman Jana",
+  "affiliations": [
+   "Columbia University, New York, NY, USA",
+   "University of Texas at Austin, TX, USA",
+   "University of Utah, Salt Lake City, UT, USA"
+  ],
+  "primary": "Columbia University, New York, NY, USA",
+  "homepage": "http://sumanj.info/",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "74/6354": {
+  "name": "Pavithra Prabhakar",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "75/6117-2": {
+  "name": "Grigorios Chrysos",
+  "affiliations": [
+   "Imperial College London, Department of Computing, UK",
+   "University of Wisconsin-Madison, WI, USA"
+  ],
+  "primary": "University of Wisconsin-Madison, WI, USA",
+  "homepage": "https://grigorisg9gr.github.io/_pages/about/",
+  "orcid": "0000-0002-0650-1856",
+  "fetched": "2026-11-26"
+ },
+ "75/8368": {
+  "name": "Sven Gowal",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "75/8479": {
+  "name": "John Dickerson",
+  "affiliations": [
+   "University of Maryland, MD, USA"
+  ],
+  "primary": "University of Maryland, MD, USA",
+  "homepage": "https://jpdickerson.com/",
+  "orcid": "0000-0003-2231-680X",
+  "fetched": "2026-11-26"
+ },
+ "76/4015-1": {
+  "name": "Lijun Zhang",
+  "affiliations": [
+   "Chinese Academy of Sciences, School of Software, Beijing, China",
+   "Saarland University, Saarbrücken, Germany",
+   "Technical University of Denmark"
+  ],
+  "primary": "Chinese Academy of Sciences, School of Software, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Lijun_Zhang2",
+  "orcid": "0000-0002-3692-2088",
+  "fetched": "2026-11-26"
+ },
+ "77/3199": {
+  "name": "Balázs Bánhelyi",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "78/6727-13": {
+  "name": "Zhen Wang",
+  "affiliations": [
+   "Dalian University of Technology, Software School, China",
+   "Hangzhou Dianzi University, School of Cyberspace, China",
+   "Nanyang Technological University, School of Computer Engineering, Singapore"
+  ],
+  "primary": "Hangzhou Dianzi University, School of Cyberspace, China",
+  "homepage": "",
+  "orcid": "0000-0002-3399-5281",
+  "fetched": "2026-11-26"
+ },
+ "79/5433-1": {
+  "name": "Yuan Hong",
+  "affiliations": [
+   "Illinois Institute of Technology, Chicago, IL, USA",
+   "Rutgers University, Piscataway, NJ, USA",
+   "University of Connecticut, Connecticut Advanced Computing Center (CACC), Mansfield, CT, USA"
+  ],
+  "primary": "University of Connecticut, Connecticut Advanced Computing Center (CACC), Mansfield, CT, USA",
+  "homepage": "https://yhongcs.github.io/",
+  "orcid": "0000-0003-4095-4506",
+  "fetched": "2026-11-26"
+ },
+ "82/6141-5": {
+  "name": "Hongbin Liu",
+  "affiliations": [
+   "Duke University, Durham, NC, USA"
+  ],
+  "primary": "Duke University, Durham, NC, USA",
+  "homepage": "https://scholars.duke.edu/person/hongbin.liu",
+  "orcid": "0000-0003-1869-0428",
+  "fetched": "2026-11-26"
+ },
+ "83/5342-2": {
+  "name": "Min Zhang",
+  "affiliations": [
+   "East China Normal University, Shanghai Key Laboratory of Trustworthy Computing, China",
+   "Japan Advanced Institute of Science and Technology (JAIST)"
+  ],
+  "primary": "East China Normal University, Shanghai Key Laboratory of Trustworthy Computing, China",
+  "homepage": "https://faculty.ecnu.edu.cn/_s43/zm2_en_6072/main.psp",
+  "orcid": "0000-0003-1938-2902",
+  "fetched": "2026-11-26"
+ },
+ "85/3688": {
+  "name": "Isil Dillig",
+  "affiliations": [
+   "Stanford University, USA",
+   "The University of Texas, Austin, TX, USA"
+  ],
+  "primary": "The University of Texas, Austin, TX, USA",
+  "homepage": "http://www.cs.utexas.edu/~isil/",
+  "orcid": "0000-0001-8006-1230",
+  "fetched": "2026-11-26"
+ },
+ "85/6852": {
+  "name": "Stavros Tripakis",
+  "affiliations": [
+   "Aalto University, Department of Computer Science, Finnland",
+   "Joseph Fourier University, Grenoble, France",
+   "Northeastern University, Khoury College of Computer Science, Boston, MA, USA",
+   "University of California, Berkeley, CA, USA"
+  ],
+  "primary": "Northeastern University, Khoury College of Computer Science, Boston, MA, USA",
+  "homepage": "https://www.ccs.neu.edu/~stavros/",
+  "orcid": "0000-0002-1777-493X",
+  "fetched": "2026-11-26"
+ },
+ "85/770": {
+  "name": "Loris D'Antoni",
+  "affiliations": [
+   "University of California-San Diego, CA, USA",
+   "University of Wisconsin-Madison, USA"
+  ],
+  "primary": "University of California-San Diego, CA, USA",
+  "homepage": "https://cseweb.ucsd.edu/~ldantoni/",
+  "orcid": "0000-0001-9625-4037",
+  "fetched": "2026-11-26"
+ },
+ "86/541-1": {
+  "name": "Zhenyu Chen",
+  "affiliations": [
+   "Nanjing University, Software Institute, China",
+   "Southeast University, Nanjing, China"
+  ],
+  "primary": "Nanjing University, Software Institute, China",
+  "homepage": "http://software.nju.edu.cn/zychen/",
+  "orcid": "0000-0002-9592-7022",
+  "fetched": "2026-11-26"
+ },
+ "86/9673": {
+  "name": "Guangdong Bai",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "0000-0002-6390-9890",
+  "fetched": "2026-11-26"
+ },
+ "87/3366": {
+  "name": "Nina Narodytska",
+  "affiliations": [
+   "Samsung Research America, Mountain View, USA",
+   "University of New South Wales, Sydney, Australia",
+   "VMware Research, USA"
+  ],
+  "primary": "VMware Research, USA",
+  "homepage": "https://narodytska.com/",
+  "orcid": "0000-0002-5181-4560",
+  "fetched": "2026-11-26"
+ },
+ "90/1092": {
+  "name": "Benjamin I. P. Rubinstein",
+  "affiliations": [
+   "Microsoft Research",
+   "University of California Berkeley, CA, USA",
+   "University of Melbourne, School of Computing and Information Systems, Australia"
+  ],
+  "primary": "University of Melbourne, School of Computing and Information Systems, Australia",
+  "homepage": "http://www.bipr.net/",
+  "orcid": "0000-0002-2947-6980",
+  "fetched": "2026-11-26"
+ },
+ "90/8295": {
+  "name": "Aws Albarghouthi",
+  "affiliations": [
+   "University of Wisconsin-Madison, USA"
+  ],
+  "primary": "University of Wisconsin-Madison, USA",
+  "homepage": "",
+  "orcid": "0000-0003-4577-175X",
+  "fetched": "2026-11-26"
+ },
+ "93/1712": {
+  "name": "Jan Hendrik Metzen",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "93/2189": {
+  "name": "Martin T. Vechev",
+  "affiliations": [
+   "ETH Zürich, Department of Computer Science, Switzerland"
+  ],
+  "primary": "ETH Zürich, Department of Computer Science, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/martin",
+  "orcid": "0000-0002-0054-9568",
+  "fetched": "2026-11-26"
+ },
+ "93/7736": {
+  "name": "Morteza Lahijanian",
+  "affiliations": [
+   "University of Colorado Boulder, CO, USA"
+  ],
+  "primary": "University of Colorado Boulder, CO, USA",
+  "homepage": "",
+  "orcid": "0000-0001-7549-4365",
+  "fetched": "2026-11-26"
+ },
+ "94/248": {
+  "name": "Pushmeet Kohli",
+  "affiliations": [
+   "Deepmind, London, UK"
+  ],
+  "primary": "Deepmind, London, UK",
+  "homepage": "https://research.google/people/105667/",
+  "orcid": "0000-0002-7466-7997",
+  "fetched": "2026-11-26"
+ },
+ "94/3807": {
+  "name": "Siddharth Garg",
+  "affiliations": [],
+  "primary": "",
+  "homepage": "http://engineering.nyu.edu/people/siddharth-garg",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "94/7236-1": {
+  "name": "Xue Lin",
+  "affiliations": [
+   "Northeastern University, Department of Electrical and Computer Engineering, Boston, MA, USA"
+  ],
+  "primary": "Northeastern University, Department of Electrical and Computer Engineering, Boston, MA, USA",
+  "homepage": "https://xuelin.sites.northeastern.edu/",
+  "orcid": "0000-0001-6210-8883",
+  "fetched": "2026-11-26"
+ },
+ "95/3736-15": {
+  "name": "Jun Liu",
+  "affiliations": [
+   "California Institute of Technology, Pasadena, CA, USA",
+   "University of Sheffield, UK",
+   "University of Waterloo, Canada"
+  ],
+  "primary": "University of Waterloo, Canada",
+  "homepage": "http://junliu.name/",
+  "orcid": "0000-0001-8762-2299",
+  "fetched": "2026-11-26"
+ },
+ "96/11505": {
+  "name": "Taylor T. Johnson",
+  "affiliations": [
+   "Vanderbilt University, Nashville, TN, USA"
+  ],
+  "primary": "Vanderbilt University, Nashville, TN, USA",
+  "homepage": "http://www.taylortjohnson.com/",
+  "orcid": "0000-0001-8021-9923",
+  "fetched": "2026-11-26"
+ },
+ "97/1213-1": {
+  "name": "Matthias Hein",
+  "affiliations": [
+   "Faculty of Mathematics and Computer Science, Saarland University",
+   "Max Planck Institute for Biological Cybernetics, Tübingen, Germany",
+   "Max Planck Institute for Intelligent Systems, Tübingen, Germany"
+  ],
+  "primary": "Max Planck Institute for Intelligent Systems, Tübingen, Germany",
+  "homepage": "http://www.ml.uni-saarland.de/people/hein/Hein.shtml",
+  "orcid": "",
+  "fetched": "2026-11-26"
+ },
+ "97/919-1": {
+  "name": "Ce Zhang",
+  "affiliations": [
+   "ETH Zurich, Institut für Computing Platforms, Switzerland",
+   "Peking University, Beijing, China",
+   "Stanford University, Computer Science Department, CA, USA",
+   "University of Wisconsin-Madison, Department of Computer Science, Madison, WI, USA"
+  ],
+  "primary": "ETH Zurich, Institut für Computing Platforms, Switzerland",
+  "homepage": "https://openreview.net/profile?id=~Ce_Zhang1",
+  "orcid": "0000-0002-8105-7505",
+  "fetched": "2026-11-26"
+ },
+ "99/4340-1": {
+  "name": "Linyi Li",
+  "affiliations": [
+   "Simon Fraser University, BC, Canada",
+   "Tsinghua University, China",
+   "University of Illinois Urbana-Champaign, IL, USA"
+  ],
+  "primary": "Simon Fraser University, BC, Canada",
+  "homepage": "https://openreview.net/profile?id=~Linyi_Li1",
+  "orcid": "0000-0002-5403-3217",
+  "fetched": "2026-11-26"
+ },
+ "99/618": {
+  "name": "Márk Jelasity",
+  "affiliations": [
+   "University of Szeged, Hungary"
+  ],
+  "primary": "University of Szeged, Hungary",
+  "homepage": "http://www.inf.u-szeged.hu/~jelasity/",
+  "orcid": "0000-0001-9363-1482",
+  "fetched": "2026-11-26"
+ },
+ "b/ClarkWBarrett": {
+  "name": "Clark W. Barrett",
+  "affiliations": [
+   "New York University, Department of Computer Science, NY, USA",
+   "Stanford University, Computer Science Department, CA, USA",
+   "Stanford University, Computer Systems Laboratory, CA, USA"
+  ],
+  "primary": "Stanford University, Computer Science Department, CA, USA",
+  "homepage": "http://theory.stanford.edu/~barrett/",
+  "orcid": "0000-0002-9522-3084",
+  "fetched": "2026-11-26"
+ },
+ "b/EzioBartocci": {
+  "name": "Ezio Bartocci",
+  "affiliations": [
+   "TU Wien, Vienna, Austria"
+  ],
+  "primary": "TU Wien, Vienna, Austria",
+  "homepage": "http://www.eziobartocci.com/",
+  "orcid": "0000-0002-8004-6601",
+  "fetched": "2026-11-26"
+ },
+ "d/DavidLDill": {
+  "name": "David L. Dill",
+  "affiliations": [
+   "Stanford University, Department of Computer Science, CA, USA"
+  ],
+  "primary": "Stanford University, Department of Computer Science, CA, USA",
+  "homepage": "http://verify.stanford.edu/dill",
+  "orcid": "0000-0002-6189-0866",
+  "fetched": "2026-11-26"
+ },
+ "d/MatthewBDwyer": {
+  "name": "Matthew B. Dwyer",
+  "affiliations": [
+   "University of Nebraska-Lincoln, NE, USA",
+   "University of Virginia, Charlottesville, VA, USA"
+  ],
+  "primary": "University of Virginia, Charlottesville, VA, USA",
+  "homepage": "https://matthewbdwyer.github.io/",
+  "orcid": "0000-0002-1937-1544",
+  "fetched": "2026-11-26"
+ },
+ "e/SebastianGElbaum": {
+  "name": "Sebastian G. Elbaum",
+  "affiliations": [
+   "University of Nebraska-Lincoln, USA",
+   "University of Virginia, Charlottesville, USA"
+  ],
+  "primary": "University of Virginia, Charlottesville, USA",
+  "homepage": "http://csce.unl.edu/~elbaum/",
+  "orcid": "0000-0001-9592-1352",
+  "fetched": "2026-11-26"
+ },
+ "h/ThomasAHenzinger": {
+  "name": "Thomas A. Henzinger",
+  "affiliations": [
+   "Institute of Science and Technology Austria"
+  ],
+  "primary": "Institute of Science and Technology Austria",
+  "homepage": "http://pub.ist.ac.at/~tah/",
+  "orcid": "0000-0002-2985-7724",
+  "fetched": "2026-11-26"
+ },
+ "j/SomeshJha": {
+  "name": "Somesh Jha",
+  "affiliations": [
+   "University of Wisconsin-Madison, Madison, USA"
+  ],
+  "primary": "University of Wisconsin-Madison, Madison, USA",
+  "homepage": "http://www.cs.wisc.edu/~jha/",
+  "orcid": "0000-0001-5877-0436",
+  "fetched": "2026-11-26"
+ },
+ "k/MartaZKwiatkowska": {
+  "name": "Marta Z. Kwiatkowska",
+  "affiliations": [
+   "University of Oxford, UK"
+  ],
+  "primary": "University of Oxford, UK",
+  "homepage": "http://web.comlab.ox.ac.uk/oucl/people/marta.kwiatkowska.html",
+  "orcid": "0000-0001-9022-7599",
+  "fetched": "2026-11-26"
+ },
+ "l/AlessioLomuscio": {
+  "name": "Alessio Lomuscio",
+  "affiliations": [
+   "Imperial College London, UK"
+  ],
+  "primary": "Imperial College London, UK",
+  "homepage": "http://www.doc.ic.ac.uk/~alessio/",
+  "orcid": "0000-0003-3420-723X",
+  "fetched": "2026-11-26"
+ },
+ "l/ZhimingLiu1": {
+  "name": "Zhiming Liu",
+  "affiliations": [
+   "Birmingham City University",
+   "Northwestern Polytechnical University, Xian, China",
+   "Southwest University, School of Computer and Information Science, Chongqing, China",
+   "United Nations University, Macao",
+   "University of Warwick, Coventry, UK"
+  ],
+  "primary": "Southwest University, School of Computer and Information Science, Chongqing, China",
+  "homepage": "https://www.rise-swu.cn/en/liuzhiming.html",
+  "orcid": "0000-0001-9771-3071",
+  "fetched": "2026-11-26"
+ },
+ "p/GeorgeJPappas": {
+  "name": "George J. Pappas",
+  "affiliations": [
+   "University of Pennsylvania, Philadelphia, PA, USA"
+  ],
+  "primary": "University of Pennsylvania, Philadelphia, PA, USA",
+  "homepage": "https://www.georgejpappas.org/",
+  "orcid": "0000-0001-9081-0637",
+  "fetched": "2026-11-26"
+ },
+ "s/BerntSchiele": {
+  "name": "Bernt Schiele",
+  "affiliations": [
+   "Max Planck Institute for Informatics, Saarbücken, Germany"
+  ],
+  "primary": "Max Planck Institute for Informatics, Saarbücken, Germany",
+  "homepage": "http://www.d2.mpi-inf.mpg.de/schiele/",
+  "orcid": "0000-0001-9683-5237",
+  "fetched": "2026-11-26"
+ },
+ "s/JunSun1": {
+  "name": "Jun Sun",
+  "affiliations": [
+   "National University of Singapore, School of Computing, Singapore",
+   "Singapore Management University, Singapore",
+   "Singapore University of Technology and Design, Singapore"
+  ],
+  "primary": "Singapore Management University, Singapore",
+  "homepage": "http://sunjun.site/",
+  "orcid": "0000-0002-3545-1392",
+  "fetched": "2026-11-26"
+ },
+ "t/PhilipHSTorr": {
+  "name": "Philip Torr",
+  "affiliations": [
+   "University of Oxford, Department of Engineering Science, Oxford, UK"
+  ],
+  "primary": "University of Oxford, Department of Engineering Science, Oxford, UK",
+  "homepage": "https://www.robots.ox.ac.uk/~phst/",
+  "orcid": "0009-0006-0259-5732",
+  "fetched": "2026-11-26"
+ },
+ "w/ChaoWang": {
+  "name": "Chao Wang",
+  "affiliations": [
+   "NEC Laboratories of America, Inc., Princeton, NJ, USA",
+   "University of Colorado at Boulder, CO, USA",
+   "University of Southern California, Los Angeles, CA, USA",
+   "Virginia Tech, Blacksburg, VA, USA"
+  ],
+  "primary": "University of Southern California, Los Angeles, CA, USA",
+  "homepage": "http://www-bcf.usc.edu/~wang626/",
+  "orcid": "0009-0003-4684-3943",
+  "fetched": "2026-11-26"
+ }
+}

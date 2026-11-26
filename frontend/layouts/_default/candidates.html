@@ -1,0 +1,38 @@
+{{ define "main" -}}
+{{ .Content }}
+<div class="table-box">
+<div class="scroll">
+<table id="candidates-table" data-page-size="50">
+	<thead>
+	<tr>
+		<th class="l">Author</th>
+		<th class="l">dblp pid</th>
+		<th class="good">NNV papers</th>
+		<th title="Papers as last author">Last</th>
+		<th title="Papers as first author">First</th>
+		<th>Years</th>
+		<th class="l">Venues</th>
+		<th class="l">Affiliation (dblp)</th>
+		<th class="l" data-nosort>Recent titles</th>
+	</tr>
+	</thead>
+	<tbody>
+	{{- range $k, $c := hugo.Data.candidates }}
+	<tr{{ if ge $k 50 }} class="off-page"{{ end }}>
+		<td class="l">{{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</td>
+		<td class="l"><a href="https://dblp.org/pid/{{ .pid }}.html">{{ .pid }}</a></td>
+		<td class="total good">{{ .nnv_papers }}</td>
+		{{ partial "num.html" .last_author }}
+		{{ partial "num.html" .first_author }}
+		<td>{{ .first_year }}&ndash;{{ .last_year }}</td>
+		<td class="l">{{ .venues }}</td>
+		<td class="l wrap-cell">{{ .affiliation }}</td>
+		<td class="l wrap-cell note">{{ delimit .titles " · " }}</td>
+	</tr>
+	{{- end }}
+	</tbody>
+</table>
+</div>
+<nav class="pager" aria-controls="candidates-table" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
+</div>
+{{- end }}

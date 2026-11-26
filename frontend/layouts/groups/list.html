@@ -1,0 +1,38 @@
+{{ define "main" -}}
+{{ .Content }}
+<div class="scroll pinned top">
+<table class="podium" id="groups-table">
+	<thead>
+	<tr>
+		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
+		<th rowspan="2" class="l pin1">Group</th>
+		<th rowspan="2" class="l">Tools</th>
+		<th rowspan="2" class="l">Researchers</th>
+		<th colspan="{{ len hugo.Data.meta.fields }}">NNV papers by field</th>
+		<th colspan="3">Total</th>
+	</tr>
+	<tr>
+		{{ partial "field-heads.html" . }}
+		<th class="score" data-podium title="Geometric mean over ML, CV, PL, SE and LV of (adjusted count + 1), as CSRankings ranks institutions">Score</th>
+		<th class="good" title="NNV papers with at least one member, each counted once">Papers</th>
+		<th title="Citations of these papers on OpenAlex, each paper counted once">Citations</th>
+	</tr>
+	</thead>
+	<tbody>
+	{{- range $n, $g := hugo.Data.groups }}
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
+		<td class="l pin1"><span class="dot {{ .color }}"></span> <a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .name }}</a></td>
+		<td class="l">{{ delimit .tools ", " }}</td>
+		<td class="l">{{ range $k, $m := .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}</td>
+		{{ partial "field-cells.html" .fields }}
+		<td class="score">{{ printf "%.2f" .score }}</td>
+		<td class="total good">{{ .papers }}</td>
+		<td>{{ .citations }}</td>
+	</tr>
+	{{- end }}
+	</tbody>
+</table>
+</div>
+<aside class="callout"><p>A group is a team known by its signature verifier or line of work, as at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>. Each listed researcher belongs to one group; the institution is shown on the researcher's row.</p></aside>
+{{- end }}

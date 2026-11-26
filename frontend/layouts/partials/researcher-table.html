@@ -1,0 +1,45 @@
+{{- $rows := .rows }}{{ $id := .id }}{{ $group := .group | default true }}
+<div class="table-box">
+<p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" data-names="Hidden: {names}" aria-controls="{{ $id }}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the extra columns">Show more columns</button></p>
+<div class="scroll pinned top">
+<table class="podium collapsed" id="{{ $id }}" data-collapsible>
+	<thead>
+	<tr>
+		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
+		<th rowspan="2" class="l pin1">Researcher</th>
+		{{- if $group }}<th rowspan="2" class="l pin2">Group</th>{{ end }}
+		<th rowspan="2" class="l"{{ if not $group }} data-extra{{ end }}>Institution</th>
+		<th colspan="{{ len hugo.Data.meta.fields }}">NNV papers by field</th>
+		<th colspan="3">Total</th>
+		<th colspan="{{ len hugo.Data.meta.areas }}" data-extra>NNV papers by area</th>
+		<th rowspan="2" data-extra title="Papers with this researcher as first author">First author</th>
+		<th rowspan="2" data-extra title="Papers with this researcher as last author (often the senior author)">Last author</th>
+	</tr>
+	<tr>
+		{{ partial "field-heads.html" . }}
+		<th class="score" data-podium title="CSRankings adjusted count: each paper at a CSRankings venue is worth 1 / (number of authors). NFM is not counted.">Score</th>
+		<th class="good" title="All NNV papers at the seventeen venues">Papers</th>
+		<th title="Citations of these NNV papers on OpenAlex">Citations</th>
+		{{- range hugo.Data.meta.areas }}<th data-extra title="{{ .name }}">{{ .name }}</th>{{ end }}
+	</tr>
+	</thead>
+	<tbody>
+	{{- range $n, $r := $rows }}
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
+		<td class="l pin1"><a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a></td>
+		{{- if $group }}<td class="l pin2"><span class="dot {{ .color }}"></span> <a href="{{ printf "groups/%s/" .group | relURL }}">{{ .group_name }}</a></td>{{ end }}
+		<td class="l{{ if not $group }} xcol{{ end }}">{{ if site.Params.local }}{{ .institution_local_short }}{{ else }}{{ .institution_short }}{{ end }}</td>
+		{{ partial "field-cells.html" .fields }}
+		<td class="score">{{ printf "%.2f" .score }}</td>
+		<td class="total good">{{ .papers }}</td>
+		<td>{{ .citations }}</td>
+		{{- range hugo.Data.meta.areas }}{{ partial "num.html" (index $r.areas .key) }}{{ end }}
+		{{ partial "num.html" .first_author }}
+		{{ partial "num.html" .last_author }}
+	</tr>
+	{{- end }}
+	</tbody>
+</table>
+</div>
+</div>

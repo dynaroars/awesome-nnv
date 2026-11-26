@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ partial "page-title.html" . }}</title>
+	<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" type="text/css" href="{{ "style.css" | relURL }}?v={{ readFile "static/style.css" | md5 | truncate 10 "" }}">
+	{{- $desc := partial "description.html" . }}
+	<meta name="description" content="{{ $desc }}">
+	<link rel="canonical" href="{{ .Permalink }}">
+	<meta property="og:site_name" content="{{ site.Title }}">
+	<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+	<meta property="og:description" content="{{ $desc }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:type" content="{{ if eq .Section "researchers" }}profile{{ else }}website{{ end }}">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="{{ if site.Params.local }}noindex, nofollow{{ else }}index, follow{{ end }}">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="{{ "" | relURL }}">{{ site.Title }}</a>
+	<span class="links">
+	{{- range site.Menus.main }}
+	{{- $current := cond (eq .Identifier "researchers") (or $.IsHome (eq $.Section "researchers")) (hasPrefix $.RelPermalink .URL) }}
+	<a href="{{ .URL }}"{{ if $current }} class="current"{{ end }}>{{ .Name }}</a>
+	{{- end }}
+	{{- with site.GetPage "/candidates" }}
+	<a href="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} class="current"{{ end }}>Candidates</a>
+	{{- end }}
+	</span>
+</nav>
+<main>
+<header><h1>{{ block "title" . }}{{ .Title }}{{ end }}</h1></header>
+<article>
+{{ block "main" . }}
+{{ .Content }}
+{{ end }}
+</article>
+</main>
+<footer>
+	{{ with hugo.Data.meta }}Data from <a href="https://dblp.org">dblp</a> (CC0), {{ .first_year }}&ndash;{{ .last_year }}, built {{ .generated_date }}.{{ end }}
+	<a href="{{ "about/" | relURL }}">Sources and rules</a> &middot; <a href="https://github.com/{{ site.Params.repository }}">Code and data</a>
+</footer>
+<script src="{{ "site.js" | relURL }}?v={{ readFile "static/site.js" | md5 | truncate 10 "" }}" defer></script>
+</body>
+</html>

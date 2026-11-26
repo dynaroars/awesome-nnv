@@ -1,0 +1,15 @@
+{{ define "main" -}}
+{{- if .Params.toc }}
+<div class="with-toc">
+	<aside class="toc" aria-label="On this page">
+		<p class="toc-title">On this page</p>
+		{{ .TableOfContents }}
+	</aside>
+	<div class="toc-body">
+		{{ .Content }}
+	</div>
+</div>
+{{- else }}
+{{ .Content }}
+{{- end }}
+{{- end }}

@@ -1,0 +1,30 @@
+{{ define "main" -}}
+{{ .Content }}
+<div class="scroll">
+<table>
+	<thead>
+	<tr>
+		<th class="l">Field</th>
+		<th class="l">Conference</th>
+		{{- range hugo.Data.meta.years }}<th>{{ . }}</th>{{ end }}
+		<th class="good">NNV papers</th>
+		<th title="All main-track papers in dblp for these years">All papers</th>
+		<th title="NNV papers as a share of all papers">Share</th>
+	</tr>
+	</thead>
+	<tbody>
+	{{- range hugo.Data.venues }}{{ $v := . }}
+	<tr>
+		<td class="l">{{ .field_name }}</td>
+		<td class="l"><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a></td>
+		{{- range hugo.Data.meta.years }}{{ $y := string . }}{{ if in $v.not_held . }}<td class="na" title="Not held this year"></td>{{ else if in $v.missing . }}<td class="na" title="Not yet in dblp">&ndash;</td>{{ else }}{{ partial "num.html" (index $v.years $y) }}{{ end }}{{ end }}
+		<td class="total good">{{ .papers }}</td>
+		<td>{{ .all_papers }}</td>
+		<td>{{ printf "%.1f" .share }}%</td>
+	</tr>
+	{{- end }}
+	</tbody>
+</table>
+</div>
+<p class="note">A dash marks a year whose proceedings are not yet in dblp.</p>
+{{- end }}

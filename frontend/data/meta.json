@@ -1,0 +1,272 @@
+{
+ "generated_date": "2026-11-26",
+ "first_year": 2017,
+ "last_year": 2026,
+ "years": [
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "venues": [
+  {
+   "key": "icml",
+   "name": "ICML"
+  },
+  {
+   "key": "iclr",
+   "name": "ICLR"
+  },
+  {
+   "key": "neurips",
+   "name": "NeurIPS"
+  },
+  {
+   "key": "cvpr",
+   "name": "CVPR"
+  },
+  {
+   "key": "iccv",
+   "name": "ICCV"
+  },
+  {
+   "key": "eccv",
+   "name": "ECCV"
+  },
+  {
+   "key": "pldi",
+   "name": "PLDI"
+  },
+  {
+   "key": "popl",
+   "name": "POPL"
+  },
+  {
+   "key": "icfp",
+   "name": "ICFP"
+  },
+  {
+   "key": "oopsla",
+   "name": "OOPSLA"
+  },
+  {
+   "key": "fse",
+   "name": "FSE"
+  },
+  {
+   "key": "icse",
+   "name": "ICSE"
+  },
+  {
+   "key": "ase",
+   "name": "ASE"
+  },
+  {
+   "key": "issta",
+   "name": "ISSTA"
+  },
+  {
+   "key": "cav",
+   "name": "CAV"
+  },
+  {
+   "key": "lics",
+   "name": "LICS"
+  },
+  {
+   "key": "nfm",
+   "name": "NFM"
+  }
+ ],
+ "fields": [
+  {
+   "key": "ml",
+   "name": "ML",
+   "full_name": "Machine learning",
+   "venues": [
+    "icml",
+    "iclr",
+    "neurips"
+   ],
+   "scored": true,
+   "names": [
+    "ICML",
+    "ICLR",
+    "NeurIPS"
+   ]
+  },
+  {
+   "key": "cv",
+   "name": "CV",
+   "full_name": "Computer vision",
+   "venues": [
+    "cvpr",
+    "iccv",
+    "eccv"
+   ],
+   "scored": true,
+   "names": [
+    "CVPR",
+    "ICCV",
+    "ECCV"
+   ]
+  },
+  {
+   "key": "pl",
+   "name": "PL",
+   "full_name": "Programming languages",
+   "venues": [
+    "pldi",
+    "popl",
+    "icfp",
+    "oopsla"
+   ],
+   "scored": true,
+   "names": [
+    "PLDI",
+    "POPL",
+    "ICFP",
+    "OOPSLA"
+   ]
+  },
+  {
+   "key": "se",
+   "name": "SE",
+   "full_name": "Software engineering",
+   "venues": [
+    "fse",
+    "icse",
+    "ase",
+    "issta"
+   ],
+   "scored": true,
+   "names": [
+    "FSE",
+    "ICSE",
+    "ASE",
+    "ISSTA"
+   ]
+  },
+  {
+   "key": "lv",
+   "name": "LV",
+   "full_name": "Logic and verification",
+   "venues": [
+    "cav",
+    "lics"
+   ],
+   "scored": true,
+   "names": [
+    "CAV",
+    "LICS"
+   ]
+  },
+  {
+   "key": "fm",
+   "name": "Other FM",
+   "full_name": "Other formal methods (not in CSRankings)",
+   "venues": [
+    "nfm"
+   ],
+   "scored": false,
+   "names": [
+    "NFM"
+   ]
+  }
+ ],
+ "scored_fields": [
+  "ml",
+  "cv",
+  "pl",
+  "se",
+  "lv"
+ ],
+ "areas": [
+  {
+   "key": "complete",
+   "name": "Complete verification"
+  },
+  {
+   "key": "bounds",
+   "name": "Bound propagation & abstract interpretation"
+  },
+  {
+   "key": "probabilistic",
+   "name": "Probabilistic certification"
+  },
+  {
+   "key": "training",
+   "name": "Certified training"
+  },
+  {
+   "key": "repair",
+   "name": "Repair & patching"
+  },
+  {
+   "key": "explanations",
+   "name": "Formal explanations"
+  },
+  {
+   "key": "control",
+   "name": "NN control systems"
+  },
+  {
+   "key": "relational",
+   "name": "Global & relational properties"
+  },
+  {
+   "key": "architectures",
+   "name": "Beyond feed-forward nets"
+  },
+  {
+   "key": "quantized",
+   "name": "Quantized & bit-level"
+  },
+  {
+   "key": "other",
+   "name": "Other"
+  }
+ ],
+ "papers": 459,
+ "tracked_papers": 291,
+ "researchers": 85,
+ "groups": 51,
+ "gaps": [
+  {
+   "venue": "ICML",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "NeurIPS",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "ICSE",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "ASE",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "ISSTA",
+   "years": [
+    2026
+   ]
+  }
+ ]
+}

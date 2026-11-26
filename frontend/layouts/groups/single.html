@@ -1,0 +1,16 @@
+{{ define "main" -}}
+{{- $g := index (where hugo.Data.groups "slug" .Params.key) 0 }}
+{{- with $g.description }}<p>{{ . }}</p>{{ end }}
+<p>{{ with $g.tools }}Tools: {{ delimit . ", " }}. {{ end }}{{ with $g.url }}<a href="{{ . }}">Website</a>.{{ end }}{{ with $g.institutions }} Institutions: {{ delimit . ", " }}.{{ end }}</p>
+<p>{{ len $g.members }} researcher{{ if ne (len $g.members) 1 }}s{{ end }} on the list, {{ $g.papers }} NNV paper{{ if ne (int $g.papers) 1 }}s{{ end }} (a paper with several members counts once), {{ $g.citations }} citations, score {{ printf "%.2f" $g.score }}.</p>
+{{- $members := slice }}{{ range $g.members }}{{ $members = $members | append (index (where hugo.Data.researchers "slug" .slug) 0) }}{{ end }}
+{{ partial "researcher-table.html" (dict "rows" $members "id" "members-table" "group" false) }}
+<h2>Areas</h2>
+<ul class="area-counts">
+{{- range hugo.Data.meta.areas }}{{ $n := index $g.areas .key }}{{ if $n }}
+	<li><a href="{{ printf "areas/%s/" .key | relURL }}">{{ .name }}</a>: {{ $n }}</li>
+{{- end }}{{ end }}
+</ul>
+<h2>Papers</h2>
+{{ partial "paper-list.html" (dict "papers" $g.paper_list) }}
+{{- end }}

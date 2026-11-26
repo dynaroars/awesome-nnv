@@ -1,0 +1,4 @@
+baseURL = 'https://thanhlexyz.github.io/awesome-nnv/'
+
+[params]
+  local = false

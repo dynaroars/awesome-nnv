@@ -1,0 +1,23 @@
+{{ define "main" -}}
+{{- $a := index (where hugo.Data.areas "key" .Params.key) 0 }}
+<p>{{ $a.description }}</p>
+<p>{{ $a.papers }} paper{{ if ne (int $a.papers) 1 }}s{{ end }} have this as their primary area ({{ $a.tracked }} with a listed researcher){{ if $a.tagged }}, and {{ $a.tagged }} more carry it as a secondary tag{{ end }}.</p>
+<div class="scroll">
+<table>
+	<thead><tr>{{ range hugo.Data.meta.years }}<th>{{ . }}</th>{{ end }}</tr></thead>
+	<tbody><tr>{{ range hugo.Data.meta.years }}{{ partial "num.html" (index $a.years (string .)) }}{{ end }}</tr></tbody>
+</table>
+</div>
+<div class="fig-row">
+<div>
+<h2>Leading researchers</h2>
+<ol>{{ range $a.researchers }}<li><a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a> <span class="note">({{ .group_name }})</span>: {{ .papers }}</li>{{ end }}</ol>
+</div>
+<div>
+<h2>Leading groups</h2>
+<ol>{{ range $a.groups }}<li><a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .name }}</a>: {{ .papers }}</li>{{ end }}</ol>
+</div>
+</div>
+<h2>Papers</h2>
+{{ partial "paper-list.html" (dict "papers" $a.paper_list) }}
+{{- end }}

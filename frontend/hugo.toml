@@ -1,0 +1,46 @@
+baseURL = '/'
+locale = 'en-us'
+defaultContentLanguage = 'en'
+title = 'Awesome NNV'
+disableKinds = ['taxonomy', 'term', 'rss']
+
+[params]
+  description = 'Neural-network verification papers of leading researchers at seventeen top venues in machine learning, computer vision, programming languages, software engineering and formal methods since 2017, grouped as CSRankings does.'
+  local = true
+  repository = 'thanhlexyz/awesome-nnv'
+
+[[menus.main]]
+  name = 'Researchers'
+  identifier = 'researchers'
+  pageRef = '/'
+  weight = 1
+[[menus.main]]
+  name = 'Groups'
+  identifier = 'groups'
+  pageRef = '/groups'
+  weight = 2
+[[menus.main]]
+  name = 'Areas'
+  identifier = 'areas'
+  pageRef = '/areas'
+  weight = 3
+[[menus.main]]
+  name = 'Conferences'
+  identifier = 'conferences'
+  pageRef = '/conferences'
+  weight = 4
+[[menus.main]]
+  name = 'Papers'
+  identifier = 'papers'
+  pageRef = '/papers'
+  weight = 5
+[[menus.main]]
+  name = 'Collaboration'
+  identifier = 'collaboration'
+  pageRef = '/collaboration'
+  weight = 6
+[[menus.main]]
+  name = 'About'
+  identifier = 'about'
+  pageRef = '/about'
+  weight = 7

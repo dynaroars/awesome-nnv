@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+backend/data/raw/
+backend/work/
+frontend/public/
+frontend/resources/
+frontend/.hugo_build.lock

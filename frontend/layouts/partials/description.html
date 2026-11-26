@@ -1,0 +1,17 @@
+{{- $d := "" }}
+{{- if and (eq .Section "researchers") .Params.key }}
+{{- $r := index (where hugo.Data.researchers "slug" .Params.key) 0 }}
+{{- $d = printf "%s (%s): %d neural-network verification papers at top venues since %d." $r.name (delimit (slice $r.group_name $r.institution_short | complement (slice "")) ", ") (int $r.papers) (int hugo.Data.meta.first_year) }}
+{{- else if and (eq .Section "groups") .Params.key }}
+{{- $g := index (where hugo.Data.groups "slug" .Params.key) 0 }}
+{{- $d = printf "%s: %d researchers, %d neural-network verification papers at top venues." $g.name (len $g.members) (int $g.papers) }}
+{{- else if and (eq .Section "areas") .Params.key }}
+{{- $a := index (where hugo.Data.areas "key" .Params.key) 0 }}
+{{- $d = printf "%s: %s %d papers at top venues." $a.name $a.description (int $a.papers) }}
+{{- else if and (eq .Section "conferences") .Params.key }}
+{{- $v := index (where hugo.Data.venues "key" .Params.key) 0 }}
+{{- $d = printf "Neural-network verification papers at %s: %d since %d." $v.name (int $v.papers) (int hugo.Data.meta.first_year) }}
+{{- else }}
+{{- $d = .Params.description | default site.Params.description }}
+{{- end }}
+{{- $d | plainify -}}

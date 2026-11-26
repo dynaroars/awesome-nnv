@@ -1,0 +1,34 @@
+{{ define "main" -}}{{- $g := hugo.Data.graph }}
+{{ .Content }}
+<div class="with-toc graph-page">
+<aside class="toc legend-box" aria-label="Groups">
+<p class="toc-title">Groups</p>
+<ul class="graph-legend">
+	{{- range $g.legend }}
+	<li data-color="{{ .color }}"><span class="dot {{ .color }}"></span>{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
+	{{- end }}
+	<li class="edge-key"><span class="line-key"></span>Shared NNV papers</li>
+</ul>
+</aside>
+<div class="toc-body">
+<figure class="graph">
+<svg class="net" viewBox="0 0 {{ $g.width }} {{ $g.height }}" role="img" aria-label="{{ .Title }}">
+	{{- range $g.edges }}
+	<line class="edge" data-a="{{ .a }}" data-b="{{ .b }}" x1="{{ .x1 }}" y1="{{ .y1 }}" x2="{{ .x2 }}" y2="{{ .y2 }}" stroke-width="{{ .width }}"><title>{{ .a_name }} – {{ .b_name }}: {{ .weight }} shared paper{{ if ne (int .weight) 1 }}s{{ end }}</title></line>
+	{{- end }}
+	{{- range $g.edges }}{{ if ge (int .weight) 2 }}
+	<text class="ew" data-a="{{ .a }}" data-b="{{ .b }}" x="{{ .wx }}" y="{{ add .wy 4 }}" text-anchor="middle">{{ .weight }}</text>
+	{{- end }}{{ end }}
+	{{- range $g.nodes }}
+	<a href="{{ .url | relURL }}" class="node {{ .color }}" data-id="{{ .id }}" data-color="{{ .color }}">
+		<circle cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}"/>
+		<text class="deg" x="{{ .x }}" y="{{ add .y 4 }}" text-anchor="middle">{{ .degree }}</text>
+		<text x="{{ .lx }}" y="{{ .ly }}">{{ .name }}</text>
+		<title>{{ .name }} ({{ .group }}): {{ .papers }} NNV papers, {{ .degree }} co-author{{ if ne (int .degree) 1 }}s{{ end }} on the list</title>
+	</a>
+	{{- end }}
+</svg>
+</figure>
+</div>
+</div>
+{{- end }}

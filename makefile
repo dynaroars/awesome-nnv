@@ -1,0 +1,54 @@
+PYTHON ?= python3
+
+install:
+	sudo pacman -S hugo
+	pip install networkx
+
+fetch:
+	cd backend/code && $(PYTHON) fetch_dblp.py
+
+refresh:
+	cd backend/code && $(PYTHON) fetch_dblp.py --refresh && $(PYTHON) scan_topics.py && $(PYTHON) find_candidates.py
+
+topics:
+	cd backend/code && $(PYTHON) scan_topics.py
+
+candidates:
+	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) fetch_people.py && $(PYTHON) find_candidates.py
+
+citations:
+	cd backend/code && zsh -ic '$(PYTHON) fetch_citations.py'
+
+people:
+	cd backend/code && $(PYTHON) fetch_people.py
+
+data:
+	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) build_site_data.py
+
+run:
+	cd frontend && hugo serve --buildDrafts --noHTTPCache --disableFastRender
+
+build:
+	rm -rf frontend/public
+	cd frontend && hugo
+
+PAGES_REPO ?= thanhlexyz/awesome-nnv
+PAGES_REMOTE ?= $(shell git remote get-url origin)
+GIT_NAME := $(shell git config user.name)
+GIT_EMAIL := $(shell git config user.email)
+
+publish:
+	rm -rf frontend/public
+	cd frontend && hugo --config hugo.toml,publish.toml
+	touch frontend/public/.nojekyll
+	cd frontend/public && git init -q -b gh-pages && git add -A \
+		&& TZ=UTC git -c user.name="$(GIT_NAME)" -c user.email="$(GIT_EMAIL)" commit -q -m "site of $$(date -u +%F)" \
+		&& git push -f $(PAGES_REMOTE) gh-pages
+	rm -rf frontend/public/.git
+	-gh api -X POST repos/$(PAGES_REPO)/pages/builds --jq .status
+
+test:
+	cd backend/code && $(PYTHON) -m unittest discover -s tests
+
+clean:
+	rm -rf frontend/public frontend/resources backend/work

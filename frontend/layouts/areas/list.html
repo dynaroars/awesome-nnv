@@ -1,0 +1,30 @@
+{{ define "main" -}}
+{{ .Content }}
+<div class="scroll">
+<table>
+	<thead>
+	<tr>
+		<th class="l">Area</th>
+		<th class="l" data-nosort>What it covers</th>
+		<th class="good" title="Papers with this primary area">Papers</th>
+		<th title="Papers from other areas that also carry this tag">Also tagged</th>
+		<th title="Papers with at least one listed researcher">Listed</th>
+		<th class="l" data-nosort>Leading researchers</th>
+	</tr>
+	</thead>
+	<tbody>
+	{{- range hugo.Data.areas }}
+	<tr>
+		<td class="l"><a href="{{ printf "areas/%s/" .key | relURL }}">{{ .name }}</a></td>
+		<td class="l wrap-cell">{{ .description }}</td>
+		<td class="total good">{{ .papers }}</td>
+		{{ partial "num.html" .tagged }}
+		{{ partial "num.html" .tracked }}
+		<td class="l wrap-cell">{{ range $k, $r := first 3 .researchers }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $r.slug | relURL }}">{{ $r.name }}</a> ({{ $r.papers }}){{ end }}</td>
+	</tr>
+	{{- end }}
+	</tbody>
+</table>
+</div>
+<p class="note">Each paper has one primary area, so the Papers column adds up to the {{ hugo.Data.meta.papers }} NNV papers; secondary tags are counted under Also tagged.</p>
+{{- end }}

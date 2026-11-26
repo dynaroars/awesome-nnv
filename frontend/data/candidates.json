@@ -1,0 +1,3935 @@
+[
+ {
+  "pid": "37/9373-2",
+  "name": "Marc Fischer",
+  "nnv_papers": 11,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2020",
+  "last_year": "2024",
+  "venues": "ICLR 4; NeurIPS 4; ICML 1; PLDI 1; CAV 1",
+  "affiliation": "ETH Zürich, Department of Computer Science, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/marc",
+  "titles": [
+   "Understanding Certified Training with Interval Bound Propagation",
+   "Certified Training: Small Boxes are All You Need",
+   "Efficient Certified Training and Robustness Verification of Neural ODEs"
+  ]
+ },
+ {
+  "pid": "51/6047-1",
+  "name": "Alexander Levine",
+  "nnv_papers": 8,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "ICML 3; ICLR 3; NeurIPS 2",
+  "affiliation": "University of Texas at Austin, TX, USA",
+  "homepage": "",
+  "titles": [
+   "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
+   "Improved Certified Defenses against Data Poisoning with (Deterministic) Finite Aggregation",
+   "Policy Smoothing for Provably Robust Reinforcement Learning"
+  ]
+ },
+ {
+  "pid": "123/7149",
+  "name": "Binghui Wang",
+  "nnv_papers": 7,
+  "last_author": 3,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2025",
+  "venues": "ICLR 4; NeurIPS 1; CVPR 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks",
+   "Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations",
+   "GNNCert: Deterministic Certification of Graph Neural Networks against Adversarial Perturbations"
+  ]
+ },
+ {
+  "pid": "228/6599",
+  "name": "Alexandre Araujo",
+  "nnv_papers": 7,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICLR 4; ICML 2; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "The Lipschitz-Variance-Margin Tradeoff for Enhanced Randomized Smoothing",
+   "LipSim: A Provably Robust Perceptual Similarity Metric",
+   "On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks"
+  ]
+ },
+ {
+  "pid": "203/8114",
+  "name": "Aleksandar Bojchevski",
+  "nnv_papers": 6,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2019",
+  "last_year": "2023",
+  "venues": "NeurIPS 3; ICLR 2; ICML 1",
+  "affiliation": "University of Cologne, Germany",
+  "homepage": "",
+  "titles": [
+   "Localized Randomized Smoothing for Collective Robustness Certification",
+   "Hierarchical Randomized Smoothing",
+   "Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks"
+  ]
+ },
+ {
+  "pid": "191/8334",
+  "name": "Aounon Kumar",
+  "nnv_papers": 6,
+  "last_author": 0,
+  "first_author": 5,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "NeurIPS 3; ICLR 2; ICML 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
+   "Policy Smoothing for Provably Robust Reinforcement Learning",
+   "Center Smoothing: Certified Robustness for Networks with Structured Outputs"
+  ]
+ },
+ {
+  "pid": "241/5487",
+  "name": "Jan Schuchardt",
+  "nnv_papers": 6,
+  "last_author": 0,
+  "first_author": 4,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "NeurIPS 4; ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Localized Randomized Smoothing for Collective Robustness Certification",
+   "Hierarchical Randomized Smoothing",
+   "(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More"
+  ]
+ },
+ {
+  "pid": "249/8060",
+  "name": "Maximilian Baader",
+  "nnv_papers": 6,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2019",
+  "last_year": "2024",
+  "venues": "ICLR 2; NeurIPS 2; ICML 1; PLDI 1",
+  "affiliation": "",
+  "homepage": "https://openreview.net/profile?id=~Maximilian_Baader1",
+  "titles": [
+   "Expressivity of ReLU-Networks under Convex Relaxations",
+   "Scalable Certified Segmentation via Randomized Smoothing",
+   "Fast and precise certification of transformers"
+  ]
+ },
+ {
+  "pid": "231/7686",
+  "name": "Mislav Balunovic",
+  "nnv_papers": 6,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "ICLR 2; NeurIPS 2; ICCV 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certify or Predict: Boosting Certified Robustness with Compositional Architectures",
+   "Robustness Certification for Point Cloud Models",
+   "Scalable Polyhedral Verification of Recurrent Neural Networks"
+  ]
+ },
+ {
+  "pid": "192/3204",
+  "name": "Hadi Salman",
+  "nnv_papers": 5,
+  "last_author": 0,
+  "first_author": 4,
+  "first_year": "2019",
+  "last_year": "2022",
+  "venues": "NeurIPS 3; ICML 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Patch Robustness via Smoothed Vision Transformers",
+   "Randomized Smoothing of All Shapes and Sizes",
+   "Denoised Smoothing: A Provable Defense for Pretrained Classifiers"
+  ]
+ },
+ {
+  "pid": "115/9460-2",
+  "name": "Pengfei Yang",
+  "nnv_papers": 5,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2026",
+  "venues": "ICSE 3; ICCV 1; FSE 1",
+  "affiliation": "Chinese Academy of Sciences, Institute of Software, Beijing, China",
+  "homepage": "",
+  "titles": [
+   "Precondition Synthesis for Deep Neural Networks with Statistical Guarantees",
+   "Patch Synthesis for Property Repair of Deep Neural Networks",
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "147/8363-3",
+  "name": "Si Liu",
+  "nnv_papers": 5,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "NeurIPS 1; CVPR 1; ASE 1; ISSTA 1; CAV 1",
+  "affiliation": "ETH Zürich, Switzerland",
+  "homepage": "",
+  "titles": [
+   "Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems",
+   "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks",
+   "Boosting Verified Training for Robust Image Classifications via Abstraction"
+  ]
+ },
+ {
+  "pid": "121/1314",
+  "name": "Yihan Wang",
+  "nnv_papers": 5,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 3; ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "On the Convergence of Certified Robust Training with Interval Bound Propagation",
+   "Efficiently Computing Local Lipschitz Constants of Neural Networks via Bound Propagation",
+   "Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers"
+  ]
+ },
+ {
+  "pid": "54/8163",
+  "name": "Alexandre Allauzen",
+  "nnv_papers": 4,
+  "last_author": 3,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 2; ICLR 2",
+  "affiliation": "ESPCI Paris, France",
+  "homepage": "https://allauzen.github.io/",
+  "titles": [
+   "The Lipschitz-Variance-Margin Tradeoff for Enhanced Randomized Smoothing",
+   "Efficient Bound of Lipschitz Constant for Convolutional Layers by Gram Iteration",
+   "A Unified Algebraic Perspective on Lipschitz Neural Networks"
+  ]
+ },
+ {
+  "pid": "153/2097",
+  "name": "Greg Yang",
+  "nnv_papers": 4,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "NeurIPS 3; ICML 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Randomized Smoothing of All Shapes and Sizes",
+   "Denoised Smoothing: A Provable Defense for Pretrained Classifiers",
+   "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "16/0-11",
+  "name": "Min Wu",
+  "nnv_papers": 4,
+  "last_author": 1,
+  "first_author": 2,
+  "first_year": "2017",
+  "last_year": "2024",
+  "venues": "CAV 2; NeurIPS 1; CVPR 1",
+  "affiliation": "Stanford University, Department of Computer Science, Stanford, CA, USA",
+  "homepage": "https://cs.stanford.edu/~minwu/",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "VeriX: Towards Verified Explainability of Deep Neural Networks",
+   "Robustness Guarantees for Deep Neural Networks on Videos"
+  ]
+ },
+ {
+  "pid": "323/8527",
+  "name": "Shahaf Bassan",
+  "nnv_papers": 4,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2024",
+  "last_year": "2026",
+  "venues": "ICLR 3; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Explaining Neural Additive Models",
+   "FAME: Formal Abstract Minimal Explanation for Neural Networks",
+   "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees"
+  ]
+ },
+ {
+  "pid": "132/8938",
+  "name": "Bhavya Kailkhura",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "ICLR 2; NeurIPS 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+   "On the Certified Robustness for Ensemble Models and Beyond",
+   "A Spectral View of Randomized Smoothing Under Common Corruptions: Benchmarking and Improving Certified Robustness"
+  ]
+ },
+ {
+  "pid": "304/8116",
+  "name": "Blaise Delattre",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 2; ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "The Lipschitz-Variance-Margin Tradeoff for Enhanced Randomized Smoothing",
+   "Efficient Bound of Lipschitz Constant for Convolutional Layers by Gram Iteration",
+   "A Unified Algebraic Perspective on Lipschitz Neural Networks"
+  ]
+ },
+ {
+  "pid": "172/3629",
+  "name": "Cheng-Chao Huang",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICSE 3; ICCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Patch Synthesis for Property Repair of Deep Neural Networks",
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+   "TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models"
+  ]
+ },
+ {
+  "pid": "74/184-1",
+  "name": "Di He",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "ICLR 2; ICML 1; NeurIPS 1",
+  "affiliation": "Peking University, School of Intelligence Science and Technology, National Key Laboratory of General Artificial Intelligence, Beijing, China",
+  "homepage": "https://dihe-pku.github.io/",
+  "titles": [
+   "Boosting the Certified Robustness of L-infinity Distance Nets",
+   "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective",
+   "Towards Certifying L-infinity Robustness using Neural Networks with L-inf-dist Neurons"
+  ]
+ },
+ {
+  "pid": "35/10625",
+  "name": "Jacob Steinhardt",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2017",
+  "last_year": "2020",
+  "venues": "NeurIPS 3; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
+   "Certified Defenses against Adversarial Examples",
+   "Semidefinite relaxations for certifying robustness to adversarial examples"
+  ]
+ },
+ {
+  "pid": "10/1491-6",
+  "name": "Jingbo Wang",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2025",
+  "venues": "ICSE 2; ASE 1; CAV 1",
+  "affiliation": "Purdue University, West Lafayette, IN, USA",
+  "homepage": "https://viterbi-web.usc.edu/~jingbow/",
+  "titles": [
+   "Fairquant: Certifying and Quantifying Fairness of Deep Neural Networks",
+   "Certifying the Fairness of KNN in the Presence of Dataset Bias",
+   "ReluDiff: differential verification of deep neural networks"
+  ]
+ },
+ {
+  "pid": "236/5728",
+  "name": "Matt Jordan",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 4,
+  "first_year": "2019",
+  "last_year": "2022",
+  "venues": "NeurIPS 3; ICML 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Zonotope Domains for Lagrangian Neural Network Verification",
+   "Provable Lipschitz Certification for Generative Models",
+   "Exactly Computing the Local Lipschitz Constant of ReLU Networks"
+  ]
+ },
+ {
+  "pid": "222/9876",
+  "name": "Matthew Mirman",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2018",
+  "last_year": "2021",
+  "venues": "ICML 1; ICLR 1; NeurIPS 1; PLDI 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness certification with generative models",
+   "Universal Approximation with Certified Networks",
+   "Differentiable Abstract Interpretation for Provably Robust Neural Networks"
+  ]
+ },
+ {
+  "pid": "303/0335",
+  "name": "Mintong Kang",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 4,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "C-SafeGen: Certified Safe LLM Generation with Claim-Based Streaming Guardrails",
+   "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+   "COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits"
+  ]
+ },
+ {
+  "pid": "236/4288",
+  "name": "Ping-Yeh Chiang",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2; ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Neural Network Watermarks with Randomized Smoothing",
+   "Certified Defenses for Adversarial Patches",
+   "Detection as Regression: Certified Object Detection with Median Smoothing"
+  ]
+ },
+ {
+  "pid": "25/6006-2",
+  "name": "Tobias Lorenz",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2021",
+  "last_year": "2025",
+  "venues": "ICML 2; NeurIPS 1; ICCV 1",
+  "affiliation": "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+  "homepage": "https://www.t-lorenz.com/",
+  "titles": [
+   "Pixel-level Certified Explanations via Randomized Smoothing",
+   "MIBP-Cert: Certified Training against Data Perturbations with Mixed-Integer Bilinear Programs",
+   "Adaptive Hierarchical Certification for Segmentation using Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "292/8831",
+  "name": "Václav Vorácek",
+  "nnv_papers": 4,
+  "last_author": 0,
+  "first_author": 4,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 2; ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Treatment of Statistical Estimation Problems in Randomized Smoothing for Adversarial Robustness",
+   "Improving l1-Certified Robustness via Randomized Smoothing by Leveraging Box Constraints",
+   "Sound Randomized Smoothing in Floating-Point Arithmetic"
+  ]
+ },
+ {
+  "pid": "l/AlessioLomuscio",
+  "name": "Alessio Lomuscio",
+  "nnv_papers": 3,
+  "last_author": 3,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2026",
+  "venues": "ICLR 1; CVPR 1; ECCV 1",
+  "affiliation": "Imperial College London, UK",
+  "homepage": "http://www.doc.ic.ac.uk/~alessio/",
+  "titles": [
+   "IoUCert: Robustness Verification for Anchor-Based Object Detectors",
+   "Expressive Losses for Verified Robustness via Convex Combinations",
+   "Efficient Verification of Neural Networks Against LVM-Based Specifications"
+  ]
+ },
+ {
+  "pid": "31/7062",
+  "name": "Jinwoo Shin",
+  "nnv_papers": 3,
+  "last_author": 3,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "NeurIPS 3",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Multi-scale Diffusion Denoised Smoothing",
+   "SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness",
+   "Consistency Regularization for Certified Robustness of Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "05/104",
+  "name": "Andrew Clark",
+  "nnv_papers": 3,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "NeurIPS 3",
+  "affiliation": "Washington University in St. Louis, Department of Electrical and Systems Engineering, MO, USA",
+  "homepage": "https://engineering.wustl.edu/faculty/Andrew-Clark.html",
+  "titles": [
+   "SEEV: Synthesis with Efficient Exact Verification for ReLU Neural Barrier Functions",
+   "Neural Lyapunov Control for Discrete-Time Systems",
+   "Exact Verification of ReLU Neural Control Barrier Functions"
+  ]
+ },
+ {
+  "pid": "00/6381-2",
+  "name": "Bin Hu",
+  "nnv_papers": 3,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICLR 2; NeurIPS 1",
+  "affiliation": "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Champaign, IL, USA",
+  "homepage": "https://binhu7.github.io/",
+  "titles": [
+   "On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks",
+   "A Unified Algebraic Perspective on Lipschitz Neural Networks",
+   "Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models"
+  ]
+ },
+ {
+  "pid": "07/5701",
+  "name": "Mario Fritz",
+  "nnv_papers": 3,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICML 2; NeurIPS 1",
+  "affiliation": "CISPA Helmholtz Center for Information Security, Saarland Informatics Campus, Germany",
+  "homepage": "https://scalable.mpi-inf.mpg.de/",
+  "titles": [
+   "Pixel-level Certified Explanations via Randomized Smoothing",
+   "MIBP-Cert: Certified Training against Data Perturbations with Mixed-Integer Bilinear Programs",
+   "Adaptive Hierarchical Certification for Segmentation using Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "169/9027",
+  "name": "Richard Y. Zhang",
+  "nnv_papers": 3,
+  "last_author": 2,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2025",
+  "venues": "ICML 2; NeurIPS 1",
+  "affiliation": "University of Illinois at Urbana-Champaign, Department of Electrical and Computer Engineering, Coordinated Science Laboratory, Urbana, IL, USA",
+  "homepage": "https://ryz.ece.illinois.edu/",
+  "titles": [
+   "SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming",
+   "Tight Certification of Adversarially Trained Neural Networks via Nonconvex Low-Rank Semidefinite Relaxations",
+   "On the Tightness of Semidefinite Relaxations for Certifying Robustness to Adversarial Examples"
+  ]
+ },
+ {
+  "pid": "97/919-1",
+  "name": "Ce Zhang",
+  "nnv_papers": 3,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "NeurIPS 2; ICML 1",
+  "affiliation": "ETH Zurich, Institut für Computing Platforms, Switzerland",
+  "homepage": "https://openreview.net/profile?id=~Ce_Zhang1",
+  "titles": [
+   "Certifying Out-of-Domain Generalization for Blackbox Functions",
+   "Certifying Some Distributional Fairness with Subpopulation Decomposition",
+   "Improving Certified Robustness via Statistical Learning with Logical Reasoning"
+  ]
+ },
+ {
+  "pid": "93/1712",
+  "name": "Jan Hendrik Metzen",
+  "nnv_papers": 3,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2018",
+  "last_year": "2023",
+  "venues": "ICLR 2; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation",
+   "Efficient Certified Defenses Against Patch Attacks on Image Classifiers",
+   "Scaling provable adversarial defenses"
+  ]
+ },
+ {
+  "pid": "75/8479",
+  "name": "John Dickerson",
+  "nnv_papers": 3,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2; ICML 1",
+  "affiliation": "University of Maryland, MD, USA",
+  "homepage": "https://jpdickerson.com/",
+  "titles": [
+   "Certified Neural Network Watermarks with Randomized Smoothing",
+   "Detection as Regression: Certified Object Detection with Median Smoothing",
+   "Certifying Strategyproof Auction Networks"
+  ]
+ },
+ {
+  "pid": "30/2092",
+  "name": "Mathieu Serrurier",
+  "nnv_papers": 3,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2026",
+  "venues": "ICML 2; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Fast and Flexible Robustness Certificates for Semantic Segmentation",
+   "Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks",
+   "Robust One-Class Classification with Signed Distance Function using 1-Lipschitz Neural Networks"
+  ]
+ },
+ {
+  "pid": "136/0170",
+  "name": "Sarah M. Erfani",
+  "nnv_papers": 3,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "University of Melbourne, School of Computing and Information Systems, Australia",
+  "homepage": "https://cis.unimelb.edu.au/people/sarah-erfani",
+  "titles": [
+   "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
+   "Fortifying Time Series: DTW-Certified Robust Anomaly Detection",
+   "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity"
+  ]
+ },
+ {
+  "pid": "223/4066",
+  "name": "Aaron J. Havens",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICLR 2; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks",
+   "A Unified Algebraic Perspective on Lipschitz Neural Networks",
+   "Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models"
+  ]
+ },
+ {
+  "pid": "249/5767",
+  "name": "Alexander Meinke",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Adversarially Robust Detection of Out-of-Distribution Data (Almost) for Free",
+   "Towards neural networks that provably know when they don't know",
+   "Certifiably Adversarially Robust Detection of Out-of-Distribution Data"
+  ]
+ },
+ {
+  "pid": "276/0156",
+  "name": "Bohang Zhang",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "ICML 1; ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting the Certified Robustness of L-infinity Distance Nets",
+   "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective",
+   "Towards Certifying L-infinity Robustness using Neural Networks with L-inf-dist Neurons"
+  ]
+ },
+ {
+  "pid": "152/3505",
+  "name": "Brandon Paulsen",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "ICSE 1; ASE 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Example Guided Synthesis of Linear Approximations for Neural Network Verification",
+   "ReluDiff: differential verification of deep neural networks",
+   "NEURODIFF: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation"
+  ]
+ },
+ {
+  "pid": "29/7802-1",
+  "name": "Changming Xu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICLR 1; ECCV 1; PLDI 1",
+  "affiliation": "University of Illinois at Urbana-Champaign, Department of Computer Science, Urbana, IL, USA",
+  "homepage": "https://cmxu.io/",
+  "titles": [
+   "Support is All You Need for Certified VAE Training",
+   "Cross-Input Certified Training for Universal Perturbations",
+   "Input-Relational Verification of Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "229/4236",
+  "name": "Chongli Qin",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICLR 2; ICCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "A Framework for robustness Certification of Smoothed Classifiers using F-Divergences",
+   "Verification of Non-Linear Specifications for Neural Networks",
+   "Scalable Verified Training for Provably Robust Image Classification"
+  ]
+ },
+ {
+  "pid": "326/1078",
+  "name": "Dapeng Zhi",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CAV 2; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems",
+   "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks",
+   "Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning"
+  ]
+ },
+ {
+  "pid": "215/3580",
+  "name": "Diego Manzanas Lopez",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "CAV 3",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "NNV 2.0: The Neural Network Verification Tool",
+   "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
+   "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems"
+  ]
+ },
+ {
+  "pid": "271/0915",
+  "name": "Dimitar I. Dimitrov",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "ICLR 1; PLDI 1; CAV 1",
+  "affiliation": "ETH Zurich, Department of Computer Science, Zurich, Switzerland",
+  "homepage": "https://www.sri.inf.ethz.ch/people/dimitadi",
+  "titles": [
+   "Provably Robust Adversarial Examples",
+   "Shared Certificates for Neural Network Verification",
+   "Fast and precise certification of transformers"
+  ]
+ },
+ {
+  "pid": "26/1132",
+  "name": "Duane S. Boning",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2018",
+  "last_year": "2020",
+  "venues": "ICML 1; ICLR 1; NeurIPS 1",
+  "affiliation": "Massachusetts Institute of Technology, Cambridge, USA",
+  "homepage": "",
+  "titles": [
+   "Towards Stable and Efficient Training of Verifiably Robust Neural Networks",
+   "Robustness Verification of Tree-based Models",
+   "Towards Fast Computation of Certified Robustness for ReLU Networks"
+  ]
+ },
+ {
+  "pid": "64/1811-1",
+  "name": "Eric Wong",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2018",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1; CVPR 1",
+  "affiliation": "University of Pennsylvania, Department of Computer and Information Science, Philadelphia, PA, USA",
+  "homepage": "https://riceric22.github.io/",
+  "titles": [
+   "Certified Patch Robustness via Smoothed Vision Transformers",
+   "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope",
+   "Scaling provable adversarial defenses"
+  ]
+ },
+ {
+  "pid": "277/9596",
+  "name": "Guy Amir",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CAV 3",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "Verifying Generalization in Deep Learning",
+   "Neural Network Robustness as a Verification Property: A Principled Case Study"
+  ]
+ },
+ {
+  "pid": "82/6141-5",
+  "name": "Hongbin Liu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "CVPR 2; ICLR 1",
+  "affiliation": "Duke University, Durham, NC, USA",
+  "homepage": "https://scholars.duke.edu/person/hongbin.liu",
+  "titles": [
+   "PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees",
+   "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
+   "PointGuard: Provably Robust 3D Point Cloud Classification"
+  ]
+ },
+ {
+  "pid": "198/0591",
+  "name": "Hongge Chen",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2018",
+  "last_year": "2020",
+  "venues": "ICML 1; ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Towards Stable and Efficient Training of Verifiably Robust Neural Networks",
+   "Robustness Verification of Tree-based Models",
+   "Towards Fast Computation of Certified Robustness for ReLU Networks"
+  ]
+ },
+ {
+  "pid": "38/2361",
+  "name": "Jean B. Lasserre",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "LAAS, Toulouse, France",
+  "homepage": "http://homepages.laas.fr/lasserre/",
+  "titles": [
+   "Verifying Properties of Binary Neural Networks Using Sparse Polynomial Optimization",
+   "Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification",
+   "Semialgebraic Optimization for Lipschitz Constants of ReLU Networks"
+  ]
+ },
+ {
+  "pid": "60/10175",
+  "name": "Jianan Ma",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICSE 2; ASE 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Patch Synthesis for Property Repair of Deep Neural Networks",
+   "Provable Fairness Repair for Deep Neural Networks",
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "18/3178-4",
+  "name": "Jingyi Wang",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICSE 2; ASE 1",
+  "affiliation": "Zhejiang University, China",
+  "homepage": "",
+  "titles": [
+   "Patch Synthesis for Property Repair of Deep Neural Networks",
+   "Provable Fairness Repair for Deep Neural Networks",
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "198/1298",
+  "name": "Jonathan Uesato",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICLR 1; NeurIPS 1; ICCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
+   "Verification of Non-Linear Specifications for Neural Networks",
+   "Scalable Verified Training for Provably Robust Image Classification"
+  ]
+ },
+ {
+  "pid": "241/5923",
+  "name": "Jongheon Jeong",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "NeurIPS 3",
+  "affiliation": "",
+  "homepage": "https://openreview.net/profile?id=~Jongheon_Jeong1",
+  "titles": [
+   "Multi-scale Diffusion Denoised Smoothing",
+   "SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness",
+   "Consistency Regularization for Certified Robustness of Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "188/8292-1",
+  "name": "Junlin Wu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "NeurIPS 3",
+  "affiliation": "Washington University, Saint Louis, MO, USA",
+  "homepage": "",
+  "titles": [
+   "Verified Safe Reinforcement Learning for Neural Network Dynamic Models",
+   "Neural Lyapunov Control for Discrete-Time Systems",
+   "Exact Verification of ReLU Neural Control Barrier Functions"
+  ]
+ },
+ {
+  "pid": "57/6633",
+  "name": "Kai Hu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2023",
+  "last_year": "2026",
+  "venues": "ICLR 2; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models",
+   "A Recipe for Improved Certifiable Robustness",
+   "Unlocking Deterministic Robustness Certification on ImageNet"
+  ]
+ },
+ {
+  "pid": "195/5867",
+  "name": "Kyle Julian",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2017",
+  "last_year": "2024",
+  "venues": "CAV 3",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
+   "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "242/3880",
+  "name": "Lily Weng",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICML 3",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Neural Network Control Policy Verification With Persistent Adversarial Perturbation",
+   "POPQORN: Quantifying Robustness of Recurrent Neural Networks",
+   "PROVEN: Verifying Robustness of Neural Networks with a Probabilistic Approach"
+  ]
+ },
+ {
+  "pid": "05/7730",
+  "name": "Maria Christakis",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2024",
+  "venues": "CAV 2; OOPSLA 1",
+  "affiliation": "TU Wien, Faculty of Informatics, Vienna, Austria",
+  "homepage": "https://mariachris.github.io/",
+  "titles": [
+   "Verifying Global Two-Safety Properties in Neural Networks with Confidence",
+   "Automated Safety Verification of Programs Invoking Neural Networks",
+   "Perfectly parallel fairness certification of neural networks"
+  ]
+ },
+ {
+  "pid": "255/4719",
+  "name": "Michael J. Curry",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2; ICML 1",
+  "affiliation": "University of Zürich, Switzerland",
+  "homepage": "https://currymj.github.io/",
+  "titles": [
+   "Certified Neural Network Watermarks with Randomized Smoothing",
+   "Detection as Regression: Certified Object Detection with Median Smoothing",
+   "Certifying Strategyproof Auction Networks"
+  ]
+ },
+ {
+  "pid": "70/4765",
+  "name": "Olga Ohrimenko",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "NeurIPS 3",
+  "affiliation": "University of Melbourne, Australia",
+  "homepage": "",
+  "titles": [
+   "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness",
+   "Certified Adversarial Robustness via Randomized α-Smoothing for Regression Models",
+   "RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion"
+  ]
+ },
+ {
+  "pid": "156/9636-4",
+  "name": "Shijie Liu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "University of Melbourne, School of Computing and Information Systems, Parkville, Australia",
+  "homepage": "",
+  "titles": [
+   "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
+   "Fortifying Time Series: DTW-Certified Robust Anomaly Detection",
+   "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity"
+  ]
+ },
+ {
+  "pid": "227/3014",
+  "name": "Shubham Ugare",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICLR 1; PLDI 1; OOPSLA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Incremental Randomized Smoothing Certification",
+   "Incremental Verification of Neural Networks",
+   "Proof transfer for fast certification of multiple approximate neural networks"
+  ]
+ },
+ {
+  "pid": "128/6972-1",
+  "name": "Sijia Liu",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1; CVPR 1",
+  "affiliation": "Michigan State University, Department of Computer Science and Engineering, East Lansing, USA",
+  "homepage": "http://sliu17.mysite.syr.edu/",
+  "titles": [
+   "Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness",
+   "Higher-Order Certification For Randomized Smoothing",
+   "Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations"
+  ]
+ },
+ {
+  "pid": "346/0467",
+  "name": "Tobias Ladner",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2026",
+  "last_year": "2026",
+  "venues": "ICLR 2; CAV 1",
+  "affiliation": "",
+  "homepage": "https://openreview.net/profile?id=~Tobias_Ladner1",
+  "titles": [
+   "Provably Explaining Neural Additive Models",
+   "Out of the Shadows: Exploring a Latent Space for Neural Network Verification",
+   "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis"
+  ]
+ },
+ {
+  "pid": "132/0959",
+  "name": "Victor Magron",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verifying Properties of Binary Neural Networks Using Sparse Polynomial Optimization",
+   "Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification",
+   "Semialgebraic Optimization for Lipschitz Constants of ReLU Networks"
+  ]
+ },
+ {
+  "pid": "94/7236-1",
+  "name": "Xue Lin",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2; ICLR 1",
+  "affiliation": "Northeastern University, Department of Electrical and Computer Engineering, Boston, MA, USA",
+  "homepage": "https://xuelin.sites.northeastern.edu/",
+  "titles": [
+   "Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers",
+   "Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification",
+   "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+  ]
+ },
+ {
+  "pid": "240/9194",
+  "name": "Yan Scholten",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "NeurIPS 3",
+  "affiliation": "",
+  "homepage": "https://openreview.net/profile?id=~Yan_Scholten1",
+  "titles": [
+   "Hierarchical Randomized Smoothing",
+   "(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More",
+   "Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks"
+  ]
+ },
+ {
+  "pid": "230/8027",
+  "name": "Yedi Zhang",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "OOPSLA 1; ASE 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verification of Bit-Flip Attacks against Quantized Neural Networks",
+   "QEBVerif: Quantization Error Bound Verification of Neural Networks",
+   "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks"
+  ]
+ },
+ {
+  "pid": "126/5212",
+  "name": "Youcheng Sun",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2024",
+  "venues": "ICSE 2; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+   "Towards Practical Robustness Analysis for DNNs based on PAC-Model Learning",
+   "NNrepair: Constraint-Based Repair of Neural Network Classifiers"
+  ]
+ },
+ {
+  "pid": "199/7027",
+  "name": "Zhe Tao",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 3,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "NeurIPS 2; PLDI 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provable Gradient Editing of Deep Neural Networks",
+   "Provable Editing of Deep Neural Networks using Parametric Linear Relaxation",
+   "Architecture-Preserving Provable Repair of Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "35/10147-1",
+  "name": "Zifan Wang",
+  "nnv_papers": 3,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2024",
+  "venues": "ICML 1; ICLR 1; NeurIPS 1",
+  "affiliation": "Carnegie Mellon University, PA, USA",
+  "homepage": "",
+  "titles": [
+   "A Recipe for Improved Certifiable Robustness",
+   "Unlocking Deterministic Robustness Certification on ImageNet",
+   "Globally-Robust Neural Networks"
+  ]
+ },
+ {
+  "pid": "67/2454",
+  "name": "Aleksander Madry",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2022",
+  "venues": "ICLR 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Patch Robustness via Smoothed Vision Transformers",
+   "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+  ]
+ },
+ {
+  "pid": "67/2136",
+  "name": "Christoph H. Lampert",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CVPR 1; ECCV 1",
+  "affiliation": "Institute of Science and Technology Austria, Klosterneuburg, Austria",
+  "homepage": "http://cvml.ist.ac.at/",
+  "titles": [
+   "1-Lipschitz Layers Compared: Memory, Speed, and Certifiable Robustness",
+   "Almost-Orthogonal Layers for Efficient General-Purpose Lipschitz Networks"
+  ]
+ },
+ {
+  "pid": "53/6088",
+  "name": "Dahua Lin",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "ICML 1; CVPR 1",
+  "affiliation": "Chinese University of Hong Kong, Department of Information Engineering, CUHK - SenseTime Joint Lab, Hong Kong",
+  "homepage": "http://dahualin.org/",
+  "titles": [
+   "Towards Evaluating and Training Verifiably Robust Neural Networks",
+   "POPQORN: Quantifying Robustness of Recurrent Neural Networks"
+  ]
+ },
+ {
+  "pid": "52/9593",
+  "name": "Edouard Pauwels",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2",
+  "affiliation": "Toulouse School of Economics, France",
+  "homepage": "https://edouardpauwels.fr/",
+  "titles": [
+   "Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification",
+   "Semialgebraic Optimization for Lipschitz Constants of ReLU Networks"
+  ]
+ },
+ {
+  "pid": "86/9673",
+  "name": "Guangdong Bai",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "POPL 1; OOPSLA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Convex Hull Approximation for Activation Functions",
+   "ReLU Hull Approximation"
+  ]
+ },
+ {
+  "pid": "95/3736-15",
+  "name": "Jun Liu",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "University of Waterloo, Canada",
+  "homepage": "http://junliu.name/",
+  "titles": [
+   "Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification",
+   "Neural Lyapunov Control of Unknown Nonlinear Systems with Stability Guarantees"
+  ]
+ },
+ {
+  "pid": "50/2644-1",
+  "name": "Jun Zhu",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "Tsinghua University, State Key Laboratory of Intelligent Technology and Systems, TNList, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Jun_Zhu2",
+  "titles": [
+   "Diffusion Models are Certifiably Robust Classifiers",
+   "GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "139/8905",
+  "name": "Kim Völlinger",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2026",
+  "venues": "CAV 1; NFM 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "The Rocq-NN-Roll Prover: Soundly Verifying Hyperproperties of Neural Networks in Rocq",
+   "Formalizing Piecewise Affine Activation Functions of Neural Networks in Coq"
+  ]
+ },
+ {
+  "pid": "85/770",
+  "name": "Loris D'Antoni",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "NeurIPS 2",
+  "affiliation": "University of California-San Diego, CA, USA",
+  "homepage": "https://cseweb.ucsd.edu/~ldantoni/",
+  "titles": [
+   "BagFlip: A Certified Defense Against Data Poisoning",
+   "Certifying Robustness to Programmable Data Bias in Decision Trees"
+  ]
+ },
+ {
+  "pid": "181/2007-1",
+  "name": "Martin Lange",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICLR 2",
+  "affiliation": "University of Kassel, School of Electrical Engineering and Computer Science, Germany",
+  "homepage": "http://carrick.fmv.informatik.uni-kassel.de/~mlange/",
+  "titles": [
+   "Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning",
+   "Fundamental Limits in Formal Verification of Message-Passing Neural Networks"
+  ]
+ },
+ {
+  "pid": "13/6525",
+  "name": "Mingsheng Ying",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "CAV 2",
+  "affiliation": "Centre for Quantum Software and Information, University of Technology Sydney, Australia",
+  "homepage": "https://profiles.uts.edu.au/mingsheng.ying",
+  "titles": [
+   "Verifying Fairness in Quantum Machine Learning",
+   "Robustness Verification of Quantum Classifiers"
+  ]
+ },
+ {
+  "pid": "99/618",
+  "name": "Márk Jelasity",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2025",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "University of Szeged, Hungary",
+  "homepage": "http://www.inf.u-szeged.hu/~jelasity/",
+  "titles": [
+   "No Soundness in the Real World: On the Challenges of the Verification of Deployed Neural Networks",
+   "Fooling a Complete Neural Network Verifier"
+  ]
+ },
+ {
+  "pid": "61/3234-1",
+  "name": "Qiang Liu",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "NeurIPS 2",
+  "affiliation": "University of Texas at Austin, Department of Computer Science, TX, USA",
+  "homepage": "https://www.cs.utexas.edu/~lqiang/",
+  "titles": [
+   "Certified Monotonic Neural Networks",
+   "Black-Box Certification with Randomized Smoothing: A Functional Optimization Based Framework"
+  ]
+ },
+ {
+  "pid": "04/8800",
+  "name": "Ruth Misener",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "Imperial College London, UK",
+  "homepage": "https://openreview.net/profile?id=~Ruth_Misener1",
+  "titles": [
+   "Verifying message-passing neural networks via topology-based bounds tightening",
+   "Partition-Based Formulations for Mixed-Integer Optimization of Trained ReLU Neural Networks"
+  ]
+ },
+ {
+  "pid": "07/3797-1",
+  "name": "Sayan Mitra",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; OOPSLA 1",
+  "affiliation": "University of Illinois at Urbana-Champaign, Champaign, IL, USA",
+  "homepage": "https://mitras.ece.illinois.edu/",
+  "titles": [
+   "Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty",
+   "Perception Contracts for Safety of ML-Enabled Systems"
+  ]
+ },
+ {
+  "pid": "j/SomeshJha",
+  "name": "Somesh Jha",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICLR 1; POPL 1",
+  "affiliation": "University of Wisconsin-Madison, Madison, USA",
+  "homepage": "http://www.cs.wisc.edu/~jha/",
+  "titles": [
+   "On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks",
+   "Interval universal approximation for neural networks"
+  ]
+ },
+ {
+  "pid": "85/6852",
+  "name": "Stavros Tripakis",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "NeurIPS 1; NFM 1",
+  "affiliation": "Northeastern University, Khoury College of Computer Science, Boston, MA, USA",
+  "homepage": "https://www.ccs.neu.edu/~stavros/",
+  "titles": [
+   "Compositional Inductive Invariant Based Verification of Neural Network Controlled Systems",
+   "Shield Decentralization for Safe Multi-Agent Reinforcement Learning"
+  ]
+ },
+ {
+  "pid": "01/10961",
+  "name": "Tobias Sutter",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Solving Probabilistic Verification Problems of Neural Networks using Branch and Bound",
+   "A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"
+  ]
+ },
+ {
+  "pid": "45/6863",
+  "name": "Xinhua Zhang",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying Robust Graph Classification under Orthogonal Gromov-Wasserstein Threats",
+   "Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks"
+  ]
+ },
+ {
+  "pid": "78/6727-13",
+  "name": "Zhen Wang",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICSE 1; ASE 1",
+  "affiliation": "Hangzhou Dianzi University, School of Cyberspace, China",
+  "homepage": "",
+  "titles": [
+   "Provable Fairness Repair for Deep Neural Networks",
+   "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "86/541-1",
+  "name": "Zhenyu Chen",
+  "nnv_papers": 2,
+  "last_author": 2,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "CVPR 2",
+  "affiliation": "Nanjing University, Software Institute, China",
+  "homepage": "http://software.nju.edu.cn/zychen/",
+  "titles": [
+   "Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone",
+   "Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation"
+  ]
+ },
+ {
+  "pid": "s/BerntSchiele",
+  "name": "Bernt Schiele",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "Max Planck Institute for Informatics, Saarbücken, Germany",
+  "homepage": "http://www.d2.mpi-inf.mpg.de/schiele/",
+  "titles": [
+   "Pixel-level Certified Explanations via Randomized Smoothing",
+   "Adaptive Hierarchical Certification for Segmentation using Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "150/3317",
+  "name": "Chaowei Xiao",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2024",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Consistency Purification: Effective and Efficient Diffusion Purification towards Certified Robustness",
+   "Towards Stable and Efficient Training of Verifiably Robust Neural Networks"
+  ]
+ },
+ {
+  "pid": "59/2802-1",
+  "name": "He Zhu",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2024",
+  "venues": "PLDI 1; CAV 1",
+  "affiliation": "Rutgers University, Department of Computer Science, New Brunswick, NJ, USA",
+  "homepage": "https://herowanzhu.github.io/",
+  "titles": [
+   "Safe Exploration in Reinforcement Learning by Reachability Analysis over Learned Models",
+   "An inductive synthesis framework for verifiable reinforcement learning"
+  ]
+ },
+ {
+  "pid": "304/4372",
+  "name": "Idan Refaeli",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "Neural Network Robustness as a Verification Property: A Principled Case Study"
+  ]
+ },
+ {
+  "pid": "56/7175",
+  "name": "Ivan V. Oseledets",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "Skolkovo Institute of Science and Technology, Moscow, Russia",
+  "homepage": "http://oseledets.github.io/people/oseledets/",
+  "titles": [
+   "Smoothed Embeddings for Certified Few-Shot Learning",
+   "PROVEN: Verifying Robustness of Neural Networks with a Probabilistic Approach"
+  ]
+ },
+ {
+  "pid": "39/4985-1",
+  "name": "Jaewook Lee",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2",
+  "affiliation": "Seoul National University, Department of Industrial Engineering, South Korea",
+  "homepage": "",
+  "titles": [
+   "Towards Better Understanding of Training Certifiably Robust Models against Adversarial Examples",
+   "Lipschitz-Certifiable Training with a Tight Outer Bound"
+  ]
+ },
+ {
+  "pid": "162/8838",
+  "name": "Jerry Li",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "University of Washington, WA, USA",
+  "homepage": "",
+  "titles": [
+   "Randomized Smoothing of All Shapes and Sizes",
+   "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "71/6948-1",
+  "name": "Jianjun Zhao",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "OOPSLA 1; CAV 1",
+  "affiliation": "Kyushu University, Fukuoka, Japan",
+  "homepage": "",
+  "titles": [
+   "Precise Verification of Transformers Through ReLU-Catalyzed Abstraction Refinement",
+   "Efficient Incremental Verification of Neural Networks Guided by Counterexample Potentiality"
+  ]
+ },
+ {
+  "pid": "164/5860",
+  "name": "Luca Laurenti",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming",
+   "Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions"
+  ]
+ },
+ {
+  "pid": "200/8865",
+  "name": "Maksym Andriushchenko",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2017",
+  "last_year": "2019",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably robust boosted decision stumps and trees against adversarial attacks",
+   "Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation"
+  ]
+ },
+ {
+  "pid": "284/8781",
+  "name": "Maksym Yatsura",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation",
+   "Efficient Certified Defenses Against Patch Attacks on Image Classifiers"
+  ]
+ },
+ {
+  "pid": "93/7736",
+  "name": "Morteza Lahijanian",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "University of Colorado Boulder, CO, USA",
+  "homepage": "",
+  "titles": [
+   "BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming",
+   "Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions"
+  ]
+ },
+ {
+  "pid": "87/3366",
+  "name": "Nina Narodytska",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "ICML 1; OOPSLA 1",
+  "affiliation": "VMware Research, USA",
+  "homepage": "https://narodytska.com/",
+  "titles": [
+   "Scalable verification of GNN-based job schedulers",
+   "Explanations for Monotonic Classifiers"
+  ]
+ },
+ {
+  "pid": "74/6354",
+  "name": "Pavithra Prabhakar",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2024",
+  "venues": "NeurIPS 1; NFM 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Approximate Conformance Verification of Deep Neural Networks",
+   "Abstraction based Output Range Analysis for Neural Networks"
+  ]
+ },
+ {
+  "pid": "207/1300",
+  "name": "Pengchuan Zhang",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2019",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
+   "A Convex Relaxation Barrier to Tight Robustness Verification of Neural Networks"
+  ]
+ },
+ {
+  "pid": "39/6266",
+  "name": "Prateek Mittal",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+   "PatchDEMUX: A Certifiably Robust Framework for Multi-label Classifiers Against Adversarial Patches"
+  ]
+ },
+ {
+  "pid": "38/7865",
+  "name": "Sagar Malhotra",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Beyond Topological Self-Explainable GNNs: A Formal Explainability Perspective",
+   "Probably Approximately Global Robustness Certification"
+  ]
+ },
+ {
+  "pid": "94/3807",
+  "name": "Siddharth Garg",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "http://engineering.nyu.edu/people/siddharth-garg",
+  "titles": [
+   "LipSim: A Provably Robust Perceptual Similarity Metric",
+   "Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models"
+  ]
+ },
+ {
+  "pid": "28/9798",
+  "name": "Valentin Wüstholz",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "OOPSLA 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Automated Safety Verification of Programs Invoking Neural Networks",
+   "Perfectly parallel fairness certification of neural networks"
+  ]
+ },
+ {
+  "pid": "172/1346-1",
+  "name": "Yisen Wang",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 2",
+  "affiliation": "Peking University, Institute for Artificial Intelligence, School of Intelligence Science and Technology, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Yisen_Wang1",
+  "titles": [
+   "Certified Adversarial Robustness Under the Bounded Support Set",
+   "CerDEQ: Certifiable Deep Equilibrium Model"
+  ]
+ },
+ {
+  "pid": "79/5433-1",
+  "name": "Yuan Hong",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "NeurIPS 1; ECCV 1",
+  "affiliation": "University of Connecticut, Connecticut Advanced Computing Center (CACC), Mansfield, CT, USA",
+  "homepage": "https://yhongcs.github.io/",
+  "titles": [
+   "FedGMark: Certifiably Robust Watermarking for Federated Graph Learning",
+   "UniCR: Universally Approximated Certified Robustness via Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "l/ZhimingLiu1",
+  "name": "Zhiming Liu",
+  "nnv_papers": 2,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "CVPR 1; CAV 1",
+  "affiliation": "Southwest University, School of Computer and Information Science, Chongqing, China",
+  "homepage": "https://www.rise-swu.cn/en/liuzhiming.html",
+  "titles": [
+   "An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation",
+   "Robustness Verification of Classification Deep Neural Networks via Linear Programming"
+  ]
+ },
+ {
+  "pid": "01/1084-1",
+  "name": "Abhinav Verma",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "NeurIPS 2",
+  "affiliation": "Pennsylvania State University, USA",
+  "homepage": "https://averma8053.github.io/",
+  "titles": [
+   "Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees",
+   "Neurosymbolic Reinforcement Learning with Formally Verified Exploration"
+  ]
+ },
+ {
+  "pid": "72/7860",
+  "name": "Ahmed Abdelkader",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Defenses for Adversarial Patches",
+   "Detection as Regression: Certified Object Detection with Median Smoothing"
+  ]
+ },
+ {
+  "pid": "368/7744",
+  "name": "Alaa Anani",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Pixel-level Certified Explanations via Randomized Smoothing",
+   "Adaptive Hierarchical Certification for Segmentation using Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "147/5994",
+  "name": "Aleksandar Zeljic",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2024",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "The Marabou Framework for Verification and Analysis of Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "338/9623",
+  "name": "Andrei Aleksandrov",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2026",
+  "venues": "CAV 1; NFM 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "The Rocq-NN-Roll Prover: Soundly Verifying Hyperproperties of Neural Networks in Rocq",
+   "Formalizing Piecewise Affine Activation Functions of Neural Networks in Coq"
+  ]
+ },
+ {
+  "pid": "238/6828",
+  "name": "Andrew C. Cullen",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
+   "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity"
+  ]
+ },
+ {
+  "pid": "259/2083",
+  "name": "Anian Ruoss",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 1; ICCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness Certification for Point Cloud Models",
+   "Learning Certified Individually Fair Representations"
+  ]
+ },
+ {
+  "pid": "74/2716-1",
+  "name": "Bai Xue",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2026",
+  "venues": "FSE 1; ICSE 1",
+  "affiliation": "Chinese Academy of Sciences, Institute of Software, SKLCS, Beijing, China",
+  "homepage": "",
+  "titles": [
+   "Precondition Synthesis for Deep Neural Networks with Statistical Guarantees",
+   "Towards Practical Robustness Analysis for DNNs based on PAC-Model Learning"
+  ]
+ },
+ {
+  "pid": "77/3199",
+  "name": "Balázs Bánhelyi",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2025",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "No Soundness in the Real World: On the Challenges of the Verification of Deployed Neural Networks",
+   "Fooling a Complete Neural Network Verifier"
+  ]
+ },
+ {
+  "pid": "326/1549",
+  "name": "Bernd Prach",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CVPR 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "1-Lipschitz Layers Compared: Memory, Speed, and Certifiable Robustness",
+   "Almost-Orthogonal Layers for Efficient General-Purpose Lipschitz Networks"
+  ]
+ },
+ {
+  "pid": "236/6319",
+  "name": "Boxin Wang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying Out-of-Domain Generalization for Blackbox Functions",
+   "Improving Certified Robustness via Statistical Learning with Logical Reasoning"
+  ]
+ },
+ {
+  "pid": "130/9842",
+  "name": "Caterina Urban",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "OOPSLA 1; NFM 1",
+  "affiliation": "Inria, Paris, France",
+  "homepage": "https://caterinaurban.github.io/",
+  "titles": [
+   "Verifying Attention Robustness of Deep Neural Networks Against Semantic Perturbations",
+   "Perfectly parallel fairness certification of neural networks"
+  ]
+ },
+ {
+  "pid": "248/5802",
+  "name": "Chenhao Sun",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Dual Randomized Smoothing: Beyond Global Noise Variance",
+   "Average Certified Radius is a Poor Metric for Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "206/6472",
+  "name": "Ching-Yun Ko",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Higher-Order Certification For Randomized Smoothing",
+   "POPQORN: Quantifying Robustness of Recurrent Neural Networks"
+  ]
+ },
+ {
+  "pid": "133/5336-1",
+  "name": "Chong Xiang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; CVPR 1",
+  "affiliation": "Shanghai Jiao Tong University, Shanghai, China",
+  "homepage": "",
+  "titles": [
+   "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+   "PatchDEMUX: A Certifiably Robust Framework for Multi-label Classifiers Against Adversarial Patches"
+  ]
+ },
+ {
+  "pid": "72/2103-1",
+  "name": "Christian Schilling",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2023",
+  "last_year": "2023",
+  "venues": "NeurIPS 1; NFM 1",
+  "affiliation": "Aalborg University, Denmark",
+  "homepage": "https://www.christianschilling.net/",
+  "titles": [
+   "Safety Verification of Decision-Tree Policies in Continuous Time",
+   "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes"
+  ]
+ },
+ {
+  "pid": "228/5443",
+  "name": "Christopher Brix",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes",
+   "Provably Bounding Neural Network Preimages"
+  ]
+ },
+ {
+  "pid": "245/4284",
+  "name": "Chulin Xie",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "CoPur: Certifiably Robust Collaborative Inference via Feature Purification",
+   "CRFL: Certifiably Robust Federated Learning against Backdoor Attacks"
+  ]
+ },
+ {
+  "pid": "124/0310",
+  "name": "Chunrong Fang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "CVPR 2",
+  "affiliation": "Nanjing University, China",
+  "homepage": "",
+  "titles": [
+   "Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone",
+   "Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation"
+  ]
+ },
+ {
+  "pid": "258/6442",
+  "name": "Corentin Friedrich",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICML 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Fast and Flexible Robustness Certificates for Semantic Segmentation",
+   "Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks"
+  ]
+ },
+ {
+  "pid": "292/3709",
+  "name": "Cornelius Emde",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Shh, don't say that! Domain Certification in LLMs",
+   "Towards Certification of Uncertainty Calibration under Adversarial Attacks"
+  ]
+ },
+ {
+  "pid": "327/1678",
+  "name": "David Boetius",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Solving Probabilistic Verification Problems of Neural Networks using Branch and Bound",
+   "A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"
+  ]
+ },
+ {
+  "pid": "d/DavidLDill",
+  "name": "David L. Dill",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2017",
+  "last_year": "2019",
+  "venues": "CAV 2",
+  "affiliation": "Stanford University, Department of Computer Science, CA, USA",
+  "homepage": "http://verify.stanford.edu/dill",
+  "titles": [
+   "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
+   "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "135/7202",
+  "name": "Ding Zhao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+   "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing"
+  ]
+ },
+ {
+  "pid": "150/8968",
+  "name": "Dorde Zikelic",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "NeurIPS 2",
+  "affiliation": "Singapore Management University, Singapore",
+  "homepage": "",
+  "titles": [
+   "Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees",
+   "Infinite Time Horizon Safety of Bayesian Neural Networks"
+  ]
+ },
+ {
+  "pid": "137/9852",
+  "name": "Du Jiang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting the Certified Robustness of L-infinity Distance Nets",
+   "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+  ]
+ },
+ {
+  "pid": "236/4508",
+  "name": "Elan Rosenfeld",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Robustness to Label-Flipping Attacks via Randomized Smoothing",
+   "Certified Adversarial Robustness via Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "329/4351",
+  "name": "Elías Abad-Rocamora",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Robustness Under Bounded Levenshtein Distance",
+   "Sound and Complete Verification of Polynomial Networks"
+  ]
+ },
+ {
+  "pid": "b/EzioBartocci",
+  "name": "Ezio Bartocci",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "ICML 1; CAV 1",
+  "affiliation": "TU Wien, Vienna, Austria",
+  "homepage": "http://www.eziobartocci.com/",
+  "titles": [
+   "Exact Upper and Lower Bounds for the Output Distribution of Neural Networks with Random Inputs",
+   "Verifying Global Two-Safety Properties in Neural Networks with Confidence"
+  ]
+ },
+ {
+  "pid": "66/9442",
+  "name": "Ezra Winston",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Estimating Lipschitz constants of monotone deep equilibrium models",
+   "Certified Robustness to Label-Flipping Attacks via Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "07/6378-11",
+  "name": "Fan Wu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 2",
+  "affiliation": "University of Illinois at Urbana-Champaign, Urbana, IL, USA",
+  "homepage": "https://kkkkahlua.github.io/",
+  "titles": [
+   "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+   "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing"
+  ]
+ },
+ {
+  "pid": "94/5644",
+  "name": "Farshad Khorrami",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "LipSim: A Provably Robust Perceptual Similarity Metric",
+   "Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models"
+  ]
+ },
+ {
+  "pid": "218/5843",
+  "name": "Francisco Eiras",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICML 2",
+  "affiliation": "University of Oxford, UK",
+  "homepage": "https://openreview.net/profile?id=~Francisco_Eiras1",
+  "titles": [
+   "Efficient Error Certification for Physics-Informed Neural Networks",
+   "Certifying Ensembles: A General Certification Theory with S-Lipschitzness"
+  ]
+ },
+ {
+  "pid": "15/6625",
+  "name": "Franck Mamalet",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICML 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Fast and Flexible Robustness Certificates for Semantic Segmentation",
+   "Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks"
+  ]
+ },
+ {
+  "pid": "37/8653",
+  "name": "Grani A. Hanasusanto",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "NeurIPS 2",
+  "affiliation": "University of Texas at Austin, TX, USA",
+  "homepage": "http://grani.hanasusanto.com/",
+  "titles": [
+   "Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification",
+   "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes"
+  ]
+ },
+ {
+  "pid": "53/6132-3",
+  "name": "Greg Anderson",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "NeurIPS 1; PLDI 1",
+  "affiliation": "Reed College, Portland, OR, USA",
+  "homepage": "https://gavlegoat.github.io/",
+  "titles": [
+   "Neurosymbolic Reinforcement Learning with Formally Verified Exploration",
+   "Optimization and abstraction: a synergistic approach for analyzing neural network robustness"
+  ]
+ },
+ {
+  "pid": "75/6117-2",
+  "name": "Grigorios Chrysos",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "University of Wisconsin-Madison, WI, USA",
+  "homepage": "https://grigorisg9gr.github.io/_pages/about/",
+  "titles": [
+   "Certified Robustness Under Bounded Levenshtein Distance",
+   "Sound and Complete Verification of Polynomial Networks"
+  ]
+ },
+ {
+  "pid": "26/5371-6",
+  "name": "Hang Su",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "Tsinghua University, Department of Computer Science and Technology, Beijing, China",
+  "homepage": "https://openreview.net/profile?id=~Hang_Su3",
+  "titles": [
+   "Diffusion Models are Certifiably Robust Classifiers",
+   "GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "32/1612",
+  "name": "Hongchao Zhang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "SEEV: Synthesis with Efficient Exact Verification for ReLU Neural Barrier Functions",
+   "Exact Verification of ReLU Neural Control Barrier Functions"
+  ]
+ },
+ {
+  "pid": "50/9925",
+  "name": "Hongwei Jin",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying Robust Graph Classification under Orthogonal Gromov-Wasserstein Threats",
+   "Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks"
+  ]
+ },
+ {
+  "pid": "10/7611",
+  "name": "Ilya P. Razenshteyn",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2020",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Randomized Smoothing of All Shapes and Sizes",
+   "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "340/3920",
+  "name": "Isha Chaudhary",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "How Catastrophic is Your LLM? Certifying Risks in Conversation",
+   "Certifying Counterfactual Bias in LLMs"
+  ]
+ },
+ {
+  "pid": "210/2304",
+  "name": "Jeet Mohapatra",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "NeurIPS 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Higher-Order Certification For Randomized Smoothing",
+   "Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations"
+  ]
+ },
+ {
+  "pid": "205/2739",
+  "name": "Ji Guan",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verifying Fairness in Quantum Machine Learning",
+   "Robustness Verification of Quantum Classifiers"
+  ]
+ },
+ {
+  "pid": "379/5970",
+  "name": "Jiate Li",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICLR 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks",
+   "Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations"
+  ]
+ },
+ {
+  "pid": "10/239-13",
+  "name": "Jiawei Zhang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Double Sampling Randomized Smoothing",
+   "Improving Certified Robustness via Statistical Learning with Logical Reasoning"
+  ]
+ },
+ {
+  "pid": "326/0408",
+  "name": "Jiaxu Tian",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "NeurIPS 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks",
+   "Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning"
+  ]
+ },
+ {
+  "pid": "296/9721",
+  "name": "Jiayin Jin",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Dimension-independent Certified Neural Network Watermarks via Mollifier Smoothing",
+   "Input-agnostic Certified Group Fairness via Gaussian Parameter Smoothing"
+  ]
+ },
+ {
+  "pid": "117/4898",
+  "name": "Jinfeng Yi",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Fast Certified Robust Training with Short Warmup",
+   "Provably Robust Metric Learning"
+  ]
+ },
+ {
+  "pid": "72/2590-12",
+  "name": "Jing Liu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "CVPR 1; ASE 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Verified Training for Robust Image Classifications via Abstraction",
+   "Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks"
+  ]
+ },
+ {
+  "pid": "228/7897",
+  "name": "Johannes Klicpera",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks",
+   "Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More"
+  ]
+ },
+ {
+  "pid": "232/1887",
+  "name": "Julian Bitterwolf",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Adversarially Robust Detection of Out-of-Distribution Data (Almost) for Free",
+   "Certifiably Adversarially Robust Detection of Out-of-Distribution Data"
+  ]
+ },
+ {
+  "pid": "295/5349",
+  "name": "Kai Yuanqing Xiao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2019",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Evaluating Robustness of Neural Networks with Mixed Integer Programming",
+   "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+  ]
+ },
+ {
+  "pid": "18/2428-1",
+  "name": "Kai-Wei Chang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness Verification for Transformers",
+   "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+  ]
+ },
+ {
+  "pid": "92/5602",
+  "name": "Krishnendu Chatterjee",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees",
+   "Infinite Time Horizon Safety of Bayesian Neural Networks"
+  ]
+ },
+ {
+  "pid": "23/7347",
+  "name": "Lam Nguyen",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2026",
+  "last_year": "2026",
+  "venues": "CVPR 1; FSE 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verifying Neural Network Robustness with Dual Perturbations",
+   "Verifying Structural Robustness of Deep Neural Network"
+  ]
+ },
+ {
+  "pid": "178/9876",
+  "name": "Lingjuan Lyu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2023",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Dimension-independent Certified Neural Network Watermarks via Mollifier Smoothing",
+   "Towards Robustness Certification Against Universal Perturbations"
+  ]
+ },
+ {
+  "pid": "152/4678",
+  "name": "Long H. Pham",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ISSTA 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Continual Learning for Neural Network Regression",
+   "Verifying Neural Networks Against Backdoor Attacks"
+  ]
+ },
+ {
+  "pid": "275/3108",
+  "name": "Marco Sälzer",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning",
+   "Fundamental Limits in Formal Verification of Message-Passing Neural Networks"
+  ]
+ },
+ {
+  "pid": "209/9862",
+  "name": "Mathias Lechner",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2023",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees",
+   "Infinite Time Horizon Safety of Bayesian Neural Networks"
+  ]
+ },
+ {
+  "pid": "250/2270",
+  "name": "Maurice Weber",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying Out-of-Domain Generalization for Blackbox Functions",
+   "Certifying Some Distributional Fairness with Subpopulation Decomposition"
+  ]
+ },
+ {
+  "pid": "172/9447",
+  "name": "Meng Pang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICLR 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks",
+   "Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations"
+  ]
+ },
+ {
+  "pid": "294/8640",
+  "name": "Miklós Z. Horváth",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Randomized Smoothing with Variance Reduced Classifiers",
+   "(De-)Randomized Smoothing for Decision Stump Ensembles"
+  ]
+ },
+ {
+  "pid": "54/3913",
+  "name": "Mingjie Sun",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2023",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "(Certified!!) Adversarial Robustness for Free!",
+   "Denoised Smoothing: A Provable Defense for Pretrained Classifiers"
+  ]
+ },
+ {
+  "pid": "47/6668",
+  "name": "Minlie Huang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness Verification for Transformers",
+   "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+  ]
+ },
+ {
+  "pid": "198/0542",
+  "name": "Neil G. Marchant",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness",
+   "RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion"
+  ]
+ },
+ {
+  "pid": "215/5003",
+  "name": "Nezihe Merve Gürel",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2024",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+   "COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits"
+  ]
+ },
+ {
+  "pid": "322/0183",
+  "name": "Omri Isac",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2026",
+  "venues": "CAV 1; NFM 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Towards Formal Verification of Deep Neural Networks for Object Detection",
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks"
+  ]
+ },
+ {
+  "pid": "215/3389",
+  "name": "Patrick Musau",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
+   "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems"
+  ]
+ },
+ {
+  "pid": "50/805",
+  "name": "Paul Montague",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
+   "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity"
+  ]
+ },
+ {
+  "pid": "236/4994",
+  "name": "Peixin Wang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "NeurIPS 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems",
+   "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks"
+  ]
+ },
+ {
+  "pid": "94/3594",
+  "name": "Pradeep Ravikumar",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certified Robustness to Label-Flipping Attacks via Randomized Smoothing",
+   "MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius"
+  ]
+ },
+ {
+  "pid": "55/7775",
+  "name": "Qian Hu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "How Catastrophic is Your LLM? Certifying Risks in Conversation",
+   "Certifying Counterfactual Bias in LLMs"
+  ]
+ },
+ {
+  "pid": "89/11072",
+  "name": "Quentin Barthélemy",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "The Lipschitz-Variance-Margin Tradeoff for Enhanced Randomized Smoothing",
+   "Efficient Bound of Lipschitz Constant for Convolutional Layers by Gram Iteration"
+  ]
+ },
+ {
+  "pid": "24/3213-1",
+  "name": "Rahul Gupta",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "How Catastrophic is Your LLM? Certifying Risks in Conversation",
+   "Certifying Counterfactual Bias in LLMs"
+  ]
+ },
+ {
+  "pid": "276/7051",
+  "name": "Renjue Li",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2025",
+  "venues": "ICSE 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Patch Synthesis for Property Repair of Deep Neural Networks",
+   "Towards Practical Robustness Analysis for DNNs based on PAC-Model Learning"
+  ]
+ },
+ {
+  "pid": "214/7380-5",
+  "name": "Ruihan Zhang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "OOPSLA 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Correct-by-Construction: Certified Individual Fairness through Neural Network Training",
+   "Certified Robust Accuracy of Neural Networks Are Bounded Due to Bayes Errors"
+  ]
+ },
+ {
+  "pid": "322/0262",
+  "name": "Ruikun Zhou",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification",
+   "Neural Lyapunov Control of Unknown Nonlinear Systems with Stability Guarantees"
+  ]
+ },
+ {
+  "pid": "273/3924",
+  "name": "Samuel Teuber",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2024",
+  "last_year": "2026",
+  "venues": "NeurIPS 1; ICFP 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice",
+   "Provably Safe Neural Network Controllers via Differential Dynamic Logic"
+  ]
+ },
+ {
+  "pid": "155/9882",
+  "name": "Sejun Park",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Floating-Point Neural Networks are Provably Robust Universal Approximators",
+   "SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness"
+  ]
+ },
+ {
+  "pid": "172/8745",
+  "name": "Shiqing Ma",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "CVPR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone",
+   "Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation"
+  ]
+ },
+ {
+  "pid": "28/9988",
+  "name": "Shiyu Chang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2019",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness",
+   "Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers"
+  ]
+ },
+ {
+  "pid": "01/9629",
+  "name": "Song Xia",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2024",
+  "last_year": "2026",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "CERTIFIED VS. EMPIRICAL ADVERSARIAL ROBUSTNESS VIA HYBRID CONVOLUTIONS WITH ATTENTION STOCHASTICITY",
+   "Mitigating the Curse of Dimensionality for Certified Robustness via Dual Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "20/6822",
+  "name": "Stefan Leue",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Solving Probabilistic Verification Problems of Neural Networks using Branch and Bound",
+   "A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"
+  ]
+ },
+ {
+  "pid": "c/SungWooChoi",
+  "name": "Sung Woo Choi",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems",
+   "NNV 2.0: The Neural Network Verification Tool"
+  ]
+ },
+ {
+  "pid": "151/5889",
+  "name": "Sungyoon Lee",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Towards Better Understanding of Training Certifiably Robust Models against Adversarial Examples",
+   "Lipschitz-Certifiable Training with a Tight Outer Bound"
+  ]
+ },
+ {
+  "pid": "332/2244",
+  "name": "Taha Entesari",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Compositional Curvature Bounds for Deep Neural Networks",
+   "Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization"
+  ]
+ },
+ {
+  "pid": "x/TaoXie",
+  "name": "Tao Xie",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Double Sampling Randomized Smoothing",
+   "On the Certified Robustness for Ensemble Models and Beyond"
+  ]
+ },
+ {
+  "pid": "267/2403",
+  "name": "Thibaut Boissin",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks",
+   "Robust One-Class Classification with Signed Distance Function using 1-Lipschitz Neural Networks"
+  ]
+ },
+ {
+  "pid": "l/ThomasLukasiewicz",
+  "name": "Thomas Lukasiewicz",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Shh, don't say that! Domain Certification in LLMs",
+   "Towards Certification of Uncertainty Calibration under Adversarial Attacks"
+  ]
+ },
+ {
+  "pid": "348/6946",
+  "name": "Thomas Massena",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICML 1; ECCV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Fast and Flexible Robustness Certificates for Semantic Segmentation",
+   "Efficient Robust Conformal Prediction via Lipschitz-Bounded Networks"
+  ]
+ },
+ {
+  "pid": "222/5386",
+  "name": "Tianhao Wei",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks",
+   "NN4SysBench: Characterizing Neural Network Verification for Computer Systems"
+  ]
+ },
+ {
+  "pid": "22/1512-2",
+  "name": "Tong Chen",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification",
+   "Semialgebraic Optimization for Lipschitz Constants of ReLU Networks"
+  ]
+ },
+ {
+  "pid": "75/5056",
+  "name": "Tong Wu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2025",
+  "venues": "NeurIPS 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+   "Towards Evaluating and Training Verifiably Robust Neural Networks"
+  ]
+ },
+ {
+  "pid": "400/7636-1",
+  "name": "Wang Fang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2022",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verifying Fairness in Quantum Machine Learning",
+   "Robustness Verification of Quantum Classifiers"
+  ]
+ },
+ {
+  "pid": "36/5376",
+  "name": "Wang Lin",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "CVPR 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation",
+   "Robustness Verification of Classification Deep Neural Networks via Linear Programming"
+  ]
+ },
+ {
+  "pid": "72/5686-1",
+  "name": "Weiming Xiang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2020",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Verification of Deep Convolutional Neural Networks Using ImageStars",
+   "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems"
+  ]
+ },
+ {
+  "pid": "206/7258",
+  "name": "Wen Kokke",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
+   "Neural Network Robustness as a Verification Property: A Principled Case Study"
+  ]
+ },
+ {
+  "pid": "243/5853-2",
+  "name": "Wenxiao Wang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness",
+   "Improved Certified Defenses against Data Poisoning with (Deterministic) Finite Aggregation"
+  ]
+ },
+ {
+  "pid": "19/1551-13",
+  "name": "Xiaodong Yang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2021",
+  "venues": "CAV 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
+   "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems"
+  ]
+ },
+ {
+  "pid": "47/8617",
+  "name": "Xiaojun Xu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "On the Certified Robustness for Ensemble Models and Beyond",
+   "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness"
+  ]
+ },
+ {
+  "pid": "146/9100",
+  "name": "Xiaoyu Cao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2020",
+  "last_year": "2022",
+  "venues": "ICLR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
+   "Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "07/4580-1",
+  "name": "Yang Zhou",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "ICML 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Dimension-independent Certified Neural Network Watermarks via Mollifier Smoothing",
+   "Input-agnostic Certified Group Fairness via Gaussian Parameter Smoothing"
+  ]
+ },
+ {
+  "pid": "72/7715-1",
+  "name": "Yanting Wang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2026",
+  "venues": "ICLR 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method",
+   "MMCert: Provable Defense Against Adversarial Attacks to Multi-Modal Models"
+  ]
+ },
+ {
+  "pid": "183/0980",
+  "name": "Yinpeng Dong",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Diffusion Models are Certifiably Robust Classifiers",
+   "GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "172/6565",
+  "name": "Yiting Wu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2023",
+  "venues": "ASE 1; ISSTA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation",
+   "Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks"
+  ]
+ },
+ {
+  "pid": "251/9586",
+  "name": "Yizhak Yisrael Elboher",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2020",
+  "last_year": "2026",
+  "venues": "CAV 1; NFM 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Towards Formal Verification of Deep Neural Networks for Object Detection",
+   "An Abstraction-Based Framework for Neural Network Verification"
+  ]
+ },
+ {
+  "pid": "152/3962-3",
+  "name": "Yuan Xiao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "CVPR 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone",
+   "Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation"
+  ]
+ },
+ {
+  "pid": "117/0906",
+  "name": "Yun Dong",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "ICLR 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks",
+   "Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations"
+  ]
+ },
+ {
+  "pid": "346/8038",
+  "name": "Yuval Shapira",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2024",
+  "venues": "OOPSLA 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Few-Pixel Robustness Verification via Covering Verification Designs",
+   "Deep Learning Robustness Verification for Few-Pixel Attacks"
+  ]
+ },
+ {
+  "pid": "241/6250",
+  "name": "Zhaoyang Lyu",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "ICML 1; CVPR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Towards Evaluating and Training Verifiably Robust Neural Networks",
+   "POPQORN: Quantifying Robustness of Recurrent Neural Networks"
+  ]
+ },
+ {
+  "pid": "68/3884",
+  "name": "Zhengfeng Yang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2021",
+  "venues": "CVPR 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation",
+   "Robustness Verification of Classification Deep Neural Networks via Linear Programming"
+  ]
+ },
+ {
+  "pid": "98/4896-1",
+  "name": "Zhenya Zhang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "OOPSLA 1; CAV 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Precise Verification of Transformers Through ReLU-Catalyzed Abstraction Refinement",
+   "Efficient Incremental Verification of Neural Networks Guided by Counterexample Potentiality"
+  ]
+ },
+ {
+  "pid": "173/5212",
+  "name": "Zhikuan Zhao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying Out-of-Domain Generalization for Blackbox Functions",
+   "Improving Certified Robustness via Statistical Learning with Logical Reasoning"
+  ]
+ },
+ {
+  "pid": "340/3889",
+  "name": "Zhiming Chi",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2025",
+  "last_year": "2026",
+  "venues": "ICLR 1; ICSE 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Certifying the Full YOLO Pipeline: A Probabilistic Verification Approach",
+   "Patch Synthesis for Property Repair of Deep Neural Networks"
+  ]
+ },
+ {
+  "pid": "334/1651",
+  "name": "Zhiyi Xue",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2023",
+  "last_year": "2023",
+  "venues": "CVPR 1; ISSTA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Verified Training for Robust Image Classifications via Abstraction",
+   "A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation"
+  ]
+ },
+ {
+  "pid": "270/0220",
+  "name": "Zhongkai Hao",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICML 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Diffusion Models are Certifiably Robust Classifiers",
+   "GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "247/9274",
+  "name": "Zhongkui Ma",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2024",
+  "last_year": "2025",
+  "venues": "POPL 1; OOPSLA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Convex Hull Approximation for Activation Functions",
+   "ReLU Hull Approximation"
+  ]
+ },
+ {
+  "pid": "152/4206",
+  "name": "Zhuolin Yang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "On the Certified Robustness for Ensemble Models and Beyond",
+   "Improving Certified Robustness via Statistical Learning with Logical Reasoning"
+  ]
+ },
+ {
+  "pid": "272/9127",
+  "name": "Zhuoqun Huang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2023",
+  "last_year": "2025",
+  "venues": "NeurIPS 2",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness",
+   "RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion"
+  ]
+ },
+ {
+  "pid": "78/8711-16",
+  "name": "Zi Wang",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 2,
+  "first_year": "2022",
+  "last_year": "2024",
+  "venues": "ICLR 1; POPL 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks",
+   "Interval universal approximation for neural networks"
+  ]
+ }
+]

@@ -1,0 +1,5 @@
+{{- if and (eq .Section "researchers") .Params.key }}
+{{- $r := index (where hugo.Data.researchers "slug" .Params.key) 0 }}
+{{- .Title }} – {{ $r.group_name }} | {{ site.Title }}
+{{- else if .IsHome }}{{ site.Title }}
+{{- else }}{{ .Title }} | {{ site.Title }}{{ end -}}
