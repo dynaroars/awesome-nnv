@@ -131,13 +131,13 @@
     "papers": 2
    },
    {
-    "slug": "hong-ming-chiu",
-    "name": "Hong-Ming Chiu",
+    "slug": "philip-torr",
+    "name": "Philip Torr",
     "papers": 2
    },
    {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
+    "slug": "hong-ming-chiu",
+    "name": "Hong-Ming Chiu",
     "papers": 2
    },
    {
@@ -3467,13 +3467,13 @@
   "full_name": "International Conference on Learning Representations",
   "field": "ml",
   "field_name": "ML",
-  "papers": 95,
-  "citations": 6274,
+  "papers": 96,
+  "citations": 6322,
   "venues": {
-   "iclr": 95
+   "iclr": 96
   },
   "fields": {
-   "ml": 95,
+   "ml": 96,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -3482,7 +3482,7 @@
   },
   "areas": {
    "complete": 6,
-   "bounds": 11,
+   "bounds": 12,
    "probabilistic": 25,
    "training": 21,
    "repair": 1,
@@ -3498,7 +3498,7 @@
    "2018": 2,
    "2019": 4,
    "2020": 13,
-   "2021": 11,
+   "2021": 12,
    "2022": 12,
    "2023": 14,
    "2024": 14,
@@ -3518,7 +3518,7 @@
    "2026": 5351
   },
   "all_papers": 16565,
-  "share": 0.57,
+  "share": 0.58,
   "missing": [],
   "not_held": [],
   "researchers": [
@@ -4735,7 +4735,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      },
      {
       "name": "Rudy Bunel",
@@ -6462,6 +6462,44 @@
     ]
    },
    {
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
     "id": "dvijotham2020framework",
     "key": "conf/iclr/DvijothamHBKQGX20",
     "venue": "iclr",
@@ -7203,13 +7241,13 @@
   "full_name": "Conference on Neural Information Processing Systems",
   "field": "ml",
   "field_name": "ML",
-  "papers": 163,
-  "citations": 16165,
+  "papers": 164,
+  "citations": 16170,
   "venues": {
-   "neurips": 163
+   "neurips": 164
   },
   "fields": {
-   "ml": 163,
+   "ml": 164,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -7218,7 +7256,7 @@
   },
   "areas": {
    "complete": 12,
-   "bounds": 25,
+   "bounds": 26,
    "probabilistic": 41,
    "training": 26,
    "repair": 3,
@@ -7234,7 +7272,7 @@
    "2018": 9,
    "2019": 14,
    "2020": 26,
-   "2021": 11,
+   "2021": 12,
    "2022": 24,
    "2023": 19,
    "2024": 18,
@@ -7818,7 +7856,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      }
     ]
    },
@@ -7887,7 +7925,7 @@
      },
      {
       "name": "Ben Wooding",
-      "slug": ""
+      "slug": "ben-wooding"
      },
      {
       "name": "Taylor Johnson",
@@ -9930,7 +9968,7 @@
     "authors": [
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Anna Lukina",
@@ -11148,6 +11186,40 @@
      {
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
+     }
+    ]
+   },
+   {
+    "id": "behl2021overcoming",
+    "key": "conf/nips/BehlKTD21",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2021,
+    "field": "ml",
+    "title": "Overcoming the Convex Barrier for Simplex Inputs",
+    "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+    "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Harkirat Singh Behl",
+      "slug": ""
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
      }
     ]
    },
@@ -14596,6 +14668,11 @@
     "slug": "xiaowei-huang",
     "name": "Xiaowei Huang",
     "papers": 1
+   },
+   {
+    "slug": "benedikt-bruckner",
+    "name": "Benedikt Brückner",
+    "papers": 1
    }
   ],
   "paper_list": [
@@ -14656,7 +14733,7 @@
     "authors": [
      {
       "name": "Benedikt Brückner",
-      "slug": ""
+      "slug": "benedikt-bruckner"
      },
      {
       "name": "Alejandro J. Mercado",
@@ -19731,6 +19808,11 @@
     "slug": "yasser-shoukry",
     "name": "Yasser Shoukry",
     "papers": 1
+   },
+   {
+    "slug": "christian-schilling",
+    "name": "Christian Schilling",
+    "papers": 1
    }
   ],
   "paper_list": [
@@ -19923,7 +20005,7 @@
      },
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Matthias Althoff",

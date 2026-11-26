@@ -2152,22 +2152,6 @@
   ]
  },
  {
-  "pid": "72/2103-1",
-  "name": "Christian Schilling",
-  "nnv_papers": 2,
-  "last_author": 0,
-  "first_author": 1,
-  "first_year": "2023",
-  "last_year": "2023",
-  "venues": "NeurIPS 1; NFM 1",
-  "affiliation": "Aalborg University, Denmark",
-  "homepage": "https://www.christianschilling.net/",
-  "titles": [
-   "Safety Verification of Decision-Tree Policies in Continuous Time",
-   "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes"
-  ]
- },
- {
   "pid": "245/4284",
   "name": "Chulin Xie",
   "nnv_papers": 2,
@@ -2501,6 +2485,22 @@
   "titles": [
    "Diffusion Models are Certifiably Robust Classifiers",
    "GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing"
+  ]
+ },
+ {
+  "pid": "199/2125",
+  "name": "Harkirat Singh Behl",
+  "nnv_papers": 2,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2021",
+  "last_year": "2021",
+  "venues": "ICLR 1; NeurIPS 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Scaling the Convex Barrier with Active Sets",
+   "Overcoming the Convex Barrier for Simplex Inputs"
   ]
  },
  {

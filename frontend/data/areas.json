@@ -169,13 +169,13 @@
     "papers": 1
    },
    {
-    "slug": "deepmind",
-    "name": "DeepMind verification",
+    "slug": "nnv",
+    "name": "NNV (VeriVITAL)",
     "papers": 1
    },
    {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
+    "slug": "deepmind",
+    "name": "DeepMind verification",
     "papers": 1
    },
    {
@@ -204,8 +204,18 @@
     "papers": 1
    },
    {
+    "slug": "oval",
+    "name": "OVAL (Oxford)",
+    "papers": 1
+   },
+   {
     "slug": "gloro",
     "name": "GloRo (CMU)",
+    "papers": 1
+   },
+   {
+    "slug": "tvg",
+    "name": "Torr Vision Group (Oxford)",
     "papers": 1
    },
    {
@@ -216,11 +226,6 @@
    {
     "slug": "dimakis",
     "name": "Dimakis group (UT Austin)",
-    "papers": 1
-   },
-   {
-    "slug": "tvg",
-    "name": "Torr Vision Group (Oxford)",
     "papers": 1
    },
    {
@@ -241,11 +246,6 @@
    {
     "slug": "mipverify",
     "name": "MIPVerify (MIT)",
-    "papers": 1
-   },
-   {
-    "slug": "oval",
-    "name": "OVAL (Oxford)",
     "papers": 1
    },
    {
@@ -2317,11 +2317,11 @@
   "key": "bounds",
   "name": "Bound propagation & abstract interpretation",
   "description": "Sound over-approximation of network behaviour: abstract domains, linear relaxations, LP and SDP bounds.",
-  "papers": 70,
-  "citations": 9644,
+  "papers": 72,
+  "citations": 9697,
   "venues": {
-   "iclr": 11,
-   "neurips": 25,
+   "iclr": 12,
+   "neurips": 26,
    "cvpr": 4,
    "pldi": 3,
    "cav": 6,
@@ -2332,7 +2332,7 @@
    "ase": 1
   },
   "fields": {
-   "ml": 48,
+   "ml": 50,
    "cv": 4,
    "pl": 10,
    "se": 2,
@@ -2341,7 +2341,7 @@
   },
   "areas": {
    "complete": 0,
-   "bounds": 70,
+   "bounds": 72,
    "probabilistic": 0,
    "training": 0,
    "repair": 0,
@@ -2357,7 +2357,7 @@
    "2018": 6,
    "2019": 10,
    "2020": 9,
-   "2021": 4,
+   "2021": 6,
    "2022": 10,
    "2023": 8,
    "2024": 8,
@@ -2365,7 +2365,7 @@
    "2026": 8
   },
   "tagged": 44,
-  "tracked": 51,
+  "tracked": 53,
   "researchers": [
    {
     "slug": "martin-vechev",
@@ -2396,6 +2396,13 @@
     "group_name": "α,β-CROWN"
    },
    {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 5,
+    "group": "deepmind",
+    "group_name": "DeepMind verification"
+   },
+   {
     "slug": "markus-puschel",
     "name": "Markus Püschel",
     "papers": 5,
@@ -2410,8 +2417,15 @@
     "group_name": "ERAN (SRI Lab)"
    },
    {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 4,
+    "group": "tvg",
+    "group_name": "Torr Vision Group (Oxford)"
+   },
+   {
+    "slug": "rudy-bunel",
+    "name": "Rudy Bunel",
     "papers": 4,
     "group": "deepmind",
     "group_name": "DeepMind verification"
@@ -2438,6 +2452,13 @@
     "group_name": "Dimakis group (UT Austin)"
    },
    {
+    "slug": "m-pawan-kumar",
+    "name": "M. Pawan Kumar",
+    "papers": 3,
+    "group": "oval",
+    "group_name": "OVAL (Oxford)"
+   },
+   {
     "slug": "volkan-cevher",
     "name": "Volkan Cevher",
     "papers": 3,
@@ -2450,13 +2471,6 @@
     "papers": 3,
     "group": "abcrown",
     "group_name": "α,β-CROWN"
-   },
-   {
-    "slug": "rudy-bunel",
-    "name": "Rudy Bunel",
-    "papers": 3,
-    "group": "deepmind",
-    "group_name": "DeepMind verification"
    }
   ],
   "groups": [
@@ -2478,7 +2492,17 @@
    {
     "slug": "deepmind",
     "name": "DeepMind verification",
+    "papers": 6
+   },
+   {
+    "slug": "tvg",
+    "name": "Torr Vision Group (Oxford)",
     "papers": 4
+   },
+   {
+    "slug": "oval",
+    "name": "OVAL (Oxford)",
+    "papers": 3
    },
    {
     "slug": "dimakis",
@@ -2508,11 +2532,6 @@
    {
     "slug": "weng-ucsd",
     "name": "Weng group (UCSD)",
-    "papers": 2
-   },
-   {
-    "slug": "tvg",
-    "name": "Torr Vision Group (Oxford)",
     "papers": 2
    },
    {
@@ -4000,6 +4019,78 @@
     ]
    },
    {
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "behl2021overcoming",
+    "key": "conf/nips/BehlKTD21",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2021,
+    "field": "ml",
+    "title": "Overcoming the Convex Barrier for Simplex Inputs",
+    "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+    "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Harkirat Singh Behl",
+      "slug": ""
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     }
+    ]
+   },
+   {
     "id": "chen2021semialgebraic",
     "key": "conf/nips/ChenLMP21",
     "venue": "neurips",
@@ -5142,7 +5233,7 @@
      },
      {
       "name": "Ben Wooding",
-      "slug": ""
+      "slug": "ben-wooding"
      },
      {
       "name": "Taylor Johnson",
@@ -5173,7 +5264,7 @@
     "authors": [
      {
       "name": "Benedikt Brückner",
-      "slug": ""
+      "slug": "benedikt-bruckner"
      },
      {
       "name": "Alejandro J. Mercado",
@@ -5704,7 +5795,7 @@
      },
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Matthias Althoff",
@@ -7571,7 +7662,7 @@
      },
      {
       "name": "Ben Wooding",
-      "slug": ""
+      "slug": "ben-wooding"
      },
      {
       "name": "Taylor Johnson",
@@ -12468,7 +12559,7 @@
    "2026": 6
   },
   "tagged": 19,
-  "tracked": 45,
+  "tracked": 46,
   "researchers": [
    {
     "slug": "martin-vechev",
@@ -12597,6 +12688,11 @@
     "papers": 2
    },
    {
+    "slug": "oval",
+    "name": "OVAL (Oxford)",
+    "papers": 2
+   },
+   {
     "slug": "marabou",
     "name": "Marabou",
     "papers": 1
@@ -12627,6 +12723,11 @@
     "papers": 1
    },
    {
+    "slug": "venus",
+    "name": "Venus (Imperial)",
+    "papers": 1
+   },
+   {
     "slug": "rubinstein",
     "name": "Rubinstein group (Melbourne)",
     "papers": 1
@@ -12634,11 +12735,6 @@
    {
     "slug": "ibm",
     "name": "IBM Research",
-    "papers": 1
-   },
-   {
-    "slug": "venus",
-    "name": "Venus (Imperial)",
     "papers": 1
    },
    {
@@ -12659,11 +12755,6 @@
    {
     "slug": "fazlyab",
     "name": "Fazlyab group (JHU)",
-    "papers": 1
-   },
-   {
-    "slug": "oval",
-    "name": "OVAL (Oxford)",
     "papers": 1
    },
    {
@@ -12786,7 +12877,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      }
     ]
    },
@@ -13101,7 +13192,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      },
      {
       "name": "Rudy Bunel",
@@ -17270,7 +17361,7 @@
    "2026": 6
   },
   "tagged": 7,
-  "tracked": 25,
+  "tracked": 26,
   "researchers": [
    {
     "slug": "min-zhang",
@@ -17336,109 +17427,11 @@
     "group_name": "Henzinger group (ISTA)"
    },
    {
-    "slug": "zico-kolter",
-    "name": "Zico Kolter",
-    "papers": 1,
-    "group": "abcrown",
-    "group_name": "α,β-CROWN"
-   },
-   {
-    "slug": "soheil-feizi",
-    "name": "Soheil Feizi",
-    "papers": 1,
-    "group": "reliable-ai",
-    "group_name": "Reliable AI Lab (UMD)"
-   },
-   {
-    "slug": "cho-jui-hsieh",
-    "name": "Cho-Jui Hsieh",
-    "papers": 1,
-    "group": "abcrown",
-    "group_name": "α,β-CROWN"
-   },
-   {
-    "slug": "benjamin-rubinstein",
-    "name": "Benjamin Rubinstein",
-    "papers": 1,
-    "group": "rubinstein",
-    "group_name": "Rubinstein group (Melbourne)"
-   },
-   {
-    "slug": "zhouxing-shi",
-    "name": "Zhouxing Shi",
-    "papers": 1,
-    "group": "abcrown",
-    "group_name": "α,β-CROWN"
-   },
-   {
-    "slug": "luca-daniel",
-    "name": "Luca Daniel",
-    "papers": 1,
-    "group": "daniel-mit",
-    "group_name": "Daniel group (MIT)"
-   },
-   {
-    "slug": "hoang-dung-tran",
-    "name": "Hoang-Dung Tran",
-    "papers": 1,
-    "group": "nnv",
-    "group_name": "NNV (VeriVITAL)"
-   },
-   {
-    "slug": "mahyar-fazlyab",
-    "name": "Mahyar Fazlyab",
-    "papers": 1,
-    "group": "fazlyab",
-    "group_name": "Fazlyab group (JHU)"
-   },
-   {
-    "slug": "matthias-althoff",
-    "name": "Matthias Althoff",
-    "papers": 1,
-    "group": "cora",
-    "group_name": "CORA (TUM)"
-   },
-   {
-    "slug": "yasser-shoukry",
-    "name": "Yasser Shoukry",
-    "papers": 1,
-    "group": "peregrinn",
-    "group_name": "PeregriNN (UCI)"
-   },
-   {
-    "slug": "matthew-l-daggitt",
-    "name": "Matthew L. Daggitt",
-    "papers": 1,
-    "group": "vehicle",
-    "group_name": "Vehicle"
-   },
-   {
-    "slug": "russ-tedrake",
-    "name": "Russ Tedrake",
-    "papers": 1,
-    "group": "mipverify",
-    "group_name": "MIPVerify (MIT)"
-   },
-   {
-    "slug": "swarat-chaudhuri",
-    "name": "Swarat Chaudhuri",
-    "papers": 1,
-    "group": "charon",
-    "group_name": "Charon (UT Austin)"
-   },
-   {
-    "slug": "george-j-pappas",
-    "name": "George J. Pappas",
-    "papers": 1,
-    "group": "pappas",
-    "group_name": "Pappas group (Penn)"
-   },
-   {
-    "slug": "ekaterina-komendantskaya",
-    "name": "Ekaterina Komendantskaya",
-    "papers": 1,
-    "group": "vehicle",
-    "group_name": "Vehicle"
+    "slug": "christian-schilling",
+    "name": "Christian Schilling",
+    "papers": 2,
+    "group": "juliareach",
+    "group_name": "JuliaReach"
    }
   ],
   "groups": [
@@ -17488,54 +17481,9 @@
     "papers": 2
    },
    {
-    "slug": "nnv",
-    "name": "NNV (VeriVITAL)",
-    "papers": 1
-   },
-   {
-    "slug": "reliable-ai",
-    "name": "Reliable AI Lab (UMD)",
-    "papers": 1
-   },
-   {
-    "slug": "cora",
-    "name": "CORA (TUM)",
-    "papers": 1
-   },
-   {
-    "slug": "rubinstein",
-    "name": "Rubinstein group (Melbourne)",
-    "papers": 1
-   },
-   {
-    "slug": "daniel-mit",
-    "name": "Daniel group (MIT)",
-    "papers": 1
-   },
-   {
-    "slug": "vehicle",
-    "name": "Vehicle",
-    "papers": 1
-   },
-   {
-    "slug": "mipverify",
-    "name": "MIPVerify (MIT)",
-    "papers": 1
-   },
-   {
-    "slug": "fazlyab",
-    "name": "Fazlyab group (JHU)",
-    "papers": 1
-   },
-   {
-    "slug": "peregrinn",
-    "name": "PeregriNN (UCI)",
-    "papers": 1
-   },
-   {
-    "slug": "pappas",
-    "name": "Pappas group (Penn)",
-    "papers": 1
+    "slug": "juliareach",
+    "name": "JuliaReach",
+    "papers": 2
    }
   ],
   "paper_list": [
@@ -18475,7 +18423,7 @@
     "authors": [
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Anna Lukina",
@@ -18552,7 +18500,7 @@
      },
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Matthias Althoff",
@@ -19753,6 +19701,13 @@
     "group_name": "Linyi Li group (SFU)"
    },
    {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 1,
+    "group": "deepmind",
+    "group_name": "DeepMind verification"
+   },
+   {
     "slug": "zhouxing-shi",
     "name": "Zhouxing Shi",
     "papers": 1,
@@ -19772,13 +19727,6 @@
     "papers": 1,
     "group": "daniel-mit",
     "group_name": "Daniel group (MIT)"
-   },
-   {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
-    "papers": 1,
-    "group": "deepmind",
-    "group_name": "DeepMind verification"
    },
    {
     "slug": "pin-yu-chen",
@@ -19872,6 +19820,11 @@
     "papers": 1
    },
    {
+    "slug": "venus",
+    "name": "Venus (Imperial)",
+    "papers": 1
+   },
+   {
     "slug": "weng-ucsd",
     "name": "Weng group (UCSD)",
     "papers": 1
@@ -19884,11 +19837,6 @@
    {
     "slug": "ibm",
     "name": "IBM Research",
-    "papers": 1
-   },
-   {
-    "slug": "venus",
-    "name": "Venus (Imperial)",
     "papers": 1
    },
    {
@@ -21758,6 +21706,13 @@
     "group_name": "α,β-CROWN"
    },
    {
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 1,
+    "group": "tvg",
+    "group_name": "Torr Vision Group (Oxford)"
+   },
+   {
     "slug": "luca-daniel",
     "name": "Luca Daniel",
     "papers": 1,
@@ -21770,13 +21725,6 @@
     "papers": 1,
     "group": "albarghouthi",
     "group_name": "Albarghouthi group (UW-Madison)"
-   },
-   {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
-    "papers": 1,
-    "group": "tvg",
-    "group_name": "Torr Vision Group (Oxford)"
    },
    {
     "slug": "clark-barrett",
@@ -21805,6 +21753,13 @@
     "papers": 1,
     "group": "iscas-zhang",
     "group_name": "ISCAS (Lijun Zhang)"
+   },
+   {
+    "slug": "benedikt-bruckner",
+    "name": "Benedikt Brückner",
+    "papers": 1,
+    "group": "venus",
+    "group_name": "Venus (Imperial)"
    }
   ],
   "groups": [
@@ -21844,13 +21799,13 @@
     "papers": 1
    },
    {
-    "slug": "rubinstein",
-    "name": "Rubinstein group (Melbourne)",
+    "slug": "tvg",
+    "name": "Torr Vision Group (Oxford)",
     "papers": 1
    },
    {
-    "slug": "tvg",
-    "name": "Torr Vision Group (Oxford)",
+    "slug": "rubinstein",
+    "name": "Rubinstein group (Melbourne)",
     "papers": 1
    },
    {
@@ -22141,7 +22096,7 @@
     "authors": [
      {
       "name": "Benedikt Brückner",
-      "slug": ""
+      "slug": "benedikt-bruckner"
      },
      {
       "name": "Alejandro J. Mercado",
@@ -24430,7 +24385,7 @@
     "authors": [
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Anna Lukina",

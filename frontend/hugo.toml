@@ -44,3 +44,8 @@ disableKinds = ['taxonomy', 'term', 'rss']
   identifier = 'about'
   pageRef = '/about'
   weight = 7
+[[menus.main]]
+  name = 'Feedback'
+  identifier = 'feedback'
+  pageRef = '/feedback'
+  weight = 8

@@ -79,5 +79,5 @@ and do not enter any score.
 
 ## Corrections
 
-Open an issue on [GitHub](https://github.com/thanhlexyz/awesome-nnv/issues) to add a researcher, move a paper to
-another area, or report a paper that should (not) count.
+Use the [Feedback](../feedback/) page, or open an issue on [GitHub](https://github.com/thanhlexyz/awesome-nnv/issues),
+to add a researcher, move a paper to another area, or report a paper that should (not) count.

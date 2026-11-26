@@ -13,7 +13,7 @@ from common import (all_papers, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR
 
 CONTENT = FRONTEND / "content"
 DATA = FRONTEND / "data"
-GROUP_COLORS = 8
+GROUP_COLORS = 9
 FIELD_NAME = {f["key"]: f["name"] for f in FIELDS}
 
 
@@ -176,8 +176,15 @@ def build_groups(groups, researchers, papers, names):
                     "paper_list": [paper_entry(p, names) for p in mine]})
     out = [g for g in out if g["members"]]
     out.sort(key=lambda g: (-g["score"], -g["papers"], g["name"]))
-    for k, g in enumerate(out):
-        g["color"] = f"g{k}" if k < GROUP_COLORS else "g-other"
+    pinned = [g["slug"] for g in out if groups[g["slug"]].get("legend") == "yes"]
+    colored = set(pinned[:GROUP_COLORS])
+    colored |= set([g["slug"] for g in out if g["slug"] not in colored][:GROUP_COLORS - len(colored)])
+    k = 0
+    for g in out:
+        if g["slug"] in colored:
+            g["color"], k = f"g{k}", k + 1
+        else:
+            g["color"] = "g-other"
     return out
 
 

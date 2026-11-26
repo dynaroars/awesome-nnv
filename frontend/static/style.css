@@ -624,6 +624,7 @@ ul.area-counts { columns: 2 ; padding-left: 1.2em ; }
 .g5 circle, .dot.g5 { fill: #009cba ; background: #009cba ; }
 .g6 circle, .dot.g6 { fill: #eb6834 ; background: #eb6834 ; }
 .g7 circle, .dot.g7 { fill: #5d6b2f ; background: #5d6b2f ; }
+.g8 circle, .dot.g8 { fill: #d6538f ; background: #d6538f ; }
 .g-other circle, .dot.g-other { fill: #9a9890 ; background: #9a9890 ; }
 svg.net .node.g3 text.deg, svg.net .node.g5 text.deg, svg.net .node.g-other text.deg { fill: #1d1d1f ; }
 code.pid { font-size: 0.82em ; color: var(--muted) ; margin-right: 0.4em ; }

@@ -354,3 +354,14 @@
 		strip.scrollLeft = Math.max(0, current.offsetLeft - strip.offsetLeft - 16);
 	}
 })();
+
+(function () {
+	var button = document.querySelector("form.feedback .fb-mail");
+	if (!button) return;
+	button.addEventListener("click", function () {
+		var form = button.form;
+		if (!form.reportValidity()) return;
+		location.href = "mailto:" + button.dataset.to + "?subject=" + encodeURIComponent(form.elements.title.value) +
+			"&body=" + encodeURIComponent(form.elements.body.value + "\n\n" + location.href);
+	});
+})();

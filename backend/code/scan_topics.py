@@ -23,7 +23,7 @@ STRONG = (r"reluplex|marabou|crown|deeppoly|deepz\b|\beran\b|\bprima\b|neurify|r
           r"|(verif|certif|provabl).{0,60}adversarial|vnn-?comp|verified robust|robustness verif|globally[- ]robust"
           r"|randomi[sz]ed smoothing|smoothed (\w+ )?(classifier|agent|polic|model)|relu hull|robustness (bound|quantif|certif|guarantee)"
           r"|quantifying (the )?robustness|lipschitz (constant|bound|network|neural|certif)|certified|certifying"
-          r"|provabl[ey] robust|verified training|verifiabl[ey] robust|verifying robust")
+          r"|provabl[ey] robust|verified training|verifiabl[ey] robust|verifying robust|convex barrier")
 MODEL_RX, CHECK_RX, STRONG_RX = (re.compile(p, re.I) for p in (MODEL, CHECK, STRONG))
 TOPIC_FIELDS = ["key", "venue", "year", "title", "decision", "area", "tags", "note"]
 

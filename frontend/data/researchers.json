@@ -15017,6 +15017,626 @@
   "color": "g-other"
  },
  {
+  "slug": "krishnamurthy-dvijotham",
+  "name": "Krishnamurthy Dvijotham",
+  "group": "deepmind",
+  "group_name": "DeepMind verification",
+  "role": "industry",
+  "institution": "Google DeepMind, London, UK",
+  "institution_short": "Google DeepMind",
+  "institution_local": "Google DeepMind",
+  "institution_local_short": "DeepMind",
+  "homepage": "https://dvij.github.io/",
+  "orcid": "0000-0002-1328-4677",
+  "dblp": [
+   "https://dblp.org/pid/16/8758.html"
+  ],
+  "to_confirm": "approval and group (seeded by Claude); current post",
+  "papers": 10,
+  "citations": 799,
+  "venues": {
+   "icml": 1,
+   "iclr": 5,
+   "neurips": 3,
+   "iccv": 1
+  },
+  "fields": {
+   "ml": 9,
+   "cv": 1,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 5,
+   "probabilistic": 2,
+   "training": 2,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 1,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 2,
+   "2020": 3,
+   "2021": 1,
+   "2022": 0,
+   "2023": 2,
+   "2024": 2,
+   "2025": 0,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 1.406,
+   "cv": 0.111,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.517,
+  "first_author": 1,
+  "last_author": 1,
+  "coauthors": [
+   {
+    "slug": "rudy-bunel",
+    "name": "Rudy Bunel",
+    "papers": 5
+   },
+   {
+    "slug": "pushmeet-kohli",
+    "name": "Pushmeet Kohli",
+    "papers": 5
+   },
+   {
+    "slug": "robert-stanforth",
+    "name": "Robert Stanforth",
+    "papers": 4
+   },
+   {
+    "slug": "sven-gowal",
+    "name": "Sven Gowal",
+    "papers": 4
+   },
+   {
+    "slug": "m-pawan-kumar",
+    "name": "M. Pawan Kumar",
+    "papers": 3
+   },
+   {
+    "slug": "zico-kolter",
+    "name": "Zico Kolter",
+    "papers": 3
+   },
+   {
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 2
+   },
+   {
+    "slug": "adel-bibi",
+    "name": "Adel Bibi",
+    "papers": 1
+   },
+   {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
+    "papers": 1
+   },
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 1
+   },
+   {
+    "slug": "christopher-brix",
+    "name": "Christopher Brix",
+    "papers": 1
+   },
+   {
+    "slug": "huan-zhang",
+    "name": "Huan Zhang",
+    "papers": 1
+   },
+   {
+    "slug": "aditi-raghunathan",
+    "name": "Aditi Raghunathan",
+    "papers": 1
+   },
+   {
+    "slug": "percy-liang",
+    "name": "Percy Liang",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "eiras2024efficient",
+    "key": "conf/icml/EirasBBD0K24",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
+    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
+    "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Francisco Eiras",
+      "slug": ""
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "palma2024expressive",
+    "key": "conf/iclr/PalmaBDKSL24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
+    "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "carlini2023certified",
+    "key": "conf/iclr/CarliniTDRSK23",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2023,
+    "field": "ml",
+    "title": "(Certified!!) Adversarial Robustness for Free!",
+    "url": "https://dblp.org/rec/conf/iclr/CarliniTDRSK23",
+    "citations": 197,
+    "arxiv": "2206.10550",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Nicholas Carlini",
+      "slug": ""
+     },
+     {
+      "name": "Florian Tramèr",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Leslie Rice",
+      "slug": ""
+     },
+     {
+      "name": "Mingjie Sun",
+      "slug": ""
+     },
+     {
+      "name": "Zico Kolter",
+      "slug": "zico-kolter"
+     }
+    ]
+   },
+   {
+    "id": "kotha2023provably",
+    "key": "conf/nips/KothaBKD023",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2023,
+    "field": "ml",
+    "title": "Provably Bounding Neural Network Preimages",
+    "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
+    "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Suhas Kotha",
+      "slug": ""
+     },
+     {
+      "name": "Christopher Brix",
+      "slug": "christopher-brix"
+     },
+     {
+      "name": "Zico Kolter",
+      "slug": "zico-kolter"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     }
+    ]
+   },
+   {
+    "id": "behl2021overcoming",
+    "key": "conf/nips/BehlKTD21",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2021,
+    "field": "ml",
+    "title": "Overcoming the Convex Barrier for Simplex Inputs",
+    "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+    "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Harkirat Singh Behl",
+      "slug": ""
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     }
+    ]
+   },
+   {
+    "id": "dvijotham2020framework",
+    "key": "conf/iclr/DvijothamHBKQGX20",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2020,
+    "field": "ml",
+    "title": "A Framework for robustness Certification of Smoothed Classifiers using F-Divergences",
+    "url": "https://dblp.org/rec/conf/iclr/DvijothamHBKQGX20",
+    "citations": 71,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Jamie Hayes",
+      "slug": ""
+     },
+     {
+      "name": "Borja Balle",
+      "slug": ""
+     },
+     {
+      "name": "Zico Kolter",
+      "slug": "zico-kolter"
+     },
+     {
+      "name": "Chongli Qin",
+      "slug": ""
+     },
+     {
+      "name": "András György",
+      "slug": ""
+     },
+     {
+      "name": "Kai Xiao",
+      "slug": ""
+     },
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "welbl2020towards",
+    "key": "conf/iclr/WelblHSGDSK20",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2020,
+    "field": "ml",
+    "title": "Towards Verified Robustness under Text Deletion Interventions",
+    "url": "https://dblp.org/rec/conf/iclr/WelblHSGDSK20",
+    "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     },
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Johannes Welbl",
+      "slug": ""
+     },
+     {
+      "name": "Po-Sen Huang",
+      "slug": ""
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Martin Szummer",
+      "slug": ""
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "dathathri2020enabling",
+    "key": "conf/nips/DathathriDKRUBS20",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
+    "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
+    "citations": 113,
+    "arxiv": "2010.11645",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Sumanth Dathathri",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Alexey Kurakin",
+      "slug": ""
+     },
+     {
+      "name": "Aditi Raghunathan",
+      "slug": "aditi-raghunathan"
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Shreya Shankar",
+      "slug": ""
+     },
+     {
+      "name": "Jacob Steinhardt",
+      "slug": ""
+     },
+     {
+      "name": "Ian J. Goodfellow",
+      "slug": ""
+     },
+     {
+      "name": "Percy Liang",
+      "slug": "percy-liang"
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "qin2019verification",
+    "key": "conf/iclr/QinDOBSGUSK19",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2019,
+    "field": "ml",
+    "title": "Verification of Non-Linear Specifications for Neural Networks",
+    "url": "https://dblp.org/rec/conf/iclr/QinDOBSGUSK19",
+    "citations": 47,
+    "arxiv": "1902.09592",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chongli Qin",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Brendan O'Donoghue",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Grzegorz Swirszcz",
+      "slug": ""
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "gowal2019scalable",
+    "key": "conf/iccv/GowalDSBQUAMK19",
+    "venue": "iccv",
+    "venue_name": "ICCV",
+    "year": 2019,
+    "field": "cv",
+    "title": "Scalable Verified Training for Provably Robust Image Classification",
+    "url": "https://doi.org/10.1109/iccv.2019.00494",
+    "citations": 245,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Chongli Qin",
+      "slug": ""
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Relja Arandjelovic",
+      "slug": ""
+     },
+     {
+      "name": "Timothy Arthur Mann",
+      "slug": ""
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   }
+  ],
+  "color": "g6"
+ },
+ {
   "slug": "anan-kabaha",
   "name": "Anan Kabaha",
   "group": "drachsler-cohen",
@@ -16177,6 +16797,209 @@
   "color": "g3"
  },
  {
+  "slug": "alessandro-de-palma",
+  "name": "Alessandro De Palma",
+  "group": "oval",
+  "group_name": "OVAL (Oxford)",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/211/7156.html"
+  ],
+  "to_confirm": "current post and role",
+  "papers": 3,
+  "citations": 76,
+  "venues": {
+   "neurips": 1,
+   "iclr": 2
+  },
+  "fields": {
+   "ml": 3,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 1,
+   "probabilistic": 0,
+   "training": 2,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 1,
+   "2022": 0,
+   "2023": 0,
+   "2024": 1,
+   "2025": 0,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 1.367,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.367,
+  "first_author": 3,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "rudy-bunel",
+    "name": "Rudy Bunel",
+    "papers": 2
+   },
+   {
+    "slug": "m-pawan-kumar",
+    "name": "M. Pawan Kumar",
+    "papers": 2
+   },
+   {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 1
+   },
+   {
+    "slug": "robert-stanforth",
+    "name": "Robert Stanforth",
+    "papers": 1
+   },
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 1
+   },
+   {
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "palma2026learning",
+    "key": "openreview/3ccTPcDlNx",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Learning Better Certified Models from Empirically-Robust Teachers",
+    "url": "https://openreview.net/forum?id=3ccTPcDlNx",
+    "citations": 1,
+    "arxiv": "2602.02626",
+    "source": "neurips.cc",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     }
+    ]
+   },
+   {
+    "id": "palma2024expressive",
+    "key": "conf/iclr/PalmaBDKSL24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
+    "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
   "slug": "tsui-wei-weng",
   "name": "Tsui-Wei Weng",
   "group": "weng-ucsd",
@@ -16506,6 +17329,396 @@
      {
       "name": "Luca Daniel",
       "slug": "luca-daniel"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
+  "slug": "philip-torr",
+  "name": "Philip Torr",
+  "group": "tvg",
+  "group_name": "Torr Vision Group (Oxford)",
+  "role": "faculty",
+  "institution": "University of Oxford",
+  "institution_short": "Oxford",
+  "institution_local": "University of Oxford",
+  "institution_local_short": "Oxford",
+  "homepage": "https://www.robots.ox.ac.uk/~phst/",
+  "orcid": "0009-0006-0259-5732",
+  "dblp": [
+   "https://dblp.org/pid/t/PhilipHSTorr.html"
+  ],
+  "to_confirm": "approval and group (seeded by Claude)",
+  "papers": 7,
+  "citations": 526,
+  "venues": {
+   "iclr": 3,
+   "icml": 2,
+   "neurips": 2
+  },
+  "fields": {
+   "ml": 7,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 1,
+   "bounds": 4,
+   "probabilistic": 1,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 1,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 1,
+   "2019": 0,
+   "2020": 0,
+   "2021": 2,
+   "2022": 0,
+   "2023": 1,
+   "2024": 1,
+   "2025": 2,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 1.342,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.342,
+  "first_author": 0,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "adel-bibi",
+    "name": "Adel Bibi",
+    "papers": 4
+   },
+   {
+    "slug": "rudy-bunel",
+    "name": "Rudy Bunel",
+    "papers": 3
+   },
+   {
+    "slug": "m-pawan-kumar",
+    "name": "M. Pawan Kumar",
+    "papers": 3
+   },
+   {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 2
+   },
+   {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
+    "papers": 1
+   },
+   {
+    "slug": "pushmeet-kohli",
+    "name": "Pushmeet Kohli",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "emde2025shh",
+    "key": "conf/iclr/EmdePAKRL0B25",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2025,
+    "field": "ml",
+    "title": "Shh, don't say that! Domain Certification in LLMs",
+    "url": "https://dblp.org/rec/conf/iclr/EmdePAKRL0B25",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "probabilistic",
+      "name": "Probabilistic certification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Cornelius Emde",
+      "slug": ""
+     },
+     {
+      "name": "Alasdair Paren",
+      "slug": ""
+     },
+     {
+      "name": "Preetham Arvind",
+      "slug": ""
+     },
+     {
+      "name": "Maxime Guillaume Kayser",
+      "slug": ""
+     },
+     {
+      "name": "Tom Rainforth",
+      "slug": ""
+     },
+     {
+      "name": "Thomas Lukasiewicz",
+      "slug": ""
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     }
+    ]
+   },
+   {
+    "id": "emde2025towards",
+    "key": "conf/iclr/EmdePL0B25",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2025,
+    "field": "ml",
+    "title": "Towards Certification of Uncertainty Calibration under Adversarial Attacks",
+    "url": "https://dblp.org/rec/conf/iclr/EmdePL0B25",
+    "citations": 8,
+    "arxiv": "2405.13922",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Cornelius Emde",
+      "slug": ""
+     },
+     {
+      "name": "Francesco Pinto",
+      "slug": ""
+     },
+     {
+      "name": "Thomas Lukasiewicz",
+      "slug": ""
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     }
+    ]
+   },
+   {
+    "id": "eiras2024efficient",
+    "key": "conf/icml/EirasBBD0K24",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
+    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
+    "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Francisco Eiras",
+      "slug": ""
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "petrov2023certifying",
+    "key": "conf/icml/PetrovESTB23",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2023,
+    "field": "ml",
+    "title": "Certifying Ensembles: A General Certification Theory with S-Lipschitzness",
+    "url": "https://dblp.org/rec/conf/icml/PetrovESTB23",
+    "citations": 4,
+    "arxiv": "2304.13019",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [
+     {
+      "key": "probabilistic",
+      "name": "Probabilistic certification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Aleksandar Petrov",
+      "slug": ""
+     },
+     {
+      "name": "Francisco Eiras",
+      "slug": ""
+     },
+     {
+      "name": "Amartya Sanyal",
+      "slug": ""
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     }
+    ]
+   },
+   {
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "behl2021overcoming",
+    "key": "conf/nips/BehlKTD21",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2021,
+    "field": "ml",
+    "title": "Overcoming the Convex Barrier for Simplex Inputs",
+    "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+    "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Harkirat Singh Behl",
+      "slug": ""
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     }
+    ]
+   },
+   {
+    "id": "bunel2018unified",
+    "key": "conf/nips/BunelTTKM18",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2018,
+    "field": "ml",
+    "title": "A Unified View of Piecewise Linear Neural Network Verification",
+    "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
+    "citations": 444,
+    "arxiv": "1711.00455",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Ilker Turkaslan",
+      "slug": ""
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     },
+     {
+      "name": "Pawan Kumar Mudigonda",
+      "slug": ""
      }
     ]
    }
@@ -17158,46 +18371,45 @@
   "color": "g-other"
  },
  {
-  "slug": "krishnamurthy-dvijotham",
-  "name": "Krishnamurthy Dvijotham",
-  "group": "deepmind",
-  "group_name": "DeepMind verification",
-  "role": "industry",
-  "institution": "Google DeepMind, London, UK",
-  "institution_short": "Google DeepMind",
-  "institution_local": "Google DeepMind",
-  "institution_local_short": "DeepMind",
-  "homepage": "https://dvij.github.io/",
-  "orcid": "0000-0002-1328-4677",
+  "slug": "m-pawan-kumar",
+  "name": "M. Pawan Kumar",
+  "group": "oval",
+  "group_name": "OVAL (Oxford)",
+  "role": "faculty",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "University of Oxford",
+  "institution_local_short": "Oxford",
+  "homepage": "",
+  "orcid": "",
   "dblp": [
-   "https://dblp.org/pid/16/8758.html"
+   "https://dblp.org/pid/45/2527.html"
   ],
-  "to_confirm": "approval and group (seeded by Claude); current post",
-  "papers": 9,
-  "citations": 794,
+  "to_confirm": "approval and group (seeded by Claude); current post (also Google DeepMind)",
+  "papers": 5,
+  "citations": 162,
   "venues": {
    "icml": 1,
-   "iclr": 5,
-   "neurips": 2,
-   "iccv": 1
+   "iclr": 3,
+   "neurips": 1
   },
   "fields": {
-   "ml": 8,
-   "cv": 1,
+   "ml": 5,
+   "cv": 0,
    "pl": 0,
    "se": 0,
    "lv": 0,
    "fm": 0
   },
   "areas": {
-   "complete": 0,
-   "bounds": 4,
-   "probabilistic": 2,
-   "training": 2,
+   "complete": 1,
+   "bounds": 3,
+   "probabilistic": 0,
+   "training": 1,
    "repair": 0,
    "explanations": 0,
    "control": 0,
-   "relational": 1,
+   "relational": 0,
    "architectures": 0,
    "quantized": 0,
    "other": 0
@@ -17205,54 +18417,44 @@
   "years": {
    "2017": 0,
    "2018": 0,
-   "2019": 2,
-   "2020": 3,
-   "2021": 0,
+   "2019": 0,
+   "2020": 1,
+   "2021": 2,
    "2022": 0,
-   "2023": 2,
+   "2023": 0,
    "2024": 2,
    "2025": 0,
    "2026": 0
   },
   "score_fields": {
-   "ml": 1.156,
-   "cv": 0.111,
+   "ml": 1.283,
+   "cv": 0.0,
    "pl": 0.0,
    "se": 0.0,
    "lv": 0.0
   },
-  "score": 1.267,
-  "first_author": 1,
-  "last_author": 0,
+  "score": 1.283,
+  "first_author": 0,
+  "last_author": 3,
   "coauthors": [
    {
     "slug": "rudy-bunel",
     "name": "Rudy Bunel",
-    "papers": 5
-   },
-   {
-    "slug": "pushmeet-kohli",
-    "name": "Pushmeet Kohli",
-    "papers": 5
-   },
-   {
-    "slug": "robert-stanforth",
-    "name": "Robert Stanforth",
-    "papers": 4
-   },
-   {
-    "slug": "sven-gowal",
-    "name": "Sven Gowal",
-    "papers": 4
-   },
-   {
-    "slug": "zico-kolter",
-    "name": "Zico Kolter",
     "papers": 3
    },
    {
-    "slug": "m-pawan-kumar",
-    "name": "M. Pawan Kumar",
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 3
+   },
+   {
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 3
+   },
+   {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
     "papers": 2
    },
    {
@@ -17261,33 +18463,13 @@
     "papers": 1
    },
    {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
+    "slug": "robert-stanforth",
+    "name": "Robert Stanforth",
     "papers": 1
    },
    {
     "slug": "alessio-lomuscio",
     "name": "Alessio Lomuscio",
-    "papers": 1
-   },
-   {
-    "slug": "christopher-brix",
-    "name": "Christopher Brix",
-    "papers": 1
-   },
-   {
-    "slug": "huan-zhang",
-    "name": "Huan Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "aditi-raghunathan",
-    "name": "Aditi Raghunathan",
-    "papers": 1
-   },
-   {
-    "slug": "percy-liang",
-    "name": "Percy Liang",
     "papers": 1
    }
   ],
@@ -17352,7 +18534,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      },
      {
       "name": "Rudy Bunel",
@@ -17377,57 +18559,53 @@
     ]
    },
    {
-    "id": "carlini2023certified",
-    "key": "conf/iclr/CarliniTDRSK23",
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
     "venue": "iclr",
     "venue_name": "ICLR",
-    "year": 2023,
+    "year": 2021,
     "field": "ml",
-    "title": "(Certified!!) Adversarial Robustness for Free!",
-    "url": "https://dblp.org/rec/conf/iclr/CarliniTDRSK23",
-    "citations": 197,
-    "arxiv": "2206.10550",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
     "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
     "authors": [
      {
-      "name": "Nicholas Carlini",
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
       "slug": ""
      },
      {
-      "name": "Florian Tramèr",
-      "slug": ""
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
      },
      {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
+      "name": "Philip Torr",
+      "slug": "philip-torr"
      },
      {
-      "name": "Leslie Rice",
-      "slug": ""
-     },
-     {
-      "name": "Mingjie Sun",
-      "slug": ""
-     },
-     {
-      "name": "Zico Kolter",
-      "slug": "zico-kolter"
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
      }
     ]
    },
    {
-    "id": "kotha2023provably",
-    "key": "conf/nips/KothaBKD023",
+    "id": "behl2021overcoming",
+    "key": "conf/nips/BehlKTD21",
     "venue": "neurips",
     "venue_name": "NeurIPS",
-    "year": 2023,
+    "year": 2021,
     "field": "ml",
-    "title": "Provably Bounding Neural Network Preimages",
-    "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
-    "citations": 64,
+    "title": "Overcoming the Convex Barrier for Simplex Inputs",
+    "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+    "citations": 5,
     "arxiv": "",
     "source": "dblp.org",
     "area": "bounds",
@@ -17435,308 +18613,51 @@
     "tags": [],
     "authors": [
      {
-      "name": "Suhas Kotha",
+      "name": "Harkirat Singh Behl",
       "slug": ""
      },
      {
-      "name": "Christopher Brix",
-      "slug": "christopher-brix"
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
      },
      {
-      "name": "Zico Kolter",
-      "slug": "zico-kolter"
+      "name": "Philip Torr",
+      "slug": "philip-torr"
      },
      {
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
      }
     ]
    },
    {
-    "id": "dvijotham2020framework",
-    "key": "conf/iclr/DvijothamHBKQGX20",
+    "id": "lu2020neural",
+    "key": "conf/iclr/LuK20",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
     "field": "ml",
-    "title": "A Framework for robustness Certification of Smoothed Classifiers using F-Divergences",
-    "url": "https://dblp.org/rec/conf/iclr/DvijothamHBKQGX20",
-    "citations": 71,
-    "arxiv": "",
+    "title": "Neural Network Branching for Neural Network Verification",
+    "url": "https://dblp.org/rec/conf/iclr/LuK20",
+    "citations": 65,
+    "arxiv": "1912.01329",
     "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
+    "area": "complete",
+    "area_name": "Complete verification",
     "tags": [],
     "authors": [
      {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Jamie Hayes",
+      "name": "Jingyue Lu",
       "slug": ""
      },
      {
-      "name": "Borja Balle",
-      "slug": ""
-     },
-     {
-      "name": "Zico Kolter",
-      "slug": "zico-kolter"
-     },
-     {
-      "name": "Chongli Qin",
-      "slug": ""
-     },
-     {
-      "name": "András György",
-      "slug": ""
-     },
-     {
-      "name": "Kai Xiao",
-      "slug": ""
-     },
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "welbl2020towards",
-    "key": "conf/iclr/WelblHSGDSK20",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2020,
-    "field": "ml",
-    "title": "Towards Verified Robustness under Text Deletion Interventions",
-    "url": "https://dblp.org/rec/conf/iclr/WelblHSGDSK20",
-    "citations": 13,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [
-     {
-      "key": "training",
-      "name": "Certified training"
-     },
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Johannes Welbl",
-      "slug": ""
-     },
-     {
-      "name": "Po-Sen Huang",
-      "slug": ""
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Martin Szummer",
-      "slug": ""
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "dathathri2020enabling",
-    "key": "conf/nips/DathathriDKRUBS20",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2020,
-    "field": "ml",
-    "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
-    "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
-    "citations": 113,
-    "arxiv": "2010.11645",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Sumanth Dathathri",
-      "slug": ""
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Alexey Kurakin",
-      "slug": ""
-     },
-     {
-      "name": "Aditi Raghunathan",
-      "slug": "aditi-raghunathan"
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Shreya Shankar",
-      "slug": ""
-     },
-     {
-      "name": "Jacob Steinhardt",
-      "slug": ""
-     },
-     {
-      "name": "Ian J. Goodfellow",
-      "slug": ""
-     },
-     {
-      "name": "Percy Liang",
-      "slug": "percy-liang"
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "qin2019verification",
-    "key": "conf/iclr/QinDOBSGUSK19",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2019,
-    "field": "ml",
-    "title": "Verification of Non-Linear Specifications for Neural Networks",
-    "url": "https://dblp.org/rec/conf/iclr/QinDOBSGUSK19",
-    "citations": 47,
-    "arxiv": "1902.09592",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Chongli Qin",
-      "slug": ""
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Brendan O'Donoghue",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Grzegorz Swirszcz",
-      "slug": ""
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "gowal2019scalable",
-    "key": "conf/iccv/GowalDSBQUAMK19",
-    "venue": "iccv",
-    "venue_name": "ICCV",
-    "year": 2019,
-    "field": "cv",
-    "title": "Scalable Verified Training for Provably Robust Image Classification",
-    "url": "https://doi.org/10.1109/iccv.2019.00494",
-    "citations": 245,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Chongli Qin",
-      "slug": ""
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Relja Arandjelovic",
-      "slug": ""
-     },
-     {
-      "name": "Timothy Arthur Mann",
-      "slug": ""
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
      }
     ]
    }
   ],
-  "color": "g5"
+  "color": "g-other"
  },
  {
   "slug": "pin-yu-chen",
@@ -18498,7 +19419,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g5"
  },
  {
   "slug": "volkan-cevher",
@@ -19374,7 +20295,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g5"
  },
  {
   "slug": "alessio-lomuscio",
@@ -19444,6 +20365,16 @@
   "first_author": 0,
   "last_author": 4,
   "coauthors": [
+   {
+    "slug": "benedikt-bruckner",
+    "name": "Benedikt Brückner",
+    "papers": 1
+   },
+   {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
+    "papers": 1
+   },
    {
     "slug": "rudy-bunel",
     "name": "Rudy Bunel",
@@ -19523,7 +20454,7 @@
     "authors": [
      {
       "name": "Benedikt Brückner",
-      "slug": ""
+      "slug": "benedikt-bruckner"
      },
      {
       "name": "Alejandro J. Mercado",
@@ -19561,7 +20492,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      },
      {
       "name": "Rudy Bunel",
@@ -20095,6 +21026,464 @@
    }
   ],
   "color": "g1"
+ },
+ {
+  "slug": "rudy-bunel",
+  "name": "Rudy Bunel",
+  "group": "deepmind",
+  "group_name": "DeepMind verification",
+  "role": "industry",
+  "institution": "University of Oxford, Department of Engineering Science, UK",
+  "institution_short": "University of Oxford",
+  "institution_local": "Google DeepMind",
+  "institution_local_short": "DeepMind",
+  "homepage": "https://www.robots.ox.ac.uk/~rudy/",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/180/5419.html"
+  ],
+  "to_confirm": "approval and group (seeded by Claude); current post",
+  "papers": 7,
+  "citations": 941,
+  "venues": {
+   "icml": 1,
+   "iclr": 3,
+   "neurips": 2,
+   "iccv": 1
+  },
+  "fields": {
+   "ml": 6,
+   "cv": 1,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 1,
+   "bounds": 4,
+   "probabilistic": 0,
+   "training": 2,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 1,
+   "2019": 2,
+   "2020": 1,
+   "2021": 1,
+   "2022": 0,
+   "2023": 0,
+   "2024": 2,
+   "2025": 0,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 0.935,
+   "cv": 0.111,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.046,
+  "first_author": 1,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "krishnamurthy-dvijotham",
+    "name": "Krishnamurthy Dvijotham",
+    "papers": 5
+   },
+   {
+    "slug": "pushmeet-kohli",
+    "name": "Pushmeet Kohli",
+    "papers": 4
+   },
+   {
+    "slug": "philip-torr",
+    "name": "Philip Torr",
+    "papers": 3
+   },
+   {
+    "slug": "m-pawan-kumar",
+    "name": "M. Pawan Kumar",
+    "papers": 3
+   },
+   {
+    "slug": "robert-stanforth",
+    "name": "Robert Stanforth",
+    "papers": 3
+   },
+   {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
+    "papers": 2
+   },
+   {
+    "slug": "sven-gowal",
+    "name": "Sven Gowal",
+    "papers": 2
+   },
+   {
+    "slug": "adel-bibi",
+    "name": "Adel Bibi",
+    "papers": 1
+   },
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 1
+   },
+   {
+    "slug": "aditi-raghunathan",
+    "name": "Aditi Raghunathan",
+    "papers": 1
+   },
+   {
+    "slug": "percy-liang",
+    "name": "Percy Liang",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "eiras2024efficient",
+    "key": "conf/icml/EirasBBD0K24",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
+    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
+    "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Francisco Eiras",
+      "slug": ""
+     },
+     {
+      "name": "Adel Bibi",
+      "slug": "adel-bibi"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "palma2024expressive",
+    "key": "conf/iclr/PalmaBDKSL24",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
+    "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   },
+   {
+    "id": "palma2021scaling",
+    "key": "conf/iclr/PalmaBBTK21",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2021,
+    "field": "ml",
+    "title": "Scaling the Convex Barrier with Active Sets",
+    "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+    "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Alessandro De Palma",
+      "slug": "alessandro-de-palma"
+     },
+     {
+      "name": "Harkirat S. Behl",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "M. Pawan Kumar",
+      "slug": "m-pawan-kumar"
+     }
+    ]
+   },
+   {
+    "id": "dathathri2020enabling",
+    "key": "conf/nips/DathathriDKRUBS20",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2020,
+    "field": "ml",
+    "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
+    "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
+    "citations": 113,
+    "arxiv": "2010.11645",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Sumanth Dathathri",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Alexey Kurakin",
+      "slug": ""
+     },
+     {
+      "name": "Aditi Raghunathan",
+      "slug": "aditi-raghunathan"
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Shreya Shankar",
+      "slug": ""
+     },
+     {
+      "name": "Jacob Steinhardt",
+      "slug": ""
+     },
+     {
+      "name": "Ian J. Goodfellow",
+      "slug": ""
+     },
+     {
+      "name": "Percy Liang",
+      "slug": "percy-liang"
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "qin2019verification",
+    "key": "conf/iclr/QinDOBSGUSK19",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2019,
+    "field": "ml",
+    "title": "Verification of Non-Linear Specifications for Neural Networks",
+    "url": "https://dblp.org/rec/conf/iclr/QinDOBSGUSK19",
+    "citations": 47,
+    "arxiv": "1902.09592",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Chongli Qin",
+      "slug": ""
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Brendan O'Donoghue",
+      "slug": ""
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Grzegorz Swirszcz",
+      "slug": ""
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "gowal2019scalable",
+    "key": "conf/iccv/GowalDSBQUAMK19",
+    "venue": "iccv",
+    "venue_name": "ICCV",
+    "year": 2019,
+    "field": "cv",
+    "title": "Scalable Verified Training for Provably Robust Image Classification",
+    "url": "https://doi.org/10.1109/iccv.2019.00494",
+    "citations": 245,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Sven Gowal",
+      "slug": "sven-gowal"
+     },
+     {
+      "name": "Krishnamurthy Dvijotham",
+      "slug": "krishnamurthy-dvijotham"
+     },
+     {
+      "name": "Robert Stanforth",
+      "slug": "robert-stanforth"
+     },
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Chongli Qin",
+      "slug": ""
+     },
+     {
+      "name": "Jonathan Uesato",
+      "slug": ""
+     },
+     {
+      "name": "Relja Arandjelovic",
+      "slug": ""
+     },
+     {
+      "name": "Timothy Arthur Mann",
+      "slug": ""
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     }
+    ]
+   },
+   {
+    "id": "bunel2018unified",
+    "key": "conf/nips/BunelTTKM18",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2018,
+    "field": "ml",
+    "title": "A Unified View of Piecewise Linear Neural Network Verification",
+    "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
+    "citations": 444,
+    "arxiv": "1711.00455",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Rudy Bunel",
+      "slug": "rudy-bunel"
+     },
+     {
+      "name": "Ilker Turkaslan",
+      "slug": ""
+     },
+     {
+      "name": "Philip Torr",
+      "slug": "philip-torr"
+     },
+     {
+      "name": "Pushmeet Kohli",
+      "slug": "pushmeet-kohli"
+     },
+     {
+      "name": "Pawan Kumar Mudigonda",
+      "slug": ""
+     }
+    ]
+   }
+  ],
+  "color": "g6"
  },
  {
   "slug": "mahyar-fazlyab",
@@ -21525,319 +22914,6 @@
   "color": "g-other"
  },
  {
-  "slug": "philip-torr",
-  "name": "Philip Torr",
-  "group": "tvg",
-  "group_name": "Torr Vision Group (Oxford)",
-  "role": "faculty",
-  "institution": "University of Oxford",
-  "institution_short": "Oxford",
-  "institution_local": "University of Oxford",
-  "institution_local_short": "Oxford",
-  "homepage": "https://www.robots.ox.ac.uk/~phst/",
-  "orcid": "0009-0006-0259-5732",
-  "dblp": [
-   "https://dblp.org/pid/t/PhilipHSTorr.html"
-  ],
-  "to_confirm": "approval and group (seeded by Claude)",
-  "papers": 5,
-  "citations": 473,
-  "venues": {
-   "iclr": 2,
-   "icml": 2,
-   "neurips": 1
-  },
-  "fields": {
-   "ml": 5,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 2,
-   "probabilistic": 1,
-   "training": 0,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 1,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 1,
-   "2019": 0,
-   "2020": 0,
-   "2021": 0,
-   "2022": 0,
-   "2023": 1,
-   "2024": 1,
-   "2025": 2,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 0.892,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 0.892,
-  "first_author": 0,
-  "last_author": 0,
-  "coauthors": [
-   {
-    "slug": "adel-bibi",
-    "name": "Adel Bibi",
-    "papers": 4
-   },
-   {
-    "slug": "rudy-bunel",
-    "name": "Rudy Bunel",
-    "papers": 2
-   },
-   {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
-    "papers": 1
-   },
-   {
-    "slug": "m-pawan-kumar",
-    "name": "M. Pawan Kumar",
-    "papers": 1
-   },
-   {
-    "slug": "pushmeet-kohli",
-    "name": "Pushmeet Kohli",
-    "papers": 1
-   }
-  ],
-  "paper_list": [
-   {
-    "id": "emde2025shh",
-    "key": "conf/iclr/EmdePAKRL0B25",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2025,
-    "field": "ml",
-    "title": "Shh, don't say that! Domain Certification in LLMs",
-    "url": "https://dblp.org/rec/conf/iclr/EmdePAKRL0B25",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [
-     {
-      "key": "probabilistic",
-      "name": "Probabilistic certification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Cornelius Emde",
-      "slug": ""
-     },
-     {
-      "name": "Alasdair Paren",
-      "slug": ""
-     },
-     {
-      "name": "Preetham Arvind",
-      "slug": ""
-     },
-     {
-      "name": "Maxime Guillaume Kayser",
-      "slug": ""
-     },
-     {
-      "name": "Tom Rainforth",
-      "slug": ""
-     },
-     {
-      "name": "Thomas Lukasiewicz",
-      "slug": ""
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     }
-    ]
-   },
-   {
-    "id": "emde2025towards",
-    "key": "conf/iclr/EmdePL0B25",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2025,
-    "field": "ml",
-    "title": "Towards Certification of Uncertainty Calibration under Adversarial Attacks",
-    "url": "https://dblp.org/rec/conf/iclr/EmdePL0B25",
-    "citations": 8,
-    "arxiv": "2405.13922",
-    "source": "dblp.org",
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Cornelius Emde",
-      "slug": ""
-     },
-     {
-      "name": "Francesco Pinto",
-      "slug": ""
-     },
-     {
-      "name": "Thomas Lukasiewicz",
-      "slug": ""
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     }
-    ]
-   },
-   {
-    "id": "eiras2024efficient",
-    "key": "conf/icml/EirasBBD0K24",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2024,
-    "field": "ml",
-    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
-    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
-    "citations": 17,
-    "arxiv": "2305.10157",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Francisco Eiras",
-      "slug": ""
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     }
-    ]
-   },
-   {
-    "id": "petrov2023certifying",
-    "key": "conf/icml/PetrovESTB23",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2023,
-    "field": "ml",
-    "title": "Certifying Ensembles: A General Certification Theory with S-Lipschitzness",
-    "url": "https://dblp.org/rec/conf/icml/PetrovESTB23",
-    "citations": 4,
-    "arxiv": "2304.13019",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [
-     {
-      "key": "probabilistic",
-      "name": "Probabilistic certification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Aleksandar Petrov",
-      "slug": ""
-     },
-     {
-      "name": "Francisco Eiras",
-      "slug": ""
-     },
-     {
-      "name": "Amartya Sanyal",
-      "slug": ""
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     }
-    ]
-   },
-   {
-    "id": "bunel2018unified",
-    "key": "conf/nips/BunelTTKM18",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2018,
-    "field": "ml",
-    "title": "A Unified View of Piecewise Linear Neural Network Verification",
-    "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
-    "citations": 444,
-    "arxiv": "1711.00455",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Ilker Turkaslan",
-      "slug": ""
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     },
-     {
-      "name": "Pawan Kumar Mudigonda",
-      "slug": ""
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
- },
- {
   "slug": "clark-barrett",
   "name": "Clark Barrett",
   "group": "marabou",
@@ -22254,632 +23330,6 @@
    }
   ],
   "color": "g4"
- },
- {
-  "slug": "rudy-bunel",
-  "name": "Rudy Bunel",
-  "group": "deepmind",
-  "group_name": "DeepMind verification",
-  "role": "industry",
-  "institution": "University of Oxford, Department of Engineering Science, UK",
-  "institution_short": "University of Oxford",
-  "institution_local": "Google DeepMind",
-  "institution_local_short": "DeepMind",
-  "homepage": "https://www.robots.ox.ac.uk/~rudy/",
-  "orcid": "",
-  "dblp": [
-   "https://dblp.org/pid/180/5419.html"
-  ],
-  "to_confirm": "approval and group (seeded by Claude); current post",
-  "papers": 6,
-  "citations": 893,
-  "venues": {
-   "icml": 1,
-   "iclr": 2,
-   "neurips": 2,
-   "iccv": 1
-  },
-  "fields": {
-   "ml": 5,
-   "cv": 1,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 3,
-   "probabilistic": 0,
-   "training": 2,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 1,
-   "2019": 2,
-   "2020": 1,
-   "2021": 0,
-   "2022": 0,
-   "2023": 0,
-   "2024": 2,
-   "2025": 0,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 0.735,
-   "cv": 0.111,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 0.846,
-  "first_author": 1,
-  "last_author": 0,
-  "coauthors": [
-   {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
-    "papers": 5
-   },
-   {
-    "slug": "pushmeet-kohli",
-    "name": "Pushmeet Kohli",
-    "papers": 4
-   },
-   {
-    "slug": "robert-stanforth",
-    "name": "Robert Stanforth",
-    "papers": 3
-   },
-   {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
-    "papers": 2
-   },
-   {
-    "slug": "m-pawan-kumar",
-    "name": "M. Pawan Kumar",
-    "papers": 2
-   },
-   {
-    "slug": "sven-gowal",
-    "name": "Sven Gowal",
-    "papers": 2
-   },
-   {
-    "slug": "adel-bibi",
-    "name": "Adel Bibi",
-    "papers": 1
-   },
-   {
-    "slug": "alessio-lomuscio",
-    "name": "Alessio Lomuscio",
-    "papers": 1
-   },
-   {
-    "slug": "aditi-raghunathan",
-    "name": "Aditi Raghunathan",
-    "papers": 1
-   },
-   {
-    "slug": "percy-liang",
-    "name": "Percy Liang",
-    "papers": 1
-   }
-  ],
-  "paper_list": [
-   {
-    "id": "eiras2024efficient",
-    "key": "conf/icml/EirasBBD0K24",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2024,
-    "field": "ml",
-    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
-    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
-    "citations": 17,
-    "arxiv": "2305.10157",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Francisco Eiras",
-      "slug": ""
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     }
-    ]
-   },
-   {
-    "id": "palma2024expressive",
-    "key": "conf/iclr/PalmaBDKSL24",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2024,
-    "field": "ml",
-    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
-    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
-    "citations": 27,
-    "arxiv": "2305.13991",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Alessandro De Palma",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Alessio Lomuscio",
-      "slug": "alessio-lomuscio"
-     }
-    ]
-   },
-   {
-    "id": "dathathri2020enabling",
-    "key": "conf/nips/DathathriDKRUBS20",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2020,
-    "field": "ml",
-    "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
-    "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
-    "citations": 113,
-    "arxiv": "2010.11645",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Sumanth Dathathri",
-      "slug": ""
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Alexey Kurakin",
-      "slug": ""
-     },
-     {
-      "name": "Aditi Raghunathan",
-      "slug": "aditi-raghunathan"
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Shreya Shankar",
-      "slug": ""
-     },
-     {
-      "name": "Jacob Steinhardt",
-      "slug": ""
-     },
-     {
-      "name": "Ian J. Goodfellow",
-      "slug": ""
-     },
-     {
-      "name": "Percy Liang",
-      "slug": "percy-liang"
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "qin2019verification",
-    "key": "conf/iclr/QinDOBSGUSK19",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2019,
-    "field": "ml",
-    "title": "Verification of Non-Linear Specifications for Neural Networks",
-    "url": "https://dblp.org/rec/conf/iclr/QinDOBSGUSK19",
-    "citations": 47,
-    "arxiv": "1902.09592",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Chongli Qin",
-      "slug": ""
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Brendan O'Donoghue",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Grzegorz Swirszcz",
-      "slug": ""
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "gowal2019scalable",
-    "key": "conf/iccv/GowalDSBQUAMK19",
-    "venue": "iccv",
-    "venue_name": "ICCV",
-    "year": 2019,
-    "field": "cv",
-    "title": "Scalable Verified Training for Provably Robust Image Classification",
-    "url": "https://doi.org/10.1109/iccv.2019.00494",
-    "citations": 245,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Sven Gowal",
-      "slug": "sven-gowal"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Chongli Qin",
-      "slug": ""
-     },
-     {
-      "name": "Jonathan Uesato",
-      "slug": ""
-     },
-     {
-      "name": "Relja Arandjelovic",
-      "slug": ""
-     },
-     {
-      "name": "Timothy Arthur Mann",
-      "slug": ""
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     }
-    ]
-   },
-   {
-    "id": "bunel2018unified",
-    "key": "conf/nips/BunelTTKM18",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2018,
-    "field": "ml",
-    "title": "A Unified View of Piecewise Linear Neural Network Verification",
-    "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
-    "citations": 444,
-    "arxiv": "1711.00455",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Ilker Turkaslan",
-      "slug": ""
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "Pushmeet Kohli",
-      "slug": "pushmeet-kohli"
-     },
-     {
-      "name": "Pawan Kumar Mudigonda",
-      "slug": ""
-     }
-    ]
-   }
-  ],
-  "color": "g5"
- },
- {
-  "slug": "m-pawan-kumar",
-  "name": "M. Pawan Kumar",
-  "group": "oval",
-  "group_name": "OVAL (Oxford)",
-  "role": "faculty",
-  "institution": "",
-  "institution_short": "",
-  "institution_local": "University of Oxford",
-  "institution_local_short": "Oxford",
-  "homepage": "",
-  "orcid": "",
-  "dblp": [
-   "https://dblp.org/pid/45/2527.html"
-  ],
-  "to_confirm": "approval and group (seeded by Claude); current post (also Google DeepMind)",
-  "papers": 3,
-  "citations": 109,
-  "venues": {
-   "icml": 1,
-   "iclr": 2
-  },
-  "fields": {
-   "ml": 3,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 1,
-   "probabilistic": 0,
-   "training": 1,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 1,
-   "2021": 0,
-   "2022": 0,
-   "2023": 0,
-   "2024": 2,
-   "2025": 0,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 0.833,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 0.833,
-  "first_author": 0,
-  "last_author": 2,
-  "coauthors": [
-   {
-    "slug": "rudy-bunel",
-    "name": "Rudy Bunel",
-    "papers": 2
-   },
-   {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
-    "papers": 2
-   },
-   {
-    "slug": "adel-bibi",
-    "name": "Adel Bibi",
-    "papers": 1
-   },
-   {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
-    "papers": 1
-   },
-   {
-    "slug": "robert-stanforth",
-    "name": "Robert Stanforth",
-    "papers": 1
-   },
-   {
-    "slug": "alessio-lomuscio",
-    "name": "Alessio Lomuscio",
-    "papers": 1
-   }
-  ],
-  "paper_list": [
-   {
-    "id": "eiras2024efficient",
-    "key": "conf/icml/EirasBBD0K24",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2024,
-    "field": "ml",
-    "title": "Efficient Error Certification for Physics-Informed Neural Networks",
-    "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
-    "citations": 17,
-    "arxiv": "2305.10157",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Francisco Eiras",
-      "slug": ""
-     },
-     {
-      "name": "Adel Bibi",
-      "slug": "adel-bibi"
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Philip Torr",
-      "slug": "philip-torr"
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     }
-    ]
-   },
-   {
-    "id": "palma2024expressive",
-    "key": "conf/iclr/PalmaBDKSL24",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2024,
-    "field": "ml",
-    "title": "Expressive Losses for Verified Robustness via Convex Combinations",
-    "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
-    "citations": 27,
-    "arxiv": "2305.13991",
-    "source": "dblp.org",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Alessandro De Palma",
-      "slug": ""
-     },
-     {
-      "name": "Rudy Bunel",
-      "slug": "rudy-bunel"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     },
-     {
-      "name": "Robert Stanforth",
-      "slug": "robert-stanforth"
-     },
-     {
-      "name": "Alessio Lomuscio",
-      "slug": "alessio-lomuscio"
-     }
-    ]
-   },
-   {
-    "id": "lu2020neural",
-    "key": "conf/iclr/LuK20",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2020,
-    "field": "ml",
-    "title": "Neural Network Branching for Neural Network Verification",
-    "url": "https://dblp.org/rec/conf/iclr/LuK20",
-    "citations": 65,
-    "arxiv": "1912.01329",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Jingyue Lu",
-      "slug": ""
-     },
-     {
-      "name": "M. Pawan Kumar",
-      "slug": "m-pawan-kumar"
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
  },
  {
   "slug": "sebastian-elbaum",
@@ -23577,6 +24027,11 @@
     "papers": 1
    },
    {
+    "slug": "christian-schilling",
+    "name": "Christian Schilling",
+    "papers": 1
+   },
+   {
     "slug": "stanley-bak",
     "name": "Stanley Bak",
     "papers": 1
@@ -23721,7 +24176,7 @@
      },
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Matthias Althoff",
@@ -24365,7 +24820,7 @@
     ]
    }
   ],
-  "color": "g5"
+  "color": "g6"
  },
  {
   "slug": "kaidi-xu",
@@ -25108,6 +25563,11 @@
     "papers": 2
    },
    {
+    "slug": "christian-schilling",
+    "name": "Christian Schilling",
+    "papers": 1
+   },
+   {
     "slug": "matthias-althoff",
     "name": "Matthias Althoff",
     "papers": 1
@@ -25141,7 +25601,7 @@
      },
      {
       "name": "Christian Schilling",
-      "slug": ""
+      "slug": "christian-schilling"
      },
      {
       "name": "Matthias Althoff",
@@ -25384,7 +25844,7 @@
     ]
    }
   ],
-  "color": "g-other"
+  "color": "g8"
  },
  {
   "slug": "isil-dillig",
@@ -26697,6 +27157,11 @@
     "papers": 3
    },
    {
+    "slug": "alessandro-de-palma",
+    "name": "Alessandro De Palma",
+    "papers": 1
+   },
+   {
     "slug": "m-pawan-kumar",
     "name": "M. Pawan Kumar",
     "papers": 1
@@ -26741,7 +27206,7 @@
     "authors": [
      {
       "name": "Alessandro De Palma",
-      "slug": ""
+      "slug": "alessandro-de-palma"
      },
      {
       "name": "Rudy Bunel",
@@ -26984,7 +27449,7 @@
     ]
    }
   ],
-  "color": "g5"
+  "color": "g6"
  },
  {
   "slug": "fu-song",
@@ -28409,7 +28874,7 @@
     ]
    }
   ],
-  "color": "g5"
+  "color": "g6"
  },
  {
   "slug": "matthew-l-daggitt",
@@ -29138,6 +29603,11 @@
   "last_author": 0,
   "coauthors": [
    {
+    "slug": "ben-wooding",
+    "name": "Ben Wooding",
+    "papers": 1
+   },
+   {
     "slug": "navid-hashemi",
     "name": "Navid Hashemi",
     "papers": 1
@@ -29176,7 +29646,7 @@
      },
      {
       "name": "Ben Wooding",
-      "slug": ""
+      "slug": "ben-wooding"
      },
      {
       "name": "Taylor Johnson",
@@ -29228,7 +29698,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g5"
  },
  {
   "slug": "xiaowei-huang",
@@ -29687,7 +30157,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g5"
  },
  {
   "slug": "dong-xu",
@@ -31233,6 +31703,114 @@
   "color": "g-other"
  },
  {
+  "slug": "ben-wooding",
+  "name": "Ben Wooding",
+  "group": "nnv",
+  "group_name": "NNV (VeriVITAL)",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [],
+  "to_confirm": "current post and role; dblp pid (matched by name only)",
+  "papers": 1,
+  "citations": 0,
+  "venues": {
+   "neurips": 1
+  },
+  "fields": {
+   "ml": 1,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 1,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 0.333,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 0.333,
+  "first_author": 0,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "samuel-sasaki",
+    "name": "Samuel Sasaki",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "sasaki2026learning",
+    "key": "openreview/CENjUqCe8j",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Learning Reach-Set Geometry for Tighter Probabilistic Neural Network Verification",
+    "url": "https://openreview.net/forum?id=CENjUqCe8j",
+    "citations": null,
+    "arxiv": "",
+    "source": "neurips.cc",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Samuel Sasaki",
+      "slug": "samuel-sasaki"
+     },
+     {
+      "name": "Ben Wooding",
+      "slug": "ben-wooding"
+     },
+     {
+      "name": "Taylor Johnson",
+      "slug": ""
+     }
+    ]
+   }
+  ],
+  "color": "g5"
+ },
+ {
   "slug": "konstantin-kaulen",
   "name": "Konstantin Kaulen",
   "group": "vnncomp",
@@ -31820,6 +32398,165 @@
   "color": "g-other"
  },
  {
+  "slug": "christian-schilling",
+  "name": "Christian Schilling",
+  "group": "juliareach",
+  "group_name": "JuliaReach",
+  "role": "faculty",
+  "institution": "Aalborg University",
+  "institution_short": "Aalborg",
+  "institution_local": "Aalborg University",
+  "institution_local_short": "Aalborg",
+  "homepage": "https://www.christianschilling.net/",
+  "orcid": "0000-0003-3658-1065",
+  "dblp": [
+   "https://dblp.org/pid/72/2103-1.html"
+  ],
+  "to_confirm": "",
+  "papers": 2,
+  "citations": 100,
+  "venues": {
+   "neurips": 1,
+   "nfm": 1
+  },
+  "fields": {
+   "ml": 1,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 1
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 2,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 2,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 0.25,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 0.25,
+  "first_author": 1,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "matthias-althoff",
+    "name": "Matthias Althoff",
+    "papers": 1
+   },
+   {
+    "slug": "stanley-bak",
+    "name": "Stanley Bak",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "schilling2023safety",
+    "key": "conf/nips/0001LDL23",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2023,
+    "field": "ml",
+    "title": "Safety Verification of Decision-Tree Policies in Continuous Time",
+    "url": "https://dblp.org/rec/conf/nips/0001LDL23",
+    "citations": 10,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Christian Schilling",
+      "slug": "christian-schilling"
+     },
+     {
+      "name": "Anna Lukina",
+      "slug": ""
+     },
+     {
+      "name": "Emir Demirovic",
+      "slug": ""
+     },
+     {
+      "name": "Kim Guldstrand Larsen",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "kochdumper2023open",
+    "key": "conf/nfm/Kochdumper0AB23",
+    "venue": "nfm",
+    "venue_name": "NFM",
+    "year": 2023,
+    "field": "fm",
+    "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
+    "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
+    "citations": 90,
+    "arxiv": "2207.02715",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Niklas Kochdumper",
+      "slug": ""
+     },
+     {
+      "name": "Christian Schilling",
+      "slug": "christian-schilling"
+     },
+     {
+      "name": "Matthias Althoff",
+      "slug": "matthias-althoff"
+     },
+     {
+      "name": "Stanley Bak",
+      "slug": "stanley-bak"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
   "slug": "haoyu-li",
   "name": "Haoyu Li",
   "group": "abcrown",
@@ -31930,6 +32667,124 @@
    }
   ],
   "color": "g3"
+ },
+ {
+  "slug": "benedikt-bruckner",
+  "name": "Benedikt Brückner",
+  "group": "venus",
+  "group_name": "Venus (Imperial)",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/280/0336.html"
+  ],
+  "to_confirm": "current post and role",
+  "papers": 1,
+  "citations": 2,
+  "venues": {
+   "eccv": 1
+  },
+  "fields": {
+   "ml": 0,
+   "cv": 1,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 1,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 0.0,
+   "cv": 0.2,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 0.2,
+  "first_author": 1,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "alessio-lomuscio",
+    "name": "Alessio Lomuscio",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "bruckner2026ioucert",
+    "key": "conf/eccv/BrucknerMZKL26",
+    "venue": "eccv",
+    "venue_name": "ECCV",
+    "year": 2026,
+    "field": "cv",
+    "title": "IoUCert: Robustness Verification for Anchor-Based Object Detectors",
+    "url": "https://doi.org/10.1007/978-3-032-37574-2_20",
+    "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Benedikt Brückner",
+      "slug": "benedikt-bruckner"
+     },
+     {
+      "name": "Alejandro J. Mercado",
+      "slug": ""
+     },
+     {
+      "name": "Yanghao Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Panagiotis Kouvaros",
+      "slug": ""
+     },
+     {
+      "name": "Alessio Lomuscio",
+      "slug": "alessio-lomuscio"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
  },
  {
   "slug": "hesun-chen",
@@ -32175,7 +33030,7 @@
     ]
    }
   ],
-  "color": "g6"
+  "color": "g5"
  },
  {
   "slug": "xiangru-zhong",

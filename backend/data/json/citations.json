@@ -1129,6 +1129,15 @@
   "matched": "title",
   "fetched": "2026-11-26"
  },
+ "conf/iclr/PalmaBBTK21": {
+  "citations": 48,
+  "arxiv": "",
+  "openalex": [
+   "W7225219387"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-26"
+ },
  "conf/iclr/PalmaBDKSL24": {
   "citations": 27,
   "arxiv": "2305.13991",
@@ -2543,6 +2552,16 @@
   "arxiv": "",
   "openalex": [
    "W4415796142"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-26"
+ },
+ "conf/nips/BehlKTD21": {
+  "citations": 5,
+  "arxiv": "",
+  "openalex": [
+   "W3212159435",
+   "W7225213073"
   ],
   "matched": "title",
   "fetched": "2026-11-26"

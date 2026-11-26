@@ -1515,10 +1515,10 @@
   "authors": [
    {
     "name": "Alessandro De Palma",
-    "slug": ""
+    "slug": "alessandro-de-palma"
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "wang2026learning",
@@ -1586,7 +1586,7 @@
    },
    {
     "name": "Ben Wooding",
-    "slug": ""
+    "slug": "ben-wooding"
    },
    {
     "name": "Taylor Johnson",
@@ -2042,7 +2042,7 @@
   "authors": [
    {
     "name": "Benedikt Brückner",
-    "slug": ""
+    "slug": "benedikt-bruckner"
    },
    {
     "name": "Alejandro J. Mercado",
@@ -5665,7 +5665,7 @@
   "authors": [
    {
     "name": "Alessandro De Palma",
-    "slug": ""
+    "slug": "alessandro-de-palma"
    },
    {
     "name": "Rudy Bunel",
@@ -9098,7 +9098,7 @@
   "authors": [
    {
     "name": "Christian Schilling",
-    "slug": ""
+    "slug": "christian-schilling"
    },
    {
     "name": "Anna Lukina",
@@ -9113,7 +9113,7 @@
     "slug": ""
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "ye2023unit",
@@ -9908,7 +9908,7 @@
    },
    {
     "name": "Christian Schilling",
-    "slug": ""
+    "slug": "christian-schilling"
    },
    {
     "name": "Matthias Althoff",
@@ -13593,6 +13593,45 @@
   "tracked": false
  },
  {
+  "id": "palma2021scaling",
+  "key": "conf/iclr/PalmaBBTK21",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2021,
+  "field": "ml",
+  "title": "Scaling the Convex Barrier with Active Sets",
+  "url": "https://dblp.org/rec/conf/iclr/PalmaBBTK21",
+  "citations": 48,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "bounds",
+  "area_name": "Bound propagation & abstract interpretation",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Alessandro De Palma",
+    "slug": "alessandro-de-palma"
+   },
+   {
+    "name": "Harkirat S. Behl",
+    "slug": ""
+   },
+   {
+    "name": "Rudy Bunel",
+    "slug": "rudy-bunel"
+   },
+   {
+    "name": "Philip Torr",
+    "slug": "philip-torr"
+   },
+   {
+    "name": "M. Pawan Kumar",
+    "slug": "m-pawan-kumar"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "wang2021beta",
   "key": "conf/nips/WangZXLJHK21",
   "venue": "neurips",
@@ -13777,6 +13816,41 @@
    {
     "name": "Thomas A. Henzinger",
     "slug": "thomas-a-henzinger"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "behl2021overcoming",
+  "key": "conf/nips/BehlKTD21",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2021,
+  "field": "ml",
+  "title": "Overcoming the Convex Barrier for Simplex Inputs",
+  "url": "https://dblp.org/rec/conf/nips/BehlKTD21",
+  "citations": 5,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "bounds",
+  "area_name": "Bound propagation & abstract interpretation",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Harkirat Singh Behl",
+    "slug": ""
+   },
+   {
+    "name": "M. Pawan Kumar",
+    "slug": "m-pawan-kumar"
+   },
+   {
+    "name": "Philip Torr",
+    "slug": "philip-torr"
+   },
+   {
+    "name": "Krishnamurthy Dvijotham",
+    "slug": "krishnamurthy-dvijotham"
    }
   ],
   "tracked": true
