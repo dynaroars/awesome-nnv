@@ -45,7 +45,9 @@ publish:
 		&& TZ=UTC git -c user.name="$(GIT_NAME)" -c user.email="$(GIT_EMAIL)" commit -q -m "site of $$(date -u +%F)" \
 		&& git push -f $(PAGES_REMOTE) gh-pages
 	rm -rf frontend/public/.git
-	-gh api -X POST repos/$(PAGES_REPO)/pages/builds --jq .status
+	sleep 10
+	-gh run watch --repo $(PAGES_REPO) --exit-status \
+		$$(gh run list --repo $(PAGES_REPO) --branch gh-pages --limit 1 --json databaseId --jq '.[0].databaseId')
 
 test:
 	cd backend/code && $(PYTHON) -m unittest discover -s tests
