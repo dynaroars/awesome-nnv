@@ -213,6 +213,39 @@ def display_title(title):
     return "".join(out)
 
 
+# Items in the proceedings that are not main-track research papers: keynotes, invited papers and talks, award
+# retrospectives, chairs' messages, forewords and corrigenda; at ICML, NeurIPS and ICLR also position papers.
+NOT_A_PAPER = re.compile(r"\([^()]*\b(?:keynote|invited|tutorial|impact paper)\b[^()]*\)|^message from the\b|\bforeword$"
+                         r"|^(?:corrigendum|erratum)\b", re.I)
+POSITION = re.compile(r"\s*position\s*:", re.I)
+OFF_TRACKS = {"datasets_benchmarks", "position", "blog", "journal"}
+
+
+def not_a_paper(venue, title):
+    return bool(NOT_A_PAPER.search(title or "")) or (venue in VIRTUAL_SITES and bool(POSITION.match(title or "")))
+
+
+def norm_title(title):
+    return re.sub(r"[^a-z0-9]+", "", html.unescape(title or "").lower())
+
+
+def virtual_track(title, sourceurl, event_type, file_has_source):
+    src, ev = sourceurl or "", event_type or ""
+    if re.search(r"blog", f"{src} {ev}", re.I):
+        return "blog"
+    if re.search(r"datasets_and_benchmarks|evaluations_and_datasets", src, re.I):
+        return "datasets_benchmarks"
+    if re.search(r"position_paper", src, re.I) or POSITION.match(title or ""):
+        return "position"
+    if re.search(r"jmlr|tmlr|j2c|journal|ann-stats|projecteuclid|imstat|rescience|reproducibility", f"{src} {ev}", re.I):
+        return "journal"
+    if re.search(r"/\d{4}/Conference", src):
+        return "main"
+    if not src and not file_has_source:
+        return "main"
+    return "other"
+
+
 def page_count(pagination):
     p = (pagination or "").strip()
     m = re.fullmatch(r"(?:\d+:)?(\d+)\s*-\s*(?:\d+:)?(\d+)", p)

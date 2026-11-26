@@ -78,7 +78,14 @@ the site uses.
 - **Main track only.** Each venue is a DBLP stream plus a whitelist of table-of-contents pages (`tocs` in `VENUES`):
   POPL, OOPSLA, ICFP and PLDI (2023 on) are PACMPL issues, FSE (2024 on) and ISSTA (2025 on) PACMSE issues.
   CVPR and ICCV workshop volumes (`cvprw`, `iccvw`, `iccv2025w`), ECCV workshop volumes (`-w`), companion, workshop, NIER, SEIS, demo, Tiny Papers, position-paper and Datasets & Benchmarks volumes are left out,
-  as are papers with a known page count under `MIN_PAGES` (6), as CSRankings does.
+  as are papers with a known page count under `MIN_PAGES` (6), as CSRankings does. **Long main-track papers only, at
+  every venue** (the maintainer's rule, as in vn-ai-ranking), so `fetch_dblp.py` also drops, inside whitelisted
+  volumes: items that are not research papers (`NOT_A_PAPER` in `common.py`: keynotes, invited papers and talks,
+  tutorials, impact-paper award retrospectives, chairs' messages, forewords, corrigenda); at ICML, NeurIPS and ICLR,
+  titles starting "Position:"; and the papers the conference site files outside the main track (`off_track_titles`:
+  Datasets & Benchmarks, position, blog, journal), since dblp puts NeurIPS D&B (2022 on) and ICML 2024 position
+  papers in the same proceedings as the main track. `coverage.json` counts them as `other_tracks`. ICLR and NeurIPS
+  give no page numbers; their main tracks have no short papers.
 - **Only NNV papers count** (the maintainer's choice): a paper whose main contribution is to verify, certify or give
   formal guarantees about the behaviour of a neural network or another learned model. In scope: complete and
   incomplete verifiers, bound propagation and abstract interpretation, certified training, randomized smoothing and
@@ -156,7 +163,12 @@ DBLP `key` in `frontend/data/papers.json`, then edit that row of `topics.csv`. P
 
 ## Labelling topics
 
-`scan_topics.py` is deliberately broad (`MODEL` and `CHECK` patterns both in the title, or a `STRONG` pattern). Read
+`scan_topics.py` is deliberately broad (`MODEL` and `CHECK` patterns both in the title, or a `STRONG` pattern, or,
+for a paper with a listed researcher among its authors, one broad `AUTHOR` word alone: `prefilter author`). The
+`AUTHOR` route was added on 2026-11-26 after a check of the top five groups' publication pages found NNV papers whose
+titles name no model ("Relational Verification Leaps Forward with RABBit") or no check ("Interpreting Robustness
+Proofs of Deep Neural Networks"); after promoting new people, run the scan again, since their papers now take this
+route. Read
 each undecided row and fill `decision`, `area`, `tags` and a dated `note`
 (e.g. `title, Claude 2026-11-26`). When the title is not enough, read the abstract (DOI page, arXiv, OpenReview)
 and say so in the note. Prefilter recall was checked against the maintainer's own NNV reading list (kept outside this

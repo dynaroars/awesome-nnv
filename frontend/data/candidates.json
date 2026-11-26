@@ -1,6 +1,23 @@
 [
  {
   "status": "on the roster, below 2 papers",
+  "pid": "166/3563",
+  "name": "Changliu Liu",
+  "group": "nv-jl",
+  "nnv_papers": 1,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2025",
+  "last_year": "2025",
+  "venues": "CAV 1",
+  "affiliation": "Carnegie Mellon University",
+  "homepage": "",
+  "titles": [
+   "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
   "pid": "280/0336",
   "name": "Benedikt Brückner",
   "group": "venus",
@@ -103,36 +120,19 @@
  },
  {
   "status": "on the roster, below 2 papers",
-  "pid": "125/2198",
-  "name": "Panagiotis Kouvaros",
-  "group": "venus",
+  "pid": "222/5386",
+  "name": "Tianhao Wei",
+  "group": "nv-jl",
   "nnv_papers": 1,
   "last_author": 0,
-  "first_author": 0,
-  "first_year": "2026",
-  "last_year": "2026",
-  "venues": "ECCV 1",
-  "affiliation": "",
-  "homepage": "",
-  "titles": [
-   "IoUCert: Robustness Verification for Anchor-Based Object Detectors"
-  ]
- },
- {
-  "status": "on the roster, below 2 papers",
-  "pid": "347/8942",
-  "name": "Xiangru Zhong",
-  "group": "abcrown",
-  "nnv_papers": 1,
-  "last_author": 0,
-  "first_author": 0,
+  "first_author": 1,
   "first_year": "2025",
   "last_year": "2025",
-  "venues": "NeurIPS 1",
+  "venues": "CAV 1",
   "affiliation": "",
   "homepage": "",
   "titles": [
-   "Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty"
+   "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks"
   ]
  },
  {
@@ -140,21 +140,6 @@
   "pid": "",
   "name": "Konstantin Kaulen",
   "group": "vnncomp",
-  "nnv_papers": 1,
-  "last_author": 0,
-  "first_author": 0,
-  "first_year": "",
-  "last_year": "",
-  "venues": "",
-  "affiliation": "",
-  "homepage": "",
-  "titles": []
- },
- {
-  "status": "on the roster, below 2 papers",
-  "pid": "",
-  "name": "Haoyu Li",
-  "group": "abcrown",
   "nnv_papers": 1,
   "last_author": 0,
   "first_author": 0,

@@ -1,10 +1,11 @@
 status,pid,name,group,nnv_papers,last_author,first_author,first_year,last_year,venues,affiliation,homepage,titles
+"on the roster, below 2 papers",166/3563,Changliu Liu,nv-jl,1,1,0,2025,2025,CAV 1,Carnegie Mellon University,,ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks
 "on the roster, below 2 papers",280/0336,Benedikt Brückner,venus,1,0,1,2026,2026,ECCV 1,,,IoUCert: Robustness Verification for Anchor-Based Object Detectors
 "on the roster, below 2 papers",72/2103-1,Christian Schilling,juliareach,1,0,1,2023,2023,NeurIPS 1,Aalborg University,https://www.christianschilling.net/,Safety Verification of Decision-Tree Policies in Continuous Time
+"on the roster, below 2 papers",12/10840,Haoyu Li,abcrown,1,0,1,2025,2025,NeurIPS 1,,,Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion
 "on the roster, below 2 papers",344/5571,Hesun Chen,abcrown,1,0,0,2025,2025,NeurIPS 1,,,Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification
 "on the roster, below 2 papers",298/2914,Linhan Li,neuralsat,1,0,1,2025,2025,ASE 1,,,Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks
 "on the roster, below 2 papers",311/4891,Lukas Koller,cora,1,0,1,2026,2026,ICLR 1,,,Out of the Shadows: Exploring a Latent Space for Neural Network Verification
 "on the roster, below 2 papers",207/7944,Navid Hashemi,nnv,1,0,1,2025,2025,NeurIPS 1,,,Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks
-"on the roster, below 2 papers",125/2198,Panagiotis Kouvaros,venus,1,0,0,2026,2026,ECCV 1,,,IoUCert: Robustness Verification for Anchor-Based Object Detectors
 "on the roster, below 2 papers",388/0293,Samuel Sasaki,nnv,1,0,0,2025,2025,NeurIPS 1,,,Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks
-"on the roster, below 2 papers",347/8942,Xiangru Zhong,abcrown,1,0,0,2025,2025,NeurIPS 1,,,Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty
+"on the roster, below 2 papers",222/5386,Tianhao Wei,nv-jl,1,0,1,2025,2025,CAV 1,,,ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks

@@ -5,26 +5,9 @@ import json
 import re
 import sys
 
-from common import (LAST_YEAR, PAPERS, RAW, VIRTUAL, VIRTUAL_COVERAGE, VIRTUAL_SITES, read_jsonl_gz, write_json,
+from common import (LAST_YEAR, PAPERS, RAW, VIRTUAL, VIRTUAL_COVERAGE, VIRTUAL_SITES, read_jsonl_gz, virtual_track, write_json,
                     write_jsonl_gz)
 from fetch_dblp import fetch
-
-
-def virtual_track(title, sourceurl, event_type, file_has_source):
-    src, ev = sourceurl or "", event_type or ""
-    if re.search(r"blog", f"{src} {ev}", re.I):
-        return "blog"
-    if re.search(r"datasets_and_benchmarks|evaluations_and_datasets", src, re.I):
-        return "datasets_benchmarks"
-    if re.search(r"position_paper", src, re.I) or re.match(r"\s*position\s*:", title or "", re.I):
-        return "position"
-    if re.search(r"jmlr|tmlr|j2c|journal|ann-stats|projecteuclid|imstat|rescience|reproducibility", f"{src} {ev}", re.I):
-        return "journal"
-    if re.search(r"/\d{4}/Conference", src):
-        return "main"
-    if not src and not file_has_source:
-        return "main"
-    return "other"
 
 
 def parse(venue, year, data):

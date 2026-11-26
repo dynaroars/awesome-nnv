@@ -9,8 +9,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from common import (FIRST_YEAR, LAST_YEAR, MIN_PAGES, PAPERS, RAW, VENUES, WORK, dblp_name, page_count, write_json,
-                    write_jsonl_gz)
+from common import (FIRST_YEAR, LAST_YEAR, MIN_PAGES, OFF_TRACKS, PAPERS, RAW, VENUES, VIRTUAL_SITES, WORK, dblp_name,
+                    norm_title, not_a_paper, page_count, virtual_track, write_json, write_jsonl_gz)
 
 USER_AGENT = "awesome-nnv/1.0 (research statistics script)"
 DBLP_SPARQL = "https://sparql.dblp.org/sparql"
@@ -119,6 +119,22 @@ def parse(venue, year, rows):
     return out
 
 
+def off_track_titles(venue, year, refresh=False):
+    """Titles that the conference site lists outside the main track (Datasets & Benchmarks, position papers): dblp
+    files NeurIPS D&B (2022 on) and ICML position papers in the same proceedings as the main track."""
+    site = VIRTUAL_SITES.get(venue)
+    if not site or year < 2020:  # the sites publish these lists from 2020; D&B and position tracks came later
+        return set()
+    data = fetch(f"{site}/static/virtual/data/{venue}-{year}-orals-posters.json", f"virtual/{venue}-{year}.json",
+                 refresh and year >= LAST_YEAR - 1)
+    if not data or not data.lstrip().startswith(b"{"):
+        return set()
+    rows = json.loads(data).get("results", [])
+    has_source = sum(1 for r in rows if r.get("sourceurl")) > len(rows) / 2
+    return {norm_title(r.get("name")) for r in rows
+            if virtual_track(r.get("name"), r.get("sourceurl"), r.get("event_type"), has_source) in OFF_TRACKS}
+
+
 def collect(refresh=False, only=None):
     papers, coverage = [], collections.defaultdict(dict)
     for venue in VENUES:
@@ -134,14 +150,17 @@ def collect(refresh=False, only=None):
             if len(parsed) < 0.8 * t["listed"]:
                 print(f"warning: {t['toc']} {t['issue']}: {len(parsed)} papers parsed, dblp lists {t['listed']}",
                       file=sys.stderr)
-            kept = [p for p in parsed if p["page_count"] is None or p["page_count"] >= MIN_PAGES]
-            c = coverage[venue["key"]].setdefault(t["year"], {"papers": 0, "short": 0, "tocs": []})
+            off = off_track_titles(venue["key"], t["year"], refresh)
+            papers_only = [p for p in parsed if not not_a_paper(venue["key"], p["title"]) and norm_title(p["title"]) not in off]
+            kept = [p for p in papers_only if p["page_count"] is None or p["page_count"] >= MIN_PAGES]
+            c = coverage[venue["key"]].setdefault(t["year"], {"papers": 0, "short": 0, "other_tracks": 0, "tocs": []})
             c["papers"] += len(kept)
-            c["short"] += len(parsed) - len(kept)
+            c["short"] += len(papers_only) - len(kept)
+            c["other_tracks"] += len(parsed) - len(papers_only)
             c["tocs"].append(f"{t['toc']}#{t['issue']}" if t["issue"] else t["toc"])
             papers.extend(kept)
             print(f"{venue['name']} {t['year']} {t['toc']} {t['issue']}: {len(kept)} papers"
-                  f" ({len(parsed) - len(kept)} short)", file=sys.stderr)
+                  f" ({len(papers_only) - len(kept)} short, {len(parsed) - len(papers_only)} other tracks or not papers)", file=sys.stderr)
     return papers, coverage
 
 

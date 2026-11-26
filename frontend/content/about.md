@@ -17,7 +17,7 @@ Conferences are grouped into five fields, following [CSRankings](https://csranki
 | SE, software engineering | FSE, ICSE, ASE, ISSTA |
 | LV, logic and verification | CAV, LICS |
 
-Coverage starts in 2017, the year Reluplex appeared at CAV. Following CSRankings, we only include main-track papers that are at least six pages long. We leave out workshops, companion volumes, demos, position papers, Tiny Papers, new-ideas and industry tracks, and Datasets & Benchmarks tracks. Journal-style conference tracks (POPL, OOPSLA, ICFP, and PLDI in PACMPL, plus FSE and ISSTA in PACMSE) are included.
+Coverage starts in 2017, the year Reluplex appeared at CAV. Following CSRankings, we only include main-track papers that are at least six pages long. We leave out workshops, companion volumes, demos, position papers, Tiny Papers, new-ideas and industry tracks, Datasets & Benchmarks tracks, and keynotes and invited talks, including those printed in the main proceedings. Journal-style conference tracks (POPL, OOPSLA, ICFP, and PLDI in PACMPL, plus FSE and ISSTA in PACMSE) are included.
 
 Most paper lists come from [dblp](https://dblp.org) (CC0) via its SPARQL service. Because dblp can take a few weeks to index new proceedings, we temporarily pull recent ICML, NeurIPS, and ICLR papers from the official conference sites (`icml.cc`, `neurips.cc`, `iclr.cc`) and match authors by name until dblp catches up. Any other recent conference years missing from dblp are noted on the [Conferences](../conferences/) page. When OpenAlex has an arXiv record for a paper, we link to it next to the title.
 

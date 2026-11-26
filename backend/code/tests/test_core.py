@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import build_site_data
-from common import AREA_KEYS, FIELD_OF, assign_ids, display_title, scholar_id, VENUES, dblp_name, norm_name, page_count, split_list
+from common import AREA_KEYS, FIELD_OF, assign_ids, display_title, scholar_id, VENUES, dblp_name, norm_name, not_a_paper, page_count, split_list
 from scan_topics import hit
 
 
@@ -76,6 +76,15 @@ class ScoreTest(unittest.TestCase):
         self.assertEqual(build_site_data.score_fields(papers, {"a"})["lv"], 0.25)
         self.assertEqual(build_site_data.score_fields(papers, {"a", "b"})["lv"], 0.5)
         self.assertEqual(build_site_data.score_fields(papers, {"a"})["ml"], 0.5)
+
+    def test_not_a_paper(self):
+        self.assertTrue(not_a_paper("fse", "Safety and robustness for deep learning with provable guarantees (keynote)"))
+        self.assertTrue(not_a_paper("cav", "Learning to Split: A Heuristic for Neural Network Verification (Invited Talk)"))
+        self.assertTrue(not_a_paper("issta", "Automated debugging: past, present, and future (ISSTA impact paper award)"))
+        self.assertTrue(not_a_paper("icml", "Position: Future Directions in the Theory of Graph Machine Learning"))
+        self.assertFalse(not_a_paper("lics", "A type theory for cartesian closed bicategories (Extended Abstract)"))
+        self.assertFalse(not_a_paper("iccv", "Preface: A Data-driven Volumetric Prior for Few-shot Face Synthesis"))
+        self.assertFalse(not_a_paper("iclr", "(Certified!!) Adversarial Robustness for Free!"))
 
     def test_areas_known(self):
         self.assertIn("other", AREA_KEYS)

@@ -22,7 +22,7 @@
    },
    {
     "name": "Haoyu Li",
-    "slug": ""
+    "slug": "haoyu-li"
    },
    {
     "name": "Huan Zhang",
@@ -496,6 +496,42 @@
   "tracked": false
  },
  {
+  "id": "delattre2026joint",
+  "key": "openreview/RhmrtYOQxz",
+  "date": "2026-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2026,
+  "field": "ml",
+  "title": "Joint Certification for Attributed Graphs: Beyond Topology-Only Robustness",
+  "url": "https://openreview.net/forum?id=RhmrtYOQxz",
+  "citations": null,
+  "arxiv": "",
+  "source": "neurips.cc",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Blaise Delattre",
+    "slug": "blaise-delattre"
+   },
+   {
+    "name": "Hengyu WU",
+    "slug": ""
+   },
+   {
+    "name": "Wei Yang Bryan Lim",
+    "slug": ""
+   },
+   {
+    "name": "Yang Cao",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "palma2026learning",
   "key": "openreview/3ccTPcDlNx",
   "date": "2026-12",
@@ -774,6 +810,38 @@
   "tracked": false
  },
  {
+  "id": "zargarbashi2026should",
+  "key": "openreview/KfO6qMzPTr",
+  "date": "2026-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2026,
+  "field": "ml",
+  "title": "Should We Pay This Much for Robustness? Efficient Proxy Certificates with Marginal Guarantees",
+  "url": "https://openreview.net/forum?id=KfO6qMzPTr",
+  "citations": 0,
+  "arxiv": "2611.08035",
+  "source": "neurips.cc",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Sayed Soroush Haj Zargarbashi",
+    "slug": ""
+   },
+   {
+    "name": "Mohammad Sadegh Akhondzadeh",
+    "slug": "mohammad-sadegh-akhondzadeh"
+   },
+   {
+    "name": "Aleksandar Bojchevski",
+    "slug": "aleksandar-bojchevski"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "gursoy2026sparse",
   "key": "openreview/fO3zFhG0ES",
   "date": "2026-12",
@@ -1028,11 +1096,11 @@
    },
    {
     "name": "Yanghao Zhang",
-    "slug": ""
+    "slug": "yanghao-zhang"
    },
    {
     "name": "Panagiotis Kouvaros",
-    "slug": ""
+    "slug": "panagiotis-kouvaros"
    },
    {
     "name": "Alessio Lomuscio",
@@ -1473,6 +1541,38 @@
   "tracked": false
  },
  {
+  "id": "zargarbashi2026front",
+  "key": "openreview/OfXpAituJ9",
+  "date": "2026-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2026,
+  "field": "ml",
+  "title": "Front-Loaded Robust Conformal Prediction: Heavy Calibration, Minimal Test-Time Cost",
+  "url": "https://openreview.net/forum?id=OfXpAituJ9",
+  "citations": 1,
+  "arxiv": "",
+  "source": "icml.cc",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Soroush H. Zargarbashi",
+    "slug": "soroush-h-zargarbashi"
+   },
+   {
+    "name": "Mohammad Sadegh Akhondzadeh",
+    "slug": "mohammad-sadegh-akhondzadeh"
+   },
+   {
+    "name": "Aleksandar Bojchevski",
+    "slug": "aleksandar-bojchevski"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "zhang2026higher",
   "key": "openreview/u96qokgpPR",
   "date": "2026-07",
@@ -1861,34 +1961,6 @@
   "tracked": false
  },
  {
-  "id": "swisa2026learning",
-  "key": "conf/cav/SwisaK26",
-  "date": "2026-07",
-  "venue": "cav",
-  "venue_name": "CAV",
-  "year": 2026,
-  "field": "lv",
-  "title": "Learning to Split: A Reinforcement-Learning-Guided Splitting Heuristic for Neural Network Verification (Invited Talk)",
-  "url": "https://doi.org/10.1007/978-3-032-32519-8_1",
-  "citations": 0,
-  "arxiv": "",
-  "source": "dblp.org",
-  "area": "complete",
-  "area_name": "Complete verification",
-  "tags": [],
-  "authors": [
-   {
-    "name": "Maya Swisa",
-    "slug": ""
-   },
-   {
-    "name": "Guy Katz",
-    "slug": "guy-katz"
-   }
-  ],
-  "tracked": true
- },
- {
   "id": "ladner2026perception",
   "key": "conf/cav/LadnerSA26",
   "date": "2026-07",
@@ -2072,6 +2144,42 @@
   "tracked": true
  },
  {
+  "id": "durand2026lipschitz",
+  "key": "conf/cvpr/DurandKGL26",
+  "date": "2026-06",
+  "venue": "cvpr",
+  "venue_name": "CVPR",
+  "year": 2026,
+  "field": "cv",
+  "title": "Lipschitz Optimization for Formal Verification of Homographies",
+  "url": "https://dblp.org/rec/conf/cvpr/DurandKGL26",
+  "citations": 0,
+  "arxiv": "2605.23203",
+  "source": "dblp.org",
+  "area": "bounds",
+  "area_name": "Bound propagation & abstract interpretation",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Jean-Guillaume Durand",
+    "slug": ""
+   },
+   {
+    "name": "Panagiotis Kouvaros",
+    "slug": "panagiotis-kouvaros"
+   },
+   {
+    "name": "Maxime Gariel",
+    "slug": ""
+   },
+   {
+    "name": "Alessio Lomuscio",
+    "slug": "alessio-lomuscio"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "duong2026verifying",
   "key": "conf/cvpr/DuongNLN26",
   "date": "2026-06",
@@ -2131,6 +2239,38 @@
    {
     "name": "Debangshu Banerjee",
     "slug": "debangshu-banerjee"
+   },
+   {
+    "name": "Gagandeep Singh",
+    "slug": "gagandeep-singh"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "gu2026sail",
+  "key": "journals/pacmpl/GuSS26",
+  "date": "2026-06",
+  "venue": "pldi",
+  "venue_name": "PLDI",
+  "year": 2026,
+  "field": "pl",
+  "title": "SAIL: Sound Abstract Interpreters with LLMs",
+  "url": "https://doi.org/10.1145/3808308",
+  "citations": 3,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "bounds",
+  "area_name": "Bound propagation & abstract interpretation",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Qiuhan Gu",
+    "slug": ""
+   },
+   {
+    "name": "Avaljot Singh",
+    "slug": "avaljot-singh"
    },
    {
     "name": "Gagandeep Singh",
@@ -2613,6 +2753,38 @@
   "tracked": true
  },
  {
+  "id": "bassan2026unifying",
+  "key": "conf/iclr/BassanHK26",
+  "date": "2026-04",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2026,
+  "field": "ml",
+  "title": "Unifying Formal Explanations: A Complexity-Theoretic Perspective",
+  "url": "https://dblp.org/rec/conf/iclr/BassanHK26",
+  "citations": 7,
+  "arxiv": "2602.18160",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Shahaf Bassan",
+    "slug": "shahaf-bassan"
+   },
+   {
+    "name": "Xuanxiang Huang",
+    "slug": ""
+   },
+   {
+    "name": "Guy Katz",
+    "slug": "guy-katz"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "ji2025abstract",
   "key": "conf/nips/JiLZZM25",
   "date": "2025-12",
@@ -2644,7 +2816,7 @@
    },
    {
     "name": "Xiangru Zhong",
-    "slug": ""
+    "slug": "xiangru-zhong"
    },
    {
     "name": "Huan Zhang",
@@ -2689,6 +2861,38 @@
    {
     "name": "Benjamin Rubinstein",
     "slug": "benjamin-rubinstein"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "bassan2025additive",
+  "key": "conf/nips/BassanMK25",
+  "date": "2025-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2025,
+  "field": "ml",
+  "title": "Additive Models Explained: A Computational Complexity Approach",
+  "url": "https://dblp.org/rec/conf/nips/BassanMK25",
+  "citations": 5,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Shahaf Bassan",
+    "slug": "shahaf-bassan"
+   },
+   {
+    "name": "Michal Moshkovitz",
+    "slug": ""
+   },
+   {
+    "name": "Guy Katz",
+    "slug": "guy-katz"
    }
   ],
   "tracked": true
@@ -2949,6 +3153,83 @@
   "tracked": true
  },
  {
+  "id": "zargarbashi2025one",
+  "key": "conf/nips/ZargarbashiAB25",
+  "date": "2025-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2025,
+  "field": "ml",
+  "title": "One Sample is Enough to Make Conformal Prediction Robust",
+  "url": "https://dblp.org/rec/conf/nips/ZargarbashiAB25",
+  "citations": 6,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Soroush H. Zargarbashi",
+    "slug": "soroush-h-zargarbashi"
+   },
+   {
+    "name": "Mohammad Sadegh Akhondzadeh",
+    "slug": "mohammad-sadegh-akhondzadeh"
+   },
+   {
+    "name": "Aleksandar Bojchevski",
+    "slug": "aleksandar-bojchevski"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "jin2025probabilistic",
+  "key": "conf/nips/JinXYGW25",
+  "date": "2025-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2025,
+  "field": "ml",
+  "title": "Probabilistic Stability Guarantees for Feature Attributions",
+  "url": "https://dblp.org/rec/conf/nips/JinXYGW25",
+  "citations": 17,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Helen Jin",
+    "slug": ""
+   },
+   {
+    "name": "Anton Xue",
+    "slug": "anton-xue"
+   },
+   {
+    "name": "Weiqiu You",
+    "slug": ""
+   },
+   {
+    "name": "Surbhi Goel",
+    "slug": ""
+   },
+   {
+    "name": "Eric Wong",
+    "slug": "eric-wong"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "tao2025provable",
   "key": "conf/nips/TaoT25",
   "date": "2025-12",
@@ -3016,6 +3297,38 @@
    {
     "name": "Aleksandra Korolova",
     "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zhang2025scalable",
+  "key": "conf/nips/ZhangKL25",
+  "date": "2025-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2025,
+  "field": "ml",
+  "title": "Scalable Neural Network Geometric Robustness Validation via Hölder Optimisation",
+  "url": "https://dblp.org/rec/conf/nips/ZhangKL25",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "bounds",
+  "area_name": "Bound propagation & abstract interpretation",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yanghao Zhang",
+    "slug": "yanghao-zhang"
+   },
+   {
+    "name": "Panagiotis Kouvaros",
+    "slug": "panagiotis-kouvaros"
+   },
+   {
+    "name": "Alessio Lomuscio",
+    "slug": "alessio-lomuscio"
    }
   ],
   "tracked": true
@@ -3097,6 +3410,42 @@
    }
   ],
   "tracked": false
+ },
+ {
+  "id": "li2025two",
+  "key": "conf/nips/LiZHZ25",
+  "date": "2025-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2025,
+  "field": "ml",
+  "title": "Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion",
+  "url": "https://dblp.org/rec/conf/nips/LiZHZ25",
+  "citations": 19,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Haoyu Li",
+    "slug": "haoyu-li"
+   },
+   {
+    "name": "Xiangru Zhong",
+    "slug": "xiangru-zhong"
+   },
+   {
+    "name": "Bin Hu",
+    "slug": ""
+   },
+   {
+    "name": "Huan Zhang",
+    "slug": "huan-zhang"
+   }
+  ],
+  "tracked": true
  },
  {
   "id": "li2025destabilizing",
@@ -3186,7 +3535,7 @@
   "authors": [
    {
     "name": "Avaljot Singh",
-    "slug": ""
+    "slug": "avaljot-singh"
    },
    {
     "name": "Yasmin Sarita",
@@ -3518,6 +3867,58 @@
   "tracked": true
  },
  {
+  "id": "wicker2025certification",
+  "key": "conf/icml/WickerSSJMMWT25",
+  "date": "2025-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2025,
+  "field": "ml",
+  "title": "Certification for Differentially Private Prediction in Gradient-Based Training",
+  "url": "https://dblp.org/rec/conf/icml/WickerSSJMMWT25",
+  "citations": 12,
+  "arxiv": "2406.13433",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Matthew Wicker",
+    "slug": "matthew-wicker"
+   },
+   {
+    "name": "Philip Sosnin",
+    "slug": ""
+   },
+   {
+    "name": "Igor Shilov",
+    "slug": ""
+   },
+   {
+    "name": "Adrianna Janik",
+    "slug": ""
+   },
+   {
+    "name": "Mark Niklas Müller",
+    "slug": "mark-niklas-muller"
+   },
+   {
+    "name": "Yves-Alexandre de Montjoye",
+    "slug": ""
+   },
+   {
+    "name": "Adrian Weller",
+    "slug": "adrian-weller"
+   },
+   {
+    "name": "Calvin Tsay",
+    "slug": "calvin-tsay"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "mao2025ctbench",
   "key": "conf/icml/MaoBV25",
   "date": "2025-07",
@@ -3680,6 +4081,46 @@
    {
     "name": "Efstathia Bura",
     "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "bassan2025explaining",
+  "key": "conf/icml/BassanELAK25",
+  "date": "2025-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2025,
+  "field": "ml",
+  "title": "Explaining, Fast and Slow: Abstraction and Refinement of Provable Explanations",
+  "url": "https://dblp.org/rec/conf/icml/BassanELAK25",
+  "citations": 20,
+  "arxiv": "2506.08505",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Shahaf Bassan",
+    "slug": "shahaf-bassan"
+   },
+   {
+    "name": "Yizhak Yisrael Elboher",
+    "slug": "yizhak-yisrael-elboher"
+   },
+   {
+    "name": "Tobias Ladner",
+    "slug": "tobias-ladner"
+   },
+   {
+    "name": "Matthias Althoff",
+    "slug": "matthias-althoff"
+   },
+   {
+    "name": "Guy Katz",
+    "slug": "guy-katz"
    }
   ],
   "tracked": true
@@ -3952,6 +4393,47 @@
   "tracked": true
  },
  {
+  "id": "bassan2025what",
+  "key": "conf/icml/BassanAZK25",
+  "date": "2025-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2025,
+  "field": "ml",
+  "title": "What makes an Ensemble (Un) Interpretable?",
+  "url": "https://dblp.org/rec/conf/icml/BassanAZK25",
+  "citations": 20,
+  "arxiv": "2506.08216",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [
+   {
+    "key": "architectures",
+    "name": "Beyond feed-forward nets"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Shahaf Bassan",
+    "slug": "shahaf-bassan"
+   },
+   {
+    "name": "Guy Amir",
+    "slug": "guy-amir"
+   },
+   {
+    "name": "Meirav Zehavi",
+    "slug": ""
+   },
+   {
+    "name": "Guy Katz",
+    "slug": "guy-katz"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "tobler2025formally",
   "key": "conf/cav/ToblerSM25",
   "date": "2025-07",
@@ -4047,7 +4529,7 @@
   "authors": [
    {
     "name": "Tianhao Wei",
-    "slug": "tianhao-wei"
+    "slug": ""
    },
    {
     "name": "Hanjiang Hu",
@@ -4071,10 +4553,10 @@
    },
    {
     "name": "Changliu Liu",
-    "slug": "changliu-liu"
+    "slug": ""
    }
   ],
-  "tracked": true
+  "tracked": false
  },
  {
   "id": "duong2025neuralsat",
@@ -4639,6 +5121,34 @@
   "tracked": true
  },
  {
+  "id": "scholten2025provably",
+  "key": "conf/iclr/ScholtenG25",
+  "date": "2025-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2025,
+  "field": "ml",
+  "title": "Provably Reliable Conformal Prediction Sets in the Presence of Data Poisoning",
+  "url": "https://dblp.org/rec/conf/iclr/ScholtenG25",
+  "citations": 9,
+  "arxiv": "2410.09878",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yan Scholten",
+    "slug": "yan-scholten"
+   },
+   {
+    "name": "Stephan Günnemann",
+    "slug": "stephan-gunnemann"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "li2025provably",
   "key": "conf/iclr/LiPD0W25",
   "date": "2025-05",
@@ -4679,6 +5189,34 @@
    {
     "name": "Binghui Wang",
     "slug": "binghui-wang"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zargarbashi2025robust",
+  "key": "conf/iclr/ZargarbashiB25",
+  "date": "2025-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2025,
+  "field": "ml",
+  "title": "Robust Conformal Prediction with a Single Binary Certificate",
+  "url": "https://dblp.org/rec/conf/iclr/ZargarbashiB25",
+  "citations": 6,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Soroush H. Zargarbashi",
+    "slug": "soroush-h-zargarbashi"
+   },
+   {
+    "name": "Aleksandar Bojchevski",
+    "slug": "aleksandar-bojchevski"
    }
   ],
   "tracked": true
@@ -4764,7 +5302,7 @@
    },
    {
     "name": "Tom Rainforth",
-    "slug": ""
+    "slug": "tom-rainforth"
    },
    {
     "name": "Thomas Lukasiewicz",
@@ -5419,58 +5957,6 @@
   "tracked": true
  },
  {
-  "id": "lin2024nn4sysbench",
-  "key": "conf/nips/LinHWXZ0LT24",
-  "date": "2024-12",
-  "venue": "neurips",
-  "venue_name": "NeurIPS",
-  "year": 2024,
-  "field": "ml",
-  "title": "NN4SysBench: Characterizing Neural Network Verification for Computer Systems",
-  "url": "https://dblp.org/rec/conf/nips/LinHWXZ0LT24",
-  "citations": 5,
-  "arxiv": "",
-  "source": "dblp.org",
-  "area": "other",
-  "area_name": "Other",
-  "tags": [],
-  "authors": [
-   {
-    "name": "Shuyi Lin",
-    "slug": ""
-   },
-   {
-    "name": "Haoyu He",
-    "slug": ""
-   },
-   {
-    "name": "Tianhao Wei",
-    "slug": "tianhao-wei"
-   },
-   {
-    "name": "Kaidi Xu",
-    "slug": "kaidi-xu"
-   },
-   {
-    "name": "Huan Zhang",
-    "slug": "huan-zhang"
-   },
-   {
-    "name": "Gagandeep Singh",
-    "slug": "gagandeep-singh"
-   },
-   {
-    "name": "Changliu Liu",
-    "slug": "changliu-liu"
-   },
-   {
-    "name": "Cheng Tan",
-    "slug": ""
-   }
-  ],
-  "tracked": true
- },
- {
   "id": "altstidl2024scalability",
   "key": "conf/nips/AltstidlDKEGS24",
   "date": "2024-12",
@@ -5575,6 +6061,38 @@
    {
     "name": "André Platzer",
     "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "suresh2024relational",
+  "key": "conf/nips/SureshB024",
+  "date": "2024-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2024,
+  "field": "ml",
+  "title": "Relational Verification Leaps Forward with RABBit",
+  "url": "https://dblp.org/rec/conf/nips/SureshB024",
+  "citations": 6,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Tarun Suresh",
+    "slug": "tarun-suresh"
+   },
+   {
+    "name": "Debangshu Banerjee",
+    "slug": "debangshu-banerjee"
+   },
+   {
+    "name": "Gagandeep Singh",
+    "slug": "gagandeep-singh"
    }
   ],
   "tracked": true
@@ -6303,6 +6821,79 @@
   "tracked": false
  },
  {
+  "id": "havens2024fine",
+  "key": "conf/icml/HavensAZ024",
+  "date": "2024-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2024,
+  "field": "ml",
+  "title": "Fine-grained Local Sensitivity Analysis of Standard Dot-Product Self-Attention",
+  "url": "https://dblp.org/rec/conf/icml/HavensAZ024",
+  "citations": 6,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [
+   {
+    "key": "other",
+    "name": "Other"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Aaron J. Havens",
+    "slug": "aaron-j-havens"
+   },
+   {
+    "name": "Alexandre Araujo",
+    "slug": "alexandre-araujo"
+   },
+   {
+    "name": "Huan Zhang",
+    "slug": "huan-zhang"
+   },
+   {
+    "name": "Bin Hu",
+    "slug": "bin-hu"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "bassan2024local",
+  "key": "conf/icml/BassanAK24",
+  "date": "2024-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2024,
+  "field": "ml",
+  "title": "Local vs. Global Interpretability: A Computational Complexity Perspective",
+  "url": "https://dblp.org/rec/conf/icml/BassanAK24",
+  "citations": 45,
+  "arxiv": "2406.02981",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Shahaf Bassan",
+    "slug": "shahaf-bassan"
+   },
+   {
+    "name": "Guy Amir",
+    "slug": "guy-amir"
+   },
+   {
+    "name": "Guy Katz",
+    "slug": "guy-katz"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "yang2024lyapunov",
   "key": "conf/icml/YangDSHT024",
   "date": "2024-07",
@@ -6419,6 +7010,38 @@
    {
     "name": "Gagandeep Singh",
     "slug": "gagandeep-singh"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zargarbashi2024robust",
+  "key": "conf/icml/ZargarbashiAB24",
+  "date": "2024-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2024,
+  "field": "ml",
+  "title": "Robust Yet Efficient Conformal Prediction Sets",
+  "url": "https://dblp.org/rec/conf/icml/ZargarbashiAB24",
+  "citations": 25,
+  "arxiv": "2407.09165",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Soroush H. Zargarbashi",
+    "slug": "soroush-h-zargarbashi"
+   },
+   {
+    "name": "Mohammad Sadegh Akhondzadeh",
+    "slug": "mohammad-sadegh-akhondzadeh"
+   },
+   {
+    "name": "Aleksandar Bojchevski",
+    "slug": "aleksandar-bojchevski"
    }
   ],
   "tracked": true
@@ -7338,7 +7961,7 @@
    },
    {
     "name": "Tarun Suresh",
-    "slug": ""
+    "slug": "tarun-suresh"
    },
    {
     "name": "Debangshu Banerjee",
@@ -7351,6 +7974,43 @@
    {
     "name": "Sasa Misailovic",
     "slug": "sasa-misailovic"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "banerjee2024interpreting",
+  "key": "conf/iclr/BanerjeeS024",
+  "date": "2024-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2024,
+  "field": "ml",
+  "title": "Interpreting Robustness Proofs of Deep Neural Networks",
+  "url": "https://dblp.org/rec/conf/iclr/BanerjeeS024",
+  "citations": 4,
+  "arxiv": "2301.13845",
+  "source": "dblp.org",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [
+   {
+    "key": "explanations",
+    "name": "Formal explanations"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Debangshu Banerjee",
+    "slug": "debangshu-banerjee"
+   },
+   {
+    "name": "Avaljot Singh",
+    "slug": "avaljot-singh"
+   },
+   {
+    "name": "Gagandeep Singh",
+    "slug": "gagandeep-singh"
    }
   ],
   "tracked": true
@@ -7502,7 +8162,7 @@
    },
    {
     "name": "Yaniv Romano",
-    "slug": ""
+    "slug": "yaniv-romano"
    },
    {
     "name": "Tsui-Wei Weng",
@@ -7871,6 +8531,38 @@
    }
   ],
   "tracked": false
+ },
+ {
+  "id": "wicker2023certification",
+  "key": "conf/nips/WickerPW23",
+  "date": "2023-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2023,
+  "field": "ml",
+  "title": "Certification of Distributional Individual Fairness",
+  "url": "https://dblp.org/rec/conf/nips/WickerPW23",
+  "citations": 11,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Matthew Wicker",
+    "slug": "matthew-wicker"
+   },
+   {
+    "name": "Vihari Piratla",
+    "slug": ""
+   },
+   {
+    "name": "Adrian Weller",
+    "slug": "adrian-weller"
+   }
+  ],
+  "tracked": true
  },
  {
   "id": "fazlyab2023certified",
@@ -8299,6 +8991,71 @@
    }
   ],
   "tracked": false
+ },
+ {
+  "id": "xue2023stability",
+  "key": "conf/nips/XueA023",
+  "date": "2023-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2023,
+  "field": "ml",
+  "title": "Stability Guarantees for Feature Attributions with Multiplicative Smoothing",
+  "url": "https://dblp.org/rec/conf/nips/XueA023",
+  "citations": 23,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Anton Xue",
+    "slug": "anton-xue"
+   },
+   {
+    "name": "Rajeev Alur",
+    "slug": "rajeev-alur"
+   },
+   {
+    "name": "Eric Wong",
+    "slug": "eric-wong"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "wang2023temporal",
+  "key": "conf/nips/0002F23",
+  "date": "2023-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2023,
+  "field": "ml",
+  "title": "Temporal Robustness against Data poisoning",
+  "url": "https://dblp.org/rec/conf/nips/0002F23",
+  "citations": 21,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Wenxiao Wang",
+    "slug": "wenxiao-wang"
+   },
+   {
+    "name": "Soheil Feizi",
+    "slug": "soheil-feizi"
+   }
+  ],
+  "tracked": true
  },
  {
   "id": "ye2023unit",
@@ -8815,6 +9572,42 @@
    {
     "name": "Alexandre Allauzen",
     "slug": "alexandre-allauzen"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "jovanovic2023fare",
+  "key": "conf/icml/0001BDV23",
+  "date": "2023-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2023,
+  "field": "ml",
+  "title": "FARE: Provably Fair Representation Learning with Practical Certificates",
+  "url": "https://dblp.org/rec/conf/icml/0001BDV23",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Nikola Jovanovic",
+    "slug": "nikola-jovanovic"
+   },
+   {
+    "name": "Mislav Balunovic",
+    "slug": "mislav-balunovic"
+   },
+   {
+    "name": "Dimitar I. Dimitrov",
+    "slug": "dimitar-i-dimitrov"
+   },
+   {
+    "name": "Martin Vechev",
+    "slug": "martin-vechev"
    }
   ],
   "tracked": true
@@ -9711,6 +10504,50 @@
   "tracked": true
  },
  {
+  "id": "mangal2023perils",
+  "key": "conf/iclr/MangalWZLPF23",
+  "date": "2023-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2023,
+  "field": "ml",
+  "title": "On the Perils of Cascading Robust Classifiers",
+  "url": "https://dblp.org/rec/conf/iclr/MangalWZLPF23",
+  "citations": 2,
+  "arxiv": "2206.00278",
+  "source": "dblp.org",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Ravi Mangal",
+    "slug": ""
+   },
+   {
+    "name": "Zifan Wang",
+    "slug": "zifan-wang"
+   },
+   {
+    "name": "Chi Zhang",
+    "slug": ""
+   },
+   {
+    "name": "Klas Leino",
+    "slug": "klas-leino"
+   },
+   {
+    "name": "Corina S. Pasareanu",
+    "slug": "corina-s-pasareanu"
+   },
+   {
+    "name": "Matt Fredrikson",
+    "slug": "matt-fredrikson"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "yang2023provable",
   "key": "conf/iclr/YangLM023",
   "date": "2023-05",
@@ -9811,7 +10648,7 @@
   "authors": [
    {
     "name": "Matthew Wicker",
-    "slug": ""
+    "slug": "matthew-wicker"
    },
    {
     "name": "Juyeon Heo",
@@ -9823,10 +10660,10 @@
    },
    {
     "name": "Adrian Weller",
-    "slug": ""
+    "slug": "adrian-weller"
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "voracek2023sound",
@@ -10016,6 +10853,38 @@
   "tracked": true
  },
  {
+  "id": "wang2022quantitative",
+  "key": "conf/nips/WangPJ22",
+  "date": "2022-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2022,
+  "field": "ml",
+  "title": "A Quantitative Geometric Approach to Neural-Network Smoothness",
+  "url": "https://dblp.org/rec/conf/nips/WangPJ22",
+  "citations": 25,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Zi Wang",
+    "slug": "zi-wang"
+   },
+   {
+    "name": "Gautam Prakriya",
+    "slug": "gautam-prakriya"
+   },
+   {
+    "name": "Somesh Jha",
+    "slug": "somesh-jha"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "vaishnavi2022accelerating",
   "key": "conf/nips/VaishnaviER22",
   "date": "2022-12",
@@ -10066,7 +10935,7 @@
   "authors": [
    {
     "name": "Yuhao Zhang",
-    "slug": ""
+    "slug": "yuhao-zhang"
    },
    {
     "name": "Aws Albarghouthi",
@@ -10329,6 +11198,34 @@
    {
     "name": "Zico Kolter",
     "slug": "zico-kolter"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "singla2022improvedb",
+  "key": "conf/nips/0002F22",
+  "date": "2022-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2022,
+  "field": "ml",
+  "title": "Improved techniques for deterministic l2 robustness",
+  "url": "https://dblp.org/rec/conf/nips/0002F22",
+  "citations": 16,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Sahil Singla",
+    "slug": "sahil-singla"
+   },
+   {
+    "name": "Soheil Feizi",
+    "slug": "soheil-feizi"
    }
   ],
   "tracked": true
@@ -10889,6 +11786,51 @@
   "tracked": true
  },
  {
+  "id": "liang2022toward",
+  "key": "conf/nips/LiangX00022",
+  "date": "2022-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2022,
+  "field": "ml",
+  "title": "Toward Robust Spiking Neural Network Against Adversarial Perturbation",
+  "url": "https://dblp.org/rec/conf/nips/LiangX00022",
+  "citations": 32,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [
+   {
+    "key": "architectures",
+    "name": "Beyond feed-forward nets"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Ling Liang",
+    "slug": "ling-liang"
+   },
+   {
+    "name": "Kaidi Xu",
+    "slug": "kaidi-xu"
+   },
+   {
+    "name": "Xing Hu",
+    "slug": "xing-hu"
+   },
+   {
+    "name": "Lei Deng",
+    "slug": ""
+   },
+   {
+    "name": "Yuan Xie",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "jordan2022zonotope",
   "key": "conf/nips/JordanHDO22",
   "date": "2022-12",
@@ -10996,6 +11938,51 @@
    {
     "name": "Christoph H. Lampert",
     "slug": "christoph-h-lampert"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "peychev2022latent",
+  "key": "conf/eccv/PeychevRBBV22",
+  "date": "2022-10",
+  "venue": "eccv",
+  "venue_name": "ECCV",
+  "year": 2022,
+  "field": "cv",
+  "title": "Latent Space Smoothing for Individually Fair Representations",
+  "url": "https://doi.org/10.1007/978-3-031-19778-9_31",
+  "citations": 26,
+  "arxiv": "2111.13650",
+  "source": "dblp.org",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Momchil Peychev",
+    "slug": ""
+   },
+   {
+    "name": "Anian Ruoss",
+    "slug": "anian-ruoss"
+   },
+   {
+    "name": "Mislav Balunovic",
+    "slug": "mislav-balunovic"
+   },
+   {
+    "name": "Maximilian Baader",
+    "slug": "maximilian-baader"
+   },
+   {
+    "name": "Martin Vechev",
+    "slug": "martin-vechev"
    }
   ],
   "tracked": true
@@ -12332,6 +13319,42 @@
   "tracked": true
  },
  {
+  "id": "gendler2022adversarially",
+  "key": "conf/iclr/GendlerWDR22",
+  "date": "2022-04",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2022,
+  "field": "ml",
+  "title": "Adversarially Robust Conformal Prediction",
+  "url": "https://dblp.org/rec/conf/iclr/GendlerWDR22",
+  "citations": 0,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Asaf Gendler",
+    "slug": ""
+   },
+   {
+    "name": "Tsui-Wei Weng",
+    "slug": "tsui-wei-weng"
+   },
+   {
+    "name": "Luca Daniel",
+    "slug": "luca-daniel"
+   },
+   {
+    "name": "Yaniv Romano",
+    "slug": "yaniv-romano"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "jia2022almost",
   "key": "conf/iclr/JiaWCLG22",
   "date": "2022-04",
@@ -12508,7 +13531,7 @@
    },
    {
     "name": "Nikola Jovanovic",
-    "slug": ""
+    "slug": "nikola-jovanovic"
    },
    {
     "name": "Martin Vechev",
@@ -12615,6 +13638,38 @@
    {
     "name": "Bo Li",
     "slug": "bo-li"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "singla2022improved",
+  "key": "conf/iclr/0002SF22",
+  "date": "2022-04",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2022,
+  "field": "ml",
+  "title": "Improved deterministic l2 robustness on CIFAR-10 and CIFAR-100",
+  "url": "https://dblp.org/rec/conf/iclr/0002SF22",
+  "citations": 75,
+  "arxiv": "2108.04062",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Sahil Singla",
+    "slug": "sahil-singla"
+   },
+   {
+    "name": "Surbhi Singla",
+    "slug": ""
+   },
+   {
+    "name": "Soheil Feizi",
+    "slug": "soheil-feizi"
    }
   ],
   "tracked": true
@@ -12832,7 +13887,7 @@
    },
    {
     "name": "Gautam Prakriya",
-    "slug": ""
+    "slug": "gautam-prakriya"
    },
    {
     "name": "Somesh Jha",
@@ -13076,6 +14131,58 @@
   "tracked": true
  },
  {
+  "id": "berrada2021make",
+  "key": "conf/nips/BerradaDDSBUGK21",
+  "date": "2021-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2021,
+  "field": "ml",
+  "title": "Make Sure You're Unsure: A Framework for Verifying Probabilistic Specifications",
+  "url": "https://dblp.org/rec/conf/nips/BerradaDDSBUGK21",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Leonard Berrada",
+    "slug": ""
+   },
+   {
+    "name": "Sumanth Dathathri",
+    "slug": "sumanth-dathathri"
+   },
+   {
+    "name": "Krishnamurthy Dvijotham",
+    "slug": "krishnamurthy-dvijotham"
+   },
+   {
+    "name": "Robert Stanforth",
+    "slug": "robert-stanforth"
+   },
+   {
+    "name": "Rudy Bunel",
+    "slug": "rudy-bunel"
+   },
+   {
+    "name": "Jonathan Uesato",
+    "slug": "jonathan-uesato"
+   },
+   {
+    "name": "Sven Gowal",
+    "slug": "sven-gowal"
+   },
+   {
+    "name": "M. Pawan Kumar",
+    "slug": "m-pawan-kumar"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "behl2021overcoming",
   "key": "conf/nips/BehlKTD21",
   "date": "2021-12",
@@ -13130,7 +14237,7 @@
   "authors": [
    {
     "name": "Calvin Tsay",
-    "slug": ""
+    "slug": "calvin-tsay"
    },
    {
     "name": "Jan Kronqvist",
@@ -13143,6 +14250,34 @@
    {
     "name": "Ruth Misener",
     "slug": "ruth-misener"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "leino2021relaxing",
+  "key": "conf/nips/LeinoF21",
+  "date": "2021-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2021,
+  "field": "ml",
+  "title": "Relaxing Local Robustness",
+  "url": "https://dblp.org/rec/conf/nips/LeinoF21",
+  "citations": 1,
+  "arxiv": "2106.06624",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Klas Leino",
+    "slug": "klas-leino"
+   },
+   {
+    "name": "Matt Fredrikson",
+    "slug": "matt-fredrikson"
    }
   ],
   "tracked": true
@@ -13174,7 +14309,7 @@
    },
    {
     "name": "Xing Hu",
-    "slug": ""
+    "slug": "xing-hu"
    },
    {
     "name": "Xiaobing Chen",
@@ -13182,7 +14317,7 @@
    },
    {
     "name": "Ling Liang",
-    "slug": ""
+    "slug": "ling-liang"
    },
    {
     "name": "Zidong Du",
@@ -13550,19 +14685,19 @@
   "authors": [
    {
     "name": "João Marques-Silva",
-    "slug": ""
+    "slug": "joao-marques-silva"
    },
    {
     "name": "Thomas Gerspacher",
-    "slug": ""
+    "slug": "thomas-gerspacher"
    },
    {
     "name": "Martin C. Cooper",
-    "slug": ""
+    "slug": "martin-c-cooper"
    },
    {
     "name": "Alexey Ignatiev",
-    "slug": ""
+    "slug": "alexey-ignatiev"
    },
    {
     "name": "Nina Narodytska",
@@ -13687,6 +14822,34 @@
    {
     "name": "Martin Vechev",
     "slug": "martin-vechev"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "singla2021skew",
+  "key": "conf/icml/0002F21",
+  "date": "2021-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2021,
+  "field": "ml",
+  "title": "Skew Orthogonal Convolutions",
+  "url": "https://dblp.org/rec/conf/icml/0002F21",
+  "citations": 24,
+  "arxiv": "2105.11417",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Sahil Singla",
+    "slug": "sahil-singla"
+   },
+   {
+    "name": "Soheil Feizi",
+    "slug": "soheil-feizi"
    }
   ],
   "tracked": true
@@ -14146,7 +15309,7 @@
    },
    {
     "name": "Rajeev Alur",
-    "slug": ""
+    "slug": "rajeev-alur"
    },
    {
     "name": "George J. Pappas",
@@ -14584,6 +15747,34 @@
   "tracked": true
  },
  {
+  "id": "singla2021fantastic",
+  "key": "conf/iclr/0002F21",
+  "date": "2021-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2021,
+  "field": "ml",
+  "title": "Fantastic Four: Differentiable and Efficient Bounds on Singular Values of Convolution Layers",
+  "url": "https://dblp.org/rec/conf/iclr/0002F21",
+  "citations": 20,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Sahil Singla",
+    "slug": "sahil-singla"
+   },
+   {
+    "name": "Soheil Feizi",
+    "slug": "soheil-feizi"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "xu2021fast",
   "key": "conf/iclr/XuZ0WJLH21",
   "date": "2021-05",
@@ -14712,6 +15903,34 @@
    {
     "name": "Márk Jelasity",
     "slug": "mark-jelasity"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "trockman2021orthogonalizing",
+  "key": "conf/iclr/TrockmanK21",
+  "date": "2021-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2021,
+  "field": "ml",
+  "title": "Orthogonalizing Convolutional Layers with the Cayley Transform",
+  "url": "https://dblp.org/rec/conf/iclr/TrockmanK21",
+  "citations": 160,
+  "arxiv": "2104.07167",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Asher Trockman",
+    "slug": ""
+   },
+   {
+    "name": "Zico Kolter",
+    "slug": "zico-kolter"
    }
   ],
   "tracked": true
@@ -15436,7 +16655,7 @@
   "authors": [
    {
     "name": "Sumanth Dathathri",
-    "slug": ""
+    "slug": "sumanth-dathathri"
    },
    {
     "name": "Krishnamurthy Dvijotham",
@@ -15510,6 +16729,46 @@
    {
     "name": "Alex Dimakis",
     "slug": "alex-dimakis"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "silva2020explaining",
+  "key": "conf/nips/0001GCIN20",
+  "date": "2020-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2020,
+  "field": "ml",
+  "title": "Explaining Naive Bayes and Other Linear Classifiers with Polynomial Time and Delay",
+  "url": "https://dblp.org/rec/conf/nips/0001GCIN20",
+  "citations": 109,
+  "arxiv": "2008.05803",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "João Marques-Silva",
+    "slug": "joao-marques-silva"
+   },
+   {
+    "name": "Thomas Gerspacher",
+    "slug": "thomas-gerspacher"
+   },
+   {
+    "name": "Martin C. Cooper",
+    "slug": "martin-c-cooper"
+   },
+   {
+    "name": "Alexey Ignatiev",
+    "slug": "alexey-ignatiev"
+   },
+   {
+    "name": "Nina Narodytska",
+    "slug": "nina-narodytska"
    }
   ],
   "tracked": true
@@ -16158,6 +17417,46 @@
   "tracked": true
  },
  {
+  "id": "wang2020lp",
+  "key": "conf/icml/WangZCBH20",
+  "date": "2020-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2020,
+  "field": "ml",
+  "title": "On Lp-norm Robustness of Ensemble Decision Stumps and Trees",
+  "url": "https://dblp.org/rec/conf/icml/WangZCBH20",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yihan Wang",
+    "slug": "yihan-wang"
+   },
+   {
+    "name": "Huan Zhang",
+    "slug": "huan-zhang"
+   },
+   {
+    "name": "Hongge Chen",
+    "slug": "hongge-chen"
+   },
+   {
+    "name": "Duane S. Boning",
+    "slug": "duane-s-boning"
+   },
+   {
+    "name": "Cho-Jui Hsieh",
+    "slug": "cho-jui-hsieh"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "yang2020randomized",
   "key": "conf/icml/YangDHSR020",
   "date": "2020-07",
@@ -16197,6 +17496,38 @@
    {
     "name": "Jerry Li",
     "slug": "jerry-li"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zhang2020robustness",
+  "key": "conf/icml/ZhangAD20",
+  "date": "2020-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2020,
+  "field": "ml",
+  "title": "Robustness to Programmable String Transformations via Augmented Abstract Training",
+  "url": "https://dblp.org/rec/conf/icml/ZhangAD20",
+  "citations": 14,
+  "arxiv": "2002.09579",
+  "source": "dblp.org",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yuhao Zhang",
+    "slug": "yuhao-zhang"
+   },
+   {
+    "name": "Aws Albarghouthi",
+    "slug": "aws-albarghouthi"
+   },
+   {
+    "name": "Loris D'Antoni",
+    "slug": "loris-d-antoni"
    }
   ],
   "tracked": true
@@ -16269,7 +17600,7 @@
   "authors": [
    {
     "name": "Sahil Singla",
-    "slug": ""
+    "slug": "sahil-singla"
    },
    {
     "name": "Soheil Feizi",
@@ -16297,7 +17628,7 @@
   "authors": [
    {
     "name": "Yizhak Yisrael Elboher",
-    "slug": ""
+    "slug": "yizhak-yisrael-elboher"
    },
    {
     "name": "Justin Gottschlich",
@@ -16558,6 +17889,38 @@
   "tracked": true
  },
  {
+  "id": "drews2020proving",
+  "key": "conf/pldi/DrewsAD20",
+  "date": "2020-06",
+  "venue": "pldi",
+  "venue_name": "PLDI",
+  "year": 2020,
+  "field": "pl",
+  "title": "Proving data-poisoning robustness in decision trees",
+  "url": "https://doi.org/10.1145/3385412.3385975",
+  "citations": 37,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Samuel Drews",
+    "slug": "samuel-drews"
+   },
+   {
+    "name": "Aws Albarghouthi",
+    "slug": "aws-albarghouthi"
+   },
+   {
+    "name": "Loris D'Antoni",
+    "slug": "loris-d-antoni"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "paulsen2020reludiff",
   "key": "conf/icse/PaulsenWW20",
   "date": "2020-05",
@@ -16759,6 +18122,42 @@
    {
     "name": "Neil Gong",
     "slug": "neil-gong"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "narodytska2020search",
+  "key": "conf/iclr/NarodytskaZGW20",
+  "date": "2020-04",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2020,
+  "field": "ml",
+  "title": "In Search for a SAT-friendly Binarized Neural Network Architecture",
+  "url": "https://dblp.org/rec/conf/iclr/NarodytskaZGW20",
+  "citations": 37,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "quantized",
+  "area_name": "Quantized & bit-level",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Nina Narodytska",
+    "slug": "nina-narodytska"
+   },
+   {
+    "name": "Hongce Zhang",
+    "slug": ""
+   },
+   {
+    "name": "Aarti Gupta",
+    "slug": ""
+   },
+   {
+    "name": "Toby Walsh",
+    "slug": ""
    }
   ],
   "tracked": true
@@ -17070,7 +18469,7 @@
    },
    {
     "name": "Po-Sen Huang",
-    "slug": ""
+    "slug": "po-sen-huang"
    },
    {
     "name": "Robert Stanforth",
@@ -17418,6 +18817,38 @@
   "tracked": true
  },
  {
+  "id": "ignatiev2019relating",
+  "key": "conf/nips/IgnatievNM19",
+  "date": "2019-12",
+  "venue": "neurips",
+  "venue_name": "NeurIPS",
+  "year": 2019,
+  "field": "ml",
+  "title": "On Relating Explanations and Adversarial Examples",
+  "url": "https://dblp.org/rec/conf/nips/IgnatievNM19",
+  "citations": 165,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "explanations",
+  "area_name": "Formal explanations",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Alexey Ignatiev",
+    "slug": "alexey-ignatiev"
+   },
+   {
+    "name": "Nina Narodytska",
+    "slug": "nina-narodytska"
+   },
+   {
+    "name": "João Marques-Silva",
+    "slug": "joao-marques-silva"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "li2019preventing",
   "key": "conf/nips/LiHALGJ19",
   "date": "2019-12",
@@ -17716,30 +19147,6 @@
   "tracked": true
  },
  {
-  "id": "kwiatkowska2019safety",
-  "key": "conf/sigsoft/Kwiatkowska19",
-  "date": "2019-08",
-  "venue": "fse",
-  "venue_name": "FSE",
-  "year": 2019,
-  "field": "se",
-  "title": "Safety and robustness for deep learning with provable guarantees (keynote)",
-  "url": "https://doi.org/10.1145/3338906.3342812",
-  "citations": 0,
-  "arxiv": "",
-  "source": "dblp.org",
-  "area": "other",
-  "area_name": "Other",
-  "tags": [],
-  "authors": [
-   {
-    "name": "Marta Kwiatkowska",
-    "slug": "marta-kwiatkowska"
-   }
-  ],
-  "tracked": true
- },
- {
   "id": "cohen2019certified",
   "key": "conf/icml/CohenRK19",
   "date": "2019-07",
@@ -17983,6 +19390,50 @@
   "tracked": true
  },
  {
+  "id": "wang2019knowing",
+  "key": "conf/cvpr/WangBDHGK19",
+  "date": "2019-06",
+  "venue": "cvpr",
+  "venue_name": "CVPR",
+  "year": 2019,
+  "field": "cv",
+  "title": "Knowing When to Stop: Evaluation and Verification of Conformity to Output-Size Specifications",
+  "url": "https://doi.org/10.1109/cvpr.2019.01254",
+  "citations": 9,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Chenglong Wang",
+    "slug": ""
+   },
+   {
+    "name": "Rudy Bunel",
+    "slug": "rudy-bunel"
+   },
+   {
+    "name": "Krishnamurthy Dvijotham",
+    "slug": "krishnamurthy-dvijotham"
+   },
+   {
+    "name": "Po-Sen Huang",
+    "slug": "po-sen-huang"
+   },
+   {
+    "name": "Edward Grefenstette",
+    "slug": ""
+   },
+   {
+    "name": "Pushmeet Kohli",
+    "slug": "pushmeet-kohli"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "lin2019robustness",
   "key": "conf/cvpr/LinYCZLLH19",
   "date": "2019-06",
@@ -18103,6 +19554,42 @@
    {
     "name": "Swarat Chaudhuri",
     "slug": "swarat-chaudhuri"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "webb2019statistical",
+  "key": "conf/iclr/WebbRTK19",
+  "date": "2019-05",
+  "venue": "iclr",
+  "venue_name": "ICLR",
+  "year": 2019,
+  "field": "ml",
+  "title": "A Statistical Approach to Assessing Neural Network Robustness",
+  "url": "https://dblp.org/rec/conf/iclr/WebbRTK19",
+  "citations": 98,
+  "arxiv": "1811.07209",
+  "source": "dblp.org",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Stefan Webb",
+    "slug": ""
+   },
+   {
+    "name": "Tom Rainforth",
+    "slug": "tom-rainforth"
+   },
+   {
+    "name": "Yee Whye Teh",
+    "slug": ""
+   },
+   {
+    "name": "M. Pawan Kumar",
+    "slug": "m-pawan-kumar"
    }
   ],
   "tracked": true
@@ -18929,6 +20416,47 @@
    }
   ],
   "tracked": false
+ },
+ {
+  "id": "albarghouthi2017fairsquare",
+  "key": "journals/pacmpl/AlbarghouthiDDN17",
+  "date": "2017-10",
+  "venue": "oopsla",
+  "venue_name": "OOPSLA",
+  "year": 2017,
+  "field": "pl",
+  "title": "FairSquare: probabilistic verification of program fairness",
+  "url": "https://doi.org/10.1145/3133904",
+  "citations": 170,
+  "arxiv": "",
+  "source": "dblp.org",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Aws Albarghouthi",
+    "slug": "aws-albarghouthi"
+   },
+   {
+    "name": "Loris D'Antoni",
+    "slug": "loris-d-antoni"
+   },
+   {
+    "name": "Samuel Drews",
+    "slug": "samuel-drews"
+   },
+   {
+    "name": "Aditya V. Nori",
+    "slug": ""
+   }
+  ],
+  "tracked": true
  },
  {
   "id": "katz2017reluplex",
