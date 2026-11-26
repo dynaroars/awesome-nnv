@@ -54,7 +54,7 @@
    {
     "slug": "guy-amir",
     "name": "Guy Amir",
-    "institution_short": "Cornell University",
+    "institution_short": "The University of Texas at Austin",
     "papers": 5,
     "score": 0.985
    },
@@ -68,7 +68,7 @@
    {
     "slug": "haoze-wu",
     "name": "Haoze Wu",
-    "institution_short": "Stanford University",
+    "institution_short": "Department of Computer Science",
     "papers": 4,
     "score": 0.669
    },
@@ -99,8 +99,9 @@
    "Hebrew University of Jerusalem",
    "Stanford University",
    "Masaryk University",
-   "Cornell University",
-   "Stanford"
+   "The University of Texas at Austin",
+   "Stanford",
+   "Department of Computer Science"
   ],
   "papers": 21,
   "citations": 5414,
@@ -1106,7 +1107,7 @@
    {
     "slug": "yan-scholten",
     "name": "Yan Scholten",
-    "institution_short": "Technical University of Munich",
+    "institution_short": "Technische Universität München",
     "papers": 6,
     "score": 1.783
    },
@@ -1127,7 +1128,7 @@
    {
     "slug": "johannes-klicpera",
     "name": "Johannes Klicpera",
-    "institution_short": "Technical University Munich",
+    "institution_short": "Anthropic",
     "papers": 2,
     "score": 0.583
    }
@@ -1136,10 +1137,10 @@
    "TUM",
    "University of Cologne",
    "Morgan Stanley",
-   "Technical University of Munich",
+   "Technische Universität München",
    "CISPA",
    "Saarland University",
-   "Technical University Munich"
+   "Anthropic"
   ],
   "papers": 19,
   "citations": 456,
@@ -1902,7 +1903,7 @@
    {
     "slug": "shubham-ugare",
     "name": "Shubham Ugare",
-    "institution_short": "UIUC",
+    "institution_short": "Meta",
     "papers": 4,
     "score": 0.983
    },
@@ -1930,7 +1931,7 @@
    {
     "slug": "isha-chaudhary",
     "name": "Isha Chaudhary",
-    "institution_short": "Siebel School of Computing and Data Science",
+    "institution_short": "University of Illinois at Urbana-Champaign",
     "papers": 2,
     "score": 0.333
    },
@@ -1952,8 +1953,8 @@
   "institutions": [
    "UIUC",
    "University of Illinois at Urbana-Champaign",
+   "Meta",
    "University of Illinois Urbana-Champaign",
-   "Siebel School of Computing and Data Science",
    "Amazon"
   ],
   "papers": 28,
@@ -3938,7 +3939,7 @@
    {
     "slug": "andrew-c-cullen",
     "name": "Andrew C. Cullen",
-    "institution_short": "University of Melbourne &amp; EthiCan",
+    "institution_short": "The University of Melbourne",
     "papers": 5,
     "score": 1.076
    },
@@ -3959,14 +3960,14 @@
    {
     "slug": "olga-ohrimenko",
     "name": "Olga Ohrimenko",
-    "institution_short": "The University of Melbourne",
+    "institution_short": "University of Melbourne",
     "papers": 3,
     "score": 0.667
    },
    {
     "slug": "shijie-liu",
     "name": "Shijie Liu",
-    "institution_short": "The University of Melbourne",
+    "institution_short": "University of Melbourne",
     "papers": 3,
     "score": 0.65
    },
@@ -3987,10 +3988,9 @@
   ],
   "institutions": [
    "Melbourne",
-   "University of Melbourne &amp; EthiCan",
+   "The University of Melbourne",
    "Defence Science and Technology Group",
-   "University of Melbourne",
-   "The University of Melbourne"
+   "University of Melbourne"
   ],
   "papers": 9,
   "citations": 83,
@@ -4456,7 +4456,7 @@
    {
     "slug": "panagiotis-kouvaros",
     "name": "Panagiotis Kouvaros",
-    "institution_short": "University of Limassol",
+    "institution_short": "Safe Intelligence",
     "papers": 3,
     "score": 0.783
    },
@@ -4470,7 +4470,7 @@
   ],
   "institutions": [
    "Imperial",
-   "University of Limassol",
+   "Safe Intelligence",
    "Safe Intelligence &amp; Imperial College London"
   ],
   "papers": 6,
@@ -4796,21 +4796,21 @@
    {
     "slug": "cheng-chao-huang",
     "name": "Cheng-Chao Huang",
-    "institution_short": "Chinese Academy of Sciences",
+    "institution_short": "Nanjing Institute of Software Technology",
     "papers": 4,
     "score": 0.625
    },
    {
     "slug": "bai-xue",
     "name": "Bai Xue",
-    "institution_short": "Carl von Ossietzky Universität Oldenburg",
+    "institution_short": "Chinese Academy of Sciences",
     "papers": 3,
     "score": 0.584
    },
    {
     "slug": "jianan-ma",
     "name": "Jianan Ma",
-    "institution_short": "Zhejiang University",
+    "institution_short": "Hangzhou Dianzi University",
     "papers": 3,
     "score": 0.542
    },
@@ -4824,7 +4824,7 @@
    {
     "slug": "youcheng-sun",
     "name": "Youcheng Sun",
-    "institution_short": "Chinese Academy of Sciences",
+    "institution_short": "Mohamed bin Zayed University of Artificial Intelligence",
     "papers": 3,
     "score": 0.533
    },
@@ -4853,9 +4853,10 @@
   "institutions": [
    "Chinese Academy of Sciences",
    "ISCAS",
-   "Carl von Ossietzky Universität Oldenburg",
-   "Zhejiang University",
+   "Nanjing Institute of Software Technology",
    "Hangzhou Dianzi University",
+   "Zhejiang University",
+   "Mohamed bin Zayed University of Artificial Intelligence",
    "University of the Chinese Academy of Sciences"
   ],
   "papers": 9,
@@ -5372,7 +5373,7 @@
    {
     "slug": "ekaterina-komendantskaya",
     "name": "Ekaterina Komendantskaya",
-    "institution_short": "UWA",
+    "institution_short": "University of Southampton",
     "papers": 3,
     "score": 0.345
    },
@@ -5387,7 +5388,8 @@
   "institutions": [
    "UWA",
    "Karlsruhe Institute of Technologie",
-   "Hebrew University of Jerusalem"
+   "Hebrew University of Jerusalem",
+   "University of Southampton"
   ],
   "papers": 6,
   "citations": 309,
@@ -5787,42 +5789,42 @@
    {
     "slug": "mark-niklas-muller",
     "name": "Mark Niklas Müller",
-    "institution_short": "ETH Zurich / LogicStar.ai",
+    "institution_short": "LogicStar AI",
     "papers": 13,
     "score": 3.158
    },
    {
     "slug": "marc-fischer",
     "name": "Marc Fischer",
-    "institution_short": "ETH Zurich",
+    "institution_short": "Snyk",
     "papers": 11,
     "score": 2.867
    },
    {
     "slug": "mislav-balunovic",
     "name": "Mislav Balunovic",
-    "institution_short": "Swiss Federal Institute of Technology",
+    "institution_short": "Institute for Computer Science",
     "papers": 8,
     "score": 2.1
    },
    {
     "slug": "yuhao-mao",
     "name": "Yuhao Mao",
-    "institution_short": "ETH Zurich",
+    "institution_short": "ETHZ - ETH Zurich",
     "papers": 7,
     "score": 2.0
    },
    {
     "slug": "maximilian-baader",
     "name": "Maximilian Baader",
-    "institution_short": "ETH Zurich",
+    "institution_short": "Snyk",
     "papers": 7,
     "score": 1.9
    },
    {
     "slug": "timon-gehr",
     "name": "Timon Gehr",
-    "institution_short": "ETH Zurich",
+    "institution_short": "Swiss Federal Institute of Technology",
     "papers": 7,
     "score": 1.683
    },
@@ -5843,7 +5845,7 @@
    {
     "slug": "dimitar-i-dimitrov",
     "name": "Dimitar I. Dimitrov",
-    "institution_short": "Swiss Federal Institute of Technology",
+    "institution_short": "INSAIT",
     "papers": 4,
     "score": 0.95
    },
@@ -5864,7 +5866,7 @@
    {
     "slug": "miklos-z-horvath",
     "name": "Miklós Z. Horváth",
-    "institution_short": "Swiss Federal Institute of Technology",
+    "institution_short": "Google DeepMind",
     "papers": 2,
     "score": 0.5
    },
@@ -5878,9 +5880,13 @@
   ],
   "institutions": [
    "ETH Zurich",
-   "ETH Zurich / LogicStar.ai",
+   "LogicStar AI",
+   "Snyk",
+   "Institute for Computer Science",
+   "ETHZ - ETH Zurich",
    "Swiss Federal Institute of Technology",
-   "ETHZ - ETH Zurich"
+   "INSAIT",
+   "Google DeepMind"
   ],
   "papers": 35,
   "citations": 3854,
@@ -7371,7 +7377,7 @@
    {
     "slug": "yihan-wang",
     "name": "Yihan Wang",
-    "institution_short": "UCLA",
+    "institution_short": "Mistral AI",
     "papers": 6,
     "score": 1.104
    },
@@ -7392,7 +7398,7 @@
    {
     "slug": "kaidi-xu",
     "name": "Kaidi Xu",
-    "institution_short": "Northeastern University",
+    "institution_short": "City University of Hong Kong",
     "papers": 6,
     "score": 0.833
    },
@@ -7434,7 +7440,7 @@
    {
     "slug": "ezra-winston",
     "name": "Ezra Winston",
-    "institution_short": "CMU",
+    "institution_short": "Machine Learning Department",
     "papers": 2,
     "score": 0.583
    },
@@ -7455,7 +7461,7 @@
    {
     "slug": "haoyu-li",
     "name": "Haoyu Li",
-    "institution_short": "University of Illinois Urbana-Champaign",
+    "institution_short": "University of Illinois at Urbana-Champaign",
     "papers": 2,
     "score": 0.5
    },
@@ -7504,14 +7510,14 @@
    {
     "slug": "mingjie-sun",
     "name": "Mingjie Sun",
-    "institution_short": "Tsinghua University",
+    "institution_short": "Thinking Machines Lab",
     "papers": 2,
     "score": 0.367
    },
    {
     "slug": "lingjuan-lyu",
     "name": "Lingjuan Lyu",
-    "institution_short": "Sony Research",
+    "institution_short": "Sony",
     "papers": 2,
     "score": 0.343
    },
@@ -7558,17 +7564,21 @@
    "University of Illinois at Urbana-Champaign",
    "University of Pennsylvania",
    "UC Riverside",
+   "Mistral AI",
    "MIT",
-   "Northeastern University",
+   "City University of Hong Kong",
    "Microsoft Research",
    "Amazon",
    "Carnegie Mellon University",
+   "Machine Learning Department",
    "JD AI Research",
    "University of Texas at Austin",
-   "University of Illinois Urbana-Champaign",
    "University of Illinois Urbana Champaign",
+   "University of Illinois Urbana-Champaign",
+   "Northeastern University",
+   "Thinking Machines Lab",
+   "Sony",
    "Tsinghua University",
-   "Sony Research",
    "Microsoft"
   ],
   "papers": 57,
@@ -10050,7 +10060,7 @@
   },
   "country": "JP",
   "country_name": "Japan",
-  "institution": "Institute of Science Tokyo",
+  "institution": "Tokyo Institute of Technology",
   "institution_country": "JP",
   "label": "Blaise Delattre group",
   "slug": "blaise-delattre",
@@ -10062,13 +10072,13 @@
    {
     "slug": "blaise-delattre",
     "name": "Blaise Delattre",
-    "institution_short": "Institute of Science Tokyo",
+    "institution_short": "Tokyo Institute of Technology",
     "papers": 6,
     "score": 1.4
    }
   ],
   "institutions": [
-   "Institute of Science Tokyo"
+   "Tokyo Institute of Technology"
   ],
   "papers": 6,
   "citations": 185,
@@ -10395,7 +10405,7 @@
    {
     "slug": "hongbin-liu",
     "name": "Hongbin Liu",
-    "institution_short": "Duke University",
+    "institution_short": "Citadel Securities",
     "papers": 3,
     "score": 0.783
    },
@@ -10416,7 +10426,7 @@
    {
     "slug": "jiate-li",
     "name": "Jiate Li",
-    "institution_short": "Illinois Institute of Technology",
+    "institution_short": "University of Southern California",
     "papers": 2,
     "score": 0.45
    },
@@ -10437,7 +10447,7 @@
    {
     "slug": "chunrong-fang",
     "name": "Chunrong Fang",
-    "institution_short": "Nanjing University",
+    "institution_short": "nanjing university",
     "papers": 2,
     "score": 0.278
    },
@@ -10466,13 +10476,15 @@
   "institutions": [
    "Penn State",
    "Illinois Institute of Technology",
-   "Duke University",
+   "Citadel Securities",
    "Pennsylvania State University",
    "University of Connecticut",
+   "University of Southern California",
    "Nanchang University",
    "Milwaukee School of Engineering",
-   "Nanjing University",
-   "University of Massachusetts Amherst"
+   "nanjing university",
+   "University of Massachusetts Amherst",
+   "Nanjing University"
   ],
   "papers": 15,
   "citations": 362,
@@ -11147,14 +11159,14 @@
    {
     "slug": "mathieu-serrurier",
     "name": "Mathieu Serrurier",
-    "institution_short": "university Paul Sabatier",
+    "institution_short": "university Jean Jaurès",
     "papers": 5,
     "score": 0.869
    },
    {
     "slug": "franck-mamalet",
     "name": "Franck Mamalet",
-    "institution_short": "IRT Saint Exupéry",
+    "institution_short": "IRT Saint Exupery",
     "papers": 4,
     "score": 0.727
    },
@@ -11195,7 +11207,8 @@
    }
   ],
   "institutions": [
-   "university Paul Sabatier",
+   "university Jean Jaurès",
+   "IRT Saint Exupery",
    "IRT Saint Exupéry",
    "IRIT / SNCF DTIPG",
    "Mathématiques Informatique Télécommunications de Toulouse",
@@ -11519,14 +11532,14 @@
    {
     "slug": "alessandro-de-palma",
     "name": "Alessandro De Palma",
-    "institution_short": "LSE",
+    "institution_short": "London School of Economics and Political Science",
     "papers": 3,
     "score": 1.367
    },
    {
     "slug": "harkirat-singh-behl",
     "name": "Harkirat Singh Behl",
-    "institution_short": "University of Oxford",
+    "institution_short": "Microsoft Research",
     "papers": 2,
     "score": 0.45
    },
@@ -11540,7 +11553,8 @@
   ],
   "institutions": [
    "DeepMind",
-   "LSE",
+   "London School of Economics and Political Science",
+   "Microsoft Research",
    "University of Oxford"
   ],
   "papers": 10,
@@ -12050,14 +12064,14 @@
    {
     "slug": "alaa-anani",
     "name": "Alaa Anani",
-    "institution_short": "Max Planck Institute &amp; CISPA",
+    "institution_short": "Max-Planck Institute for Informatics",
     "papers": 3,
     "score": 0.7
    },
    {
     "slug": "bernt-schiele",
     "name": "Bernt Schiele",
-    "institution_short": "MPI for Informatics",
+    "institution_short": "Google Zurich",
     "papers": 3,
     "score": 0.7
    },
@@ -12073,8 +12087,8 @@
    "CISPA Helmholtz Center",
    "Oxford",
    "CISPA Helmholtz Center for Infomation Security",
-   "Max Planck Institute &amp; CISPA",
-   "MPI for Informatics",
+   "Max-Planck Institute for Informatics",
+   "Google Zurich",
    "Liverpool"
   ],
   "papers": 9,
@@ -13057,14 +13071,14 @@
    {
     "slug": "klas-leino",
     "name": "Klas Leino",
-    "institution_short": "Carnegie Mellon University",
+    "institution_short": "Roam HQ",
     "papers": 6,
     "score": 1.65
    },
    {
     "slug": "zifan-wang",
     "name": "Zifan Wang",
-    "institution_short": "Tiny Fish Inc.",
+    "institution_short": "Scale AI",
     "papers": 4,
     "score": 0.95
    },
@@ -13078,8 +13092,9 @@
   ],
   "institutions": [
    "CMU",
-   "Carnegie Mellon University",
-   "Tiny Fish Inc."
+   "Roam HQ",
+   "Scale AI",
+   "Carnegie Mellon University"
   ],
   "papers": 7,
   "citations": 246,
@@ -13422,21 +13437,21 @@
    {
     "slug": "si-liu",
     "name": "Si Liu",
-    "institution_short": "Department of Computer Science",
+    "institution_short": "The Chinese University of Hong Kong",
     "papers": 5,
     "score": 0.91
    },
    {
     "slug": "dapeng-zhi",
     "name": "Dapeng Zhi",
-    "institution_short": "ECNU",
+    "institution_short": "Jiangsu University of Technology",
     "papers": 3,
     "score": 0.567
    },
    {
     "slug": "zhaodi-zhang",
     "name": "Zhaodi Zhang",
-    "institution_short": "ECNU",
+    "institution_short": "Chengdu Academy of Educational Sciences",
     "papers": 3,
     "score": 0.543
    },
@@ -13478,7 +13493,9 @@
   ],
   "institutions": [
    "ECNU",
-   "Department of Computer Science",
+   "The Chinese University of Hong Kong",
+   "Jiangsu University of Technology",
+   "Chengdu Academy of Educational Sciences",
    "East China Normal University"
   ],
   "papers": 9,
@@ -14944,22 +14961,22 @@
    {
     "slug": "bhavya-kailkhura",
     "name": "Bhavya Kailkhura",
-    "institution_short": "Lawrence Livermore National Lab",
+    "institution_short": "Lawrence Livermore National Laboratory",
     "papers": 4,
     "score": 0.564
    },
    {
     "slug": "ce-zhang",
     "name": "Ce Zhang",
-    "institution_short": "ETH Zurich",
+    "institution_short": "University of Chicago",
     "papers": 3,
     "score": 0.424
    }
   ],
   "institutions": [
    "SFU",
-   "Lawrence Livermore National Lab",
-   "ETH Zurich"
+   "Lawrence Livermore National Laboratory",
+   "University of Chicago"
   ],
   "papers": 15,
   "citations": 1014,
@@ -16430,7 +16447,7 @@
   },
   "country": "DE",
   "country_name": "Germany",
-  "institution": "University of Konstanz",
+  "institution": "Universität Konstanz",
   "institution_country": "DE",
   "label": "David Boetius group",
   "slug": "david-boetius",
@@ -16442,13 +16459,13 @@
    {
     "slug": "david-boetius",
     "name": "David Boetius",
-    "institution_short": "University of Konstanz",
+    "institution_short": "Universität Konstanz",
     "papers": 3,
     "score": 0.867
    }
   ],
   "institutions": [
-   "University of Konstanz"
+   "Universität Konstanz"
   ],
   "papers": 3,
   "citations": 20,
@@ -18733,7 +18750,7 @@
    {
     "slug": "alexander-levine",
     "name": "Alexander Levine",
-    "institution_short": "University of Maryland",
+    "institution_short": "OpenAI",
     "papers": 9,
     "score": 3.25
    },
@@ -18754,6 +18771,7 @@
   ],
   "institutions": [
    "UMD",
+   "OpenAI",
    "University of Maryland"
   ],
   "papers": 18,
@@ -19759,14 +19777,14 @@
    {
     "slug": "mintong-kang",
     "name": "Mintong Kang",
-    "institution_short": "UIUC",
+    "institution_short": "University of Illinois at Urbana-Champaign",
     "papers": 5,
     "score": 1.15
    },
    {
     "slug": "chulin-xie",
     "name": "Chulin Xie",
-    "institution_short": "University of Illinois",
+    "institution_short": "Google DeepMind",
     "papers": 2,
     "score": 0.5
    },
@@ -19780,14 +19798,14 @@
    {
     "slug": "chaowei-xiao",
     "name": "Chaowei Xiao",
-    "institution_short": "University of Wisconsin",
+    "institution_short": "Johns Hopkins University",
     "papers": 4,
     "score": 0.49
    },
    {
     "slug": "nezihe-merve-gurel",
     "name": "Nezihe Merve Gürel",
-    "institution_short": "TU Delft",
+    "institution_short": "Delft University of Technology",
     "papers": 2,
     "score": 0.45
    },
@@ -19822,14 +19840,14 @@
    {
     "slug": "jiawei-zhang",
     "name": "Jiawei Zhang",
-    "institution_short": "University of Illinois",
+    "institution_short": "University of Chicago",
     "papers": 2,
     "score": 0.341
    },
    {
     "slug": "maurice-weber",
     "name": "Maurice Weber",
-    "institution_short": "Department of Computer Science",
+    "institution_short": "Together AI",
     "papers": 2,
     "score": 0.333
    },
@@ -19850,14 +19868,14 @@
    {
     "slug": "fan-wu",
     "name": "Fan Wu",
-    "institution_short": "University of Illinois",
+    "institution_short": "University of Illinois at Urbana-Champaign",
     "papers": 2,
     "score": 0.31
    },
    {
     "slug": "boxin-wang",
     "name": "Boxin Wang",
-    "institution_short": "Department of Computer Science",
+    "institution_short": "NVIDIA",
     "papers": 2,
     "score": 0.258
    },
@@ -19892,18 +19910,19 @@
   ],
   "institutions": [
    "UIUC/Virtue AI",
-   "UIUC",
-   "University of Illinois",
    "University of Illinois at Urbana-Champaign",
-   "University of Wisconsin",
-   "TU Delft",
+   "Google DeepMind",
+   "Johns Hopkins University",
+   "Delft University of Technology",
    "Caltech / Amazon AI",
    "Peking University",
    "University of Wisconsin-Madison",
    "University of Michigan",
-   "Department of Computer Science",
+   "University of Chicago",
+   "Together AI",
    "University of California Berkeley",
    "Carnegie Mellon University",
+   "NVIDIA",
    "ETHZ - ETH Zurich",
    "Zhejiang University"
   ],
@@ -21042,14 +21061,14 @@
    {
     "slug": "vaclav-voracek",
     "name": "Václav Vorácek",
-    "institution_short": "University of Tuebingen",
+    "institution_short": "SF",
     "papers": 4,
     "score": 2.5
    },
    {
     "slug": "alexander-meinke",
     "name": "Alexander Meinke",
-    "institution_short": "University of Tübingen",
+    "institution_short": "Apollo Research",
     "papers": 3,
     "score": 1.167
    },
@@ -21063,14 +21082,14 @@
    {
     "slug": "jan-hendrik-metzen",
     "name": "Jan Hendrik Metzen",
-    "institution_short": "Bosch Center for Artificial Intelligence",
+    "institution_short": "Prior Labs",
     "papers": 3,
     "score": 0.95
    },
    {
     "slug": "maksym-yatsura",
     "name": "Maksym Yatsura",
-    "institution_short": "Bosch Center for Artificial Intelligence",
+    "institution_short": "Robert Bosch GmbH",
     "papers": 2,
     "score": 0.7
    },
@@ -21084,9 +21103,11 @@
   ],
   "institutions": [
    "Tübingen",
-   "University of Tuebingen",
-   "University of Tübingen",
-   "Bosch Center for Artificial Intelligence"
+   "SF",
+   "Apollo Research",
+   "Prior Labs",
+   "Robert Bosch GmbH",
+   "University of Tübingen"
   ],
   "papers": 13,
   "citations": 1301,
@@ -21938,7 +21959,7 @@
    {
     "slug": "zhe-tao",
     "name": "Zhe Tao",
-    "institution_short": "University of California",
+    "institution_short": "Tencent",
     "papers": 3,
     "score": 1.25
    },
@@ -21951,7 +21972,8 @@
    }
   ],
   "institutions": [
-   "University of California"
+   "University of California",
+   "Tencent"
   ],
   "papers": 5,
   "citations": 169,
@@ -22481,7 +22503,7 @@
    {
     "slug": "aounon-kumar",
     "name": "Aounon Kumar",
-    "institution_short": "University of Maryland",
+    "institution_short": "Samsung",
     "papers": 6,
     "score": 1.75
    },
@@ -22516,6 +22538,7 @@
   ],
   "institutions": [
    "UMD",
+   "Samsung",
    "University of Maryland",
    "Arthur AI & Univ. of Maryland",
    "University of Maryland College Park"
@@ -22950,7 +22973,7 @@
   "country": "US",
   "country_name": "United States",
   "institution": "Massachusetts Institute of Technology",
-  "institution_country": "US",
+  "institution_country": "",
   "label": "Daniel group",
   "slug": "daniel-mit",
   "name": "Daniel group (MIT)",
@@ -22979,7 +23002,7 @@
    {
     "slug": "ivan-v-oseledets",
     "name": "Ivan V. Oseledets",
-    "institution_short": "Skolkovo Institute of Science and Technology",
+    "institution_short": "Institute of Numerical Mathematics",
     "papers": 2,
     "score": 0.343
    },
@@ -23007,7 +23030,7 @@
   ],
   "institutions": [
    "MIT",
-   "Skolkovo Institute of Science and Technology",
+   "Institute of Numerical Mathematics",
    "Chinese University of Hong Kong"
   ],
   "papers": 10,
@@ -23519,10 +23542,10 @@
    "se": 0.0,
    "lv": 0.0
   },
-  "country": "GB",
-  "country_name": "United Kingdom",
-  "institution": "Birkbeck, University of London",
-  "institution_country": "GB",
+  "country": "SG",
+  "country_name": "Singapore",
+  "institution": "National University of Singapore",
+  "institution_country": "SG",
   "label": "QVIP / QEBVerif",
   "slug": "fu-song",
   "name": "QVIP / QEBVerif",
@@ -23536,14 +23559,14 @@
    {
     "slug": "fu-song",
     "name": "Fu Song",
-    "institution_short": "School of Computing and Mathematical Sciences",
+    "institution_short": "National University of Singapore",
     "papers": 4,
     "score": 0.843
    },
    {
     "slug": "yedi-zhang",
     "name": "Yedi Zhang",
-    "institution_short": "School of Computing and Mathematical Sciences",
+    "institution_short": "National University of Singapore",
     "papers": 4,
     "score": 0.843
    },
@@ -23570,6 +23593,7 @@
    }
   ],
   "institutions": [
+   "National University of Singapore",
    "School of Computing and Mathematical Sciences",
    "ShanghaiTech University"
   ],
@@ -23829,7 +23853,7 @@
    {
     "slug": "aaron-j-havens",
     "name": "Aaron J. Havens",
-    "institution_short": "University of Illinois",
+    "institution_short": "Facebook",
     "papers": 5,
     "score": 0.936
    },
@@ -23856,7 +23880,7 @@
    }
   ],
   "institutions": [
-   "University of Illinois",
+   "Facebook",
    "Department of Computer Science",
    "University of Wisconsin-Madison",
    "The Chinese University of Hong Kong"
@@ -24234,7 +24258,7 @@
    {
     "slug": "nina-narodytska",
     "name": "Nina Narodytska",
-    "institution_short": "VMWare",
+    "institution_short": "VMware",
     "papers": 5,
     "score": 1.183
    },
@@ -24268,7 +24292,7 @@
    }
   ],
   "institutions": [
-   "VMWare",
+   "VMware",
    "Monash University",
    "IRIT",
    "University of Toulouse 3",
@@ -24545,7 +24569,7 @@
    {
     "slug": "alexandre-araujo",
     "name": "Alexandre Araujo",
-    "institution_short": "New York University",
+    "institution_short": "Ideogram AI",
     "papers": 10,
     "score": 2.029
    },
@@ -24572,6 +24596,7 @@
    }
   ],
   "institutions": [
+   "Ideogram AI",
    "New York University",
    "NYU",
    "Dauphine University - FAIR Paris"
@@ -26172,9 +26197,9 @@
   },
   "country": "US",
   "country_name": "United States",
-  "institution": "University of Texas at Austin",
+  "institution": "University of Texas, Austin",
   "institution_country": "US",
-  "label": "Dimakis group",
+  "label": "Dimakis group (UT Austin)",
   "slug": "dimakis",
   "name": "Dimakis group (UT Austin)",
   "tools": [],
@@ -26191,14 +26216,14 @@
    {
     "slug": "matt-jordan",
     "name": "Matt Jordan",
-    "institution_short": "UT Austin",
+    "institution_short": "Allen Institute for Artificial Intelligence",
     "papers": 4,
     "score": 1.583
    }
   ],
   "institutions": [
    "University of Texas",
-   "UT Austin"
+   "Allen Institute for Artificial Intelligence"
   ],
   "papers": 4,
   "citations": 261,
@@ -26417,7 +26442,7 @@
    {
     "slug": "junlin-wu",
     "name": "Junlin Wu",
-    "institution_short": "Washington University",
+    "institution_short": "Amazon",
     "papers": 3,
     "score": 0.833
    },
@@ -26431,15 +26456,16 @@
    {
     "slug": "hongchao-zhang",
     "name": "Hongchao Zhang",
-    "institution_short": "Washington University in St. Louis",
+    "institution_short": "Vanderbilt University",
     "papers": 2,
     "score": 0.5
    }
   ],
   "institutions": [
    "WashU",
+   "Amazon",
    "Washington University",
-   "Washington University in St. Louis"
+   "Vanderbilt University"
   ],
   "papers": 5,
   "citations": 241,
@@ -26735,14 +26761,14 @@
    {
     "slug": "francisco-eiras",
     "name": "Francisco Eiras",
-    "institution_short": "University of Oxford",
+    "institution_short": "Dynamo AI",
     "papers": 2,
     "score": 0.367
    },
    {
     "slug": "cornelius-emde",
     "name": "Cornelius Emde",
-    "institution_short": "Oxford",
+    "institution_short": "NT ParameterLab",
     "papers": 2,
     "score": 0.325
    },
@@ -26756,7 +26782,8 @@
   ],
   "institutions": [
    "Oxford",
-   "University of Oxford",
+   "Dynamo AI",
+   "NT ParameterLab",
    "Department of Computer Science"
   ],
   "papers": 7,
@@ -28156,7 +28183,7 @@
   },
   "country": "KR",
   "country_name": "South Korea",
-  "institution": "Korea Advanced Institute of Science and Technology",
+  "institution": "Korea University",
   "institution_country": "KR",
   "label": "Jongheon Jeong group",
   "slug": "jongheon-jeong",
@@ -28168,7 +28195,7 @@
    {
     "slug": "jongheon-jeong",
     "name": "Jongheon Jeong",
-    "institution_short": "KAIST",
+    "institution_short": "Korea University",
     "papers": 4,
     "score": 1.417
    },
@@ -28181,6 +28208,7 @@
    }
   ],
   "institutions": [
+   "Korea University",
    "KAIST"
   ],
   "papers": 5,
@@ -28463,7 +28491,7 @@
    {
     "slug": "elias-abad-rocamora",
     "name": "Elías Abad-Rocamora",
-    "institution_short": "EPFL",
+    "institution_short": "Google DeepMind",
     "papers": 2,
     "score": 0.533
    },
@@ -28477,6 +28505,7 @@
   ],
   "institutions": [
    "EPFL",
+   "Google DeepMind",
    "UW Madison"
   ],
   "papers": 4,
@@ -29519,7 +29548,7 @@
    {
     "slug": "dorde-zikelic",
     "name": "Dorde Zikelic",
-    "institution_short": "Singapore Management University",
+    "institution_short": "Nanyang Technological University",
     "papers": 2,
     "score": 0.45
    },
@@ -29533,7 +29562,7 @@
    {
     "slug": "mathias-lechner",
     "name": "Mathias Lechner",
-    "institution_short": "MIT",
+    "institution_short": "Massachusetts Institute of Technology",
     "papers": 2,
     "score": 0.45
    },
@@ -29546,9 +29575,9 @@
    }
   ],
   "institutions": [
-   "Singapore Management University",
+   "Nanyang Technological University",
    "IST Austria",
-   "MIT",
+   "Massachusetts Institute of Technology",
    "ISTA"
   ],
   "papers": 2,
@@ -29695,7 +29724,7 @@
   },
   "country": "KR",
   "country_name": "South Korea",
-  "institution": "Korea Advanced Institute of Science and Technology",
+  "institution": "Korea Advanced Institute of Science & Technology",
   "institution_country": "KR",
   "label": "Jinwoo Shin group",
   "slug": "jinwoo-shin",
@@ -29707,13 +29736,13 @@
    {
     "slug": "jinwoo-shin",
     "name": "Jinwoo Shin",
-    "institution_short": "KAIST",
+    "institution_short": "Korea Advanced Institute of Science & Technology",
     "papers": 4,
     "score": 1.417
    }
   ],
   "institutions": [
-   "KAIST"
+   "Korea Advanced Institute of Science & Technology"
   ],
   "papers": 4,
   "citations": 187,
@@ -29949,7 +29978,7 @@
    {
     "slug": "edouard-pauwels",
     "name": "Edouard Pauwels",
-    "institution_short": "IRIT",
+    "institution_short": "TSE",
     "papers": 2,
     "score": 0.5
    },
@@ -29963,7 +29992,7 @@
   ],
   "institutions": [
    "LAAS / CNRS",
-   "IRIT",
+   "TSE",
    "LAAS-CNRS"
   ],
   "papers": 3,
@@ -31122,10 +31151,10 @@
    "se": 0.0,
    "lv": 0.0
   },
-  "country": "US",
-  "country_name": "United States",
+  "country": "",
+  "country_name": "",
   "institution": "University of Illinois Urbana-Champaign",
-  "institution_country": "US",
+  "institution_country": "",
   "label": "Bin Hu group",
   "slug": "bin-hu",
   "name": "Bin Hu group",
@@ -31136,13 +31165,13 @@
    {
     "slug": "bin-hu",
     "name": "Bin Hu",
-    "institution_short": "University of Illinois Urbana-Champaign",
+    "institution_short": "University of Illinois",
     "papers": 6,
     "score": 1.186
    }
   ],
   "institutions": [
-   "University of Illinois Urbana-Champaign"
+   "University of Illinois"
   ],
   "papers": 6,
   "citations": 177,
@@ -31691,10 +31720,10 @@
    "se": 0.0,
    "lv": 0.0
   },
-  "country": "AU",
-  "country_name": "Australia",
-  "institution": "University of Queensland",
-  "institution_country": "AU",
+  "country": "HK",
+  "country_name": "Hong Kong",
+  "institution": "City University of Hong Kong",
+  "institution_country": "HK",
   "label": "Guangdong Bai group",
   "slug": "guangdong-bai",
   "name": "Guangdong Bai group",
@@ -31705,13 +31734,13 @@
    {
     "slug": "guangdong-bai",
     "name": "Guangdong Bai",
-    "institution_short": "UQ",
+    "institution_short": "City University of Hong Kong",
     "papers": 3,
     "score": 0.867
    }
   ],
   "institutions": [
-   "UQ"
+   "City University of Hong Kong"
   ],
   "papers": 3,
   "citations": 21,
@@ -32505,7 +32534,7 @@
   },
   "country": "DE",
   "country_name": "Germany",
-  "institution": "University of Kassel",
+  "institution": "Rheinland-Pfälzische Technische Universität",
   "institution_country": "DE",
   "label": "Marco Sälzer group",
   "slug": "marco-salzer",
@@ -32517,13 +32546,13 @@
    {
     "slug": "marco-salzer",
     "name": "Marco Sälzer",
-    "institution_short": "University of Kassel",
+    "institution_short": "Rheinland-Pfälzische Technische Universität",
     "papers": 2,
     "score": 0.833
    }
   ],
   "institutions": [
-   "University of Kassel"
+   "Rheinland-Pfälzische Technische Universität"
   ],
   "papers": 2,
   "citations": 23,
@@ -32675,13 +32704,13 @@
    {
     "slug": "martin-lange",
     "name": "Martin Lange",
-    "institution_short": "Universität Kassel",
+    "institution_short": "University of Kassel",
     "papers": 2,
     "score": 0.833
    }
   ],
   "institutions": [
-   "Universität Kassel"
+   "University of Kassel"
   ],
   "papers": 2,
   "citations": 23,
@@ -33323,7 +33352,7 @@
   },
   "country": "AT",
   "country_name": "Austria",
-  "institution": "Institute of Science and Technology Austria",
+  "institution": "ISTA (Institute of Science and Technology Austria)",
   "institution_country": "AT",
   "label": "Bernd Prach group",
   "slug": "bernd-prach",
@@ -33335,13 +33364,13 @@
    {
     "slug": "bernd-prach",
     "name": "Bernd Prach",
-    "institution_short": "Institute of Science and Technology Austria",
+    "institution_short": "ISTA (Institute of Science and Technology Austria)",
     "papers": 2,
     "score": 0.75
    }
   ],
   "institutions": [
-   "Institute of Science and Technology Austria"
+   "ISTA (Institute of Science and Technology Austria)"
   ],
   "papers": 2,
   "citations": 86,
@@ -33476,7 +33505,7 @@
   },
   "country": "AT",
   "country_name": "Austria",
-  "institution": "Institute of Science and Technology Austria",
+  "institution": "ISTA (Institute of Science and Technology Austria)",
   "institution_country": "AT",
   "label": "Christoph H. Lampert group",
   "slug": "christoph-h-lampert",
@@ -33488,13 +33517,13 @@
    {
     "slug": "christoph-h-lampert",
     "name": "Christoph H. Lampert",
-    "institution_short": "Institute of Science and Technology Austria",
+    "institution_short": "ISTA (Institute of Science and Technology Austria)",
     "papers": 2,
     "score": 0.75
    }
   ],
   "institutions": [
-   "Institute of Science and Technology Austria"
+   "ISTA (Institute of Science and Technology Austria)"
   ],
   "papers": 2,
   "citations": 86,
@@ -33629,7 +33658,7 @@
   },
   "country": "FR",
   "country_name": "France",
-  "institution": "LAAS / CNRS &amp; Toulouse School of Economics (TSE)",
+  "institution": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
   "institution_country": "FR",
   "label": "Jean B. Lasserre group",
   "slug": "jean-b-lasserre",
@@ -33641,13 +33670,13 @@
    {
     "slug": "jean-b-lasserre",
     "name": "Jean B. Lasserre",
-    "institution_short": "LAAS / CNRS &amp; Toulouse School of Economics (TSE)",
+    "institution_short": "LAAS / CNRS",
     "papers": 3,
     "score": 0.7
    }
   ],
   "institutions": [
-   "LAAS / CNRS &amp; Toulouse School of Economics (TSE)"
+   "LAAS / CNRS"
   ],
   "papers": 3,
   "citations": 88,
@@ -36419,7 +36448,7 @@
   },
   "country": "US",
   "country_name": "United States",
-  "institution": "University of Colorado, Boulder",
+  "institution": "University of Colorado at Boulder",
   "institution_country": "US",
   "label": "Morteza Lahijanian group",
   "slug": "morteza-lahijanian",
@@ -36431,13 +36460,13 @@
    {
     "slug": "morteza-lahijanian",
     "name": "Morteza Lahijanian",
-    "institution_short": "University of Colorado",
+    "institution_short": "University of Colorado at Boulder",
     "papers": 2,
     "score": 0.45
    }
   ],
   "institutions": [
-   "University of Colorado"
+   "University of Colorado at Boulder"
   ],
   "papers": 2,
   "citations": 46,
@@ -36751,11 +36780,11 @@
    "se": 0.0,
    "lv": 0.0
   },
-  "country": "DE",
-  "country_name": "Germany",
-  "institution": "RWTH Aachen University",
-  "institution_country": "DE",
-  "label": "VNN-COMP",
+  "country": "GB",
+  "country_name": "United Kingdom",
+  "institution": "Safe Intelligence",
+  "institution_country": "GB",
+  "label": "VNN-COMP (RWTH Aachen)",
   "slug": "vnncomp",
   "name": "VNN-COMP (RWTH Aachen)",
   "tools": [
@@ -36768,13 +36797,13 @@
    {
     "slug": "christopher-brix",
     "name": "Christopher Brix",
-    "institution_short": "RWTH Aachen University",
+    "institution_short": "Safe Intelligence",
     "papers": 2,
     "score": 0.45
    }
   ],
   "institutions": [
-   "RWTH Aachen University"
+   "Safe Intelligence"
   ],
   "papers": 2,
   "citations": 130,
@@ -37330,10 +37359,10 @@
    "se": 0.0,
    "lv": 0.0
   },
-  "country": "CA",
-  "country_name": "Canada",
+  "country": "",
+  "country_name": "",
   "institution": "University of Waterloo",
-  "institution_country": "CA",
+  "institution_country": "",
   "label": "Jun Liu group",
   "slug": "jun-liu",
   "name": "Jun Liu group",
@@ -37682,13 +37711,13 @@
    {
     "slug": "hang-su",
     "name": "Hang Su",
-    "institution_short": "Tsinghua Univiersity",
+    "institution_short": "Tsinghua University",
     "papers": 2,
     "score": 0.31
    }
   ],
   "institutions": [
-   "Tsinghua Univiersity"
+   "Tsinghua University"
   ],
   "papers": 2,
   "citations": 76,

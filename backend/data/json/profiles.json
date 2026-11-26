@@ -1,35 +1,602 @@
 {
+ "aaron-j-havens": {
+  "fetched": "2026-11-26",
+  "openreview": "~Aaron_J_Havens1",
+  "openreview_match": "author id on ICLR 2024 submission HfXDrAzFvG",
+  "homepage": "https://aaronhavens.github.io/",
+  "institution": "Facebook",
+  "country": "US",
+  "position": "Postdoc",
+  "scholar": "HBAXF6YAAAAJ",
+  "scholar_from": "https://aaronhavens.github.io/"
+ },
  "abhinav-verma": {
   "scholar": "jM1HeCIAAAAJ",
   "scholar_from": "https://averma8053.github.io/"
+ },
+ "adel-bibi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Adel_Bibi1",
+  "openreview_match": "author id on ICLR 2025 submission F64wTvQBum",
+  "homepage": "http://adelbibi.com",
+  "institution": "University of Oxford",
+  "country": "GB",
+  "position": "Senior Researcher",
+  "scholar": "Q4j2laYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "aditi-raghunathan": {
+  "fetched": "2026-11-26"
+ },
+ "aditya-v-thakur": {
+  "fetched": "2026-11-26",
+  "openreview": "~Aditya_Thakur1",
+  "openreview_match": "author id on NeurIPS 2025 submission 1ffIkWo0yq",
+  "homepage": "http://thakur.cs.ucdavis.edu/",
+  "institution": "University of California, Davis",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "x8952qgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "ahmed-abdelkader": {
+  "fetched": "2026-11-26"
+ },
+ "alaa-anani": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alaa_Anani1",
+  "openreview_match": "author id on ICML 2026 submission IU0c9sP5b5",
+  "homepage": "https://alaaanani.github.io/",
+  "institution": "Max-Planck Institute for Informatics",
+  "country": "DE",
+  "position": "PhD student",
+  "scholar": "eJgMcksAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "aleksandar-bojchevski": {
+  "fetched": "2026-11-26",
+  "openreview": "~Aleksandar_Bojchevski1",
+  "openreview_match": "author id on NeurIPS 2026 submission sAdaZuWvkE",
+  "homepage": "https://abojchevski.github.io/",
+  "institution": "University of Cologne",
+  "country": "DE",
+  "position": "Full Professor",
+  "scholar": "F1APiN4AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "aleksandar-zeljic": {
+  "fetched": "2026-11-26"
+ },
+ "aleksander-madry": {
+  "fetched": "2026-11-26"
+ },
+ "alessandro-de-palma": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alessandro_De_Palma1",
+  "openreview_match": "author id on NeurIPS 2026 submission 3ccTPcDlNx",
+  "homepage": "https://adpperspective.wordpress.com/publications/",
+  "institution": "London School of Economics and Political Science, University of London",
+  "country": "GB",
+  "position": "Assistant Professor",
+  "scholar": "IIx6YsQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "alessio-lomuscio": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alessio_Lomuscio1",
+  "openreview_match": "author id on NeurIPS 2026 submission SHNolnMBUT",
+  "homepage": "http://www.doc.ic.ac.uk/~alessio/",
+  "institution": "Imperial College London",
+  "country": "GB",
+  "position": "Full Professor",
+  "scholar": "xdWZkEEAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "alex-dimakis": {
   "scholar": "JSFmVQEAAAAJ",
   "scholar_from": "http://users.ece.utexas.edu/~dimakis/"
  },
+ "alexander-levine": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alexander_Levine2",
+  "openreview_match": "author id on ICLR 2023 submission HJFVrpCaGE",
+  "institution": "OpenAI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "lnpY5nAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "alexander-meinke": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alexander_Meinke1",
+  "openreview_match": "author id on NeurIPS 2022 submission 9ZWgrozGP0",
+  "institution": "Apollo Research",
+  "country": "GB",
+  "position": "Researcher",
+  "scholar": "PqHTP_AAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "alexandre-allauzen": {
   "scholar": "B2-gXkkAAAAJ",
   "scholar_from": "https://allauzen.github.io/"
+ },
+ "alexandre-araujo": {
+  "fetched": "2026-11-26",
+  "openreview": "~Alexandre_ARAUJO1",
+  "openreview_match": "author id on ICLR 2024 submission 0w42S2Gp70",
+  "homepage": "https://alexandrearaujo.com/",
+  "institution": "Ideogram AI",
+  "country": "US",
+  "position": "Ideogram",
+  "scholar": "wsu61VYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "anan-kabaha": {
+  "fetched": "2026-11-26"
+ },
+ "andrew-c-cullen": {
+  "fetched": "2026-11-26",
+  "openreview": "~Andrew_Craig_Cullen1",
+  "openreview_match": "author id on NeurIPS 2026 submission 1Zs088RXoL",
+  "homepage": "https://www.andrewcraigcullen.com",
+  "institution": "The University of Melbourne",
+  "country": "AU",
+  "position": "Senior Research Fellow",
+  "scholar": "BeXBviIAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "andrew-clark": {
   "scholar": "x6Mt_esAAAAJ",
   "scholar_from": "https://engineering.wustl.edu/faculty/Andrew-Clark.html"
  },
+ "anian-ruoss": {
+  "fetched": "2026-11-26"
+ },
+ "aounon-kumar": {
+  "fetched": "2026-11-26",
+  "openreview": "~Aounon_Kumar1",
+  "openreview_match": "author id on ICLR 2023 submission HJFVrpCaGE",
+  "homepage": "https://aounon.github.io",
+  "institution": "Samsung",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "NjhpUykAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "aws-albarghouthi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Aws_Albarghouthi1",
+  "openreview_match": "author id on NeurIPS 2022 submission ZidkM5b92G",
+  "homepage": "http://pages.cs.wisc.edu/~aws/",
+  "institution": "Amazon",
+  "position": "Principal Researcher",
+  "scholar": "CUbC2zYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "bai-xue": {
+  "fetched": "2026-11-26",
+  "openreview": "~Bai_Xue1",
+  "openreview_match": "author id on NeurIPS 2026 submission fMUyPAggFz",
+  "homepage": "http://lcs.ios.ac.cn/~xuebai/",
+  "institution": "Chinese Academy of Sciences, Chinese Academy of Sciences",
+  "country": "CN",
+  "position": "Full Professor"
+ },
+ "balazs-banhelyi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Balázs_Bánhelyi1",
+  "openreview_match": "author id on NeurIPS 2026 submission nHbkxmdykn",
+  "homepage": "http://www.inf.u-szeged.hu/~banhelyi",
+  "institution": "University of Szeged",
+  "country": "HU",
+  "position": "Associate Professor"
+ },
+ "benjamin-rubinstein": {
+  "fetched": "2026-11-26",
+  "openreview": "~Benjamin_I._P._Rubinstein1",
+  "openreview_match": "author id on NeurIPS 2026 submission 1Zs088RXoL",
+  "homepage": "http://www.bipr.net/",
+  "institution": "The University of Melbourne",
+  "country": "AU",
+  "position": "Full Professor",
+  "scholar": "hMG_gR4AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "bernd-prach": {
+  "fetched": "2026-11-26"
+ },
+ "bernt-schiele": {
+  "fetched": "2026-11-26",
+  "openreview": "~Bernt_Schiele1",
+  "openreview_match": "author id on ICML 2026 submission IU0c9sP5b5",
+  "homepage": "http://www.mpi-inf.mpg.de/~schiele",
+  "institution": "Google Zurich",
+  "country": "CH",
+  "position": "Research Scientist",
+  "scholar": "z76PBfYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "bhavya-kailkhura": {
+  "fetched": "2026-11-26",
+  "openreview": "~Bhavya_Kailkhura1",
+  "openreview_match": "author id on ICLR 2022 submission psh0oeMSBiF",
+  "homepage": "https://people.llnl.gov/kailkhura1",
+  "institution": "Lawrence Livermore National Laboratory",
+  "country": "US",
+  "position": "Research Staff",
+  "scholar": "SQpJmOgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "bin-hu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Bin_Hu2",
+  "openreview_match": "author id on NeurIPS 2025 submission IT12Radlnq",
+  "institution": "University of Illinois, Urbana Champaign",
+  "position": "Assistant Professor"
+ },
+ "binghui-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Binghui_Wang2",
+  "openreview_match": "author id on ICLR 2025 submission iFK0xoceR0",
+  "homepage": "https://wangbinghui.net",
+  "institution": "Illinois Institute of Technology",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "SoOztcEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "blaise-delattre": {
+  "fetched": "2026-11-26",
+  "openreview": "~Blaise_Delattre1",
+  "openreview_match": "author id on NeurIPS 2026 submission RhmrtYOQxz",
+  "institution": "Tokyo Institute of Technology, Tokyo Institute of Technology",
+  "country": "JP",
+  "position": "Postdoc",
+  "scholar": "0SNA45sAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "bo-li": {
   "scholar": "K8vJkTcAAAAJ",
   "scholar_from": "https://aisecure.github.io/"
+ },
+ "bohang-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Bohang_Zhang1",
+  "openreview_match": "author id on NeurIPS 2022 submission xaWO6bAY0xM",
+  "homepage": "https://zbh2047.github.io",
+  "institution": "Peking University",
+  "position": "PhD student",
+  "scholar": "hJgT4tYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "boxin-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Boxin_Wang1",
+  "openreview_match": "author id on NeurIPS 2022 submission fY6OzqOiTnu",
+  "homepage": "https://wbx.life",
+  "institution": "NVIDIA",
+  "country": "US",
+  "position": "Senior Research Scientist",
+  "scholar": "YOf2ATIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "brandon-paulsen": {
+  "fetched": "2026-11-26"
+ },
+ "ce-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ce_Zhang1",
+  "openreview_match": "author id on NeurIPS 2022 submission 6mej19W1ppP",
+  "institution": "University of Chicago",
+  "position": "Associate Professor"
  },
  "changming-xu": {
   "scholar": "_Zg49pIAAAAJ",
   "scholar_from": "https://cmxu.io/"
  },
+ "chao-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chao_Wang4",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://sites.usc.edu/chaowang",
+  "institution": "University of Southern California",
+  "country": "US",
+  "position": "Full Professor",
+  "scholar": "1w7O-4QAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "chaowei-xiao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chaowei_Xiao2",
+  "openreview_match": "author id on ICLR 2025 submission armbJRJdrH",
+  "homepage": "https://xiaocw11.github.io/",
+  "institution": "Johns Hopkins University",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "Juoqtj8AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "cheng-chao-huang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Cheng-Chao_Huang1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "institution": "Nanjing Institute of Software Technology, CAS",
+  "country": "CN",
+  "position": "Researcher"
+ },
+ "chenhao-sun": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chenhao_Sun1",
+  "openreview_match": "author id on ICLR 2026 submission syvfsHSqm2",
+  "homepage": "https://www.sri.inf.ethz.ch/people/chenhao",
+  "institution": "ETHZ - ETH Zurich",
+  "country": "CH",
+  "position": "PhD student"
+ },
+ "ching-yun-ko": {
+  "fetched": "2026-11-26"
+ },
+ "cho-jui-hsieh": {
+  "fetched": "2026-11-26",
+  "openreview": "~Cho-Jui_Hsieh1",
+  "openreview_match": "author id on ICLR 2023 submission 7GEvPKxjtt",
+  "homepage": "http://web.cs.ucla.edu/~chohsieh/index.html",
+  "institution": "LMArena",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "Wy89g4IAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "chong-xiang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chong_Xiang1",
+  "openreview_match": "author id on NeurIPS 2025 submission D9JeNTs5Bu",
+  "homepage": "https://xiangchong.xyz/",
+  "institution": "NVIDIA",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "aLXNz30AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "chongli-qin": {
+  "fetched": "2026-11-26"
+ },
+ "christoph-h-lampert": {
+  "fetched": "2026-11-26",
+  "openreview": "~Christoph_H_Lampert1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "http://cvml.ist.ac.at/",
+  "institution": "ISTA (Institute of Science and Technology Austria)",
+  "country": "AT",
+  "position": "Professor",
+  "scholar": "iCf3SwgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "christopher-brix": {
+  "fetched": "2026-11-26",
+  "openreview": "~Christopher_Brix1",
+  "openreview_match": "author id on NeurIPS 2024 submission FwhM1Zpyft",
+  "homepage": "https://christopher-brix.de/",
+  "institution": "Safe Intelligence",
+  "country": "GB",
+  "position": "Senior Research Scientist",
+  "scholar": "u8QQWX0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "chulin-xie": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chulin_Xie1",
+  "openreview_match": "author id on NeurIPS 2022 submission r5rzV51GZx",
+  "institution": "Google DeepMind",
+  "country": "GB",
+  "position": "Research Scientist",
+  "scholar": "WeJnzAgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "chunrong-fang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Chunrong_Fang1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://chunrong.github.io/",
+  "institution": "nanjing university",
+  "country": "CN",
+  "position": "Associate Professor",
+  "scholar": "S3Rd5TgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "clark-barrett": {
+  "fetched": "2026-11-26",
+  "openreview": "~Clark_Barrett1",
+  "openreview_match": "author id on NeurIPS 2023 submission E2TJI6CKm0",
+  "homepage": "http://theory.stanford.edu/~barrett",
+  "institution": "Stanford University",
+  "country": "US",
+  "position": "Professor (Research)",
+  "scholar": "BtwmZfQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "corentin-friedrich": {
+  "fetched": "2026-11-26",
+  "openreview": "~Corentin_Friedrich1",
+  "openreview_match": "author id on ICML 2025 submission w6Ds32QkQd",
+  "institution": "IRT Saint Exupéry",
+  "country": "FR",
+  "position": "Researcher"
+ },
+ "corina-s-pasareanu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Corina_Pasareanu1",
+  "openreview_match": "author id on ICLR 2023 submission tQG-o3SeipT",
+  "homepage": "https://www.andrew.cmu.edu/user/pcorina/",
+  "institution": "Amazon",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "pwIuivQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "cornelius-emde": {
+  "fetched": "2026-11-26",
+  "openreview": "~Cornelius_Emde1",
+  "openreview_match": "author id on ICLR 2025 submission F64wTvQBum",
+  "homepage": "https://cemde.github.io",
+  "institution": "NT ParameterLab",
+  "country": "DE",
+  "position": "Intern",
+  "scholar": "jHR4dXcAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "dahua-lin": {
+  "fetched": "2026-11-26"
+ },
+ "dana-drachsler-cohen": {
+  "fetched": "2026-11-26",
+  "openreview": "~Dana_Drachsler_Cohen1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://ddana.net.technion.ac.il/",
+  "institution": "Technion - Israel Institute of Technology, Technion",
+  "country": "IL",
+  "position": "Associate Professor",
+  "scholar": "XOiO5xgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "dapeng-zhi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Dapeng_Zhi1",
+  "openreview_match": "author id on NeurIPS 2023 submission hpYb4eUinX",
+  "institution": "Jiangsu University of Technology",
+  "country": "CN",
+  "position": "Assistant Professor"
+ },
+ "david-boetius": {
+  "fetched": "2026-11-26",
+  "openreview": "~David_Boetius1",
+  "openreview_match": "author id on ICML 2026 submission 48c42LVtLx",
+  "homepage": "https://davidboetius.org",
+  "institution": "Universität Konstanz",
+  "country": "DE",
+  "position": "PhD student",
+  "scholar": "oUpr600AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "david-l-dill": {
+  "fetched": "2026-11-26"
+ },
+ "david-shriver": {
+  "fetched": "2026-11-26",
+  "openreview": "~David_Shriver1",
+  "openreview_match": "author id on NeurIPS 2025 submission WbpXT0WL9S",
+  "homepage": "https://dlshriver.com",
+  "institution": "Software Engineering Institute, Carnegie Mellon University",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "EJgJonIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "debangshu-banerjee": {
+  "fetched": "2026-11-26",
+  "openreview": "~Debangshu_Banerjee2",
+  "openreview_match": "author id on ICLR 2025 submission oZkqkkvdND",
+  "homepage": "https://debangshu-banerjee.github.io/",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "G5dhKqAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "di-he": {
   "scholar": "orVoz4IAAAAJ",
   "scholar_from": "https://dihe-pku.github.io/"
  },
+ "diego-manzanas-lopez": {
+  "fetched": "2026-11-26"
+ },
+ "dimitar-i-dimitrov": {
+  "fetched": "2026-11-26",
+  "openreview": "~Dimitar_Iliev_Dimitrov2",
+  "openreview_match": "author id on ICLR 2022 submission UMfhoMtIaP5",
+  "homepage": "https://www.sri.inf.ethz.ch/people/dimitadi",
+  "institution": "INSAIT, Sofia University \"St Kliment Ohridski\"",
+  "country": "BG",
+  "position": "Postdoc",
+  "scholar": "phgGRaYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "ding-zhao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ding_Zhao1",
+  "openreview_match": "author id on ICLR 2022 submission psh0oeMSBiF",
+  "homepage": "https://safeai-lab.github.io",
+  "institution": "Carnegie Mellon University",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "z7tPc9IAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "dong-xu": {
+  "fetched": "2026-11-26"
+ },
+ "dorde-zikelic": {
+  "fetched": "2026-11-26",
+  "openreview": "~Đorđe_Žikelić1",
+  "openreview_match": "author id on NeurIPS 2023 submission Yx8Sw2H5Q7",
+  "homepage": "https://djordjezikelic.github.io/",
+  "institution": "Nanyang Technological University",
+  "country": "SG",
+  "position": "Assistant Professor",
+  "scholar": "D3CQXf0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "du-jiang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Du_Jiang2",
+  "openreview_match": "author id on NeurIPS 2022 submission xaWO6bAY0xM",
+  "institution": "Peking University",
+  "position": "PhD student",
+  "scholar": "iyNLY3sAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "duane-s-boning": {
+  "fetched": "2026-11-26"
+ },
  "duo-zhou": {
   "scholar": "QnBzRsIAAAAJ",
   "scholar_from": "https://www.duo-zhou.com/"
+ },
+ "edouard-pauwels": {
+  "fetched": "2026-11-26",
+  "openreview": "~Edouard_Pauwels1",
+  "openreview_match": "author id on NeurIPS 2021 submission m4rb1Rlfdi",
+  "homepage": "https://edouardpauwels.fr/",
+  "institution": "TSE",
+  "country": "FR",
+  "position": "Full Professor",
+  "scholar": "E9lzDYQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "ekaterina-komendantskaya": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ekaterina_Komendantskaya1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://www.macs.hw.ac.uk/~ek19/",
+  "institution": "University of Southampton",
+  "country": "GB",
+  "position": "Professor",
+  "scholar": "-HbSa84AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "elan-rosenfeld": {
+  "fetched": "2026-11-26"
+ },
+ "elias-abad-rocamora": {
+  "fetched": "2026-11-26",
+  "openreview": "~Elias_Abad_Rocamora1",
+  "openreview_match": "author id on ICLR 2025 submission cd79pbXi4N",
+  "homepage": "https://megaelius.github.io/",
+  "institution": "Google DeepMind",
+  "country": "CH",
+  "position": "Researcher",
+  "scholar": "lHfp1OAAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "eric-wong": {
   "scholar": "pWnTMRkAAAAJ",
@@ -38,6 +605,60 @@
  "ezio-bartocci": {
   "scholar": "EeK43rAAAAAJ",
   "scholar_from": "http://www.eziobartocci.com/"
+ },
+ "ezra-winston": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ezra_Winston1",
+  "openreview_match": "author id on ICLR 2021 submission VcB4QkSfyO",
+  "homepage": "https://ezrawinston.github.io",
+  "institution": "Machine Learning Department, School of Computer Science",
+  "position": "PhD student"
+ },
+ "fan-wu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Fan_Wu6",
+  "openreview_match": "author id on ICLR 2022 submission psh0oeMSBiF",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "qd8WzBMAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "farshad-khorrami": {
+  "fetched": "2026-11-26",
+  "openreview": "~Farshad_Khorrami1",
+  "openreview_match": "author id on ICLR 2024 submission 0w42S2Gp70",
+  "homepage": "https://engineering.nyu.edu/faculty/farshad-khorrami",
+  "institution": "New York University",
+  "country": "US",
+  "position": "Full Professor",
+  "scholar": "NdOqlPQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "francisco-eiras": {
+  "fetched": "2026-11-26",
+  "openreview": "~Francisco_Eiras1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://fgirbal.github.io",
+  "institution": "Dynamo AI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "O_iJTgYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "franck-mamalet": {
+  "fetched": "2026-11-26",
+  "openreview": "~Franck_Mamalet2",
+  "openreview_match": "author id on ICML 2025 submission w6Ds32QkQd",
+  "homepage": "https://www.researchgate.net/profile/Franck-Mamalet",
+  "institution": "IRT Saint Exupery",
+  "country": "FR",
+  "position": "Researcher",
+  "scholar": "5C5p0osAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "fu-song": {
+  "fetched": "2026-11-26"
  },
  "gagandeep-singh": {
   "scholar": "m4b2ruEAAAAJ",
@@ -51,13 +672,166 @@
   "scholar": "93X6nhMAAAAJ",
   "scholar_from": "http://grani.hanasusanto.com/"
  },
+ "greg-anderson": {
+  "fetched": "2026-11-26"
+ },
+ "greg-yang": {
+  "fetched": "2026-11-26"
+ },
  "grigorios-chrysos": {
   "scholar": "1bU041kAAAAJ",
   "scholar_from": "https://grigorisg9gr.github.io/_pages/about/"
  },
+ "guangdong-bai": {
+  "fetched": "2026-11-26",
+  "openreview": "~Guangdong_Bai1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://baigd.github.io/",
+  "institution": "City University of Hong Kong",
+  "country": "HK",
+  "position": "Associate Professor",
+  "scholar": "4TjSSaUAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "guy-amir": {
+  "fetched": "2026-11-26",
+  "openreview": "~Guy_Amir1",
+  "openreview_match": "author id on ICML 2025 submission kR5ZAP7F9b",
+  "homepage": "https://guyam2.github.io/",
+  "institution": "The University of Texas at Austin",
+  "country": "US",
+  "position": "Postdoc",
+  "scholar": "CSJEObYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "guy-katz": {
   "scholar": "3nYG5BMAAAAJ",
   "scholar_from": "https://www.katz-lab.com/"
+ },
+ "hadi-salman": {
+  "fetched": "2026-11-26"
+ },
+ "hai-duong": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hai_Duong1",
+  "openreview_match": "author id on NeurIPS 2026 submission U2N3YhilwS",
+  "homepage": "https://hocdot.github.io/",
+  "institution": "George Mason University",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "CPSuIeEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "hang-su": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hang_Su2",
+  "openreview_match": "author id on NeurIPS 2024 submission wGP1tBCP1E",
+  "institution": "Tsinghua University",
+  "country": "CN",
+  "position": "Associate Professor",
+  "scholar": "dxN1_X0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "haoyu-li": {
+  "fetched": "2026-11-26",
+  "openreview": "~Haoyu_Li4",
+  "openreview_match": "author id on NeurIPS 2026 submission jJKsS0Cmjn",
+  "homepage": "https://haoyuli02.github.io/",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "vOwTylIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "haoze-wu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Haoze_Wu1",
+  "openreview_match": "author id on NeurIPS 2023 submission E2TJI6CKm0",
+  "homepage": "https://wu-haoze.github.io/",
+  "institution": "Department of Computer Science, University of Massachusetts at Amherst",
+  "country": "US",
+  "position": "Adjunct Assistant Professor",
+  "scholar": "uKegaWoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "harkirat-singh-behl": {
+  "fetched": "2026-11-26",
+  "openreview": "~Harkirat_Behl1",
+  "openreview_match": "author id on NeurIPS 2021 submission JXREUkyHi7u",
+  "homepage": "https://harkiratbehl.github.io/",
+  "institution": "Microsoft Research",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "R7k23-0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "he-zhu": {
+  "fetched": "2026-11-26",
+  "openreview": "~He_Zhu4",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://herowanzhu.github.io",
+  "institution": "Rutgers University",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "3X9GC2gAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "hoang-dung-tran": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hoang-Dung_Tran2",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://sites.google.com/view/v2a2/about",
+  "institution": "University of Florida",
+  "country": "VN",
+  "position": "Assistant Professor",
+  "scholar": "_RzS3uMAAAAJ",
+  "scholar_from": "https://sites.google.com/view/v2a2/about"
+ },
+ "hong-ming-chiu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hong-Ming_Chiu1",
+  "openreview_match": "author id on NeurIPS 2026 submission jJKsS0Cmjn",
+  "homepage": "https://hong-ming.github.io/",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "dMntjT4AAAAJ",
+  "scholar_from": "https://hong-ming.github.io/"
+ },
+ "hongbin-liu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hongbin_Liu2",
+  "openreview_match": "author id on ICLR 2022 submission gJLEXy3ySpu",
+  "homepage": "https://scholars.duke.edu/person/hongbin.liu",
+  "institution": "Citadel Securities",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "1Vitx-wAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "hongchao-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hongchao_Zhang2",
+  "openreview_match": "author id on NeurIPS 2024 submission nWMqQHzI3W",
+  "institution": "Vanderbilt University",
+  "country": "US",
+  "position": "Postdoc",
+  "scholar": "J9NlFfgAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "hongge-chen": {
+  "fetched": "2026-11-26"
+ },
+ "hongwei-jin": {
+  "fetched": "2026-11-26",
+  "openreview": "~Hongwei_Jin1",
+  "openreview_match": "author id on NeurIPS 2022 submission qcRgqCXv1o2",
+  "homepage": "https://cshjin.github.io/",
+  "institution": "Argonne National Laboratory",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "_nAu4E0AAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "huan-zhang": {
   "fetched": "2026-11-26",
@@ -70,29 +844,320 @@
   "scholar": "LTa3GzEAAAAJ",
   "scholar_from": "OpenReview profile"
  },
+ "idan-refaeli": {
+  "fetched": "2026-11-26",
+  "openreview": "~Idan_Refaeli1",
+  "openreview_match": "author id on NeurIPS 2026 submission hOaJ6pyv0j",
+  "institution": "Hebrew University of Jerusalem",
+  "country": "IL",
+  "position": "PhD student",
+  "scholar": "XlW-RRIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "ilya-p-razenshteyn": {
   "scholar": "CMZAKkEAAAAJ",
   "scholar_from": "http://www.ilyaraz.org/"
+ },
+ "isha-chaudhary": {
+  "fetched": "2026-11-26",
+  "openreview": "~Isha_Chaudhary1",
+  "openreview_match": "author id on ICLR 2026 submission yt9TW2WtpG",
+  "homepage": "https://ishachaudhary.web.illinois.edu/",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "mC2cu8QAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "isil-dillig": {
   "scholar": "Wlq5rZEAAAAJ",
   "scholar_from": "http://www.cs.utexas.edu/~isil/"
  },
+ "ivan-v-oseledets": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ivan_Oseledets1",
+  "openreview_match": "author id on NeurIPS 2022 submission m2JJO3iEe_5",
+  "homepage": "http://oseledets.github.io",
+  "institution": "Institute of Numerical Mathematics",
+  "country": "RU",
+  "position": "Leading Researcher",
+  "scholar": "5kMqBQEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "jacob-laurel": {
   "scholar": "tasR7iIAAAAJ",
   "scholar_from": "https://jsl1994.github.io/"
+ },
+ "jacob-steinhardt": {
+  "fetched": "2026-11-26"
+ },
+ "jaewook-lee": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jaewook_Lee1",
+  "openreview_match": "author id on NeurIPS 2021 submission b18Az57ioHn",
+  "homepage": "http://slcf.snu.ac.kr",
+  "institution": "Seoul National University",
+  "country": "KR",
+  "position": "Full Professor",
+  "scholar": "teMdzbwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jan-hendrik-metzen": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jan_Hendrik_Metzen1",
+  "openreview_match": "author id on ICLR 2023 submission b0JxQC7JLWh",
+  "homepage": "http://jmetzen.github.io/",
+  "institution": "Prior Labs",
+  "country": "DE",
+  "position": "Research Scientist",
+  "scholar": "w047VfEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jan-schuchardt": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jan_Schuchardt1",
+  "openreview_match": "author id on NeurIPS 2026 submission I4p58bdzvx",
+  "homepage": "https://www.cs.cit.tum.de/daml/team/jan-schuchardt/",
+  "institution": "Morgan Stanley",
+  "country": "GB",
+  "position": "Researcher",
+  "scholar": "O-cixlwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jean-b-lasserre": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jean_B._Lasserre1",
+  "openreview_match": "author id on ICLR 2025 submission 9c96mGtQVR",
+  "homepage": "https://www.laas.fr/en/homepages/lasserre/",
+  "institution": "LAAS / CNRS",
+  "country": "FR",
+  "position": "Emeritus",
+  "scholar": "Mh8pC5sAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jeet-mohapatra": {
+  "fetched": "2026-11-26"
+ },
+ "jerry-li": {
+  "fetched": "2026-11-26"
+ },
+ "ji-guan": {
+  "fetched": "2026-11-26",
+  "openreview": "~Ji_Guan2",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://www.veri-q.com/JiGuan/",
+  "institution": "Chinese Academy of Sciences, Chinese Academy of Sciences",
+  "country": "CN",
+  "position": "Associate Professor",
+  "scholar": "muIp5UIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jianan-ma": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jianan_Ma1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "institution": "Hangzhou Dianzi University",
+  "country": "CN",
+  "position": "PhD student",
+  "scholar": "BfrFqIUAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jianjun-zhao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jianjun_Zhao1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "http://stap.ait.kyushu-u.ac.jp/~zhao/",
+  "institution": "Kyushu University",
+  "country": "JP",
+  "position": "Full Professor"
+ },
+ "jiate-li": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jiate_Li1",
+  "openreview_match": "author id on ICLR 2025 submission iFK0xoceR0",
+  "homepage": "https://jetrichardlee.github.io/",
+  "institution": "University of Southern California",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "j6nfrPcAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jiawei-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jiawei_Zhang9",
+  "openreview_match": "author id on NeurIPS 2022 submission fY6OzqOiTnu",
+  "homepage": "https://github.com/javyduck",
+  "institution": "University of Chicago",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "vCY9ZRcAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jiaxu-tian": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jiaxu_Tian1",
+  "openreview_match": "author id on NeurIPS 2023 submission hpYb4eUinX",
+  "institution": "East China Normal University",
+  "position": "MS student"
+ },
+ "jiayin-jin": {
+  "fetched": "2026-11-26"
+ },
+ "jinfeng-yi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jinfeng_Yi1",
+  "openreview_match": "author id on ICLR 2022 submission W9G_ImpHlQd",
+  "homepage": "http://jinfengyi.net/",
+  "institution": "JD AI Research",
+  "position": "Senior Director",
+  "scholar": "lZxRZ84AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jing-liu": {
+  "fetched": "2026-11-26"
+ },
+ "jingbo-wang": {
+  "fetched": "2026-11-26"
+ },
+ "jingyi-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jingyi_Wang7",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://wang-jingyi.github.io/",
+  "institution": "Zhejiang University",
+  "country": "CN",
+  "position": "Assistant Professor",
+  "scholar": "GjkTuMQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jinwoo-shin": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jinwoo_Shin1",
+  "openreview_match": "author id on NeurIPS 2023 submission zQ4yraDiRe",
+  "homepage": "https://sites.google.com/site/mijirim/",
+  "institution": "Korea Advanced Institute of Science & Technology",
+  "country": "KR",
+  "position": "Full Professor",
+  "scholar": "m3eDp7kAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "jinyuan-jia": {
   "scholar": "iyg4ytkAAAAJ",
   "scholar_from": "https://jinyuan-jia.github.io/"
  },
+ "johannes-klicpera": {
+  "fetched": "2026-11-26",
+  "openreview": "~Johannes_Klicpera1",
+  "openreview_match": "author id on ICLR 2021 submission ULQdiUTHe3y",
+  "institution": "Anthropic",
+  "country": "GB",
+  "position": "Researcher"
+ },
  "john-dickerson": {
   "scholar": "QgDpfCQAAAAJ",
   "scholar_from": "https://jpdickerson.com/"
  },
+ "jonathan-uesato": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jonathan_Uesato1",
+  "openreview_match": "author id on NeurIPS 2021 submission oAxm0Wz7Bv",
+  "institution": "Google DeepMind",
+  "position": "Researcher"
+ },
+ "jongheon-jeong": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jongheon_Jeong1",
+  "openreview_match": "author id on NeurIPS 2023 submission zQ4yraDiRe",
+  "homepage": "https://jh-jeong.github.io",
+  "institution": "Korea University",
+  "country": "KR",
+  "position": "Assistant Professor",
+  "scholar": "mZB2qfcAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "julian-bitterwolf": {
+  "fetched": "2026-11-26",
+  "openreview": "~Julian_Bitterwolf1",
+  "openreview_match": "author id on NeurIPS 2022 submission 9ZWgrozGP0",
+  "homepage": "https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/maschinelles-lernen/team/julian-bitterwolf-msc/",
+  "institution": "University of Tübingen",
+  "position": "PhD student"
+ },
+ "jun-liu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jun_Liu11",
+  "openreview_match": "author id on NeurIPS 2022 submission QvlcRh8hd8X",
+  "institution": "University of Waterloo",
+  "position": "Associate Professor"
+ },
+ "jun-sun": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jun_Sun12",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://sunjun.site",
+  "institution": "Singapore Management University",
+  "country": "SG",
+  "position": "Full Professor",
+  "scholar": "DVsEyn0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "jun-zhu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Jun_Zhu2",
+  "openreview_match": "author id on ICLR 2025 submission armbJRJdrH",
+  "homepage": "http://ml.cs.tsinghua.edu.cn/~jun",
+  "institution": "Tsinghua University",
+  "country": "CN",
+  "position": "Professor",
+  "scholar": "axsP38wAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "junlin-wu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Junlin_Wu2",
+  "openreview_match": "author id on NeurIPS 2024 submission tGDUDKirAy",
+  "homepage": "https://jlwu002.github.io/",
+  "institution": "Amazon",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "nKeNsv8AAAAJ",
+  "scholar_from": "https://jlwu002.github.io/"
+ },
+ "kai-hu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Kai_Hu2",
+  "openreview_match": "author id on ICLR 2026 submission 2fgzEJPH02",
+  "homepage": "https://github.com/hukkai",
+  "institution": "Carnegie Mellon University",
+  "country": "US",
+  "position": "PhD student"
+ },
  "kai-wei-chang": {
   "scholar": "fqDBtzYAAAAJ",
   "scholar_from": "https://web.cs.ucla.edu/~kwchang/"
+ },
+ "kai-yuanqing-xiao": {
+  "fetched": "2026-11-26"
+ },
+ "kaidi-xu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Kaidi_Xu1",
+  "openreview_match": "author id on NeurIPS 2022 submission 5haAJAcofjc",
+  "homepage": "https://kaidixu.com/",
+  "institution": "City University of Hong Kong",
+  "country": "HK",
+  "position": "Associate Professor",
+  "scholar": "lYK0wlsAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "klas-leino": {
+  "fetched": "2026-11-26",
+  "openreview": "~Klas_Leino1",
+  "openreview_match": "author id on ICLR 2024 submission qz3mcn99cu",
+  "homepage": "https://klas.leino.tech",
+  "institution": "Roam HQ",
+  "country": "US",
+  "position": "Principal Researcher"
  },
  "krishnamurthy-dvijotham": {
   "scholar": "BUtloecAAAAJ",
@@ -102,13 +1167,187 @@
   "scholar": "1kaW8bwAAAAJ",
   "scholar_from": "http://pub.ist.ac.at/~kchatterjee/"
  },
+ "kyle-julian": {
+  "fetched": "2026-11-26"
+ },
+ "lam-nguyen": {
+  "fetched": "2026-11-26"
+ },
+ "lijun-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Lijun_Zhang2",
+  "openreview_match": "author id on ICLR 2026 submission AMCFpquOtZ",
+  "institution": "Chinese Academy of Sciences, Chinese Academy of Sciences",
+  "country": "CN",
+  "position": "Full Professor"
+ },
+ "lingjuan-lyu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Lingjuan_Lyu1",
+  "openreview_match": "author id on ICLR 2023 submission 7GEvPKxjtt",
+  "homepage": "https://sites.google.com/view/lingjuan-lyu",
+  "institution": "Sony",
+  "country": "CH",
+  "position": "Global Team Head",
+  "scholar": "0Om30ZUAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "linyi-li": {
+  "fetched": "2026-11-26",
+  "openreview": "~Linyi_Li1",
+  "openreview_match": "author id on NeurIPS 2026 submission VoRt2Q8ngL",
+  "homepage": "http://linyil.com",
+  "institution": "Simon Fraser University",
+  "country": "CA",
+  "position": "Assistant Professor",
+  "scholar": "-b0sk-YAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "liwei-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Liwei_Wang1",
+  "openreview_match": "author id on ICLR 2023 submission zDjtZZBZtqK",
+  "homepage": "http://www.liweiwang-pku.com/",
+  "institution": "Peking University",
+  "country": "CN",
+  "position": "Full Professor",
+  "scholar": "VZHxoh8AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "long-h-pham": {
+  "fetched": "2026-11-26"
+ },
  "loris-d-antoni": {
   "scholar": "ao8EeJ8AAAAJ",
   "scholar_from": "https://cseweb.ucsd.edu/~ldantoni/"
  },
+ "luca-daniel": {
+  "fetched": "2026-11-26",
+  "openreview": "~Luca_Daniel1",
+  "openreview_match": "author id on ICLR 2022 submission 9L1BsI4wP1H",
+  "homepage": "https://www.mit.edu/~dluca/",
+  "institution": "Massachusetts Institute of Technology",
+  "position": "Professor"
+ },
+ "luca-laurenti": {
+  "fetched": "2026-11-26",
+  "openreview": "~Luca_Laurenti1",
+  "openreview_match": "author id on NeurIPS 2026 submission OeD82ZRKWm",
+  "homepage": "https://www.tudelft.nl/staff/l.laurenti/?cHash=d00d764e03ebc8279dc6679ff1d65e18",
+  "institution": "Delft University of Technology",
+  "country": "NL",
+  "position": "Asistant Professor",
+  "scholar": "Q08HFtIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "m-pawan-kumar": {
+  "fetched": "2026-11-26",
+  "openreview": "~M._Pawan_Kumar1",
+  "openreview_match": "author id on ICLR 2024 submission mzyZ4wzKlM",
+  "institution": "DeepMind",
+  "country": "GB",
+  "position": "Researcher",
+  "scholar": "BfmcfEAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mahyar-fazlyab": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mahyar_Fazlyab1",
+  "openreview_match": "author id on NeurIPS 2023 submission LDhhi8HBO3",
+  "homepage": "https://www.ece.jhu.edu/mahyarfazlyab/",
+  "institution": "Johns Hopkins University",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "Y3bmjJwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "maksym-andriushchenko": {
+  "fetched": "2026-11-26"
+ },
+ "maksym-yatsura": {
+  "fetched": "2026-11-26",
+  "openreview": "~Maksym_Yatsura1",
+  "openreview_match": "author id on ICLR 2023 submission b0JxQC7JLWh",
+  "institution": "Robert Bosch GmbH, Bosch",
+  "country": "DE",
+  "position": "Software Developer",
+  "scholar": "7gfSPKAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "marc-fischer": {
+  "fetched": "2026-11-26",
+  "openreview": "~Marc_Fischer1",
+  "openreview_match": "author id on ICLR 2024 submission h05eQniJsQ",
+  "homepage": "http://marcfischer.at",
+  "institution": "Snyk",
+  "country": "CH",
+  "position": "Researcher",
+  "scholar": "N8sJ8yIAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "marco-salzer": {
+  "fetched": "2026-11-26",
+  "openreview": "~Marco_Sälzer1",
+  "openreview_match": "author id on ICLR 2025 submission VVO3ApdMUE",
+  "homepage": "https://marcosaelzer.github.io/",
+  "institution": "Rheinland-Pfälzische Technische Universität",
+  "country": "DE",
+  "position": "Postdoc",
+  "scholar": "bxhpseQAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "maria-christakis": {
+  "fetched": "2026-11-26"
+ },
  "mario-fritz": {
   "scholar": "4V1nNm4AAAAJ",
   "scholar_from": "https://scalable.mpi-inf.mpg.de/"
+ },
+ "mark-jelasity": {
+  "fetched": "2026-11-26",
+  "openreview": "~Márk_Jelasity1",
+  "openreview_match": "author id on NeurIPS 2026 submission nHbkxmdykn",
+  "institution": "University of Szeged",
+  "country": "HU",
+  "position": "Full Professor",
+  "scholar": "ScDJx68AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mark-niklas-muller": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mark_Niklas_Mueller2",
+  "openreview_match": "author id on ICML 2025 submission SZCdoPvpls",
+  "homepage": "https://www.sri.inf.ethz.ch/people/mark",
+  "institution": "LogicStar AI",
+  "country": "CH",
+  "position": "Researcher",
+  "scholar": "RBpmcCAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "markus-puschel": {
+  "fetched": "2026-11-26"
+ },
+ "marta-kwiatkowska": {
+  "fetched": "2026-11-26",
+  "openreview": "~Marta_Kwiatkowska1",
+  "openreview_match": "author id on NeurIPS 2025 submission M2HxuxqNrb",
+  "homepage": "http://www.cs.ox.ac.uk/people/marta.kwiatkowska/",
+  "institution": "Polish Academy of Sciences",
+  "country": "PL",
+  "position": "Full Professor",
+  "scholar": "ArcH6PkAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "martin-lange": {
+  "fetched": "2026-11-26",
+  "openreview": "~Martin_Lange1",
+  "openreview_match": "author id on ICLR 2025 submission VVO3ApdMUE",
+  "homepage": "https://carrick.tifm.cs.uni-kassel.de/~mlange/",
+  "institution": "University of Kassel",
+  "country": "DE",
+  "position": "Full Professor",
+  "scholar": "cQuaayUAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "martin-vechev": {
   "fetched": "2026-11-26",
@@ -121,13 +1360,157 @@
   "scholar": "aZ1Rh50AAAAJ",
   "scholar_from": "OpenReview profile"
  },
+ "mathias-lechner": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mathias_Lechner1",
+  "openreview_match": "author id on NeurIPS 2023 submission Yx8Sw2H5Q7",
+  "homepage": "https://mlech26l.github.io/pages/",
+  "institution": "Massachusetts Institute of Technology",
+  "country": "US",
+  "position": "Postdoc",
+  "scholar": "fIupeSAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mathieu-serrurier": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mathieu_Serrurier1",
+  "openreview_match": "author id on ICML 2025 submission w6Ds32QkQd",
+  "institution": "university Jean Jaurès",
+  "country": "FR",
+  "position": "Full Professor"
+ },
+ "matt-fredrikson": {
+  "fetched": "2026-11-26",
+  "openreview": "~Matt_Fredrikson1",
+  "openreview_match": "author id on ICLR 2026 submission 2fgzEJPH02",
+  "homepage": "https://cs.cmu.edu/~mfredrik",
+  "institution": "Gray Swan AI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "tMYCvLAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "matt-jordan": {
+  "fetched": "2026-11-26",
+  "openreview": "~Matt_Jordan1",
+  "openreview_match": "author id on NeurIPS 2022 submission OFsja-NZGbY",
+  "homepage": "https://www.cs.utexas.edu/~mjordan/",
+  "institution": "Allen Institute for Artificial Intelligence",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "Zj7R8p0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "matthew-b-dwyer": {
+  "fetched": "2026-11-26",
+  "openreview": "~Matthew_B._Dwyer1",
+  "openreview_match": "author id on NeurIPS 2025 submission WbpXT0WL9S",
+  "homepage": "https://matthewbdwyer.github.io/",
+  "institution": "Department of Computer Science, University of Virginia, Charlottesville",
+  "country": "US",
+  "position": "Full Professor",
+  "scholar": "-ZRKCcEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "matthew-l-daggitt": {
+  "fetched": "2026-11-26"
+ },
+ "matthew-mirman": {
+  "fetched": "2026-11-26"
+ },
+ "matthias-althoff": {
+  "fetched": "2026-11-26",
+  "openreview": "~Matthias_Althoff1",
+  "openreview_match": "author id on ICLR 2026 submission cYSt0KOQDD",
+  "homepage": "https://www.ce.cit.tum.de/cps/members/prof-dr-ing-matthias-althoff/",
+  "institution": "Technische Universität München",
+  "country": "DE",
+  "position": "Associate Professor",
+  "scholar": "E3zazJAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "matthias-hein": {
+  "fetched": "2026-11-26",
+  "openreview": "~Matthias_Hein2",
+  "openreview_match": "author id on ICLR 2023 submission b0JxQC7JLWh",
+  "homepage": "https://uni-tuebingen.de/de/164260",
+  "institution": "University of Tübingen",
+  "country": "DE",
+  "position": "Full Professor",
+  "scholar": "0ZAb3tsAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "maurice-weber": {
+  "fetched": "2026-11-26",
+  "openreview": "~Maurice_Weber1",
+  "openreview_match": "author id on NeurIPS 2022 submission 6mej19W1ppP",
+  "homepage": "https://mauriceweber.github.io/",
+  "institution": "Together AI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "I_IOIv0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "maximilian-baader": {
+  "fetched": "2026-11-26",
+  "openreview": "~Maximilian_Baader1",
+  "openreview_match": "author id on ICLR 2024 submission awHTL3Hpto",
+  "homepage": "https://www.sri.inf.ethz.ch/people/max",
+  "institution": "Snyk",
+  "country": "CH",
+  "position": "Researcher",
+  "scholar": "LKqCkWoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "meng-pang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Meng_Pang1",
+  "openreview_match": "author id on ICLR 2025 submission iFK0xoceR0",
+  "institution": "Nanchang University",
+  "country": "CN",
+  "position": "Associate Professor",
+  "scholar": "SVsQ2egAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "michael-j-curry": {
   "scholar": "EOlowBUAAAAJ",
   "scholar_from": "https://currymj.github.io/"
  },
+ "miklos-z-horvath": {
+  "fetched": "2026-11-26",
+  "openreview": "~Miklós_Z._Horváth1",
+  "openreview_match": "author id on NeurIPS 2022 submission IbBHnPyjkco",
+  "institution": "Google DeepMind",
+  "country": "GB",
+  "position": "Research Engineer",
+  "scholar": "KGmeFloAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "min-wu": {
   "scholar": "KIvRCsoAAAAJ",
   "scholar_from": "https://cs.stanford.edu/~minwu/"
+ },
+ "min-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Min_Zhang6",
+  "openreview_match": "author id on NeurIPS 2026 submission fMUyPAggFz",
+  "homepage": "https://faculty.ecnu.edu.cn/_s43/zm2_en_6072/main.psp",
+  "institution": "East China Normal University",
+  "country": "CN",
+  "position": "Full Professor",
+  "scholar": "SH0id-wAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mingjie-sun": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mingjie_Sun1",
+  "openreview_match": "author id on ICLR 2023 submission JLg5aHHv7j",
+  "homepage": "https://eric-mingjie.github.io/",
+  "institution": "Thinking Machines Lab",
+  "country": "US",
+  "position": "Member of Technical Staff",
+  "scholar": "wCZbouUAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "mingsheng-ying": {
   "scholar": "jjPif6cAAAAJ",
@@ -137,9 +1520,133 @@
   "scholar": "P1jPSzMAAAAJ",
   "scholar_from": "https://coai.cs.tsinghua.edu.cn/hml"
  },
+ "mintong-kang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mintong_Kang1",
+  "openreview_match": "author id on NeurIPS 2025 submission nOsEyBGk1I",
+  "homepage": "https://kangmintong.github.io/",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "oHXw2SAAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mislav-balunovic": {
+  "fetched": "2026-11-26",
+  "openreview": "~Mislav_Balunovic1",
+  "openreview_match": "author id on ICLR 2021 submission USCNapootw",
+  "homepage": "https://www.sri.inf.ethz.ch/people/mislav",
+  "institution": "Institute for Computer Science, Artificial Intelligence and Technology",
+  "country": "BG",
+  "position": "Researcher",
+  "scholar": "fxkgmGwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "morteza-lahijanian": {
+  "fetched": "2026-11-26",
+  "openreview": "~Morteza_Lahijanian1",
+  "openreview_match": "author id on NeurIPS 2022 submission 9XQa6cgLo21",
+  "homepage": "https://ariasystems.group/",
+  "institution": "University of Colorado at Boulder",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "BfH-7msAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "mykel-j-kochenderfer": {
+  "fetched": "2026-11-26"
+ },
+ "neil-g-marchant": {
+  "fetched": "2026-11-26",
+  "openreview": "~Neil_G_Marchant1",
+  "openreview_match": "author id on NeurIPS 2026 submission zdRy5kB5qm",
+  "homepage": "https://www.ngmarchant.net/",
+  "institution": "The University of Melbourne",
+  "country": "AU",
+  "position": "Postdoc",
+  "scholar": "F7cVGr0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "neil-gong": {
+  "fetched": "2026-11-26",
+  "openreview": "~Neil_Gong2",
+  "openreview_match": "author id on ICML 2026 submission DQKoxCegwH",
+  "homepage": "http://people.duke.edu/~zg70/",
+  "institution": "Duke University",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "t6uCsYoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "nezihe-merve-gurel": {
+  "fetched": "2026-11-26",
+  "openreview": "~Nezihe_Merve_Gürel2",
+  "openreview_match": "author id on ICLR 2024 submission XN6ZPINdSg",
+  "homepage": "https://nezihemervegurel.github.io/",
+  "institution": "Delft University of Technology",
+  "country": "NL",
+  "position": "Assistant Professor",
+  "scholar": "5yYPHwYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "nina-narodytska": {
+  "fetched": "2026-11-26",
+  "openreview": "~Nina_Narodytska1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "institution": "VMware",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "pQw6xK4AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "olga-ohrimenko": {
+  "fetched": "2026-11-26",
+  "openreview": "~Olga_Ohrimenko1",
+  "openreview_match": "author id on NeurIPS 2025 submission xAKOn2IfsP",
+  "homepage": "https://people.eng.unimelb.edu.au/oohrimenko/",
+  "institution": "University of Melbourne",
+  "country": "AU",
+  "position": "Full Professor",
+  "scholar": "lzfVm_8AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "panagiotis-kouvaros": {
+  "fetched": "2026-11-26",
+  "openreview": "~Panagiotis_Kouvaros1",
+  "openreview_match": "author id on NeurIPS 2025 submission Va1IHqY3jG",
+  "institution": "Safe Intelligence",
+  "country": "GB",
+  "position": "Principal Researcher"
+ },
+ "patrick-musau": {
+  "fetched": "2026-11-26"
+ },
+ "pengfei-yang": {
+  "fetched": "2026-11-26"
+ },
  "percy-liang": {
   "scholar": "pouyVyUAAAAJ",
   "scholar_from": "http://cs.stanford.edu/~pliang/"
+ },
+ "philip-torr": {
+  "fetched": "2026-11-26",
+  "openreview": "~Philip_Torr1",
+  "openreview_match": "author id on ICLR 2025 submission F64wTvQBum",
+  "homepage": "http://www.robots.ox.ac.uk/~tvg/",
+  "institution": "University of Oxford",
+  "country": "GB",
+  "position": "Full Professor",
+  "scholar": "kPxa2w0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "pin-yu-chen": {
+  "fetched": "2026-11-26"
+ },
+ "ping-yeh-chiang": {
+  "fetched": "2026-11-26"
+ },
+ "pushmeet-kohli": {
+  "fetched": "2026-11-26"
  },
  "qiang-liu": {
   "scholar": "XEx1fZkAAAAJ",
@@ -153,9 +1660,91 @@
   "scholar": "5r5Jyb4AAAAJ",
   "scholar_from": "https://ryz.ece.illinois.edu/"
  },
+ "robert-stanforth": {
+  "fetched": "2026-11-26",
+  "openreview": "~Robert_Stanforth1",
+  "openreview_match": "author id on ICLR 2024 submission mzyZ4wzKlM",
+  "institution": "DeepMind",
+  "position": "Researcher"
+ },
+ "rudy-bunel": {
+  "fetched": "2026-11-26",
+  "openreview": "~Rudy_R_Bunel1",
+  "openreview_match": "author id on ICLR 2024 submission mzyZ4wzKlM",
+  "homepage": "http://www.robots.ox.ac.uk/~rudy/",
+  "institution": "Deepmind",
+  "position": "Researcher",
+  "scholar": "7cqQFSoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "russ-tedrake": {
+  "fetched": "2026-11-26",
+  "openreview": "~Russ_Tedrake1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "http://people.csail.mit.edu/russt",
+  "institution": "Toyota Research Institute",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "nxNkEiYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "samuel-sasaki": {
+  "fetched": "2026-11-26",
+  "openreview": "~Samuel_Sasaki1",
+  "openreview_match": "author id on NeurIPS 2026 submission CENjUqCe8j",
+  "homepage": "https://sammsaski.github.io/",
+  "institution": "Vanderbilt University",
+  "country": "US",
+  "position": "PhD student",
+  "scholar": "CLRX7wEAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "sarah-m-erfani": {
+  "fetched": "2026-11-26",
+  "openreview": "~Sarah_Monazam_Erfani1",
+  "openreview_match": "author id on ICML 2026 submission OXjToUQDz1",
+  "homepage": "https://people.eng.unimelb.edu.au/smonazam/",
+  "institution": "University of Melbourne",
+  "country": "AU",
+  "position": "Full Professor",
+  "scholar": "Jq9ocx4AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "sasa-misailovic": {
   "scholar": "3qJQjIYAAAAJ",
   "scholar_from": "http://misailo.web.engr.illinois.edu/"
+ },
+ "sebastian-elbaum": {
+  "fetched": "2026-11-26",
+  "openreview": "~Sebastian_Elbaum1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://cs.virginia.edu/~se4ja",
+  "institution": "University of Virginia, Charlottesville",
+  "country": "US",
+  "position": "Full Professor",
+  "scholar": "swPW5FYAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "shahaf-bassan": {
+  "fetched": "2026-11-26",
+  "openreview": "~Shahaf_Bassan1",
+  "openreview_match": "author id on NeurIPS 2026 submission hOaJ6pyv0j",
+  "institution": "Hebrew University of Jerusalem",
+  "country": "IL",
+  "position": "PhD student",
+  "scholar": "suikl9EAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "shijie-liu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Shijie_Liu4",
+  "openreview_match": "author id on NeurIPS 2025 submission lG82mcrKJf",
+  "homepage": "https://github.com/shijiel2",
+  "institution": "University of Melbourne",
+  "country": "AU",
+  "position": "Postdoc",
+  "scholar": "lH5nxwMAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "shiqi-wang": {
   "scholar": "u_MzXeMAAAAJ",
@@ -165,9 +1754,49 @@
   "scholar": "X_mDnjkAAAAJ",
   "scholar_from": "https://people.cs.umass.edu/~shiqingma/"
  },
+ "shubham-ugare": {
+  "fetched": "2026-11-26",
+  "openreview": "~Shubham_Ugare1",
+  "openreview_match": "author id on ICLR 2024 submission SdeAPV1irk",
+  "homepage": "https://shubhamugare.github.io/",
+  "institution": "Meta",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "vpK-0x8AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "si-liu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Si_Liu6",
+  "openreview_match": "author id on NeurIPS 2023 submission hpYb4eUinX",
+  "institution": "The Chinese University of Hong Kong",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "tSYgue0AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "sicun-gao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Sicun_Gao1",
+  "openreview_match": "author id on NeurIPS 2024 submission nWMqQHzI3W",
+  "institution": "University of California, San Diego",
+  "country": "US",
+  "position": "Associate Professor"
+ },
  "siddharth-garg": {
   "scholar": "Yf8OqQQAAAAJ",
   "scholar_from": "http://engineering.nyu.edu/people/siddharth-garg"
+ },
+ "sijia-liu": {
+  "fetched": "2026-11-26",
+  "openreview": "~Sijia_Liu1",
+  "openreview_match": "author id on ICLR 2022 submission W9G_ImpHlQd",
+  "homepage": "https://lsjxjtu.github.io/",
+  "institution": "Michigan State University",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "C7dO_UgAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "soheil-feizi": {
   "scholar": "lptAmrMAAAAJ",
@@ -177,9 +1806,31 @@
   "scholar": "BaI7l8QAAAAJ",
   "scholar_from": "http://www.cs.wisc.edu/~jha/"
  },
+ "stanley-bak": {
+  "fetched": "2026-11-26"
+ },
+ "stephan-gunnemann": {
+  "fetched": "2026-11-26",
+  "openreview": "~Stephan_Günnemann1",
+  "openreview_match": "author id on NeurIPS 2026 submission I4p58bdzvx",
+  "homepage": "http://www.daml.in.tum.de",
+  "institution": "Technical University Munich",
+  "country": "DE",
+  "position": "Professor"
+ },
  "suman-jana": {
   "scholar": "SDY9FwUAAAAJ",
   "scholar_from": "http://sumanj.info/"
+ },
+ "sven-gowal": {
+  "fetched": "2026-11-26",
+  "openreview": "~Sven_Gowal1",
+  "openreview_match": "author id on NeurIPS 2021 submission oAxm0Wz7Bv",
+  "institution": "DeepMind",
+  "position": "Research Engineer"
+ },
+ "swarat-chaudhuri": {
+  "fetched": "2026-11-26"
  },
  "tao-xie": {
   "scholar": "DhhH9J4AAAAJ",
@@ -204,6 +1855,17 @@
   "scholar": "UkCDAXUAAAAJ",
   "scholar_from": "OpenReview profile"
  },
+ "thanhvu-nguyen": {
+  "fetched": "2026-11-26",
+  "openreview": "~ThanhVu_Nguyen1",
+  "openreview_match": "author id on NeurIPS 2026 submission U2N3YhilwS",
+  "homepage": "https://roars.dev",
+  "institution": "George Mason University",
+  "country": "US",
+  "position": "Associate Professor",
+  "scholar": "TLcVQ-MAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "thomas-a-henzinger": {
   "scholar": "jpgplxUAAAAJ",
   "scholar_from": "http://pub.ist.ac.at/~tah/"
@@ -211,6 +1873,27 @@
  "thomas-lukasiewicz": {
   "scholar": "arjucpEAAAAJ",
   "scholar_from": "https://www.cs.ox.ac.uk/thomas.lukasiewicz/"
+ },
+ "timon-gehr": {
+  "fetched": "2026-11-26",
+  "openreview": "~Timon_Gehr1",
+  "openreview_match": "author id on ICLR 2022 submission UMfhoMtIaP5",
+  "homepage": "https://www.sri.inf.ethz.ch/people/timon",
+  "institution": "Swiss Federal Institute of Technology",
+  "position": "PhD student",
+  "scholar": "HcL76tsAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "tobias-ladner": {
+  "fetched": "2026-11-26",
+  "openreview": "~Tobias_Ladner1",
+  "openreview_match": "author id on ICLR 2026 submission cYSt0KOQDD",
+  "homepage": "https://www.ce.cit.tum.de/cps/members/tobias-ladner-msc/",
+  "institution": "Technical University of Munich",
+  "country": "DE",
+  "position": "Postdoc",
+  "scholar": "MJKVO5cAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "tobias-lorenz": {
   "scholar": "gf-aMd0AAAAJ",
@@ -220,6 +1903,60 @@
   "scholar": "KmSuVtgAAAAJ",
   "scholar_from": "https://www.cs.umd.edu/~tomg/"
  },
+ "tsui-wei-weng": {
+  "fetched": "2026-11-26",
+  "openreview": "~Tsui-Wei_Weng1",
+  "openreview_match": "author id on ICLR 2024 submission BWAhEjXjeG",
+  "homepage": "https://lilywenglab.github.io",
+  "institution": "University of California, San Diego",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "v8GM4xoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "vaclav-voracek": {
+  "fetched": "2026-11-26",
+  "openreview": "~Vaclav_Voracek1",
+  "openreview_match": "author id on NeurIPS 2024 submission s4Wx2qXhv9",
+  "institution": "SF",
+  "country": "CZ",
+  "position": "Researcher",
+  "scholar": "Db13d44AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "victor-magron": {
+  "fetched": "2026-11-26",
+  "openreview": "~Victor_Magron1",
+  "openreview_match": "author id on ICLR 2025 submission 9c96mGtQVR",
+  "homepage": "https://homepages.laas.fr/vmagron/",
+  "institution": "LAAS / CNRS",
+  "country": "FR",
+  "position": "Researcher",
+  "scholar": "uBINkvoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "vincent-tjeng": {
+  "fetched": "2026-11-26"
+ },
+ "volkan-cevher": {
+  "fetched": "2026-11-26",
+  "openreview": "~Volkan_Cevher1",
+  "openreview_match": "author id on ICLR 2025 submission cd79pbXi4N",
+  "homepage": "http://lions.epfl.ch",
+  "institution": "EPFL",
+  "country": "CH",
+  "position": "Full Professor",
+  "scholar": "hlWhzU8AAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "xiangru-zhong": {
+  "fetched": "2026-11-26",
+  "openreview": "~Xiangru_Zhong1",
+  "openreview_match": "author id on NeurIPS 2025 submission EXIKFM1Q9R",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "country": "US",
+  "position": "PhD student"
+ },
  "xiaowei-huang": {
   "scholar": "X4fLCCIAAAAJ",
   "scholar_from": "https://cgi.csc.liv.ac.uk/~xiaowei/"
@@ -227,6 +1964,16 @@
  "xue-lin": {
   "scholar": "p87KNLIAAAAJ",
   "scholar_from": "https://xuelin.sites.northeastern.edu/"
+ },
+ "yan-scholten": {
+  "fetched": "2026-11-26",
+  "openreview": "~Yan_Scholten1",
+  "openreview_match": "author id on NeurIPS 2026 submission I4p58bdzvx",
+  "institution": "Technische Universität München",
+  "country": "DE",
+  "position": "PhD student",
+  "scholar": "8G2bJ7sAAAAJ",
+  "scholar_from": "OpenReview profile"
  },
  "yang-zhou": {
   "scholar": "yvE8Po0AAAAJ",
@@ -236,6 +1983,81 @@
   "scholar": "ClAr4UYAAAAJ",
   "scholar_from": "https://wang-yanting.github.io/"
  },
+ "yasser-shoukry": {
+  "fetched": "2026-11-26"
+ },
+ "yedi-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Yedi_Zhang1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://s3l.shanghaitech.edu.cn/people/yedizhang/",
+  "institution": "National University of Singapore",
+  "country": "SG",
+  "position": "Postdoc",
+  "scholar": "p2rRQbcAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "yevgeniy-vorobeychik": {
+  "fetched": "2026-11-26",
+  "openreview": "~Yevgeniy_Vorobeychik1",
+  "openreview_match": "author id on NeurIPS 2024 submission tGDUDKirAy",
+  "homepage": "http://vorobeychik.com",
+  "institution": "Washington University, St. Louis",
+  "country": "US",
+  "position": "Full Professor",
+  "scholar": "ptI-HHkAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "yihan-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Yihan_Wang2",
+  "openreview_match": "author id on NeurIPS 2022 submission NSWNgQgoF71",
+  "homepage": "https://yihanwang617.github.io",
+  "institution": "Mistral AI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "bWCcEdwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "youcheng-sun": {
+  "fetched": "2026-11-26",
+  "openreview": "~Youcheng_Sun1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://sites.google.com/site/theyoucheng/",
+  "institution": "Mohamed bin Zayed University of Artificial Intelligence",
+  "country": "AE",
+  "position": "Assistant Professor",
+  "scholar": "Qbb5pBUAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "yuhao-mao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Yuhao_Mao1",
+  "openreview_match": "author id on ICLR 2026 submission syvfsHSqm2",
+  "homepage": "https://algebraloveme.github.io/about/",
+  "institution": "ETHZ - ETH Zurich",
+  "position": "PhD student"
+ },
+ "zhaodi-zhang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Zhang_Zhaodi1",
+  "openreview_match": "dblp link on the profile and lists one of their NNV papers",
+  "homepage": "https://github.com/zhangzhaodi233",
+  "institution": "Chengdu Academy of Educational Sciences",
+  "country": "CN",
+  "position": "Researcher"
+ },
+ "zhe-tao": {
+  "fetched": "2026-11-26",
+  "openreview": "~Zhe_Tao2",
+  "openreview_match": "author id on NeurIPS 2025 submission 1ffIkWo0yq",
+  "homepage": "https://zhe-tao.com/",
+  "institution": "Tencent",
+  "country": "CN",
+  "position": "Researcher",
+  "scholar": "i1LGImoAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "zhenyu-chen": {
   "scholar": "HQWxCnkAAAAJ",
   "scholar_from": "http://software.nju.edu.cn/zychen/"
@@ -244,8 +2066,41 @@
   "scholar": "r2Z7bCMAAAAJ",
   "scholar_from": "https://zhongkuima.github.io"
  },
+ "zhouxing-shi": {
+  "fetched": "2026-11-26",
+  "openreview": "~Zhouxing_Shi1",
+  "openreview_match": "author id on NeurIPS 2026 submission ZDDAP6WLxi",
+  "homepage": "https://shizhouxing.github.io",
+  "institution": "University of California, Riverside",
+  "country": "US",
+  "position": "Assistant Professor",
+  "scholar": "YFIr4PwAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
  "zi-wang": {
   "scholar": "UOaHqKEAAAAJ",
   "scholar_from": "https://z1w.github.io/"
+ },
+ "zico-kolter": {
+  "fetched": "2026-11-26",
+  "openreview": "~Zico_Kolter1",
+  "openreview_match": "author id on NeurIPS 2023 submission I50HbChk3U",
+  "homepage": "http://www.zicokolter.com",
+  "institution": "OpenAI",
+  "country": "US",
+  "position": "Board Member",
+  "scholar": "UXh1I6UAAAAJ",
+  "scholar_from": "OpenReview profile"
+ },
+ "zifan-wang": {
+  "fetched": "2026-11-26",
+  "openreview": "~Zifan_Wang1",
+  "openreview_match": "author id on ICLR 2024 submission qz3mcn99cu",
+  "homepage": "https://www.zifanw.net",
+  "institution": "Scale AI",
+  "country": "US",
+  "position": "Researcher",
+  "scholar": "HJOP3wMAAAAJ",
+  "scholar_from": "OpenReview profile"
  }
 }
