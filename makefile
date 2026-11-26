@@ -5,10 +5,10 @@ install:
 	pip install networkx
 
 fetch:
-	cd backend/code && $(PYTHON) fetch_dblp.py
+	cd backend/code && $(PYTHON) fetch_dblp.py && $(PYTHON) fetch_virtual.py
 
 refresh:
-	cd backend/code && $(PYTHON) fetch_dblp.py --refresh && $(PYTHON) scan_topics.py && $(PYTHON) find_candidates.py
+	cd backend/code && $(PYTHON) fetch_dblp.py --refresh && $(PYTHON) fetch_virtual.py --refresh && $(PYTHON) scan_topics.py && $(PYTHON) find_candidates.py
 
 topics:
 	cd backend/code && $(PYTHON) scan_topics.py

@@ -10,6 +10,7 @@
 		<th title="Papers from other areas that also carry this tag">Also tagged</th>
 		<th title="Papers with at least one listed researcher">Listed</th>
 		<th class="l" data-nosort>Leading researchers</th>
+		<th class="l" data-nosort>Leading groups</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -20,7 +21,8 @@
 		<td class="total good">{{ .papers }}</td>
 		{{ partial "num.html" .tagged }}
 		{{ partial "num.html" .tracked }}
-		<td class="l wrap-cell">{{ range $k, $r := first 3 .researchers }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $r.slug | relURL }}">{{ $r.name }}</a> ({{ $r.papers }}){{ end }}</td>
+		<td class="l wrap-cell">{{ partial "leaders.html" (dict "rows" .researchers "section" "researchers") }}</td>
+		<td class="l wrap-cell">{{ partial "leaders.html" (dict "rows" .groups "section" "groups") }}</td>
 	</tr>
 	{{- end }}
 	</tbody>

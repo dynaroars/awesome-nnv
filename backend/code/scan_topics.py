@@ -3,7 +3,7 @@ import collections
 import re
 import sys
 
-from common import CSV_DIR, PAPERS, TOPICS, WORK, read_csv, read_jsonl_gz, write_csv
+from common import all_papers, CSV_DIR, PAPERS, TOPICS, WORK, read_csv, read_jsonl_gz, write_csv
 
 MODEL = (r"neural|network|\bnets?\b|\bdnns?\b|\bcnns?\b|\brnns?\b|\bgnns?\b|\bllms?\b|deep|relu|transformer|perceptron"
          r"|classifier|learn(ed|ing)[- ]enabled|learned (controller|component|model|polic)|machine[- ]learn|\bml\b|\bai\b"
@@ -43,7 +43,7 @@ def main():
     rows = read_csv(TOPICS)
     known = {r["key"] for r in rows}
     counts, added = collections.Counter(), []
-    for p in read_jsonl_gz(PAPERS):
+    for p in all_papers():
         kind = hit(p["title"])
         if not kind:
             continue

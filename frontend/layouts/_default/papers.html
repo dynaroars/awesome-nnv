@@ -18,7 +18,7 @@
 		<td class="l venue-year"><a href="{{ printf "conferences/%s/" .venue | relURL }}">{{ .venue_name }}</a>&rsquo;{{ printf "%02d" (mod .year 100) }}</td>
 		<td class="l"><a href="{{ printf "areas/%s/" .area | relURL }}">{{ .area_name }}</a></td>
 		<td class="l">{{ $n := 0 }}{{ range .authors }}{{ if .slug }}{{ if $n }}, {{ end }}{{ $n = add $n 1 }}<a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a>{{ end }}{{ end }}{{ if not $n }}<span class="na">&ndash;</span>{{ end }}</td>
-		<td class="l wrap-cell"><a href="{{ .url }}">{{ .title }}</a></td>
+		<td class="l wrap-cell"><a href="{{ .url }}">{{ .title }}</a>{{ with .arxiv }} <span class="note">(<a href="https://arxiv.org/abs/{{ . }}">arXiv</a>)</span>{{ end }}</td>
 		{{ partial "cites.html" .citations }}
 	</tr>
 	{{- end }}

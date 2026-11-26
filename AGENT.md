@@ -14,6 +14,12 @@ The top level holds only `backend/`, `frontend/`, `README.md`, `makefile`, `AGEN
   - `fetch_dblp.py`: main-track papers of every venue from DBLP's SPARQL service (`sparql.dblp.org`), into
     `backend/work/papers.jsonl.gz` and `backend/work/coverage.json`. dblp.org itself answers scripts with a bot check:
     never get around it, use SPARQL.
+  - `fetch_virtual.py`: for ICML, NeurIPS and ICLR years that dblp does not list yet, the accepted main-track papers
+    from the conference site (`<site>/static/virtual/data/<venue>-<year>-orals-posters.json`, as vn-ai-ranking reads
+    them; same track rule: no Datasets & Benchmarks, position, journal or blog entries) into
+    `backend/work/virtual.jsonl.gz`, keyed `openreview/<forum id>`, linking the OpenReview forum. `all_papers()` in
+    `common.py` drops a site's venue-year as soon as dblp lists it: then label the dblp rows again (the
+    `openreview/...` rows of `topics.csv` become unused and the build warns about them; delete them).
   - `scan_topics.py`: a broad title prefilter; adds every hit to `topics.csv` with an empty `decision`.
   - `find_candidates.py`: ranks the authors of the `yes` papers who are not decided in `roster.csv` (`candidates.csv`).
   - `fetch_people.py`: DBLP person records (affiliation, homepage, ORCID) of roster and top candidates into
@@ -88,6 +94,14 @@ the site uses.
   used for every count, so area totals add up; secondary tags are shown and counted separately ("Also tagged").
   Choose the primary area by the paper's main contribution: a verifier for transformers is `architectures`, a
   certified-training method for controllers is `training` with the tag `control`.
+- **Name matches** (conference-site papers have no dblp pid): an author counts for a listed researcher when the
+  printed name equals the roster `name`, an `aliases` entry or the dblp name of one of their pids. Every such match is
+  listed in `build_report.txt` ("name match to check"): check the co-authors and institution, and add a namesake's
+  printed form nowhere (a wrong match is removed by renaming in `aliases`, never by editing the data). Example: two
+  different Thanh Le are on the NeurIPS 2026 list; only "Verifying Neural Networks with Reinforcement Learning" is
+  the maintainer's.
+- **arXiv links:** `fetch_citations.py` keeps the arXiv id of the OpenAlex preprint it adds up (`arxiv` in
+  `citations.json`), shown as an "arXiv" link next to the title.
 - **People:** by default faculty and senior researchers at companies and labs (the maintainer's choice). The
   maintainer may name anyone else to track, students included ("Track X, Y"): add them with `approved` = `yes`
   and the right `role` (`student`, `researcher`); on 2026-11-26 they added Yuhao Mao, Mark Niklas Müller,

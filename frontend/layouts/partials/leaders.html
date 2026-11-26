@@ -1,0 +1,3 @@
+{{- $rows := .rows }}{{ $section := .section }}{{ $cut := 0 }}
+{{- if ge (len $rows) 3 }}{{ $cut = (index $rows 2).papers }}{{ end }}
+{{- $n := 0 }}{{ range $rows }}{{ if or (lt $n 3) (eq .papers $cut) }}{{ if $n }}, {{ end }}{{ $n = add $n 1 }}<a href="{{ printf "%s/%s/" $section .slug | relURL }}">{{ .name }}</a> ({{ .papers }}){{ end }}{{ end -}}

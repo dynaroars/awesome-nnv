@@ -14,6 +14,9 @@ FRONTEND = BACKEND.parent / "frontend"
 RAW = BACKEND / "data" / "raw"
 WORK = BACKEND / "work"
 PAPERS = WORK / "papers.jsonl.gz"
+VIRTUAL = WORK / "virtual.jsonl.gz"
+VIRTUAL_COVERAGE = WORK / "coverage_virtual.json"
+VIRTUAL_SITES = {"neurips": "https://neurips.cc", "icml": "https://icml.cc", "iclr": "https://iclr.cc"}
 
 ROSTER = CSV_DIR / "roster.csv"
 TOPICS = CSV_DIR / "topics.csv"
@@ -181,6 +184,14 @@ def read_jsonl_gz(path):
         for line in f:
             if line.strip():
                 yield json.loads(line)
+
+
+def all_papers():
+    papers = list(read_jsonl_gz(PAPERS))
+    listed = {(p["venue"], p["year"]) for p in papers}
+    if Path(VIRTUAL).exists():
+        papers.extend(p for p in read_jsonl_gz(VIRTUAL) if (p["venue"], p["year"]) not in listed)
+    return papers
 
 
 def write_jsonl_gz(path, rows):

@@ -2,7 +2,7 @@ import argparse
 import collections
 import sys
 
-from common import (CANDIDATES, PAPERS, PEOPLE_JSON, ROSTER, TOPICS, VENUE_NAME, read_csv, read_json, read_jsonl_gz,
+from common import (all_papers, CANDIDATES, PAPERS, PEOPLE_JSON, ROSTER, TOPICS, VENUE_NAME, read_csv, read_json, read_jsonl_gz,
                     split_list, write_csv)
 
 FIELDS = ["pid", "name", "nnv_papers", "last_author", "first_author", "first_year", "last_year", "venues",
@@ -11,7 +11,7 @@ FIELDS = ["pid", "name", "nnv_papers", "last_author", "first_author", "first_yea
 
 def nnv_papers():
     yes = {r["key"] for r in read_csv(TOPICS) if r["decision"] == "yes"}
-    return [p for p in read_jsonl_gz(PAPERS) if p["key"] in yes]
+    return [p for p in all_papers() if p["key"] in yes]
 
 
 def main():

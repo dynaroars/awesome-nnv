@@ -25,9 +25,11 @@ workshops, new-ideas and industry tracks, demos, Tiny Papers, position papers an
 left out, as are papers shorter than six pages, as CSRankings does. POPL, OOPSLA, ICFP and PLDI papers published in
 PACMPL, and FSE and ISSTA papers published in PACMSE, count as conference papers.
 
-All paper lists come from [dblp](https://dblp.org) (CC0), read through its SPARQL service. dblp adds proceedings some
-weeks after a conference, so the most recent venue-years can be missing; the [Conferences](../conferences/) page
-marks them.
+Paper lists come from [dblp](https://dblp.org) (CC0), read through its SPARQL service. dblp adds proceedings some
+weeks after a conference; until it does, ICML, NeurIPS and ICLR papers come from the accepted-paper lists of the
+conference sites (icml.cc, neurips.cc, iclr.cc), with their authors matched by name. The other recent venue-years
+not yet in dblp are marked on the [Conferences](../conferences/) page. Each paper links to its preprint on arXiv when
+OpenAlex knows one.
 
 ## What counts as an NNV paper
 

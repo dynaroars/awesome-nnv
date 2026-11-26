@@ -13,8 +13,15 @@
     "slug": "thanhvu-nguyen",
     "name": "ThanhVu Nguyen",
     "institution_short": "GMU",
+    "papers": 8,
+    "score": 2.5
+   },
+   {
+    "slug": "hai-duong",
+    "name": "Hai Duong",
+    "institution_short": "",
     "papers": 7,
-    "score": 2.166
+    "score": 2.0
    },
    {
     "slug": "matthew-b-dwyer",
@@ -22,13 +29,6 @@
     "institution_short": "UVA",
     "papers": 7,
     "score": 2.0
-   },
-   {
-    "slug": "hai-duong",
-    "name": "Hai Duong",
-    "institution_short": "",
-    "papers": 6,
-    "score": 1.666
    },
    {
     "slug": "david-shriver",
@@ -45,16 +45,16 @@
     "score": 0.833
    },
    {
-    "slug": "dong-xu",
-    "name": "Dong Xu",
-    "institution_short": "University of Virginia",
-    "papers": 2,
-    "score": 0.5
-   },
-   {
     "slug": "thanh-le",
     "name": "Thanh Le",
     "institution_short": "National Institute of Informatics",
+    "papers": 3,
+    "score": 0.833
+   },
+   {
+    "slug": "dong-xu",
+    "name": "Dong Xu",
+    "institution_short": "University of Virginia",
     "papers": 2,
     "score": 0.5
    }
@@ -62,20 +62,20 @@
   "institutions": [
    "GMU",
    "UVA",
-   "University of Virginia",
-   "National Institute of Informatics"
+   "National Institute of Informatics",
+   "University of Virginia"
   ],
-  "papers": 10,
-  "citations": 198,
+  "papers": 11,
+  "citations": 204,
   "venues": {
+   "neurips": 3,
    "cvpr": 1,
    "fse": 2,
-   "neurips": 2,
    "ase": 2,
    "cav": 3
   },
   "fields": {
-   "ml": 2,
+   "ml": 3,
    "cv": 1,
    "pl": 0,
    "se": 4,
@@ -83,7 +83,7 @@
    "fm": 0
   },
   "areas": {
-   "complete": 3,
+   "complete": 4,
    "bounds": 1,
    "probabilistic": 0,
    "training": 0,
@@ -105,17 +105,47 @@
    "2023": 0,
    "2024": 1,
    "2025": 4,
-   "2026": 2
+   "2026": 3
   },
   "score_fields": {
-   "ml": 2.0,
+   "ml": 3.0,
    "cv": 0.75,
    "pl": 0.0,
    "se": 3.0,
    "lv": 3.0
   },
-  "score": 2.426,
+  "score": 2.569,
   "paper_list": [
+   {
+    "id": "duong2026verifyingc",
+    "key": "openreview/U2N3YhilwS",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Verifying Neural Networks with Reinforcement Learning",
+    "url": "https://openreview.net/forum?id=U2N3YhilwS",
+    "citations": 6,
+    "arxiv": "2609.34553",
+    "source": "neurips.cc",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
    {
     "id": "duong2026verifying",
     "key": "conf/cvpr/DuongNLN26",
@@ -126,6 +156,8 @@
     "title": "Verifying Neural Network Robustness with Dual Perturbations",
     "url": "https://dblp.org/rec/conf/cvpr/DuongNLN26",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -158,6 +190,8 @@
     "title": "Verifying Structural Robustness of Deep Neural Network",
     "url": "https://doi.org/10.1145/3797095",
     "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -190,6 +224,8 @@
     "title": "Compositional Neural Network Verification via Assume-Guarantee Reasoning",
     "url": "https://dblp.org/rec/conf/nips/DuongSND25",
     "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -222,6 +258,8 @@
     "title": "Generating and Checking DNN Verification Proofs",
     "url": "https://dblp.org/rec/conf/nips/DuongND25",
     "citations": 12,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -250,6 +288,8 @@
     "title": "Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks",
     "url": "https://doi.org/10.1109/ase63991.2025.00115",
     "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -274,6 +314,8 @@
     "title": "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-98679-6_19",
     "citations": 28,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -302,6 +344,8 @@
     "title": "Harnessing Neuron Stability to Improve DNN Verification",
     "url": "https://doi.org/10.1145/3643765",
     "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -334,6 +378,8 @@
     "title": "Distribution Models for Falsification and Verification of DNNs",
     "url": "https://doi.org/10.1109/ase51524.2021.9678590",
     "citations": 10,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -366,6 +412,8 @@
     "title": "DNNV: A Framework for Deep Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_6",
     "citations": 69,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -394,6 +442,8 @@
     "title": "Systematic Generation of Diverse Benchmarks for DNN Verification",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_5",
     "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -535,6 +585,8 @@
     "title": "Dual Randomized Smoothing: Beyond Global Noise Variance",
     "url": "https://dblp.org/rec/conf/iclr/SunMV26",
     "citations": 2,
+    "arxiv": "2512.01782",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -563,6 +615,8 @@
     "title": "Expressiveness of Multi-Neuron Convex Relaxations in Neural Network Certification",
     "url": "https://dblp.org/rec/conf/iclr/MaoZV26",
     "citations": 7,
+    "arxiv": "2410.06816",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -591,6 +645,8 @@
     "title": "Average Certified Radius is a Poor Metric for Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/SunMMV25",
     "citations": 3,
+    "arxiv": "2410.06895",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -623,6 +679,8 @@
     "title": "CTBench: A Library and Benchmark for Certified Training",
     "url": "https://dblp.org/rec/conf/icml/MaoBV25",
     "citations": 18,
+    "arxiv": "2406.04848",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -656,6 +714,8 @@
     "title": "Expressivity of ReLU-Networks under Convex Relaxations",
     "url": "https://dblp.org/rec/conf/iclr/BaaderMMV24",
     "citations": 7,
+    "arxiv": "2311.04015",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -693,6 +753,8 @@
     "title": "Understanding Certified Training with Interval Bound Propagation",
     "url": "https://dblp.org/rec/conf/iclr/MaoM0V24",
     "citations": 34,
+    "arxiv": "2306.10426",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -725,6 +787,8 @@
     "title": "Certified Training: Small Boxes are All You Need",
     "url": "https://dblp.org/rec/conf/iclr/MullerE0V23",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -757,6 +821,8 @@
     "title": "Efficient Certified Training and Robustness Verification of Neural ODEs",
     "url": "https://dblp.org/rec/conf/iclr/ZeqiriM0V23",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -798,6 +864,8 @@
     "title": "Connecting Certified and Adversarial Training",
     "url": "https://dblp.org/rec/conf/nips/MaoM0V23",
     "citations": 35,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -830,6 +898,8 @@
     "title": "Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks",
     "url": "https://doi.org/10.1145/3591252",
     "citations": 10,
+    "arxiv": "2110.08260",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -867,6 +937,8 @@
     "title": "Boosting Randomized Smoothing with Variance Reduced Classifiers",
     "url": "https://dblp.org/rec/conf/iclr/HorvathM0V22",
     "citations": 54,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -899,6 +971,8 @@
     "title": "Complete Verification via Multi-Neuron Relaxation Guided Branch-and-Bound",
     "url": "https://dblp.org/rec/conf/iclr/FerrariMJV22",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -936,6 +1010,8 @@
     "title": "Provably Robust Adversarial Examples",
     "url": "https://dblp.org/rec/conf/iclr/Dimitrov0GV22",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -968,6 +1044,8 @@
     "title": "(De-)Randomized Smoothing for Decision Stump Ensembles",
     "url": "https://dblp.org/rec/conf/nips/HorvathM0V22",
     "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -1005,6 +1083,8 @@
     "title": "PRIMA: general and precise neural network certification via scalable convex hull approximations",
     "url": "https://doi.org/10.1145/3498704",
     "citations": 202,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1041,6 +1121,8 @@
     "title": "Shared Certificates for Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_7",
     "citations": 32,
+    "arxiv": "2109.00542",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1077,6 +1159,8 @@
     "title": "Scalable Certified Segmentation via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/FischerBV21",
     "citations": 47,
+    "arxiv": "2107.00228",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -1105,6 +1189,8 @@
     "title": "Certify or Predict: Boosting Certified Robustness with Compositional Architectures",
     "url": "https://dblp.org/rec/conf/iclr/MullerBV21",
     "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -1133,6 +1219,8 @@
     "title": "Robustness Certification for Point Cloud Models",
     "url": "https://doi.org/10.1109/iccv48922.2021.00751",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -1178,6 +1266,8 @@
     "title": "Fast and precise certification of transformers",
     "url": "https://doi.org/10.1145/3453483.3454056",
     "citations": 62,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -1210,6 +1300,8 @@
     "title": "Robustness certification with generative models",
     "url": "https://doi.org/10.1145/3453483.3454100",
     "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -1246,6 +1338,8 @@
     "title": "Scalable Polyhedral Verification of Recurrent Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_10",
     "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -1291,6 +1385,8 @@
     "title": "Adversarial Training and Provable Defenses: Bridging the Gap",
     "url": "https://dblp.org/rec/conf/iclr/BalunovicV20",
     "citations": 166,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -1315,6 +1411,8 @@
     "title": "Universal Approximation with Certified Networks",
     "url": "https://dblp.org/rec/conf/iclr/BaaderMV20",
     "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -1348,6 +1446,8 @@
     "title": "Certified Defense to Image Transformations via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/FischerBV20",
     "citations": 79,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -1381,6 +1481,8 @@
     "title": "Learning Certified Individually Fair Representations",
     "url": "https://dblp.org/rec/conf/nips/RuossBFV20",
     "citations": 122,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -1418,6 +1520,8 @@
     "title": "Boosting Robustness Certification of Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/SinghGPV19",
     "citations": 224,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -1455,6 +1559,8 @@
     "title": "Beyond the Single Neuron Convex Barrier for Neural Network Certification",
     "url": "https://dblp.org/rec/conf/nips/SinghGPV19",
     "citations": 249,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1487,6 +1593,8 @@
     "title": "Certifying Geometric Robustness of Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/BalunovicBSGV19",
     "citations": 61,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -1528,6 +1636,8 @@
     "title": "An abstract domain for certifying neural networks",
     "url": "https://doi.org/10.1145/3290354",
     "citations": 1031,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1560,6 +1670,8 @@
     "title": "Differentiable Abstract Interpretation for Provably Robust Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/MirmanGV18",
     "citations": 591,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -1593,6 +1705,8 @@
     "title": "Fast and Effective Robustness Certification",
     "url": "https://dblp.org/rec/conf/nips/SinghGMPV18",
     "citations": 607,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1717,6 +1831,8 @@
     "title": "How Catastrophic is Your LLM? Certifying Risks in Conversation",
     "url": "https://dblp.org/rec/conf/iclr/WangCHRGS26",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -1762,6 +1878,8 @@
     "title": "Evolving Abstract Transformers for Gradient-Guided, Adaptable Abstract Interpretation",
     "url": "https://doi.org/10.1145/3808346",
     "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -1790,6 +1908,8 @@
     "title": "Certifying Counterfactual Bias in LLMs",
     "url": "https://dblp.org/rec/conf/iclr/ChaudharyH0Z0025",
     "citations": 31,
+    "arxiv": "2405.18780",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -1839,6 +1959,8 @@
     "title": "Support is All You Need for Certified VAE Training",
     "url": "https://dblp.org/rec/conf/iclr/XuBV025",
     "citations": 2,
+    "arxiv": "2504.11831",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -1876,6 +1998,8 @@
     "title": "Automated Verification of Soundness of DNN Certifiers",
     "url": "https://doi.org/10.1145/3720509",
     "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -1908,6 +2032,8 @@
     "title": "Relational DNN Verification With Cross Executional Bound Refinement",
     "url": "https://dblp.org/rec/conf/icml/Banerjee024",
     "citations": 12,
+    "arxiv": "2405.10143",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -1937,6 +2063,8 @@
     "title": "Incremental Randomized Smoothing Certification",
     "url": "https://dblp.org/rec/conf/iclr/UgareSB0M24",
     "citations": 17,
+    "arxiv": "2305.19521",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -1973,6 +2101,8 @@
     "title": "NN4SysBench: Characterizing Neural Network Verification for Computer Systems",
     "url": "https://dblp.org/rec/conf/nips/LinHWXZ0LT24",
     "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -2021,6 +2151,8 @@
     "title": "Cross-Input Certified Training for Universal Perturbations",
     "url": "https://doi.org/10.1007/978-3-031-73650-6_14",
     "citations": 3,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -2050,6 +2182,8 @@
     "title": "Input-Relational Verification of Deep Neural Networks",
     "url": "https://doi.org/10.1145/3656377",
     "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -2078,6 +2212,8 @@
     "title": "Provable Defense Against Geometric Transformations",
     "url": "https://dblp.org/rec/conf/iclr/YangLM023",
     "citations": 19,
+    "arxiv": "2207.11177",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -2115,6 +2251,8 @@
     "title": "Incremental Verification of Neural Networks",
     "url": "https://doi.org/10.1145/3591299",
     "citations": 39,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -2147,6 +2285,8 @@
     "title": "Provably Robust Adversarial Examples",
     "url": "https://dblp.org/rec/conf/iclr/Dimitrov0GV22",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2179,6 +2319,8 @@
     "title": "PRIMA: general and precise neural network certification via scalable convex hull approximations",
     "url": "https://doi.org/10.1145/3498704",
     "citations": 202,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2215,6 +2357,8 @@
     "title": "Proof transfer for fast certification of multiple approximate neural networks",
     "url": "https://doi.org/10.1145/3527319",
     "citations": 27,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -2248,6 +2392,8 @@
     "title": "Scalable verification of GNN-based job schedulers",
     "url": "https://doi.org/10.1145/3563325",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -2284,6 +2430,8 @@
     "title": "Shared Certificates for Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_7",
     "citations": 32,
+    "arxiv": "2109.00542",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2320,6 +2468,8 @@
     "title": "Robustness Certification for Point Cloud Models",
     "url": "https://doi.org/10.1109/iccv48922.2021.00751",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -2365,6 +2515,8 @@
     "title": "Scalable Polyhedral Verification of Recurrent Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_10",
     "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -2410,6 +2562,8 @@
     "title": "Boosting Robustness Certification of Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/SinghGPV19",
     "citations": 224,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -2447,6 +2601,8 @@
     "title": "Beyond the Single Neuron Convex Barrier for Neural Network Certification",
     "url": "https://dblp.org/rec/conf/nips/SinghGPV19",
     "citations": 249,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2479,6 +2635,8 @@
     "title": "Certifying Geometric Robustness of Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/BalunovicBSGV19",
     "citations": 61,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -2520,6 +2678,8 @@
     "title": "An abstract domain for certifying neural networks",
     "url": "https://doi.org/10.1145/3290354",
     "citations": 1031,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2552,6 +2712,8 @@
     "title": "Fast and Effective Robustness Certification",
     "url": "https://dblp.org/rec/conf/nips/SinghGMPV18",
     "citations": 607,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2597,8 +2759,8 @@
     "slug": "huan-zhang",
     "name": "Huan Zhang",
     "institution_short": "UIUC",
-    "papers": 26,
-    "score": 4.75
+    "papers": 27,
+    "score": 5.0
    },
    {
     "slug": "zico-kolter",
@@ -2617,9 +2779,16 @@
    {
     "slug": "zhouxing-shi",
     "name": "Zhouxing Shi",
+    "institution_short": "UC Riverside",
+    "papers": 8,
+    "score": 1.437
+   },
+   {
+    "slug": "hong-ming-chiu",
+    "name": "Hong-Ming Chiu",
     "institution_short": "",
-    "papers": 7,
-    "score": 1.271
+    "papers": 3,
+    "score": 1.0
    },
    {
     "slug": "kaidi-xu",
@@ -2627,13 +2796,6 @@
     "institution_short": "",
     "papers": 6,
     "score": 0.758
-   },
-   {
-    "slug": "hong-ming-chiu",
-    "name": "Hong-Ming Chiu",
-    "institution_short": "",
-    "papers": 2,
-    "score": 0.75
    },
    {
     "slug": "shiqi-wang",
@@ -2654,19 +2816,20 @@
    "UIUC",
    "CMU",
    "UCLA",
+   "UC Riverside",
    "Columbia University",
    "University of Illinois Urbana-Champaign"
   ],
-  "papers": 43,
-  "citations": 10849,
+  "papers": 45,
+  "citations": 10851,
   "venues": {
+   "neurips": 23,
    "icml": 8,
-   "neurips": 21,
    "iclr": 13,
    "eccv": 1
   },
   "fields": {
-   "ml": 42,
+   "ml": 44,
    "cv": 1,
    "pl": 0,
    "se": 0,
@@ -2674,8 +2837,8 @@
    "fm": 0
   },
   "areas": {
-   "complete": 4,
-   "bounds": 11,
+   "complete": 5,
+   "bounds": 12,
    "probabilistic": 7,
    "training": 11,
    "repair": 0,
@@ -2696,17 +2859,93 @@
    "2023": 4,
    "2024": 4,
    "2025": 3,
-   "2026": 0
+   "2026": 2
   },
   "score_fields": {
-   "ml": 15.175,
+   "ml": 15.842,
    "cv": 0.333,
    "pl": 0.0,
    "se": 0.0,
    "lv": 0.0
   },
-  "score": 1.848,
+  "score": 1.863,
   "paper_list": [
+   {
+    "id": "chiu2026affine",
+    "key": "openreview/jJKsS0Cmjn",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Affine-Image Propagation for Tight and Scalable Neural Network Verification",
+    "url": "https://openreview.net/forum?id=jJKsS0Cmjn",
+    "citations": 0,
+    "arxiv": "2611.26978",
+    "source": "neurips.cc",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hong-Ming Chiu",
+      "slug": "hong-ming-chiu"
+     },
+     {
+      "name": "Haoyu Li",
+      "slug": ""
+     },
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     },
+     {
+      "name": "Richard Y Zhang",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "elboher2026pareto",
+    "key": "openreview/ZDDAP6WLxi",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Pareto DNN Verification: Fast for Most Queries",
+    "url": "https://openreview.net/forum?id=ZDDAP6WLxi",
+    "citations": 2,
+    "arxiv": "2512.20755",
+    "source": "neurips.cc",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yizhak Y. Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Avraham Raviv",
+      "slug": ""
+     },
+     {
+      "name": "Amihay Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Zhouxing Shi",
+      "slug": "zhouxing-shi"
+     },
+     {
+      "name": "Hillel Kugler",
+      "slug": ""
+     },
+     {
+      "name": "Guy Katz",
+      "slug": "guy-katz"
+     }
+    ]
+   },
    {
     "id": "chiu2025sdp",
     "key": "conf/icml/ChiuCZZ25",
@@ -2717,6 +2956,8 @@
     "title": "SDP-CROWN: Efficient Bound Propagation for Neural Network Verification with Tightness of Semidefinite Programming",
     "url": "https://dblp.org/rec/conf/icml/ChiuCZZ25",
     "citations": 20,
+    "arxiv": "2506.06665",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -2749,6 +2990,8 @@
     "title": "Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty",
     "url": "https://dblp.org/rec/conf/nips/JiLZZM25",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -2790,6 +3033,8 @@
     "title": "Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/ZhouCCHZ25",
     "citations": 14,
+    "arxiv": "2512.11087",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -2831,6 +3076,8 @@
     "title": "Lyapunov-stable Neural Control for State and Output Feedback: A Novel Formulation",
     "url": "https://dblp.org/rec/conf/icml/YangDSHT024",
     "citations": 74,
+    "arxiv": "2404.07956",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -2871,6 +3118,8 @@
     "title": "NN4SysBench: Characterizing Neural Network Verification for Computer Systems",
     "url": "https://dblp.org/rec/conf/nips/LinHWXZ0LT24",
     "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -2919,6 +3168,8 @@
     "title": "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes",
     "url": "https://dblp.org/rec/conf/nips/ZhouBH024",
     "citations": 66,
+    "arxiv": "2501.00200",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -2951,6 +3202,8 @@
     "title": "Verified Safe Reinforcement Learning for Neural Network Dynamic Models",
     "url": "https://dblp.org/rec/conf/nips/0001ZV24",
     "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -2979,6 +3232,8 @@
     "title": "Tight Certification of Adversarially Trained Neural Networks via Nonconvex Low-Rank Semidefinite Relaxations",
     "url": "https://dblp.org/rec/conf/icml/ChiuZ23",
     "citations": 6,
+    "arxiv": "2211.17244",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -3003,6 +3258,8 @@
     "title": "(Certified!!) Adversarial Robustness for Free!",
     "url": "https://dblp.org/rec/conf/iclr/CarliniTDRSK23",
     "citations": 197,
+    "arxiv": "2206.10550",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -3043,6 +3300,8 @@
     "title": "Towards Robustness Certification Against Universal Perturbations",
     "url": "https://dblp.org/rec/conf/iclr/ZengS0KLHJ23",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -3087,6 +3346,8 @@
     "title": "Provably Bounding Neural Network Preimages",
     "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
     "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -3123,6 +3384,8 @@
     "title": "Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness",
     "url": "https://dblp.org/rec/conf/icml/ChenZZCLCW22",
     "citations": 20,
+    "arxiv": "2206.07839",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -3167,6 +3430,8 @@
     "title": "Certified Robustness for Deep Equilibrium Models via Interval Bound Propagation",
     "url": "https://dblp.org/rec/conf/iclr/WeiK22",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -3196,6 +3461,8 @@
     "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
     "url": "https://dblp.org/rec/conf/iclr/WuL0KKZ022",
     "citations": 32,
+    "arxiv": "2203.08398",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -3245,6 +3512,8 @@
     "title": "On the Convergence of Certified Robust Training with Interval Bound Propagation",
     "url": "https://dblp.org/rec/conf/iclr/WangSGH22",
     "citations": 10,
+    "arxiv": "2203.08961",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -3277,6 +3546,8 @@
     "title": "Efficiently Computing Local Lipschitz Constants of Neural Networks via Bound Propagation",
     "url": "https://dblp.org/rec/conf/nips/ShiW0KH22",
     "citations": 85,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -3313,6 +3584,8 @@
     "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/ZhangWXLLJHK22",
     "citations": 193,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -3366,6 +3639,8 @@
     "title": "ViP: Unified Certified Detection and Recovery for Patch Attack with Vision Transformers",
     "url": "https://doi.org/10.1007/978-3-031-19806-9_33",
     "citations": 15,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -3399,6 +3674,8 @@
     "title": "Enforcing robust control guarantees within neural network policies",
     "url": "https://dblp.org/rec/conf/iclr/DontiRFK21",
     "citations": 67,
+    "arxiv": "2011.08105",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -3431,6 +3708,8 @@
     "title": "Estimating Lipschitz constants of monotone deep equilibrium models",
     "url": "https://dblp.org/rec/conf/iclr/PabbarajuWK21",
     "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -3464,6 +3743,8 @@
     "title": "Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers",
     "url": "https://dblp.org/rec/conf/iclr/XuZ0WJLH21",
     "citations": 314,
+    "arxiv": "2011.13824",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -3513,6 +3794,8 @@
     "title": "Provably robust classification of adversarial examples with detection",
     "url": "https://dblp.org/rec/conf/iclr/SheikholeslamiL21",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -3541,6 +3824,8 @@
     "title": "Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification",
     "url": "https://dblp.org/rec/conf/nips/WangZXLJHK21",
     "citations": 430,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -3590,6 +3875,8 @@
     "title": "Fast Certified Robust Training with Short Warmup",
     "url": "https://dblp.org/rec/conf/nips/ShiWZYH21",
     "citations": 68,
+    "arxiv": "2103.17268",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -3626,6 +3913,8 @@
     "title": "ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse Superficial Layers",
     "url": "https://dblp.org/rec/conf/nips/HanXHCLDGWC21",
     "citations": 29,
+    "arxiv": "2110.14120",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -3678,6 +3967,8 @@
     "title": "Training Certifiably Robust Neural Networks with Efficient Local Lipschitz Bounds",
     "url": "https://dblp.org/rec/conf/nips/HuangZSKA21",
     "citations": 115,
+    "arxiv": "2111.01395",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -3714,6 +4005,8 @@
     "title": "Certified Robustness to Label-Flipping Attacks via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/RosenfeldWRK20",
     "citations": 200,
+    "arxiv": "2002.03018",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -3746,6 +4039,8 @@
     "title": "A Framework for robustness Certification of Smoothed Classifiers using F-Divergences",
     "url": "https://dblp.org/rec/conf/iclr/DvijothamHBKQGX20",
     "citations": 71,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -3798,6 +4093,8 @@
     "title": "MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius",
     "url": "https://dblp.org/rec/conf/iclr/ZhaiDHZGRH020",
     "citations": 177,
+    "arxiv": "2001.02378",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -3851,6 +4148,8 @@
     "title": "Robustness Verification for Transformers",
     "url": "https://dblp.org/rec/conf/iclr/ShiZCHH20",
     "citations": 123,
+    "arxiv": "2002.06622",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -3892,6 +4191,8 @@
     "title": "Towards Stable and Efficient Training of Verifiably Robust Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/ZhangCXGSLBH20",
     "citations": 330,
+    "arxiv": "1906.06316",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -3945,6 +4246,8 @@
     "title": "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond",
     "url": "https://dblp.org/rec/conf/nips/XuS0WCHKLH20",
     "citations": 469,
+    "arxiv": "2002.12920",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -4002,6 +4305,8 @@
     "title": "Denoised Smoothing: A Provable Defense for Pretrained Classifiers",
     "url": "https://dblp.org/rec/conf/nips/SalmanSYKK20",
     "citations": 222,
+    "arxiv": "2003.01908",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -4038,6 +4343,8 @@
     "title": "Provably Robust Metric Learning",
     "url": "https://dblp.org/rec/conf/nips/WangLY0H20",
     "citations": 7,
+    "arxiv": "2006.07024",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -4074,6 +4381,8 @@
     "title": "Certified Adversarial Robustness via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/CohenRK19",
     "citations": 2438,
+    "arxiv": "1902.02918",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -4102,6 +4411,8 @@
     "title": "A Convex Relaxation Barrier to Tight Robustness Verification of Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/SalmanY0HZ19",
     "citations": 299,
+    "arxiv": "1902.08722",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -4138,6 +4449,8 @@
     "title": "Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers",
     "url": "https://dblp.org/rec/conf/nips/SalmanLRZZBY19",
     "citations": 637,
+    "arxiv": "1906.04584",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -4187,6 +4500,8 @@
     "title": "Robustness Verification of Tree-based Models",
     "url": "https://dblp.org/rec/conf/nips/ChenZS0BH19",
     "citations": 115,
+    "arxiv": "1906.03849",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -4227,6 +4542,8 @@
     "title": "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope",
     "url": "https://dblp.org/rec/conf/icml/WongK18",
     "citations": 1230,
+    "arxiv": "1711.00851",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -4256,6 +4573,8 @@
     "title": "Towards Fast Computation of Certified Robustness for ReLU Networks",
     "url": "https://dblp.org/rec/conf/icml/WengZCSHDBD18",
     "citations": 713,
+    "arxiv": "1804.09699",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -4304,6 +4623,8 @@
     "title": "Efficient Formal Safety Analysis of Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/WangPWYJ18",
     "citations": 473,
+    "arxiv": "1809.08098",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -4345,6 +4666,8 @@
     "title": "Efficient Neural Network Robustness Certification with General Activation Functions",
     "url": "https://dblp.org/rec/conf/nips/ZhangWCHD18",
     "citations": 1037,
+    "arxiv": "1811.00866",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -4381,6 +4704,8 @@
     "title": "Scaling provable adversarial defenses",
     "url": "https://dblp.org/rec/conf/nips/WongSMK18",
     "citations": 450,
+    "arxiv": "1805.12514",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -4425,8 +4750,8 @@
     "slug": "guy-katz",
     "name": "Guy Katz",
     "institution_short": "HUJI",
-    "papers": 12,
-    "score": 2.188
+    "papers": 15,
+    "score": 2.805
    },
    {
     "slug": "clark-barrett",
@@ -4448,17 +4773,18 @@
    "Stanford",
    "Stanford University"
   ],
-  "papers": 14,
-  "citations": 4199,
+  "papers": 17,
+  "citations": 4202,
   "venues": {
+   "icml": 1,
    "iclr": 3,
+   "neurips": 3,
    "cav": 7,
    "nfm": 2,
-   "neurips": 1,
    "oopsla": 1
   },
   "fields": {
-   "ml": 4,
+   "ml": 7,
    "cv": 0,
    "pl": 1,
    "se": 0,
@@ -4466,12 +4792,12 @@
    "fm": 2
   },
   "areas": {
-   "complete": 5,
+   "complete": 6,
    "bounds": 0,
    "probabilistic": 0,
    "training": 1,
    "repair": 0,
-   "explanations": 4,
+   "explanations": 6,
    "control": 0,
    "relational": 0,
    "architectures": 2,
@@ -4488,17 +4814,60 @@
    "2023": 2,
    "2024": 1,
    "2025": 0,
-   "2026": 5
+   "2026": 8
   },
   "score_fields": {
-   "ml": 1.343,
+   "ml": 1.96,
    "cv": 0.0,
    "pl": 0.4,
    "se": 0.0,
    "lv": 1.983
   },
-  "score": 1.578,
+  "score": 1.654,
   "paper_list": [
+   {
+    "id": "boetius2026verified",
+    "key": "openreview/48c42LVtLx",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2026,
+    "field": "ml",
+    "title": "Verified SHAP: Provable Bounds for Exact Shapley Values of Neural Networks",
+    "url": "https://openreview.net/forum?id=48c42LVtLx",
+    "citations": 1,
+    "arxiv": "2605.24084",
+    "source": "icml.cc",
+    "area": "explanations",
+    "area_name": "Formal explanations",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "David Boetius",
+      "slug": ""
+     },
+     {
+      "name": "Shahaf Bassan",
+      "slug": ""
+     },
+     {
+      "name": "Guy Katz",
+      "slug": "guy-katz"
+     },
+     {
+      "name": "Stefan Leue",
+      "slug": ""
+     },
+     {
+      "name": "Tobias Sutter",
+      "slug": ""
+     }
+    ]
+   },
    {
     "id": "boumazouza2026fame",
     "key": "conf/iclr/BoumazouzaEDBK26",
@@ -4509,6 +4878,8 @@
     "title": "FAME: Formal Abstract Minimal Explanation for Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/BoumazouzaEDBK26",
     "citations": 7,
+    "arxiv": "2603.10661",
+    "source": "dblp.org",
     "area": "explanations",
     "area_name": "Formal explanations",
     "tags": [],
@@ -4545,6 +4916,8 @@
     "title": "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees",
     "url": "https://dblp.org/rec/conf/iclr/HadadKB26",
     "citations": 18,
+    "arxiv": "2602.16823",
+    "source": "dblp.org",
     "area": "explanations",
     "area_name": "Formal explanations",
     "tags": [],
@@ -4573,6 +4946,8 @@
     "title": "Provably Explaining Neural Additive Models",
     "url": "https://dblp.org/rec/conf/iclr/BassanELSKAK26",
     "citations": 5,
+    "arxiv": "2602.17530",
+    "source": "dblp.org",
     "area": "explanations",
     "area_name": "Formal explanations",
     "tags": [],
@@ -4608,6 +4983,82 @@
     ]
    },
    {
+    "id": "refaeli2026do",
+    "key": "openreview/hOaJ6pyv0j",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Do Feature Interactions Break Explainability? Provable Explanations for Any-Order Neural Additive Models",
+    "url": "https://openreview.net/forum?id=hOaJ6pyv0j",
+    "citations": 0,
+    "arxiv": "2611.11224",
+    "source": "neurips.cc",
+    "area": "explanations",
+    "area_name": "Formal explanations",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Idan Refaeli",
+      "slug": ""
+     },
+     {
+      "name": "Yizhak Y. Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Guy Katz",
+      "slug": "guy-katz"
+     },
+     {
+      "name": "Shahaf Bassan",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "elboher2026pareto",
+    "key": "openreview/ZDDAP6WLxi",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Pareto DNN Verification: Fast for Most Queries",
+    "url": "https://openreview.net/forum?id=ZDDAP6WLxi",
+    "citations": 2,
+    "arxiv": "2512.20755",
+    "source": "neurips.cc",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Yizhak Y. Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Avraham Raviv",
+      "slug": ""
+     },
+     {
+      "name": "Amihay Elboher",
+      "slug": ""
+     },
+     {
+      "name": "Zhouxing Shi",
+      "slug": "zhouxing-shi"
+     },
+     {
+      "name": "Hillel Kugler",
+      "slug": ""
+     },
+     {
+      "name": "Guy Katz",
+      "slug": "guy-katz"
+     }
+    ]
+   },
+   {
     "id": "swisa2026learning",
     "key": "conf/cav/SwisaK26",
     "venue": "cav",
@@ -4617,6 +5068,8 @@
     "title": "Learning to Split: A Reinforcement-Learning-Guided Splitting Heuristic for Neural Network Verification (Invited Talk)",
     "url": "https://doi.org/10.1007/978-3-032-32519-8_1",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -4641,6 +5094,8 @@
     "title": "Towards Formal Verification of Deep Neural Networks for Object Detection",
     "url": "https://doi.org/10.1007/978-3-032-28079-4_13",
     "citations": 11,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -4689,6 +5144,8 @@
     "title": "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_13",
     "citations": 183,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -4778,6 +5235,8 @@
     "title": "VeriX: Towards Verified Explainability of Deep Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/Wu0B23",
     "citations": 76,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "explanations",
     "area_name": "Formal explanations",
     "tags": [],
@@ -4806,6 +5265,8 @@
     "title": "Verifying Generalization in Deep Learning",
     "url": "https://doi.org/10.1007/978-3-031-37703-7_21",
     "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -4842,6 +5303,8 @@
     "title": "Scalable verification of GNN-based job schedulers",
     "url": "https://doi.org/10.1145/3563325",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -4878,6 +5341,8 @@
     "title": "Neural Network Robustness as a Verification Property: A Principled Case Study",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_11",
     "citations": 84,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -4927,6 +5392,8 @@
     "title": "An Abstraction-Based Framework for Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_3",
     "citations": 171,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -4955,6 +5422,8 @@
     "title": "Simplifying Neural Networks Using Formal Verification",
     "url": "https://doi.org/10.1007/978-3-030-55754-6_5",
     "citations": 39,
+    "arxiv": "1910.12396",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -4991,6 +5460,8 @@
     "title": "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-25540-4_26",
     "citations": 852,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -5064,6 +5535,8 @@
     "title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-319-63387-9_5",
     "citations": 2698,
+    "arxiv": "1702.01135",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -5204,6 +5677,8 @@
     "title": "Efficient Error Certification for Physics-Informed Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
     "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -5244,6 +5719,8 @@
     "title": "Expressive Losses for Verified Robustness via Convex Combinations",
     "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
     "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -5284,6 +5761,8 @@
     "title": "(Certified!!) Adversarial Robustness for Free!",
     "url": "https://dblp.org/rec/conf/iclr/CarliniTDRSK23",
     "citations": 197,
+    "arxiv": "2206.10550",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -5324,6 +5803,8 @@
     "title": "Provably Bounding Neural Network Preimages",
     "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
     "citations": 64,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -5360,6 +5841,8 @@
     "title": "A Framework for robustness Certification of Smoothed Classifiers using F-Divergences",
     "url": "https://dblp.org/rec/conf/iclr/DvijothamHBKQGX20",
     "citations": 71,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -5412,6 +5895,8 @@
     "title": "Towards Stable and Efficient Training of Verifiably Robust Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/ZhangCXGSLBH20",
     "citations": 330,
+    "arxiv": "1906.06316",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -5465,6 +5950,8 @@
     "title": "Towards Verified Robustness under Text Deletion Interventions",
     "url": "https://dblp.org/rec/conf/iclr/WelblHSGDSK20",
     "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -5518,6 +6005,8 @@
     "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
     "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
     "citations": 113,
+    "arxiv": "2010.11645",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -5578,6 +6067,8 @@
     "title": "Verification of Non-Linear Specifications for Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/QinDOBSGUSK19",
     "citations": 47,
+    "arxiv": "1902.09592",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -5630,6 +6121,8 @@
     "title": "Scalable Verified Training for Provably Robust Image Classification",
     "url": "https://doi.org/10.1109/iccv.2019.00494",
     "citations": 245,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -5682,6 +6175,8 @@
     "title": "A Unified View of Piecewise Linear Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
     "citations": 444,
+    "arxiv": "1711.00455",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -5802,6 +6297,8 @@
     "title": "MIBP-Cert: Certified Training against Data Perturbations with Mixed-Integer Bilinear Programs",
     "url": "https://dblp.org/rec/conf/nips/LorenzKF25",
     "citations": 1,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -5830,6 +6327,8 @@
     "title": "Patch Synthesis for Property Repair of Deep Neural Networks",
     "url": "https://doi.org/10.1109/icse55347.2025.00181",
     "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -5878,6 +6377,8 @@
     "title": "ProTIP: Probabilistic Robustness Verification on Text-to-Image Diffusion Models Against Stochastic Perturbation",
     "url": "https://doi.org/10.1007/978-3-031-73411-3_26",
     "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -5927,6 +6428,8 @@
     "title": "Robustness Guarantees for Deep Neural Networks on Videos",
     "url": "https://doi.org/10.1109/cvpr42600.2020.00039",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -5956,6 +6459,8 @@
     "title": "Safety and robustness for deep learning with provable guarantees (keynote)",
     "url": "https://doi.org/10.1145/3338906.3342812",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -5976,6 +6481,8 @@
     "title": "Safety Verification of Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-319-63387-9_1",
     "citations": 1134,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -6081,6 +6588,8 @@
     "title": "Correct-by-Construction: Certified Individual Fairness through Neural Network Training",
     "url": "https://doi.org/10.1145/3763107",
     "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -6110,6 +6619,8 @@
     "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks",
     "url": "https://doi.org/10.1145/3720471",
     "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [],
@@ -6150,6 +6661,8 @@
     "title": "Certified Continual Learning for Neural Network Regression",
     "url": "https://doi.org/10.1145/3650212.3680322",
     "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -6179,6 +6692,8 @@
     "title": "Certified Robust Accuracy of Neural Networks Are Bounded Due to Bayes Errors",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_18",
     "citations": 14,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -6203,6 +6718,8 @@
     "title": "QEBVerif: Quantization Error Bound Verification of Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-37703-7_20",
     "citations": 30,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [
@@ -6236,6 +6753,8 @@
     "title": "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks",
     "url": "https://doi.org/10.1145/3551349.3556916",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [
@@ -6285,6 +6804,8 @@
     "title": "Verifying Neural Networks Against Backdoor Attacks",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_9",
     "citations": 16,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -6394,6 +6915,8 @@
     "title": "Guarding the Privacy of Label-Only Access to Neural Network Classifiers via iDP Verification",
     "url": "https://doi.org/10.1145/3720480",
     "citations": 1,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -6418,6 +6941,8 @@
     "title": "Mini-Batch Robustness Verification of Deep Neural Networks",
     "url": "https://doi.org/10.1145/3763150",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -6442,6 +6967,8 @@
     "title": "Quantization with Guaranteed Floating-Point Neural Network Classifications",
     "url": "https://doi.org/10.1145/3763118",
     "citations": 1,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [],
@@ -6466,6 +6993,8 @@
     "title": "Verification of Neural Networks' Global Robustness",
     "url": "https://doi.org/10.1145/3649847",
     "citations": 25,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -6490,6 +7019,8 @@
     "title": "Boosting Few-Pixel Robustness Verification via Covering Verification Designs",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_19",
     "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -6522,6 +7053,8 @@
     "title": "Deep Learning Robustness Verification for Few-Pixel Attacks",
     "url": "https://doi.org/10.1145/3586042",
     "citations": 11,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -6621,6 +7154,8 @@
     "title": "EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method",
     "url": "https://dblp.org/rec/conf/iclr/WangJ26",
     "citations": 1,
+    "arxiv": "2603.30034",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -6650,6 +7185,8 @@
     "title": "Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks",
     "url": "https://dblp.org/rec/conf/iclr/LiPD0W25",
     "citations": 15,
+    "arxiv": "2502.04224",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -6691,6 +7228,8 @@
     "title": "GNNCert: Deterministic Certification of Graph Neural Networks against Adversarial Perturbations",
     "url": "https://dblp.org/rec/conf/iclr/XiaYWJ24",
     "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -6728,6 +7267,8 @@
     "title": "MMCert: Provable Defense Against Adversarial Attacks to Multi-Modal Models",
     "url": "https://doi.org/10.1109/cvpr52733.2024.02328",
     "citations": 26,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -6765,6 +7306,8 @@
     "title": "Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation",
     "url": "https://doi.org/10.1109/cvpr52733.2024.02339",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -6805,6 +7348,8 @@
     "title": "Certifiably Robust Image Watermark",
     "url": "https://doi.org/10.1007/978-3-031-72980-5_25",
     "citations": 20,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -6841,6 +7386,8 @@
     "title": "PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees",
     "url": "https://doi.org/10.1109/cvpr52729.2023.00916",
     "citations": 21,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -6873,6 +7420,8 @@
     "title": "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
     "url": "https://dblp.org/rec/conf/iclr/JiaWCLG22",
     "citations": 14,
+    "arxiv": "2011.07633",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -6909,6 +7458,8 @@
     "title": "MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples",
     "url": "https://dblp.org/rec/conf/nips/Jia0G22",
     "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -6937,6 +7488,8 @@
     "title": "PointGuard: Provably Robust 3D Point Cloud Classification",
     "url": "https://doi.org/10.1109/cvpr46437.2021.00612",
     "citations": 115,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -6965,6 +7518,8 @@
     "title": "Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/iclr/JiaCWG20",
     "citations": 89,
+    "arxiv": "1912.09899",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7067,6 +7622,8 @@
     "title": "Improving l1-Certified Robustness via Randomized Smoothing by Leveraging Box Constraints",
     "url": "https://dblp.org/rec/conf/icml/Voracek023",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7091,6 +7648,8 @@
     "title": "Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation",
     "url": "https://dblp.org/rec/conf/iclr/YatsuraSH0M23",
     "citations": 21,
+    "arxiv": "2209.05980",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -7132,6 +7691,8 @@
     "title": "Sound Randomized Smoothing in Floating-Point Arithmetic",
     "url": "https://dblp.org/rec/conf/iclr/Voracek023",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -7161,6 +7722,8 @@
     "title": "Provably Adversarially Robust Nearest Prototype Classifiers",
     "url": "https://dblp.org/rec/conf/icml/VoracekH22",
     "citations": 8,
+    "arxiv": "2207.07208",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -7190,6 +7753,8 @@
     "title": "Provably Adversarially Robust Detection of Out-of-Distribution Data (Almost) for Free",
     "url": "https://dblp.org/rec/conf/nips/MeinkeB022",
     "citations": 14,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -7223,6 +7788,8 @@
     "title": "Provable robustness against all adversarial $l_p$-perturbations for $p\\geq 1$",
     "url": "https://dblp.org/rec/conf/iclr/Croce020",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -7247,6 +7814,8 @@
     "title": "Towards neural networks that provably know when they don't know",
     "url": "https://dblp.org/rec/conf/iclr/Meinke020",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -7271,6 +7840,8 @@
     "title": "Certifiably Adversarially Robust Detection of Out-of-Distribution Data",
     "url": "https://dblp.org/rec/conf/nips/BitterwolfM020",
     "citations": 96,
+    "arxiv": "2007.08473",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -7304,6 +7875,8 @@
     "title": "Provably robust boosted decision stumps and trees against adversarial attacks",
     "url": "https://dblp.org/rec/conf/nips/Andriushchenko019",
     "citations": 90,
+    "arxiv": "1906.03526",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -7333,6 +7906,8 @@
     "title": "Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation",
     "url": "https://dblp.org/rec/conf/nips/HeinA17",
     "citations": 558,
+    "arxiv": "1705.08475",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -7432,6 +8007,8 @@
     "title": "DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness",
     "url": "https://dblp.org/rec/conf/iclr/Saha0KFD24",
     "citations": 11,
+    "arxiv": "2303.13372",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7468,6 +8045,8 @@
     "title": "Run-off Election: Improved Provable Defense against Data Poisoning Attacks",
     "url": "https://dblp.org/rec/conf/icml/RezaeiBCF23",
     "citations": 30,
+    "arxiv": "2302.02300",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -7500,6 +8079,8 @@
     "title": "Certifiably Robust Policy Learning against Adversarial Multi-Agent Communication",
     "url": "https://dblp.org/rec/conf/iclr/SunZHLFGH23",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -7544,6 +8125,8 @@
     "title": "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
     "url": "https://dblp.org/rec/conf/iclr/Kumar0GF23",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7576,6 +8159,8 @@
     "title": "Improved Certified Defenses against Data Poisoning with (Deterministic) Finite Aggregation",
     "url": "https://dblp.org/rec/conf/icml/00020F22",
     "citations": 70,
+    "arxiv": "2202.02628",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -7604,6 +8189,8 @@
     "title": "Policy Smoothing for Provably Robust Reinforcement Learning",
     "url": "https://dblp.org/rec/conf/iclr/Kumar0F22",
     "citations": 62,
+    "arxiv": "2106.11420",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -7637,6 +8224,8 @@
     "title": "Improved, Deterministic Smoothing for L1 Certified Robustness",
     "url": "https://dblp.org/rec/conf/icml/0001F21",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7661,6 +8250,8 @@
     "title": "Deep Partition Aggregation: Provable Defenses against General Poisoning Attacks",
     "url": "https://dblp.org/rec/conf/iclr/0001F21",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -7685,6 +8276,8 @@
     "title": "Curse of Dimensionality on Randomized Smoothing for Certifiable Robustness",
     "url": "https://dblp.org/rec/conf/icml/Kumar0GF20",
     "citations": 93,
+    "arxiv": "2002.03239",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7717,6 +8310,8 @@
     "title": "Second-Order Provable Defenses against Adversarial Attacks",
     "url": "https://dblp.org/rec/conf/icml/0002F20",
     "citations": 56,
+    "arxiv": "2006.00731",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -7746,6 +8341,8 @@
     "title": "(De)Randomized Smoothing for Certifiable Defense against Patch Attacks",
     "url": "https://dblp.org/rec/conf/nips/0001F20a",
     "citations": 178,
+    "arxiv": "2002.10733",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7770,6 +8367,8 @@
     "title": "Certifying Confidence via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/Kumar0FG20",
     "citations": 50,
+    "arxiv": "2009.08061",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7876,6 +8475,8 @@
     "title": "C-SafeGen: Certified Safe LLM Generation with Claim-Based Streaming Guardrails",
     "url": "https://dblp.org/rec/conf/nips/KangCL25",
     "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -7909,6 +8510,8 @@
     "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
     "url": "https://dblp.org/rec/conf/icml/KangGYS024",
     "citations": 65,
+    "arxiv": "2402.03181",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -7950,6 +8553,8 @@
     "title": "Effects of Exponential Gaussian Distribution on (Double Sampling) Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/ShuXWCCX0024",
     "citations": 2,
+    "arxiv": "2406.02309",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -7998,6 +8603,8 @@
     "title": "COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits",
     "url": "https://dblp.org/rec/conf/iclr/KangGL024",
     "citations": 14,
+    "arxiv": "2403.11348",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -8035,6 +8642,8 @@
     "title": "Consistency Purification: Effective and Efficient Diffusion Purification towards Certified Robustness",
     "url": "https://dblp.org/rec/conf/nips/LiCJWL0X24",
     "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -8079,6 +8688,8 @@
     "title": "CBD: A Certified Backdoor Detector Based on Local Dominant Probability",
     "url": "https://dblp.org/rec/conf/nips/XiangXL23",
     "citations": 30,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -8107,6 +8718,8 @@
     "title": "Certifying Out-of-Domain Generalization for Blackbox Functions",
     "url": "https://dblp.org/rec/conf/icml/WeberLWZ0022",
     "citations": 20,
+    "arxiv": "2202.01679",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -8147,6 +8760,8 @@
     "title": "Double Sampling Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/LiZ0L22",
     "citations": 31,
+    "arxiv": "2206.07912",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -8179,6 +8794,8 @@
     "title": "TPC: Transformation-Specific Smoothing for Point Cloud Models",
     "url": "https://dblp.org/rec/conf/icml/ChuLL22",
     "citations": 17,
+    "arxiv": "2201.12733",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -8212,6 +8829,8 @@
     "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
     "url": "https://dblp.org/rec/conf/iclr/WuL0KKZ022",
     "citations": 32,
+    "arxiv": "2203.08398",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -8261,6 +8880,8 @@
     "title": "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing",
     "url": "https://dblp.org/rec/conf/iclr/WuLHVZ022",
     "citations": 61,
+    "arxiv": "2106.09292",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -8306,6 +8927,8 @@
     "title": "On the Certified Robustness for Ensemble Models and Beyond",
     "url": "https://dblp.org/rec/conf/iclr/YangLXK0L22",
     "citations": 56,
+    "arxiv": "2107.10873",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -8351,6 +8974,8 @@
     "title": "Certifying Some Distributional Fairness with Subpopulation Decomposition",
     "url": "https://dblp.org/rec/conf/nips/KangLWL0022",
     "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -8391,6 +9016,8 @@
     "title": "CoPur: Certifiably Robust Collaborative Inference via Feature Purification",
     "url": "https://dblp.org/rec/conf/nips/LiuXK022",
     "citations": 14,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -8423,6 +9050,8 @@
     "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/ZhangWXLLJHK22",
     "citations": 193,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -8476,6 +9105,8 @@
     "title": "Improving Certified Robustness via Statistical Learning with Logical Reasoning",
     "url": "https://dblp.org/rec/conf/nips/YangZWZLPKLGZL22",
     "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -8541,6 +9172,8 @@
     "title": "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness",
     "url": "https://dblp.org/rec/conf/nips/XuL022",
     "citations": 51,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -8569,6 +9202,8 @@
     "title": "CRFL: Certifiably Robust Federated Learning against Backdoor Attacks",
     "url": "https://dblp.org/rec/conf/icml/Xie0CL21",
     "citations": 299,
+    "arxiv": "2106.08283",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -8601,6 +9236,8 @@
     "title": "Towards Stable and Efficient Training of Verifiably Robust Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/ZhangCXGSLBH20",
     "citations": 330,
+    "arxiv": "1906.06316",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -8658,8 +9295,8 @@
     "slug": "min-zhang",
     "name": "Min Zhang",
     "institution_short": "ECNU",
-    "papers": 8,
-    "score": 1.312
+    "papers": 9,
+    "score": 1.478
    },
    {
     "slug": "zhaodi-zhang",
@@ -8672,17 +9309,17 @@
   "institutions": [
    "ECNU"
   ],
-  "papers": 8,
+  "papers": 9,
   "citations": 363,
   "venues": {
+   "neurips": 2,
    "cav": 3,
-   "neurips": 1,
    "cvpr": 1,
    "issta": 1,
    "ase": 2
   },
   "fields": {
-   "ml": 1,
+   "ml": 2,
    "cv": 1,
    "pl": 0,
    "se": 3,
@@ -8696,7 +9333,7 @@
    "training": 1,
    "repair": 0,
    "explanations": 0,
-   "control": 3,
+   "control": 4,
    "relational": 0,
    "architectures": 0,
    "quantized": 1,
@@ -8712,17 +9349,64 @@
    "2023": 3,
    "2024": 2,
    "2025": 0,
-   "2026": 0
+   "2026": 1
   },
   "score_fields": {
-   "ml": 0.167,
+   "ml": 0.333,
    "cv": 0.286,
    "pl": 0.0,
    "se": 0.943,
    "lv": 0.459
   },
-  "score": 1.336,
+  "score": 1.372,
   "paper_list": [
+   {
+    "id": "lv2026ensuring",
+    "key": "openreview/fMUyPAggFz",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Ensuring Deployment-Time Safety of Neural Network Controlled Systems via Localized Certificate Repair",
+    "url": "https://openreview.net/forum?id=fMUyPAggFz",
+    "citations": null,
+    "arxiv": "",
+    "source": "neurips.cc",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [
+     {
+      "key": "repair",
+      "name": "Repair & patching"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Xiaoyang Lv",
+      "slug": ""
+     },
+     {
+      "name": "Peixin Wang",
+      "slug": ""
+     },
+     {
+      "name": "Jianhao Bai",
+      "slug": ""
+     },
+     {
+      "name": "Bai Xue",
+      "slug": ""
+     },
+     {
+      "name": "Min Zhang",
+      "slug": "min-zhang"
+     },
+     {
+      "name": "Luke Ong",
+      "slug": ""
+     }
+    ]
+   },
    {
     "id": "wu2024marabou",
     "key": "conf/cav/WuIZTDKRAJBHLWZKKB24",
@@ -8733,6 +9417,8 @@
     "title": "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_13",
     "citations": 183,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -8822,6 +9508,8 @@
     "title": "Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_20",
     "citations": 27,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -8863,6 +9551,8 @@
     "title": "Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/TianZ0WC023",
     "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -8908,6 +9598,8 @@
     "title": "Boosting Verified Training for Robust Image Classifications via Abstraction",
     "url": "https://doi.org/10.1109/cvpr52729.2023.01559",
     "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -8952,6 +9644,8 @@
     "title": "A Tale of Two Approximations: Tightening Over-Approximation for DNN Robustness Verification via Under-Approximation",
     "url": "https://doi.org/10.1145/3597926.3598127",
     "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -8988,6 +9682,8 @@
     "title": "Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks",
     "url": "https://doi.org/10.1145/3551349.3556907",
     "citations": 25,
+    "arxiv": "2208.09872",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -9024,6 +9720,8 @@
     "title": "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks",
     "url": "https://doi.org/10.1145/3551349.3556916",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [
@@ -9073,6 +9771,8 @@
     "title": "Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_10",
     "citations": 53,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -9118,22 +9818,22 @@
     "slug": "stephan-gunnemann",
     "name": "Stephan Günnemann",
     "institution_short": "TUM",
-    "papers": 10,
-    "score": 3.2
+    "papers": 12,
+    "score": 3.7
    }
   ],
   "institutions": [
    "TUM"
   ],
-  "papers": 10,
-  "citations": 405,
+  "papers": 12,
+  "citations": 409,
   "venues": {
-   "iclr": 3,
-   "neurips": 5,
-   "icml": 2
+   "icml": 3,
+   "neurips": 6,
+   "iclr": 3
   },
   "fields": {
-   "ml": 10,
+   "ml": 12,
    "cv": 0,
    "pl": 0,
    "se": 0,
@@ -9143,13 +9843,13 @@
   "areas": {
    "complete": 1,
    "bounds": 0,
-   "probabilistic": 6,
+   "probabilistic": 7,
    "training": 0,
    "repair": 0,
    "explanations": 0,
    "control": 0,
    "relational": 0,
-   "architectures": 3,
+   "architectures": 4,
    "quantized": 0,
    "other": 0
   },
@@ -9163,17 +9863,90 @@
    "2023": 3,
    "2024": 0,
    "2025": 1,
-   "2026": 0
+   "2026": 2
   },
   "score_fields": {
-   "ml": 3.2,
+   "ml": 3.7,
    "cv": 0.0,
    "pl": 0.0,
    "se": 0.0,
    "lv": 0.0
   },
-  "score": 1.332,
+  "score": 1.363,
   "paper_list": [
+   {
+    "id": "gosch2026certifying",
+    "key": "openreview/kQuvO5gaNr",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2026,
+    "field": "ml",
+    "title": "Certifying Graph Neural Networks Against Label and Structure Poisoning",
+    "url": "https://openreview.net/forum?id=kQuvO5gaNr",
+    "citations": 2,
+    "arxiv": "2611.03350",
+    "source": "icml.cc",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "complete",
+      "name": "Complete verification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Lukas Gosch",
+      "slug": ""
+     },
+     {
+      "name": "Xichuan Chen",
+      "slug": ""
+     },
+     {
+      "name": "Yan Scholten",
+      "slug": ""
+     },
+     {
+      "name": "Stephan Günnemann",
+      "slug": "stephan-gunnemann"
+     }
+    ]
+   },
+   {
+    "id": "saxena2026provable",
+    "key": "openreview/I4p58bdzvx",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Provable Robustness against Backdoor Attacks via the Primal-Dual Perspective on Differential Privacy",
+    "url": "https://openreview.net/forum?id=I4p58bdzvx",
+    "citations": 2,
+    "arxiv": "2605.21780",
+    "source": "neurips.cc",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Aman Saxena",
+      "slug": ""
+     },
+     {
+      "name": "Jan Schuchardt",
+      "slug": ""
+     },
+     {
+      "name": "Yan Scholten",
+      "slug": ""
+     },
+     {
+      "name": "Stephan Günnemann",
+      "slug": "stephan-gunnemann"
+     }
+    ]
+   },
    {
     "id": "sabanayagam2025exact",
     "key": "conf/iclr/SabanayagamGGG25",
@@ -9184,6 +9957,8 @@
     "title": "Exact Certification of (Graph) Neural Networks Against Label Poisoning",
     "url": "https://dblp.org/rec/conf/iclr/SabanayagamGGG25",
     "citations": 11,
+    "arxiv": "2412.00537",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -9221,6 +9996,8 @@
     "title": "Localized Randomized Smoothing for Collective Robustness Certification",
     "url": "https://dblp.org/rec/conf/iclr/SchuchardtWBG23",
     "citations": 14,
+    "arxiv": "2210.16140",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -9253,6 +10030,8 @@
     "title": "(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More",
     "url": "https://dblp.org/rec/conf/nips/SchuchardtSG23",
     "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -9290,6 +10069,8 @@
     "title": "Hierarchical Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/ScholtenSBG23",
     "citations": 19,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -9322,6 +10103,8 @@
     "title": "Intriguing Properties of Input-Dependent Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/SukenikKG22",
     "citations": 25,
+    "arxiv": "2110.05365",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -9350,6 +10133,8 @@
     "title": "Invariance-Aware Randomized Smoothing Certificates",
     "url": "https://dblp.org/rec/conf/nips/SchuchardtG22",
     "citations": 10,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -9379,6 +10164,8 @@
     "title": "Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/ScholtenSGBG22",
     "citations": 32,
+    "arxiv": "2301.02039",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -9420,6 +10207,8 @@
     "title": "Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks",
     "url": "https://dblp.org/rec/conf/iclr/SchuchardtBKG21",
     "citations": 19,
+    "arxiv": "2302.02829",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -9452,6 +10241,8 @@
     "title": "Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More",
     "url": "https://dblp.org/rec/conf/icml/BojchevskiKG20",
     "citations": 106,
+    "arxiv": "2008.12952",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -9485,6 +10276,8 @@
     "title": "Certifiable Robustness to Graph Perturbations",
     "url": "https://dblp.org/rec/conf/nips/BojchevskiG19",
     "citations": 162,
+    "arxiv": "1910.14356",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [],
@@ -9590,6 +10383,8 @@
     "title": "Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/HashemiSOMJ25",
     "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -9631,6 +10426,8 @@
     "title": "StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems",
     "url": "https://doi.org/10.1007/978-3-031-98679-6_17",
     "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -9684,6 +10481,8 @@
     "title": "NNV 2.0: The Neural Network Verification Tool",
     "url": "https://doi.org/10.1007/978-3-031-37703-7_19",
     "citations": 105,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -9725,6 +10524,8 @@
     "title": "Neural Network Compression of ACAS Xu Early Prototype Is Unsafe: Closed-Loop Verification Through Quantized State Backreachability",
     "url": "https://doi.org/10.1007/978-3-031-06773-0_15",
     "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -9749,6 +10550,8 @@
     "title": "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_12",
     "citations": 65,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -9802,6 +10605,8 @@
     "title": "Improved Geometric Path Enumeration for Verifying ReLU Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_4",
     "citations": 153,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -9834,6 +10639,8 @@
     "title": "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_1",
     "citations": 383,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -9891,6 +10698,8 @@
     "title": "Verification of Deep Convolutional Neural Networks Using ImageStars",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_2",
     "citations": 205,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -9910,6 +10719,966 @@
      {
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
+  "slug": "linyi-li",
+  "name": "Linyi Li group (SFU)",
+  "tools": [
+   "DSRS",
+   "certified robustness"
+  ],
+  "url": "",
+  "description": "Certified robustness and verification at Simon Fraser University.",
+  "members": [
+   {
+    "slug": "linyi-li",
+    "name": "Linyi Li",
+    "institution_short": "SFU",
+    "papers": 13,
+    "score": 2.567
+   }
+  ],
+  "institutions": [
+   "SFU"
+  ],
+  "papers": 13,
+  "citations": 523,
+  "venues": {
+   "neurips": 5,
+   "icml": 4,
+   "iclr": 4
+  },
+  "fields": {
+   "ml": 13,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 2,
+   "bounds": 0,
+   "probabilistic": 7,
+   "training": 1,
+   "repair": 0,
+   "explanations": 0,
+   "control": 2,
+   "relational": 1,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 10,
+   "2023": 0,
+   "2024": 2,
+   "2025": 0,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 2.567,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.29,
+  "paper_list": [
+   {
+    "id": "deng2026focusbranch",
+    "key": "openreview/VoRt2Q8ngL",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "FocusBranch: Combinatorial Branch-and-Bound for $\\ell_0$ Neural Network Robustness Verification",
+    "url": "https://openreview.net/forum?id=VoRt2Q8ngL",
+    "citations": null,
+    "arxiv": "",
+    "source": "neurips.cc",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Renwei Deng",
+      "slug": ""
+     },
+     {
+      "name": "Yang He",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Yuepeng Wang",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "shu2024effects",
+    "key": "conf/icml/ShuXWCCX0024",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2024,
+    "field": "ml",
+    "title": "Effects of Exponential Gaussian Distribution on (Double Sampling) Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/icml/ShuXWCCX0024",
+    "citations": 2,
+    "arxiv": "2406.02309",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Youwei Shu",
+      "slug": ""
+     },
+     {
+      "name": "Xi Xiao",
+      "slug": ""
+     },
+     {
+      "name": "Derui Wang",
+      "slug": ""
+     },
+     {
+      "name": "Yuxin Cao",
+      "slug": ""
+     },
+     {
+      "name": "Siji Chen",
+      "slug": ""
+     },
+     {
+      "name": "Jason Xue",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "kang2024colep",
+    "key": "conf/iclr/KangGL024",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2024,
+    "field": "ml",
+    "title": "COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits",
+    "url": "https://dblp.org/rec/conf/iclr/KangGL024",
+    "citations": 14,
+    "arxiv": "2403.11348",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Mintong Kang",
+      "slug": ""
+     },
+     {
+      "name": "Nezihe Merve Gürel",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "weber2022certifying",
+    "key": "conf/icml/WeberLWZ0022",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2022,
+    "field": "ml",
+    "title": "Certifying Out-of-Domain Generalization for Blackbox Functions",
+    "url": "https://dblp.org/rec/conf/icml/WeberLWZ0022",
+    "citations": 20,
+    "arxiv": "2202.01679",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Maurice Weber",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Boxin Wang",
+      "slug": ""
+     },
+     {
+      "name": "Zhikuan Zhao",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     },
+     {
+      "name": "Ce Zhang",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "li2022double",
+    "key": "conf/icml/LiZ0L22",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2022,
+    "field": "ml",
+    "title": "Double Sampling Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/icml/LiZ0L22",
+    "citations": 31,
+    "arxiv": "2206.07912",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Jiawei Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Tao Xie",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "chu2022tpc",
+    "key": "conf/icml/ChuLL22",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2022,
+    "field": "ml",
+    "title": "TPC: Transformation-Specific Smoothing for Point Cloud Models",
+    "url": "https://dblp.org/rec/conf/icml/ChuLL22",
+    "citations": 17,
+    "arxiv": "2201.12733",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "relational",
+      "name": "Global & relational properties"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Wenda Chu",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "wu2022copa",
+    "key": "conf/iclr/WuL0KKZ022",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
+    "url": "https://dblp.org/rec/conf/iclr/WuL0KKZ022",
+    "citations": 32,
+    "arxiv": "2203.08398",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [
+     {
+      "key": "other",
+      "name": "Other"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Fan Wu",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     },
+     {
+      "name": "Bhavya Kailkhura",
+      "slug": ""
+     },
+     {
+      "name": "Krishnaram Kenthapadi",
+      "slug": ""
+     },
+     {
+      "name": "Ding Zhao",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "wu2022crop",
+    "key": "conf/iclr/WuLHVZ022",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing",
+    "url": "https://dblp.org/rec/conf/iclr/WuLHVZ022",
+    "citations": 61,
+    "arxiv": "2106.09292",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [
+     {
+      "key": "probabilistic",
+      "name": "Probabilistic certification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Fan Wu",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Zijian Huang",
+      "slug": ""
+     },
+     {
+      "name": "Yevgeniy Vorobeychik",
+      "slug": "yevgeniy-vorobeychik"
+     },
+     {
+      "name": "Ding Zhao",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "yang2022certified",
+    "key": "conf/iclr/YangLXK0L22",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "On the Certified Robustness for Ensemble Models and Beyond",
+    "url": "https://dblp.org/rec/conf/iclr/YangLXK0L22",
+    "citations": 56,
+    "arxiv": "2107.10873",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "training",
+      "name": "Certified training"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Zhuolin Yang",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Xiaojun Xu",
+      "slug": ""
+     },
+     {
+      "name": "Bhavya Kailkhura",
+      "slug": ""
+     },
+     {
+      "name": "Tao Xie",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "kang2022certifying",
+    "key": "conf/nips/KangLWL0022",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Certifying Some Distributional Fairness with Subpopulation Decomposition",
+    "url": "https://dblp.org/rec/conf/nips/KangLWL0022",
+    "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Mintong Kang",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Maurice Weber",
+      "slug": ""
+     },
+     {
+      "name": "Yang Liu",
+      "slug": ""
+     },
+     {
+      "name": "Ce Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "zhang2022general",
+    "key": "conf/nips/ZhangWXLLJHK22",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
+    "url": "https://dblp.org/rec/conf/nips/ZhangWXLLJHK22",
+    "citations": 193,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     },
+     {
+      "name": "Shiqi Wang",
+      "slug": "shiqi-wang"
+     },
+     {
+      "name": "Kaidi Xu",
+      "slug": "kaidi-xu"
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     },
+     {
+      "name": "Suman Jana",
+      "slug": "suman-jana"
+     },
+     {
+      "name": "Cho-Jui Hsieh",
+      "slug": "cho-jui-hsieh"
+     },
+     {
+      "name": "Zico Kolter",
+      "slug": "zico-kolter"
+     }
+    ]
+   },
+   {
+    "id": "yang2022improving",
+    "key": "conf/nips/YangZWZLPKLGZL22",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Improving Certified Robustness via Statistical Learning with Logical Reasoning",
+    "url": "https://dblp.org/rec/conf/nips/YangZWZLPKLGZL22",
+    "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Zhuolin Yang",
+      "slug": ""
+     },
+     {
+      "name": "Zhikuan Zhao",
+      "slug": ""
+     },
+     {
+      "name": "Boxin Wang",
+      "slug": ""
+     },
+     {
+      "name": "Jiawei Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Hengzhi Pei",
+      "slug": ""
+     },
+     {
+      "name": "Bojan Karlas",
+      "slug": ""
+     },
+     {
+      "name": "Ji Liu",
+      "slug": ""
+     },
+     {
+      "name": "Heng Guo",
+      "slug": ""
+     },
+     {
+      "name": "Ce Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   },
+   {
+    "id": "xu2022lot",
+    "key": "conf/nips/XuL022",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness",
+    "url": "https://dblp.org/rec/conf/nips/XuL022",
+    "citations": 51,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Xiaojun Xu",
+      "slug": ""
+     },
+     {
+      "name": "Linyi Li",
+      "slug": "linyi-li"
+     },
+     {
+      "name": "Bo Li",
+      "slug": "bo-li"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
+  "slug": "gong",
+  "name": "Gong group (Duke)",
+  "tools": [],
+  "url": "",
+  "description": "Neil Gong's group: certified defenses.",
+  "members": [
+   {
+    "slug": "neil-gong",
+    "name": "Neil Gong",
+    "institution_short": "Duke",
+    "papers": 7,
+    "score": 1.766
+   }
+  ],
+  "institutions": [
+   "Duke"
+  ],
+  "papers": 7,
+  "citations": 288,
+  "venues": {
+   "icml": 1,
+   "eccv": 1,
+   "cvpr": 2,
+   "iclr": 2,
+   "neurips": 1
+  },
+  "fields": {
+   "ml": 4,
+   "cv": 3,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 5,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 2
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 1,
+   "2021": 1,
+   "2022": 2,
+   "2023": 1,
+   "2024": 1,
+   "2025": 0,
+   "2026": 1
+  },
+  "score_fields": {
+   "ml": 0.983,
+   "cv": 0.783,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.287,
+  "paper_list": [
+   {
+    "id": "shen2026credit",
+    "key": "openreview/DQKoxCegwH",
+    "venue": "icml",
+    "venue_name": "ICML",
+    "year": 2026,
+    "field": "ml",
+    "title": "CREDIT: Certified Ownership Verification of Deep Neural Networks Against Model Extraction Attacks",
+    "url": "https://openreview.net/forum?id=DQKoxCegwH",
+    "citations": 5,
+    "arxiv": "2602.20419",
+    "source": "icml.cc",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Bolin Shen",
+      "slug": ""
+     },
+     {
+      "name": "Zhan Cheng",
+      "slug": ""
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     },
+     {
+      "name": "Fan Yao",
+      "slug": ""
+     },
+     {
+      "name": "Yushun Dong",
+      "slug": ""
+     }
+    ]
+   },
+   {
+    "id": "jiang2024certifiably",
+    "key": "conf/eccv/JiangGHJG24",
+    "venue": "eccv",
+    "venue_name": "ECCV",
+    "year": 2024,
+    "field": "cv",
+    "title": "Certifiably Robust Image Watermark",
+    "url": "https://doi.org/10.1007/978-3-031-72980-5_25",
+    "citations": 20,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Zhengyuan Jiang",
+      "slug": ""
+     },
+     {
+      "name": "Moyang Guo",
+      "slug": ""
+     },
+     {
+      "name": "Yuepeng Hu",
+      "slug": ""
+     },
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     }
+    ]
+   },
+   {
+    "id": "zhang2023pointcert",
+    "key": "conf/cvpr/ZhangJ0G23",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2023,
+    "field": "cv",
+    "title": "PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees",
+    "url": "https://doi.org/10.1109/cvpr52729.2023.00916",
+    "citations": 21,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jinghuai Zhang",
+      "slug": ""
+     },
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Hongbin Liu",
+      "slug": ""
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     }
+    ]
+   },
+   {
+    "id": "jia2022almost",
+    "key": "conf/iclr/JiaWCLG22",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2022,
+    "field": "ml",
+    "title": "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
+    "url": "https://dblp.org/rec/conf/iclr/JiaWCLG22",
+    "citations": 14,
+    "arxiv": "2011.07633",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Binghui Wang",
+      "slug": ""
+     },
+     {
+      "name": "Xiaoyu Cao",
+      "slug": ""
+     },
+     {
+      "name": "Hongbin Liu",
+      "slug": ""
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     }
+    ]
+   },
+   {
+    "id": "jia2022multiguard",
+    "key": "conf/nips/Jia0G22",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples",
+    "url": "https://dblp.org/rec/conf/nips/Jia0G22",
+    "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Wenjie Qu",
+      "slug": ""
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     }
+    ]
+   },
+   {
+    "id": "liu2021pointguard",
+    "key": "conf/cvpr/LiuJG21",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2021,
+    "field": "cv",
+    "title": "PointGuard: Provably Robust 3D Point Cloud Classification",
+    "url": "https://doi.org/10.1109/cvpr46437.2021.00612",
+    "citations": 115,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hongbin Liu",
+      "slug": ""
+     },
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
+     }
+    ]
+   },
+   {
+    "id": "jia2020certified",
+    "key": "conf/iclr/JiaCWG20",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2020,
+    "field": "ml",
+    "title": "Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing",
+    "url": "https://dblp.org/rec/conf/iclr/JiaCWG20",
+    "citations": 89,
+    "arxiv": "1912.09899",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Jinyuan Jia",
+      "slug": "jinyuan-jia"
+     },
+     {
+      "name": "Xiaoyu Cao",
+      "slug": ""
+     },
+     {
+      "name": "Binghui Wang",
+      "slug": ""
+     },
+     {
+      "name": "Neil Gong",
+      "slug": "neil-gong"
      }
     ]
    }
@@ -9993,6 +11762,8 @@
     "title": "Fairquant: Certifying and Quantifying Fairness of Deep Neural Networks",
     "url": "https://doi.org/10.1109/icse55347.2025.00016",
     "citations": 18,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -10021,6 +11792,8 @@
     "title": "Certifying the Fairness of KNN in the Presence of Dataset Bias",
     "url": "https://doi.org/10.1007/978-3-031-37703-7_16",
     "citations": 14,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [],
@@ -10049,6 +11822,8 @@
     "title": "Example Guided Synthesis of Linear Approximations for Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_8",
     "citations": 19,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -10073,6 +11848,8 @@
     "title": "ReluDiff: differential verification of deep neural networks",
     "url": "https://doi.org/10.1145/3377811.3380337",
     "citations": 91,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -10106,6 +11883,8 @@
     "title": "NEURODIFF: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation",
     "url": "https://doi.org/10.1145/3324884.3416560",
     "citations": 61,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -10215,6 +11994,8 @@
     "title": "Provable Gradient Editing of Deep Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/TaoT25",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -10239,6 +12020,8 @@
     "title": "Provable Editing of Deep Neural Networks using Parametric Linear Relaxation",
     "url": "https://dblp.org/rec/conf/nips/TaoT24",
     "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -10263,6 +12046,8 @@
     "title": "Architecture-Preserving Provable Repair of Deep Neural Networks",
     "url": "https://doi.org/10.1145/3591238",
     "citations": 31,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -10295,6 +12080,8 @@
     "title": "Provable repair of deep neural networks",
     "url": "https://doi.org/10.1145/3453483.3454064",
     "citations": 103,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -10306,594 +12093,6 @@
      {
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
- },
- {
-  "slug": "linyi-li",
-  "name": "Linyi Li group (SFU)",
-  "tools": [
-   "DSRS",
-   "certified robustness"
-  ],
-  "url": "",
-  "description": "Certified robustness and verification at Simon Fraser University.",
-  "members": [
-   {
-    "slug": "linyi-li",
-    "name": "Linyi Li",
-    "institution_short": "SFU",
-    "papers": 12,
-    "score": 2.317
-   }
-  ],
-  "institutions": [
-   "SFU"
-  ],
-  "papers": 12,
-  "citations": 523,
-  "venues": {
-   "icml": 4,
-   "iclr": 4,
-   "neurips": 4
-  },
-  "fields": {
-   "ml": 12,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 0,
-   "probabilistic": 7,
-   "training": 1,
-   "repair": 0,
-   "explanations": 0,
-   "control": 2,
-   "relational": 1,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 0,
-   "2021": 0,
-   "2022": 10,
-   "2023": 0,
-   "2024": 2,
-   "2025": 0,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 2.317,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 1.271,
-  "paper_list": [
-   {
-    "id": "shu2024effects",
-    "key": "conf/icml/ShuXWCCX0024",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2024,
-    "field": "ml",
-    "title": "Effects of Exponential Gaussian Distribution on (Double Sampling) Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/icml/ShuXWCCX0024",
-    "citations": 2,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Youwei Shu",
-      "slug": ""
-     },
-     {
-      "name": "Xi Xiao",
-      "slug": ""
-     },
-     {
-      "name": "Derui Wang",
-      "slug": ""
-     },
-     {
-      "name": "Yuxin Cao",
-      "slug": ""
-     },
-     {
-      "name": "Siji Chen",
-      "slug": ""
-     },
-     {
-      "name": "Jason Xue",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "kang2024colep",
-    "key": "conf/iclr/KangGL024",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2024,
-    "field": "ml",
-    "title": "COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits",
-    "url": "https://dblp.org/rec/conf/iclr/KangGL024",
-    "citations": 14,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Mintong Kang",
-      "slug": ""
-     },
-     {
-      "name": "Nezihe Merve Gürel",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "weber2022certifying",
-    "key": "conf/icml/WeberLWZ0022",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2022,
-    "field": "ml",
-    "title": "Certifying Out-of-Domain Generalization for Blackbox Functions",
-    "url": "https://dblp.org/rec/conf/icml/WeberLWZ0022",
-    "citations": 20,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Maurice Weber",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Boxin Wang",
-      "slug": ""
-     },
-     {
-      "name": "Zhikuan Zhao",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     },
-     {
-      "name": "Ce Zhang",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "li2022double",
-    "key": "conf/icml/LiZ0L22",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2022,
-    "field": "ml",
-    "title": "Double Sampling Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/icml/LiZ0L22",
-    "citations": 31,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Jiawei Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Tao Xie",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "chu2022tpc",
-    "key": "conf/icml/ChuLL22",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2022,
-    "field": "ml",
-    "title": "TPC: Transformation-Specific Smoothing for Point Cloud Models",
-    "url": "https://dblp.org/rec/conf/icml/ChuLL22",
-    "citations": 17,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "relational",
-      "name": "Global & relational properties"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Wenda Chu",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "wu2022copa",
-    "key": "conf/iclr/WuL0KKZ022",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks",
-    "url": "https://dblp.org/rec/conf/iclr/WuL0KKZ022",
-    "citations": 32,
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [
-     {
-      "key": "other",
-      "name": "Other"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Fan Wu",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
-     },
-     {
-      "name": "Bhavya Kailkhura",
-      "slug": ""
-     },
-     {
-      "name": "Krishnaram Kenthapadi",
-      "slug": ""
-     },
-     {
-      "name": "Ding Zhao",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "wu2022crop",
-    "key": "conf/iclr/WuLHVZ022",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing",
-    "url": "https://dblp.org/rec/conf/iclr/WuLHVZ022",
-    "citations": 61,
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [
-     {
-      "key": "probabilistic",
-      "name": "Probabilistic certification"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Fan Wu",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Zijian Huang",
-      "slug": ""
-     },
-     {
-      "name": "Yevgeniy Vorobeychik",
-      "slug": "yevgeniy-vorobeychik"
-     },
-     {
-      "name": "Ding Zhao",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "yang2022certified",
-    "key": "conf/iclr/YangLXK0L22",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "On the Certified Robustness for Ensemble Models and Beyond",
-    "url": "https://dblp.org/rec/conf/iclr/YangLXK0L22",
-    "citations": 56,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "training",
-      "name": "Certified training"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Zhuolin Yang",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Xiaojun Xu",
-      "slug": ""
-     },
-     {
-      "name": "Bhavya Kailkhura",
-      "slug": ""
-     },
-     {
-      "name": "Tao Xie",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "kang2022certifying",
-    "key": "conf/nips/KangLWL0022",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "Certifying Some Distributional Fairness with Subpopulation Decomposition",
-    "url": "https://dblp.org/rec/conf/nips/KangLWL0022",
-    "citations": 22,
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Mintong Kang",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Maurice Weber",
-      "slug": ""
-     },
-     {
-      "name": "Yang Liu",
-      "slug": ""
-     },
-     {
-      "name": "Ce Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "zhang2022general",
-    "key": "conf/nips/ZhangWXLLJHK22",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
-    "url": "https://dblp.org/rec/conf/nips/ZhangWXLLJHK22",
-    "citations": 193,
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
-     },
-     {
-      "name": "Shiqi Wang",
-      "slug": "shiqi-wang"
-     },
-     {
-      "name": "Kaidi Xu",
-      "slug": "kaidi-xu"
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     },
-     {
-      "name": "Suman Jana",
-      "slug": "suman-jana"
-     },
-     {
-      "name": "Cho-Jui Hsieh",
-      "slug": "cho-jui-hsieh"
-     },
-     {
-      "name": "Zico Kolter",
-      "slug": "zico-kolter"
-     }
-    ]
-   },
-   {
-    "id": "yang2022improving",
-    "key": "conf/nips/YangZWZLPKLGZL22",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "Improving Certified Robustness via Statistical Learning with Logical Reasoning",
-    "url": "https://dblp.org/rec/conf/nips/YangZWZLPKLGZL22",
-    "citations": 24,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Zhuolin Yang",
-      "slug": ""
-     },
-     {
-      "name": "Zhikuan Zhao",
-      "slug": ""
-     },
-     {
-      "name": "Boxin Wang",
-      "slug": ""
-     },
-     {
-      "name": "Jiawei Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Hengzhi Pei",
-      "slug": ""
-     },
-     {
-      "name": "Bojan Karlas",
-      "slug": ""
-     },
-     {
-      "name": "Ji Liu",
-      "slug": ""
-     },
-     {
-      "name": "Heng Guo",
-      "slug": ""
-     },
-     {
-      "name": "Ce Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
-     }
-    ]
-   },
-   {
-    "id": "xu2022lot",
-    "key": "conf/nips/XuL022",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness",
-    "url": "https://dblp.org/rec/conf/nips/XuL022",
-    "citations": 51,
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Xiaojun Xu",
-      "slug": ""
-     },
-     {
-      "name": "Linyi Li",
-      "slug": "linyi-li"
-     },
-     {
-      "name": "Bo Li",
-      "slug": "bo-li"
      }
     ]
    }
@@ -10986,6 +12185,8 @@
     "title": "LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models",
     "url": "https://dblp.org/rec/conf/iclr/HuHF26",
     "citations": 7,
+    "arxiv": "2601.18513",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -11014,6 +12215,8 @@
     "title": "A Recipe for Improved Certifiable Robustness",
     "url": "https://dblp.org/rec/conf/iclr/HuLWF24",
     "citations": 24,
+    "arxiv": "2310.02513",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -11046,6 +12249,8 @@
     "title": "Unlocking Deterministic Robustness Certification on ImageNet",
     "url": "https://dblp.org/rec/conf/nips/HuZWLF23",
     "citations": 28,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -11082,6 +12287,8 @@
     "title": "Globally-Robust Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/LeinoWF21",
     "citations": 153,
+    "arxiv": "2102.08452",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -11110,6 +12317,8 @@
     "title": "Fast Geometric Projections for Local Robustness Certification",
     "url": "https://dblp.org/rec/conf/iclr/FromherzLFPP21",
     "citations": 31,
+    "arxiv": "2002.04742",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -11133,269 +12342,6 @@
      {
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
- },
- {
-  "slug": "gong",
-  "name": "Gong group (Duke)",
-  "tools": [],
-  "url": "",
-  "description": "Neil Gong's group: certified defenses.",
-  "members": [
-   {
-    "slug": "neil-gong",
-    "name": "Neil Gong",
-    "institution_short": "Duke",
-    "papers": 6,
-    "score": 1.566
-   }
-  ],
-  "institutions": [
-   "Duke"
-  ],
-  "papers": 6,
-  "citations": 283,
-  "venues": {
-   "eccv": 1,
-   "cvpr": 2,
-   "iclr": 2,
-   "neurips": 1
-  },
-  "fields": {
-   "ml": 3,
-   "cv": 3,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 0,
-   "bounds": 0,
-   "probabilistic": 5,
-   "training": 0,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 1
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 1,
-   "2021": 1,
-   "2022": 2,
-   "2023": 1,
-   "2024": 1,
-   "2025": 0,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 0.783,
-   "cv": 0.783,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 1.26,
-  "paper_list": [
-   {
-    "id": "jiang2024certifiably",
-    "key": "conf/eccv/JiangGHJG24",
-    "venue": "eccv",
-    "venue_name": "ECCV",
-    "year": 2024,
-    "field": "cv",
-    "title": "Certifiably Robust Image Watermark",
-    "url": "https://doi.org/10.1007/978-3-031-72980-5_25",
-    "citations": 20,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Zhengyuan Jiang",
-      "slug": ""
-     },
-     {
-      "name": "Moyang Guo",
-      "slug": ""
-     },
-     {
-      "name": "Yuepeng Hu",
-      "slug": ""
-     },
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
-     }
-    ]
-   },
-   {
-    "id": "zhang2023pointcert",
-    "key": "conf/cvpr/ZhangJ0G23",
-    "venue": "cvpr",
-    "venue_name": "CVPR",
-    "year": 2023,
-    "field": "cv",
-    "title": "PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees",
-    "url": "https://doi.org/10.1109/cvpr52729.2023.00916",
-    "citations": 21,
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Jinghuai Zhang",
-      "slug": ""
-     },
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Hongbin Liu",
-      "slug": ""
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
-     }
-    ]
-   },
-   {
-    "id": "jia2022almost",
-    "key": "conf/iclr/JiaWCLG22",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2022,
-    "field": "ml",
-    "title": "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
-    "url": "https://dblp.org/rec/conf/iclr/JiaWCLG22",
-    "citations": 14,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Binghui Wang",
-      "slug": ""
-     },
-     {
-      "name": "Xiaoyu Cao",
-      "slug": ""
-     },
-     {
-      "name": "Hongbin Liu",
-      "slug": ""
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
-     }
-    ]
-   },
-   {
-    "id": "jia2022multiguard",
-    "key": "conf/nips/Jia0G22",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples",
-    "url": "https://dblp.org/rec/conf/nips/Jia0G22",
-    "citations": 24,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Wenjie Qu",
-      "slug": ""
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
-     }
-    ]
-   },
-   {
-    "id": "liu2021pointguard",
-    "key": "conf/cvpr/LiuJG21",
-    "venue": "cvpr",
-    "venue_name": "CVPR",
-    "year": 2021,
-    "field": "cv",
-    "title": "PointGuard: Provably Robust 3D Point Cloud Classification",
-    "url": "https://doi.org/10.1109/cvpr46437.2021.00612",
-    "citations": 115,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hongbin Liu",
-      "slug": ""
-     },
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
-     }
-    ]
-   },
-   {
-    "id": "jia2020certified",
-    "key": "conf/iclr/JiaCWG20",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2020,
-    "field": "ml",
-    "title": "Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing",
-    "url": "https://dblp.org/rec/conf/iclr/JiaCWG20",
-    "citations": 89,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Jinyuan Jia",
-      "slug": "jinyuan-jia"
-     },
-     {
-      "name": "Xiaoyu Cao",
-      "slug": ""
-     },
-     {
-      "name": "Binghui Wang",
-      "slug": ""
-     },
-     {
-      "name": "Neil Gong",
-      "slug": "neil-gong"
      }
     ]
    }
@@ -11479,6 +12425,8 @@
     "title": "Provable Robustness against Wasserstein Distribution Shifts via Input Randomization",
     "url": "https://dblp.org/rec/conf/iclr/Kumar0GF23",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -11511,6 +12459,8 @@
     "title": "Certified Neural Network Watermarks with Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/icml/BansalCCJWMDG22",
     "citations": 77,
+    "arxiv": "2207.07972",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -11559,6 +12509,8 @@
     "title": "Center Smoothing: Certified Robustness for Networks with Structured Outputs",
     "url": "https://dblp.org/rec/conf/nips/KumarG21",
     "citations": 27,
+    "arxiv": "2102.09701",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -11583,6 +12535,8 @@
     "title": "Curse of Dimensionality on Randomized Smoothing for Certifiable Robustness",
     "url": "https://dblp.org/rec/conf/icml/Kumar0GF20",
     "citations": 93,
+    "arxiv": "2002.03239",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -11615,6 +12569,8 @@
     "title": "Certified Defenses for Adversarial Patches",
     "url": "https://dblp.org/rec/conf/iclr/ChiangNAZSG20",
     "citations": 203,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -11660,6 +12616,8 @@
     "title": "Certifying Confidence via Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/Kumar0FG20",
     "citations": 50,
+    "arxiv": "2009.08061",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -11692,6 +12650,8 @@
     "title": "Certifying Strategyproof Auction Networks",
     "url": "https://dblp.org/rec/conf/nips/CurryCG020",
     "citations": 46,
+    "arxiv": "2006.08742",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -11724,6 +12684,8 @@
     "title": "Detection as Regression: Certified Object Detection with Median Smoothing",
     "url": "https://dblp.org/rec/conf/nips/ChiangCAK0G20",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -11847,6 +12809,8 @@
     "title": "Dynamic Model Predictive Shielding for Provably Safe Reinforcement Learning",
     "url": "https://dblp.org/rec/conf/nips/BanerjeeRBD24",
     "citations": 44,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -11879,6 +12843,8 @@
     "title": "Neurosymbolic Reinforcement Learning with Formally Verified Exploration",
     "url": "https://dblp.org/rec/conf/nips/AndersonVDC20",
     "citations": 106,
+    "arxiv": "2009.12612",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -11911,6 +12877,8 @@
     "title": "Optimization and abstraction: a synergistic approach for analyzing neural network robustness",
     "url": "https://doi.org/10.1145/3314221.3314614",
     "citations": 120,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -11935,6 +12903,339 @@
      {
       "name": "Swarat Chaudhuri",
       "slug": "swarat-chaudhuri"
+     }
+    ]
+   }
+  ],
+  "color": "g-other"
+ },
+ {
+  "slug": "rubinstein",
+  "name": "Rubinstein group (Melbourne)",
+  "tools": [],
+  "url": "",
+  "description": "Benjamin Rubinstein's group: certified robustness.",
+  "members": [
+   {
+    "slug": "benjamin-rubinstein",
+    "name": "Benjamin Rubinstein",
+    "institution_short": "Melbourne",
+    "papers": 7,
+    "score": 1.6
+   }
+  ],
+  "institutions": [
+   "Melbourne"
+  ],
+  "papers": 7,
+  "citations": 79,
+  "venues": {
+   "neurips": 6,
+   "iclr": 1
+  },
+  "fields": {
+   "ml": 7,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 4,
+   "training": 1,
+   "repair": 0,
+   "explanations": 0,
+   "control": 1,
+   "relational": 0,
+   "architectures": 1,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 1,
+   "2023": 1,
+   "2024": 1,
+   "2025": 2,
+   "2026": 2
+  },
+  "score_fields": {
+   "ml": 1.6,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 1.211,
+  "paper_list": [
+   {
+    "id": "cullen2026halt",
+    "key": "openreview/1Zs088RXoL",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Halt Fast! Early Stopping for Certified Robustness",
+    "url": "https://openreview.net/forum?id=1Zs088RXoL",
+    "citations": 1,
+    "arxiv": "2606.27694",
+    "source": "neurips.cc",
+    "area": "training",
+    "area_name": "Certified training",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Andrew Cullen",
+      "slug": ""
+     },
+     {
+      "name": "Paul Montague",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "cullen2026what",
+    "key": "openreview/zdRy5kB5qm",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "What Was That Again? Certified Robustness for Automatic Speech Recognition",
+    "url": "https://openreview.net/forum?id=zdRy5kB5qm",
+    "citations": 1,
+    "arxiv": "2606.27698",
+    "source": "neurips.cc",
+    "area": "architectures",
+    "area_name": "Beyond feed-forward nets",
+    "tags": [
+     {
+      "key": "probabilistic",
+      "name": "Probabilistic certification"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Andrew Cullen",
+      "slug": ""
+     },
+     {
+      "name": "Neil Marchant",
+      "slug": ""
+     },
+     {
+      "name": "Jiani Xie",
+      "slug": ""
+     },
+     {
+      "name": "Paul Montague",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "liu2025multi",
+    "key": "conf/iclr/LiuCMER25",
+    "venue": "iclr",
+    "venue_name": "ICLR",
+    "year": 2025,
+    "field": "ml",
+    "title": "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
+    "url": "https://dblp.org/rec/conf/iclr/LiuCMER25",
+    "citations": 6,
+    "arxiv": "2505.20621",
+    "source": "dblp.org",
+    "area": "control",
+    "area_name": "NN control systems",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Shijie Liu",
+      "slug": ""
+     },
+     {
+      "name": "Andrew Craig Cullen",
+      "slug": ""
+     },
+     {
+      "name": "Paul Montague",
+      "slug": ""
+     },
+     {
+      "name": "Sarah Monazam Erfani",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "huang2025adaptdel",
+    "key": "conf/nips/HuangMOR25",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2025,
+    "field": "ml",
+    "title": "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness",
+    "url": "https://dblp.org/rec/conf/nips/HuangMOR25",
+    "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Zhuoqun Huang",
+      "slug": ""
+     },
+     {
+      "name": "Neil G. Marchant",
+      "slug": ""
+     },
+     {
+      "name": "Olga Ohrimenko",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "rekavandi2024certified",
+    "key": "conf/nips/RekavandiFOR24",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2024,
+    "field": "ml",
+    "title": "Certified Adversarial Robustness via Randomized α-Smoothing for Regression Models",
+    "url": "https://dblp.org/rec/conf/nips/RekavandiFOR24",
+    "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Aref Miri Rekavandi",
+      "slug": ""
+     },
+     {
+      "name": "Farhad Farokhi",
+      "slug": ""
+     },
+     {
+      "name": "Olga Ohrimenko",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "huang2023rs",
+    "key": "conf/nips/HuangMLBOR23",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2023,
+    "field": "ml",
+    "title": "RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion",
+    "url": "https://dblp.org/rec/conf/nips/HuangMLBOR23",
+    "citations": 35,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [
+     {
+      "key": "architectures",
+      "name": "Beyond feed-forward nets"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Zhuoqun Huang",
+      "slug": ""
+     },
+     {
+      "name": "Neil G. Marchant",
+      "slug": ""
+     },
+     {
+      "name": "Keane Lucas",
+      "slug": ""
+     },
+     {
+      "name": "Lujo Bauer",
+      "slug": ""
+     },
+     {
+      "name": "Olga Ohrimenko",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
+     }
+    ]
+   },
+   {
+    "id": "cullen2022double",
+    "key": "conf/nips/CullenMLER22",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2022,
+    "field": "ml",
+    "title": "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity",
+    "url": "https://dblp.org/rec/conf/nips/CullenMLER22",
+    "citations": 19,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "probabilistic",
+    "area_name": "Probabilistic certification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Andrew C. Cullen",
+      "slug": ""
+     },
+     {
+      "name": "Paul Montague",
+      "slug": ""
+     },
+     {
+      "name": "Shijie Liu",
+      "slug": ""
+     },
+     {
+      "name": "Sarah M. Erfani",
+      "slug": ""
+     },
+     {
+      "name": "Benjamin Rubinstein",
+      "slug": "benjamin-rubinstein"
      }
     ]
    }
@@ -12022,6 +13323,8 @@
     "title": "Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents",
     "url": "https://dblp.org/rec/conf/icml/SunGW24",
     "citations": 9,
+    "arxiv": "2406.18062",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -12055,6 +13358,8 @@
     "title": "Provably Robust Conformal Prediction with Improved Efficiency",
     "url": "https://dblp.org/rec/conf/iclr/YanRW24",
     "citations": 28,
+    "arxiv": "2404.19651",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -12083,6 +13388,8 @@
     "title": "Higher-Order Certification For Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/MohapatraKWC0D20",
     "citations": 51,
+    "arxiv": "2010.06651",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -12123,6 +13430,8 @@
     "title": "Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations",
     "url": "https://doi.org/10.1109/cvpr42600.2020.00032",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -12164,6 +13473,8 @@
     "title": "Towards Fast Computation of Certified Robustness for ReLU Networks",
     "url": "https://dblp.org/rec/conf/icml/WengZCSHDBD18",
     "citations": 713,
+    "arxiv": "1804.09699",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -12212,6 +13523,8 @@
     "title": "Efficient Neural Network Robustness Certification with General Activation Functions",
     "url": "https://dblp.org/rec/conf/nips/ZhangWCHD18",
     "citations": 1037,
+    "arxiv": "1811.00866",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -12325,6 +13638,8 @@
     "title": "Shh, don't say that! Domain Certification in LLMs",
     "url": "https://dblp.org/rec/conf/iclr/EmdePAKRL0B25",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -12378,6 +13693,8 @@
     "title": "Towards Certification of Uncertainty Calibration under Adversarial Attacks",
     "url": "https://dblp.org/rec/conf/iclr/EmdePL0B25",
     "citations": 8,
+    "arxiv": "2405.13922",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -12414,6 +13731,8 @@
     "title": "Efficient Error Certification for Physics-Informed Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
     "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -12454,6 +13773,8 @@
     "title": "Certifying Ensembles: A General Certification Theory with S-Lipschitzness",
     "url": "https://dblp.org/rec/conf/icml/PetrovESTB23",
     "citations": 4,
+    "arxiv": "2304.13019",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -12495,6 +13816,8 @@
     "title": "A Unified View of Piecewise Linear Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/BunelTTKM18",
     "citations": 444,
+    "arxiv": "1711.00455",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -12600,6 +13923,8 @@
     "title": "Zonotope Domains for Lagrangian Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/JordanHDO22",
     "citations": 7,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -12632,6 +13957,8 @@
     "title": "Provable Lipschitz Certification for Generative Models",
     "url": "https://dblp.org/rec/conf/icml/JordanD21",
     "citations": 15,
+    "arxiv": "2107.02732",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -12656,6 +13983,8 @@
     "title": "Exactly Computing the Local Lipschitz Constant of ReLU Networks",
     "url": "https://dblp.org/rec/conf/nips/JordanD20",
     "citations": 175,
+    "arxiv": "2003.01219",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -12685,6 +14014,8 @@
     "title": "Provable Certificates for Adversarial Examples: Fitting a Ball in the Union of Polytopes",
     "url": "https://dblp.org/rec/conf/nips/JordanLD19",
     "citations": 64,
+    "arxiv": "1903.08778",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -12787,6 +14118,8 @@
     "title": "Neural Network Control Policy Verification With Persistent Adversarial Perturbation",
     "url": "https://dblp.org/rec/conf/icml/WangWD20",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -12815,6 +14148,8 @@
     "title": "Higher-Order Certification For Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/MohapatraKWC0D20",
     "citations": 51,
+    "arxiv": "2010.06651",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -12855,6 +14190,8 @@
     "title": "Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations",
     "url": "https://doi.org/10.1109/cvpr42600.2020.00032",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -12896,6 +14233,8 @@
     "title": "POPQORN: Quantifying Robustness of Recurrent Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/KoLWDWL19",
     "citations": 88,
+    "arxiv": "1905.07387",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -12941,6 +14280,8 @@
     "title": "PROVEN: Verifying Robustness of Neural Networks with a Probabilistic Approach",
     "url": "https://dblp.org/rec/conf/icml/WengCNSBOD19",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -12990,6 +14331,8 @@
     "title": "Towards Fast Computation of Certified Robustness for ReLU Networks",
     "url": "https://dblp.org/rec/conf/icml/WengZCSHDBD18",
     "citations": 713,
+    "arxiv": "1804.09699",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -13038,6 +14381,8 @@
     "title": "Efficient Neural Network Robustness Certification with General Activation Functions",
     "url": "https://dblp.org/rec/conf/nips/ZhangWCHD18",
     "citations": 1037,
+    "arxiv": "1811.00866",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -13145,6 +14490,8 @@
     "title": "Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness",
     "url": "https://dblp.org/rec/conf/icml/ChenZZCLCW22",
     "citations": 20,
+    "arxiv": "2206.07839",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -13189,6 +14536,8 @@
     "title": "A Spectral View of Randomized Smoothing Under Common Corruptions: Benchmarking and Improving Certified Robustness",
     "url": "https://doi.org/10.1007/978-3-031-19772-7_38",
     "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -13233,6 +14582,8 @@
     "title": "CRFL: Certifiably Robust Federated Learning against Backdoor Attacks",
     "url": "https://dblp.org/rec/conf/icml/Xie0CL21",
     "citations": 299,
+    "arxiv": "2106.08283",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -13265,6 +14616,8 @@
     "title": "Higher-Order Certification For Randomized Smoothing",
     "url": "https://dblp.org/rec/conf/nips/MohapatraKWC0D20",
     "citations": 51,
+    "arxiv": "2010.06651",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -13305,6 +14658,8 @@
     "title": "Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations",
     "url": "https://doi.org/10.1109/cvpr42600.2020.00032",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -13346,6 +14701,8 @@
     "title": "PROVEN: Verifying Robustness of Neural Networks with a Probabilistic Approach",
     "url": "https://dblp.org/rec/conf/icml/WengCNSBOD19",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -13395,6 +14752,8 @@
     "title": "Efficient Neural Network Robustness Certification with General Activation Functions",
     "url": "https://dblp.org/rec/conf/nips/ZhangWCHD18",
     "citations": 1037,
+    "arxiv": "1811.00866",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -13501,6 +14860,8 @@
     "title": "Incremental Randomized Smoothing Certification",
     "url": "https://dblp.org/rec/conf/iclr/UgareSB0M24",
     "citations": 17,
+    "arxiv": "2305.19521",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -13537,6 +14898,8 @@
     "title": "Provable Defense Against Geometric Transformations",
     "url": "https://dblp.org/rec/conf/iclr/YangLM023",
     "citations": 19,
+    "arxiv": "2207.11177",
+    "source": "dblp.org",
     "area": "relational",
     "area_name": "Global & relational properties",
     "tags": [
@@ -13574,6 +14937,8 @@
     "title": "Incremental Verification of Neural Networks",
     "url": "https://doi.org/10.1145/3591299",
     "citations": 39,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -13606,6 +14971,8 @@
     "title": "Proof transfer for fast certification of multiple approximate neural networks",
     "url": "https://doi.org/10.1145/3527319",
     "citations": 27,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -13709,6 +15076,8 @@
     "title": "Certified Robustness Under Bounded Levenshtein Distance",
     "url": "https://dblp.org/rec/conf/iclr/Abad-Rocamora0C25",
     "citations": 8,
+    "arxiv": "2501.13676",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -13742,6 +15111,8 @@
     "title": "Sound and Complete Verification of Polynomial Networks",
     "url": "https://dblp.org/rec/conf/nips/Abad-RocamoraS022",
     "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -13783,6 +15154,8 @@
     "title": "Lipschitz constant estimation of Neural Networks via sparse polynomial optimization",
     "url": "https://dblp.org/rec/conf/iclr/GomezRC20",
     "citations": 163,
+    "arxiv": "2004.08688",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -13811,6 +15184,8 @@
     "title": "On Certifying Non-Uniform Bounds against Adversarial Attacks",
     "url": "https://dblp.org/rec/conf/icml/LiuTC19",
     "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -13917,6 +15292,8 @@
     "title": "Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice",
     "url": "https://doi.org/10.1145/3828680",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -13966,6 +15343,8 @@
     "title": "VNN-LIB 2.0: Rigorous Foundations for Neural Network Verification",
     "url": "https://doi.org/10.1007/978-3-032-32526-6_21",
     "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -13998,6 +15377,8 @@
     "title": "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-65630-9_13",
     "citations": 183,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -14087,6 +15468,8 @@
     "title": "Neural Network Robustness as a Verification Property: A Principled Case Study",
     "url": "https://doi.org/10.1007/978-3-031-13185-1_11",
     "citations": 84,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -14207,6 +15590,8 @@
     "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
     "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
     "citations": 113,
+    "arxiv": "2010.11645",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -14267,6 +15652,8 @@
     "title": "Certified Defenses against Adversarial Examples",
     "url": "https://dblp.org/rec/conf/iclr/RaghunathanSL18",
     "citations": 982,
+    "arxiv": "1801.09344",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -14300,6 +15687,8 @@
     "title": "Semidefinite relaxations for certifying robustness to adversarial examples",
     "url": "https://dblp.org/rec/conf/nips/RaghunathanSL18",
     "citations": 442,
+    "arxiv": "1811.01057",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -14328,6 +15717,8 @@
     "title": "Certified Defenses for Data Poisoning Attacks",
     "url": "https://dblp.org/rec/conf/nips/SteinhardtKL17",
     "citations": 979,
+    "arxiv": "1706.03691",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -14425,6 +15816,8 @@
     "title": "BagFlip: A Certified Defense Against Data Poisoning",
     "url": "https://dblp.org/rec/conf/nips/ZhangAD22",
     "citations": 26,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -14453,6 +15846,8 @@
     "title": "Interval universal approximation for neural networks",
     "url": "https://doi.org/10.1145/3498675",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -14485,6 +15880,8 @@
     "title": "Certifying Robustness to Programmable Data Bias in Decision Trees",
     "url": "https://dblp.org/rec/conf/nips/MeyerAD21",
     "citations": 37,
+    "arxiv": "2110.04363",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -14596,6 +15993,8 @@
     "title": "Lyapunov-stable Neural Control for State and Output Feedback: A Novel Formulation",
     "url": "https://dblp.org/rec/conf/icml/YangDSHT024",
     "citations": 74,
+    "arxiv": "2404.07956",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -14636,6 +16035,8 @@
     "title": "Evaluating Robustness of Neural Networks with Mixed Integer Programming",
     "url": "https://dblp.org/rec/conf/iclr/TjengXT19",
     "citations": 686,
+    "arxiv": "1711.07356",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -14664,6 +16065,8 @@
     "title": "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability",
     "url": "https://dblp.org/rec/conf/iclr/XiaoTSM19",
     "citations": 185,
+    "arxiv": "1809.03008",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -14683,256 +16086,6 @@
      {
       "name": "Aleksander Madry",
       "slug": ""
-     }
-    ]
-   }
-  ],
-  "color": "g-other"
- },
- {
-  "slug": "rubinstein",
-  "name": "Rubinstein group (Melbourne)",
-  "tools": [],
-  "url": "",
-  "description": "Benjamin Rubinstein's group: certified robustness.",
-  "members": [
-   {
-    "slug": "benjamin-rubinstein",
-    "name": "Benjamin Rubinstein",
-    "institution_short": "Melbourne",
-    "papers": 5,
-    "score": 1.067
-   }
-  ],
-  "institutions": [
-   "Melbourne"
-  ],
-  "papers": 5,
-  "citations": 77,
-  "venues": {
-   "iclr": 1,
-   "neurips": 4
-  },
-  "fields": {
-   "ml": 5,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 0,
-   "bounds": 0,
-   "probabilistic": 4,
-   "training": 0,
-   "repair": 0,
-   "explanations": 0,
-   "control": 1,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 0,
-   "2021": 0,
-   "2022": 1,
-   "2023": 1,
-   "2024": 1,
-   "2025": 2,
-   "2026": 0
-  },
-  "score_fields": {
-   "ml": 1.067,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0
-  },
-  "score": 1.156,
-  "paper_list": [
-   {
-    "id": "liu2025multi",
-    "key": "conf/iclr/LiuCMER25",
-    "venue": "iclr",
-    "venue_name": "ICLR",
-    "year": 2025,
-    "field": "ml",
-    "title": "Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning",
-    "url": "https://dblp.org/rec/conf/iclr/LiuCMER25",
-    "citations": 6,
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Shijie Liu",
-      "slug": ""
-     },
-     {
-      "name": "Andrew Craig Cullen",
-      "slug": ""
-     },
-     {
-      "name": "Paul Montague",
-      "slug": ""
-     },
-     {
-      "name": "Sarah Monazam Erfani",
-      "slug": ""
-     },
-     {
-      "name": "Benjamin Rubinstein",
-      "slug": "benjamin-rubinstein"
-     }
-    ]
-   },
-   {
-    "id": "huang2025adaptdel",
-    "key": "conf/nips/HuangMOR25",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2025,
-    "field": "ml",
-    "title": "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness",
-    "url": "https://dblp.org/rec/conf/nips/HuangMOR25",
-    "citations": 0,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Zhuoqun Huang",
-      "slug": ""
-     },
-     {
-      "name": "Neil G. Marchant",
-      "slug": ""
-     },
-     {
-      "name": "Olga Ohrimenko",
-      "slug": ""
-     },
-     {
-      "name": "Benjamin Rubinstein",
-      "slug": "benjamin-rubinstein"
-     }
-    ]
-   },
-   {
-    "id": "rekavandi2024certified",
-    "key": "conf/nips/RekavandiFOR24",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2024,
-    "field": "ml",
-    "title": "Certified Adversarial Robustness via Randomized α-Smoothing for Regression Models",
-    "url": "https://dblp.org/rec/conf/nips/RekavandiFOR24",
-    "citations": 17,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Aref Miri Rekavandi",
-      "slug": ""
-     },
-     {
-      "name": "Farhad Farokhi",
-      "slug": ""
-     },
-     {
-      "name": "Olga Ohrimenko",
-      "slug": ""
-     },
-     {
-      "name": "Benjamin Rubinstein",
-      "slug": "benjamin-rubinstein"
-     }
-    ]
-   },
-   {
-    "id": "huang2023rs",
-    "key": "conf/nips/HuangMLBOR23",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2023,
-    "field": "ml",
-    "title": "RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion",
-    "url": "https://dblp.org/rec/conf/nips/HuangMLBOR23",
-    "citations": 35,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [
-     {
-      "key": "architectures",
-      "name": "Beyond feed-forward nets"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Zhuoqun Huang",
-      "slug": ""
-     },
-     {
-      "name": "Neil G. Marchant",
-      "slug": ""
-     },
-     {
-      "name": "Keane Lucas",
-      "slug": ""
-     },
-     {
-      "name": "Lujo Bauer",
-      "slug": ""
-     },
-     {
-      "name": "Olga Ohrimenko",
-      "slug": ""
-     },
-     {
-      "name": "Benjamin Rubinstein",
-      "slug": "benjamin-rubinstein"
-     }
-    ]
-   },
-   {
-    "id": "cullen2022double",
-    "key": "conf/nips/CullenMLER22",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2022,
-    "field": "ml",
-    "title": "Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity",
-    "url": "https://dblp.org/rec/conf/nips/CullenMLER22",
-    "citations": 19,
-    "area": "probabilistic",
-    "area_name": "Probabilistic certification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Andrew C. Cullen",
-      "slug": ""
-     },
-     {
-      "name": "Paul Montague",
-      "slug": ""
-     },
-     {
-      "name": "Shijie Liu",
-      "slug": ""
-     },
-     {
-      "name": "Sarah M. Erfani",
-      "slug": ""
-     },
-     {
-      "name": "Benjamin Rubinstein",
-      "slug": "benjamin-rubinstein"
      }
     ]
    }
@@ -15018,6 +16171,8 @@
     "title": "Compositional Curvature Bounds for Deep Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/EntesariSF24",
     "citations": 6,
+    "arxiv": "2406.05119",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -15046,6 +16201,8 @@
     "title": "Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization",
     "url": "https://dblp.org/rec/conf/nips/FazlyabERC23",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -15078,6 +16235,8 @@
     "title": "Enforcing robust control guarantees within neural network policies",
     "url": "https://dblp.org/rec/conf/iclr/DontiRFK21",
     "citations": 67,
+    "arxiv": "2011.08105",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -15110,6 +16269,8 @@
     "title": "Efficient and Accurate Estimation of Lipschitz Constants for Deep Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/FazlyabRHMP19",
     "citations": 682,
+    "arxiv": "1906.04893",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -15215,6 +16376,8 @@
     "title": "Verified Safe Reinforcement Learning for Neural Network Dynamic Models",
     "url": "https://dblp.org/rec/conf/nips/0001ZV24",
     "citations": 17,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -15243,6 +16406,8 @@
     "title": "Exact Verification of ReLU Neural Control Barrier Functions",
     "url": "https://dblp.org/rec/conf/nips/Zhang0V023",
     "citations": 60,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -15280,6 +16445,8 @@
     "title": "Neural Lyapunov Control for Discrete-Time Systems",
     "url": "https://dblp.org/rec/conf/nips/00010KV23",
     "citations": 79,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -15312,6 +16479,8 @@
     "title": "CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing",
     "url": "https://dblp.org/rec/conf/iclr/WuLHVZ022",
     "citations": 61,
+    "arxiv": "2106.09292",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -15429,6 +16598,8 @@
     "title": "Out of the Shadows: Exploring a Latent Space for Neural Network Verification",
     "url": "https://dblp.org/rec/conf/iclr/KollerLA26",
     "citations": 8,
+    "arxiv": "2505.17854",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -15457,6 +16628,8 @@
     "title": "Provably Explaining Neural Additive Models",
     "url": "https://dblp.org/rec/conf/iclr/BassanELSKAK26",
     "citations": 5,
+    "arxiv": "2602.17530",
+    "source": "dblp.org",
     "area": "explanations",
     "area_name": "Formal explanations",
     "tags": [],
@@ -15501,6 +16674,8 @@
     "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
     "url": "https://doi.org/10.1007/978-3-032-32537-2_23",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -15534,6 +16709,8 @@
     "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
     "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
     "citations": 90,
+    "arxiv": "2207.02715",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -15640,6 +16817,8 @@
     "title": "Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents",
     "url": "https://dblp.org/rec/conf/icml/SunGW24",
     "citations": 9,
+    "arxiv": "2406.18062",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -15673,6 +16852,8 @@
     "title": "SEEV: Synthesis with Efficient Exact Verification for ReLU Neural Barrier Functions",
     "url": "https://dblp.org/rec/conf/nips/ZhangQG024",
     "citations": 24,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -15710,6 +16891,8 @@
     "title": "Neural Lyapunov Control",
     "url": "https://dblp.org/rec/conf/nips/ChangRG19",
     "citations": 228,
+    "arxiv": "2005.00611",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -15808,6 +16991,8 @@
     "title": "Efficient Error Certification for Physics-Informed Neural Networks",
     "url": "https://dblp.org/rec/conf/icml/EirasBBD0K24",
     "citations": 17,
+    "arxiv": "2305.10157",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -15848,6 +17033,8 @@
     "title": "Expressive Losses for Verified Robustness via Convex Combinations",
     "url": "https://dblp.org/rec/conf/iclr/PalmaBDKSL24",
     "citations": 27,
+    "arxiv": "2305.13991",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -15888,6 +17075,8 @@
     "title": "Neural Network Branching for Neural Network Verification",
     "url": "https://dblp.org/rec/conf/iclr/LuK20",
     "citations": 65,
+    "arxiv": "1912.01329",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -15982,6 +17171,8 @@
     "title": "Boosting the Certified Robustness of L-infinity Distance Nets",
     "url": "https://dblp.org/rec/conf/iclr/ZhangJH022",
     "citations": 34,
+    "arxiv": "2110.06850",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -16014,6 +17205,8 @@
     "title": "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective",
     "url": "https://dblp.org/rec/conf/nips/ZhangJH022",
     "citations": 114,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -16046,6 +17239,8 @@
     "title": "Towards Certifying L-infinity Robustness using Neural Networks with L-inf-dist Neurons",
     "url": "https://dblp.org/rec/conf/icml/ZhangCLHW21",
     "citations": 58,
+    "arxiv": "2102.05363",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [],
@@ -16082,6 +17277,8 @@
     "title": "MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius",
     "url": "https://dblp.org/rec/conf/iclr/ZhaiDHZGRH020",
     "citations": 177,
+    "arxiv": "2001.02378",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -16205,6 +17402,8 @@
     "title": "Certifying the Full YOLO Pipeline: A Probabilistic Verification Approach",
     "url": "https://dblp.org/rec/conf/iclr/LiuYLCZ26",
     "citations": 0,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "architectures",
     "area_name": "Beyond feed-forward nets",
     "tags": [
@@ -16246,6 +17445,8 @@
     "title": "Patch Synthesis for Property Repair of Deep Neural Networks",
     "url": "https://doi.org/10.1109/icse55347.2025.00181",
     "citations": 6,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -16294,6 +17495,8 @@
     "title": "TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models",
     "url": "https://doi.org/10.1109/iccv51070.2023.00765",
     "citations": 21,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [
@@ -16339,6 +17542,8 @@
     "title": "Towards Practical Robustness Analysis for DNNs based on PAC-Model Learning",
     "url": "https://doi.org/10.1145/3510003.3510143",
     "citations": 34,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "probabilistic",
     "area_name": "Probabilistic certification",
     "tags": [],
@@ -16450,6 +17655,8 @@
     "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks",
     "url": "https://doi.org/10.1145/3720471",
     "citations": 8,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [],
@@ -16490,6 +17697,8 @@
     "title": "QEBVerif: Quantization Error Bound Verification of Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-37703-7_20",
     "citations": 30,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [
@@ -16523,6 +17732,8 @@
     "title": "QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks",
     "url": "https://doi.org/10.1145/3551349.3556916",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "quantized",
     "area_name": "Quantized & bit-level",
     "tags": [
@@ -16641,6 +17852,8 @@
     "title": "Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming",
     "url": "https://dblp.org/rec/conf/nips/DathathriDKRUBS20",
     "citations": 113,
+    "arxiv": "2010.11645",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -16701,6 +17914,8 @@
     "title": "Certified Defenses against Adversarial Examples",
     "url": "https://dblp.org/rec/conf/iclr/RaghunathanSL18",
     "citations": 982,
+    "arxiv": "1801.09344",
+    "source": "dblp.org",
     "area": "training",
     "area_name": "Certified training",
     "tags": [
@@ -16734,6 +17949,8 @@
     "title": "Semidefinite relaxations for certifying robustness to adversarial examples",
     "url": "https://dblp.org/rec/conf/nips/RaghunathanSL18",
     "citations": 442,
+    "arxiv": "1811.01057",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -16833,6 +18050,8 @@
     "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
     "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
     "citations": 90,
+    "arxiv": "2207.02715",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [
@@ -16870,6 +18089,8 @@
     "title": "Neural Network Compression of ACAS Xu Early Prototype Is Unsafe: Closed-Loop Verification Through Quantized State Backreachability",
     "url": "https://doi.org/10.1007/978-3-031-06773-0_15",
     "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -16894,6 +18115,8 @@
     "title": "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_12",
     "citations": 65,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -16947,6 +18170,8 @@
     "title": "nnenum: Verification of ReLU Neural Networks with Optimized Abstraction Refinement",
     "url": "https://doi.org/10.1007/978-3-030-76384-8_2",
     "citations": 127,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -16967,6 +18192,8 @@
     "title": "Improved Geometric Path Enumeration for Verifying ReLU Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_4",
     "citations": 153,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -16999,6 +18226,8 @@
     "title": "NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_1",
     "citations": 383,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [
@@ -17056,6 +18285,8 @@
     "title": "Verification of Deep Convolutional Neural Networks Using ImageStars",
     "url": "https://doi.org/10.1007/978-3-030-53288-8_2",
     "citations": 205,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],
@@ -17159,6 +18390,8 @@
     "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
     "url": "https://doi.org/10.1007/978-3-032-32537-2_23",
     "citations": 2,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -17192,6 +18425,8 @@
     "title": "NNLander-VeriF: A Neural Network Formal Verification Framework for Vision-Based Autonomous Aircraft Landing",
     "url": "https://doi.org/10.1007/978-3-031-06773-0_11",
     "citations": 54,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -17216,6 +18451,8 @@
     "title": "PEREGRiNN: Penalized-Relaxation Greedy Neural Network Verifier",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_13",
     "citations": 48,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -17316,6 +18553,8 @@
     "title": "General Cutting Planes for Bound-Propagation-Based Neural Network Verification",
     "url": "https://dblp.org/rec/conf/nips/ZhangWXLLJHK22",
     "citations": 193,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -17369,6 +18608,8 @@
     "title": "Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers",
     "url": "https://dblp.org/rec/conf/iclr/XuZ0WJLH21",
     "citations": 314,
+    "arxiv": "2011.13824",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -17418,6 +18659,8 @@
     "title": "Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification",
     "url": "https://dblp.org/rec/conf/nips/WangZXLJHK21",
     "citations": 430,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -17467,6 +18710,8 @@
     "title": "Efficient Formal Safety Analysis of Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/WangPWYJ18",
     "citations": 473,
+    "arxiv": "1809.08098",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [
@@ -17588,6 +18833,8 @@
     "title": "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-031-98679-6_18",
     "citations": 22,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -17632,6 +18879,8 @@
     "title": "NN4SysBench: Characterizing Neural Network Verification for Computer Systems",
     "url": "https://dblp.org/rec/conf/nips/LinHWXZ0LT24",
     "citations": 5,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
     "tags": [],
@@ -17680,6 +18929,8 @@
     "title": "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-030-25540-4_26",
     "citations": 852,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [
@@ -17753,6 +19004,8 @@
     "title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
     "url": "https://doi.org/10.1007/978-3-319-63387-9_5",
     "citations": 2698,
+    "arxiv": "1702.01135",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -17857,6 +19110,8 @@
     "title": "Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees",
     "url": "https://dblp.org/rec/conf/nips/ZikelicLVCH23",
     "citations": 41,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -17893,6 +19148,8 @@
     "title": "Infinite Time Horizon Safety of Bayesian Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/LechnerZCH21",
     "citations": 20,
+    "arxiv": "2111.03165",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -17997,6 +19254,8 @@
     "title": "Fast Geometric Projections for Local Robustness Certification",
     "url": "https://dblp.org/rec/conf/iclr/FromherzLFPP21",
     "citations": 31,
+    "arxiv": "2002.04742",
+    "source": "dblp.org",
     "area": "complete",
     "area_name": "Complete verification",
     "tags": [],
@@ -18033,6 +19292,8 @@
     "title": "NNrepair: Constraint-Based Repair of Neural Network Classifiers",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_1",
     "citations": 97,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "repair",
     "area_name": "Repair & patching",
     "tags": [],
@@ -18141,6 +19402,8 @@
     "title": "Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning",
     "url": "https://doi.org/10.1007/978-3-030-81685-8_11",
     "citations": 122,
+    "arxiv": "",
+    "source": "dblp.org",
     "area": "control",
     "area_name": "NN control systems",
     "tags": [],
@@ -18181,6 +19444,8 @@
     "title": "Efficient and Accurate Estimation of Lipschitz Constants for Deep Neural Networks",
     "url": "https://dblp.org/rec/conf/nips/FazlyabRHMP19",
     "citations": 682,
+    "arxiv": "1906.04893",
+    "source": "dblp.org",
     "area": "bounds",
     "area_name": "Bound propagation & abstract interpretation",
     "tags": [],

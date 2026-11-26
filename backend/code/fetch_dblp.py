@@ -30,6 +30,11 @@ def fetch(url, name, refresh=False, headers=None):
             with urllib.request.urlopen(req, timeout=600) as r:
                 data = r.read()
             break
+        except urllib.error.HTTPError as e:
+            err = e
+            if e.code in (403, 404, 410):
+                return None
+            time.sleep(5 * (attempt + 1))
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             err = e
             time.sleep(5 * (attempt + 1))

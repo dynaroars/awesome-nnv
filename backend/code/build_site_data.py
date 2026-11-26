@@ -7,7 +7,7 @@ import sys
 
 import charts
 import graph
-from common import (AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
+from common import (all_papers, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
                     PAPERS, PEOPLE_JSON, ROSTER, SCORED_FIELDS, TOPICS, VENUE_KEYS, VENUE_NAME, VENUES, WORK, YEARS,
                     norm_name, read_csv, read_json, read_jsonl_gz, split_list, write_json)
 
@@ -43,6 +43,7 @@ def paper_url(p):
 
 
 def load_people(warnings):
+    dblp = read_json(PEOPLE_JSON, {})
     groups = {g["slug"]: g for g in read_csv(GROUPS_CSV)}
     people, by_pid, by_name = [], {}, {}
     for r in read_csv(ROSTER):
@@ -55,8 +56,9 @@ def load_people(warnings):
             warn(warnings, f"roster.csv: {r['slug']} has no DBLP pid")
         for pid in pids:
             by_pid[pid] = r["slug"]
-        for name in [r["name"], *split_list(r["aliases"])]:
-            by_name[norm_name(name)] = r["slug"]
+        for name in [r["name"], *split_list(r["aliases"]), *(dblp_name(dblp.get(pid, {}).get("name", "")) for pid in pids)]:
+            if name:
+                by_name[norm_name(name)] = r["slug"]
         people.append(r)
     return people, groups, by_pid, by_name
 
@@ -64,7 +66,7 @@ def load_people(warnings):
 def nnv_papers(topics, by_pid, by_name):
     cites = read_json(JSON_DIR / "citations.json", {})
     out = []
-    for p in read_jsonl_gz(PAPERS):
+    for p in all_papers():
         t = topics.get(p["key"])
         if not t:
             continue
@@ -72,8 +74,11 @@ def nnv_papers(topics, by_pid, by_name):
         for a in p["authors"]:
             slug = by_pid.get(a["pid"]) if a.get("pid") else by_name.get(norm_name(a["name"]))
             authors.append({"name": a["name"], "slug": slug or ""})
-        out.append({**p, **t, "authors": authors, "url": paper_url(p),
+        out.append({**p, **t, "authors": authors, "url": p.get("url") or paper_url(p),
                     "citations": cites[p["key"]]["citations"] if p["key"] in cites else None,
+                    "arxiv": cites.get(p["key"], {}).get("arxiv", ""),
+                    "by_name": [a["slug"] for a, src in zip(authors, p["authors"]) if a["slug"] and not src.get("pid")],
+                    "source": p.get("source", "dblp.org"),
                     "slugs": list(dict.fromkeys(a["slug"] for a in authors if a["slug"]))})
     assign_ids(out)
     out.sort(key=lambda p: (-p["year"], VENUE_KEYS.index(p["venue"]), p["title"].lower()))
@@ -108,6 +113,7 @@ def geomean(values):
 def paper_entry(p, names):
     return {"id": p["id"], "key": p["key"], "venue": p["venue"], "venue_name": VENUE_NAME[p["venue"]], "year": p["year"],
             "field": FIELD_OF[p["venue"]], "title": p["title"], "url": p["url"], "citations": p["citations"],
+            "arxiv": p["arxiv"], "source": p["source"],
             "area": p["area"],
             "area_name": AREA_NAME[p["area"]], "tags": [{"key": t, "name": AREA_NAME[t]} for t in p["tags"]],
             "authors": [{"name": names.get(a["slug"], a["name"]), "slug": a["slug"]} for a in p["authors"]]}
@@ -176,7 +182,9 @@ def build_groups(groups, researchers, papers, names):
 
 
 def top(items, key, n=10):
-    return [i for i in sorted(items, key=lambda i: (-key(i), i["name"])) if key(i)][:n]
+    ranked = [i for i in sorted(items, key=lambda i: (-key(i), -i["score"], i["name"])) if key(i)]
+    cut = key(ranked[n - 1]) if len(ranked) >= n else 0
+    return [i for k, i in enumerate(ranked) if k < n or key(i) == cut]
 
 
 def build_areas(papers, researchers, groups, names):
@@ -249,11 +257,18 @@ def main():
     topics = load_topics(warnings)
     people, groups, by_pid, by_name = load_people(warnings)
     papers = nnv_papers(topics, by_pid, by_name)
+    for p in papers:
+        for slug in p["by_name"]:
+            warn(warnings, f"name match to check: {slug} on {p['key']} ({VENUE_NAME[p['venue']]} {p['year']}) {p['title'][:60]}")
     missing = set(topics) - {p["key"] for p in papers}
     if missing:
         warn(warnings, f"{len(missing)} papers in topics.csv are not in the fetched lists: {sorted(missing)[:5]}")
     dblp_people = read_json(PEOPLE_JSON, {})
     coverage = read_json(WORK / "coverage.json", {})
+    from_sites = read_json(VIRTUAL_COVERAGE, {})
+    for venue, years in from_sites.items():
+        for y, c in years.items():
+            coverage.setdefault(venue, {}).setdefault(y, c)
     researchers, names = build_researchers(people, groups, papers, dblp_people)
     for r in researchers:
         if not r["papers"]:
@@ -271,7 +286,10 @@ def main():
             "fields": [{**f, "names": f["names"]} for f in FIELDS], "scored_fields": SCORED_FIELDS,
             "areas": [{"key": a["key"], "name": a["name"]} for a in AREAS],
             "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
-            "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps}
+            "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps,
+            "from_sites": [{"venue": VENUE_NAME[v], "year": int(y), "site": c["tocs"][0]}
+                           for v, ys in from_sites.items() for y, c in ys.items()
+                           if coverage[v][y] is c]}
     researchers = [r for r in researchers if r["papers"]]
     write_json(DATA / "meta.json", meta)
     write_json(DATA / "researchers.json", researchers)

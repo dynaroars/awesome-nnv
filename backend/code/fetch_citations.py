@@ -9,7 +9,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from common import JSON_DIR, PAPERS, TOPICS, norm_title, read_csv, read_json, read_jsonl_gz, write_json
+from common import all_papers, JSON_DIR, PAPERS, TOPICS, norm_title, read_csv, read_json, read_jsonl_gz, write_json
 
 API = "https://api.openalex.org/works"
 SELECT = "id,doi,title,publication_year,cited_by_count"
@@ -59,7 +59,7 @@ def main():
     if not KEY:
         print("  note: OPENALEX_API_KEY is not set; OpenAlex may limit the requests", file=sys.stderr)
     yes = {r["key"] for r in read_csv(TOPICS) if r["decision"] == "yes"}
-    papers = [p for p in read_jsonl_gz(PAPERS) if p["key"] in yes]
+    papers = [p for p in all_papers() if p["key"] in yes]
     known = {} if args.refresh else read_json(CITATIONS, {})
     todo = [p for p in papers if p["key"] not in known]
     by_doi = {}
@@ -78,7 +78,9 @@ def main():
             works.append(by_doi[p["doi"]])
         unique = {w["id"]: w for w in works}
         if unique:
-            known[p["key"]] = {"citations": sum(w["cited_by_count"] or 0 for w in unique.values()),
+            arxiv = next((d.split("arxiv.")[-1] for w in unique.values()
+                          for d in [(w.get("doi") or "").lower()] if "10.48550/arxiv." in d), "")
+            known[p["key"]] = {"citations": sum(w["cited_by_count"] or 0 for w in unique.values()), "arxiv": arxiv,
                                "openalex": sorted(i.rsplit("/", 1)[-1] for i in unique),
                                "matched": "doi+title" if p["doi"] in by_doi else "title", "fetched": stamp}
         else:

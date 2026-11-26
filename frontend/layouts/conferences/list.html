@@ -26,5 +26,5 @@
 	</tbody>
 </table>
 </div>
-<p class="note">A dash marks a year whose proceedings are not yet in dblp.</p>
+<p class="note">A dash marks a year whose proceedings are not yet in dblp.{{ with hugo.Data.meta.from_sites }} From the conference sites until dblp lists them: {{ range $k, $s := . }}{{ if $k }}, {{ end }}{{ $s.venue }} {{ $s.year }} ({{ $s.site }}){{ end }}.{{ end }}</p>
 {{- end }}
