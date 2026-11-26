@@ -287,18 +287,15 @@ def area_trends(papers):
     count = {a["key"]: [sum(1 for p in papers if p["year"] == y and (p["area"] == a["key"] or a["key"] in p["tags"]))
                         for y in YEARS] for a in AREAS}
     ranked = sorted(AREAS, key=lambda a: -sum(count[a["key"]]))
-    shown, rest = ranked[:7], ranked[7:]
-    series = [(f"hue{k + 1}", a["name"], count[a["key"]]) for k, a in enumerate(shown)]
-    series.append(("hue0", "Smaller areas",
-                   [sum(count[a["key"]][k] for a in rest) for k in range(len(YEARS))]))
-    return charts.multi_lines("NNV papers per year by area", YEARS, series), [a["name"] for a in rest]
+    series = [(f"hue{a['line'][0]} {a['line'][1]}", a["name"], count[a["key"]], a["key"]) for a in ranked]
+    return charts.multi_lines("NNV papers per year by area", YEARS, series)
 
 
 def overview(papers):
     areas = [("v1", a["name"], sum(1 for p in papers if p["area"] == a["key"])) for a in AREAS]
-    trends, smaller = area_trends(papers)
+    trends = area_trends(papers)
     return {"years": charts.stacked_columns("NNV papers per year by field", YEARS, field_series(papers)),
-            "areas": charts.hbars("NNV papers per area", areas), "area_trends": trends, "smaller_areas": smaller}
+            "areas": charts.hbars("NNV papers per area", areas), "area_trends": trends}
 
 
 def write_stubs(section, items):

@@ -119,10 +119,10 @@ def venue_panel(name, field, years, counts, totals, missing, not_held, top):
     return "".join(out)
 
 
-def multi_lines(label, years, series, note=None):
-    width, left, right, top, plot_h, bottom = 860, 34, 290, 14, 230, 26
+def multi_lines(label, years, series):
+    width, left, right, top, plot_h, bottom = 880, 34, 300, 14, 240, 26
     plot_w, base = width - left - right, top + plot_h
-    peak = max((v for _, _, values in series for v in values), default=0) or 1
+    peak = max((v for _, _, values, _ in series for v in values), default=0) or 1
     step = _step(peak, 5)
     top_value = step * -(-peak // step)
     xs = [left + plot_w * k / max(len(years) - 1, 1) for k in range(len(years))]
@@ -135,20 +135,24 @@ def multi_lines(label, years, series, note=None):
         v += step
     for x, y in zip(xs, years):
         out.append(f'<text x="{x:.1f}" y="{base + 17}" text-anchor="middle">{y}</text>')
-    ends = sorted(([y_of(values[-1]), k] for k, (_, _, values) in enumerate(series)), key=lambda e: e[0])
-    for k in range(1, len(ends)):
-        ends[k][0] = max(ends[k][0], ends[k - 1][0] + 15)
+    gap, lo, hi = 16, top + 4, base
+    ends = sorted(([y_of(values[-1]), k] for k, (_, _, values, _) in enumerate(series)), key=lambda e: e[0])
+    for k in range(len(ends)):
+        ends[k][0] = max(ends[k][0], lo if k == 0 else ends[k - 1][0] + gap)
+    for k in range(len(ends) - 1, -1, -1):
+        ends[k][0] = min(ends[k][0], hi if k == len(ends) - 1 else ends[k + 1][0] - gap)
     label_y = {k: y for y, k in ends}
-    for k, (cls, name, values) in enumerate(series):
+    kx = xs[-1] + 12
+    for k, (cls, name, values, key) in enumerate(series):
         pts = " ".join(f"{x:.1f},{y_of(v):.1f}" for x, v in zip(xs, values))
-        out.append(f'<g class="series {cls}" tabindex="0">')
+        ly = label_y[k]
+        out.append(f'<g class="series {cls}" data-key="{_esc(key)}" tabindex="0">')
         out.append(f'<polyline class="trend-hit" points="{pts}"/><polyline class="trend" points="{pts}"/>')
         for x, y, v in zip(xs, years, values):
-            out.append(f'<circle class="trend-dot" cx="{x:.1f}" cy="{y_of(v):.1f}" r="3.5"><title>{_esc(f"{name}, {y}: {v} papers")}</title></circle>')
-        ly = label_y[k]
-        out.append(f'<circle class="trend-key" cx="{xs[-1] + 14:.1f}" cy="{ly:.1f}" r="4"/>'
-                   f'<text class="trend-label" x="{xs[-1] + 22:.1f}" y="{ly + 4:.1f}">{_esc(name)}</text>'
-                   f'<rect class="trend-label-hit" x="{xs[-1] + 8:.1f}" y="{ly - 8:.1f}" width="{right - 12}" height="16"/>')
+            out.append(f'<circle class="trend-dot" cx="{x:.1f}" cy="{y_of(v):.1f}" r="4"><title>{_esc(f"{name}, {y}: {v} papers")}</title></circle>')
+        out.append(f'<line class="trend trend-key" x1="{kx:.1f}" y1="{ly:.1f}" x2="{kx + 24:.1f}" y2="{ly:.1f}"/>'
+                   f'<text class="trend-label" x="{kx + 30:.1f}" y="{ly + 4:.1f}">{_esc(name)}</text>'
+                   f'<rect class="trend-label-hit" x="{kx - 4:.1f}" y="{ly - 8:.1f}" width="{right - 16}" height="16"/>')
         out.append("</g>")
     out.append("</svg>")
     return "".join(out)

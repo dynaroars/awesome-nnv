@@ -521,12 +521,18 @@
 	document.querySelectorAll("svg.chart.lines").forEach(function (svg) {
 		var groups = svg.querySelectorAll(".series");
 		function off() { svg.classList.remove("focus"); groups.forEach(function (g) { g.classList.remove("hl"); }); }
+		function on(g) { off(); svg.classList.add("focus"); g.classList.add("hl"); g.parentNode.appendChild(g); }
 		groups.forEach(function (g) {
-			function on() { off(); svg.classList.add("focus"); g.classList.add("hl"); g.parentNode.appendChild(g); }
-			g.addEventListener("mouseenter", on);
-			g.addEventListener("focus", on);
+			g.addEventListener("mouseenter", function () { on(g); });
+			g.addEventListener("focus", function () { on(g); });
 			g.addEventListener("mouseleave", off);
 			g.addEventListener("blur", off);
+		});
+		document.querySelectorAll("tr[data-area]").forEach(function (tr) {
+			var g = svg.querySelector('.series[data-key="' + tr.dataset.area + '"]');
+			if (!g) return;
+			tr.addEventListener("mouseenter", function () { on(g); tr.classList.add("row-hl"); });
+			tr.addEventListener("mouseleave", function () { off(); tr.classList.remove("row-hl"); });
 		});
 	});
 })();

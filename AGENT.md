@@ -108,6 +108,11 @@ the site uses.
   group) but shown only on the local Candidates page; they reappear on the site once they reach 2. Identity is the
   DBLP pid (`dblp_pids`), never a name match, for DBLP papers; conference-site papers are matched by name (below).
   The maintainer also names people to track by hand ("Track X"): add them with `approved` = `yes` and a group.
+- **Areas line chart** (`multi_lines` in `charts.py`, Areas page): one line per area. Only blue, orange and aqua
+  pass the palette validator all-pairs in both themes, so colour and line style combine: `line` in `AREAS`
+  (`common.py`) fixes each area's (hue, style), styles solid, dashed, dotted and dash-dot by size tier (chosen
+  2026-11-26 from that day's order; keep them fixed so areas are never repainted). Keys are line samples; points
+  show only on the highlighted line; hovering a line, its label or an Areas table row highlights it.
 - **Collaboration graph marks:** every group with `LABEL_MIN` (4, `common.py`) or more shown researchers, and every
   group with `legend` = `yes`, gets a mark: one of the 8 validated categorical hues (`.hue1`-`.hue8` in
   `style.css`, light and dark steps from the dataviz palette) times 4 shapes (circle, square, diamond, triangle,

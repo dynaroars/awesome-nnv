@@ -3,7 +3,7 @@
 {{- with hugo.Data.overview }}
 <figure>
 {{ .area_trends | safeHTML }}
-<figcaption>NNV papers per year in each area, counting a paper in every area it belongs to (main topic or tag). The four smallest areas ({{ delimit .smaller_areas ", " }}) share one line.{{ partial "gap-note.html" . }}</figcaption>
+<figcaption>NNV papers per year in each area, counting a paper in every area it belongs to (main topic or tag). Colour and line style together identify an area; hover a line, its label or a table row to pick it out.{{ partial "gap-note.html" . }}</figcaption>
 </figure>
 {{- end }}
 <div class="scroll">
@@ -19,7 +19,7 @@
 	</thead>
 	<tbody>
 	{{- range sort hugo.Data.areas "total" "desc" }}
-	<tr>
+	<tr data-area="{{ .key }}">
 		<td class="l"><a href="{{ printf "areas/%s/" .key | relURL }}">{{ .name }}</a></td>
 		<td class="l wrap-cell">{{ .description }}</td>
 		<td class="total good">{{ .total }}</td>

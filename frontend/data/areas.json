@@ -1,6 +1,10 @@
 [
  {
   "key": "complete",
+  "line": [
+   3,
+   "dashed"
+  ],
   "name": "Complete verification",
   "description": "SMT, MILP, and branch-and-bound verifiers that decide properties exactly.",
   "papers": 35,
@@ -2248,6 +2252,10 @@
  },
  {
   "key": "bounds",
+  "line": [
+   2,
+   "solid"
+  ],
   "name": "Bound propagation & abstract interpretation",
   "description": "Sound over-approximations of network behavior using abstract domains, linear relaxations, and LP or SDP bounds.",
   "papers": 72,
@@ -6983,6 +6991,10 @@
  },
  {
   "key": "probabilistic",
+  "line": [
+   1,
+   "solid"
+  ],
   "name": "Probabilistic certification",
   "description": "Randomized smoothing and statistical (PAC) certification guarantees.",
   "papers": 120,
@@ -12642,6 +12654,10 @@
  },
  {
   "key": "training",
+  "line": [
+   3,
+   "solid"
+  ],
   "name": "Certified training",
   "description": "Training networks to be easier to verify, including IBP, CROWN-IBP, SABR, and related methods.",
   "papers": 73,
@@ -16308,6 +16324,10 @@
  },
  {
   "key": "repair",
+  "line": [
+   1,
+   "dashdot"
+  ],
   "name": "Repair & patching",
   "description": "Provable repair, verification-guided patching, and editing of neural networks.",
   "papers": 11,
@@ -16876,6 +16896,10 @@
  },
  {
   "key": "explanations",
+  "line": [
+   3,
+   "dotted"
+  ],
   "name": "Formal explanations",
   "description": "Using formal verification to produce abductive and minimal explanations of model decisions.",
   "papers": 12,
@@ -17473,6 +17497,10 @@
  },
  {
   "key": "control",
+  "line": [
+   1,
+   "dotted"
+  ],
   "name": "NN control systems",
   "description": "Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning.",
   "papers": 43,
@@ -19596,6 +19624,10 @@
  },
  {
   "key": "relational",
+  "line": [
+   2,
+   "dotted"
+  ],
   "name": "Global & relational properties",
   "description": "Global robustness, universal perturbations, fairness, monotonicity, hyperproperties, and semantic specifications.",
   "papers": 30,
@@ -21457,6 +21489,10 @@
  },
  {
   "key": "architectures",
+  "line": [
+   1,
+   "dashed"
+  ],
   "name": "Beyond feed-forward nets",
   "description": "Verification for transformers, RNNs, GNNs, tree ensembles, language and vision-language models, and object detectors.",
   "papers": 35,
@@ -25114,6 +25150,10 @@
  },
  {
   "key": "quantized",
+  "line": [
+   2,
+   "dashdot"
+  ],
   "name": "Quantized & bit-level",
   "description": "Bit-precise verification of quantized and binarized networks, including bit-flip resilience.",
   "papers": 9,
@@ -25684,6 +25724,10 @@
  },
  {
   "key": "other",
+  "line": [
+   2,
+   "dashed"
+  ],
   "name": "Other",
   "description": "Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys.",
   "papers": 46,

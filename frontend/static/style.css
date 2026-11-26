@@ -671,10 +671,15 @@ figure.clear { clear: both ; }
 .chart.lines { max-width: 860px ; }
 .chart.lines .trend { fill: none ; stroke: var(--c) ; stroke-width: 2 ; stroke-linejoin: round ; stroke-linecap: round ; transition: stroke-width .15s ; }
 .chart.lines .trend-hit { fill: none ; stroke: transparent ; stroke-width: 14 ; pointer-events: stroke ; }
-.chart.lines .trend-dot { fill: var(--c) ; stroke: var(--bg) ; stroke-width: 1.5 ; }
-.chart.lines .trend-key { fill: var(--c) ; }
 .chart.lines .trend-label-hit { fill: transparent ; }
 .chart.lines .series { cursor: pointer ; outline: none ; transition: opacity .15s ; }
 .chart.lines.focus .series:not(.hl) { opacity: 0.12 ; }
 .chart.lines .series.hl .trend { stroke-width: 3.5 ; }
 .chart.lines .series.hl .trend-label { fill: var(--chart-value) ; font-weight: 600 ; }
+.chart.lines .trend-dot { fill: var(--c) ; stroke: var(--bg) ; stroke-width: 1.5 ; opacity: 0 ; transition: opacity .15s ; }
+.chart.lines .series.hl .trend-dot { opacity: 1 ; }
+.chart.lines .dashed .trend { stroke-dasharray: 8 5 ; stroke-linecap: butt ; }
+.chart.lines .dotted .trend { stroke-dasharray: 0.1 5 ; stroke-linecap: round ; stroke-width: 2.6 ; }
+.chart.lines .dashdot .trend { stroke-dasharray: 9 4 2 4 ; stroke-linecap: butt ; }
+.chart.lines .series.hl.dotted .trend { stroke-width: 4 ; }
+tr[data-area].row-hl td { background: var(--callout) ; }
