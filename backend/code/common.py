@@ -28,6 +28,8 @@ FIRST_YEAR = 2017
 LAST_YEAR = datetime.date.today().year
 YEARS = list(range(FIRST_YEAR, LAST_YEAR + 1))
 MIN_PAGES = 6
+TRACK_MIN = 2
+LABEL_MIN = 4
 
 PACMPL = "journals/pacmpl/pacmpl"
 PACMSE = "journals/pacmse/pacmse"
@@ -65,20 +67,18 @@ VENUES = [
      "stream": "cav", "tocs": [r"conf/cav/cav(\d{4})-\d"]},
     {"key": "lics", "name": "LICS", "full_name": "ACM/IEEE Symposium on Logic in Computer Science",
      "stream": "lics", "tocs": [r"conf/lics/lics(\d{4})"]},
-    {"key": "nfm", "name": "NFM", "full_name": "NASA Formal Methods Symposium",
-     "stream": "nfm", "tocs": [r"conf/nfm/nfm(\d{4})"]},
 ]
 VENUE_KEYS = [v["key"] for v in VENUES]
 
 
 VENUE_MONTH = {"icml": 7, "iclr": 5, "neurips": 12, "cvpr": 6, "iccv": 10, "eccv": 10, "pldi": 6, "popl": 1,
-               "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7, "nfm": 5}
+               "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7}
 MONTH_EXCEPTIONS = {("iclr", 2020): 4, ("iclr", 2021): 5, ("iclr", 2022): 4, ("iclr", 2026): 4, ("eccv", 2020): 8,
                     ("eccv", 2018): 9, ("eccv", 2024): 9, ("fse", 2024): 7, ("fse", 2025): 6, ("fse", 2026): 7,
                     ("fse", 2017): 9, ("fse", 2018): 11, ("fse", 2019): 8, ("ase", 2018): 9, ("ase", 2019): 11,
                     ("ase", 2020): 9, ("ase", 2021): 11, ("ase", 2023): 9, ("ase", 2025): 11, ("issta", 2024): 9,
                     ("icse", 2017): 5, ("icse", 2025): 4, ("lics", 2018): 7, ("lics", 2019): 6, ("lics", 2022): 8,
-                    ("lics", 2024): 7, ("nfm", 2024): 6, ("icfp", 2025): 10, ("oopsla", 2023): 10,
+                    ("lics", 2024): 7, ("icfp", 2025): 10, ("oopsla", 2023): 10,
                     ("oopsla", 2024): 10, ("oopsla", 2025): 10, ("neurips", 2017): 12}
 
 
@@ -91,44 +91,40 @@ def held(venue, year):
 VENUE_NAME = {v["key"]: v["name"] for v in VENUES}
 
 FIELDS = [
-    {"key": "ml", "name": "ML", "full_name": "Machine learning", "venues": ["icml", "iclr", "neurips"], "scored": True},
-    {"key": "cv", "name": "CV", "full_name": "Computer vision", "venues": ["cvpr", "iccv", "eccv"], "scored": True},
-    {"key": "pl", "name": "PL", "full_name": "Programming languages", "venues": ["pldi", "popl", "icfp", "oopsla"],
-     "scored": True},
-    {"key": "se", "name": "SE", "full_name": "Software engineering", "venues": ["fse", "icse", "ase", "issta"],
-     "scored": True},
-    {"key": "lv", "name": "LV", "full_name": "Logic and verification", "venues": ["cav", "lics"], "scored": True},
-    {"key": "fm", "name": "Other FM", "full_name": "Other formal methods (not in CSRankings)", "venues": ["nfm"],
-     "scored": False},
+    {"key": "ml", "name": "ML", "full_name": "Machine learning", "venues": ["icml", "iclr", "neurips"]},
+    {"key": "cv", "name": "CV", "full_name": "Computer vision", "venues": ["cvpr", "iccv", "eccv"]},
+    {"key": "pl", "name": "PL", "full_name": "Programming languages", "venues": ["pldi", "popl", "icfp", "oopsla"]},
+    {"key": "se", "name": "SE", "full_name": "Software engineering", "venues": ["fse", "icse", "ase", "issta"]},
+    {"key": "lv", "name": "LV", "full_name": "Logic and verification", "venues": ["cav", "lics"]},
 ]
 for _f in FIELDS:
     _f["names"] = [VENUE_NAME[k] for k in _f["venues"]]
 FIELD_OF = {v: f["key"] for f in FIELDS for v in f["venues"]}
-SCORED_FIELDS = [f["key"] for f in FIELDS if f["scored"]]
+SCORED_FIELDS = [f["key"] for f in FIELDS]
 
 AREAS = [
     {"key": "complete", "name": "Complete verification",
-     "description": "SMT, MILP and branch-and-bound verifiers that decide a property exactly."},
+     "description": "SMT, MILP, and branch-and-bound verifiers that decide properties exactly."},
     {"key": "bounds", "name": "Bound propagation & abstract interpretation",
-     "description": "Sound over-approximation of network behaviour: abstract domains, linear relaxations, LP and SDP bounds."},
+     "description": "Sound over-approximations of network behavior using abstract domains, linear relaxations, and LP or SDP bounds."},
     {"key": "probabilistic", "name": "Probabilistic certification",
-     "description": "Randomized smoothing and statistical (PAC) guarantees."},
+     "description": "Randomized smoothing and statistical (PAC) certification guarantees."},
     {"key": "training", "name": "Certified training",
-     "description": "Training networks so that they can be verified: IBP, CROWN-IBP, SABR and successors."},
+     "description": "Training networks to be easier to verify, including IBP, CROWN-IBP, SABR, and related methods."},
     {"key": "repair", "name": "Repair & patching",
-     "description": "Provable repair, verification-guided patching and editing of networks."},
+     "description": "Provable repair, verification-guided patching, and editing of neural networks."},
     {"key": "explanations", "name": "Formal explanations",
-     "description": "Verification used to explain decisions: abductive and minimal explanations."},
+     "description": "Using formal verification to produce abductive and minimal explanations of model decisions."},
     {"key": "control", "name": "NN control systems",
-     "description": "Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, verified reinforcement learning."},
+     "description": "Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning."},
     {"key": "relational", "name": "Global & relational properties",
-     "description": "Global robustness, universal perturbations, fairness, monotonicity, hyperproperties and semantic specifications."},
+     "description": "Global robustness, universal perturbations, fairness, monotonicity, hyperproperties, and semantic specifications."},
     {"key": "architectures", "name": "Beyond feed-forward nets",
-     "description": "Transformers, recurrent and graph networks, tree ensembles, language and vision-language models, detectors."},
+     "description": "Verification for transformers, RNNs, GNNs, tree ensembles, language and vision-language models, and object detectors."},
     {"key": "quantized", "name": "Quantized & bit-level",
-     "description": "Bit-precise verification of quantized and binarized networks, bit-flip resilience."},
+     "description": "Bit-precise verification of quantized and binarized networks, including bit-flip resilience."},
     {"key": "other", "name": "Other",
-     "description": "Lipschitz certification, soundness of verifiers, proof checking, tools, benchmarks and surveys."},
+     "description": "Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys."},
 ]
 AREA_KEYS = [a["key"] for a in AREAS]
 AREA_NAME = {a["key"]: a["name"] for a in AREAS}
@@ -179,6 +175,42 @@ def assign_ids(papers):
         seen[base] = n + 1
         p["id"] = base if n == 0 else f"{base}{chr(ord('a') + n)}"
     return papers
+
+
+SMALL_WORDS = {"a", "an", "the", "and", "or", "but", "nor", "for", "of", "on", "in", "to", "via", "vs", "vs.", "with",
+               "at", "by", "from", "into", "as", "per", "over", "under", "without", "through"}
+ACRONYMS = {"ai", "ml", "nn", "nns", "dnn", "dnns", "cnn", "cnns", "rnn", "rnns", "gnn", "gnns", "llm", "llms", "vlm",
+            "vlms", "rag", "rl", "drl", "smt", "milp", "lp", "sdp", "ibp", "pac", "gpu", "gpus", "nnv", "vnn", "ood",
+            "nlp", "cv", "2d", "3d", "4d", "relu", "api", "iou", "sat", "mdp", "mdps", "ode", "odes", "vla", "vlas"}
+ACRONYM_FORM = {"llms": "LLMs", "gnns": "GNNs", "dnns": "DNNs", "cnns": "CNNs", "rnns": "RNNs", "nns": "NNs",
+                "vlms": "VLMs", "gpus": "GPUs", "mdps": "MDPs", "odes": "ODEs", "vlas": "VLAs", "relu": "ReLU"}
+
+
+def display_title(title):
+    letters = [c for c in title if c.isalpha()]
+    if len(letters) < 8 or sum(c.isupper() for c in letters) < 0.8 * len(letters):
+        return title
+    out, start = [], True
+    for token in re.split(r"(\s+)", title):
+        if not token or token.isspace():
+            out.append(token)
+            continue
+        parts = []
+        for k, part in enumerate(token.split("-")):
+            core = re.sub(r"[^A-Za-z0-9.]", "", part).lower()
+            if core in ACRONYMS:
+                word = part.replace(core.upper(), ACRONYM_FORM.get(core, core.upper())) if part.upper() == part else part
+            elif any(c.isdigit() for c in part):
+                word = part
+            elif core in SMALL_WORDS and not start and k == 0:
+                word = part.lower()
+            else:
+                low = part.lower()
+                word = re.sub(r"[a-z]", lambda m: m.group(0).upper(), low, count=1)
+            parts.append(word)
+        out.append("-".join(parts))
+        start = token.endswith(":") or token.endswith("?") or token.endswith(".")
+    return "".join(out)
 
 
 def page_count(pagination):

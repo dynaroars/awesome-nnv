@@ -3,4 +3,4 @@ title: "Papers"
 layout: "papers"
 ---
 
-Every paper counted as neural-network verification, newest first by the month of its conference, whether or not a listed researcher wrote it.
+All NNV papers tracked on this site, sorted newest first by conference month. This includes papers by authors who are not yet on the researchers list.

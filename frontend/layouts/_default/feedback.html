@@ -2,12 +2,12 @@
 {{ .Content }}
 <form class="feedback" action="https://github.com/{{ site.Params.repository }}/issues/new" method="get">
 	<label for="title">Title</label>
-	<input id="title" name="title" type="text" required maxlength="200" placeholder="e.g. Missing CAV 2026 paper of Jane Doe">
+	<input id="title" name="title" type="text" required maxlength="200" placeholder="e.g. Missing CAV 2026 paper by Jane Doe">
 	<label for="body">Details</label>
-	<textarea id="body" name="body" rows="10" required placeholder="What is incorrect or missing (a paper, its area, a researcher, a group), on which page, and a link that shows it, if available."></textarea>
+	<textarea id="body" name="body" rows="10" required placeholder="Tell us what is missing or needs fixing (a paper, area, researcher, or group), which page it's on, and a link if you have one."></textarea>
 	<div class="fb-actions">
 		<button type="submit">Continue on GitHub</button>
-		<button type="button" class="fb-mail" data-to="hi@thanhle.xyz">Send by e-mail</button>
+		<button type="button" class="fb-mail" data-to="hi@thanhle.xyz">Send by email</button>
 	</div>
 </form>
 {{- end }}

@@ -1,8 +1,8 @@
 {{ define "main" -}}
 {{- $r := index (where hugo.Data.researchers "slug" .Params.key) 0 }}
-<p><span class="dot {{ $r.color }}"></span> <a href="{{ printf "groups/%s/" $r.group | relURL }}">{{ $r.group_name }}</a>{{ with cond site.Params.local $r.institution_local $r.institution }} &middot; {{ . }}{{ end }}{{ if site.Params.local }}{{ with $r.role }} <span class="note">({{ . }})</span>{{ end }}{{ end }}</p>
+<p>{{ partial "swatch.html" $r }} <a href="{{ printf "groups/%s/" $r.group | relURL }}">{{ $r.group_name }}</a>{{ with cond site.Params.local $r.institution_local $r.institution }} &middot; {{ . }}{{ end }}{{ if site.Params.local }}{{ with $r.role }} <span class="note">({{ . }})</span>{{ end }}{{ end }}</p>
 <p class="links">{{ with $r.homepage }}<a href="{{ . }}">Homepage</a> &middot; {{ end }}{{ range $k, $d := $r.dblp }}{{ if $k }} &middot; {{ end }}<a href="{{ $d }}">dblp</a>{{ end }}{{ with $r.orcid }} &middot; <a href="https://orcid.org/{{ . }}">ORCID</a>{{ end }}</p>
-<p>{{ $r.name }} has {{ $r.papers }} neural-network verification paper{{ if ne (int $r.papers) 1 }}s{{ end }} at the seventeen tracked venues since {{ hugo.Data.meta.first_year }}, with a CSRankings adjusted count of {{ printf "%.2f" $r.score }} and {{ $r.citations }} citations.{{ if or $r.first_author $r.last_author }} First author of {{ $r.first_author }} of these papers, last author of {{ $r.last_author }}.{{ end }}</p>
+<p>{{ $r.name }} has {{ $r.papers }} NNV paper{{ if ne (int $r.papers) 1 }}s{{ end }} across the 16 tracked conferences since {{ hugo.Data.meta.first_year }}, with an adjusted score of {{ printf "%.2f" $r.score }} and {{ $r.citations }} citations{{ if or $r.first_author $r.last_author }} ({{ $r.first_author }} as first author, {{ $r.last_author }} as last author){{ end }}.</p>
 {{- if and site.Params.local $r.to_confirm }}<p class="flags">To confirm: {{ $r.to_confirm }}</p>{{ end }}
 <div class="scroll">
 <table>
@@ -22,7 +22,7 @@
 {{- end }}{{ end }}
 </ul>
 {{- with $r.coauthors }}
-<h2>Co-authors on the list</h2>
+<h2>Listed co-authors</h2>
 <p>{{ range $k, $c := . }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $c.slug | relURL }}">{{ $c.name }}</a> ({{ $c.papers }}){{ end }}</p>
 {{- end }}
 <h2>Papers</h2>

@@ -3,16 +3,23 @@
 <div class="with-toc graph-page">
 <aside class="toc legend-box" aria-label="Groups">
 <p class="toc-title">Groups</p>
+<div class="group-card" hidden role="tooltip"></div>
+<script type="application/json" id="group-info">{{ $g.groups | jsonify | safeJS }}</script>
 <ul class="graph-legend">
 	{{- range $g.legend }}
-	<li data-color="{{ .color }}"><span class="dot {{ .color }}{{ if .small }} ring{{ end }}"></span>{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
+	<li data-color="{{ .color }}" data-group="{{ .slug }}">{{ partial "swatch.html" . }}{{ with .logo }}<img class="legend-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
 	{{- end }}
 	<li class="edge-key"><span class="line-key"></span>Shared NNV papers</li>
-	<li class="size-key"><span class="dot g-other"></span>Group of {{ 3 }}+ researchers</li>
-	<li class="size-key"><span class="dot g-other ring"></span>Group of 1&ndash;2 researchers</li>
+	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" true) }}Group of {{ hugo.Data.meta.label_min }}+ researchers</li>
+	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" false) }}Group of 1&ndash;{{ sub hugo.Data.meta.label_min 1 }} researchers</li>
 </ul>
 </aside>
 <div class="toc-body">
+<div class="graph-tools">
+<p class="graph-search" hidden><label for="graph-search-input">Find a researcher</label> <input id="graph-search-input" type="search" list="graph-names" placeholder="Name" autocomplete="off"> <span class="search-status note" aria-live="polite"></span></p>
+<datalist id="graph-names">{{ range sort $g.nodes "name" }}<option value="{{ .name }}">{{ end }}</datalist>
+<p class="zoom-tools" hidden><button type="button" data-zoom="in" title="Zoom in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" title="Zoom out" aria-label="Zoom out">&minus;</button><button type="button" data-zoom="reset" title="Show the whole graph">Reset</button><span class="note">Ctrl/&#8984; + scroll or pinch to zoom, drag to pan</span></p>
+</div>
 <figure class="graph">
 <svg class="net" viewBox="0 0 {{ $g.width }} {{ $g.height }}" role="img" aria-label="{{ .Title }}">
 	{{- range $g.edges }}
@@ -22,11 +29,12 @@
 	<text class="ew" data-a="{{ .a }}" data-b="{{ .b }}" x="{{ .wx }}" y="{{ add .wy 4 }}" text-anchor="middle">{{ .weight }}</text>
 	{{- end }}{{ end }}
 	{{- range $g.nodes }}
-	<a href="{{ .url | relURL }}" class="node {{ .color }}{{ if .small }} ring{{ end }}" data-id="{{ .id }}" data-color="{{ .color }}">
-		<circle cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}"/>
+	<a href="{{ .url | relURL }}" class="node hue{{ .hue }}{{ if not .filled }} hollow{{ end }}" data-id="{{ .id }}" data-name="{{ .name }}" data-group="{{ .group_slug }}" data-papers="{{ .papers }}" data-degree="{{ .degree }}" aria-label="{{ .name }} ({{ .group }}): {{ .papers }} NNV papers, {{ .degree }} co-author{{ if ne (int .degree) 1 }}s{{ end }} on the list" data-color="{{ .color }}">
+		{{- if eq .shape "square" }}<rect class="shape" x="{{ .rx }}" y="{{ .ry }}" width="{{ .side }}" height="{{ .side }}"/>
+		{{- else if .points }}<polygon class="shape" points="{{ .points }}"/>
+		{{- else }}<circle class="shape" cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}"/>{{ end }}
 		<text class="deg" x="{{ .x }}" y="{{ add .y 4 }}" text-anchor="middle">{{ .degree }}</text>
 		<text x="{{ .lx }}" y="{{ .ly }}">{{ .name }}</text>
-		<title>{{ .name }} ({{ .group }}): {{ .papers }} NNV papers, {{ .degree }} co-author{{ if ne (int .degree) 1 }}s{{ end }} on the list</title>
 	</a>
 	{{- end }}
 </svg>

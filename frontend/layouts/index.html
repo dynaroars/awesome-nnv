@@ -3,8 +3,8 @@ Neural-network verification researchers, {{ hugo.Data.meta.first_year }}&ndash;{
 {{- end }}
 {{ define "main" -}}
 {{ .Content }}
-{{ partial "researcher-table.html" (dict "rows" hugo.Data.researchers "id" "researchers-table") }}
-<aside class="callout"><p>The score is the <a href="https://csrankings.org/">CSRankings</a> adjusted count: each NNV paper at a CSRankings venue is worth 1 / (number of authors) to each listed author. NFM papers are listed but not scored. See <a href="{{ "about/" | relURL }}">About</a>.</p></aside>
+{{ partial "researcher-table.html" (dict "rows" hugo.Data.researchers "id" "researchers-table" "page" 50) }}
+<aside class="callout"><p>Scores use the <a href="https://csrankings.org/">CSRankings</a> adjusted count: each NNV paper gives 1 / (number of authors) credit to every listed author. See <a href="{{ "about/" | relURL }}">About</a> for details.</p></aside>
 {{- with hugo.Data.meta.gaps }}
 <p class="note">Not yet in dblp: {{ range $k, $g := . }}{{ if $k }}; {{ end }}{{ $g.venue }} {{ delimit $g.years ", " }}{{ end }}.</p>
 {{- end }}
@@ -12,7 +12,7 @@ Neural-network verification researchers, {{ hugo.Data.meta.first_year }}&ndash;{
 <div class="fig-row">
 <figure>
 {{ .years | safeHTML }}
-<figcaption>All NNV papers at the seventeen venues per year, by CSRankings field (every author, not only listed researchers).</figcaption>
+<figcaption>NNV papers per year across all 16 conferences, broken down by field (includes all authors, not just listed researchers).</figcaption>
 </figure>
 <figure>
 {{ .areas | safeHTML }}

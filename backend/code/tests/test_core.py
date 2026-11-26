@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import build_site_data
-from common import AREA_KEYS, FIELD_OF, assign_ids, scholar_id, VENUES, dblp_name, norm_name, page_count, split_list
+from common import AREA_KEYS, FIELD_OF, assign_ids, display_title, scholar_id, VENUES, dblp_name, norm_name, page_count, split_list
 from scan_topics import hit
 
 
@@ -34,6 +34,12 @@ class CommonTest(unittest.TestCase):
         papers = [{"key": k, "year": 2020, "title": "Towards X", "authors": [{"name": "Li Wang"}]} for k in ("b", "a")]
         assign_ids(papers)
         self.assertEqual(sorted(p["id"] for p in papers), ["wang2020towards", "wang2020towardsb"])
+
+    def test_display_title(self):
+        self.assertEqual(display_title("CERTIFIED VS. EMPIRICAL ADVERSARIAL ROBUSTNESS VIA HYBRID CONVOLUTIONS WITH ATTENTION STOCHASTICITY"),
+                         "Certified vs. Empirical Adversarial Robustness via Hybrid Convolutions with Attention Stochasticity")
+        self.assertEqual(display_title("RHOPE: LLM-AUGMENTED ADAPTIVE DESIGN FOR GNNS"), "Rhope: LLM-Augmented Adaptive Design for GNNs")
+        self.assertEqual(display_title("Reluplex: An Efficient SMT Solver"), "Reluplex: An Efficient SMT Solver")
 
     def test_split_list(self):
         self.assertEqual(split_list("a; b;;c "), ["a", "b", "c"])
@@ -66,10 +72,10 @@ class ScoreTest(unittest.TestCase):
 
     def test_score_fields_counts_each_member_share(self):
         papers = [{"venue": "cav", "authors": [{}, {}, {}, {}], "slugs": ["a", "b"]},
-                  {"venue": "nfm", "authors": [{}, {}], "slugs": ["a"]}]
+                  {"venue": "icml", "authors": [{}, {}], "slugs": ["a"]}]
         self.assertEqual(build_site_data.score_fields(papers, {"a"})["lv"], 0.25)
         self.assertEqual(build_site_data.score_fields(papers, {"a", "b"})["lv"], 0.5)
-        self.assertNotIn("fm", build_site_data.score_fields(papers, {"a"}))
+        self.assertEqual(build_site_data.score_fields(papers, {"a"})["ml"], 0.5)
 
     def test_areas_known(self):
         self.assertIn("other", AREA_KEYS)

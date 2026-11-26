@@ -4,5 +4,5 @@ layout: "candidates"
 draft: true
 ---
 
-Authors with two or more NNV papers who are not decided in `roster.csv`, most papers first. Many last-author papers usually mean a principal investigator; students are not listed on the site. Decide each with `approved` = `yes` (and a group) or `no` (with the reason).
+Authors not currently shown on the public site, sorted by NNV paper count. This includes undecided authors with at least two NNV papers, plus approved roster members who have fewer than three NNV papers so far. A high last-author count usually points to a PI (students are generally not listed). Mark each in the roster with `approved` = `yes` (with a group) or `no` (with a reason).
 *(Local draft page: not in the public build.)*

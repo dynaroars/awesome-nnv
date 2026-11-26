@@ -2,4 +2,4 @@
 title: "Conferences"
 ---
 
-NNV papers per conference and year, among all main-track papers that dblp lists.
+How many NNV papers appeared at each conference by year, compared against all main-track papers indexed in dblp.

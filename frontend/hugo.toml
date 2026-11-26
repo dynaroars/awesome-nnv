@@ -5,7 +5,7 @@ title = 'Awesome NNV'
 disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
-  description = 'Neural-network verification papers of leading researchers at seventeen top venues in machine learning, computer vision, programming languages, software engineering and formal methods since 2017, grouped as CSRankings does.'
+  description = 'Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.'
   local = true
   repository = 'thanhlexyz/awesome-nnv'
 

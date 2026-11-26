@@ -1,7 +1,7 @@
-{{- $rows := .rows }}{{ $id := .id }}{{ $group := .group | default true }}
+{{- $rows := .rows }}{{ $id := .id }}{{ $group := .group | default true }}{{ $page := .page | default 0 }}
 <div class="table-box">
 <div class="scroll pinned top">
-<table class="podium" id="{{ $id }}">
+<table class="podium" id="{{ $id }}"{{ with $page }} data-page-size="{{ . }}"{{ end }}>
 	<thead>
 	<tr>
 		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
@@ -13,17 +13,17 @@
 	</tr>
 	<tr>
 		{{ partial "field-heads.html" . }}
-		<th class="score" data-podium title="CSRankings adjusted count: each paper at a CSRankings venue is worth 1 / (number of authors). NFM is not counted.">Score</th>
-		<th class="good" title="All NNV papers at the seventeen venues">Papers</th>
-		<th title="Citations of these NNV papers on OpenAlex">Citations</th>
+		<th class="score" data-podium title="CSRankings adjusted count: each paper gives 1 / (number of authors) credit">Score</th>
+		<th class="good" title="Total NNV papers across the 16 tracked conferences">Papers</th>
+		<th title="OpenAlex citations for these NNV papers">Citations</th>
 	</tr>
 	</thead>
 	<tbody>
 	{{- range $n, $r := $rows }}
-	<tr>
+	<tr{{ if and $page (ge $n $page) }} class="off-page"{{ end }}>
 		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
 		<td class="l pin1"><a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a></td>
-		{{- if $group }}<td class="l pin2"><span class="dot {{ .color }}"></span> <a href="{{ printf "groups/%s/" .group | relURL }}">{{ .group_name }}</a></td>{{ end }}
+		{{- if $group }}<td class="l pin2">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .group | relURL }}">{{ .group_name }}</a></td>{{ end }}
 		<td class="l">{{ if site.Params.local }}{{ .institution_local_short }}{{ else }}{{ .institution_short }}{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}
 		<td class="score">{{ printf "%.2f" .score }}</td>
@@ -34,4 +34,8 @@
 	</tbody>
 </table>
 </div>
+{{- with $page }}
+<nav class="pager" aria-controls="{{ $id }}" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
+<noscript><style>#{{ $id }} tr.off-page { display: table-row ; }</style></noscript>
+{{- end }}
 </div>

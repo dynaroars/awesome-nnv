@@ -15,8 +15,7 @@
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 2,
@@ -71,6 +70,11 @@
     "papers": 5
    },
    {
+    "slug": "tsui-wei-weng",
+    "name": "Tsui-Wei Weng",
+    "papers": 5
+   },
+   {
     "slug": "martin-vechev",
     "name": "Martin Vechev",
     "papers": 4
@@ -101,49 +105,54 @@
     "papers": 3
    },
    {
+    "slug": "alexander-levine",
+    "name": "Alexander Levine",
+    "papers": 3
+   },
+   {
     "slug": "pin-yu-chen",
     "name": "Pin-Yu Chen",
     "papers": 3
    },
    {
-    "slug": "matthias-hein",
-    "name": "Matthias Hein",
-    "papers": 2
+    "slug": "tobias-lorenz",
+    "name": "Tobias Lorenz",
+    "papers": 3
    },
    {
-    "slug": "cho-jui-hsieh",
-    "name": "Cho-Jui Hsieh",
-    "papers": 2
+    "slug": "blaise-delattre",
+    "name": "Blaise Delattre",
+    "papers": 3
    },
    {
-    "slug": "yuhao-mao",
-    "name": "Yuhao Mao",
-    "papers": 2
+    "slug": "mario-fritz",
+    "name": "Mario Fritz",
+    "papers": 3
    },
    {
-    "slug": "tom-goldstein",
-    "name": "Tom Goldstein",
-    "papers": 2
+    "slug": "david-boetius",
+    "name": "David Boetius",
+    "papers": 3
    },
    {
-    "slug": "tsui-wei-weng",
-    "name": "Tsui-Wei Weng",
-    "papers": 2
+    "slug": "stefan-leue",
+    "name": "Stefan Leue",
+    "papers": 3
    },
    {
-    "slug": "philip-torr",
-    "name": "Philip Torr",
-    "papers": 2
+    "slug": "tobias-sutter",
+    "name": "Tobias Sutter",
+    "papers": 3
    },
    {
-    "slug": "hong-ming-chiu",
-    "name": "Hong-Ming Chiu",
-    "papers": 2
+    "slug": "alaa-anani",
+    "name": "Alaa Anani",
+    "papers": 3
    },
    {
-    "slug": "adel-bibi",
-    "name": "Adel Bibi",
-    "papers": 2
+    "slug": "bernt-schiele",
+    "name": "Bernt Schiele",
+    "papers": 3
    }
   ],
   "paper_list": [
@@ -205,19 +214,19 @@
     "authors": [
      {
       "name": "Alaa Anani",
-      "slug": ""
+      "slug": "alaa-anani"
      },
      {
       "name": "Tobias Lorenz",
-      "slug": ""
+      "slug": "tobias-lorenz"
      },
      {
       "name": "Bernt Schiele",
-      "slug": ""
+      "slug": "bernt-schiele"
      },
      {
       "name": "Mario Fritz",
-      "slug": ""
+      "slug": "mario-fritz"
      },
      {
       "name": "Jonas Fischer",
@@ -244,7 +253,7 @@
     "authors": [
      {
       "name": "Blaise Delattre",
-      "slug": ""
+      "slug": "blaise-delattre"
      },
      {
       "name": "Hengyu WU",
@@ -296,7 +305,7 @@
      },
      {
       "name": "Yan Scholten",
-      "slug": ""
+      "slug": "yan-scholten"
      },
      {
       "name": "Stephan Günnemann",
@@ -593,7 +602,7 @@
     "authors": [
      {
       "name": "Konstantin Kaulen",
-      "slug": "konstantin-kaulen"
+      "slug": ""
      },
      {
       "name": "Hadar Shavit",
@@ -632,8 +641,8 @@
       "slug": ""
      },
      {
-      "name": "Paul MONTAGUE",
-      "slug": ""
+      "name": "Paul Montague",
+      "slug": "paul-montague"
      },
      {
       "name": "Feng Liu",
@@ -641,7 +650,7 @@
      },
      {
       "name": "Andrew C. Cullen",
-      "slug": ""
+      "slug": "andrew-c-cullen"
      },
      {
       "name": "Amar Kaur",
@@ -681,11 +690,11 @@
     "authors": [
      {
       "name": "David Boetius",
-      "slug": ""
+      "slug": "david-boetius"
      },
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      },
      {
       "name": "Guy Katz",
@@ -693,11 +702,11 @@
      },
      {
       "name": "Stefan Leue",
-      "slug": ""
+      "slug": "stefan-leue"
      },
      {
       "name": "Tobias Sutter",
-      "slug": ""
+      "slug": "tobias-sutter"
      }
     ]
    },
@@ -720,7 +729,7 @@
     "authors": [
      {
       "name": "Chenhao Sun",
-      "slug": ""
+      "slug": "chenhao-sun"
      },
      {
       "name": "Yuhao Mao",
@@ -764,7 +773,7 @@
      },
      {
       "name": "Sagar Malhotra",
-      "slug": ""
+      "slug": "sagar-malhotra"
      },
      {
       "name": "Andrea Passerini",
@@ -836,7 +845,7 @@
     "authors": [
      {
       "name": "Thomas Massena",
-      "slug": ""
+      "slug": "thomas-massena"
      },
      {
       "name": "Léo Andéol",
@@ -844,19 +853,19 @@
      },
      {
       "name": "Thibaut Boissin",
-      "slug": ""
+      "slug": "thibaut-boissin"
      },
      {
       "name": "Franck Mamalet",
-      "slug": ""
+      "slug": "franck-mamalet"
      },
      {
       "name": "Corentin Friedrich",
-      "slug": ""
+      "slug": "corentin-friedrich"
      },
      {
       "name": "Mathieu Serrurier",
-      "slug": ""
+      "slug": "mathieu-serrurier"
      },
      {
       "name": "Sébastien Gerchinovitz",
@@ -931,7 +940,7 @@
      },
      {
       "name": "Ezio Bartocci",
-      "slug": ""
+      "slug": "ezio-bartocci"
      },
      {
       "name": "Efstathia Bura",
@@ -1010,11 +1019,11 @@
      },
      {
       "name": "Balázs Bánhelyi",
-      "slug": ""
+      "slug": "balazs-banhelyi"
      },
      {
       "name": "Márk Jelasity",
-      "slug": ""
+      "slug": "mark-jelasity"
      }
     ]
    },
@@ -1037,19 +1046,19 @@
     "authors": [
      {
       "name": "Alaa Anani",
-      "slug": ""
+      "slug": "alaa-anani"
      },
      {
       "name": "Tobias Lorenz",
-      "slug": ""
+      "slug": "tobias-lorenz"
      },
      {
       "name": "Mario Fritz",
-      "slug": ""
+      "slug": "mario-fritz"
      },
      {
       "name": "Bernt Schiele",
-      "slug": ""
+      "slug": "bernt-schiele"
      }
     ]
    },
@@ -1089,7 +1098,7 @@
      },
      {
       "name": "Sagar Malhotra",
-      "slug": ""
+      "slug": "sagar-malhotra"
      }
     ]
    },
@@ -1159,7 +1168,7 @@
      },
      {
       "name": "Richard Y. Zhang",
-      "slug": ""
+      "slug": "richard-y-zhang"
      }
     ]
    },
@@ -1187,15 +1196,15 @@
     "authors": [
      {
       "name": "David Boetius",
-      "slug": ""
+      "slug": "david-boetius"
      },
      {
       "name": "Stefan Leue",
-      "slug": ""
+      "slug": "stefan-leue"
      },
      {
       "name": "Tobias Sutter",
-      "slug": ""
+      "slug": "tobias-sutter"
      }
     ]
    },
@@ -1218,19 +1227,19 @@
     "authors": [
      {
       "name": "Alaa Anani",
-      "slug": ""
+      "slug": "alaa-anani"
      },
      {
       "name": "Tobias Lorenz",
-      "slug": ""
+      "slug": "tobias-lorenz"
      },
      {
       "name": "Bernt Schiele",
-      "slug": ""
+      "slug": "bernt-schiele"
      },
      {
       "name": "Mario Fritz",
-      "slug": ""
+      "slug": "mario-fritz"
      }
     ]
    },
@@ -1294,11 +1303,11 @@
     "authors": [
      {
       "name": "Mintong Kang",
-      "slug": ""
+      "slug": "mintong-kang"
      },
      {
       "name": "Nezihe Merve Gürel",
-      "slug": ""
+      "slug": "nezihe-merve-gurel"
      },
      {
       "name": "Ning Yu",
@@ -1377,7 +1386,7 @@
     "authors": [
      {
       "name": "Taha Entesari",
-      "slug": ""
+      "slug": "taha-entesari"
      },
      {
       "name": "Sina Sharifi",
@@ -1459,7 +1468,7 @@
     "authors": [
      {
       "name": "Francisco Eiras",
-      "slug": ""
+      "slug": "francisco-eiras"
      },
      {
       "name": "Adel Bibi",
@@ -1584,7 +1593,7 @@
      },
      {
       "name": "Ruikun Zhou",
-      "slug": ""
+      "slug": "ruikun-zhou"
      },
      {
       "name": "Amartya Mukherjee",
@@ -1600,7 +1609,7 @@
      },
      {
       "name": "Jun Liu",
-      "slug": ""
+      "slug": "jun-liu"
      }
     ]
    },
@@ -1672,7 +1681,7 @@
      },
      {
       "name": "Ruth Misener",
-      "slug": ""
+      "slug": "ruth-misener"
      }
     ]
    },
@@ -1726,15 +1735,15 @@
     "authors": [
      {
       "name": "David Boetius",
-      "slug": ""
+      "slug": "david-boetius"
      },
      {
       "name": "Stefan Leue",
-      "slug": ""
+      "slug": "stefan-leue"
      },
      {
       "name": "Tobias Sutter",
-      "slug": ""
+      "slug": "tobias-sutter"
      }
     ]
    },
@@ -1765,11 +1774,11 @@
      },
      {
       "name": "Morteza Lahijanian",
-      "slug": ""
+      "slug": "morteza-lahijanian"
      },
      {
       "name": "Luca Laurenti",
-      "slug": ""
+      "slug": "luca-laurenti"
      }
     ]
    },
@@ -1801,7 +1810,7 @@
      },
      {
       "name": "Francisco Eiras",
-      "slug": ""
+      "slug": "francisco-eiras"
      },
      {
       "name": "Amartya Sanyal",
@@ -1840,15 +1849,15 @@
      },
      {
       "name": "Yang Zhou",
-      "slug": ""
+      "slug": "yang-zhou"
      },
      {
       "name": "Jiayin Jin",
-      "slug": ""
+      "slug": "jiayin-jin"
      },
      {
       "name": "Lingjuan Lyu",
-      "slug": ""
+      "slug": "lingjuan-lyu"
      },
      {
       "name": "Da Yan",
@@ -1902,19 +1911,19 @@
     "authors": [
      {
       "name": "Blaise Delattre",
-      "slug": ""
+      "slug": "blaise-delattre"
      },
      {
       "name": "Quentin Barthélemy",
-      "slug": ""
+      "slug": "quentin-barthelemy"
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Alexandre Allauzen",
-      "slug": ""
+      "slug": "alexandre-allauzen"
      }
     ]
    },
@@ -1937,7 +1946,7 @@
     "authors": [
      {
       "name": "Václav Vorácek",
-      "slug": ""
+      "slug": "vaclav-voracek"
      },
      {
       "name": "Matthias Hein",
@@ -1976,11 +1985,11 @@
      },
      {
       "name": "Thibaut Boissin",
-      "slug": ""
+      "slug": "thibaut-boissin"
      },
      {
       "name": "Mathieu Serrurier",
-      "slug": ""
+      "slug": "mathieu-serrurier"
      },
      {
       "name": "Quentin Vincenot",
@@ -2050,7 +2059,7 @@
      },
      {
       "name": "Richard Y. Zhang",
-      "slug": ""
+      "slug": "richard-y-zhang"
      }
     ]
    },
@@ -2077,15 +2086,15 @@
      },
      {
       "name": "Blaise Delattre",
-      "slug": ""
+      "slug": "blaise-delattre"
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Alexandre Allauzen",
-      "slug": ""
+      "slug": "alexandre-allauzen"
      }
     ]
    },
@@ -2117,7 +2126,7 @@
      },
      {
       "name": "Yisen Wang",
-      "slug": ""
+      "slug": "yisen-wang"
      },
      {
       "name": "Zhouchen Lin",
@@ -2152,7 +2161,7 @@
      },
      {
       "name": "Yisen Wang",
-      "slug": ""
+      "slug": "yisen-wang"
      }
     ]
    },
@@ -2179,11 +2188,11 @@
      },
      {
       "name": "Ping-Yeh Chiang",
-      "slug": ""
+      "slug": "ping-yeh-chiang"
      },
      {
       "name": "Michael J. Curry",
-      "slug": ""
+      "slug": "michael-j-curry"
      },
      {
       "name": "Rajiv Jain",
@@ -2198,8 +2207,8 @@
       "slug": ""
      },
      {
-      "name": "John P. Dickerson",
-      "slug": ""
+      "name": "John Dickerson",
+      "slug": "john-dickerson"
      },
      {
       "name": "Tom Goldstein",
@@ -2269,7 +2278,7 @@
     "authors": [
      {
       "name": "Maurice Weber",
-      "slug": ""
+      "slug": "maurice-weber"
      },
      {
       "name": "Linyi Li",
@@ -2277,11 +2286,11 @@
      },
      {
       "name": "Boxin Wang",
-      "slug": ""
+      "slug": "boxin-wang"
      },
      {
       "name": "Zhikuan Zhao",
-      "slug": ""
+      "slug": "zhikuan-zhao"
      },
      {
       "name": "Bo Li",
@@ -2289,7 +2298,7 @@
      },
      {
       "name": "Ce Zhang",
-      "slug": ""
+      "slug": "ce-zhang"
      }
     ]
    },
@@ -2316,11 +2325,11 @@
      },
      {
       "name": "Jiawei Zhang",
-      "slug": ""
+      "slug": "jiawei-zhang"
      },
      {
       "name": "Tao Xie",
-      "slug": ""
+      "slug": "tao-xie"
      },
      {
       "name": "Bo Li",
@@ -2392,7 +2401,7 @@
     "authors": [
      {
       "name": "Zhongkai Hao",
-      "slug": ""
+      "slug": "zhongkai-hao"
      },
      {
       "name": "Chengyang Ying",
@@ -2400,11 +2409,11 @@
      },
      {
       "name": "Yinpeng Dong",
-      "slug": ""
+      "slug": "yinpeng-dong"
      },
      {
       "name": "Hang Su",
-      "slug": ""
+      "slug": "hang-su"
      },
      {
       "name": "Jian Song",
@@ -2412,7 +2421,7 @@
      },
      {
       "name": "Jun Zhu",
-      "slug": ""
+      "slug": "jun-zhu"
      }
     ]
    },
@@ -2435,11 +2444,11 @@
     "authors": [
      {
       "name": "Wenxiao Wang",
-      "slug": ""
+      "slug": "wenxiao-wang"
      },
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -2471,7 +2480,7 @@
     "authors": [
      {
       "name": "Jiayin Jin",
-      "slug": ""
+      "slug": "jiayin-jin"
      },
      {
       "name": "Zeru Zhang",
@@ -2479,7 +2488,7 @@
      },
      {
       "name": "Yang Zhou",
-      "slug": ""
+      "slug": "yang-zhou"
      },
      {
       "name": "Lingfei Wu",
@@ -2549,11 +2558,11 @@
      },
      {
       "name": "Shiyu Chang",
-      "slug": ""
+      "slug": "shiyu-chang"
      },
      {
       "name": "Sijia Liu",
-      "slug": ""
+      "slug": "sijia-liu"
      },
      {
       "name": "Pin-Yu Chen",
@@ -2589,7 +2598,7 @@
     "authors": [
      {
       "name": "Václav Vorácek",
-      "slug": ""
+      "slug": "vaclav-voracek"
      },
      {
       "name": "Matthias Hein",
@@ -2710,7 +2719,7 @@
     "authors": [
      {
       "name": "Chulin Xie",
-      "slug": ""
+      "slug": "chulin-xie"
      },
      {
       "name": "Minghao Chen",
@@ -2761,7 +2770,7 @@
      },
      {
       "name": "Nina Narodytska",
-      "slug": ""
+      "slug": "nina-narodytska"
      }
     ]
    },
@@ -2788,7 +2797,7 @@
      },
      {
       "name": "Zifan Wang",
-      "slug": ""
+      "slug": "zifan-wang"
      },
      {
       "name": "Matt Fredrikson",
@@ -2815,7 +2824,7 @@
     "authors": [
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -2842,7 +2851,7 @@
     "authors": [
      {
       "name": "Matt Jordan",
-      "slug": ""
+      "slug": "matt-jordan"
      },
      {
       "name": "Alex Dimakis",
@@ -2873,7 +2882,7 @@
      },
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Martin Vechev",
@@ -2900,7 +2909,7 @@
     "authors": [
      {
       "name": "Bohang Zhang",
-      "slug": ""
+      "slug": "bohang-zhang"
      },
      {
       "name": "Tianle Cai",
@@ -2912,7 +2921,7 @@
      },
      {
       "name": "Di He",
-      "slug": ""
+      "slug": "di-he"
      },
      {
       "name": "Liwei Wang",
@@ -3001,15 +3010,15 @@
     "authors": [
      {
       "name": "Elan Rosenfeld",
-      "slug": ""
+      "slug": "elan-rosenfeld"
      },
      {
       "name": "Ezra Winston",
-      "slug": ""
+      "slug": "ezra-winston"
      },
      {
       "name": "Pradeep Ravikumar",
-      "slug": ""
+      "slug": "pradeep-ravikumar"
      },
      {
       "name": "Zico Kolter",
@@ -3036,11 +3045,11 @@
     "authors": [
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Tom Goldstein",
@@ -3076,11 +3085,11 @@
     "authors": [
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Johannes Klicpera",
-      "slug": ""
+      "slug": "johannes-klicpera"
      },
      {
       "name": "Stephan Günnemann",
@@ -3141,8 +3150,8 @@
       "slug": ""
      },
      {
-      "name": "Lily Weng",
-      "slug": ""
+      "name": "Tsui-Wei Weng",
+      "slug": "tsui-wei-weng"
      },
      {
       "name": "Luca Daniel",
@@ -3169,7 +3178,7 @@
     "authors": [
      {
       "name": "Greg Yang",
-      "slug": ""
+      "slug": "greg-yang"
      },
      {
       "name": "Tony Duan",
@@ -3181,15 +3190,15 @@
      },
      {
       "name": "Hadi Salman",
-      "slug": ""
+      "slug": "hadi-salman"
      },
      {
       "name": "Ilya P. Razenshteyn",
-      "slug": ""
+      "slug": "ilya-p-razenshteyn"
      },
      {
       "name": "Jerry Li",
-      "slug": ""
+      "slug": "jerry-li"
      }
     ]
    },
@@ -3291,7 +3300,7 @@
      },
      {
       "name": "Elan Rosenfeld",
-      "slug": ""
+      "slug": "elan-rosenfeld"
      },
      {
       "name": "Zico Kolter",
@@ -3354,15 +3363,15 @@
     "authors": [
      {
       "name": "Ching-Yun Ko",
-      "slug": ""
+      "slug": "ching-yun-ko"
      },
      {
       "name": "Zhaoyang Lyu",
-      "slug": ""
+      "slug": "zhaoyang-lyu"
      },
      {
-      "name": "Lily Weng",
-      "slug": ""
+      "name": "Tsui-Wei Weng",
+      "slug": "tsui-wei-weng"
      },
      {
       "name": "Luca Daniel",
@@ -3374,7 +3383,7 @@
      },
      {
       "name": "Dahua Lin",
-      "slug": ""
+      "slug": "dahua-lin"
      }
     ]
    },
@@ -3401,8 +3410,8 @@
     ],
     "authors": [
      {
-      "name": "Lily Weng",
-      "slug": ""
+      "name": "Tsui-Wei Weng",
+      "slug": "tsui-wei-weng"
      },
      {
       "name": "Pin-Yu Chen",
@@ -3422,7 +3431,7 @@
      },
      {
       "name": "Ivan V. Oseledets",
-      "slug": ""
+      "slug": "ivan-v-oseledets"
      },
      {
       "name": "Luca Daniel",
@@ -3454,7 +3463,7 @@
     "authors": [
      {
       "name": "Matthew Mirman",
-      "slug": ""
+      "slug": "matthew-mirman"
      },
      {
       "name": "Timon Gehr",
@@ -3490,7 +3499,7 @@
     "authors": [
      {
       "name": "Eric Wong",
-      "slug": ""
+      "slug": "eric-wong"
      },
      {
       "name": "Zico Kolter",
@@ -3525,7 +3534,7 @@
      },
      {
       "name": "Hongge Chen",
-      "slug": ""
+      "slug": "hongge-chen"
      },
      {
       "name": "Zhao Song",
@@ -3541,7 +3550,7 @@
      },
      {
       "name": "Duane S. Boning",
-      "slug": ""
+      "slug": "duane-s-boning"
      },
      {
       "name": "Inderjit S. Dhillon",
@@ -3549,7 +3558,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICML: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2017: 0 of 434 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V73.5 Q47.2,71.0 49.7,71.0 H57.9 Q60.4,71.0 60.4,73.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2018: 3 of 621 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V71.2 Q68.4,68.7 70.9,68.7 H79.1 Q81.6,68.7 81.6,71.2 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2019: 4 of 773 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V59.5 Q89.6,57.0 92.1,57.0 H100.3 Q102.8,57.0 102.8,59.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2020: 9 of 1,085 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V61.8 Q110.8,59.3 113.3,59.3 H121.5 Q124.0,59.3 124.0,61.8 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2021: 8 of 1,183 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V40.8 Q132.0,38.3 134.5,38.3 H142.7 Q145.2,38.3 145.2,40.8 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2022: 17 of 1,234 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V57.2 Q153.2,54.7 155.7,54.7 H163.9 Q166.4,54.7 166.4,57.2 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2023: 10 of 1,828 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V50.2 Q174.4,47.7 176.9,47.7 H185.1 Q187.6,47.7 187.6,50.2 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2024: 13 of 2,610 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V50.2 Q195.6,47.7 198.1,47.7 H206.3 Q208.8,47.7 208.8,50.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2025: 13 of 3,257 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V50.2 Q216.8,47.7 219.3,47.7 H227.5 Q230.0,47.7 230.0,50.2 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICML 2026: 13 of 6,341 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 30
  },
  {
   "key": "iclr",
@@ -3567,8 +3578,7 @@
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 6,
@@ -3672,7 +3682,7 @@
     "venue_name": "ICLR",
     "year": 2026,
     "field": "ml",
-    "title": "CERTIFIED VS. EMPIRICAL ADVERSARIAL ROBUSTNESS VIA HYBRID CONVOLUTIONS WITH ATTENTION STOCHASTICITY",
+    "title": "Certified vs. Empirical Adversarial Robustness via Hybrid Convolutions with Attention Stochasticity",
     "url": "https://dblp.org/rec/conf/iclr/DharXPHASZZ26",
     "citations": 3,
     "arxiv": "2605.01519",
@@ -3692,7 +3702,7 @@
      },
      {
       "name": "Song Xia",
-      "slug": ""
+      "slug": "song-xia"
      },
      {
       "name": "Manish Kumar Pandey",
@@ -3756,7 +3766,7 @@
      },
      {
       "name": "Zhiming Chi",
-      "slug": ""
+      "slug": "zhiming-chi"
      },
      {
       "name": "Lijun Zhang",
@@ -3783,7 +3793,7 @@
     "authors": [
      {
       "name": "Chenhao Sun",
-      "slug": ""
+      "slug": "chenhao-sun"
      },
      {
       "name": "Yuhao Mao",
@@ -3819,7 +3829,7 @@
     "authors": [
      {
       "name": "Yanting Wang",
-      "slug": ""
+      "slug": "yanting-wang"
      },
      {
       "name": "Jinyuan Jia",
@@ -3889,7 +3899,7 @@
      },
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      },
      {
       "name": "Guy Katz",
@@ -3924,7 +3934,7 @@
      },
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      }
     ]
    },
@@ -3956,11 +3966,11 @@
      },
      {
       "name": "Isha Chaudhary",
-      "slug": ""
+      "slug": "isha-chaudhary"
      },
      {
       "name": "Qian Hu",
-      "slug": ""
+      "slug": "qian-hu"
      },
      {
       "name": "Weitong Ruan",
@@ -3968,7 +3978,7 @@
      },
      {
       "name": "Rahul Gupta",
-      "slug": ""
+      "slug": "rahul-gupta"
      },
      {
       "name": "Gagandeep Singh",
@@ -3995,7 +4005,7 @@
     "authors": [
      {
       "name": "Kai Hu",
-      "slug": ""
+      "slug": "kai-hu"
      },
      {
       "name": "Haoqi Hu",
@@ -4026,7 +4036,7 @@
     "authors": [
      {
       "name": "Lukas Koller",
-      "slug": "lukas-koller"
+      "slug": ""
      },
      {
       "name": "Tobias Ladner",
@@ -4097,7 +4107,7 @@
     "authors": [
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      },
      {
       "name": "Yizhak Elboher",
@@ -4149,11 +4159,11 @@
     "authors": [
      {
       "name": "Elías Abad-Rocamora",
-      "slug": ""
+      "slug": "elias-abad-rocamora"
      },
      {
       "name": "Grigorios Chrysos",
-      "slug": ""
+      "slug": "grigorios-chrysos"
      },
      {
       "name": "Volkan Cevher",
@@ -4189,11 +4199,11 @@
     "authors": [
      {
       "name": "Isha Chaudhary",
-      "slug": ""
+      "slug": "isha-chaudhary"
      },
      {
       "name": "Qian Hu",
-      "slug": ""
+      "slug": "qian-hu"
      },
      {
       "name": "Manoj Kumar",
@@ -4205,7 +4215,7 @@
      },
      {
       "name": "Rahul Gupta",
-      "slug": ""
+      "slug": "rahul-gupta"
      },
      {
       "name": "Gagandeep Singh",
@@ -4324,19 +4334,19 @@
     "authors": [
      {
       "name": "Shijie Liu",
-      "slug": ""
+      "slug": "shijie-liu"
      },
      {
-      "name": "Andrew Craig Cullen",
-      "slug": ""
+      "name": "Andrew C. Cullen",
+      "slug": "andrew-c-cullen"
      },
      {
       "name": "Paul Montague",
-      "slug": ""
+      "slug": "paul-montague"
      },
      {
-      "name": "Sarah Monazam Erfani",
-      "slug": ""
+      "name": "Sarah M. Erfani",
+      "slug": "sarah-m-erfani"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -4368,15 +4378,15 @@
     "authors": [
      {
       "name": "Jiate Li",
-      "slug": ""
+      "slug": "jiate-li"
      },
      {
       "name": "Meng Pang",
-      "slug": ""
+      "slug": "meng-pang"
      },
      {
       "name": "Yun Dong",
-      "slug": ""
+      "slug": "yun-dong"
      },
      {
       "name": "Jinyuan Jia",
@@ -4384,7 +4394,7 @@
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      }
     ]
    },
@@ -4452,7 +4462,7 @@
     "authors": [
      {
       "name": "Cornelius Emde",
-      "slug": ""
+      "slug": "cornelius-emde"
      },
      {
       "name": "Alasdair Paren",
@@ -4472,7 +4482,7 @@
      },
      {
       "name": "Thomas Lukasiewicz",
-      "slug": ""
+      "slug": "thomas-lukasiewicz"
      },
      {
       "name": "Philip Torr",
@@ -4508,7 +4518,7 @@
     "authors": [
      {
       "name": "Changming Xu",
-      "slug": ""
+      "slug": "changming-xu"
      },
      {
       "name": "Debangshu Banerjee",
@@ -4578,7 +4588,7 @@
     "authors": [
      {
       "name": "Cornelius Emde",
-      "slug": ""
+      "slug": "cornelius-emde"
      },
      {
       "name": "Francesco Pinto",
@@ -4586,7 +4596,7 @@
      },
      {
       "name": "Thomas Lukasiewicz",
-      "slug": ""
+      "slug": "thomas-lukasiewicz"
      },
      {
       "name": "Philip Torr",
@@ -4622,7 +4632,7 @@
     "authors": [
      {
       "name": "Marco Sälzer",
-      "slug": ""
+      "slug": "marco-salzer"
      },
      {
       "name": "Eric Alsmann",
@@ -4630,7 +4640,7 @@
      },
      {
       "name": "Martin Lange",
-      "slug": ""
+      "slug": "martin-lange"
      }
     ]
    },
@@ -4666,11 +4676,11 @@
      },
      {
       "name": "Jean B. Lasserre",
-      "slug": ""
+      "slug": "jean-b-lasserre"
      },
      {
       "name": "Victor Magron",
-      "slug": ""
+      "slug": "victor-magron"
      },
      {
       "name": "Jun Zhao",
@@ -4697,7 +4707,7 @@
     "authors": [
      {
       "name": "Kai Hu",
-      "slug": ""
+      "slug": "kai-hu"
      },
      {
       "name": "Klas Leino",
@@ -4705,7 +4715,7 @@
      },
      {
       "name": "Zifan Wang",
-      "slug": ""
+      "slug": "zifan-wang"
      },
      {
       "name": "Matt Fredrikson",
@@ -4781,11 +4791,11 @@
     "authors": [
      {
       "name": "Mintong Kang",
-      "slug": ""
+      "slug": "mintong-kang"
      },
      {
       "name": "Nezihe Merve Gürel",
-      "slug": ""
+      "slug": "nezihe-merve-gurel"
      },
      {
       "name": "Linyi Li",
@@ -4820,7 +4830,7 @@
      },
      {
       "name": "Wenxiao Wang",
-      "slug": ""
+      "slug": "wenxiao-wang"
      },
      {
       "name": "Yigitcan Kaya",
@@ -4903,7 +4913,7 @@
     "authors": [
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Mark Niklas Müller",
@@ -4951,7 +4961,7 @@
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      },
      {
       "name": "Jinyuan Jia",
@@ -4978,7 +4988,7 @@
     "authors": [
      {
       "name": "Shubham Ugare",
-      "slug": ""
+      "slug": "shubham-ugare"
      },
      {
       "name": "Tarun Suresh",
@@ -5021,7 +5031,7 @@
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Prashanth Krishnamurthy",
@@ -5029,11 +5039,11 @@
      },
      {
       "name": "Farshad Khorrami",
-      "slug": ""
+      "slug": "farshad-khorrami"
      },
      {
       "name": "Siddharth Garg",
-      "slug": ""
+      "slug": "siddharth-garg"
      }
     ]
    },
@@ -5056,7 +5066,7 @@
     "authors": [
      {
       "name": "Song Xia",
-      "slug": ""
+      "slug": "song-xia"
      },
      {
       "name": "Yi Yu",
@@ -5091,19 +5101,19 @@
     "authors": [
      {
       "name": "Zi Wang",
-      "slug": ""
+      "slug": "zi-wang"
      },
      {
       "name": "Bin Hu",
-      "slug": ""
+      "slug": "bin-hu"
      },
      {
       "name": "Aaron J. Havens",
-      "slug": ""
+      "slug": "aaron-j-havens"
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Yang Zheng",
@@ -5115,7 +5125,7 @@
      },
      {
       "name": "Somesh Jha",
-      "slug": ""
+      "slug": "somesh-jha"
      }
     ]
    },
@@ -5174,19 +5184,19 @@
     "authors": [
      {
       "name": "Blaise Delattre",
-      "slug": ""
+      "slug": "blaise-delattre"
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Quentin Barthélemy",
-      "slug": ""
+      "slug": "quentin-barthelemy"
      },
      {
       "name": "Alexandre Allauzen",
-      "slug": ""
+      "slug": "alexandre-allauzen"
      }
     ]
    },
@@ -5260,7 +5270,7 @@
      },
      {
       "name": "Mingjie Sun",
-      "slug": ""
+      "slug": "mingjie-sun"
      },
      {
       "name": "Zico Kolter",
@@ -5287,23 +5297,23 @@
     "authors": [
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Aaron J. Havens",
-      "slug": ""
+      "slug": "aaron-j-havens"
      },
      {
       "name": "Blaise Delattre",
-      "slug": ""
+      "slug": "blaise-delattre"
      },
      {
       "name": "Alexandre Allauzen",
-      "slug": ""
+      "slug": "alexandre-allauzen"
      },
      {
       "name": "Bin Hu",
-      "slug": ""
+      "slug": "bin-hu"
      }
     ]
    },
@@ -5378,7 +5388,7 @@
     "authors": [
      {
       "name": "Maksym Yatsura",
-      "slug": ""
+      "slug": "maksym-yatsura"
      },
      {
       "name": "Kaspar Sakmann",
@@ -5394,7 +5404,7 @@
      },
      {
       "name": "Jan Hendrik Metzen",
-      "slug": ""
+      "slug": "jan-hendrik-metzen"
      }
     ]
    },
@@ -5501,11 +5511,11 @@
     "authors": [
      {
       "name": "Marco Sälzer",
-      "slug": ""
+      "slug": "marco-salzer"
      },
      {
       "name": "Martin Lange",
-      "slug": ""
+      "slug": "martin-lange"
      }
     ]
    },
@@ -5528,7 +5538,7 @@
     "authors": [
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Tom Wollschläger",
@@ -5536,7 +5546,7 @@
      },
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Stephan Günnemann",
@@ -5603,11 +5613,11 @@
     "authors": [
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Tom Goldstein",
@@ -5683,7 +5693,7 @@
     "authors": [
      {
       "name": "Václav Vorácek",
-      "slug": ""
+      "slug": "vaclav-voracek"
      },
      {
       "name": "Matthias Hein",
@@ -5726,7 +5736,7 @@
      },
      {
       "name": "Lingjuan Lyu",
-      "slug": ""
+      "slug": "lingjuan-lyu"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -5792,15 +5802,15 @@
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      },
      {
       "name": "Xiaoyu Cao",
-      "slug": ""
+      "slug": "xiaoyu-cao"
      },
      {
       "name": "Hongbin Liu",
-      "slug": ""
+      "slug": "hongbin-liu"
      },
      {
       "name": "Neil Gong",
@@ -5827,7 +5837,7 @@
     "authors": [
      {
       "name": "Miklós Z. Horváth",
-      "slug": ""
+      "slug": "miklos-z-horvath"
      },
      {
       "name": "Mark Niklas Müller",
@@ -5862,15 +5872,15 @@
     "authors": [
      {
       "name": "Bohang Zhang",
-      "slug": ""
+      "slug": "bohang-zhang"
      },
      {
       "name": "Du Jiang",
-      "slug": ""
+      "slug": "du-jiang"
      },
      {
       "name": "Di He",
-      "slug": ""
+      "slug": "di-he"
      },
      {
       "name": "Liwei Wang",
@@ -5974,7 +5984,7 @@
     "authors": [
      {
       "name": "Fan Wu",
-      "slug": ""
+      "slug": "fan-wu"
      },
      {
       "name": "Linyi Li",
@@ -5986,7 +5996,7 @@
      },
      {
       "name": "Bhavya Kailkhura",
-      "slug": ""
+      "slug": "bhavya-kailkhura"
      },
      {
       "name": "Krishnaram Kenthapadi",
@@ -5994,7 +6004,7 @@
      },
      {
       "name": "Ding Zhao",
-      "slug": ""
+      "slug": "ding-zhao"
      },
      {
       "name": "Bo Li",
@@ -6026,7 +6036,7 @@
     "authors": [
      {
       "name": "Fan Wu",
-      "slug": ""
+      "slug": "fan-wu"
      },
      {
       "name": "Linyi Li",
@@ -6042,7 +6052,7 @@
      },
      {
       "name": "Ding Zhao",
-      "slug": ""
+      "slug": "ding-zhao"
      },
      {
       "name": "Bo Li",
@@ -6074,7 +6084,7 @@
     "authors": [
      {
       "name": "Zhuolin Yang",
-      "slug": ""
+      "slug": "zhuolin-yang"
      },
      {
       "name": "Linyi Li",
@@ -6082,15 +6092,15 @@
      },
      {
       "name": "Xiaojun Xu",
-      "slug": ""
+      "slug": "xiaojun-xu"
      },
      {
       "name": "Bhavya Kailkhura",
-      "slug": ""
+      "slug": "bhavya-kailkhura"
      },
      {
       "name": "Tao Xie",
-      "slug": ""
+      "slug": "tao-xie"
      },
      {
       "name": "Bo Li",
@@ -6117,7 +6127,7 @@
     "authors": [
      {
       "name": "Yihan Wang",
-      "slug": ""
+      "slug": "yihan-wang"
      },
      {
       "name": "Zhouxing Shi",
@@ -6157,11 +6167,11 @@
     "authors": [
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -6187,8 +6197,8 @@
     "tags": [],
     "authors": [
      {
-      "name": "Dimitar Iliev Dimitrov",
-      "slug": ""
+      "name": "Dimitar I. Dimitrov",
+      "slug": "dimitar-i-dimitrov"
      },
      {
       "name": "Gagandeep Singh",
@@ -6254,7 +6264,7 @@
      },
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Martin Vechev",
@@ -6281,15 +6291,15 @@
     "authors": [
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Johannes Klicpera",
-      "slug": ""
+      "slug": "johannes-klicpera"
      },
      {
       "name": "Stephan Günnemann",
@@ -6316,7 +6326,7 @@
     "authors": [
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -6348,11 +6358,11 @@
     "authors": [
      {
       "name": "Jan Hendrik Metzen",
-      "slug": ""
+      "slug": "jan-hendrik-metzen"
      },
      {
       "name": "Maksym Yatsura",
-      "slug": ""
+      "slug": "maksym-yatsura"
      }
     ]
    },
@@ -6419,7 +6429,7 @@
      },
      {
       "name": "Ezra Winston",
-      "slug": ""
+      "slug": "ezra-winston"
      },
      {
       "name": "Zico Kolter",
@@ -6463,7 +6473,7 @@
      },
      {
       "name": "Yihan Wang",
-      "slug": ""
+      "slug": "yihan-wang"
      },
      {
       "name": "Suman Jana",
@@ -6471,7 +6481,7 @@
      },
      {
       "name": "Xue Lin",
-      "slug": ""
+      "slug": "xue-lin"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -6541,7 +6551,7 @@
      },
      {
       "name": "Balázs Bánhelyi",
-      "slug": ""
+      "slug": "balazs-banhelyi"
      },
      {
       "name": "Tibor Csendes",
@@ -6553,7 +6563,7 @@
      },
      {
       "name": "Márk Jelasity",
-      "slug": ""
+      "slug": "mark-jelasity"
      }
     ]
    },
@@ -6649,8 +6659,8 @@
       "slug": "alessandro-de-palma"
      },
      {
-      "name": "Harkirat S. Behl",
-      "slug": ""
+      "name": "Harkirat Singh Behl",
+      "slug": "harkirat-singh-behl"
      },
      {
       "name": "Rudy Bunel",
@@ -6701,7 +6711,7 @@
      },
      {
       "name": "Chongli Qin",
-      "slug": ""
+      "slug": "chongli-qin"
      },
      {
       "name": "András György",
@@ -6740,7 +6750,7 @@
     "authors": [
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Martin Vechev",
@@ -6771,8 +6781,8 @@
     ],
     "authors": [
      {
-      "name": "Ping-yeh Chiang",
-      "slug": ""
+      "name": "Ping-Yeh Chiang",
+      "slug": "ping-yeh-chiang"
      },
      {
       "name": "Renkun Ni",
@@ -6780,7 +6790,7 @@
      },
      {
       "name": "Ahmed Abdelkader",
-      "slug": ""
+      "slug": "ahmed-abdelkader"
      },
      {
       "name": "Chen Zhu",
@@ -6819,11 +6829,11 @@
      },
      {
       "name": "Xiaoyu Cao",
-      "slug": ""
+      "slug": "xiaoyu-cao"
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      },
      {
       "name": "Neil Gong",
@@ -6894,7 +6904,7 @@
      },
      {
       "name": "Di He",
-      "slug": ""
+      "slug": "di-he"
      },
      {
       "name": "Huan Zhang",
@@ -6906,7 +6916,7 @@
      },
      {
       "name": "Pradeep Ravikumar",
-      "slug": ""
+      "slug": "pradeep-ravikumar"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -7004,11 +7014,11 @@
      },
      {
       "name": "Kai-Wei Chang",
-      "slug": ""
+      "slug": "kai-wei-chang"
      },
      {
       "name": "Minlie Huang",
-      "slug": ""
+      "slug": "minlie-huang"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -7035,7 +7045,7 @@
     "authors": [
      {
       "name": "Alexander Meinke",
-      "slug": ""
+      "slug": "alexander-meinke"
      },
      {
       "name": "Matthias Hein",
@@ -7071,11 +7081,11 @@
      },
      {
       "name": "Hongge Chen",
-      "slug": ""
+      "slug": "hongge-chen"
      },
      {
       "name": "Chaowei Xiao",
-      "slug": ""
+      "slug": "chaowei-xiao"
      },
      {
       "name": "Sven Gowal",
@@ -7091,7 +7101,7 @@
      },
      {
       "name": "Duane S. Boning",
-      "slug": ""
+      "slug": "duane-s-boning"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -7179,11 +7189,11 @@
     "authors": [
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Matthew Mirman",
-      "slug": ""
+      "slug": "matthew-mirman"
      },
      {
       "name": "Martin Vechev",
@@ -7254,7 +7264,7 @@
      },
      {
       "name": "Kai Yuanqing Xiao",
-      "slug": ""
+      "slug": "kai-yuanqing-xiao"
      },
      {
       "name": "Russ Tedrake",
@@ -7281,7 +7291,7 @@
     "authors": [
      {
       "name": "Kai Yuanqing Xiao",
-      "slug": ""
+      "slug": "kai-yuanqing-xiao"
      },
      {
       "name": "Vincent Tjeng",
@@ -7293,7 +7303,7 @@
      },
      {
       "name": "Aleksander Madry",
-      "slug": ""
+      "slug": "aleksander-madry"
      }
     ]
    },
@@ -7316,7 +7326,7 @@
     "authors": [
      {
       "name": "Chongli Qin",
-      "slug": ""
+      "slug": "chongli-qin"
      },
      {
       "name": "Krishnamurthy Dvijotham",
@@ -7340,7 +7350,7 @@
      },
      {
       "name": "Jonathan Uesato",
-      "slug": ""
+      "slug": "jonathan-uesato"
      },
      {
       "name": "Grzegorz Swirszcz",
@@ -7380,7 +7390,7 @@
      },
      {
       "name": "Jacob Steinhardt",
-      "slug": ""
+      "slug": "jacob-steinhardt"
      },
      {
       "name": "Percy Liang",
@@ -7419,7 +7429,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICLR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2017: 0 of 198 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V75.8 Q47.2,73.3 49.7,73.3 H57.9 Q60.4,73.3 60.4,75.8 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2018: 2 of 336 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V71.2 Q68.4,68.7 70.9,68.7 H79.1 Q81.6,68.7 81.6,71.2 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2019: 4 of 502 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V50.2 Q89.6,47.7 92.1,47.7 H100.3 Q102.8,47.7 102.8,50.2 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2020: 13 of 687 papers (1.9%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V52.5 Q110.8,50.0 113.3,50.0 H121.5 Q124.0,50.0 124.0,52.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2021: 12 of 860 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V52.5 Q132.0,50.0 134.5,50.0 H142.7 Q145.2,50.0 145.2,52.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2022: 12 of 1,094 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V47.8 Q153.2,45.3 155.7,45.3 H163.9 Q166.4,45.3 166.4,47.8 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2023: 14 of 1,573 papers (0.9%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V47.8 Q174.4,45.3 176.9,45.3 H185.1 Q187.6,45.3 187.6,47.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2024: 14 of 2,260 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V50.2 Q195.6,47.7 198.1,47.7 H206.3 Q208.8,47.7 208.8,50.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2025: 13 of 3,704 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V52.5 Q216.8,50.0 219.3,50.0 H227.5 Q230.0,50.0 230.0,52.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICLR 2026: 12 of 5,351 papers (0.2%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 30
  },
  {
   "key": "neurips",
@@ -7437,8 +7449,7 @@
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 12,
@@ -7523,34 +7534,14 @@
     "papers": 5
    },
    {
-    "slug": "kaidi-xu",
-    "name": "Kaidi Xu",
+    "slug": "jan-schuchardt",
+    "name": "Jan Schuchardt",
     "papers": 5
    },
    {
-    "slug": "gagandeep-singh",
-    "name": "Gagandeep Singh",
-    "papers": 4
-   },
-   {
-    "slug": "matthias-hein",
-    "name": "Matthias Hein",
-    "papers": 4
-   },
-   {
-    "slug": "marc-fischer",
-    "name": "Marc Fischer",
-    "papers": 4
-   },
-   {
-    "slug": "tom-goldstein",
-    "name": "Tom Goldstein",
-    "papers": 4
-   },
-   {
-    "slug": "zhouxing-shi",
-    "name": "Zhouxing Shi",
-    "papers": 4
+    "slug": "kaidi-xu",
+    "name": "Kaidi Xu",
+    "papers": 5
    }
   ],
   "paper_list": [
@@ -7577,15 +7568,15 @@
      },
      {
       "name": "Haoyu Li",
-      "slug": "haoyu-li"
+      "slug": ""
      },
      {
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      },
      {
-      "name": "Richard Y Zhang",
-      "slug": ""
+      "name": "Richard Y. Zhang",
+      "slug": "richard-y-zhang"
      }
     ]
    },
@@ -7791,7 +7782,7 @@
      },
      {
       "name": "Luca Laurenti",
-      "slug": ""
+      "slug": "luca-laurenti"
      }
     ]
    },
@@ -7814,7 +7805,7 @@
     "authors": [
      {
       "name": "Idan Refaeli",
-      "slug": ""
+      "slug": "idan-refaeli"
      },
      {
       "name": "Yizhak Y. Elboher",
@@ -7826,7 +7817,7 @@
      },
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      }
     ]
    },
@@ -7893,7 +7884,7 @@
      },
      {
       "name": "Peixin Wang",
-      "slug": ""
+      "slug": "peixin-wang"
      },
      {
       "name": "Jianhao Bai",
@@ -7901,7 +7892,7 @@
      },
      {
       "name": "Bai Xue",
-      "slug": ""
+      "slug": "bai-xue"
      },
      {
       "name": "Min Zhang",
@@ -7998,7 +7989,7 @@
      },
      {
       "name": "Paul Montague",
-      "slug": ""
+      "slug": "paul-montague"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -8127,7 +8118,7 @@
      },
      {
       "name": "Ben Wooding",
-      "slug": "ben-wooding"
+      "slug": ""
      },
      {
       "name": "Taylor Johnson",
@@ -8158,7 +8149,7 @@
      },
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      }
     ]
    },
@@ -8228,11 +8219,11 @@
      },
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Yan Scholten",
-      "slug": ""
+      "slug": "yan-scholten"
      },
      {
       "name": "Stephan Günnemann",
@@ -8362,11 +8353,11 @@
      },
      {
       "name": "Balázs Bánhelyi",
-      "slug": ""
+      "slug": "balazs-banhelyi"
      },
      {
       "name": "Márk Jelasity",
-      "slug": ""
+      "slug": "mark-jelasity"
      }
     ]
    },
@@ -8481,7 +8472,7 @@
      },
      {
       "name": "Paul Montague",
-      "slug": ""
+      "slug": "paul-montague"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -8521,7 +8512,7 @@
      },
      {
       "name": "Xiangru Zhong",
-      "slug": "xiangru-zhong"
+      "slug": ""
      },
      {
       "name": "Huan Zhang",
@@ -8529,7 +8520,7 @@
      },
      {
       "name": "Sayan Mitra",
-      "slug": ""
+      "slug": "sayan-mitra"
      }
     ]
    },
@@ -8552,15 +8543,15 @@
     "authors": [
      {
       "name": "Zhuoqun Huang",
-      "slug": ""
+      "slug": "zhuoqun-huang"
      },
      {
       "name": "Neil G. Marchant",
-      "slug": ""
+      "slug": "neil-g-marchant"
      },
      {
       "name": "Olga Ohrimenko",
-      "slug": ""
+      "slug": "olga-ohrimenko"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -8592,7 +8583,7 @@
     "authors": [
      {
       "name": "Mintong Kang",
-      "slug": ""
+      "slug": "mintong-kang"
      },
      {
       "name": "Zhaorun Chen",
@@ -8667,11 +8658,11 @@
      },
      {
       "name": "Hesun Chen",
-      "slug": "hesun-chen"
+      "slug": ""
      },
      {
       "name": "Grani A. Hanasusanto",
-      "slug": ""
+      "slug": "grani-a-hanasusanto"
      },
      {
       "name": "Huan Zhang",
@@ -8738,7 +8729,7 @@
     "authors": [
      {
       "name": "Shijie Liu",
-      "slug": ""
+      "slug": "shijie-liu"
      },
      {
       "name": "Tansu Alpcan",
@@ -8750,7 +8741,7 @@
      },
      {
       "name": "Sarah M. Erfani",
-      "slug": ""
+      "slug": "sarah-m-erfani"
      }
     ]
    },
@@ -8804,7 +8795,7 @@
     "authors": [
      {
       "name": "Tobias Lorenz",
-      "slug": ""
+      "slug": "tobias-lorenz"
      },
      {
       "name": "Marta Kwiatkowska",
@@ -8812,7 +8803,7 @@
      },
      {
       "name": "Mario Fritz",
-      "slug": ""
+      "slug": "mario-fritz"
      }
     ]
    },
@@ -8835,7 +8826,7 @@
     "authors": [
      {
       "name": "Zhe Tao",
-      "slug": ""
+      "slug": "zhe-tao"
      },
      {
       "name": "Aditya V. Thakur",
@@ -8870,15 +8861,15 @@
      },
      {
       "name": "Tong Wu",
-      "slug": ""
+      "slug": "tong-wu"
      },
      {
       "name": "Chong Xiang",
-      "slug": ""
+      "slug": "chong-xiang"
      },
      {
       "name": "Prateek Mittal",
-      "slug": ""
+      "slug": "prateek-mittal"
      },
      {
       "name": "Aleksandra Korolova",
@@ -8910,7 +8901,7 @@
     "authors": [
      {
       "name": "Navid Hashemi",
-      "slug": "navid-hashemi"
+      "slug": ""
      },
      {
       "name": "Samuel Sasaki",
@@ -9063,7 +9054,7 @@
      },
      {
       "name": "Olga Ohrimenko",
-      "slug": ""
+      "slug": "olga-ohrimenko"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -9154,7 +9145,7 @@
      },
      {
       "name": "Chaowei Xiao",
-      "slug": ""
+      "slug": "chaowei-xiao"
      }
     ]
    },
@@ -9181,7 +9172,7 @@
      },
      {
       "name": "Yinpeng Dong",
-      "slug": ""
+      "slug": "yinpeng-dong"
      },
      {
       "name": "Shitong Shao",
@@ -9189,7 +9180,7 @@
      },
      {
       "name": "Zhongkai Hao",
-      "slug": ""
+      "slug": "zhongkai-hao"
      },
      {
       "name": "Xiao Yang",
@@ -9197,11 +9188,11 @@
      },
      {
       "name": "Hang Su",
-      "slug": ""
+      "slug": "hang-su"
      },
      {
       "name": "Jun Zhu",
-      "slug": ""
+      "slug": "jun-zhu"
      }
     ]
    },
@@ -9299,11 +9290,11 @@
      },
      {
       "name": "Yuan Hong",
-      "slug": ""
+      "slug": "yuan-hong"
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      }
     ]
    },
@@ -9334,7 +9325,7 @@
      },
      {
       "name": "Tianhao Wei",
-      "slug": ""
+      "slug": "tianhao-wei"
      },
      {
       "name": "Kaidi Xu",
@@ -9425,7 +9416,7 @@
     "authors": [
      {
       "name": "Zhe Tao",
-      "slug": ""
+      "slug": "zhe-tao"
      },
      {
       "name": "Aditya V. Thakur",
@@ -9452,7 +9443,7 @@
     "authors": [
      {
       "name": "Samuel Teuber",
-      "slug": ""
+      "slug": "samuel-teuber"
      },
      {
       "name": "Stefan Mitsch",
@@ -9491,7 +9482,7 @@
      },
      {
       "name": "Grani A. Hanasusanto",
-      "slug": ""
+      "slug": "grani-a-hanasusanto"
      },
      {
       "name": "Huan Zhang",
@@ -9523,7 +9514,7 @@
     "authors": [
      {
       "name": "Hongchao Zhang",
-      "slug": ""
+      "slug": "hongchao-zhang"
      },
      {
       "name": "Zhizhen Qin",
@@ -9535,7 +9526,7 @@
      },
      {
       "name": "Andrew Clark",
-      "slug": ""
+      "slug": "andrew-clark"
      }
     ]
    },
@@ -9558,7 +9549,7 @@
     "authors": [
      {
       "name": "Václav Vorácek",
-      "slug": ""
+      "slug": "vaclav-voracek"
      }
     ]
    },
@@ -9616,7 +9607,7 @@
     "authors": [
      {
       "name": "Junlin Wu",
-      "slug": ""
+      "slug": "junlin-wu"
      },
      {
       "name": "Huan Zhang",
@@ -9656,11 +9647,11 @@
     "authors": [
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Yan Scholten",
-      "slug": ""
+      "slug": "yan-scholten"
      },
      {
       "name": "Stephan Günnemann",
@@ -9727,19 +9718,19 @@
     "authors": [
      {
       "name": "Jiaxu Tian",
-      "slug": ""
+      "slug": "jiaxu-tian"
      },
      {
       "name": "Dapeng Zhi",
-      "slug": ""
+      "slug": "dapeng-zhi"
      },
      {
       "name": "Si Liu",
-      "slug": ""
+      "slug": "si-liu"
      },
      {
       "name": "Peixin Wang",
-      "slug": ""
+      "slug": "peixin-wang"
      },
      {
       "name": "Cheng Chen",
@@ -9849,7 +9840,7 @@
      },
      {
       "name": "Taha Entesari",
-      "slug": ""
+      "slug": "taha-entesari"
      },
      {
       "name": "Aniket Roy",
@@ -9880,19 +9871,19 @@
     "authors": [
      {
       "name": "Dorde Zikelic",
-      "slug": ""
+      "slug": "dorde-zikelic"
      },
      {
       "name": "Mathias Lechner",
-      "slug": ""
+      "slug": "mathias-lechner"
      },
      {
       "name": "Abhinav Verma",
-      "slug": ""
+      "slug": "abhinav-verma"
      },
      {
       "name": "Krishnendu Chatterjee",
-      "slug": ""
+      "slug": "krishnendu-chatterjee"
      },
      {
       "name": "Thomas A. Henzinger",
@@ -9959,11 +9950,11 @@
     "authors": [
      {
       "name": "Hongchao Zhang",
-      "slug": ""
+      "slug": "hongchao-zhang"
      },
      {
       "name": "Junlin Wu",
-      "slug": ""
+      "slug": "junlin-wu"
      },
      {
       "name": "Yevgeniy Vorobeychik",
@@ -9971,7 +9962,7 @@
      },
      {
       "name": "Andrew Clark",
-      "slug": ""
+      "slug": "andrew-clark"
      }
     ]
    },
@@ -9999,23 +9990,23 @@
     "authors": [
      {
       "name": "Aaron J. Havens",
-      "slug": ""
+      "slug": "aaron-j-havens"
      },
      {
       "name": "Alexandre Araujo",
-      "slug": ""
+      "slug": "alexandre-araujo"
      },
      {
       "name": "Siddharth Garg",
-      "slug": ""
+      "slug": "siddharth-garg"
      },
      {
       "name": "Farshad Khorrami",
-      "slug": ""
+      "slug": "farshad-khorrami"
      },
      {
       "name": "Bin Hu",
-      "slug": ""
+      "slug": "bin-hu"
      }
     ]
    },
@@ -10038,15 +10029,15 @@
     "authors": [
      {
       "name": "Yan Scholten",
-      "slug": ""
+      "slug": "yan-scholten"
      },
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Stephan Günnemann",
@@ -10073,11 +10064,11 @@
     "authors": [
      {
       "name": "Jongheon Jeong",
-      "slug": ""
+      "slug": "jongheon-jeong"
      },
      {
       "name": "Jinwoo Shin",
-      "slug": ""
+      "slug": "jinwoo-shin"
      }
     ]
    },
@@ -10100,11 +10091,11 @@
     "authors": [
      {
       "name": "Junlin Wu",
-      "slug": ""
+      "slug": "junlin-wu"
      },
      {
       "name": "Andrew Clark",
-      "slug": ""
+      "slug": "andrew-clark"
      },
      {
       "name": "Yiannis Kantaros",
@@ -10179,11 +10170,11 @@
     "authors": [
      {
       "name": "Zhuoqun Huang",
-      "slug": ""
+      "slug": "zhuoqun-huang"
      },
      {
       "name": "Neil G. Marchant",
-      "slug": ""
+      "slug": "neil-g-marchant"
      },
      {
       "name": "Keane Lucas",
@@ -10195,7 +10186,7 @@
      },
      {
       "name": "Olga Ohrimenko",
-      "slug": ""
+      "slug": "olga-ohrimenko"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -10227,7 +10218,7 @@
     "authors": [
      {
       "name": "Christian Schilling",
-      "slug": "christian-schilling"
+      "slug": ""
      },
      {
       "name": "Anna Lukina",
@@ -10314,7 +10305,7 @@
     "authors": [
      {
       "name": "Kai Hu",
-      "slug": ""
+      "slug": "kai-hu"
      },
      {
       "name": "Andy Zou",
@@ -10322,7 +10313,7 @@
      },
      {
       "name": "Zifan Wang",
-      "slug": ""
+      "slug": "zifan-wang"
      },
      {
       "name": "Klas Leino",
@@ -10353,7 +10344,7 @@
     "authors": [
      {
       "name": "Min Wu",
-      "slug": ""
+      "slug": "min-wu"
      },
      {
       "name": "Haoze Wu",
@@ -10389,7 +10380,7 @@
     "authors": [
      {
       "name": "Miklós Z. Horváth",
-      "slug": ""
+      "slug": "miklos-z-horvath"
      },
      {
       "name": "Mark Niklas Müller",
@@ -10463,7 +10454,7 @@
      },
      {
       "name": "Loris D'Antoni",
-      "slug": ""
+      "slug": "loris-d-antoni"
      }
     ]
    },
@@ -10491,7 +10482,7 @@
     "authors": [
      {
       "name": "Hongwei Jin",
-      "slug": ""
+      "slug": "hongwei-jin"
      },
      {
       "name": "Zishun Yu",
@@ -10499,7 +10490,7 @@
      },
      {
       "name": "Xinhua Zhang",
-      "slug": ""
+      "slug": "xinhua-zhang"
      }
     ]
    },
@@ -10522,7 +10513,7 @@
     "authors": [
      {
       "name": "Mintong Kang",
-      "slug": ""
+      "slug": "mintong-kang"
      },
      {
       "name": "Linyi Li",
@@ -10530,7 +10521,7 @@
      },
      {
       "name": "Maurice Weber",
-      "slug": ""
+      "slug": "maurice-weber"
      },
      {
       "name": "Yang Liu",
@@ -10538,7 +10529,7 @@
      },
      {
       "name": "Ce Zhang",
-      "slug": ""
+      "slug": "ce-zhang"
      },
      {
       "name": "Bo Li",
@@ -10569,7 +10560,7 @@
      },
      {
       "name": "Chulin Xie",
-      "slug": ""
+      "slug": "chulin-xie"
      },
      {
       "name": "Sanmi Koyejo",
@@ -10600,19 +10591,19 @@
     "authors": [
      {
       "name": "Andrew C. Cullen",
-      "slug": ""
+      "slug": "andrew-c-cullen"
      },
      {
       "name": "Paul Montague",
-      "slug": ""
+      "slug": "paul-montague"
      },
      {
       "name": "Shijie Liu",
-      "slug": ""
+      "slug": "shijie-liu"
      },
      {
       "name": "Sarah M. Erfani",
-      "slug": ""
+      "slug": "sarah-m-erfani"
      },
      {
       "name": "Benjamin Rubinstein",
@@ -10643,7 +10634,7 @@
      },
      {
       "name": "Yihan Wang",
-      "slug": ""
+      "slug": "yihan-wang"
      },
      {
       "name": "Huan Zhang",
@@ -10739,19 +10730,19 @@
     "authors": [
      {
       "name": "Zhuolin Yang",
-      "slug": ""
+      "slug": "zhuolin-yang"
      },
      {
       "name": "Zhikuan Zhao",
-      "slug": ""
+      "slug": "zhikuan-zhao"
      },
      {
       "name": "Boxin Wang",
-      "slug": ""
+      "slug": "boxin-wang"
      },
      {
       "name": "Jiawei Zhang",
-      "slug": ""
+      "slug": "jiawei-zhang"
      },
      {
       "name": "Linyi Li",
@@ -10775,7 +10766,7 @@
      },
      {
       "name": "Ce Zhang",
-      "slug": ""
+      "slug": "ce-zhang"
      },
      {
       "name": "Bo Li",
@@ -10807,7 +10798,7 @@
     "authors": [
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Stephan Günnemann",
@@ -10834,7 +10825,7 @@
     "authors": [
      {
       "name": "Xiaojun Xu",
-      "slug": ""
+      "slug": "xiaojun-xu"
      },
      {
       "name": "Linyi Li",
@@ -10932,7 +10923,7 @@
     "authors": [
      {
       "name": "Ruikun Zhou",
-      "slug": ""
+      "slug": "ruikun-zhou"
      },
      {
       "name": "Thanin Quartz",
@@ -10944,7 +10935,7 @@
      },
      {
       "name": "Jun Liu",
-      "slug": ""
+      "slug": "jun-liu"
      }
     ]
    },
@@ -11012,11 +11003,11 @@
     "authors": [
      {
       "name": "Alexander Meinke",
-      "slug": ""
+      "slug": "alexander-meinke"
      },
      {
       "name": "Julian Bitterwolf",
-      "slug": ""
+      "slug": "julian-bitterwolf"
      },
      {
       "name": "Matthias Hein",
@@ -11048,11 +11039,11 @@
     "authors": [
      {
       "name": "Yan Scholten",
-      "slug": ""
+      "slug": "yan-scholten"
      },
      {
       "name": "Jan Schuchardt",
-      "slug": ""
+      "slug": "jan-schuchardt"
      },
      {
       "name": "Simon Geisler",
@@ -11060,7 +11051,7 @@
      },
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Stephan Günnemann",
@@ -11087,15 +11078,15 @@
     "authors": [
      {
       "name": "Bohang Zhang",
-      "slug": ""
+      "slug": "bohang-zhang"
      },
      {
       "name": "Du Jiang",
-      "slug": ""
+      "slug": "du-jiang"
      },
      {
       "name": "Di He",
-      "slug": ""
+      "slug": "di-he"
      },
      {
       "name": "Liwei Wang",
@@ -11134,11 +11125,11 @@
      },
      {
       "name": "Luca Laurenti",
-      "slug": ""
+      "slug": "luca-laurenti"
      },
      {
       "name": "Morteza Lahijanian",
-      "slug": ""
+      "slug": "morteza-lahijanian"
      }
     ]
    },
@@ -11208,7 +11199,7 @@
      },
      {
       "name": "Ivan V. Oseledets",
-      "slug": ""
+      "slug": "ivan-v-oseledets"
      }
     ]
    },
@@ -11236,7 +11227,7 @@
     "authors": [
      {
       "name": "Elías Abad-Rocamora",
-      "slug": ""
+      "slug": "elias-abad-rocamora"
      },
      {
       "name": "Mehmet Fatih Sahin",
@@ -11248,7 +11239,7 @@
      },
      {
       "name": "Grigorios Chrysos",
-      "slug": ""
+      "slug": "grigorios-chrysos"
      },
      {
       "name": "Volkan Cevher",
@@ -11275,7 +11266,7 @@
     "authors": [
      {
       "name": "Matt Jordan",
-      "slug": ""
+      "slug": "matt-jordan"
      },
      {
       "name": "Jonathan Hayase",
@@ -11327,7 +11318,7 @@
      },
      {
       "name": "Xue Lin",
-      "slug": ""
+      "slug": "xue-lin"
      },
      {
       "name": "Suman Jana",
@@ -11362,7 +11353,7 @@
     "authors": [
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "Tom Goldstein",
@@ -11402,7 +11393,7 @@
      },
      {
       "name": "Loris D'Antoni",
-      "slug": ""
+      "slug": "loris-d-antoni"
      }
     ]
    },
@@ -11429,7 +11420,7 @@
      },
      {
       "name": "Yihan Wang",
-      "slug": ""
+      "slug": "yihan-wang"
      },
      {
       "name": "Huan Zhang",
@@ -11437,7 +11428,7 @@
      },
      {
       "name": "Jinfeng Yi",
-      "slug": ""
+      "slug": "jinfeng-yi"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -11464,15 +11455,15 @@
     "authors": [
      {
       "name": "Mathias Lechner",
-      "slug": ""
+      "slug": "mathias-lechner"
      },
      {
       "name": "Dorde Zikelic",
-      "slug": ""
+      "slug": "dorde-zikelic"
      },
      {
       "name": "Krishnendu Chatterjee",
-      "slug": ""
+      "slug": "krishnendu-chatterjee"
      },
      {
       "name": "Thomas A. Henzinger",
@@ -11499,7 +11490,7 @@
     "authors": [
      {
       "name": "Harkirat Singh Behl",
-      "slug": ""
+      "slug": "harkirat-singh-behl"
      },
      {
       "name": "M. Pawan Kumar",
@@ -11546,7 +11537,7 @@
      },
      {
       "name": "Ruth Misener",
-      "slug": ""
+      "slug": "ruth-misener"
      }
     ]
    },
@@ -11629,19 +11620,19 @@
     "authors": [
      {
       "name": "Tong Chen",
-      "slug": ""
+      "slug": "tong-chen"
      },
      {
       "name": "Jean B. Lasserre",
-      "slug": ""
+      "slug": "jean-b-lasserre"
      },
      {
       "name": "Victor Magron",
-      "slug": ""
+      "slug": "victor-magron"
      },
      {
       "name": "Edouard Pauwels",
-      "slug": ""
+      "slug": "edouard-pauwels"
      }
     ]
    },
@@ -11669,11 +11660,11 @@
     "authors": [
      {
       "name": "Jongheon Jeong",
-      "slug": ""
+      "slug": "jongheon-jeong"
      },
      {
       "name": "Sejun Park",
-      "slug": ""
+      "slug": "sejun-park"
      },
      {
       "name": "Minkyu Kim",
@@ -11689,7 +11680,7 @@
      },
      {
       "name": "Jinwoo Shin",
-      "slug": ""
+      "slug": "jinwoo-shin"
      }
     ]
    },
@@ -11712,7 +11703,7 @@
     "authors": [
      {
       "name": "Sungyoon Lee",
-      "slug": ""
+      "slug": "sungyoon-lee"
      },
      {
       "name": "Woojin Lee",
@@ -11724,7 +11715,7 @@
      },
      {
       "name": "Jaewook Lee",
-      "slug": ""
+      "slug": "jaewook-lee"
      }
     ]
    },
@@ -11786,7 +11777,7 @@
     "authors": [
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -11830,23 +11821,23 @@
      },
      {
       "name": "Yihan Wang",
-      "slug": ""
+      "slug": "yihan-wang"
      },
      {
       "name": "Kai-Wei Chang",
-      "slug": ""
+      "slug": "kai-wei-chang"
      },
      {
       "name": "Minlie Huang",
-      "slug": ""
+      "slug": "minlie-huang"
      },
      {
       "name": "Bhavya Kailkhura",
-      "slug": ""
+      "slug": "bhavya-kailkhura"
      },
      {
       "name": "Xue Lin",
-      "slug": ""
+      "slug": "xue-lin"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -11889,7 +11880,7 @@
      },
      {
       "name": "Qiang Liu",
-      "slug": ""
+      "slug": "qiang-liu"
      }
     ]
    },
@@ -11917,11 +11908,11 @@
     "authors": [
      {
       "name": "Julian Bitterwolf",
-      "slug": ""
+      "slug": "julian-bitterwolf"
      },
      {
       "name": "Alexander Meinke",
-      "slug": ""
+      "slug": "alexander-meinke"
      },
      {
       "name": "Matthias Hein",
@@ -11957,7 +11948,7 @@
      },
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Martin Vechev",
@@ -12001,7 +11992,7 @@
      },
      {
       "name": "Qiang Liu",
-      "slug": ""
+      "slug": "qiang-liu"
      }
     ]
    },
@@ -12029,7 +12020,7 @@
     "authors": [
      {
       "name": "Hongwei Jin",
-      "slug": ""
+      "slug": "hongwei-jin"
      },
      {
       "name": "Zhan Shi",
@@ -12041,7 +12032,7 @@
      },
      {
       "name": "Xinhua Zhang",
-      "slug": ""
+      "slug": "xinhua-zhang"
      }
     ]
    },
@@ -12064,11 +12055,11 @@
     "authors": [
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "Alexander Levine",
-      "slug": ""
+      "slug": "alexander-levine"
      },
      {
       "name": "Soheil Feizi",
@@ -12099,11 +12090,11 @@
     "authors": [
      {
       "name": "Michael J. Curry",
-      "slug": ""
+      "slug": "michael-j-curry"
      },
      {
       "name": "Ping-Yeh Chiang",
-      "slug": ""
+      "slug": "ping-yeh-chiang"
      },
      {
       "name": "Tom Goldstein",
@@ -12111,7 +12102,7 @@
      },
      {
       "name": "John Dickerson",
-      "slug": ""
+      "slug": "john-dickerson"
      }
     ]
    },
@@ -12139,11 +12130,11 @@
     "authors": [
      {
       "name": "Jongheon Jeong",
-      "slug": ""
+      "slug": "jongheon-jeong"
      },
      {
       "name": "Jinwoo Shin",
-      "slug": ""
+      "slug": "jinwoo-shin"
      }
     ]
    },
@@ -12206,15 +12197,15 @@
     "authors": [
      {
       "name": "Hadi Salman",
-      "slug": ""
+      "slug": "hadi-salman"
      },
      {
       "name": "Mingjie Sun",
-      "slug": ""
+      "slug": "mingjie-sun"
      },
      {
       "name": "Greg Yang",
-      "slug": ""
+      "slug": "greg-yang"
      },
      {
       "name": "Ashish Kapoor",
@@ -12249,24 +12240,24 @@
     ],
     "authors": [
      {
-      "name": "Ping-yeh Chiang",
-      "slug": ""
+      "name": "Ping-Yeh Chiang",
+      "slug": "ping-yeh-chiang"
      },
      {
       "name": "Michael J. Curry",
-      "slug": ""
+      "slug": "michael-j-curry"
      },
      {
       "name": "Ahmed Abdelkader",
-      "slug": ""
+      "slug": "ahmed-abdelkader"
      },
      {
       "name": "Aounon Kumar",
-      "slug": ""
+      "slug": "aounon-kumar"
      },
      {
       "name": "John Dickerson",
-      "slug": ""
+      "slug": "john-dickerson"
      },
      {
       "name": "Tom Goldstein",
@@ -12341,7 +12332,7 @@
      },
      {
       "name": "Jonathan Uesato",
-      "slug": ""
+      "slug": "jonathan-uesato"
      },
      {
       "name": "Rudy Bunel",
@@ -12353,7 +12344,7 @@
      },
      {
       "name": "Jacob Steinhardt",
-      "slug": ""
+      "slug": "jacob-steinhardt"
      },
      {
       "name": "Ian J. Goodfellow",
@@ -12393,7 +12384,7 @@
     "authors": [
      {
       "name": "Matt Jordan",
-      "slug": ""
+      "slug": "matt-jordan"
      },
      {
       "name": "Alex Dimakis",
@@ -12451,11 +12442,11 @@
     "authors": [
      {
       "name": "Jeet Mohapatra",
-      "slug": ""
+      "slug": "jeet-mohapatra"
      },
      {
       "name": "Ching-Yun Ko",
-      "slug": ""
+      "slug": "ching-yun-ko"
      },
      {
       "name": "Tsui-Wei Weng",
@@ -12467,7 +12458,7 @@
      },
      {
       "name": "Sijia Liu",
-      "slug": ""
+      "slug": "sijia-liu"
      },
      {
       "name": "Luca Daniel",
@@ -12499,11 +12490,11 @@
     "authors": [
      {
       "name": "Anian Ruoss",
-      "slug": ""
+      "slug": "anian-ruoss"
      },
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Marc Fischer",
@@ -12565,11 +12556,11 @@
     "authors": [
      {
       "name": "Sungyoon Lee",
-      "slug": ""
+      "slug": "sungyoon-lee"
      },
      {
       "name": "Jaewook Lee",
-      "slug": ""
+      "slug": "jaewook-lee"
      },
      {
       "name": "Saerom Park",
@@ -12596,11 +12587,11 @@
     "authors": [
      {
       "name": "Greg Anderson",
-      "slug": ""
+      "slug": "greg-anderson"
      },
      {
       "name": "Abhinav Verma",
-      "slug": ""
+      "slug": "abhinav-verma"
      },
      {
       "name": "Isil Dillig",
@@ -12631,7 +12622,7 @@
     "authors": [
      {
       "name": "Richard Y. Zhang",
-      "slug": ""
+      "slug": "richard-y-zhang"
      }
     ]
    },
@@ -12662,7 +12653,7 @@
      },
      {
       "name": "Jinfeng Yi",
-      "slug": ""
+      "slug": "jinfeng-yi"
      },
      {
       "name": "Yuan Jiang",
@@ -12693,19 +12684,19 @@
     "authors": [
      {
       "name": "Tong Chen",
-      "slug": ""
+      "slug": "tong-chen"
      },
      {
       "name": "Jean B. Lasserre",
-      "slug": ""
+      "slug": "jean-b-lasserre"
      },
      {
       "name": "Victor Magron",
-      "slug": ""
+      "slug": "victor-magron"
      },
      {
       "name": "Edouard Pauwels",
-      "slug": ""
+      "slug": "edouard-pauwels"
      }
     ]
    },
@@ -12771,11 +12762,11 @@
     "authors": [
      {
       "name": "Hadi Salman",
-      "slug": ""
+      "slug": "hadi-salman"
      },
      {
       "name": "Greg Yang",
-      "slug": ""
+      "slug": "greg-yang"
      },
      {
       "name": "Huan Zhang",
@@ -12787,7 +12778,7 @@
      },
      {
       "name": "Pengchuan Zhang",
-      "slug": ""
+      "slug": "pengchuan-zhang"
      }
     ]
    },
@@ -12872,7 +12863,7 @@
     "authors": [
      {
       "name": "Aleksandar Bojchevski",
-      "slug": ""
+      "slug": "aleksandar-bojchevski"
      },
      {
       "name": "Stephan Günnemann",
@@ -12939,11 +12930,11 @@
     "authors": [
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Gagandeep Singh",
@@ -13091,7 +13082,7 @@
     "authors": [
      {
       "name": "Matt Jordan",
-      "slug": ""
+      "slug": "matt-jordan"
      },
      {
       "name": "Justin Lewis",
@@ -13127,7 +13118,7 @@
     "authors": [
      {
       "name": "Maksym Andriushchenko",
-      "slug": ""
+      "slug": "maksym-andriushchenko"
      },
      {
       "name": "Matthias Hein",
@@ -13159,19 +13150,19 @@
     "authors": [
      {
       "name": "Hadi Salman",
-      "slug": ""
+      "slug": "hadi-salman"
      },
      {
       "name": "Jerry Li",
-      "slug": ""
+      "slug": "jerry-li"
      },
      {
       "name": "Ilya P. Razenshteyn",
-      "slug": ""
+      "slug": "ilya-p-razenshteyn"
      },
      {
       "name": "Pengchuan Zhang",
-      "slug": ""
+      "slug": "pengchuan-zhang"
      },
      {
       "name": "Huan Zhang",
@@ -13183,7 +13174,7 @@
      },
      {
       "name": "Greg Yang",
-      "slug": ""
+      "slug": "greg-yang"
      }
     ]
    },
@@ -13206,7 +13197,7 @@
     "authors": [
      {
       "name": "Hongge Chen",
-      "slug": ""
+      "slug": "hongge-chen"
      },
      {
       "name": "Huan Zhang",
@@ -13222,7 +13213,7 @@
      },
      {
       "name": "Duane S. Boning",
-      "slug": ""
+      "slug": "duane-s-boning"
      },
      {
       "name": "Cho-Jui Hsieh",
@@ -13257,7 +13248,7 @@
      },
      {
       "name": "Shiyu Chang",
-      "slug": ""
+      "slug": "shiyu-chang"
      },
      {
       "name": "Tommi S. Jaakkola",
@@ -13414,7 +13405,7 @@
      },
      {
       "name": "Matthew Mirman",
-      "slug": ""
+      "slug": "matthew-mirman"
      },
      {
       "name": "Markus Püschel",
@@ -13508,7 +13499,7 @@
     "authors": [
      {
       "name": "Eric Wong",
-      "slug": ""
+      "slug": "eric-wong"
      },
      {
       "name": "Frank R. Schmidt",
@@ -13516,7 +13507,7 @@
      },
      {
       "name": "Jan Hendrik Metzen",
-      "slug": ""
+      "slug": "jan-hendrik-metzen"
      },
      {
       "name": "Zico Kolter",
@@ -13547,7 +13538,7 @@
      },
      {
       "name": "Jacob Steinhardt",
-      "slug": ""
+      "slug": "jacob-steinhardt"
      },
      {
       "name": "Percy Liang",
@@ -13605,7 +13596,7 @@
     "authors": [
      {
       "name": "Jacob Steinhardt",
-      "slug": ""
+      "slug": "jacob-steinhardt"
      },
      {
       "name": "Pang Wei Koh",
@@ -13645,7 +13636,7 @@
      },
      {
       "name": "Maksym Andriushchenko",
-      "slug": ""
+      "slug": "maksym-andriushchenko"
      }
     ]
    },
@@ -13684,7 +13675,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NeurIPS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-ml\" d=\"M26.0,78 V73.5 Q26.0,71.0 28.5,71.0 H36.7 Q39.2,71.0 39.2,73.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2017: 3 of 677 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M47.2,78 V59.5 Q47.2,57.0 49.7,57.0 H57.9 Q60.4,57.0 60.4,59.5 V78 Z\"/><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2018: 9 of 1,009 papers (0.9%)</title></rect><path class=\"ar-ml\" d=\"M68.4,78 V47.8 Q68.4,45.3 70.9,45.3 H79.1 Q81.6,45.3 81.6,47.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2019: 14 of 1,426 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M89.6,78 V19.8 Q89.6,17.3 92.1,17.3 H100.3 Q102.8,17.3 102.8,19.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2020: 26 of 1,898 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M110.8,78 V52.5 Q110.8,50.0 113.3,50.0 H121.5 Q124.0,50.0 124.0,52.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2021: 12 of 2,334 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M132.0,78 V24.5 Q132.0,22.0 134.5,22.0 H142.7 Q145.2,22.0 145.2,24.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2022: 24 of 2,834 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M153.2,78 V36.2 Q153.2,33.7 155.7,33.7 H163.9 Q166.4,33.7 166.4,36.2 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2023: 19 of 3,540 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2024: 18 of 4,494 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M195.6,78 V50.2 Q195.6,47.7 198.1,47.7 H206.3 Q208.8,47.7 208.8,50.2 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2025: 13 of 5,823 papers (0.2%)</title></rect><path class=\"ar-ml\" d=\"M216.8,78 V19.8 Q216.8,17.3 219.3,17.3 H227.5 Q230.0,17.3 230.0,19.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>NeurIPS 2026: 26 of 7,896 papers (0.3%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 30
  },
  {
   "key": "cvpr",
@@ -13702,8 +13695,7 @@
    "cv": 21,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -13758,59 +13750,29 @@
     "papers": 2
    },
    {
-    "slug": "thanhvu-nguyen",
-    "name": "ThanhVu Nguyen",
-    "papers": 1
+    "slug": "hongbin-liu",
+    "name": "Hongbin Liu",
+    "papers": 2
    },
    {
-    "slug": "marta-kwiatkowska",
-    "name": "Marta Kwiatkowska",
-    "papers": 1
+    "slug": "chunrong-fang",
+    "name": "Chunrong Fang",
+    "papers": 2
    },
    {
-    "slug": "hai-duong",
-    "name": "Hai Duong",
-    "papers": 1
+    "slug": "shiqing-ma",
+    "name": "Shiqing Ma",
+    "papers": 2
    },
    {
-    "slug": "min-zhang",
-    "name": "Min Zhang",
-    "papers": 1
+    "slug": "yuan-xiao",
+    "name": "Yuan Xiao",
+    "papers": 2
    },
    {
-    "slug": "tsui-wei-weng",
-    "name": "Tsui-Wei Weng",
-    "papers": 1
-   },
-   {
-    "slug": "luca-daniel",
-    "name": "Luca Daniel",
-    "papers": 1
-   },
-   {
-    "slug": "pin-yu-chen",
-    "name": "Pin-Yu Chen",
-    "papers": 1
-   },
-   {
-    "slug": "alessio-lomuscio",
-    "name": "Alessio Lomuscio",
-    "papers": 1
-   },
-   {
-    "slug": "thanh-le",
-    "name": "Thanh Le",
-    "papers": 1
-   },
-   {
-    "slug": "zhaodi-zhang",
-    "name": "Zhaodi Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "lam-nguyen",
-    "name": "Lam Nguyen",
-    "papers": 1
+    "slug": "zhenyu-chen",
+    "name": "Zhenyu Chen",
+    "papers": 2
    }
   ],
   "paper_list": [
@@ -13912,19 +13874,19 @@
     "authors": [
      {
       "name": "Jiate Li",
-      "slug": ""
+      "slug": "jiate-li"
      },
      {
       "name": "Meng Pang",
-      "slug": ""
+      "slug": "meng-pang"
      },
      {
       "name": "Yun Dong",
-      "slug": ""
+      "slug": "yun-dong"
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      }
     ]
    },
@@ -13951,11 +13913,11 @@
      },
      {
       "name": "Chong Xiang",
-      "slug": ""
+      "slug": "chong-xiang"
      },
      {
       "name": "Prateek Mittal",
-      "slug": ""
+      "slug": "prateek-mittal"
      }
     ]
    },
@@ -13978,7 +13940,7 @@
     "authors": [
      {
       "name": "Yuan Xiao",
-      "slug": ""
+      "slug": "yuan-xiao"
      },
      {
       "name": "Yuchen Chen",
@@ -13986,11 +13948,11 @@
      },
      {
       "name": "Shiqing Ma",
-      "slug": ""
+      "slug": "shiqing-ma"
      },
      {
       "name": "Chunrong Fang",
-      "slug": ""
+      "slug": "chunrong-fang"
      },
      {
       "name": "Tongtong Bai",
@@ -14010,7 +13972,7 @@
      },
      {
       "name": "Zhenyu Chen",
-      "slug": ""
+      "slug": "zhenyu-chen"
      }
     ]
    },
@@ -14033,7 +13995,7 @@
     "authors": [
      {
       "name": "Bernd Prach",
-      "slug": ""
+      "slug": "bernd-prach"
      },
      {
       "name": "Fabio Brau",
@@ -14045,7 +14007,7 @@
      },
      {
       "name": "Christoph H. Lampert",
-      "slug": ""
+      "slug": "christoph-h-lampert"
      }
     ]
    },
@@ -14073,7 +14035,7 @@
     "authors": [
      {
       "name": "Yanting Wang",
-      "slug": ""
+      "slug": "yanting-wang"
      },
      {
       "name": "Hongye Fu",
@@ -14108,11 +14070,11 @@
     "authors": [
      {
       "name": "Yuan Xiao",
-      "slug": ""
+      "slug": "yuan-xiao"
      },
      {
       "name": "Shiqing Ma",
-      "slug": ""
+      "slug": "shiqing-ma"
      },
      {
       "name": "Juan Zhai",
@@ -14120,7 +14082,7 @@
      },
      {
       "name": "Chunrong Fang",
-      "slug": ""
+      "slug": "chunrong-fang"
      },
      {
       "name": "Jinyuan Jia",
@@ -14128,7 +14090,7 @@
      },
      {
       "name": "Zhenyu Chen",
-      "slug": ""
+      "slug": "zhenyu-chen"
      }
     ]
    },
@@ -14182,7 +14144,7 @@
      },
      {
       "name": "Zhiyi Xue",
-      "slug": ""
+      "slug": "zhiyi-xue"
      },
      {
       "name": "Yang Chen",
@@ -14190,7 +14152,7 @@
      },
      {
       "name": "Si Liu",
-      "slug": ""
+      "slug": "si-liu"
      },
      {
       "name": "Yueling Zhang",
@@ -14198,7 +14160,7 @@
      },
      {
       "name": "Jing Liu",
-      "slug": ""
+      "slug": "jing-liu"
      },
      {
       "name": "Min Zhang",
@@ -14265,7 +14227,7 @@
      },
      {
       "name": "Hongbin Liu",
-      "slug": ""
+      "slug": "hongbin-liu"
      },
      {
       "name": "Neil Gong",
@@ -14341,7 +14303,7 @@
     "authors": [
      {
       "name": "Hadi Salman",
-      "slug": ""
+      "slug": "hadi-salman"
      },
      {
       "name": "Saachi Jain",
@@ -14349,11 +14311,11 @@
      },
      {
       "name": "Eric Wong",
-      "slug": ""
+      "slug": "eric-wong"
      },
      {
       "name": "Aleksander Madry",
-      "slug": ""
+      "slug": "aleksander-madry"
      }
     ]
    },
@@ -14424,7 +14386,7 @@
     "authors": [
      {
       "name": "Hongbin Liu",
-      "slug": ""
+      "slug": "hongbin-liu"
      },
      {
       "name": "Jinyuan Jia",
@@ -14496,7 +14458,7 @@
     "authors": [
      {
       "name": "Zhaoyang Lyu",
-      "slug": ""
+      "slug": "zhaoyang-lyu"
      },
      {
       "name": "Minghao Guo",
@@ -14504,7 +14466,7 @@
      },
      {
       "name": "Tong Wu",
-      "slug": ""
+      "slug": "tong-wu"
      },
      {
       "name": "Guodong Xu",
@@ -14516,7 +14478,7 @@
      },
      {
       "name": "Dahua Lin",
-      "slug": ""
+      "slug": "dahua-lin"
      }
     ]
    },
@@ -14544,7 +14506,7 @@
     "authors": [
      {
       "name": "Min Wu",
-      "slug": ""
+      "slug": "min-wu"
      },
      {
       "name": "Marta Kwiatkowska",
@@ -14576,7 +14538,7 @@
     "authors": [
      {
       "name": "Jeet Mohapatra",
-      "slug": ""
+      "slug": "jeet-mohapatra"
      },
      {
       "name": "Tsui-Wei Weng",
@@ -14588,7 +14550,7 @@
      },
      {
       "name": "Sijia Liu",
-      "slug": ""
+      "slug": "sijia-liu"
      },
      {
       "name": "Luca Daniel",
@@ -14615,11 +14577,11 @@
     "authors": [
      {
       "name": "Wang Lin",
-      "slug": ""
+      "slug": "wang-lin"
      },
      {
       "name": "Zhengfeng Yang",
-      "slug": ""
+      "slug": "zhengfeng-yang"
      },
      {
       "name": "Xin Chen",
@@ -14635,7 +14597,7 @@
      },
      {
       "name": "Zhiming Liu",
-      "slug": ""
+      "slug": "zhiming-liu"
      },
      {
       "name": "Jifeng He",
@@ -14643,7 +14605,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CVPR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2017: 0 of 782 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2018: 0 of 979 papers (0.0%)</title></rect><path class=\"ar-cv\" d=\"M68.4,78 V63.0 Q68.4,60.5 70.9,60.5 H79.1 Q81.6,60.5 81.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2019: 1 of 1,294 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M89.6,78 V45.5 Q89.6,43.0 92.1,43.0 H100.3 Q102.8,43.0 102.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2020: 2 of 1,465 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M110.8,78 V28.0 Q110.8,25.5 113.3,25.5 H121.5 Q124.0,25.5 124.0,28.0 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2021: 3 of 1,660 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M132.0,78 V28.0 Q132.0,25.5 134.5,25.5 H142.7 Q145.2,25.5 145.2,28.0 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2022: 3 of 2,070 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M153.2,78 V28.0 Q153.2,25.5 155.7,25.5 H163.9 Q166.4,25.5 166.4,28.0 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2023: 3 of 2,352 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M174.4,78 V10.5 Q174.4,8.0 176.9,8.0 H185.1 Q187.6,8.0 187.6,10.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2024: 4 of 2,715 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M195.6,78 V10.5 Q195.6,8.0 198.1,8.0 H206.3 Q208.8,8.0 208.8,10.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2025: 4 of 2,871 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M216.8,78 V63.0 Q216.8,60.5 219.3,60.5 H227.5 Q230.0,60.5 230.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CVPR 2026: 1 of 4,042 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "iccv",
@@ -14661,8 +14625,7 @@
    "cv": 4,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -14711,48 +14674,7 @@
    2024,
    2026
   ],
-  "researchers": [
-   {
-    "slug": "martin-vechev",
-    "name": "Martin Vechev",
-    "papers": 1
-   },
-   {
-    "slug": "gagandeep-singh",
-    "name": "Gagandeep Singh",
-    "papers": 1
-   },
-   {
-    "slug": "krishnamurthy-dvijotham",
-    "name": "Krishnamurthy Dvijotham",
-    "papers": 1
-   },
-   {
-    "slug": "rudy-bunel",
-    "name": "Rudy Bunel",
-    "papers": 1
-   },
-   {
-    "slug": "pushmeet-kohli",
-    "name": "Pushmeet Kohli",
-    "papers": 1
-   },
-   {
-    "slug": "lijun-zhang",
-    "name": "Lijun Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "robert-stanforth",
-    "name": "Robert Stanforth",
-    "papers": 1
-   },
-   {
-    "slug": "sven-gowal",
-    "name": "Sven Gowal",
-    "papers": 1
-   }
-  ],
+  "researchers": [],
   "paper_list": [
    {
     "id": "zhang2023trajpac",
@@ -14786,7 +14708,7 @@
      },
      {
       "name": "Pengfei Yang",
-      "slug": ""
+      "slug": "pengfei-yang"
      },
      {
       "name": "Gaojie Jin",
@@ -14794,7 +14716,7 @@
      },
      {
       "name": "Cheng-Chao Huang",
-      "slug": ""
+      "slug": "cheng-chao-huang"
      },
      {
       "name": "Lijun Zhang",
@@ -14870,15 +14792,15 @@
     "authors": [
      {
       "name": "Tobias Lorenz",
-      "slug": ""
+      "slug": "tobias-lorenz"
      },
      {
       "name": "Anian Ruoss",
-      "slug": ""
+      "slug": "anian-ruoss"
      },
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Gagandeep Singh",
@@ -14925,11 +14847,11 @@
      },
      {
       "name": "Chongli Qin",
-      "slug": ""
+      "slug": "chongli-qin"
      },
      {
       "name": "Jonathan Uesato",
-      "slug": ""
+      "slug": "jonathan-uesato"
      },
      {
       "name": "Relja Arandjelovic",
@@ -14945,7 +14867,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICCV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2017: 0 of 621 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2018: not held</title></rect><path class=\"ar-cv\" d=\"M68.4,78 V63.0 Q68.4,60.5 70.9,60.5 H79.1 Q81.6,60.5 81.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2019: 1 of 1,075 papers (0.1%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2020: not held</title></rect><path class=\"ar-cv\" d=\"M110.8,78 V45.5 Q110.8,43.0 113.3,43.0 H121.5 Q124.0,43.0 124.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2021: 2 of 1,611 papers (0.1%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2022: not held</title></rect><path class=\"ar-cv\" d=\"M153.2,78 V63.0 Q153.2,60.5 155.7,60.5 H163.9 Q166.4,60.5 166.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2023: 1 of 2,156 papers (0.0%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2024: not held</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2025: 0 of 2,699 papers (0.0%)</title></rect><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICCV 2026: not held</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "eccv",
@@ -14963,8 +14887,7 @@
    "cv": 11,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -15013,53 +14936,7 @@
    2023,
    2025
   ],
-  "researchers": [
-   {
-    "slug": "gagandeep-singh",
-    "name": "Gagandeep Singh",
-    "papers": 1
-   },
-   {
-    "slug": "huan-zhang",
-    "name": "Huan Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "jinyuan-jia",
-    "name": "Jinyuan Jia",
-    "papers": 1
-   },
-   {
-    "slug": "neil-gong",
-    "name": "Neil Gong",
-    "papers": 1
-   },
-   {
-    "slug": "pin-yu-chen",
-    "name": "Pin-Yu Chen",
-    "papers": 1
-   },
-   {
-    "slug": "alessio-lomuscio",
-    "name": "Alessio Lomuscio",
-    "papers": 1
-   },
-   {
-    "slug": "xiaowei-huang",
-    "name": "Xiaowei Huang",
-    "papers": 1
-   },
-   {
-    "slug": "benedikt-bruckner",
-    "name": "Benedikt Brückner",
-    "papers": 1
-   },
-   {
-    "slug": "panagiotis-kouvaros",
-    "name": "Panagiotis Kouvaros",
-    "papers": 1
-   }
-  ],
+  "researchers": [],
   "paper_list": [
    {
     "id": "massena2026fast",
@@ -15080,19 +14957,19 @@
     "authors": [
      {
       "name": "Thomas Massena",
-      "slug": ""
+      "slug": "thomas-massena"
      },
      {
       "name": "Corentin Friedrich",
-      "slug": ""
+      "slug": "corentin-friedrich"
      },
      {
       "name": "Franck Mamalet",
-      "slug": ""
+      "slug": "franck-mamalet"
      },
      {
       "name": "Mathieu Serrurier",
-      "slug": ""
+      "slug": "mathieu-serrurier"
      }
     ]
    },
@@ -15120,7 +14997,7 @@
     "authors": [
      {
       "name": "Benedikt Brückner",
-      "slug": "benedikt-bruckner"
+      "slug": ""
      },
      {
       "name": "Alejandro J. Mercado",
@@ -15132,7 +15009,7 @@
      },
      {
       "name": "Panagiotis Kouvaros",
-      "slug": "panagiotis-kouvaros"
+      "slug": ""
      },
      {
       "name": "Alessio Lomuscio",
@@ -15243,7 +15120,7 @@
     "authors": [
      {
       "name": "Changming Xu",
-      "slug": ""
+      "slug": "changming-xu"
      },
      {
       "name": "Gagandeep Singh",
@@ -15369,7 +15246,7 @@
      },
      {
       "name": "Bhavya Kailkhura",
-      "slug": ""
+      "slug": "bhavya-kailkhura"
      },
      {
       "name": "Pin-Yu Chen",
@@ -15408,11 +15285,11 @@
     "authors": [
      {
       "name": "Bernd Prach",
-      "slug": ""
+      "slug": "bernd-prach"
      },
      {
       "name": "Christoph H. Lampert",
-      "slug": ""
+      "slug": "christoph-h-lampert"
      }
     ]
    },
@@ -15439,11 +15316,11 @@
      },
      {
       "name": "Binghui Wang",
-      "slug": ""
+      "slug": "binghui-wang"
      },
      {
       "name": "Yuan Hong",
-      "slug": ""
+      "slug": "yuan-hong"
      }
     ]
    },
@@ -15483,7 +15360,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ECCV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2017: not held</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2018: 0 of 776 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2019: not held</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2020: 0 of 1,358 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2021: not held</title></rect><path class=\"ar-cv\" d=\"M132.0,78 V10.5 Q132.0,8.0 134.5,8.0 H142.7 Q145.2,8.0 145.2,10.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2022: 4 of 1,645 papers (0.2%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2023: not held</title></rect><path class=\"ar-cv\" d=\"M174.4,78 V10.5 Q174.4,8.0 176.9,8.0 H185.1 Q187.6,8.0 187.6,10.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2024: 4 of 2,386 papers (0.2%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2025: not held</title></rect><path class=\"ar-cv\" d=\"M216.8,78 V28.0 Q216.8,25.5 219.3,25.5 H227.5 Q230.0,25.5 230.0,28.0 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ECCV 2026: 3 of 2,835 papers (0.1%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "pldi",
@@ -15501,8 +15380,7 @@
    "cv": 0,
    "pl": 10,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 1,
@@ -15565,36 +15443,6 @@
     "slug": "aditya-v-thakur",
     "name": "Aditya V. Thakur",
     "papers": 2
-   },
-   {
-    "slug": "mark-niklas-muller",
-    "name": "Mark Niklas Müller",
-    "papers": 1
-   },
-   {
-    "slug": "marc-fischer",
-    "name": "Marc Fischer",
-    "papers": 1
-   },
-   {
-    "slug": "timon-gehr",
-    "name": "Timon Gehr",
-    "papers": 1
-   },
-   {
-    "slug": "sasa-misailovic",
-    "name": "Sasa Misailovic",
-    "papers": 1
-   },
-   {
-    "slug": "isil-dillig",
-    "name": "Isil Dillig",
-    "papers": 1
-   },
-   {
-    "slug": "swarat-chaudhuri",
-    "name": "Swarat Chaudhuri",
-    "papers": 1
    }
   ],
   "paper_list": [
@@ -15652,7 +15500,7 @@
      },
      {
       "name": "Changming Xu",
-      "slug": ""
+      "slug": "changming-xu"
      },
      {
       "name": "Gagandeep Singh",
@@ -15719,7 +15567,7 @@
     "authors": [
      {
       "name": "Zhe Tao",
-      "slug": ""
+      "slug": "zhe-tao"
      },
      {
       "name": "Stephanie Nawas",
@@ -15754,7 +15602,7 @@
     "authors": [
      {
       "name": "Shubham Ugare",
-      "slug": ""
+      "slug": "shubham-ugare"
      },
      {
       "name": "Debangshu Banerjee",
@@ -15793,11 +15641,11 @@
      },
      {
       "name": "Dimitar I. Dimitrov",
-      "slug": ""
+      "slug": "dimitar-i-dimitrov"
      },
      {
       "name": "Maximilian Baader",
-      "slug": ""
+      "slug": "maximilian-baader"
      },
      {
       "name": "Martin Vechev",
@@ -15851,7 +15699,7 @@
     "authors": [
      {
       "name": "Matthew Mirman",
-      "slug": ""
+      "slug": "matthew-mirman"
      },
      {
       "name": "Alexander Hägele",
@@ -15890,7 +15738,7 @@
     "authors": [
      {
       "name": "He Zhu",
-      "slug": ""
+      "slug": "he-zhu"
      },
      {
       "name": "Zikang Xiong",
@@ -15930,7 +15778,7 @@
     "authors": [
      {
       "name": "Greg Anderson",
-      "slug": ""
+      "slug": "greg-anderson"
      },
      {
       "name": "Shankara Pailoor",
@@ -15946,7 +15794,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"PLDI: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2017: 0 of 47 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2018: 0 of 55 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M68.4,78 V63.0 Q68.4,60.5 70.9,60.5 H79.1 Q81.6,60.5 81.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2019: 2 of 76 papers (2.6%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2020: 0 of 77 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M110.8,78 V54.2 Q110.8,51.8 113.3,51.8 H121.5 Q124.0,51.8 124.0,54.2 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2021: 3 of 87 papers (3.4%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2022: 0 of 68 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M153.2,78 V54.2 Q153.2,51.8 155.7,51.8 H163.9 Q166.4,51.8 166.4,54.2 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2023: 3 of 83 papers (3.6%)</title></rect><path class=\"ar-pl\" d=\"M174.4,78 V71.8 Q174.4,69.2 176.9,69.2 H185.1 Q187.6,69.2 187.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2024: 1 of 89 papers (1.1%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2025: 0 of 88 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M216.8,78 V71.8 Q216.8,69.2 219.3,69.2 H227.5 Q230.0,69.2 230.0,71.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>PLDI 2026: 1 of 107 papers (0.9%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 8
  },
  {
   "key": "popl",
@@ -15964,8 +15814,7 @@
    "cv": 0,
    "pl": 4,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -16023,21 +15872,6 @@
     "slug": "markus-puschel",
     "name": "Markus Püschel",
     "papers": 2
-   },
-   {
-    "slug": "mark-niklas-muller",
-    "name": "Mark Niklas Müller",
-    "papers": 1
-   },
-   {
-    "slug": "timon-gehr",
-    "name": "Timon Gehr",
-    "papers": 1
-   },
-   {
-    "slug": "aws-albarghouthi",
-    "name": "Aws Albarghouthi",
-    "papers": 1
    }
   ],
   "paper_list": [
@@ -16060,7 +15894,7 @@
     "authors": [
      {
       "name": "Zhongkui Ma",
-      "slug": ""
+      "slug": "zhongkui-ma"
      },
      {
       "name": "Jiaying Li",
@@ -16068,7 +15902,7 @@
      },
      {
       "name": "Guangdong Bai",
-      "slug": ""
+      "slug": "guangdong-bai"
      }
     ]
    },
@@ -16091,7 +15925,7 @@
     "authors": [
      {
       "name": "Zi Wang",
-      "slug": ""
+      "slug": "zi-wang"
      },
      {
       "name": "Aws Albarghouthi",
@@ -16103,7 +15937,7 @@
      },
      {
       "name": "Somesh Jha",
-      "slug": ""
+      "slug": "somesh-jha"
      }
     ]
    },
@@ -16181,7 +16015,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"POPL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2017: 0 of 66 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2018: 0 of 66 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M68.4,78 V71.8 Q68.4,69.2 70.9,69.2 H79.1 Q81.6,69.2 81.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2019: 1 of 77 papers (1.3%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2020: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2021: 0 of 61 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M132.0,78 V63.0 Q132.0,60.5 134.5,60.5 H142.7 Q145.2,60.5 145.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2022: 2 of 65 papers (3.1%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2023: 0 of 74 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M174.4,78 V71.8 Q174.4,69.2 176.9,69.2 H185.1 Q187.6,69.2 187.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2024: 1 of 93 papers (1.1%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2025: 0 of 79 papers (0.0%)</title></rect><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>POPL 2026: 0 of 91 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 8
  },
  {
   "key": "icfp",
@@ -16199,8 +16035,7 @@
    "cv": 0,
    "pl": 1,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -16243,18 +16078,7 @@
   "share": 0.27,
   "missing": [],
   "not_held": [],
-  "researchers": [
-   {
-    "slug": "matthew-l-daggitt",
-    "name": "Matthew L. Daggitt",
-    "papers": 1
-   },
-   {
-    "slug": "ekaterina-komendantskaya",
-    "name": "Ekaterina Komendantskaya",
-    "papers": 1
-   }
-  ],
+  "researchers": [],
   "paper_list": [
    {
     "id": "daggitt2026compositional",
@@ -16296,7 +16120,7 @@
      },
      {
       "name": "Samuel Teuber",
-      "slug": ""
+      "slug": "samuel-teuber"
      },
      {
       "name": "Josh Smart",
@@ -16308,7 +16132,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICFP: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2017: 0 of 44 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2018: 0 of 40 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2019: 0 of 39 papers (0.0%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2020: 0 of 37 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2021: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2022: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2023: 0 of 33 papers (0.0%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2024: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2025: 0 of 36 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M216.8,78 V71.8 Q216.8,69.2 219.3,69.2 H227.5 Q230.0,69.2 230.0,71.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICFP 2026: 1 of 38 papers (2.6%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 8
  },
  {
   "key": "oopsla",
@@ -16326,8 +16152,7 @@
    "cv": 0,
    "pl": 15,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 3,
@@ -16390,31 +16215,6 @@
     "slug": "jun-sun",
     "name": "Jun Sun",
     "papers": 2
-   },
-   {
-    "slug": "sasa-misailovic",
-    "name": "Sasa Misailovic",
-    "papers": 1
-   },
-   {
-    "slug": "clark-barrett",
-    "name": "Clark Barrett",
-    "papers": 1
-   },
-   {
-    "slug": "haoze-wu",
-    "name": "Haoze Wu",
-    "papers": 1
-   },
-   {
-    "slug": "fu-song",
-    "name": "Fu Song",
-    "papers": 1
-   },
-   {
-    "slug": "yedi-zhang",
-    "name": "Yedi Zhang",
-    "papers": 1
    }
   ],
   "paper_list": [
@@ -16503,7 +16303,7 @@
     "authors": [
      {
       "name": "Zhongkui Ma",
-      "slug": ""
+      "slug": "zhongkui-ma"
      },
      {
       "name": "Zihan Wang",
@@ -16511,7 +16311,7 @@
      },
      {
       "name": "Guangdong Bai",
-      "slug": ""
+      "slug": "guangdong-bai"
      }
     ]
    },
@@ -16539,7 +16339,7 @@
     "authors": [
      {
       "name": "Ruihan Zhang",
-      "slug": ""
+      "slug": "ruihan-zhang"
      },
      {
       "name": "Jun Sun",
@@ -16570,7 +16370,7 @@
      },
      {
       "name": "Zhenya Zhang",
-      "slug": ""
+      "slug": "zhenya-zhang"
      },
      {
       "name": "H. M. N. Dilum Bandara",
@@ -16582,7 +16382,7 @@
      },
      {
       "name": "Jianjun Zhao",
-      "slug": ""
+      "slug": "jianjun-zhao"
      },
      {
       "name": "Yulei Sui",
@@ -16760,7 +16560,7 @@
     "authors": [
      {
       "name": "Yuval Shapira",
-      "slug": ""
+      "slug": "yuval-shapira"
      },
      {
       "name": "Eran Avneri",
@@ -16803,7 +16603,7 @@
      },
      {
       "name": "Sayan Mitra",
-      "slug": ""
+      "slug": "sayan-mitra"
      }
     ]
    },
@@ -16831,7 +16631,7 @@
     "authors": [
      {
       "name": "Shubham Ugare",
-      "slug": ""
+      "slug": "shubham-ugare"
      },
      {
       "name": "Gagandeep Singh",
@@ -16874,7 +16674,7 @@
      },
      {
       "name": "Nina Narodytska",
-      "slug": ""
+      "slug": "nina-narodytska"
      },
      {
       "name": "Gagandeep Singh",
@@ -16905,11 +16705,11 @@
      },
      {
       "name": "Maria Christakis",
-      "slug": ""
+      "slug": "maria-christakis"
      },
      {
       "name": "Valentin Wüstholz",
-      "slug": ""
+      "slug": "valentin-wustholz"
      },
      {
       "name": "Fuyuan Zhang",
@@ -16917,7 +16717,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"OOPSLA: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2017: 0 of 66 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2018: 0 of 60 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2019: 0 of 73 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M89.6,78 V71.8 Q89.6,69.2 92.1,69.2 H100.3 Q102.8,69.2 102.8,71.8 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2020: 1 of 109 papers (0.9%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2021: 0 of 71 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M132.0,78 V63.0 Q132.0,60.5 134.5,60.5 H142.7 Q145.2,60.5 145.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2022: 2 of 92 papers (2.2%)</title></rect><path class=\"ar-pl\" d=\"M153.2,78 V63.0 Q153.2,60.5 155.7,60.5 H163.9 Q166.4,60.5 166.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2023: 2 of 110 papers (1.8%)</title></rect><path class=\"ar-pl\" d=\"M174.4,78 V71.8 Q174.4,69.2 176.9,69.2 H185.1 Q187.6,69.2 187.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2024: 1 of 148 papers (0.7%)</title></rect><path class=\"ar-pl\" d=\"M195.6,78 V10.5 Q195.6,8.0 198.1,8.0 H206.3 Q208.8,8.0 208.8,10.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2025: 8 of 216 papers (3.7%)</title></rect><path class=\"ar-pl\" d=\"M216.8,78 V71.8 Q216.8,69.2 219.3,69.2 H227.5 Q230.0,69.2 230.0,71.8 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>OOPSLA 2026: 1 of 75 papers (1.3%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 8
  },
  {
   "key": "fse",
@@ -16935,8 +16737,7 @@
    "cv": 0,
    "pl": 0,
    "se": 5,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 1,
@@ -16989,31 +16790,6 @@
     "slug": "hai-duong",
     "name": "Hai Duong",
     "papers": 2
-   },
-   {
-    "slug": "marta-kwiatkowska",
-    "name": "Marta Kwiatkowska",
-    "papers": 1
-   },
-   {
-    "slug": "matthew-b-dwyer",
-    "name": "Matthew B. Dwyer",
-    "papers": 1
-   },
-   {
-    "slug": "thanh-le",
-    "name": "Thanh Le",
-    "papers": 1
-   },
-   {
-    "slug": "dong-xu",
-    "name": "Dong Xu",
-    "papers": 1
-   },
-   {
-    "slug": "lam-nguyen",
-    "name": "Lam Nguyen",
-    "papers": 1
    }
   ],
   "paper_list": [
@@ -17040,11 +16816,11 @@
      },
      {
       "name": "Bai Xue",
-      "slug": ""
+      "slug": "bai-xue"
      },
      {
       "name": "Pengfei Yang",
-      "slug": ""
+      "slug": "pengfei-yang"
      },
      {
       "name": "Ji Wang",
@@ -17067,7 +16843,12 @@
     "source": "dblp.org",
     "area": "other",
     "area_name": "Other",
-    "tags": [],
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
     "authors": [
      {
       "name": "Hai Duong",
@@ -17184,7 +16965,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"FSE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2017: 0 of 93 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2018: 0 of 77 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M68.4,78 V63.0 Q68.4,60.5 70.9,60.5 H79.1 Q81.6,60.5 81.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2019: 1 of 98 papers (1.0%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2020: 0 of 125 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2021: 0 of 135 papers (0.0%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2022: 0 of 142 papers (0.0%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2023: 0 of 170 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M174.4,78 V45.5 Q174.4,43.0 176.9,43.0 H185.1 Q187.6,43.0 187.6,45.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2024: 2 of 121 papers (1.7%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2025: 0 of 132 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M216.8,78 V45.5 Q216.8,43.0 219.3,43.0 H227.5 Q230.0,43.0 230.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>FSE 2026: 2 of 212 papers (0.9%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "icse",
@@ -17202,8 +16985,7 @@
    "cv": 0,
    "pl": 0,
    "se": 7,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -17250,8 +17032,23 @@
   "not_held": [],
   "researchers": [
    {
+    "slug": "pengfei-yang",
+    "name": "Pengfei Yang",
+    "papers": 3
+   },
+   {
+    "slug": "cheng-chao-huang",
+    "name": "Cheng-Chao Huang",
+    "papers": 3
+   },
+   {
     "slug": "chao-wang",
     "name": "Chao Wang",
+    "papers": 2
+   },
+   {
+    "slug": "jingbo-wang",
+    "name": "Jingbo Wang",
     "papers": 2
    },
    {
@@ -17260,9 +17057,24 @@
     "papers": 2
    },
    {
-    "slug": "xiaowei-huang",
-    "name": "Xiaowei Huang",
-    "papers": 1
+    "slug": "jianan-ma",
+    "name": "Jianan Ma",
+    "papers": 2
+   },
+   {
+    "slug": "jingyi-wang",
+    "name": "Jingyi Wang",
+    "papers": 2
+   },
+   {
+    "slug": "youcheng-sun",
+    "name": "Youcheng Sun",
+    "papers": 2
+   },
+   {
+    "slug": "renjue-li",
+    "name": "Renjue Li",
+    "papers": 2
    }
   ],
   "paper_list": [
@@ -17289,7 +17101,7 @@
      },
      {
       "name": "Jingbo Wang",
-      "slug": ""
+      "slug": "jingbo-wang"
      },
      {
       "name": "Chao Wang",
@@ -17316,27 +17128,27 @@
     "authors": [
      {
       "name": "Zhiming Chi",
-      "slug": ""
+      "slug": "zhiming-chi"
      },
      {
       "name": "Jianan Ma",
-      "slug": ""
+      "slug": "jianan-ma"
      },
      {
       "name": "Pengfei Yang",
-      "slug": ""
+      "slug": "pengfei-yang"
      },
      {
       "name": "Cheng-Chao Huang",
-      "slug": ""
+      "slug": "cheng-chao-huang"
      },
      {
       "name": "Renjue Li",
-      "slug": ""
+      "slug": "renjue-li"
      },
      {
       "name": "Jingyi Wang",
-      "slug": ""
+      "slug": "jingyi-wang"
      },
      {
       "name": "Xiaowei Huang",
@@ -17372,27 +17184,27 @@
     "authors": [
      {
       "name": "Jianan Ma",
-      "slug": ""
+      "slug": "jianan-ma"
      },
      {
       "name": "Pengfei Yang",
-      "slug": ""
+      "slug": "pengfei-yang"
      },
      {
       "name": "Jingyi Wang",
-      "slug": ""
+      "slug": "jingyi-wang"
      },
      {
       "name": "Youcheng Sun",
-      "slug": ""
+      "slug": "youcheng-sun"
      },
      {
       "name": "Cheng-Chao Huang",
-      "slug": ""
+      "slug": "cheng-chao-huang"
      },
      {
       "name": "Zhen Wang",
-      "slug": ""
+      "slug": "zhen-wang"
      }
     ]
    },
@@ -17447,23 +17259,23 @@
     "authors": [
      {
       "name": "Renjue Li",
-      "slug": ""
+      "slug": "renjue-li"
      },
      {
       "name": "Pengfei Yang",
-      "slug": ""
+      "slug": "pengfei-yang"
      },
      {
       "name": "Cheng-Chao Huang",
-      "slug": ""
+      "slug": "cheng-chao-huang"
      },
      {
       "name": "Youcheng Sun",
-      "slug": ""
+      "slug": "youcheng-sun"
      },
      {
       "name": "Bai Xue",
-      "slug": ""
+      "slug": "bai-xue"
      },
      {
       "name": "Lijun Zhang",
@@ -17530,11 +17342,11 @@
     "authors": [
      {
       "name": "Brandon Paulsen",
-      "slug": ""
+      "slug": "brandon-paulsen"
      },
      {
       "name": "Jingbo Wang",
-      "slug": ""
+      "slug": "jingbo-wang"
      },
      {
       "name": "Chao Wang",
@@ -17542,7 +17354,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICSE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2017: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2018: 0 of 152 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2019: 0 of 109 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M89.6,78 V63.0 Q89.6,60.5 92.1,60.5 H100.3 Q102.8,60.5 102.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2020: 1 of 129 papers (0.8%)</title></rect><path class=\"ar-se\" d=\"M110.8,78 V63.0 Q110.8,60.5 113.3,60.5 H121.5 Q124.0,60.5 124.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2021: 1 of 138 papers (0.7%)</title></rect><path class=\"ar-se\" d=\"M132.0,78 V63.0 Q132.0,60.5 134.5,60.5 H142.7 Q145.2,60.5 145.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2022: 1 of 199 papers (0.5%)</title></rect><path class=\"ar-se\" d=\"M153.2,78 V63.0 Q153.2,60.5 155.7,60.5 H163.9 Q166.4,60.5 166.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2023: 1 of 210 papers (0.5%)</title></rect><path class=\"ar-se\" d=\"M174.4,78 V63.0 Q174.4,60.5 176.9,60.5 H185.1 Q187.6,60.5 187.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2024: 1 of 234 papers (0.4%)</title></rect><path class=\"ar-se\" d=\"M195.6,78 V45.5 Q195.6,43.0 198.1,43.0 H206.3 Q208.8,43.0 208.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2025: 2 of 245 papers (0.8%)</title></rect><circle class=\"pending\" cx=\"223.4\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ICSE 2026: not yet in dblp</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "ase",
@@ -17560,8 +17374,7 @@
    "cv": 0,
    "pl": 0,
    "se": 8,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -17611,56 +17424,6 @@
     "slug": "min-zhang",
     "name": "Min Zhang",
     "papers": 2
-   },
-   {
-    "slug": "jun-sun",
-    "name": "Jun Sun",
-    "papers": 1
-   },
-   {
-    "slug": "thanhvu-nguyen",
-    "name": "ThanhVu Nguyen",
-    "papers": 1
-   },
-   {
-    "slug": "matthew-b-dwyer",
-    "name": "Matthew B. Dwyer",
-    "papers": 1
-   },
-   {
-    "slug": "chao-wang",
-    "name": "Chao Wang",
-    "papers": 1
-   },
-   {
-    "slug": "david-shriver",
-    "name": "David Shriver",
-    "papers": 1
-   },
-   {
-    "slug": "sebastian-elbaum",
-    "name": "Sebastian Elbaum",
-    "papers": 1
-   },
-   {
-    "slug": "fu-song",
-    "name": "Fu Song",
-    "papers": 1
-   },
-   {
-    "slug": "yedi-zhang",
-    "name": "Yedi Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "zhaodi-zhang",
-    "name": "Zhaodi Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "linhan-li",
-    "name": "Linhan Li",
-    "papers": 1
    }
   ],
   "paper_list": [
@@ -17683,7 +17446,7 @@
     "authors": [
      {
       "name": "Linhan Li",
-      "slug": "linhan-li"
+      "slug": ""
      },
      {
       "name": "ThanhVu Nguyen",
@@ -17715,11 +17478,11 @@
     "authors": [
      {
       "name": "Jianan Ma",
-      "slug": ""
+      "slug": "jianan-ma"
      },
      {
       "name": "Jingyi Wang",
-      "slug": ""
+      "slug": "jingyi-wang"
      },
      {
       "name": "Qi Xuan",
@@ -17727,7 +17490,7 @@
      },
      {
       "name": "Zhen Wang",
-      "slug": ""
+      "slug": "zhen-wang"
      }
     ]
    },
@@ -17812,15 +17575,15 @@
      },
      {
       "name": "Yiting Wu",
-      "slug": ""
+      "slug": "yiting-wu"
      },
      {
       "name": "Si Liu",
-      "slug": ""
+      "slug": "si-liu"
      },
      {
       "name": "Jing Liu",
-      "slug": ""
+      "slug": "jing-liu"
      },
      {
       "name": "Min Zhang",
@@ -17939,11 +17702,11 @@
     "authors": [
      {
       "name": "Brandon Paulsen",
-      "slug": ""
+      "slug": "brandon-paulsen"
      },
      {
       "name": "Jingbo Wang",
-      "slug": ""
+      "slug": "jingbo-wang"
      },
      {
       "name": "Jiawei Wang",
@@ -17955,7 +17718,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ASE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2017: 0 of 108 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2018: 0 of 87 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2019: 0 of 84 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M89.6,78 V63.0 Q89.6,60.5 92.1,60.5 H100.3 Q102.8,60.5 102.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2020: 1 of 93 papers (1.1%)</title></rect><path class=\"ar-se\" d=\"M110.8,78 V63.0 Q110.8,60.5 113.3,60.5 H121.5 Q124.0,60.5 124.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2021: 1 of 85 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M132.0,78 V45.5 Q132.0,43.0 134.5,43.0 H142.7 Q145.2,43.0 145.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2022: 2 of 138 papers (1.4%)</title></rect><path class=\"ar-se\" d=\"M153.2,78 V45.5 Q153.2,43.0 155.7,43.0 H163.9 Q166.4,43.0 166.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2023: 2 of 162 papers (1.2%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2024: 0 of 186 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M195.6,78 V45.5 Q195.6,43.0 198.1,43.0 H206.3 Q208.8,43.0 208.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2025: 2 of 309 papers (0.6%)</title></rect><circle class=\"pending\" cx=\"223.4\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ASE 2026: not yet in dblp</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "issta",
@@ -17973,8 +17738,7 @@
    "cv": 0,
    "pl": 0,
    "se": 2,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -18019,23 +17783,7 @@
    2026
   ],
   "not_held": [],
-  "researchers": [
-   {
-    "slug": "jun-sun",
-    "name": "Jun Sun",
-    "papers": 1
-   },
-   {
-    "slug": "min-zhang",
-    "name": "Min Zhang",
-    "papers": 1
-   },
-   {
-    "slug": "zhaodi-zhang",
-    "name": "Zhaodi Zhang",
-    "papers": 1
-   }
-  ],
+  "researchers": [],
   "paper_list": [
    {
     "id": "pham2024certified",
@@ -18061,7 +17809,7 @@
     "authors": [
      {
       "name": "Long H. Pham",
-      "slug": ""
+      "slug": "long-h-pham"
      },
      {
       "name": "Jun Sun",
@@ -18088,11 +17836,11 @@
     "authors": [
      {
       "name": "Zhiyi Xue",
-      "slug": ""
+      "slug": "zhiyi-xue"
      },
      {
       "name": "Si Liu",
-      "slug": ""
+      "slug": "si-liu"
      },
      {
       "name": "Zhaodi Zhang",
@@ -18100,7 +17848,7 @@
      },
      {
       "name": "Yiting Wu",
-      "slug": ""
+      "slug": "yiting-wu"
      },
      {
       "name": "Min Zhang",
@@ -18108,7 +17856,9 @@
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ISSTA: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2017: 0 of 31 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2018: 0 of 31 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2019: 0 of 32 papers (0.0%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2020: 0 of 43 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2021: 0 of 52 papers (0.0%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2022: 0 of 60 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M153.2,78 V63.0 Q153.2,60.5 155.7,60.5 H163.9 Q166.4,60.5 166.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2023: 1 of 117 papers (0.9%)</title></rect><path class=\"ar-se\" d=\"M174.4,78 V63.0 Q174.4,60.5 176.9,60.5 H185.1 Q187.6,60.5 187.6,63.0 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2024: 1 of 143 papers (0.7%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2025: 0 of 110 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"223.4\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>ISSTA 2026: not yet in dblp</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 4
  },
  {
   "key": "cav",
@@ -18126,11 +17876,10 @@
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 48,
-   "fm": 0
+   "lv": 48
   },
   "areas": {
-   "complete": 9,
+   "complete": 10,
    "bounds": 6,
    "probabilistic": 0,
    "training": 1,
@@ -18140,7 +17889,7 @@
    "relational": 4,
    "architectures": 4,
    "quantized": 2,
-   "other": 13
+   "other": 12
   },
   "years": {
    "2017": 2,
@@ -18219,6 +17968,16 @@
    {
     "slug": "diego-manzanas-lopez",
     "name": "Diego Manzanas Lopez",
+    "papers": 3
+   },
+   {
+    "slug": "guy-amir",
+    "name": "Guy Amir",
+    "papers": 3
+   },
+   {
+    "slug": "kyle-julian",
+    "name": "Kyle Julian",
     "papers": 3
    }
   ],
@@ -18362,11 +18121,11 @@
      },
      {
       "name": "Zhenya Zhang",
-      "slug": ""
+      "slug": "zhenya-zhang"
      },
      {
       "name": "Jianjun Zhao",
-      "slug": ""
+      "slug": "jianjun-zhao"
      }
     ]
    },
@@ -18543,7 +18302,7 @@
      },
      {
       "name": "Sejun Park",
-      "slug": ""
+      "slug": "sejun-park"
      },
      {
       "name": "Feras Saad",
@@ -18570,7 +18329,7 @@
     "authors": [
      {
       "name": "Tianhao Wei",
-      "slug": ""
+      "slug": "tianhao-wei"
      },
      {
       "name": "Hanjiang Hu",
@@ -18739,7 +18498,7 @@
      },
      {
       "name": "Sung Woo Choi",
-      "slug": ""
+      "slug": "sung-woo-choi"
      },
      {
       "name": "Yuntao Li",
@@ -18782,7 +18541,7 @@
     "authors": [
      {
       "name": "Yuval Shapira",
-      "slug": ""
+      "slug": "yuval-shapira"
      },
      {
       "name": "Naor Wiesel",
@@ -18817,7 +18576,7 @@
     "authors": [
      {
       "name": "Ruihan Zhang",
-      "slug": ""
+      "slug": "ruihan-zhang"
      },
      {
       "name": "Jun Sun",
@@ -18857,7 +18616,7 @@
      },
      {
       "name": "Aleksandar Zeljic",
-      "slug": ""
+      "slug": "aleksandar-zeljic"
      },
      {
       "name": "Teruhiro Tagomori",
@@ -18869,23 +18628,23 @@
      },
      {
       "name": "Wen Kokke",
-      "slug": ""
+      "slug": "wen-kokke"
      },
      {
       "name": "Idan Refaeli",
-      "slug": ""
+      "slug": "idan-refaeli"
      },
      {
       "name": "Guy Amir",
-      "slug": ""
+      "slug": "guy-amir"
      },
      {
       "name": "Kyle Julian",
-      "slug": ""
+      "slug": "kyle-julian"
      },
      {
       "name": "Shahaf Bassan",
-      "slug": ""
+      "slug": "shahaf-bassan"
      },
      {
       "name": "Pei Huang",
@@ -18897,7 +18656,7 @@
      },
      {
       "name": "Min Wu",
-      "slug": ""
+      "slug": "min-wu"
      },
      {
       "name": "Min Zhang",
@@ -18940,7 +18699,7 @@
      },
      {
       "name": "He Zhu",
-      "slug": ""
+      "slug": "he-zhu"
      }
     ]
    },
@@ -18968,15 +18727,15 @@
     "authors": [
      {
       "name": "Dapeng Zhi",
-      "slug": ""
+      "slug": "dapeng-zhi"
      },
      {
       "name": "Peixin Wang",
-      "slug": ""
+      "slug": "peixin-wang"
      },
      {
       "name": "Si Liu",
-      "slug": ""
+      "slug": "si-liu"
      },
      {
       "name": "C.-H. Luke Ong",
@@ -19011,11 +18770,11 @@
      },
      {
       "name": "Ezio Bartocci",
-      "slug": ""
+      "slug": "ezio-bartocci"
      },
      {
       "name": "Maria Christakis",
-      "slug": ""
+      "slug": "maria-christakis"
      },
      {
       "name": "Matteo Maffei",
@@ -19054,7 +18813,7 @@
      },
      {
       "name": "Jingbo Wang",
-      "slug": ""
+      "slug": "jingbo-wang"
      },
      {
       "name": "Chao Wang",
@@ -19094,7 +18853,7 @@
      },
      {
       "name": "Sung Woo Choi",
-      "slug": ""
+      "slug": "sung-woo-choi"
      },
      {
       "name": "Hoang-Dung Tran",
@@ -19161,7 +18920,7 @@
     "authors": [
      {
       "name": "Guy Amir",
-      "slug": ""
+      "slug": "guy-amir"
      },
      {
       "name": "Osher Maayan",
@@ -19200,7 +18959,7 @@
     "authors": [
      {
       "name": "Brandon Paulsen",
-      "slug": ""
+      "slug": "brandon-paulsen"
      },
      {
       "name": "Chao Wang",
@@ -19244,7 +19003,7 @@
      },
      {
       "name": "Wen Kokke",
-      "slug": ""
+      "slug": "wen-kokke"
      },
      {
       "name": "Guy Katz",
@@ -19252,11 +19011,11 @@
      },
      {
       "name": "Guy Amir",
-      "slug": ""
+      "slug": "guy-amir"
      },
      {
       "name": "Idan Refaeli",
-      "slug": ""
+      "slug": "idan-refaeli"
      }
     ]
    },
@@ -19314,7 +19073,7 @@
      },
      {
       "name": "Dimitar I. Dimitrov",
-      "slug": ""
+      "slug": "dimitar-i-dimitrov"
      },
      {
       "name": "Gagandeep Singh",
@@ -19354,11 +19113,11 @@
      },
      {
       "name": "Jiaxu Tian",
-      "slug": ""
+      "slug": "jiaxu-tian"
      },
      {
       "name": "Dapeng Zhi",
-      "slug": ""
+      "slug": "dapeng-zhi"
      },
      {
       "name": "Xuejun Wen",
@@ -19389,15 +19148,15 @@
     "authors": [
      {
       "name": "Ji Guan",
-      "slug": ""
+      "slug": "ji-guan"
      },
      {
       "name": "Wang Fang",
-      "slug": ""
+      "slug": "wang-fang"
      },
      {
       "name": "Mingsheng Ying",
-      "slug": ""
+      "slug": "mingsheng-ying"
      }
     ]
    },
@@ -19425,7 +19184,7 @@
     "authors": [
      {
       "name": "Long H. Pham",
-      "slug": ""
+      "slug": "long-h-pham"
      },
      {
       "name": "Jun Sun",
@@ -19452,7 +19211,7 @@
     "authors": [
      {
       "name": "Zhengfeng Yang",
-      "slug": ""
+      "slug": "zhengfeng-yang"
      },
      {
       "name": "Yidan Zhang",
@@ -19460,7 +19219,7 @@
      },
      {
       "name": "Wang Lin",
-      "slug": ""
+      "slug": "wang-lin"
      },
      {
       "name": "Xia Zeng",
@@ -19476,7 +19235,7 @@
      },
      {
       "name": "Zhiming Liu",
-      "slug": ""
+      "slug": "zhiming-liu"
      }
     ]
    },
@@ -19504,7 +19263,7 @@
     "authors": [
      {
       "name": "Maria Christakis",
-      "slug": ""
+      "slug": "maria-christakis"
      },
      {
       "name": "Hasan Ferit Eniser",
@@ -19532,7 +19291,7 @@
      },
      {
       "name": "Valentin Wüstholz",
-      "slug": ""
+      "slug": "valentin-wustholz"
      }
     ]
    },
@@ -19549,9 +19308,14 @@
     "citations": 69,
     "arxiv": "",
     "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [
+     {
+      "key": "other",
+      "name": "Other"
+     }
+    ],
     "authors": [
      {
       "name": "David Shriver",
@@ -19594,7 +19358,7 @@
      },
      {
       "name": "Youcheng Sun",
-      "slug": ""
+      "slug": "youcheng-sun"
      },
      {
       "name": "Yannic Noller",
@@ -19656,15 +19420,15 @@
     "authors": [
      {
       "name": "Ji Guan",
-      "slug": ""
+      "slug": "ji-guan"
      },
      {
       "name": "Wang Fang",
-      "slug": ""
+      "slug": "wang-fang"
      },
      {
       "name": "Mingsheng Ying",
-      "slug": ""
+      "slug": "mingsheng-ying"
      }
     ]
    },
@@ -19700,7 +19464,7 @@
      },
      {
       "name": "Patrick Musau",
-      "slug": ""
+      "slug": "patrick-musau"
      },
      {
       "name": "Diego Manzanas Lopez",
@@ -19712,7 +19476,7 @@
      },
      {
       "name": "Xiaodong Yang",
-      "slug": ""
+      "slug": "xiaodong-yang"
      },
      {
       "name": "Stanley Bak",
@@ -19756,7 +19520,7 @@
      },
      {
       "name": "Mislav Balunovic",
-      "slug": ""
+      "slug": "mislav-balunovic"
      },
      {
       "name": "Gagandeep Singh",
@@ -19913,7 +19677,7 @@
      },
      {
       "name": "Xiaodong Yang",
-      "slug": ""
+      "slug": "xiaodong-yang"
      },
      {
       "name": "Diego Manzanas Lopez",
@@ -19921,7 +19685,7 @@
      },
      {
       "name": "Patrick Musau",
-      "slug": ""
+      "slug": "patrick-musau"
      },
      {
       "name": "Luan Viet Nguyen",
@@ -19929,7 +19693,7 @@
      },
      {
       "name": "Weiming Xiang",
-      "slug": ""
+      "slug": "weiming-xiang"
      },
      {
       "name": "Stanley Bak",
@@ -20003,7 +19767,7 @@
      },
      {
       "name": "Weiming Xiang",
-      "slug": ""
+      "slug": "weiming-xiang"
      },
      {
       "name": "Taylor T. Johnson",
@@ -20047,7 +19811,7 @@
      },
      {
       "name": "Kyle Julian",
-      "slug": ""
+      "slug": "kyle-julian"
      },
      {
       "name": "Christopher Lazarus",
@@ -20071,11 +19835,11 @@
      },
      {
       "name": "Aleksandar Zeljic",
-      "slug": ""
+      "slug": "aleksandar-zeljic"
      },
      {
       "name": "David L. Dill",
-      "slug": ""
+      "slug": "david-l-dill"
      },
      {
       "name": "Mykel J. Kochenderfer",
@@ -20114,11 +19878,11 @@
      },
      {
       "name": "David L. Dill",
-      "slug": ""
+      "slug": "david-l-dill"
      },
      {
       "name": "Kyle Julian",
-      "slug": ""
+      "slug": "kyle-julian"
      },
      {
       "name": "Mykel J. Kochenderfer",
@@ -20157,11 +19921,13 @@
      },
      {
       "name": "Min Wu",
-      "slug": ""
+      "slug": "min-wu"
      }
     ]
    }
-  ]
+  ],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CAV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">10</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-lv\" d=\"M26.0,78 V66.5 Q26.0,64.0 28.5,64.0 H36.7 Q39.2,64.0 39.2,66.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2017: 2 of 61 papers (3.3%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2018: 0 of 70 papers (0.0%)</title></rect><path class=\"ar-lv\" d=\"M68.4,78 V73.5 Q68.4,71.0 70.9,71.0 H79.1 Q81.6,71.0 81.6,73.5 V78 Z\"/><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2019: 1 of 67 papers (1.5%)</title></rect><path class=\"ar-lv\" d=\"M89.6,78 V45.5 Q89.6,43.0 92.1,43.0 H100.3 Q102.8,43.0 102.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2020: 5 of 65 papers (7.7%)</title></rect><path class=\"ar-lv\" d=\"M110.8,78 V17.5 Q110.8,15.0 113.3,15.0 H121.5 Q124.0,15.0 124.0,17.5 V78 Z\"/><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2021: 9 of 84 papers (10.7%)</title></rect><path class=\"ar-lv\" d=\"M132.0,78 V31.5 Q132.0,29.0 134.5,29.0 H142.7 Q145.2,29.0 145.2,31.5 V78 Z\"/><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2022: 7 of 53 papers (13.2%)</title></rect><path class=\"ar-lv\" d=\"M153.2,78 V52.5 Q153.2,50.0 155.7,50.0 H163.9 Q166.4,50.0 166.4,52.5 V78 Z\"/><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2023: 4 of 67 papers (6.0%)</title></rect><path class=\"ar-lv\" d=\"M174.4,78 V38.5 Q174.4,36.0 176.9,36.0 H185.1 Q187.6,36.0 187.6,38.5 V78 Z\"/><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2024: 6 of 69 papers (8.7%)</title></rect><path class=\"ar-lv\" d=\"M195.6,78 V31.5 Q195.6,29.0 198.1,29.0 H206.3 Q208.8,29.0 208.8,31.5 V78 Z\"/><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2025: 7 of 79 papers (8.9%)</title></rect><path class=\"ar-lv\" d=\"M216.8,78 V31.5 Q216.8,29.0 219.3,29.0 H227.5 Q230.0,29.0 230.0,31.5 V78 Z\"/><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>CAV 2026: 7 of 82 papers (8.5%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 10
  },
  {
   "key": "lics",
@@ -20177,8 +19943,7 @@
    "cv": 0,
    "pl": 0,
    "se": 0,
-   "lv": 0,
-   "fm": 0
+   "lv": 0
   },
   "areas": {
    "complete": 0,
@@ -20222,557 +19987,8 @@
   "missing": [],
   "not_held": [],
   "researchers": [],
-  "paper_list": []
- },
- {
-  "key": "nfm",
-  "name": "NFM",
-  "full_name": "NASA Formal Methods Symposium",
-  "field": "fm",
-  "field_name": "Other FM",
-  "papers": 14,
-  "citations": 454,
-  "venues": {
-   "nfm": 14
-  },
-  "fields": {
-   "ml": 0,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "fm": 14
-  },
-  "areas": {
-   "complete": 2,
-   "bounds": 0,
-   "probabilistic": 0,
-   "training": 0,
-   "repair": 0,
-   "explanations": 0,
-   "control": 6,
-   "relational": 2,
-   "architectures": 2,
-   "quantized": 0,
-   "other": 2
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 1,
-   "2021": 1,
-   "2022": 3,
-   "2023": 5,
-   "2024": 3,
-   "2025": 0,
-   "2026": 1
-  },
-  "all_years": {
-   "2017": 31,
-   "2018": 31,
-   "2019": 26,
-   "2020": 25,
-   "2021": 24,
-   "2022": 45,
-   "2023": 29,
-   "2024": 26,
-   "2025": 24,
-   "2026": 26
-  },
-  "all_papers": 287,
-  "share": 4.88,
-  "missing": [],
-  "not_held": [],
-  "researchers": [
-   {
-    "slug": "stanley-bak",
-    "name": "Stanley Bak",
-    "papers": 3
-   },
-   {
-    "slug": "guy-katz",
-    "name": "Guy Katz",
-    "papers": 2
-   },
-   {
-    "slug": "hoang-dung-tran",
-    "name": "Hoang-Dung Tran",
-    "papers": 1
-   },
-   {
-    "slug": "clark-barrett",
-    "name": "Clark Barrett",
-    "papers": 1
-   },
-   {
-    "slug": "matthias-althoff",
-    "name": "Matthias Althoff",
-    "papers": 1
-   },
-   {
-    "slug": "yasser-shoukry",
-    "name": "Yasser Shoukry",
-    "papers": 1
-   },
-   {
-    "slug": "christian-schilling",
-    "name": "Christian Schilling",
-    "papers": 1
-   }
-  ],
-  "paper_list": [
-   {
-    "id": "raviv2026towards",
-    "key": "conf/nfm/RavivEIAHSKK26",
-    "date": "2026-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2026,
-    "field": "fm",
-    "title": "Towards Formal Verification of Deep Neural Networks for Object Detection",
-    "url": "https://doi.org/10.1007/978-3-032-28079-4_13",
-    "citations": 11,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Avraham Raviv",
-      "slug": ""
-     },
-     {
-      "name": "Yizhak Yisrael Elboher",
-      "slug": ""
-     },
-     {
-      "name": "Omri Isac",
-      "slug": ""
-     },
-     {
-      "name": "Michelle Aluf-Medina",
-      "slug": ""
-     },
-     {
-      "name": "Ben Hagag",
-      "slug": ""
-     },
-     {
-      "name": "Golan Shmueli",
-      "slug": ""
-     },
-     {
-      "name": "Guy Katz",
-      "slug": "guy-katz"
-     },
-     {
-      "name": "Hillel Kugler",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "p2024approximate",
-    "key": "conf/nfm/PP24",
-    "date": "2024-06",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2024,
-    "field": "fm",
-    "title": "Approximate Conformance Verification of Deep Neural Networks",
-    "url": "https://doi.org/10.1007/978-3-031-60698-4_13",
-    "citations": 7,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Habeeb P",
-      "slug": ""
-     },
-     {
-      "name": "Pavithra Prabhakar",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "zhou2024compositional",
-    "key": "conf/nfm/ZhouT24",
-    "date": "2024-06",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2024,
-    "field": "fm",
-    "title": "Compositional Inductive Invariant Based Verification of Neural Network Controlled Systems",
-    "url": "https://doi.org/10.1007/978-3-031-60698-4_14",
-    "citations": 3,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Yuhao Zhou",
-      "slug": ""
-     },
-     {
-      "name": "Stavros Tripakis",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "rossi2024towards",
-    "key": "conf/nfm/RossiBCP24",
-    "date": "2024-06",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2024,
-    "field": "fm",
-    "title": "Towards Formal Verification of Neural Networks in Cyber-Physical Systems",
-    "url": "https://doi.org/10.1007/978-3-031-60698-4_12",
-    "citations": 8,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Federico Rossi",
-      "slug": ""
-     },
-     {
-      "name": "Cinzia Bernardeschi",
-      "slug": ""
-     },
-     {
-      "name": "Marco Cococcioni",
-      "slug": ""
-     },
-     {
-      "name": "Maurizio Palmieri",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "aleksandrov2023formalizing",
-    "key": "conf/nfm/AleksandrovV23",
-    "date": "2023-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Formalizing Piecewise Affine Activation Functions of Neural Networks in Coq",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_4",
-    "citations": 17,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Andrei Aleksandrov",
-      "slug": ""
-     },
-     {
-      "name": "Kim Völlinger",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "kochdumper2023open",
-    "key": "conf/nfm/Kochdumper0AB23",
-    "date": "2023-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Open- and Closed-Loop Neural Network Verification Using Polynomial Zonotopes",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_2",
-    "citations": 90,
-    "arxiv": "2207.02715",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [
-     {
-      "key": "bounds",
-      "name": "Bound propagation & abstract interpretation"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Niklas Kochdumper",
-      "slug": ""
-     },
-     {
-      "name": "Christian Schilling",
-      "slug": "christian-schilling"
-     },
-     {
-      "name": "Matthias Althoff",
-      "slug": "matthias-althoff"
-     },
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     }
-    ]
-   },
-   {
-    "id": "moradkhani2023verification",
-    "key": "conf/nfm/MoradkhaniFF23",
-    "date": "2023-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Verification of LSTM Neural Networks with Non-linear Activation Functions",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_1",
-    "citations": 7,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "architectures",
-    "area_name": "Beyond feed-forward nets",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Farzaneh Moradkhani",
-      "slug": ""
-     },
-     {
-      "name": "Connor Fibich",
-      "slug": ""
-     },
-     {
-      "name": "Martin Fränzle",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "liu2023verifying",
-    "key": "conf/nfm/LiuCO23",
-    "date": "2023-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Verifying an Aircraft Collision Avoidance Neural Network with Marabou",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_5",
-    "citations": 8,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Cong Liu",
-      "slug": ""
-     },
-     {
-      "name": "Darren D. Cofer",
-      "slug": ""
-     },
-     {
-      "name": "Denis Osipychev",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "munakata2023verifying",
-    "key": "conf/nfm/MunakataUYYM23",
-    "date": "2023-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2023,
-    "field": "fm",
-    "title": "Verifying Attention Robustness of Deep Neural Networks Against Semantic Perturbations",
-    "url": "https://doi.org/10.1007/978-3-031-33170-1_3",
-    "citations": 10,
-    "arxiv": "2207.05902",
-    "source": "dblp.org",
-    "area": "relational",
-    "area_name": "Global & relational properties",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Satoshi Munakata",
-      "slug": ""
-     },
-     {
-      "name": "Caterina Urban",
-      "slug": ""
-     },
-     {
-      "name": "Haruki Yokoyama",
-      "slug": ""
-     },
-     {
-      "name": "Koji Yamamoto",
-      "slug": ""
-     },
-     {
-      "name": "Kazuki Munakata",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "bak2022neural",
-    "key": "conf/nfm/BakT22",
-    "date": "2022-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2022,
-    "field": "fm",
-    "title": "Neural Network Compression of ACAS Xu Early Prototype Is Unsafe: Closed-Loop Verification Through Quantized State Backreachability",
-    "url": "https://doi.org/10.1007/978-3-031-06773-0_15",
-    "citations": 40,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     },
-     {
-      "name": "Hoang-Dung Tran",
-      "slug": "hoang-dung-tran"
-     }
-    ]
-   },
-   {
-    "id": "cruz2022nnlander",
-    "key": "conf/nfm/CruzS22",
-    "date": "2022-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2022,
-    "field": "fm",
-    "title": "NNLander-VeriF: A Neural Network Formal Verification Framework for Vision-Based Autonomous Aircraft Landing",
-    "url": "https://doi.org/10.1007/978-3-031-06773-0_11",
-    "citations": 54,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Ulices Santa Cruz",
-      "slug": ""
-     },
-     {
-      "name": "Yasser Shoukry",
-      "slug": "yasser-shoukry"
-     }
-    ]
-   },
-   {
-    "id": "bacci2022verified",
-    "key": "conf/nfm/BacciP22",
-    "date": "2022-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2022,
-    "field": "fm",
-    "title": "Verified Probabilistic Policies for Deep Reinforcement Learning",
-    "url": "https://doi.org/10.1007/978-3-031-06773-0_10",
-    "citations": 33,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "control",
-    "area_name": "NN control systems",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Edoardo Bacci",
-      "slug": ""
-     },
-     {
-      "name": "David Parker",
-      "slug": ""
-     }
-    ]
-   },
-   {
-    "id": "bak2021nnenum",
-    "key": "conf/nfm/Bak21",
-    "date": "2021-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2021,
-    "field": "fm",
-    "title": "nnenum: Verification of ReLU Neural Networks with Optimized Abstraction Refinement",
-    "url": "https://doi.org/10.1007/978-3-030-76384-8_2",
-    "citations": 127,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Stanley Bak",
-      "slug": "stanley-bak"
-     }
-    ]
-   },
-   {
-    "id": "gokulanathan2020simplifying",
-    "key": "conf/nfm/GokulanathanFMB20",
-    "date": "2020-05",
-    "venue": "nfm",
-    "venue_name": "NFM",
-    "year": 2020,
-    "field": "fm",
-    "title": "Simplifying Neural Networks Using Formal Verification",
-    "url": "https://doi.org/10.1007/978-3-030-55754-6_5",
-    "citations": 39,
-    "arxiv": "1910.12396",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Sumathi Gokulanathan",
-      "slug": ""
-     },
-     {
-      "name": "Alexander Feldsher",
-      "slug": ""
-     },
-     {
-      "name": "Adi Malca",
-      "slug": ""
-     },
-     {
-      "name": "Clark Barrett",
-      "slug": "clark-barrett"
-     },
-     {
-      "name": "Guy Katz",
-      "slug": "guy-katz"
-     }
-    ]
-   }
-  ]
+  "paper_list": [],
+  "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"LICS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">10</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2017: 0 of 93 papers (0.0%)</title></rect><rect class=\"hit\" x=\"43.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2018: 0 of 94 papers (0.0%)</title></rect><rect class=\"hit\" x=\"64.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2019: 0 of 61 papers (0.0%)</title></rect><rect class=\"hit\" x=\"85.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2020: 0 of 72 papers (0.0%)</title></rect><rect class=\"hit\" x=\"106.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2021: 0 of 94 papers (0.0%)</title></rect><rect class=\"hit\" x=\"128.0\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2022: 0 of 64 papers (0.0%)</title></rect><rect class=\"hit\" x=\"149.2\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2023: 0 of 67 papers (0.0%)</title></rect><rect class=\"hit\" x=\"170.4\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2024: 0 of 72 papers (0.0%)</title></rect><rect class=\"hit\" x=\"191.6\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2025: 0 of 66 papers (0.0%)</title></rect><rect class=\"hit\" x=\"212.8\" y=\"8\" width=\"21.2\" height=\"70\"><title>LICS 2026: 0 of 83 papers (0.0%)</title></rect><text x=\"32.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"223.4\" y=\"92\" text-anchor=\"middle\">2026</text></svg>",
+  "panel_top": 10
  }
 ]

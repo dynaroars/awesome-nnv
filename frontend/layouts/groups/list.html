@@ -1,7 +1,7 @@
 {{ define "main" -}}
 {{ .Content }}
 <div class="scroll pinned top">
-<table class="podium" id="groups-table">
+<table class="podium" id="groups-table" data-page-size="50">
 	<thead>
 	<tr>
 		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
@@ -13,16 +13,16 @@
 	</tr>
 	<tr>
 		{{ partial "field-heads.html" . }}
-		<th class="score" data-podium title="Geometric mean over ML, CV, PL, SE and LV of (adjusted count + 1), as CSRankings ranks institutions">Score</th>
-		<th class="good" title="NNV papers with at least one member, each counted once">Papers</th>
-		<th title="Citations of these papers on OpenAlex, each paper counted once">Citations</th>
+		<th class="score" data-podium title="Geometric mean of (adjusted count + 1) across ML, CV, PL, SE, and LV, matching CSRankings">Score</th>
+		<th class="good" title="NNV papers with at least one group member (counted once per paper)">Papers</th>
+		<th title="OpenAlex citations across these papers (counted once per paper)">Citations</th>
 	</tr>
 	</thead>
 	<tbody>
 	{{- range $n, $g := hugo.Data.groups }}
-	<tr>
+	<tr{{ if ge $n 50 }} class="off-page"{{ end }}>
 		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
-		<td class="l pin1"><span class="dot {{ .color }}"></span> <a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .name }}</a></td>
+		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .name }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}</td>
 		<td class="l">{{ delimit .tools ", " }}</td>
 		<td class="l">{{ range $k, $m := .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}
@@ -34,5 +34,7 @@
 	</tbody>
 </table>
 </div>
-<aside class="callout"><p>A group is a team known by its signature verifier or line of work, as at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>. Each listed researcher belongs to one group; the institution is shown on the researcher's row.</p></aside>
+<nav class="pager" aria-controls="groups-table" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
+<noscript><style>#groups-table tr.off-page { display: table-row ; }</style></noscript>
+<aside class="callout"><p>Groups represent research teams known for a signature tool or line of work, similar to teams at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>. Each researcher belongs to one group, and their institution is shown on their individual row.</p></aside>
 {{- end }}

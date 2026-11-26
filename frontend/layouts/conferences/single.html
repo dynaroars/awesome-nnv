@@ -1,6 +1,6 @@
 {{ define "main" -}}
 {{- $v := index (where hugo.Data.venues "key" .Params.key) 0 }}
-<p>{{ $v.full_name }} ({{ $v.field_name }}). Since {{ hugo.Data.meta.first_year }}, {{ $v.papers }} of its {{ $v.all_papers }} main-track papers in dblp are about neural-network verification ({{ printf "%.1f" $v.share }}%).</p>
+<p>{{ $v.full_name }} ({{ $v.field_name }}). Since {{ hugo.Data.meta.first_year }}, {{ $v.papers }} out of {{ $v.all_papers }} main-track papers in dblp ({{ printf "%.1f" $v.share }}%) focus on neural-network verification.</p>
 <div class="scroll">
 <table>
 	<thead><tr><th class="l"></th>{{ range hugo.Data.meta.years }}<th>{{ . }}</th>{{ end }}</tr></thead>

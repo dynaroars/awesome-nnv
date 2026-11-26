@@ -78,10 +78,6 @@
   {
    "key": "lics",
    "name": "LICS"
-  },
-  {
-   "key": "nfm",
-   "name": "NFM"
   }
  ],
  "fields": [
@@ -94,7 +90,6 @@
     "iclr",
     "neurips"
    ],
-   "scored": true,
    "names": [
     "ICML",
     "ICLR",
@@ -110,7 +105,6 @@
     "iccv",
     "eccv"
    ],
-   "scored": true,
    "names": [
     "CVPR",
     "ICCV",
@@ -127,7 +121,6 @@
     "icfp",
     "oopsla"
    ],
-   "scored": true,
    "names": [
     "PLDI",
     "POPL",
@@ -145,7 +138,6 @@
     "ase",
     "issta"
    ],
-   "scored": true,
    "names": [
     "FSE",
     "ICSE",
@@ -161,22 +153,9 @@
     "cav",
     "lics"
    ],
-   "scored": true,
    "names": [
     "CAV",
     "LICS"
-   ]
-  },
-  {
-   "key": "fm",
-   "name": "Other FM",
-   "full_name": "Other formal methods (not in CSRankings)",
-   "venues": [
-    "nfm"
-   ],
-   "scored": false,
-   "names": [
-    "NFM"
    ]
   }
  ],
@@ -233,10 +212,11 @@
    "name": "Other"
   }
  ],
- "papers": 500,
- "tracked_papers": 312,
- "researchers": 105,
- "groups": 54,
+ "label_min": 4,
+ "papers": 486,
+ "tracked_papers": 394,
+ "researchers": 320,
+ "groups": 106,
  "gaps": [
   {
    "venue": "ICSE",

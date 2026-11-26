@@ -5,8 +5,10 @@
 <table id="candidates-table" data-page-size="50">
 	<thead>
 	<tr>
+		<th class="l">Status</th>
 		<th class="l">Author</th>
 		<th class="l">dblp pid</th>
+		<th class="l">Group</th>
 		<th class="good">NNV papers</th>
 		<th title="Papers as last author">Last</th>
 		<th title="Papers as first author">First</th>
@@ -19,12 +21,14 @@
 	<tbody>
 	{{- range $k, $c := hugo.Data.candidates }}
 	<tr{{ if ge $k 50 }} class="off-page"{{ end }}>
+		<td class="l note">{{ .status }}</td>
 		<td class="l">{{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</td>
 		<td class="l"><a href="https://dblp.org/pid/{{ .pid }}.html">{{ .pid }}</a></td>
+		<td class="l">{{ with .group }}<a href="{{ printf "groups/%s/" . | relURL }}">{{ . }}</a>{{ end }}</td>
 		<td class="total good">{{ .nnv_papers }}</td>
 		{{ partial "num.html" .last_author }}
 		{{ partial "num.html" .first_author }}
-		<td data-sort="{{ .last_year }}.{{ .first_year }}">{{ .first_year }}&ndash;{{ .last_year }}</td>
+		{{- if .first_year }}<td data-sort="{{ .last_year }}.{{ .first_year }}">{{ .first_year }}&ndash;{{ .last_year }}</td>{{ else }}<td class="na" data-last>&ndash;</td>{{ end }}
 		<td class="l">{{ .venues }}</td>
 		<td class="l wrap-cell">{{ .affiliation }}</td>
 		<td class="l wrap-cell note">{{ delimit .titles " · " }}</td>

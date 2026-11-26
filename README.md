@@ -1,14 +1,13 @@
 # Awesome NNV
 
 An open-source, data-driven static site that counts **neural-network verification (NNV)** papers of the field's
-leading researchers at seventeen top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
+leading researchers at sixteen top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
 
 - **ML:** ICML, ICLR, NeurIPS
 - **CV:** CVPR, ICCV, ECCV
 - **PL:** PLDI, POPL, ICFP, OOPSLA
 - **SE:** FSE, ICSE, ASE, ISSTA
 - **LV** (logic and verification): CAV, LICS
-- **Other FM** (listed, not scored): NFM
 
 Papers are counted from 2017 (Reluplex) onward, main track only, from [dblp](https://dblp.org) (CC0). Only papers
 about verifying, certifying or formally guaranteeing the behaviour of neural networks and other learned models count.
@@ -41,3 +40,9 @@ make run         # local server with drafts at http://localhost:1313
 make build       # production build (must show no warnings)
 make test        # unit tests
 ```
+
+## Licence
+
+The code and data are released into the public domain (Unlicense). The group logos in
+`frontend/static/img/groups/` belong to their owners and are not covered by the licence; their sources are listed
+in `backend/data/csv/images.csv`.

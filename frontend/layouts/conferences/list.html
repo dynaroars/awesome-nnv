@@ -1,5 +1,18 @@
 {{ define "main" -}}
 {{ .Content }}
+{{- range hugo.Data.meta.fields }}{{ $f := . }}
+<h2 class="panel-field">{{ .full_name }} <span class="note">({{ .name }})</span></h2>
+<div class="panel-grid">
+	{{- range where hugo.Data.venues "field" $f.key }}
+	<figure class="panel">
+		<figcaption><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a> <span class="note">{{ .papers }} &middot; {{ printf "%.1f" .share }}% of {{ lang.FormatNumber 0 .all_papers }}</span></figcaption>
+		{{ .panel | safeHTML }}
+	</figure>
+	{{- end }}
+</div>
+{{- end }}
+<p class="note">Bars count NNV papers per year; hover a year to compare with all main-track papers in dblp. Each field row has its own scale (printed at the top left). An empty slot means no NNV paper, a missing year means the conference was not held, and a hollow dot marks a year not yet in dblp.</p>
+<h2>All numbers</h2>
 <div class="scroll">
 <table>
 	<thead>
@@ -26,5 +39,5 @@
 	</tbody>
 </table>
 </div>
-<p class="note">A dash marks a year whose proceedings are not yet in dblp.{{ with hugo.Data.meta.from_sites }} From the conference sites until dblp lists them: {{ range $k, $s := . }}{{ if $k }}, {{ end }}{{ $s.venue }} {{ $s.year }} ({{ $s.site }}){{ end }}.{{ end }}</p>
+<p class="note">A dash means that year's proceedings are not yet in dblp.{{ with hugo.Data.meta.from_sites }} Until dblp indexes them, we pull accepted papers directly from the conference sites for: {{ range $k, $s := . }}{{ if $k }}, {{ end }}{{ $s.venue }} {{ $s.year }} ({{ $s.site }}){{ end }}.{{ end }}</p>
 {{- end }}

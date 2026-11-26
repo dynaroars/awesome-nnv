@@ -1,0 +1,6 @@
+<svg class="swatch hue{{ .hue }}{{ if not .filled }} hollow{{ end }}" viewBox="-8 -8 16 16" aria-hidden="true">
+{{- if eq .shape "square" }}<rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/>
+{{- else if eq .shape "diamond" }}<polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/>
+{{- else if eq .shape "triangle" }}<polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/>
+{{- else }}<circle class="shape" r="5.5"/>{{ end -}}
+</svg>

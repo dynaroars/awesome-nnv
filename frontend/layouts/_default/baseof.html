@@ -22,7 +22,7 @@
 <body>
 <nav>
 	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
-	<a class="site" href="{{ "" | relURL }}">{{ site.Title }}</a>
+	<a class="site" href="{{ "" | relURL }}"><img class="site-logo" src="{{ "favicon.svg" | relURL }}" alt="" width="22" height="22">{{ site.Title }}</a>
 	<span class="links">
 	{{- range site.Menus.main }}
 	{{- $current := cond (eq .Identifier "researchers") (or $.IsHome (eq $.Section "researchers")) (hasPrefix $.RelPermalink .URL) }}

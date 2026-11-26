@@ -271,6 +271,45 @@
 (function () {
 	var legend = document.querySelector(".legend-box");
 	document.querySelectorAll("svg.net").forEach(function (svg) {
+		var pinned = null, card = legend && legend.querySelector(".group-card"), infoEl = document.getElementById("group-info");
+		var info = infoEl ? JSON.parse(infoEl.textContent) : {};
+		function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
+		if (card) document.body.appendChild(card);
+		function place(x, y) {
+			var w = card.offsetWidth, h = card.offsetHeight, gap = 16;
+			var left = x + gap + w > window.innerWidth - 8 ? x - gap - w : x + gap;
+			var top = y + gap + h > window.innerHeight - 8 ? y - gap - h : y + gap;
+			card.style.left = Math.max(8, left) + "px";
+			card.style.top = Math.max(8, top) + "px";
+		}
+		function placeBy(el) { var r = el.getBoundingClientRect(); place(r.right, r.top + r.height / 2); }
+		function showCard(slug, person) {
+			if (!card) return;
+			var g = info[slug], html = "";
+			if (person) {
+				var d = person.dataset;
+				html += "<p class=\"card-person\">" + esc(d.name) + "</p><p class=\"note\">" + d.papers + " NNV paper" +
+					(d.papers === "1" ? "" : "s") + ", " + d.degree + " co-author" + (d.degree === "1" ? "" : "s") + " on the list</p>";
+			}
+			if (g) {
+				html += "<p class=\"card-name\">" + esc(g.name) + "</p>";
+				if (g.description) html += "<p>" + esc(g.description) + "</p>";
+				if (g.tools && g.tools.length) html += "<p><span class=\"note\">Tools:</span> " + esc(g.tools.join(", ")) + "</p>";
+				html += "<p class=\"note\">" + g.researchers + " researcher" + (g.researchers === 1 ? "" : "s") + " on the list, " +
+					g.papers + " NNV paper" + (g.papers === 1 ? "" : "s") + "</p>";
+			}
+			if (!html) { card.hidden = true; return; }
+			card.innerHTML = html;
+			card.hidden = false;
+		}
+		function nodeEl(id) { return svg.querySelector('.node[data-id="' + id + '"]'); }
+		function restore() {
+			var n = pinned && nodeEl(pinned);
+			if (n) { focus(pinned); showCard(n.dataset.group, n); placeBy(n.querySelector(".shape")); }
+			else { clear(); if (card) card.hidden = true; }
+		}
+		window.addEventListener("scroll", function () { if (card && !card.hidden) restore(); }, { passive: true });
+		svg.pin = function (id) { pinned = id; restore(); };
 		function clear() {
 			svg.classList.remove("focus");
 			svg.querySelectorAll(".hl").forEach(function (el) { el.classList.remove("hl"); });
@@ -317,17 +356,19 @@
 			lightLegend();
 		}
 		svg.querySelectorAll(".node").forEach(function (n) {
-			n.addEventListener("mouseenter", function () { focus(n.dataset.id); });
-			n.addEventListener("focus", function () { focus(n.dataset.id); });
-			n.addEventListener("mouseleave", clear);
-			n.addEventListener("blur", clear);
+			n.addEventListener("mouseenter", function (e) { focus(n.dataset.id); showCard(n.dataset.group, n); place(e.clientX, e.clientY); });
+			n.addEventListener("mousemove", function (e) { if (card && !card.hidden) place(e.clientX, e.clientY); });
+			n.addEventListener("focus", function () { focus(n.dataset.id); showCard(n.dataset.group, n); placeBy(n.querySelector(".shape")); });
+			n.addEventListener("mouseleave", restore);
+			n.addEventListener("blur", restore);
 		});
 		if (legend) {
 			legend.querySelectorAll("li[data-color]").forEach(function (li) {
-				li.addEventListener("mouseenter", function () { focusGroup(li.dataset.color); });
-				li.addEventListener("focusin", function () { focusGroup(li.dataset.color); });
-				li.addEventListener("mouseleave", clear);
-				li.addEventListener("focusout", clear);
+				li.addEventListener("mouseenter", function (e) { focusGroup(li.dataset.color); showCard(li.dataset.group); if (card && !card.hidden) place(e.clientX, e.clientY); });
+				li.addEventListener("mousemove", function (e) { if (card && !card.hidden) place(e.clientX, e.clientY); });
+				li.addEventListener("focusin", function () { focusGroup(li.dataset.color); showCard(li.dataset.group); if (card && !card.hidden) placeBy(li); });
+				li.addEventListener("mouseleave", restore);
+				li.addEventListener("focusout", restore);
 			});
 		}
 	});
@@ -363,5 +404,129 @@
 		if (!form.reportValidity()) return;
 		location.href = "mailto:" + button.dataset.to + "?subject=" + encodeURIComponent(form.elements.title.value) +
 			"&body=" + encodeURIComponent(form.elements.body.value + "\n\n" + location.href);
+	});
+})();
+
+(function () {
+	document.querySelectorAll("svg.net").forEach(function (svg) {
+		var base = svg.viewBox.baseVal, X0 = base.x, Y0 = base.y, W = base.width, H = base.height;
+		var v = { x: X0, y: Y0, w: W, h: H }, MAX = 6;
+		function zoomed() { return v.w < W - 0.5; }
+		function apply() {
+			svg.setAttribute("viewBox", v.x + " " + v.y + " " + v.w + " " + v.h);
+			svg.classList.toggle("zoomed", zoomed());
+		}
+		function clamp() {
+			v.w = Math.min(W, Math.max(W / MAX, v.w));
+			v.h = v.w * H / W;
+			v.x = Math.min(X0 + W - v.w, Math.max(X0, v.x));
+			v.y = Math.min(Y0 + H - v.h, Math.max(Y0, v.y));
+		}
+		function toSvg(cx, cy) {
+			var p = svg.createSVGPoint();
+			p.x = cx; p.y = cy;
+			return p.matrixTransform(svg.getScreenCTM().inverse());
+		}
+		function zoom(factor, cx, cy) {
+			var c = cx === undefined ? { x: v.x + v.w / 2, y: v.y + v.h / 2 } : toSvg(cx, cy);
+			var w = Math.min(W, Math.max(W / MAX, v.w / factor)), k = w / v.w;
+			v.x = c.x - (c.x - v.x) * k;
+			v.y = c.y - (c.y - v.y) * k;
+			v.w = w;
+			clamp();
+			apply();
+		}
+		function reset() { v = { x: X0, y: Y0, w: W, h: H }; apply(); }
+		svg.zoomReset = reset;
+
+		svg.addEventListener("wheel", function (e) {
+			if (!(e.ctrlKey || e.metaKey)) return;
+			e.preventDefault();
+			zoom(Math.exp(-e.deltaY * 0.0025), e.clientX, e.clientY);
+		}, { passive: false });
+
+		var start = null, moved = false;
+		svg.addEventListener("pointerdown", function (e) {
+			if (e.button !== 0) return;
+			start = { x: e.clientX, y: e.clientY, vx: v.x, vy: v.y, id: e.pointerId };
+			moved = false;
+		});
+		svg.addEventListener("pointermove", function (e) {
+			if (!start) return;
+			var dx = e.clientX - start.x, dy = e.clientY - start.y;
+			if (!moved) {
+				if (!zoomed() || Math.sqrt(dx * dx + dy * dy) < 4) return;
+				moved = true;
+				svg.setPointerCapture(start.id);
+				svg.classList.add("panning");
+			}
+			var s = v.w / svg.getBoundingClientRect().width;
+			v.x = start.vx - dx * s;
+			v.y = start.vy - dy * s;
+			clamp();
+			apply();
+		});
+		function end() {
+			if (start && moved && svg.hasPointerCapture(start.id)) svg.releasePointerCapture(start.id);
+			start = null;
+			svg.classList.remove("panning");
+		}
+		svg.addEventListener("pointerup", end);
+		svg.addEventListener("pointercancel", end);
+		svg.addEventListener("click", function (e) {
+			if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
+		}, true);
+		svg.addEventListener("dragstart", function (e) { e.preventDefault(); });
+
+		var tools = svg.closest(".toc-body") && svg.closest(".toc-body").querySelector(".zoom-tools");
+		if (!tools) return;
+		tools.hidden = false;
+		tools.querySelector("[data-zoom=in]").addEventListener("click", function () { zoom(1.5); });
+		tools.querySelector("[data-zoom=out]").addEventListener("click", function () { zoom(1 / 1.5); });
+		tools.querySelector("[data-zoom=reset]").addEventListener("click", reset);
+	});
+})();
+
+(function () {
+	var input = document.querySelector(".graph-search input"), svg = document.querySelector("svg.net");
+	if (!input || !svg || !svg.pin) return;
+	var box = input.closest(".graph-search"), status = box.querySelector(".search-status");
+	box.hidden = false;
+	function fold(t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
+	var nodes = Array.prototype.map.call(svg.querySelectorAll(".node"), function (n) { return { el: n, key: fold(n.dataset.name || "") }; });
+	function find(q) {
+		var k = fold(q);
+		if (!k) return null;
+		var exact = nodes.filter(function (n) { return n.key === k; })[0];
+		return exact || nodes.filter(function (n) { return n.key.indexOf(k) >= 0; })[0] || null;
+	}
+	function go() {
+		var q = input.value;
+		if (!fold(q)) { svg.pin(null); status.textContent = ""; return; }
+		var hit = find(q);
+		if (!hit) { svg.pin(null); status.textContent = "No researcher on the graph matches \u201c" + q + "\u201d."; return; }
+		if (svg.zoomReset) svg.zoomReset();
+		svg.pin(hit.el.dataset.id);
+		status.textContent = hit.el.dataset.name;
+		var r = hit.el.querySelector(".shape").getBoundingClientRect(), fig = svg.closest("figure");
+		window.scrollTo({ top: window.scrollY + r.top + r.height / 2 - window.innerHeight / 2, behavior: "smooth" });
+		if (fig && fig.scrollWidth > fig.clientWidth) fig.scrollLeft += r.left + r.width / 2 - window.innerWidth / 2;
+	}
+	input.addEventListener("change", go);
+	input.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); go(); } });
+	input.addEventListener("input", function () { if (!input.value) go(); });
+})();
+
+(function () {
+	document.querySelectorAll("svg.chart.lines").forEach(function (svg) {
+		var groups = svg.querySelectorAll(".series");
+		function off() { svg.classList.remove("focus"); groups.forEach(function (g) { g.classList.remove("hl"); }); }
+		groups.forEach(function (g) {
+			function on() { off(); svg.classList.add("focus"); g.classList.add("hl"); g.parentNode.appendChild(g); }
+			g.addEventListener("mouseenter", on);
+			g.addEventListener("focus", on);
+			g.addEventListener("mouseleave", off);
+			g.addEventListener("blur", off);
+		});
 	});
 })();

@@ -1,3 +1,3 @@
 {{- range hugo.Data.meta.fields }}
-<th title="{{ .full_name }}: {{ delimit .names ", " }}"{{ if not .scored }} class="unscored"{{ end }}>{{ .name }}</th>
+<th title="{{ .full_name }}: {{ delimit .names ", " }}">{{ .name }}</th>
 {{- end }}

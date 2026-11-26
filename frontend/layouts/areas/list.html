@@ -1,14 +1,18 @@
 {{ define "main" -}}
 {{ .Content }}
+{{- with hugo.Data.overview }}
+<figure>
+{{ .area_trends | safeHTML }}
+<figcaption>NNV papers per year in each area, counting a paper in every area it belongs to (main topic or tag). The four smallest areas ({{ delimit .smaller_areas ", " }}) share one line.{{ partial "gap-note.html" . }}</figcaption>
+</figure>
+{{- end }}
 <div class="scroll">
 <table>
 	<thead>
 	<tr>
 		<th class="l">Area</th>
 		<th class="l" data-nosort>What it covers</th>
-		<th class="good" title="Papers with this primary area">Papers</th>
-		<th title="Papers from other areas that also carry this tag">Also tagged</th>
-		<th title="Papers with at least one listed researcher">Listed</th>
+		<th class="good" title="NNV papers in this area, as their main topic or as a secondary tag">Papers</th>
 		<th class="l" data-nosort>Leading researchers</th>
 		<th class="l" data-nosort>Leading groups</th>
 	</tr>
@@ -18,9 +22,7 @@
 	<tr>
 		<td class="l"><a href="{{ printf "areas/%s/" .key | relURL }}">{{ .name }}</a></td>
 		<td class="l wrap-cell">{{ .description }}</td>
-		<td class="total good">{{ .papers }}</td>
-		{{ partial "num.html" .tagged }}
-		{{ partial "num.html" .tracked }}
+		<td class="total good">{{ add .papers .tagged }}</td>
 		<td class="l wrap-cell">{{ partial "leaders.html" (dict "rows" .researchers "section" "researchers") }}</td>
 		<td class="l wrap-cell">{{ partial "leaders.html" (dict "rows" .groups "section" "groups") }}</td>
 	</tr>
@@ -28,5 +30,4 @@
 	</tbody>
 </table>
 </div>
-<p class="note">Each paper has one primary area, so the Papers column adds up to the {{ hugo.Data.meta.papers }} NNV papers; secondary tags are counted under Also tagged.</p>
 {{- end }}
