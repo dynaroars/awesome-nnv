@@ -2445,6 +2445,11 @@
     "papers": 2
    },
    {
+    "slug": "xiangru-zhong",
+    "name": "Xiangru Zhong",
+    "papers": 1
+   },
+   {
     "slug": "russ-tedrake",
     "name": "Russ Tedrake",
     "papers": 1
@@ -2585,7 +2590,7 @@
      },
      {
       "name": "Xiangru Zhong",
-      "slug": ""
+      "slug": "xiangru-zhong"
      },
      {
       "name": "Huan Zhang",
@@ -29751,5 +29756,123 @@
    }
   ],
   "color": "g-other"
+ },
+ {
+  "slug": "xiangru-zhong",
+  "name": "Xiangru Zhong",
+  "group": "abcrown",
+  "group_name": "α,β-CROWN",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/347/8942.html"
+  ],
+  "to_confirm": "current post and role",
+  "papers": 1,
+  "citations": 0,
+  "venues": {
+   "neurips": 1
+  },
+  "fields": {
+   "ml": 1,
+   "cv": 0,
+   "pl": 0,
+   "se": 0,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 1,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 0
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 1,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 0.2,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.0,
+   "lv": 0.0
+  },
+  "score": 0.2,
+  "first_author": 0,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "huan-zhang",
+    "name": "Huan Zhang",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "ji2025abstract",
+    "key": "conf/nips/JiLZZM25",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2025,
+    "field": "ml",
+    "title": "Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty",
+    "url": "https://dblp.org/rec/conf/nips/JiLZZM25",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "relational",
+    "area_name": "Global & relational properties",
+    "tags": [
+     {
+      "key": "bounds",
+      "name": "Bound propagation & abstract interpretation"
+     }
+    ],
+    "authors": [
+     {
+      "name": "Chenxi Ji",
+      "slug": ""
+     },
+     {
+      "name": "Yangge Li",
+      "slug": ""
+     },
+     {
+      "name": "Xiangru Zhong",
+      "slug": "xiangru-zhong"
+     },
+     {
+      "name": "Huan Zhang",
+      "slug": "huan-zhang"
+     },
+     {
+      "name": "Sayan Mitra",
+      "slug": ""
+     }
+    ]
+   }
+  ],
+  "color": "g3"
  }
 ]

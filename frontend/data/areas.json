@@ -5422,7 +5422,7 @@
      },
      {
       "name": "Xiangru Zhong",
-      "slug": ""
+      "slug": "xiangru-zhong"
      },
      {
       "name": "Huan Zhang",
@@ -19771,6 +19771,13 @@
     "papers": 1,
     "group": "deepmind",
     "group_name": "DeepMind verification"
+   },
+   {
+    "slug": "xiangru-zhong",
+    "name": "Xiangru Zhong",
+    "papers": 1,
+    "group": "abcrown",
+    "group_name": "α,β-CROWN"
    }
   ],
   "groups": [
@@ -19992,7 +19999,7 @@
      },
      {
       "name": "Xiangru Zhong",
-      "slug": ""
+      "slug": "xiangru-zhong"
      },
      {
       "name": "Huan Zhang",

@@ -2810,6 +2810,13 @@
     "institution_short": "University of Illinois Urbana-Champaign",
     "papers": 2,
     "score": 0.45
+   },
+   {
+    "slug": "xiangru-zhong",
+    "name": "Xiangru Zhong",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.2
    }
   ],
   "institutions": [
@@ -2862,13 +2869,13 @@
    "2026": 2
   },
   "score_fields": {
-   "ml": 15.842,
+   "ml": 16.042,
    "cv": 0.333,
    "pl": 0.0,
    "se": 0.0,
    "lv": 0.0
   },
-  "score": 1.863,
+  "score": 1.868,
   "paper_list": [
    {
     "id": "chiu2026affine",
@@ -3011,7 +3018,7 @@
      },
      {
       "name": "Xiangru Zhong",
-      "slug": ""
+      "slug": "xiangru-zhong"
      },
      {
       "name": "Huan Zhang",
