@@ -6,7 +6,7 @@ marabou,Marabou,Reluplex; Marabou,https://github.com/NeuralNetworkVerification/M
 nnv,NNV (VeriVITAL),NNV; star sets,https://github.com/verivital/nnv,Star-set reachability of neural networks and neural control systems.,,"proposed by Claude 2026-11-26, to confirm"
 nnenum,nnenum,nnenum,https://github.com/stanleybak/nnenum,Star-set enumeration.,yes,"proposed by Claude 2026-11-26, to confirm"
 neuralsat,NeuralSAT,NeuralSAT; DNNV,https://github.com/dynaroars/neuralsat,DPLL(T)-based verification and verification infrastructure.,,"proposed by Claude 2026-11-26, to confirm"
-cora,CORA (TUM),CORA,https://tumcps.github.io/CORA/,Set-based reachability for neural networks and cyber-physical systems.,,"proposed by Claude 2026-11-26, to confirm"
+cora,CORA (TUM),CORA,https://tumcps.github.io/CORA/,Set-based reachability for neural networks and cyber-physical systems.,yes,"proposed by Claude 2026-11-26, to confirm"
 deepmind,DeepMind verification,IBP; dual and SDP verification,,Verification and certified training at Google DeepMind.,,"proposed by Claude 2026-11-26, to confirm"
 oval,OVAL (Oxford),OVAL BaB; Lagrangian decomposition,https://github.com/oval-group/oval-bab,Branch and bound and dual bounds at Oxford.,,"proposed by Claude 2026-11-26, to confirm"
 secure-learning,Secure Learning Lab,TSS; CROP; COPA,https://aisecure.github.io/,Certified robustness of ML and RL (Bo Li).,,"proposed by Claude 2026-11-26, to confirm"

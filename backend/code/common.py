@@ -71,6 +71,21 @@ VENUES = [
 VENUE_KEYS = [v["key"] for v in VENUES]
 
 
+VENUE_MONTH = {"icml": 7, "iclr": 5, "neurips": 12, "cvpr": 6, "iccv": 10, "eccv": 10, "pldi": 6, "popl": 1,
+               "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7, "nfm": 5}
+MONTH_EXCEPTIONS = {("iclr", 2020): 4, ("iclr", 2021): 5, ("iclr", 2022): 4, ("iclr", 2026): 4, ("eccv", 2020): 8,
+                    ("eccv", 2018): 9, ("eccv", 2024): 9, ("fse", 2024): 7, ("fse", 2025): 6, ("fse", 2026): 7,
+                    ("fse", 2017): 9, ("fse", 2018): 11, ("fse", 2019): 8, ("ase", 2018): 9, ("ase", 2019): 11,
+                    ("ase", 2020): 9, ("ase", 2021): 11, ("ase", 2023): 9, ("ase", 2025): 11, ("issta", 2024): 9,
+                    ("icse", 2017): 5, ("icse", 2025): 4, ("lics", 2018): 7, ("lics", 2019): 6, ("lics", 2022): 8,
+                    ("lics", 2024): 7, ("nfm", 2024): 6, ("icfp", 2025): 10, ("oopsla", 2023): 10,
+                    ("oopsla", 2024): 10, ("oopsla", 2025): 10, ("neurips", 2017): 12}
+
+
+def conference_month(venue, year):
+    return f"{year}-{MONTH_EXCEPTIONS.get((venue, year), VENUE_MONTH[venue]):02d}"
+
+
 def held(venue, year):
     return not ((venue == "iccv" and year % 2 == 0) or (venue == "eccv" and year % 2 == 1))
 VENUE_NAME = {v["key"]: v["name"] for v in VENUES}

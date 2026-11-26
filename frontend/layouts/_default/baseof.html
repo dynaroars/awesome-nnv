@@ -6,6 +6,7 @@
 	<title>{{ partial "page-title.html" . }}</title>
 	<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="{{ "style.css" | relURL }}?v={{ readFile "static/style.css" | md5 | truncate 10 "" }}">
 	{{- $desc := partial "description.html" . }}
 	<meta name="description" content="{{ $desc }}">

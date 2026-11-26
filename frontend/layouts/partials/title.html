@@ -1,0 +1,5 @@
+{{- $raw := . }}{{ $out := htmlEscape $raw }}
+{{- range $seg := findRE `\$[^$]+\$` $raw }}
+{{- with try (transform.ToMath (strings.Trim $seg "$") (dict "displayMode" false "throwOnError" false)) }}{{ if not .Err }}{{ $out = replace $out (htmlEscape $seg) .Value }}{{ end }}{{ end }}
+{{- end }}
+{{- $out | safeHTML -}}

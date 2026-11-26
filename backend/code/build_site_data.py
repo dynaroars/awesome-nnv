@@ -7,13 +7,13 @@ import sys
 
 import charts
 import graph
-from common import (all_papers, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
+from common import (all_papers, conference_month, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
                     PAPERS, PEOPLE_JSON, ROSTER, SCORED_FIELDS, TOPICS, VENUE_KEYS, VENUE_NAME, VENUES, WORK, YEARS,
                     norm_name, read_csv, read_json, read_jsonl_gz, split_list, write_json)
 
 CONTENT = FRONTEND / "content"
 DATA = FRONTEND / "data"
-GROUP_COLORS = 9
+GROUP_COLORS = 10
 FIELD_NAME = {f["key"]: f["name"] for f in FIELDS}
 
 
@@ -81,7 +81,10 @@ def nnv_papers(topics, by_pid, by_name):
                     "source": p.get("source", "dblp.org"),
                     "slugs": list(dict.fromkeys(a["slug"] for a in authors if a["slug"]))})
     assign_ids(out)
-    out.sort(key=lambda p: (-p["year"], VENUE_KEYS.index(p["venue"]), p["title"].lower()))
+    for p in out:
+        p["date"] = conference_month(p["venue"], p["year"])
+    out.sort(key=lambda p: p["title"].lower())
+    out.sort(key=lambda p: (p["date"], -VENUE_KEYS.index(p["venue"])), reverse=True)
     return out
 
 
@@ -111,7 +114,7 @@ def geomean(values):
 
 
 def paper_entry(p, names):
-    return {"id": p["id"], "key": p["key"], "venue": p["venue"], "venue_name": VENUE_NAME[p["venue"]], "year": p["year"],
+    return {"id": p["id"], "key": p["key"], "date": p["date"], "venue": p["venue"], "venue_name": VENUE_NAME[p["venue"]], "year": p["year"],
             "field": FIELD_OF[p["venue"]], "title": p["title"], "url": p["url"], "citations": p["citations"],
             "arxiv": p["arxiv"], "source": p["source"],
             "area": p["area"],

@@ -150,6 +150,7 @@
    {
     "id": "qi2026cert",
     "key": "openreview/KmDPaiwdZh",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -188,6 +189,7 @@
    {
     "id": "anani2026certified",
     "key": "openreview/IU0c9sP5b5",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -226,6 +228,7 @@
    {
     "id": "delattre2026certified",
     "key": "openreview/nf7JT1jCSy",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -264,6 +267,7 @@
    {
     "id": "gosch2026certifying",
     "key": "openreview/kQuvO5gaNr",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -303,6 +307,7 @@
    {
     "id": "shen2026credit",
     "key": "openreview/DQKoxCegwH",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -341,6 +346,7 @@
    {
     "id": "dhar2026does",
     "key": "openreview/Alelgxnwgs",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -443,6 +449,7 @@
    {
     "id": "zhang2026higher",
     "key": "openreview/u96qokgpPR",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -469,6 +476,7 @@
    {
     "id": "zhou2026neural",
     "key": "openreview/mJEVzcuDNF",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -499,6 +507,7 @@
    {
     "id": "martens2026oc",
     "key": "openreview/FLRPkR0N37",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -541,6 +550,7 @@
    {
     "id": "taheri2026probabilistic",
     "key": "openreview/itrFag3Z9v",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -567,6 +577,7 @@
    {
     "id": "kaulen2026rethinking",
     "key": "openreview/XoaS2r1ezP",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -597,6 +608,7 @@
    {
     "id": "yang2026semantic",
     "key": "openreview/OXjToUQDz1",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -648,6 +660,7 @@
    {
     "id": "boetius2026verified",
     "key": "openreview/48c42LVtLx",
+    "date": "2026-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2026,
@@ -691,6 +704,7 @@
    {
     "id": "sun2025average",
     "key": "conf/icml/SunMMV25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -725,6 +739,7 @@
    {
     "id": "azzolin2025beyond",
     "key": "conf/icml/AzzolinMPT25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -764,6 +779,7 @@
    {
     "id": "mao2025ctbench",
     "key": "conf/icml/MaoBV25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -799,6 +815,7 @@
    {
     "id": "massena2025efficient",
     "key": "conf/icml/MassenaABMFSG25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -850,6 +867,7 @@
    {
     "id": "lai2025enhancing",
     "key": "conf/icml/LaiHKC25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -884,6 +902,7 @@
    {
     "id": "kofnov2025exact",
     "key": "conf/icml/KofnovKBB25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -923,6 +942,7 @@
    {
     "id": "chehade2025levis",
     "key": "conf/icml/ChehadeLBBKZ25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -965,6 +985,7 @@
    {
     "id": "szasz2025no",
     "key": "conf/icml/SzaszBJ25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1000,6 +1021,7 @@
    {
     "id": "anani2025pixel",
     "key": "conf/icml/Anani0FS25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1034,6 +1056,7 @@
    {
     "id": "blohm2025probably",
     "key": "conf/icml/BlohmI0M25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1073,6 +1096,7 @@
    {
     "id": "xin2025provably",
     "key": "conf/icml/XinC0025",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1107,6 +1131,7 @@
    {
     "id": "chiu2025sdp",
     "key": "conf/icml/ChiuCZZ25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1141,6 +1166,7 @@
    {
     "id": "boetius2025solving",
     "key": "conf/icml/BoetiusLS25",
+    "date": "2025-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2025,
@@ -1176,6 +1202,7 @@
    {
     "id": "anani2024adaptive",
     "key": "conf/icml/Anani0SF24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1210,6 +1237,7 @@
    {
     "id": "sun2024breaking",
     "key": "conf/icml/SunGW24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1245,6 +1273,7 @@
    {
     "id": "kang2024c",
     "key": "conf/icml/KangGYS024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1288,6 +1317,7 @@
    {
     "id": "lai2024collective",
     "key": "conf/icml/LaiPCY024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1331,6 +1361,7 @@
    {
     "id": "entesari2024compositional",
     "key": "conf/icml/EntesariSF24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1361,6 +1392,7 @@
    {
     "id": "shu2024effects",
     "key": "conf/icml/ShuXWCCX0024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1411,6 +1443,7 @@
    {
     "id": "eiras2024efficient",
     "key": "conf/icml/EirasBBD0K24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1453,6 +1486,7 @@
    {
     "id": "yadav2024fairproof",
     "key": "conf/icml/Yadav0BC24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1487,6 +1521,7 @@
    {
     "id": "yang2024lyapunov",
     "key": "conf/icml/YangDSHT024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1529,6 +1564,7 @@
    {
     "id": "meng2024physics",
     "key": "conf/icml/MengZMFS024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1571,6 +1607,7 @@
    {
     "id": "banerjee2024relational",
     "key": "conf/icml/Banerjee024",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1602,6 +1639,7 @@
    {
     "id": "hojny2024verifying",
     "key": "conf/icml/HojnyZCM24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1641,6 +1679,7 @@
    {
     "id": "baninajjar2024vnn",
     "key": "conf/icml/BaninajjarRA24",
+    "date": "2024-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2024,
@@ -1671,6 +1710,7 @@
    {
     "id": "boetius2023robust",
     "key": "conf/icml/BoetiusLS23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1701,6 +1741,7 @@
    {
     "id": "adams2023bnn",
     "key": "conf/icml/AdamsPLL23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1735,6 +1776,7 @@
    {
     "id": "petrov2023certifying",
     "key": "conf/icml/PetrovESTB23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1778,6 +1820,7 @@
    {
     "id": "ren2023dimension",
     "key": "conf/icml/00010JL023",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1816,6 +1859,7 @@
    {
     "id": "wang2023direct",
     "key": "conf/icml/WangM23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1842,6 +1886,7 @@
    {
     "id": "delattre2023efficient",
     "key": "conf/icml/DelattreBAA23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1876,6 +1921,7 @@
    {
     "id": "voracek2023improving",
     "key": "conf/icml/Voracek023",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1902,6 +1948,7 @@
    {
     "id": "bethune2023robust",
     "key": "conf/icml/BethuneNCBSVT23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1948,6 +1995,7 @@
    {
     "id": "rezaei2023run",
     "key": "conf/icml/RezaeiBCF23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -1982,6 +2030,7 @@
    {
     "id": "chiu2023tight",
     "key": "conf/icml/ChiuZ23",
+    "date": "2023-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2023,
@@ -2008,6 +2057,7 @@
    {
     "id": "meunier2022dynamical",
     "key": "conf/icml/MeunierDAA22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2042,6 +2092,7 @@
    {
     "id": "li2022cerdeq",
     "key": "conf/icml/Li0L22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2077,6 +2128,7 @@
    {
     "id": "kou2022certified",
     "key": "conf/icml/KouZW22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2107,6 +2159,7 @@
    {
     "id": "bansal2022certified",
     "key": "conf/icml/BansalCCJWMDG22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2157,6 +2210,7 @@
    {
     "id": "zhao2022certified",
     "key": "conf/icml/ZhaoMDLDZ22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2199,6 +2253,7 @@
    {
     "id": "weber2022certifying",
     "key": "conf/icml/WeberLWZ0022",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2241,6 +2296,7 @@
    {
     "id": "li2022double",
     "key": "conf/icml/LiZ0L22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2275,6 +2331,7 @@
    {
     "id": "guo2022fast",
     "key": "conf/icml/GuoTGZ22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2314,6 +2371,7 @@
    {
     "id": "hao2022gsmooth",
     "key": "conf/icml/HaoYD0SZ22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2361,6 +2419,7 @@
    {
     "id": "wang2022improved",
     "key": "conf/icml/00020F22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2391,6 +2450,7 @@
    {
     "id": "jin2022input",
     "key": "conf/icml/JinZZW22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2430,6 +2490,7 @@
    {
     "id": "sukenik2022intriguing",
     "key": "conf/icml/SukenikKG22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2460,6 +2521,7 @@
    {
     "id": "chen2022linearity",
     "key": "conf/icml/ChenZZCLCW22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2506,6 +2568,7 @@
    {
     "id": "voracek2022provably",
     "key": "conf/icml/VoracekH22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2537,6 +2600,7 @@
    {
     "id": "wu2022retrievalguard",
     "key": "conf/icml/WuZH22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2567,6 +2631,7 @@
    {
     "id": "wang2022robustness",
     "key": "conf/icml/Wang022",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2593,6 +2658,7 @@
    {
     "id": "chu2022tpc",
     "key": "conf/icml/ChuLL22",
+    "date": "2022-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2022,
@@ -2628,6 +2694,7 @@
    {
     "id": "xie2021crfl",
     "key": "conf/icml/Xie0CL21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2662,6 +2729,7 @@
    {
     "id": "silva2021explanations",
     "key": "conf/icml/0001GCIN21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2700,6 +2768,7 @@
    {
     "id": "leino2021globally",
     "key": "conf/icml/LeinoWF21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2730,6 +2799,7 @@
    {
     "id": "levine2021improved",
     "key": "conf/icml/0001F21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2756,6 +2826,7 @@
    {
     "id": "jordan2021provable",
     "key": "conf/icml/JordanD21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2782,6 +2853,7 @@
    {
     "id": "fischer2021scalable",
     "key": "conf/icml/FischerBV21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2812,6 +2884,7 @@
    {
     "id": "zhang2021towards",
     "key": "conf/icml/ZhangCLHW21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2850,6 +2923,7 @@
    {
     "id": "devos2021versatile",
     "key": "conf/icml/DevosMD21",
+    "date": "2021-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2021,
@@ -2880,6 +2954,7 @@
    {
     "id": "ashtiani2020black",
     "key": "conf/icml/AshtianiPU20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -2910,6 +2985,7 @@
    {
     "id": "rosenfeld2020certified",
     "key": "conf/icml/RosenfeldWRK20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -2944,6 +3020,7 @@
    {
     "id": "kumar2020curse",
     "key": "conf/icml/Kumar0GF20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -2978,6 +3055,7 @@
    {
     "id": "bojchevski2020efficient",
     "key": "conf/icml/BojchevskiKG20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3013,6 +3091,7 @@
    {
     "id": "lim2020hierarchical",
     "key": "conf/icml/LimUY20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3043,6 +3122,7 @@
    {
     "id": "wang2020neural",
     "key": "conf/icml/WangWD20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3073,6 +3153,7 @@
    {
     "id": "yang2020randomized",
     "key": "conf/icml/YangDHSR020",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3115,6 +3196,7 @@
    {
     "id": "phan2020scalable",
     "key": "conf/icml/PhanTHJSD20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3157,6 +3239,7 @@
    {
     "id": "singla2020second",
     "key": "conf/icml/0002F20",
+    "date": "2020-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2020,
@@ -3188,6 +3271,7 @@
    {
     "id": "cohen2019certified",
     "key": "conf/icml/CohenRK19",
+    "date": "2019-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2019,
@@ -3218,6 +3302,7 @@
    {
     "id": "liu2019certifying",
     "key": "conf/icml/LiuTC19",
+    "date": "2019-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2019,
@@ -3248,6 +3333,7 @@
    {
     "id": "ko2019popqorn",
     "key": "conf/icml/KoLWDWL19",
+    "date": "2019-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2019,
@@ -3295,6 +3381,7 @@
    {
     "id": "weng2019proven",
     "key": "conf/icml/WengCNSBOD19",
+    "date": "2019-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2019,
@@ -3346,6 +3433,7 @@
    {
     "id": "mirman2018differentiable",
     "key": "conf/icml/MirmanGV18",
+    "date": "2018-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2018,
@@ -3381,6 +3469,7 @@
    {
     "id": "wong2018provable",
     "key": "conf/icml/WongK18",
+    "date": "2018-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2018,
@@ -3412,6 +3501,7 @@
    {
     "id": "weng2018towards",
     "key": "conf/icml/WengZCSHDBD18",
+    "date": "2018-07",
     "venue": "icml",
     "venue_name": "ICML",
     "year": 2018,
@@ -3577,6 +3667,7 @@
    {
     "id": "dhar2026certified",
     "key": "conf/iclr/DharXPHASZZ26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3632,6 +3723,7 @@
    {
     "id": "liu2026certifying",
     "key": "conf/iclr/LiuYLCZ26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3675,6 +3767,7 @@
    {
     "id": "sun2026dual",
     "key": "conf/iclr/SunMV26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3705,6 +3798,7 @@
    {
     "id": "wang2026ensembleshap",
     "key": "conf/iclr/WangJ26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3736,6 +3830,7 @@
    {
     "id": "mao2026expressiveness",
     "key": "conf/iclr/MaoZV26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3766,6 +3861,7 @@
    {
     "id": "boumazouza2026fame",
     "key": "conf/iclr/BoumazouzaEDBK26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3804,6 +3900,7 @@
    {
     "id": "hadad2026formal",
     "key": "conf/iclr/HadadKB26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3834,6 +3931,7 @@
    {
     "id": "wang2026how",
     "key": "conf/iclr/WangCHRGS26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3881,6 +3979,7 @@
    {
     "id": "hu2026lipnext",
     "key": "conf/iclr/HuHF26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3911,6 +4010,7 @@
    {
     "id": "koller2026out",
     "key": "conf/iclr/KollerLA26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3941,6 +4041,7 @@
    {
     "id": "froese2026parameterized",
     "key": "conf/iclr/FroeseGHS26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -3980,6 +4081,7 @@
    {
     "id": "bassan2026provably",
     "key": "conf/iclr/BassanELSKAK26",
+    "date": "2026-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2026,
@@ -4026,6 +4128,7 @@
    {
     "id": "rocamora2025certified",
     "key": "conf/iclr/Abad-Rocamora0C25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4061,6 +4164,7 @@
    {
     "id": "chaudhary2025certifying",
     "key": "conf/iclr/ChaudharyH0Z0025",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4112,6 +4216,7 @@
    {
     "id": "he2025certifying",
     "key": "conf/iclr/HeYZ0HY025",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4163,6 +4268,7 @@
    {
     "id": "sabanayagam2025exact",
     "key": "conf/iclr/SabanayagamGGG25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4202,6 +4308,7 @@
    {
     "id": "liu2025multi",
     "key": "conf/iclr/LiuCMER25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4240,6 +4347,7 @@
    {
     "id": "li2025provably",
     "key": "conf/iclr/LiPD0W25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4283,6 +4391,7 @@
    {
     "id": "ahmad2025sensitivity",
     "key": "conf/iclr/AhmadTGA25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4322,6 +4431,7 @@
    {
     "id": "emde2025shh",
     "key": "conf/iclr/EmdePAKRL0B25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4377,6 +4487,7 @@
    {
     "id": "xu2025support",
     "key": "conf/iclr/XuBV025",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4416,6 +4527,7 @@
    {
     "id": "wu2025towards",
     "key": "conf/iclr/WuJDG25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4450,6 +4562,7 @@
    {
     "id": "emde2025towards",
     "key": "conf/iclr/EmdePL0B25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4488,6 +4601,7 @@
    {
     "id": "salzer2025transformer",
     "key": "conf/iclr/SalzerAL25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4523,6 +4637,7 @@
    {
     "id": "yang2025verifying",
     "key": "conf/iclr/YangELMZ25",
+    "date": "2025-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2025,
@@ -4566,6 +4681,7 @@
    {
     "id": "hu2024recipe",
     "key": "conf/iclr/HuLWF24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4600,6 +4716,7 @@
    {
     "id": "mukhoty2024certified",
     "key": "conf/iclr/MukhotyAMX024",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4643,6 +4760,7 @@
    {
     "id": "kang2024colep",
     "key": "conf/iclr/KangGL024",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4682,6 +4800,7 @@
    {
     "id": "saha2024drsm",
     "key": "conf/iclr/Saha0KFD24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4720,6 +4839,7 @@
    {
     "id": "palma2024expressive",
     "key": "conf/iclr/PalmaBDKSL24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4762,6 +4882,7 @@
    {
     "id": "baader2024expressivity",
     "key": "conf/iclr/BaaderMMV24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4801,6 +4922,7 @@
    {
     "id": "xia2024gnncert",
     "key": "conf/iclr/XiaYWJ24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4840,6 +4962,7 @@
    {
     "id": "ugare2024incremental",
     "key": "conf/iclr/UgareSB0M24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4878,6 +5001,7 @@
    {
     "id": "ghazanfari2024lipsim",
     "key": "conf/iclr/GhazanfariAKKG24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4916,6 +5040,7 @@
    {
     "id": "xia2024mitigating",
     "key": "conf/iclr/XiaY0D24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4950,6 +5075,7 @@
    {
     "id": "wang2024scalability",
     "key": "conf/iclr/Wang0HAZCJ24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -4996,6 +5122,7 @@
    {
     "id": "yan2024provably",
     "key": "conf/iclr/YanRW24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -5026,6 +5153,7 @@
    {
     "id": "delattre2024lipschitz",
     "key": "conf/iclr/DelattreABA24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -5065,6 +5193,7 @@
    {
     "id": "mao2024understanding",
     "key": "conf/iclr/MaoM0V24",
+    "date": "2024-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2024,
@@ -5099,6 +5228,7 @@
    {
     "id": "carlini2023certified",
     "key": "conf/iclr/CarliniTDRSK23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5141,6 +5271,7 @@
    {
     "id": "araujo2023unified",
     "key": "conf/iclr/AraujoHDA023",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5179,6 +5310,7 @@
    {
     "id": "sun2023certifiably",
     "key": "conf/iclr/SunZHLFGH23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5225,6 +5357,7 @@
    {
     "id": "yatsura2023certified",
     "key": "conf/iclr/YatsuraSH0M23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5268,6 +5401,7 @@
    {
     "id": "muller2023certified",
     "key": "conf/iclr/MullerE0V23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5302,6 +5436,7 @@
    {
     "id": "zeqiri2023efficient",
     "key": "conf/iclr/ZeqiriM0V23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5345,6 +5480,7 @@
    {
     "id": "salzer2023fundamental",
     "key": "conf/iclr/SalzerL23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5376,6 +5512,7 @@
    {
     "id": "schuchardt2023localized",
     "key": "conf/iclr/SchuchardtWBG23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5410,6 +5547,7 @@
    {
     "id": "yang2023provable",
     "key": "conf/iclr/YangLM023",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5449,6 +5587,7 @@
    {
     "id": "kumar2023provable",
     "key": "conf/iclr/Kumar0GF23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5483,6 +5622,7 @@
    {
     "id": "wicker2023robust",
     "key": "conf/iclr/WickerHCW23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5522,6 +5662,7 @@
    {
     "id": "voracek2023sound",
     "key": "conf/iclr/Voracek023",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5553,6 +5694,7 @@
    {
     "id": "zeng2023towards",
     "key": "conf/iclr/ZengS0KLHJ23",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5599,6 +5741,7 @@
    {
     "id": "delgrange2023wasserstein",
     "key": "conf/iclr/DelgrangeN023",
+    "date": "2023-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2023,
@@ -5629,6 +5772,7 @@
    {
     "id": "jia2022almost",
     "key": "conf/iclr/JiaWCLG22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5667,6 +5811,7 @@
    {
     "id": "horvath2022boosting",
     "key": "conf/iclr/HorvathM0V22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5701,6 +5846,7 @@
    {
     "id": "zhang2022boosting",
     "key": "conf/iclr/ZhangJH022",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5735,6 +5881,7 @@
    {
     "id": "wei2022certified",
     "key": "conf/iclr/WeiK22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5766,6 +5913,7 @@
    {
     "id": "ferrari2022complete",
     "key": "conf/iclr/FerrariMJV22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5805,6 +5953,7 @@
    {
     "id": "wu2022copa",
     "key": "conf/iclr/WuL0KKZ022",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5856,6 +6005,7 @@
    {
     "id": "wu2022crop",
     "key": "conf/iclr/WuLHVZ022",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5903,6 +6053,7 @@
    {
     "id": "yang2022certified",
     "key": "conf/iclr/YangLXK0L22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5950,6 +6101,7 @@
    {
     "id": "wang2022convergence",
     "key": "conf/iclr/WangSGH22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -5984,6 +6136,7 @@
    {
     "id": "kumar2022policy",
     "key": "conf/iclr/Kumar0F22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -6019,6 +6172,7 @@
    {
     "id": "dimitrov2022provably",
     "key": "conf/iclr/Dimitrov0GV22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -6053,6 +6207,7 @@
    {
     "id": "fu2022sound",
     "key": "conf/iclr/FuL22",
+    "date": "2022-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2022,
@@ -6079,6 +6234,7 @@
    {
     "id": "muller2021certify",
     "key": "conf/iclr/MullerBV21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6109,6 +6265,7 @@
    {
     "id": "schuchardt2021collective",
     "key": "conf/iclr/SchuchardtBKG21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6143,6 +6300,7 @@
    {
     "id": "levine2021deep",
     "key": "conf/iclr/0001F21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6169,6 +6327,7 @@
    {
     "id": "metzen2021efficient",
     "key": "conf/iclr/MetzenY21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6200,6 +6359,7 @@
    {
     "id": "donti2021enforcing",
     "key": "conf/iclr/DontiRFK21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6234,6 +6394,7 @@
    {
     "id": "pabbaraju2021estimating",
     "key": "conf/iclr/PabbarajuWK21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6269,6 +6430,7 @@
    {
     "id": "xu2021fast",
     "key": "conf/iclr/XuZ0WJLH21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6320,6 +6482,7 @@
    {
     "id": "fromherz2021fast",
     "key": "conf/iclr/FromherzLFPP21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6358,6 +6521,7 @@
    {
     "id": "zombori2021fooling",
     "key": "conf/iclr/ZomboriBCMJ21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6396,6 +6560,7 @@
    {
     "id": "sheikholeslami2021provably",
     "key": "conf/iclr/SheikholeslamiL21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6426,6 +6591,7 @@
    {
     "id": "sahoo2021scaling",
     "key": "conf/iclr/SahooV0S021",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6464,6 +6630,7 @@
    {
     "id": "palma2021scaling",
     "key": "conf/iclr/PalmaBBTK21",
+    "date": "2021-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2021,
@@ -6502,6 +6669,7 @@
    {
     "id": "dvijotham2020framework",
     "key": "conf/iclr/DvijothamHBKQGX20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6556,6 +6724,7 @@
    {
     "id": "balunovic2020adversarial",
     "key": "conf/iclr/BalunovicV20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6582,6 +6751,7 @@
    {
     "id": "chiang2020certified",
     "key": "conf/iclr/ChiangNAZSG20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6629,6 +6799,7 @@
    {
     "id": "jia2020certified",
     "key": "conf/iclr/JiaCWG20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6663,6 +6834,7 @@
    {
     "id": "latorre2020lipschitz",
     "key": "conf/iclr/GomezRC20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6693,6 +6865,7 @@
    {
     "id": "zhai2020macer",
     "key": "conf/iclr/ZhaiDHZGRH020",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6748,6 +6921,7 @@
    {
     "id": "lu2020neural",
     "key": "conf/iclr/LuK20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6774,6 +6948,7 @@
    {
     "id": "croce2020provable",
     "key": "conf/iclr/Croce020",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6800,6 +6975,7 @@
    {
     "id": "shi2020robustness",
     "key": "conf/iclr/ShiZCHH20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6843,6 +7019,7 @@
    {
     "id": "meinke2020towards",
     "key": "conf/iclr/Meinke020",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6869,6 +7046,7 @@
    {
     "id": "zhang2020towards",
     "key": "conf/iclr/ZhangCXGSLBH20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6924,6 +7102,7 @@
    {
     "id": "welbl2020towards",
     "key": "conf/iclr/WelblHSGDSK20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -6979,6 +7158,7 @@
    {
     "id": "baader2020universal",
     "key": "conf/iclr/BaaderMV20",
+    "date": "2020-04",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2020,
@@ -7014,6 +7194,7 @@
    {
     "id": "singh2019boosting",
     "key": "conf/iclr/SinghGPV19",
+    "date": "2019-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2019,
@@ -7053,6 +7234,7 @@
    {
     "id": "tjeng2019evaluating",
     "key": "conf/iclr/TjengXT19",
+    "date": "2019-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2019,
@@ -7083,6 +7265,7 @@
    {
     "id": "xiao2019training",
     "key": "conf/iclr/XiaoTSM19",
+    "date": "2019-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2019,
@@ -7117,6 +7300,7 @@
    {
     "id": "qin2019verification",
     "key": "conf/iclr/QinDOBSGUSK19",
+    "date": "2019-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2019,
@@ -7171,6 +7355,7 @@
    {
     "id": "raghunathan2018certified",
     "key": "conf/iclr/RaghunathanSL18",
+    "date": "2018-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2018,
@@ -7206,6 +7391,7 @@
    {
     "id": "sinha2018certifying",
     "key": "conf/iclr/SinhaND18",
+    "date": "2018-05",
     "venue": "iclr",
     "venue_name": "ICLR",
     "year": 2018,
@@ -7371,6 +7557,7 @@
    {
     "id": "chiu2026affine",
     "key": "openreview/jJKsS0Cmjn",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7405,6 +7592,7 @@
    {
     "id": "zhao2026cast",
     "key": "openreview/bmqxbwQYk6",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7456,6 +7644,7 @@
    {
     "id": "luca2026certification",
     "key": "openreview/hRqL7vRChh",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7487,6 +7676,7 @@
    {
     "id": "zhong2026certified",
     "key": "openreview/XhTzs21IA3",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7533,6 +7723,7 @@
    {
     "id": "cheng2026certified",
     "key": "openreview/tbVIr983oG",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7564,6 +7755,7 @@
    {
     "id": "figueiredo2026clustered",
     "key": "openreview/OeD82ZRKWm",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7606,6 +7798,7 @@
    {
     "id": "refaeli2026do",
     "key": "openreview/hOaJ6pyv0j",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7640,6 +7833,7 @@
    {
     "id": "hekal2026end",
     "key": "openreview/SHNolnMBUT",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7674,6 +7868,7 @@
    {
     "id": "lv2026ensuring",
     "key": "openreview/fMUyPAggFz",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7721,6 +7916,7 @@
    {
     "id": "chen2026flip",
     "key": "openreview/TJXYYcODy8",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7747,6 +7943,7 @@
    {
     "id": "deng2026focusbranch",
     "key": "openreview/VoRt2Q8ngL",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7781,6 +7978,7 @@
    {
     "id": "cullen2026halt",
     "key": "openreview/1Zs088RXoL",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7811,6 +8009,7 @@
    {
     "id": "bournez2026iterated",
     "key": "openreview/tnelXgpZB7",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7841,6 +8040,7 @@
    {
     "id": "palma2026learning",
     "key": "openreview/3ccTPcDlNx",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7863,6 +8063,7 @@
    {
     "id": "wang2026learning",
     "key": "openreview/yy5SiFn9vr",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7901,6 +8102,7 @@
    {
     "id": "sasaki2026learning",
     "key": "openreview/CENjUqCe8j",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7936,6 +8138,7 @@
    {
     "id": "cao2026multi",
     "key": "openreview/sAdaZuWvkE",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -7962,6 +8165,7 @@
    {
     "id": "elboher2026pareto",
     "key": "openreview/ZDDAP6WLxi",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8004,6 +8208,7 @@
    {
     "id": "saxena2026provable",
     "key": "openreview/I4p58bdzvx",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8038,6 +8243,7 @@
    {
     "id": "yun2026provably",
     "key": "openreview/PHVIRBgte1",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8068,6 +8274,7 @@
    {
     "id": "alavi2026scalable",
     "key": "openreview/0mIVNtnfDp",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8103,6 +8310,7 @@
    {
     "id": "gursoy2026sparse",
     "key": "openreview/fO3zFhG0ES",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8129,6 +8337,7 @@
    {
     "id": "szasz2026towards",
     "key": "openreview/nHbkxmdykn",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8164,6 +8373,7 @@
    {
     "id": "cascioli2026tree",
     "key": "openreview/MgEUWFldkw",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8207,6 +8417,7 @@
    {
     "id": "duong2026verifyingc",
     "key": "openreview/U2N3YhilwS",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8237,6 +8448,7 @@
    {
     "id": "cullen2026what",
     "key": "openreview/zdRy5kB5qm",
+    "date": "2026-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2026,
@@ -8280,6 +8492,7 @@
    {
     "id": "ji2025abstract",
     "key": "conf/nips/JiLZZM25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8323,6 +8536,7 @@
    {
     "id": "huang2025adaptdel",
     "key": "conf/nips/HuangMOR25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8357,6 +8571,7 @@
    {
     "id": "kang2025c",
     "key": "conf/nips/KangCL25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8392,6 +8607,7 @@
    {
     "id": "long2025certifying",
     "key": "conf/nips/LongCA25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8422,6 +8638,7 @@
    {
     "id": "zhou2025clip",
     "key": "conf/nips/ZhouCCHZ25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8465,6 +8682,7 @@
    {
     "id": "duong2025compositional",
     "key": "conf/nips/DuongSND25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8499,6 +8717,7 @@
    {
     "id": "liu2025fortifying",
     "key": "conf/nips/LiuALE25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8538,6 +8757,7 @@
    {
     "id": "duong2025generating",
     "key": "conf/nips/DuongND25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8568,6 +8788,7 @@
    {
     "id": "lorenz2025mibp",
     "key": "conf/nips/LorenzKF25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8598,6 +8819,7 @@
    {
     "id": "tao2025provable",
     "key": "conf/nips/TaoT25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8624,6 +8846,7 @@
    {
     "id": "shen2025reliabilityrag",
     "key": "conf/nips/ShenIWXMK25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8666,6 +8889,7 @@
    {
     "id": "hashemi2025scaling",
     "key": "conf/nips/HashemiSOMJ25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8709,6 +8933,7 @@
    {
     "id": "morris2025sound",
     "key": "conf/nips/MorrisH25",
+    "date": "2025-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2025,
@@ -8740,6 +8965,7 @@
    {
     "id": "sun2024achieving",
     "key": "conf/nips/SunMGV24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8774,6 +9000,7 @@
    {
     "id": "lyu2024adaptive",
     "key": "conf/nips/LyuSSSL24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8812,6 +9039,7 @@
    {
     "id": "rekavandi2024certified",
     "key": "conf/nips/RekavandiFOR24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8846,6 +9074,7 @@
    {
     "id": "gao2024certified",
     "key": "conf/nips/GaoHXL24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8885,6 +9114,7 @@
    {
     "id": "li2024consistency",
     "key": "conf/nips/LiCJWL0X24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8931,6 +9161,7 @@
    {
     "id": "chen2024diffusion",
     "key": "conf/nips/ChenDSHYSZ24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -8977,6 +9208,7 @@
    {
     "id": "banerjee2024dynamic",
     "key": "conf/nips/BanerjeeRBD24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9011,6 +9243,7 @@
    {
     "id": "xu2024eclipse",
     "key": "conf/nips/XuS24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9037,6 +9270,7 @@
    {
     "id": "yang2024fedgmark",
     "key": "conf/nips/YangLHW24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9076,6 +9310,7 @@
    {
     "id": "lin2024nn4sysbench",
     "key": "conf/nips/LinHWXZ0LT24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9126,6 +9361,7 @@
    {
     "id": "altstidl2024scalability",
     "key": "conf/nips/AltstidlDKEGS24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9173,6 +9409,7 @@
    {
     "id": "tao2024provable",
     "key": "conf/nips/TaoT24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9199,6 +9436,7 @@
    {
     "id": "teuber2024provably",
     "key": "conf/nips/TeuberMP24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9229,6 +9467,7 @@
    {
     "id": "zhou2024scalable",
     "key": "conf/nips/ZhouBH024",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9263,6 +9502,7 @@
    {
     "id": "zhang2024seev",
     "key": "conf/nips/ZhangQG024",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9302,6 +9542,7 @@
    {
     "id": "voracek2024treatment",
     "key": "conf/nips/Voracek24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9324,6 +9565,7 @@
    {
     "id": "jeary2024verifiably",
     "key": "conf/nips/JearyKHP24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9358,6 +9600,7 @@
    {
     "id": "wu2024verified",
     "key": "conf/nips/0001ZV24",
+    "date": "2024-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2024,
@@ -9388,6 +9631,7 @@
    {
     "id": "schuchardt2023provable",
     "key": "conf/nips/SchuchardtSG23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9427,6 +9671,7 @@
    {
     "id": "pfrommer2023asymmetric",
     "key": "conf/nips/PfrommerAPS23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9461,6 +9706,7 @@
    {
     "id": "tian2023boosting",
     "key": "conf/nips/TianZ0WC023",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9508,6 +9754,7 @@
    {
     "id": "xiang2023cbd",
     "key": "conf/nips/XiangXL23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9538,6 +9785,7 @@
    {
     "id": "lin2023certifiably",
     "key": "conf/nips/LinXDZW23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9581,6 +9829,7 @@
    {
     "id": "fazlyab2023certified",
     "key": "conf/nips/FazlyabERC23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9615,6 +9864,7 @@
    {
     "id": "zikelic2023compositional",
     "key": "conf/nips/ZikelicLVCH23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9653,6 +9903,7 @@
    {
     "id": "mao2023connecting",
     "key": "conf/nips/MaoM0V23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9687,6 +9938,7 @@
    {
     "id": "zhang2023exact",
     "key": "conf/nips/Zhang0V023",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9726,6 +9978,7 @@
    {
     "id": "havens2023exploiting",
     "key": "conf/nips/HavensAGK023",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9769,6 +10022,7 @@
    {
     "id": "scholten2023hierarchical",
     "key": "conf/nips/ScholtenSBG23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9803,6 +10057,7 @@
    {
     "id": "jeong2023multi",
     "key": "conf/nips/JeongS23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9829,6 +10084,7 @@
    {
     "id": "wu2023neural",
     "key": "conf/nips/00010KV23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9863,6 +10119,7 @@
    {
     "id": "kotha2023provably",
     "key": "conf/nips/KothaBKD023",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9901,6 +10158,7 @@
    {
     "id": "huang2023rs",
     "key": "conf/nips/HuangMLBOR23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9948,6 +10206,7 @@
    {
     "id": "schilling2023safety",
     "key": "conf/nips/0001LDL23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -9987,6 +10246,7 @@
    {
     "id": "ye2023unit",
     "key": "conf/nips/Ye0ZDCWM23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -10038,6 +10298,7 @@
    {
     "id": "hu2023unlocking",
     "key": "conf/nips/HuZWLF23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -10076,6 +10337,7 @@
    {
     "id": "wu2023verix",
     "key": "conf/nips/Wu0B23",
+    "date": "2023-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2023,
@@ -10106,6 +10368,7 @@
    {
     "id": "horvath2022de",
     "key": "conf/nips/HorvathM0V22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10145,6 +10408,7 @@
    {
     "id": "vaishnavi2022accelerating",
     "key": "conf/nips/VaishnaviER22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10175,6 +10439,7 @@
    {
     "id": "zhang2022bagflip",
     "key": "conf/nips/ZhangAD22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10205,6 +10470,7 @@
    {
     "id": "jin2022certifying",
     "key": "conf/nips/JinYZ22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10240,6 +10506,7 @@
    {
     "id": "kang2022certifying",
     "key": "conf/nips/KangLWL0022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10282,6 +10549,7 @@
    {
     "id": "liu2022copur",
     "key": "conf/nips/LiuXK022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10316,6 +10584,7 @@
    {
     "id": "cullen2022double",
     "key": "conf/nips/CullenMLER22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10354,6 +10623,7 @@
    {
     "id": "shi2022efficiently",
     "key": "conf/nips/ShiW0KH22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10392,6 +10662,7 @@
    {
     "id": "zhang2022general",
     "key": "conf/nips/ZhangWXLLJHK22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10447,6 +10718,7 @@
    {
     "id": "yang2022improving",
     "key": "conf/nips/YangZWZLPKLGZL22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10514,6 +10786,7 @@
    {
     "id": "schuchardt2022invariance",
     "key": "conf/nips/SchuchardtG22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10545,6 +10818,7 @@
    {
     "id": "xu2022lot",
     "key": "conf/nips/XuL022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10575,6 +10849,7 @@
    {
     "id": "jia2022multiguard",
     "key": "conf/nips/Jia0G22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10605,6 +10880,7 @@
    {
     "id": "abate2022neural",
     "key": "conf/nips/AbateEG22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10640,6 +10916,7 @@
    {
     "id": "zhou2022neural",
     "key": "conf/nips/ZhouQSL22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10674,6 +10951,7 @@
    {
     "id": "bharti2022provable",
     "key": "conf/nips/BhartiZSZ22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10713,6 +10991,7 @@
    {
     "id": "meinke2022provably",
     "key": "conf/nips/MeinkeB022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10748,6 +11027,7 @@
    {
     "id": "scholten2022randomized",
     "key": "conf/nips/ScholtenSGBG22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10791,6 +11071,7 @@
    {
     "id": "zhang2022rethinking",
     "key": "conf/nips/ZhangJH022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10825,6 +11106,7 @@
    {
     "id": "mazouz2022safety",
     "key": "conf/nips/MazouzMRLL22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10863,6 +11145,7 @@
    {
     "id": "melcer2022shield",
     "key": "conf/nips/MelcerAT22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10893,6 +11176,7 @@
    {
     "id": "pautov2022smoothed",
     "key": "conf/nips/PautovKTPO22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10931,6 +11215,7 @@
    {
     "id": "rocamora2022sound",
     "key": "conf/nips/Abad-RocamoraS022",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -10974,6 +11259,7 @@
    {
     "id": "jordan2022zonotope",
     "key": "conf/nips/JordanHDO22",
+    "date": "2022-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2022,
@@ -11008,6 +11294,7 @@
    {
     "id": "wang2021beta",
     "key": "conf/nips/WangZXLJHK21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11059,6 +11346,7 @@
    {
     "id": "kumar2021center",
     "key": "conf/nips/KumarG21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11085,6 +11373,7 @@
    {
     "id": "meyer2021certifying",
     "key": "conf/nips/MeyerAD21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11120,6 +11409,7 @@
    {
     "id": "shi2021fast",
     "key": "conf/nips/ShiWZYH21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11158,6 +11448,7 @@
    {
     "id": "lechner2021infinite",
     "key": "conf/nips/LechnerZCH21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11192,6 +11483,7 @@
    {
     "id": "behl2021overcoming",
     "key": "conf/nips/BehlKTD21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11226,6 +11518,7 @@
    {
     "id": "tsay2021partition",
     "key": "conf/nips/TsayKTM21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11260,6 +11553,7 @@
    {
     "id": "han2021scalecert",
     "key": "conf/nips/HanXHCLDGWC21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11314,6 +11608,7 @@
    {
     "id": "chen2021semialgebraic",
     "key": "conf/nips/ChenLMP21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11353,6 +11648,7 @@
    {
     "id": "jeong2021smoothmix",
     "key": "conf/nips/JeongPKLKS21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11400,6 +11696,7 @@
    {
     "id": "lee2021towards",
     "key": "conf/nips/LeeLPL21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11434,6 +11731,7 @@
    {
     "id": "huang2021training",
     "key": "conf/nips/HuangZSKA21",
+    "date": "2021-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2021,
@@ -11472,6 +11770,7 @@
    {
     "id": "levine2020de",
     "key": "conf/nips/0001F20a",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11498,6 +11797,7 @@
    {
     "id": "xu2020automatic",
     "key": "conf/nips/XuS0WCHKLH20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11557,6 +11857,7 @@
    {
     "id": "zhang2020black",
     "key": "conf/nips/ZhangYGZ020",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11595,6 +11896,7 @@
    {
     "id": "bitterwolf2020certifiably",
     "key": "conf/nips/BitterwolfM020",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11630,6 +11932,7 @@
    {
     "id": "fischer2020certified",
     "key": "conf/nips/FischerBV20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11665,6 +11968,7 @@
    {
     "id": "liu2020certified",
     "key": "conf/nips/LiuHZ020",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11704,6 +12008,7 @@
    {
     "id": "jin2020certified",
     "key": "conf/nips/JinSPZ20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11743,6 +12048,7 @@
    {
     "id": "kumar2020certifying",
     "key": "conf/nips/Kumar0FG20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11777,6 +12083,7 @@
    {
     "id": "curry2020certifying",
     "key": "conf/nips/CurryCG020",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11811,6 +12118,7 @@
    {
     "id": "jeong2020consistency",
     "key": "conf/nips/JeongS20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11842,6 +12150,7 @@
    {
     "id": "sivaraman2020counterexample",
     "key": "conf/nips/SivaramanFMB20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11881,6 +12190,7 @@
    {
     "id": "salman2020denoised",
     "key": "conf/nips/SalmanSYKK20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11919,6 +12229,7 @@
    {
     "id": "chiang2020detection",
     "key": "conf/nips/ChiangCAK0G20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11966,6 +12277,7 @@
    {
     "id": "jia2020efficient",
     "key": "conf/nips/JiaR20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -11997,6 +12309,7 @@
    {
     "id": "dathathri2020enabling",
     "key": "conf/nips/DathathriDKRUBS20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12059,6 +12372,7 @@
    {
     "id": "jordan2020exactly",
     "key": "conf/nips/JordanD20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12090,6 +12404,7 @@
    {
     "id": "saralajew2020fast",
     "key": "conf/nips/SaralajewHV20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12120,6 +12435,7 @@
    {
     "id": "mohapatra2020higher",
     "key": "conf/nips/MohapatraKWC0D20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12162,6 +12478,7 @@
    {
     "id": "ruoss2020learning",
     "key": "conf/nips/RuossBFV20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12201,6 +12518,7 @@
    {
     "id": "krishnan2020lipschitz",
     "key": "conf/nips/KrishnanMP20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12231,6 +12549,7 @@
    {
     "id": "lee2020lipschitz",
     "key": "conf/nips/Lee0P20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12261,6 +12580,7 @@
    {
     "id": "anderson2020neurosymbolic",
     "key": "conf/nips/AndersonVDC20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12295,6 +12615,7 @@
    {
     "id": "zhang2020tightness",
     "key": "conf/nips/Zhang20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12317,6 +12638,7 @@
    {
     "id": "wang2020provably",
     "key": "conf/nips/WangLY0H20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12355,6 +12677,7 @@
    {
     "id": "chen2020semialgebraic",
     "key": "conf/nips/0002LMP20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12389,6 +12712,7 @@
    {
     "id": "tjandraatmadja2020convex",
     "key": "conf/nips/TjandraatmadjaA20",
+    "date": "2020-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2020,
@@ -12431,6 +12755,7 @@
    {
     "id": "salman2019convex",
     "key": "conf/nips/SalmanY0HZ19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12469,6 +12794,7 @@
    {
     "id": "prabhakar2019abstraction",
     "key": "conf/nips/PrabhakarA19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12495,6 +12821,7 @@
    {
     "id": "singh2019beyond",
     "key": "conf/nips/SinghGPV19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12529,6 +12856,7 @@
    {
     "id": "bojchevski2019certifiable",
     "key": "conf/nips/BojchevskiG19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12555,6 +12883,7 @@
    {
     "id": "li2019certified",
     "key": "conf/nips/LiCWC19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12589,6 +12918,7 @@
    {
     "id": "balunovic2019certifying",
     "key": "conf/nips/BalunovicBSGV19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12632,6 +12962,7 @@
    {
     "id": "fazlyab2019efficient",
     "key": "conf/nips/FazlyabRHMP19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12670,6 +13001,7 @@
    {
     "id": "chang2019neural",
     "key": "conf/nips/ChangRG19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12700,6 +13032,7 @@
    {
     "id": "li2019preventing",
     "key": "conf/nips/LiHALGJ19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12742,6 +13075,7 @@
    {
     "id": "jordan2019provable",
     "key": "conf/nips/JordanLD19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12772,6 +13106,7 @@
    {
     "id": "andriushchenko2019provably",
     "key": "conf/nips/Andriushchenko019",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12803,6 +13138,7 @@
    {
     "id": "salman2019provably",
     "key": "conf/nips/SalmanLRZZBY19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12854,6 +13190,7 @@
    {
     "id": "chen2019robustness",
     "key": "conf/nips/ChenZS0BH19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12896,6 +13233,7 @@
    {
     "id": "lee2019tight",
     "key": "conf/nips/LeeYCJ19",
+    "date": "2019-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2019,
@@ -12930,6 +13268,7 @@
    {
     "id": "bunel2018unified",
     "key": "conf/nips/BunelTTKM18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -12968,6 +13307,7 @@
    {
     "id": "wang2018efficient",
     "key": "conf/nips/WangPWYJ18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13011,6 +13351,7 @@
    {
     "id": "zhang2018efficient",
     "key": "conf/nips/ZhangWCHD18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13049,6 +13390,7 @@
    {
     "id": "singh2018fast",
     "key": "conf/nips/SinghGMPV18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13087,6 +13429,7 @@
    {
     "id": "virmaux2018lipschitz",
     "key": "conf/nips/VirmauxS18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13113,6 +13456,7 @@
    {
     "id": "tsuzuku2018lipschitz",
     "key": "conf/nips/TsuzukuSS18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13143,6 +13487,7 @@
    {
     "id": "wong2018scaling",
     "key": "conf/nips/WongSMK18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13182,6 +13527,7 @@
    {
     "id": "raghunathan2018semidefinite",
     "key": "conf/nips/RaghunathanSL18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13212,6 +13558,7 @@
    {
     "id": "bastani2018verifiable",
     "key": "conf/nips/BastaniPS18",
+    "date": "2018-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2018,
@@ -13242,6 +13589,7 @@
    {
     "id": "steinhardt2017certified",
     "key": "conf/nips/SteinhardtKL17",
+    "date": "2017-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2017,
@@ -13272,6 +13620,7 @@
    {
     "id": "hein2017formal",
     "key": "conf/nips/HeinA17",
+    "date": "2017-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2017,
@@ -13303,6 +13652,7 @@
    {
     "id": "berkenkamp2017safe",
     "key": "conf/nips/BerkenkampTS017",
+    "date": "2017-12",
     "venue": "neurips",
     "venue_name": "NeurIPS",
     "year": 2017,
@@ -13462,6 +13812,7 @@
    {
     "id": "duong2026verifying",
     "key": "conf/cvpr/DuongNLN26",
+    "date": "2026-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2026,
@@ -13496,6 +13847,7 @@
    {
     "id": "bahari2025certified",
     "key": "conf/cvpr/BahariSAMA25",
+    "date": "2025-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2025,
@@ -13534,6 +13886,7 @@
    {
     "id": "li2025deterministic",
     "key": "conf/cvpr/LiPDW25",
+    "date": "2025-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2025,
@@ -13573,6 +13926,7 @@
    {
     "id": "jacob2025patchdemux",
     "key": "conf/cvpr/Jacob0M25",
+    "date": "2025-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2025,
@@ -13603,6 +13957,7 @@
    {
     "id": "xiao2025tightening",
     "key": "conf/cvpr/0003CMFBGCC025",
+    "date": "2025-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2025,
@@ -13657,6 +14012,7 @@
    {
     "id": "prach20241",
     "key": "conf/cvpr/PrachBBL24",
+    "date": "2024-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2024,
@@ -13691,6 +14047,7 @@
    {
     "id": "wang2024mmcert",
     "key": "conf/cvpr/WangFZ024",
+    "date": "2024-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2024,
@@ -13730,6 +14087,7 @@
    {
     "id": "xiao2024towards",
     "key": "conf/cvpr/XiaoMZF0024",
+    "date": "2024-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2024,
@@ -13772,6 +14130,7 @@
    {
     "id": "chaouai2024universal",
     "key": "conf/cvpr/ChaouaiT24",
+    "date": "2024-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2024,
@@ -13798,6 +14157,7 @@
    {
     "id": "zhang2023boosting",
     "key": "conf/cvpr/ZhangXC0ZL023",
+    "date": "2023-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2023,
@@ -13844,6 +14204,7 @@
    {
     "id": "hanspal2023efficient",
     "key": "conf/cvpr/HanspalL23",
+    "date": "2023-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2023,
@@ -13875,6 +14236,7 @@
    {
     "id": "zhang2023pointcert",
     "key": "conf/cvpr/ZhangJ0G23",
+    "date": "2023-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2023,
@@ -13909,6 +14271,7 @@
    {
     "id": "s20223deformrs",
     "key": "conf/cvpr/SPAGG22",
+    "date": "2022-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2022,
@@ -13952,6 +14315,7 @@
    {
     "id": "salman2022certified",
     "key": "conf/cvpr/SalmanJWM22",
+    "date": "2022-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2022,
@@ -13991,6 +14355,7 @@
    {
     "id": "chen2022towards",
     "key": "conf/cvpr/Chen0XWDZ22",
+    "date": "2022-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2022,
@@ -14038,6 +14403,7 @@
    {
     "id": "liu2021pointguard",
     "key": "conf/cvpr/LiuJG21",
+    "date": "2021-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2021,
@@ -14068,6 +14434,7 @@
    {
     "id": "zhen2021simpler",
     "key": "conf/cvpr/ZhenCS21",
+    "date": "2021-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2021,
@@ -14103,6 +14470,7 @@
    {
     "id": "lyu2021towards",
     "key": "conf/cvpr/LyuGWXZL21",
+    "date": "2021-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2021,
@@ -14150,6 +14518,7 @@
    {
     "id": "wu2020robustness",
     "key": "conf/cvpr/WuK20",
+    "date": "2020-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2020,
@@ -14181,6 +14550,7 @@
    {
     "id": "mohapatra2020towards",
     "key": "conf/cvpr/MohapatraWC0D20",
+    "date": "2020-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2020,
@@ -14224,6 +14594,7 @@
    {
     "id": "lin2019robustness",
     "key": "conf/cvpr/LinYCZLLH19",
+    "date": "2019-06",
     "venue": "cvpr",
     "venue_name": "CVPR",
     "year": 2019,
@@ -14381,6 +14752,7 @@
    {
     "id": "zhang2023trajpac",
     "key": "conf/iccv/ZhangXYJHZ23",
+    "date": "2023-10",
     "venue": "iccv",
     "venue_name": "ICCV",
     "year": 2023,
@@ -14428,6 +14800,7 @@
    {
     "id": "lin2021integer",
     "key": "conf/iccv/Lin00S21",
+    "date": "2021-10",
     "venue": "iccv",
     "venue_name": "ICCV",
     "year": 2021,
@@ -14467,6 +14840,7 @@
    {
     "id": "lorenz2021robustness",
     "key": "conf/iccv/0002RB0V21",
+    "date": "2021-10",
     "venue": "iccv",
     "venue_name": "ICCV",
     "year": 2021,
@@ -14514,6 +14888,7 @@
    {
     "id": "gowal2019scalable",
     "key": "conf/iccv/GowalDSBQUAMK19",
+    "date": "2019-10",
     "venue": "iccv",
     "venue_name": "ICCV",
     "year": 2019,
@@ -14673,12 +15048,18 @@
     "slug": "benedikt-bruckner",
     "name": "Benedikt Brückner",
     "papers": 1
+   },
+   {
+    "slug": "panagiotis-kouvaros",
+    "name": "Panagiotis Kouvaros",
+    "papers": 1
    }
   ],
   "paper_list": [
    {
     "id": "massena2026fast",
     "key": "conf/eccv/MassenaFMS26",
+    "date": "2026-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2026,
@@ -14713,6 +15094,7 @@
    {
     "id": "bruckner2026ioucert",
     "key": "conf/eccv/BrucknerMZKL26",
+    "date": "2026-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2026,
@@ -14745,7 +15127,7 @@
      },
      {
       "name": "Panagiotis Kouvaros",
-      "slug": ""
+      "slug": "panagiotis-kouvaros"
      },
      {
       "name": "Alessio Lomuscio",
@@ -14756,6 +15138,7 @@
    {
     "id": "yudin2026pay",
     "key": "conf/eccv/YudinKGR26",
+    "date": "2026-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2026,
@@ -14795,6 +15178,7 @@
    {
     "id": "jiang2024certifiably",
     "key": "conf/eccv/JiangGHJG24",
+    "date": "2024-09",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2024,
@@ -14833,6 +15217,7 @@
    {
     "id": "xu2024cross",
     "key": "conf/eccv/XuS24",
+    "date": "2024-09",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2024,
@@ -14864,6 +15249,7 @@
    {
     "id": "zhang2024protip",
     "key": "conf/eccv/ZhangTRHKJZ24",
+    "date": "2024-09",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2024,
@@ -14915,6 +15301,7 @@
    {
     "id": "paik2024towards",
     "key": "conf/eccv/PaikKHKS24",
+    "date": "2024-09",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2024,
@@ -14953,6 +15340,7 @@
    {
     "id": "sun2022spectral",
     "key": "conf/eccv/SunMKCHHM22",
+    "date": "2022-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2022,
@@ -14999,6 +15387,7 @@
    {
     "id": "prach2022almost",
     "key": "conf/eccv/PrachL22",
+    "date": "2022-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2022,
@@ -15025,6 +15414,7 @@
    {
     "id": "hong2022unicr",
     "key": "conf/eccv/HongWH22",
+    "date": "2022-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2022,
@@ -15055,6 +15445,7 @@
    {
     "id": "li2022vip",
     "key": "conf/eccv/LiZX22",
+    "date": "2022-10",
     "venue": "eccv",
     "venue_name": "ECCV",
     "year": 2022,
@@ -15205,6 +15596,7 @@
    {
     "id": "gomber2026evolving",
     "key": "journals/pacmpl/GomberBS26",
+    "date": "2026-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2026,
@@ -15235,6 +15627,7 @@
    {
     "id": "banerjee2024input",
     "key": "journals/pacmpl/BanerjeeXS24",
+    "date": "2024-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2024,
@@ -15265,6 +15658,7 @@
    {
     "id": "muller2023abstract",
     "key": "journals/pacmpl/Muller0SV23",
+    "date": "2023-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2023,
@@ -15304,6 +15698,7 @@
    {
     "id": "tao2023architecture",
     "key": "journals/pacmpl/TaoNMT23",
+    "date": "2023-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2023,
@@ -15338,6 +15733,7 @@
    {
     "id": "ugare2023incremental",
     "key": "journals/pacmpl/UgareBM023",
+    "date": "2023-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2023,
@@ -15372,6 +15768,7 @@
    {
     "id": "bonaert2021fast",
     "key": "conf/pldi/BonaertDBV21",
+    "date": "2021-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2021,
@@ -15406,6 +15803,7 @@
    {
     "id": "sotoudeh2021provable",
     "key": "conf/pldi/SotoudehT21",
+    "date": "2021-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2021,
@@ -15432,6 +15830,7 @@
    {
     "id": "mirman2021robustness",
     "key": "conf/pldi/MirmanHBGV21",
+    "date": "2021-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2021,
@@ -15470,6 +15869,7 @@
    {
     "id": "zhu2019inductive",
     "key": "conf/pldi/ZhuXMJ19",
+    "date": "2019-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2019,
@@ -15504,6 +15904,7 @@
    {
     "id": "anderson2019optimization",
     "key": "conf/pldi/AndersonPDC19",
+    "date": "2019-06",
     "venue": "pldi",
     "venue_name": "PLDI",
     "year": 2019,
@@ -15638,6 +16039,7 @@
    {
     "id": "ma2024relu",
     "key": "journals/pacmpl/MaLB24",
+    "date": "2024-01",
     "venue": "popl",
     "venue_name": "POPL",
     "year": 2024,
@@ -15668,6 +16070,7 @@
    {
     "id": "wang2022interval",
     "key": "journals/pacmpl/WangAPJ22",
+    "date": "2022-01",
     "venue": "popl",
     "venue_name": "POPL",
     "year": 2022,
@@ -15702,6 +16105,7 @@
    {
     "id": "muller2022prima",
     "key": "journals/pacmpl/MullerMSPV22",
+    "date": "2022-01",
     "venue": "popl",
     "venue_name": "POPL",
     "year": 2022,
@@ -15740,6 +16144,7 @@
    {
     "id": "singh2019abstract",
     "key": "journals/pacmpl/SinghGPV19",
+    "date": "2019-01",
     "venue": "popl",
     "venue_name": "POPL",
     "year": 2019,
@@ -15849,6 +16254,7 @@
    {
     "id": "daggitt2026compositional",
     "key": "journals/pacmpl/DaggittKSBTSP26",
+    "date": "2026-09",
     "venue": "icfp",
     "venue_name": "ICFP",
     "year": 2026,
@@ -16010,6 +16416,7 @@
    {
     "id": "xu2026sart",
     "key": "journals/pacmpl/XuZD26",
+    "date": "2026-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2026,
@@ -16040,6 +16447,7 @@
    {
     "id": "singh2025automated",
     "key": "journals/pacmpl/SinghSMS25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16074,6 +16482,7 @@
    {
     "id": "ma2025convex",
     "key": "journals/pacmpl/MaWB25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16104,6 +16513,7 @@
    {
     "id": "zhang2025correct",
     "key": "journals/pacmpl/Zhang025",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16135,6 +16545,7 @@
    {
     "id": "zhang2025efficient",
     "key": "journals/pacmpl/ZhangZBCZS25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16177,6 +16588,7 @@
    {
     "id": "kabaha2025guarding",
     "key": "journals/pacmpl/KabahaD25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16203,6 +16615,7 @@
    {
     "id": "shaday2025mini",
     "key": "journals/pacmpl/Tzour-ShadayD25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16229,6 +16642,7 @@
    {
     "id": "kabaha2025quantization",
     "key": "journals/pacmpl/KabahaD25a",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16255,6 +16669,7 @@
    {
     "id": "zhang2025verification",
     "key": "journals/pacmpl/ZhangHGSSD25",
+    "date": "2025-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2025,
@@ -16297,6 +16712,7 @@
    {
     "id": "kabaha2024verification",
     "key": "journals/pacmpl/KabahaD24",
+    "date": "2024-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2024,
@@ -16323,6 +16739,7 @@
    {
     "id": "shapira2023deep",
     "key": "journals/pacmpl/ShapiraAD23",
+    "date": "2023-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2023,
@@ -16353,6 +16770,7 @@
    {
     "id": "astorga2023perception",
     "key": "journals/pacmpl/AstorgaHMM23",
+    "date": "2023-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2023,
@@ -16387,6 +16805,7 @@
    {
     "id": "ugare2022proof",
     "key": "journals/pacmpl/UgareSM22",
+    "date": "2022-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2022,
@@ -16422,6 +16841,7 @@
    {
     "id": "wu2022scalable",
     "key": "journals/pacmpl/WuBSNS22",
+    "date": "2022-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2022,
@@ -16460,6 +16880,7 @@
    {
     "id": "urban2020perfectly",
     "key": "journals/pacmpl/UrbanCWZ20",
+    "date": "2020-10",
     "venue": "oopsla",
     "venue_name": "OOPSLA",
     "year": 2020,
@@ -16589,6 +17010,7 @@
    {
     "id": "liu2026precondition",
     "key": "journals/pacmse/LiuXYW26",
+    "date": "2026-07",
     "venue": "fse",
     "venue_name": "FSE",
     "year": 2026,
@@ -16623,6 +17045,7 @@
    {
     "id": "duong2026verifyingb",
     "key": "journals/pacmse/DuongLNN26",
+    "date": "2026-07",
     "venue": "fse",
     "venue_name": "FSE",
     "year": 2026,
@@ -16657,6 +17080,7 @@
    {
     "id": "zhou2024crosscert",
     "key": "journals/pacmse/ZhouW00C24",
+    "date": "2024-07",
     "venue": "fse",
     "venue_name": "FSE",
     "year": 2024,
@@ -16695,6 +17119,7 @@
    {
     "id": "duong2024harnessing",
     "key": "journals/pacmse/Duong0ND24",
+    "date": "2024-07",
     "venue": "fse",
     "venue_name": "FSE",
     "year": 2024,
@@ -16729,6 +17154,7 @@
    {
     "id": "kwiatkowska2019safety",
     "key": "conf/sigsoft/Kwiatkowska19",
+    "date": "2019-08",
     "venue": "fse",
     "venue_name": "FSE",
     "year": 2019,
@@ -16833,6 +17259,7 @@
    {
     "id": "kim2025fairquant",
     "key": "conf/icse/KimWW25",
+    "date": "2025-04",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2025,
@@ -16863,6 +17290,7 @@
    {
     "id": "chi2025patch",
     "key": "conf/icse/ChiMYHL0H025",
+    "date": "2025-04",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2025,
@@ -16913,6 +17341,7 @@
    {
     "id": "ma2024vere",
     "key": "conf/icse/MaYWSHW24",
+    "date": "2024-05",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2024,
@@ -16960,6 +17389,7 @@
    {
     "id": "biswas2023fairify",
     "key": "conf/icse/BiswasR23",
+    "date": "2023-05",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2023,
@@ -16991,6 +17421,7 @@
    {
     "id": "li2022towards",
     "key": "conf/icse/LiYHS0Z22",
+    "date": "2022-05",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2022,
@@ -17033,6 +17464,7 @@
    {
     "id": "baluta2021scalable",
     "key": "conf/icse/BalutaCMS21",
+    "date": "2021-05",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2021,
@@ -17067,6 +17499,7 @@
    {
     "id": "paulsen2020reludiff",
     "key": "conf/icse/PaulsenWW20",
+    "date": "2020-05",
     "venue": "icse",
     "venue_name": "ICSE",
     "year": 2020,
@@ -17219,6 +17652,7 @@
    {
     "id": "li2025destabilizing",
     "key": "conf/kbse/LiN25",
+    "date": "2025-11",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2025,
@@ -17245,6 +17679,7 @@
    {
     "id": "ma2025provable",
     "key": "conf/kbse/MaWXW25",
+    "date": "2025-11",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2025,
@@ -17284,6 +17719,7 @@
    {
     "id": "zhong2023expediting",
     "key": "conf/kbse/ZhongWK23",
+    "date": "2023-09",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2023,
@@ -17314,6 +17750,7 @@
    {
     "id": "li2023hobat",
     "key": "conf/kbse/LiL23",
+    "date": "2023-09",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2023,
@@ -17340,6 +17777,7 @@
    {
     "id": "zhang2022provably",
     "key": "conf/kbse/ZhangWLLZ22",
+    "date": "2022-10",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2022,
@@ -17378,6 +17816,7 @@
    {
     "id": "zhang2022qvip",
     "key": "conf/kbse/ZhangZCSZCS22",
+    "date": "2022-10",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2022,
@@ -17429,6 +17868,7 @@
    {
     "id": "toledo2021distribution",
     "key": "conf/kbse/ToledoSED21",
+    "date": "2021-11",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2021,
@@ -17463,6 +17903,7 @@
    {
     "id": "paulsen2020neurodiff",
     "key": "conf/kbse/PaulsenWWW20",
+    "date": "2020-09",
     "venue": "ase",
     "venue_name": "ASE",
     "year": 2020,
@@ -17584,6 +18025,7 @@
    {
     "id": "pham2024certified",
     "key": "conf/issta/Pham024",
+    "date": "2024-09",
     "venue": "issta",
     "venue_name": "ISSTA",
     "year": 2024,
@@ -17615,6 +18057,7 @@
    {
     "id": "xue2023tale",
     "key": "conf/issta/XueLZWZ23",
+    "date": "2023-07",
     "venue": "issta",
     "venue_name": "ISSTA",
     "year": 2023,
@@ -17768,6 +18211,7 @@
    {
     "id": "liu2026atkverifier",
     "key": "conf/cav/LiuTDZHW26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17815,6 +18259,7 @@
    {
     "id": "swisa2026learning",
     "key": "conf/cav/SwisaK26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17841,6 +18286,7 @@
    {
     "id": "ladner2026perception",
     "key": "conf/cav/LadnerSA26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17876,6 +18322,7 @@
    {
     "id": "liu2026precise",
     "key": "conf/cav/LiuZZ26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17911,6 +18358,7 @@
    {
     "id": "wang2026qav",
     "key": "conf/cav/WangDXS26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17945,6 +18393,7 @@
    {
     "id": "aleksandrov2026rocq",
     "key": "conf/cav/AleksandrovJV26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -17980,6 +18429,7 @@
    {
     "id": "roy2026vnn",
     "key": "conf/cav/RoyAGD26",
+    "date": "2026-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2026,
@@ -18014,6 +18464,7 @@
    {
     "id": "tobler2025formally",
     "key": "conf/cav/ToblerSM25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18044,6 +18495,7 @@
    {
     "id": "hwang2025floating",
     "key": "conf/cav/HwangLPPS25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18087,6 +18539,7 @@
    {
     "id": "wei2025modelverification",
     "key": "conf/cav/WeiHMYNLL25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18133,6 +18586,7 @@
    {
     "id": "duong2025neuralsat",
     "key": "conf/cav/DuongND25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18163,6 +18617,7 @@
    {
     "id": "badings2025policy",
     "key": "conf/cav/BadingsKJJ25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18197,6 +18652,7 @@
    {
     "id": "labbaf2025space",
     "key": "conf/cav/LabbafKBFWS25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18239,6 +18695,7 @@
    {
     "id": "tran2025starv",
     "key": "conf/cav/TranCLLOHF25",
+    "date": "2025-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2025,
@@ -18294,6 +18751,7 @@
    {
     "id": "shapira2024boosting",
     "key": "conf/cav/ShapiraWSD24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18328,6 +18786,7 @@
    {
     "id": "zhang2024certified",
     "key": "conf/cav/ZhangS24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18354,6 +18813,7 @@
    {
     "id": "wu2024marabou",
     "key": "conf/cav/WuIZTDKRAJBHLWZKKB24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18445,6 +18905,7 @@
    {
     "id": "wang2024safe",
     "key": "conf/cav/WangZ24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18471,6 +18932,7 @@
    {
     "id": "zhi2024unifying",
     "key": "conf/cav/ZhiWLOZ24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18514,6 +18976,7 @@
    {
     "id": "athavale2024verifying",
     "key": "conf/cav/AthavaleBCMNW24",
+    "date": "2024-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2024,
@@ -18556,6 +19019,7 @@
    {
     "id": "li2023certifying",
     "key": "conf/cav/LiWW23",
+    "date": "2023-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2023,
@@ -18586,6 +19050,7 @@
    {
     "id": "lopez2023nnv",
     "key": "conf/cav/LopezCTJ23",
+    "date": "2023-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2023,
@@ -18629,6 +19094,7 @@
    {
     "id": "zhang2023qebverif",
     "key": "conf/cav/ZhangSS23",
+    "date": "2023-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2023,
@@ -18664,6 +19130,7 @@
    {
     "id": "amir2023verifying",
     "key": "conf/cav/AmirMZKS23",
+    "date": "2023-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2023,
@@ -18702,6 +19169,7 @@
    {
     "id": "paulsen2022example",
     "key": "conf/cav/PaulsenW22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18728,6 +19196,7 @@
    {
     "id": "casadio2022neural",
     "key": "conf/cav/CasadioKDKKAR22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18779,6 +19248,7 @@
    {
     "id": "goubault2022rino",
     "key": "conf/cav/GoubaultP22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18805,6 +19275,7 @@
    {
     "id": "fischer2022shared",
     "key": "conf/cav/FischerSDSV22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18843,6 +19314,7 @@
    {
     "id": "jin2022trainify",
     "key": "conf/cav/JinTZWZ22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18886,6 +19358,7 @@
    {
     "id": "guan2022verifying",
     "key": "conf/cav/GuanFY22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18916,6 +19389,7 @@
    {
     "id": "pham2022verifying",
     "key": "conf/cav/PhamS22",
+    "date": "2022-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2022,
@@ -18947,6 +19421,7 @@
    {
     "id": "yang2021iterative",
     "key": "conf/cav/YangZLZTZL21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -18993,6 +19468,7 @@
    {
     "id": "christakis2021automated",
     "key": "conf/cav/ChristakisEHHKL21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19048,6 +19524,7 @@
    {
     "id": "shriver2021dnnv",
     "key": "conf/cav/ShriverED21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19078,6 +19555,7 @@
    {
     "id": "usman2021nnrepair",
     "key": "conf/cav/UsmanGSNP21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19116,6 +19594,7 @@
    {
     "id": "khedr2021peregrinn",
     "key": "conf/cav/KhedrFS21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19146,6 +19625,7 @@
    {
     "id": "guan2021robustness",
     "key": "conf/cav/GuanFY21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19176,6 +19656,7 @@
    {
     "id": "tran2021robustness",
     "key": "conf/cav/TranPMLHYBJ21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19231,6 +19712,7 @@
    {
     "id": "ryou2021scalable",
     "key": "conf/cav/RyouCBSDV21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19278,6 +19760,7 @@
    {
     "id": "ivanov2021verisig",
     "key": "conf/cav/IvanovCWAPL21",
+    "date": "2021-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2021,
@@ -19320,6 +19803,7 @@
    {
     "id": "elboher2020abstraction",
     "key": "conf/cav/ElboherGK20",
+    "date": "2020-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2020,
@@ -19350,6 +19834,7 @@
    {
     "id": "bak2020improved",
     "key": "conf/cav/BakTHJ20",
+    "date": "2020-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2020,
@@ -19384,6 +19869,7 @@
    {
     "id": "tran2020nnv",
     "key": "conf/cav/TranYLMNXBJ20",
+    "date": "2020-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2020,
@@ -19443,6 +19929,7 @@
    {
     "id": "xu2020systematic",
     "key": "conf/cav/XuSDE20",
+    "date": "2020-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2020,
@@ -19477,6 +19964,7 @@
    {
     "id": "tran2020verification",
     "key": "conf/cav/TranBXJ20",
+    "date": "2020-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2020,
@@ -19511,6 +19999,7 @@
    {
     "id": "katz2019marabou",
     "key": "conf/cav/KatzHIJLLSTWZDK19",
+    "date": "2019-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2019,
@@ -19586,6 +20075,7 @@
    {
     "id": "katz2017reluplex",
     "key": "conf/cav/KatzBDJK17",
+    "date": "2017-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2017,
@@ -19624,6 +20114,7 @@
    {
     "id": "huang2017safety",
     "key": "conf/cav/HuangKWW17",
+    "date": "2017-07",
     "venue": "cav",
     "venue_name": "CAV",
     "year": 2017,
@@ -19819,6 +20310,7 @@
    {
     "id": "raviv2026towards",
     "key": "conf/nfm/RavivEIAHSKK26",
+    "date": "2026-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2026,
@@ -19869,6 +20361,7 @@
    {
     "id": "p2024approximate",
     "key": "conf/nfm/PP24",
+    "date": "2024-06",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2024,
@@ -19895,6 +20388,7 @@
    {
     "id": "zhou2024compositional",
     "key": "conf/nfm/ZhouT24",
+    "date": "2024-06",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2024,
@@ -19921,6 +20415,7 @@
    {
     "id": "rossi2024towards",
     "key": "conf/nfm/RossiBCP24",
+    "date": "2024-06",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2024,
@@ -19955,6 +20450,7 @@
    {
     "id": "aleksandrov2023formalizing",
     "key": "conf/nfm/AleksandrovV23",
+    "date": "2023-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2023,
@@ -19981,6 +20477,7 @@
    {
     "id": "kochdumper2023open",
     "key": "conf/nfm/Kochdumper0AB23",
+    "date": "2023-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2023,
@@ -20020,6 +20517,7 @@
    {
     "id": "moradkhani2023verification",
     "key": "conf/nfm/MoradkhaniFF23",
+    "date": "2023-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2023,
@@ -20050,6 +20548,7 @@
    {
     "id": "liu2023verifying",
     "key": "conf/nfm/LiuCO23",
+    "date": "2023-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2023,
@@ -20080,6 +20579,7 @@
    {
     "id": "munakata2023verifying",
     "key": "conf/nfm/MunakataUYYM23",
+    "date": "2023-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2023,
@@ -20118,6 +20618,7 @@
    {
     "id": "bak2022neural",
     "key": "conf/nfm/BakT22",
+    "date": "2022-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2022,
@@ -20144,6 +20645,7 @@
    {
     "id": "cruz2022nnlander",
     "key": "conf/nfm/CruzS22",
+    "date": "2022-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2022,
@@ -20170,6 +20672,7 @@
    {
     "id": "bacci2022verified",
     "key": "conf/nfm/BacciP22",
+    "date": "2022-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2022,
@@ -20196,6 +20699,7 @@
    {
     "id": "bak2021nnenum",
     "key": "conf/nfm/Bak21",
+    "date": "2021-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2021,
@@ -20218,6 +20722,7 @@
    {
     "id": "gokulanathan2020simplifying",
     "key": "conf/nfm/GokulanathanFMB20",
+    "date": "2020-05",
     "venue": "nfm",
     "venue_name": "NFM",
     "year": 2020,
