@@ -13806,6 +13806,11 @@
     "slug": "zhaodi-zhang",
     "name": "Zhaodi Zhang",
     "papers": 1
+   },
+   {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "papers": 1
    }
   ],
   "paper_list": [
@@ -13832,7 +13837,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "Thanh Le",
@@ -17004,6 +17009,11 @@
     "slug": "dong-xu",
     "name": "Dong Xu",
     "papers": 1
+   },
+   {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "papers": 1
    }
   ],
   "paper_list": [
@@ -17069,7 +17079,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "ThanhVu Nguyen",
@@ -17646,6 +17656,11 @@
     "slug": "zhaodi-zhang",
     "name": "Zhaodi Zhang",
     "papers": 1
+   },
+   {
+    "slug": "linhan-li",
+    "name": "Linhan Li",
+    "papers": 1
    }
   ],
   "paper_list": [
@@ -17668,7 +17683,7 @@
     "authors": [
      {
       "name": "Linhan Li",
-      "slug": ""
+      "slug": "linhan-li"
      },
      {
       "name": "ThanhVu Nguyen",

@@ -2776,22 +2776,6 @@
   ]
  },
  {
-  "pid": "23/7347",
-  "name": "Lam Nguyen",
-  "nnv_papers": 2,
-  "last_author": 0,
-  "first_author": 0,
-  "first_year": "2026",
-  "last_year": "2026",
-  "venues": "CVPR 1; FSE 1",
-  "affiliation": "",
-  "homepage": "",
-  "titles": [
-   "Verifying Neural Network Robustness with Dual Perturbations",
-   "Verifying Structural Robustness of Deep Neural Network"
-  ]
- },
- {
   "pid": "178/9876",
   "name": "Lingjuan Lyu",
   "nnv_papers": 2,

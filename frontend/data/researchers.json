@@ -1293,7 +1293,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "gagandeep-singh",
@@ -7443,7 +7443,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "jinyuan-jia",
@@ -8434,7 +8434,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "cho-jui-hsieh",
@@ -11552,8 +11552,18 @@
     "papers": 3
    },
    {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "papers": 2
+   },
+   {
     "slug": "david-shriver",
     "name": "David Shriver",
+    "papers": 1
+   },
+   {
+    "slug": "linhan-li",
+    "name": "Linhan Li",
     "papers": 1
    },
    {
@@ -11621,7 +11631,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "ThanhVu Nguyen",
@@ -11652,7 +11662,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "Thanh Le",
@@ -11749,7 +11759,7 @@
     "authors": [
      {
       "name": "Linhan Li",
-      "slug": ""
+      "slug": "linhan-li"
      },
      {
       "name": "ThanhVu Nguyen",
@@ -11824,7 +11834,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "marta-kwiatkowska",
@@ -12109,6 +12119,11 @@
     "papers": 3
    },
    {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "papers": 2
+   },
+   {
     "slug": "david-shriver",
     "name": "David Shriver",
     "papers": 1
@@ -12178,7 +12193,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "ThanhVu Nguyen",
@@ -12209,7 +12224,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "Thanh Le",
@@ -12354,7 +12369,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "matthew-b-dwyer",
@@ -12685,7 +12700,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "yuhao-mao",
@@ -13015,7 +13030,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "tom-goldstein",
@@ -14803,7 +14818,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "benjamin-rubinstein",
@@ -20313,7 +20328,7 @@
     ]
    }
   ],
-  "color": "g0"
+  "color": "g1"
  },
  {
   "slug": "hoang-dung-tran",
@@ -21459,7 +21474,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "rudy-bunel",
@@ -23988,7 +24003,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "thanh-le",
@@ -23996,10 +24011,10 @@
   "group": "neuralsat",
   "group_name": "NeuralSAT",
   "role": "researcher",
-  "institution": "National Institute of Informatics, Tokyo, Japan",
-  "institution_short": "National Institute of Informatics",
-  "institution_local": "National Institute of Informatics, Tokyo, Japan",
-  "institution_local_short": "National Institute of Informatics",
+  "institution": "National Institute of Information and Communications Technology (NICT), Japan",
+  "institution_short": "NICT",
+  "institution_local": "National Institute of Information and Communications Technology (NICT), Japan",
+  "institution_local_short": "NICT",
   "homepage": "https://thanhle.xyz",
   "orcid": "0000-0003-4460-2225",
   "dblp": [
@@ -24067,6 +24082,11 @@
     "slug": "thanhvu-nguyen",
     "name": "ThanhVu Nguyen",
     "papers": 3
+   },
+   {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "papers": 2
    }
   ],
   "paper_list": [
@@ -24128,7 +24148,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "ThanhVu Nguyen",
@@ -24159,7 +24179,7 @@
      },
      {
       "name": "Lam Nguyen",
-      "slug": ""
+      "slug": "lam-nguyen"
      },
      {
       "name": "Thanh Le",
@@ -24172,7 +24192,7 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
  },
  {
   "slug": "liwei-wang",
@@ -30893,7 +30913,163 @@
     ]
    }
   ],
-  "color": "g1"
+  "color": "g0"
+ },
+ {
+  "slug": "lam-nguyen",
+  "name": "Lam Nguyen",
+  "group": "neuralsat",
+  "group_name": "NeuralSAT",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/23/7347.html"
+  ],
+  "to_confirm": "current post and role",
+  "papers": 2,
+  "citations": 9,
+  "venues": {
+   "fse": 1,
+   "cvpr": 1
+  },
+  "fields": {
+   "ml": 0,
+   "cv": 1,
+   "pl": 0,
+   "se": 1,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 1,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 1
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 2
+  },
+  "score_fields": {
+   "ml": 0.0,
+   "cv": 0.25,
+   "pl": 0.0,
+   "se": 0.25,
+   "lv": 0.0
+  },
+  "score": 0.5,
+  "first_author": 0,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "hai-duong",
+    "name": "Hai Duong",
+    "papers": 2
+   },
+   {
+    "slug": "thanh-le",
+    "name": "Thanh Le",
+    "papers": 2
+   },
+   {
+    "slug": "thanhvu-nguyen",
+    "name": "ThanhVu Nguyen",
+    "papers": 2
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "duong2026verifyingb",
+    "key": "journals/pacmse/DuongLNN26",
+    "date": "2026-07",
+    "venue": "fse",
+    "venue_name": "FSE",
+    "year": 2026,
+    "field": "se",
+    "title": "Verifying Structural Robustness of Deep Neural Network",
+    "url": "https://doi.org/10.1145/3797095",
+    "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "Lam Nguyen",
+      "slug": "lam-nguyen"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
+   {
+    "id": "duong2026verifying",
+    "key": "conf/cvpr/DuongNLN26",
+    "date": "2026-06",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2026,
+    "field": "cv",
+    "title": "Verifying Neural Network Robustness with Dual Perturbations",
+    "url": "https://dblp.org/rec/conf/cvpr/DuongNLN26",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Lam Nguyen",
+      "slug": "lam-nguyen"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   }
+  ],
+  "color": "g0"
  },
  {
   "slug": "russ-tedrake",
@@ -31210,6 +31386,108 @@
    }
   ],
   "color": "g-other"
+ },
+ {
+  "slug": "linhan-li",
+  "name": "Linhan Li",
+  "group": "neuralsat",
+  "group_name": "NeuralSAT",
+  "role": "researcher",
+  "institution": "",
+  "institution_short": "",
+  "institution_local": "",
+  "institution_local_short": "",
+  "homepage": "",
+  "orcid": "",
+  "dblp": [
+   "https://dblp.org/pid/298/2914.html"
+  ],
+  "to_confirm": "current post and role",
+  "papers": 1,
+  "citations": 4,
+  "venues": {
+   "ase": 1
+  },
+  "fields": {
+   "ml": 0,
+   "cv": 0,
+   "pl": 0,
+   "se": 1,
+   "lv": 0,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 0,
+   "bounds": 0,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 1
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 1,
+   "2026": 0
+  },
+  "score_fields": {
+   "ml": 0.0,
+   "cv": 0.0,
+   "pl": 0.0,
+   "se": 0.5,
+   "lv": 0.0
+  },
+  "score": 0.5,
+  "first_author": 1,
+  "last_author": 0,
+  "coauthors": [
+   {
+    "slug": "thanhvu-nguyen",
+    "name": "ThanhVu Nguyen",
+    "papers": 1
+   }
+  ],
+  "paper_list": [
+   {
+    "id": "li2025destabilizing",
+    "key": "conf/kbse/LiN25",
+    "date": "2025-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2025,
+    "field": "se",
+    "title": "Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks",
+    "url": "https://doi.org/10.1109/ase63991.2025.00115",
+    "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Linhan Li",
+      "slug": "linhan-li"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   }
+  ],
+  "color": "g0"
  },
  {
   "slug": "christopher-brix",

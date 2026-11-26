@@ -168,7 +168,6 @@ b/EzioBartocci,Ezio Bartocci,2,0,0,2024,2025,ICML 1; CAV 1,"TU Wien, Vienna, Aus
 295/5349,Kai Yuanqing Xiao,2,0,1,2019,2019,ICLR 2,,,Evaluating Robustness of Neural Networks with Mixed Integer Programming | Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability
 18/2428-1,Kai-Wei Chang,2,0,0,2020,2020,ICLR 1; NeurIPS 1,,,Robustness Verification for Transformers | Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond
 92/5602,Krishnendu Chatterjee,2,0,0,2021,2023,NeurIPS 2,,,Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees | Infinite Time Horizon Safety of Bayesian Neural Networks
-23/7347,Lam Nguyen,2,0,0,2026,2026,CVPR 1; FSE 1,,,Verifying Neural Network Robustness with Dual Perturbations | Verifying Structural Robustness of Deep Neural Network
 178/9876,Lingjuan Lyu,2,0,0,2023,2023,ICML 1; ICLR 1,,,Dimension-independent Certified Neural Network Watermarks via Mollifier Smoothing | Towards Robustness Certification Against Universal Perturbations
 152/4678,Long H. Pham,2,0,2,2022,2024,ISSTA 1; CAV 1,,,Certified Continual Learning for Neural Network Regression | Verifying Neural Networks Against Backdoor Attacks
 275/3108,Marco Sälzer,2,0,2,2023,2025,ICLR 2,,,Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning | Fundamental Limits in Formal Verification of Message-Passing Neural Networks

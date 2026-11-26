@@ -1,5 +1,500 @@
 [
  {
+  "slug": "neuralsat",
+  "name": "NeuralSAT",
+  "tools": [
+   "NeuralSAT",
+   "DNNV"
+  ],
+  "url": "https://github.com/dynaroars/neuralsat",
+  "description": "DPLL(T)-based verification and verification infrastructure.",
+  "members": [
+   {
+    "slug": "thanhvu-nguyen",
+    "name": "ThanhVu Nguyen",
+    "institution_short": "GMU",
+    "papers": 8,
+    "score": 2.5
+   },
+   {
+    "slug": "hai-duong",
+    "name": "Hai Duong",
+    "institution_short": "",
+    "papers": 7,
+    "score": 2.0
+   },
+   {
+    "slug": "matthew-b-dwyer",
+    "name": "Matthew B. Dwyer",
+    "institution_short": "UVA",
+    "papers": 7,
+    "score": 2.0
+   },
+   {
+    "slug": "david-shriver",
+    "name": "David Shriver",
+    "institution_short": "",
+    "papers": 4,
+    "score": 1.083
+   },
+   {
+    "slug": "sebastian-elbaum",
+    "name": "Sebastian Elbaum",
+    "institution_short": "UVA",
+    "papers": 3,
+    "score": 0.833
+   },
+   {
+    "slug": "thanh-le",
+    "name": "Thanh Le",
+    "institution_short": "NICT",
+    "papers": 3,
+    "score": 0.833
+   },
+   {
+    "slug": "dong-xu",
+    "name": "Dong Xu",
+    "institution_short": "University of Virginia",
+    "papers": 2,
+    "score": 0.5
+   },
+   {
+    "slug": "lam-nguyen",
+    "name": "Lam Nguyen",
+    "institution_short": "",
+    "papers": 2,
+    "score": 0.5
+   },
+   {
+    "slug": "linhan-li",
+    "name": "Linhan Li",
+    "institution_short": "",
+    "papers": 1,
+    "score": 0.5
+   }
+  ],
+  "institutions": [
+   "GMU",
+   "UVA",
+   "NICT",
+   "University of Virginia"
+  ],
+  "papers": 11,
+  "citations": 204,
+  "venues": {
+   "neurips": 3,
+   "fse": 2,
+   "cvpr": 1,
+   "ase": 2,
+   "cav": 3
+  },
+  "fields": {
+   "ml": 3,
+   "cv": 1,
+   "pl": 0,
+   "se": 4,
+   "lv": 3,
+   "fm": 0
+  },
+  "areas": {
+   "complete": 4,
+   "bounds": 1,
+   "probabilistic": 0,
+   "training": 0,
+   "repair": 0,
+   "explanations": 0,
+   "control": 0,
+   "relational": 0,
+   "architectures": 0,
+   "quantized": 0,
+   "other": 6
+  },
+  "years": {
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 1,
+   "2021": 2,
+   "2022": 0,
+   "2023": 0,
+   "2024": 1,
+   "2025": 4,
+   "2026": 3
+  },
+  "score_fields": {
+   "ml": 3.0,
+   "cv": 1.0,
+   "pl": 0.0,
+   "se": 3.75,
+   "lv": 3.0
+  },
+  "score": 2.731,
+  "paper_list": [
+   {
+    "id": "duong2026verifyingc",
+    "key": "openreview/U2N3YhilwS",
+    "date": "2026-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2026,
+    "field": "ml",
+    "title": "Verifying Neural Networks with Reinforcement Learning",
+    "url": "https://openreview.net/forum?id=U2N3YhilwS",
+    "citations": 6,
+    "arxiv": "2609.34553",
+    "source": "neurips.cc",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
+   {
+    "id": "duong2026verifyingb",
+    "key": "journals/pacmse/DuongLNN26",
+    "date": "2026-07",
+    "venue": "fse",
+    "venue_name": "FSE",
+    "year": 2026,
+    "field": "se",
+    "title": "Verifying Structural Robustness of Deep Neural Network",
+    "url": "https://doi.org/10.1145/3797095",
+    "citations": 9,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "Lam Nguyen",
+      "slug": "lam-nguyen"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
+   {
+    "id": "duong2026verifying",
+    "key": "conf/cvpr/DuongNLN26",
+    "date": "2026-06",
+    "venue": "cvpr",
+    "venue_name": "CVPR",
+    "year": 2026,
+    "field": "cv",
+    "title": "Verifying Neural Network Robustness with Dual Perturbations",
+    "url": "https://dblp.org/rec/conf/cvpr/DuongNLN26",
+    "citations": null,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "bounds",
+    "area_name": "Bound propagation & abstract interpretation",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Lam Nguyen",
+      "slug": "lam-nguyen"
+     },
+     {
+      "name": "Thanh Le",
+      "slug": "thanh-le"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
+   {
+    "id": "duong2025compositional",
+    "key": "conf/nips/DuongSND25",
+    "date": "2025-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2025,
+    "field": "ml",
+    "title": "Compositional Neural Network Verification via Assume-Guarantee Reasoning",
+    "url": "https://dblp.org/rec/conf/nips/DuongSND25",
+    "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "David Shriver",
+      "slug": "david-shriver"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "duong2025generating",
+    "key": "conf/nips/DuongND25",
+    "date": "2025-12",
+    "venue": "neurips",
+    "venue_name": "NeurIPS",
+    "year": 2025,
+    "field": "ml",
+    "title": "Generating and Checking DNN Verification Proofs",
+    "url": "https://dblp.org/rec/conf/nips/DuongND25",
+    "citations": 12,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "li2025destabilizing",
+    "key": "conf/kbse/LiN25",
+    "date": "2025-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2025,
+    "field": "se",
+    "title": "Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks",
+    "url": "https://doi.org/10.1109/ase63991.2025.00115",
+    "citations": 4,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Linhan Li",
+      "slug": "linhan-li"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     }
+    ]
+   },
+   {
+    "id": "duong2025neuralsat",
+    "key": "conf/cav/DuongND25",
+    "date": "2025-07",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2025,
+    "field": "lv",
+    "title": "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks",
+    "url": "https://doi.org/10.1007/978-3-031-98679-6_19",
+    "citations": 28,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "duong2024harnessing",
+    "key": "journals/pacmse/Duong0ND24",
+    "date": "2024-07",
+    "venue": "fse",
+    "venue_name": "FSE",
+    "year": 2024,
+    "field": "se",
+    "title": "Harnessing Neuron Stability to Improve DNN Verification",
+    "url": "https://doi.org/10.1145/3643765",
+    "citations": 40,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "complete",
+    "area_name": "Complete verification",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Hai Duong",
+      "slug": "hai-duong"
+     },
+     {
+      "name": "Dong Xu",
+      "slug": "dong-xu"
+     },
+     {
+      "name": "ThanhVu Nguyen",
+      "slug": "thanhvu-nguyen"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "toledo2021distribution",
+    "key": "conf/kbse/ToledoSED21",
+    "date": "2021-11",
+    "venue": "ase",
+    "venue_name": "ASE",
+    "year": 2021,
+    "field": "se",
+    "title": "Distribution Models for Falsification and Verification of DNNs",
+    "url": "https://doi.org/10.1109/ase51524.2021.9678590",
+    "citations": 10,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Felipe Toledo",
+      "slug": ""
+     },
+     {
+      "name": "David Shriver",
+      "slug": "david-shriver"
+     },
+     {
+      "name": "Sebastian Elbaum",
+      "slug": "sebastian-elbaum"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "shriver2021dnnv",
+    "key": "conf/cav/ShriverED21",
+    "date": "2021-07",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2021,
+    "field": "lv",
+    "title": "DNNV: A Framework for Deep Neural Network Verification",
+    "url": "https://doi.org/10.1007/978-3-030-81685-8_6",
+    "citations": 69,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "David Shriver",
+      "slug": "david-shriver"
+     },
+     {
+      "name": "Sebastian Elbaum",
+      "slug": "sebastian-elbaum"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     }
+    ]
+   },
+   {
+    "id": "xu2020systematic",
+    "key": "conf/cav/XuSDE20",
+    "date": "2020-07",
+    "venue": "cav",
+    "venue_name": "CAV",
+    "year": 2020,
+    "field": "lv",
+    "title": "Systematic Generation of Diverse Benchmarks for DNN Verification",
+    "url": "https://doi.org/10.1007/978-3-030-53288-8_5",
+    "citations": 13,
+    "arxiv": "",
+    "source": "dblp.org",
+    "area": "other",
+    "area_name": "Other",
+    "tags": [],
+    "authors": [
+     {
+      "name": "Dong Xu",
+      "slug": "dong-xu"
+     },
+     {
+      "name": "David Shriver",
+      "slug": "david-shriver"
+     },
+     {
+      "name": "Matthew B. Dwyer",
+      "slug": "matthew-b-dwyer"
+     },
+     {
+      "name": "Sebastian Elbaum",
+      "slug": "sebastian-elbaum"
+     }
+    ]
+   }
+  ],
+  "color": "g0"
+ },
+ {
   "slug": "eran",
   "name": "ERAN (SRI Lab)",
   "tools": [
@@ -1299,487 +1794,6 @@
      {
       "name": "Martin Vechev",
       "slug": "martin-vechev"
-     }
-    ]
-   }
-  ],
-  "color": "g0"
- },
- {
-  "slug": "neuralsat",
-  "name": "NeuralSAT",
-  "tools": [
-   "NeuralSAT",
-   "DNNV"
-  ],
-  "url": "https://github.com/dynaroars/neuralsat",
-  "description": "DPLL(T)-based verification and verification infrastructure.",
-  "members": [
-   {
-    "slug": "thanhvu-nguyen",
-    "name": "ThanhVu Nguyen",
-    "institution_short": "GMU",
-    "papers": 8,
-    "score": 2.5
-   },
-   {
-    "slug": "hai-duong",
-    "name": "Hai Duong",
-    "institution_short": "",
-    "papers": 7,
-    "score": 2.0
-   },
-   {
-    "slug": "matthew-b-dwyer",
-    "name": "Matthew B. Dwyer",
-    "institution_short": "UVA",
-    "papers": 7,
-    "score": 2.0
-   },
-   {
-    "slug": "david-shriver",
-    "name": "David Shriver",
-    "institution_short": "",
-    "papers": 4,
-    "score": 1.083
-   },
-   {
-    "slug": "sebastian-elbaum",
-    "name": "Sebastian Elbaum",
-    "institution_short": "UVA",
-    "papers": 3,
-    "score": 0.833
-   },
-   {
-    "slug": "thanh-le",
-    "name": "Thanh Le",
-    "institution_short": "National Institute of Informatics",
-    "papers": 3,
-    "score": 0.833
-   },
-   {
-    "slug": "dong-xu",
-    "name": "Dong Xu",
-    "institution_short": "University of Virginia",
-    "papers": 2,
-    "score": 0.5
-   }
-  ],
-  "institutions": [
-   "GMU",
-   "UVA",
-   "National Institute of Informatics",
-   "University of Virginia"
-  ],
-  "papers": 11,
-  "citations": 204,
-  "venues": {
-   "neurips": 3,
-   "fse": 2,
-   "cvpr": 1,
-   "ase": 2,
-   "cav": 3
-  },
-  "fields": {
-   "ml": 3,
-   "cv": 1,
-   "pl": 0,
-   "se": 4,
-   "lv": 3,
-   "fm": 0
-  },
-  "areas": {
-   "complete": 4,
-   "bounds": 1,
-   "probabilistic": 0,
-   "training": 0,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 6
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 1,
-   "2021": 2,
-   "2022": 0,
-   "2023": 0,
-   "2024": 1,
-   "2025": 4,
-   "2026": 3
-  },
-  "score_fields": {
-   "ml": 3.0,
-   "cv": 0.75,
-   "pl": 0.0,
-   "se": 3.0,
-   "lv": 3.0
-  },
-  "score": 2.569,
-  "paper_list": [
-   {
-    "id": "duong2026verifyingc",
-    "key": "openreview/U2N3YhilwS",
-    "date": "2026-12",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2026,
-    "field": "ml",
-    "title": "Verifying Neural Networks with Reinforcement Learning",
-    "url": "https://openreview.net/forum?id=U2N3YhilwS",
-    "citations": 6,
-    "arxiv": "2609.34553",
-    "source": "neurips.cc",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "Thanh Le",
-      "slug": "thanh-le"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     }
-    ]
-   },
-   {
-    "id": "duong2026verifyingb",
-    "key": "journals/pacmse/DuongLNN26",
-    "date": "2026-07",
-    "venue": "fse",
-    "venue_name": "FSE",
-    "year": 2026,
-    "field": "se",
-    "title": "Verifying Structural Robustness of Deep Neural Network",
-    "url": "https://doi.org/10.1145/3797095",
-    "citations": 9,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "Thanh Le",
-      "slug": "thanh-le"
-     },
-     {
-      "name": "Lam Nguyen",
-      "slug": ""
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     }
-    ]
-   },
-   {
-    "id": "duong2026verifying",
-    "key": "conf/cvpr/DuongNLN26",
-    "date": "2026-06",
-    "venue": "cvpr",
-    "venue_name": "CVPR",
-    "year": 2026,
-    "field": "cv",
-    "title": "Verifying Neural Network Robustness with Dual Perturbations",
-    "url": "https://dblp.org/rec/conf/cvpr/DuongNLN26",
-    "citations": null,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "Lam Nguyen",
-      "slug": ""
-     },
-     {
-      "name": "Thanh Le",
-      "slug": "thanh-le"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     }
-    ]
-   },
-   {
-    "id": "duong2025compositional",
-    "key": "conf/nips/DuongSND25",
-    "date": "2025-12",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2025,
-    "field": "ml",
-    "title": "Compositional Neural Network Verification via Assume-Guarantee Reasoning",
-    "url": "https://dblp.org/rec/conf/nips/DuongSND25",
-    "citations": 13,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "David Shriver",
-      "slug": "david-shriver"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "duong2025generating",
-    "key": "conf/nips/DuongND25",
-    "date": "2025-12",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2025,
-    "field": "ml",
-    "title": "Generating and Checking DNN Verification Proofs",
-    "url": "https://dblp.org/rec/conf/nips/DuongND25",
-    "citations": 12,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "li2025destabilizing",
-    "key": "conf/kbse/LiN25",
-    "date": "2025-11",
-    "venue": "ase",
-    "venue_name": "ASE",
-    "year": 2025,
-    "field": "se",
-    "title": "Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks",
-    "url": "https://doi.org/10.1109/ase63991.2025.00115",
-    "citations": 4,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Linhan Li",
-      "slug": ""
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     }
-    ]
-   },
-   {
-    "id": "duong2025neuralsat",
-    "key": "conf/cav/DuongND25",
-    "date": "2025-07",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2025,
-    "field": "lv",
-    "title": "NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks",
-    "url": "https://doi.org/10.1007/978-3-031-98679-6_19",
-    "citations": 28,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "duong2024harnessing",
-    "key": "journals/pacmse/Duong0ND24",
-    "date": "2024-07",
-    "venue": "fse",
-    "venue_name": "FSE",
-    "year": 2024,
-    "field": "se",
-    "title": "Harnessing Neuron Stability to Improve DNN Verification",
-    "url": "https://doi.org/10.1145/3643765",
-    "citations": 40,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Hai Duong",
-      "slug": "hai-duong"
-     },
-     {
-      "name": "Dong Xu",
-      "slug": "dong-xu"
-     },
-     {
-      "name": "ThanhVu Nguyen",
-      "slug": "thanhvu-nguyen"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "toledo2021distribution",
-    "key": "conf/kbse/ToledoSED21",
-    "date": "2021-11",
-    "venue": "ase",
-    "venue_name": "ASE",
-    "year": 2021,
-    "field": "se",
-    "title": "Distribution Models for Falsification and Verification of DNNs",
-    "url": "https://doi.org/10.1109/ase51524.2021.9678590",
-    "citations": 10,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Felipe Toledo",
-      "slug": ""
-     },
-     {
-      "name": "David Shriver",
-      "slug": "david-shriver"
-     },
-     {
-      "name": "Sebastian Elbaum",
-      "slug": "sebastian-elbaum"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "shriver2021dnnv",
-    "key": "conf/cav/ShriverED21",
-    "date": "2021-07",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2021,
-    "field": "lv",
-    "title": "DNNV: A Framework for Deep Neural Network Verification",
-    "url": "https://doi.org/10.1007/978-3-030-81685-8_6",
-    "citations": 69,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "David Shriver",
-      "slug": "david-shriver"
-     },
-     {
-      "name": "Sebastian Elbaum",
-      "slug": "sebastian-elbaum"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     }
-    ]
-   },
-   {
-    "id": "xu2020systematic",
-    "key": "conf/cav/XuSDE20",
-    "date": "2020-07",
-    "venue": "cav",
-    "venue_name": "CAV",
-    "year": 2020,
-    "field": "lv",
-    "title": "Systematic Generation of Diverse Benchmarks for DNN Verification",
-    "url": "https://doi.org/10.1007/978-3-030-53288-8_5",
-    "citations": 13,
-    "arxiv": "",
-    "source": "dblp.org",
-    "area": "other",
-    "area_name": "Other",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Dong Xu",
-      "slug": "dong-xu"
-     },
-     {
-      "name": "David Shriver",
-      "slug": "david-shriver"
-     },
-     {
-      "name": "Matthew B. Dwyer",
-      "slug": "matthew-b-dwyer"
-     },
-     {
-      "name": "Sebastian Elbaum",
-      "slug": "sebastian-elbaum"
      }
     ]
    }

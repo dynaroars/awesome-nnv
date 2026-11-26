@@ -110,7 +110,7 @@ the site uses.
   Ladner, Yedi Zhang, the VNN-COMP 2025 report authors and tool teams
   with an NNV paper here (Christopher Brix, Konstantin Kaulen, Lukas Koller, Navid Hashemi, Samuel Sasaki, Hesun
   Chen, Haoyu Li), the ARCH-COMP AINNCS report authors with an NNV paper here (Christian Schilling, Ben
-  Wooding), Alessandro De Palma, Benedikt Brückner, Panagiotis Kouvaros and themselves (Thanh Le, NeuralSAT). Do not propose students on your own. Identity is the DBLP pid
+  Wooding), Alessandro De Palma, Benedikt Brückner, Panagiotis Kouvaros, Linhan Li, Lam Nguyen and themselves (Thanh Le, NeuralSAT). Do not propose students on your own. Identity is the DBLP pid
   (`dblp_pids`), never a name match, for DBLP papers.
 - **Collaboration graph:** circles of groups with 3 or more listed researchers are solid, smaller groups hollow
   (`SMALL_GROUP` in `graph.py`); the legend shows the same style.
