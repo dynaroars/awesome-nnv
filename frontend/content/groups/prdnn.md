@@ -1,4 +1,4 @@
 ---
-title: "PRDNN (UC Davis)"
+title: "PRDNN"
 key: "prdnn"
 ---

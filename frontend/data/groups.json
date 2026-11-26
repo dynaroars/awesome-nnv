@@ -2591,7 +2591,7 @@
    "GCP-CROWN"
   ],
   "url": "https://github.com/Verified-Intelligence/alpha-beta-CROWN",
-  "description": "GPU bound propagation and branch and bound; winner of VNN-COMP 2021 to 2025.",
+  "description": "GPU bound propagation and branch and bound; winner of several VNN-COMPs.",
   "members": [
    {
     "slug": "huan-zhang",
@@ -10138,7 +10138,7 @@
  },
  {
   "slug": "prdnn",
-  "name": "PRDNN (UC Davis)",
+  "name": "PRDNN",
   "tools": [
    "PRDNN",
    "provable repair"
@@ -16374,7 +16374,7 @@
  },
  {
   "slug": "fu-song",
-  "name": "Fu Song group (ISCAS)",
+  "name": "QVIP / QEBVerif",
   "tools": [
    "QVIP",
    "QEBVerif"
@@ -16762,7 +16762,7 @@
    "nnenum"
   ],
   "url": "https://github.com/stanleybak/nnenum",
-  "description": "Star-set enumeration; VNN-COMP organisers.",
+  "description": "Star-set enumeration.",
   "members": [
    {
     "slug": "stanley-bak",

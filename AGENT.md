@@ -130,9 +130,20 @@ with a group, or `no` with the reason (e.g. `student`, `postdoc`). A new group n
 maintainer before creating or merging groups. Put the current institution in `institution` and its short form in
 `institution_short`; mark anything unconfirmed in `to_confirm` (shown only in the local build).
 
+## Public and local values
+
+- `to_confirm` is shown only in the local build. When it contains `current post`, or `institution` is empty, the
+  public site shows DBLP's primary affiliation instead of the roster's `institution` (`institution()` in
+  `build_site_data.py`); the local build shows the roster's value. Clear `current post` once the post is checked.
+- `role` is shown only in the local build. Group names and descriptions are public: state no unchecked post or claim
+  in them.
+
 ## Coverage
 
-DBLP adds proceedings some weeks after a conference. The front page and Conferences page list the venue-years not
+`fetch_dblp.py` reuses the cache in `backend/data/raw/dblp/`; the current and previous year are downloaded again
+when their cache is more than 7 days old (`stale`), every year with `--refresh`. A table of contents whose parsed
+papers fall under 80% of the count DBLP lists is downloaded again, then reported as a warning (NFM 2023 once came
+back empty). DBLP adds proceedings some weeks after a conference. The front page and Conferences page list the venue-years not
 yet in DBLP (`gaps` in `meta.json`); run `make refresh` after a conference's proceedings appear.
 
 ## Git and publishing

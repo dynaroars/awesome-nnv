@@ -14289,7 +14289,7 @@
     "name": "Aditya V. Thakur",
     "papers": 4,
     "group": "prdnn",
-    "group_name": "PRDNN (UC Davis)"
+    "group_name": "PRDNN"
    },
    {
     "slug": "corina-s-pasareanu",
@@ -14316,7 +14316,7 @@
   "groups": [
    {
     "slug": "prdnn",
-    "name": "PRDNN (UC Davis)",
+    "name": "PRDNN",
     "papers": 4
    },
    {
@@ -22011,7 +22011,7 @@
     "name": "Fu Song",
     "papers": 3,
     "group": "fu-song",
-    "group_name": "Fu Song group (ISCAS)"
+    "group_name": "QVIP / QEBVerif"
    },
    {
     "slug": "jun-sun",
@@ -22045,7 +22045,7 @@
   "groups": [
    {
     "slug": "fu-song",
-    "name": "Fu Song group (ISCAS)",
+    "name": "QVIP / QEBVerif",
     "papers": 3
    },
    {
