@@ -204,6 +204,8 @@ the site uses.
   institution of the co-author they share the most NNV papers with (likely supervisor), shown with a `*` and a note under
   the table (the maintainer's rule). The flag is the country of the institution shown (`country_of` in `common.py`); a
   group's flag (Collaboration legend and card) is the country most of its members are at.
+- **Conferences page**: a tracked conference with no NNV paper yet (LICS on 2026-11-27) is left out of the
+  panels and the table, but is still fetched and scanned and keeps its own page (the maintainer's rule).
 - **Group pages** list their members by this year's papers, then this year's score, all-year papers, all-year
   score and citations (`member_rank`, the maintainer's order of 2026-11-27).
 - **Group leaderboard** (front page, the maintainer's rule): only groups with two or more listed researchers and an NNV paper in `RECENT_YEAR` are

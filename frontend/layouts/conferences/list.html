@@ -1,16 +1,18 @@
 {{ define "main" -}}
 {{ .Content }}
-{{- range hugo.Data.meta.fields }}{{ $f := . }}
-<h2 class="panel-field">{{ .full_name }} <span class="note">({{ .name }})</span></h2>
+{{- /* Conferences with no NNV paper yet are still tracked but not shown (the maintainer's rule, 2026-11-27). */}}
+{{- $shown := where hugo.Data.venues "papers" "gt" 0 }}
+{{- range hugo.Data.meta.fields }}{{ $f := . }}{{ with where $shown "field" $f.key }}
+<h2 class="panel-field">{{ $f.full_name }} <span class="note">({{ $f.name }})</span></h2>
 <div class="panel-grid">
-	{{- range where hugo.Data.venues "field" $f.key }}
+	{{- range . }}
 	<figure class="panel">
 		<figcaption><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a> <span class="note">{{ .papers }} &middot; {{ printf "%.1f" .share }}% of {{ lang.FormatNumber 0 .all_papers }}</span></figcaption>
 		{{ .panel | safeHTML }}
 	</figure>
 	{{- end }}
 </div>
-{{- end }}
+{{- end }}{{ end }}
 <p class="note">Bars count NNV papers per year; hover a year to compare with all main-track papers in dblp. Each field row has its own scale (printed at the top left). An empty slot means no NNV paper, a missing year means the conference was not held, and a hollow dot marks a year not yet in dblp.</p>
 <h2>All numbers</h2>
 <div class="scroll">
@@ -26,7 +28,7 @@
 	</tr>
 	</thead>
 	<tbody>
-	{{- range hugo.Data.venues }}{{ $v := . }}
+	{{- range $shown }}{{ $v := . }}
 	<tr>
 		<td class="l">{{ .field_name }}</td>
 		<td class="l"><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a></td>

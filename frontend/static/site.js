@@ -193,10 +193,13 @@
 			b.textContent = label;
 			if (current) b.setAttribute("aria-current", "page");
 			if (disabled) b.disabled = true;
-			b.addEventListener("click", function () { show(page, true); });
+			b.addEventListener("click", function () { show(page, true, label); });
 			return b;
 		}
-		function show(page, scroll) {
+		// Changing page keeps the view where it is (the maintainer's request, 2026-11-27): the pager stays under the
+		// pointer even when the new page is shorter, and focus stays on the button of the same label.
+		function show(page, keep, label) {
+			var before = keep ? nav.getBoundingClientRect().top : 0;
 			var all = rows(), pages = Math.max(1, Math.ceil(all.length / size));
 			page = Math.max(0, Math.min(page, pages - 1));
 			all.forEach(function (tr, k) { tr.classList.toggle("off-page", Math.floor(k / size) !== page); });
@@ -205,8 +208,13 @@
 			nav.appendChild(link(nav.dataset.prev, page - 1, false, page === 0));
 			for (var p = 0; p < pages; p++) nav.appendChild(link(String(p + 1), p, p === page, false));
 			nav.appendChild(link(nav.dataset.next, page + 1, false, page === pages - 1));
-			if (scroll) table.scrollIntoView({ block: "start" });
 			window.dispatchEvent(new Event("resize"));
+			if (keep) {
+				window.scrollBy(0, nav.getBoundingClientRect().top - before);
+				var again = Array.prototype.find.call(nav.querySelectorAll("button"), function (b) { return b.textContent === label && !b.disabled; })
+					|| nav.querySelector('[aria-current="page"]');
+				if (again) again.focus({ preventScroll: true });
+			}
 		}
 		table.paginate = show;
 		var target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
