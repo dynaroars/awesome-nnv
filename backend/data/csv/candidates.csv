@@ -1,18 +1,112 @@
 status,pid,name,group,nnv_papers,last_author,first_author,first_year,last_year,venues,affiliation,homepage,titles
+"on the roster, below 2 papers",35/5174,Armando Tacchella,vehicle,1,1,0,2026,2026,IJCAI 1,"University of Genova, Italy",http://www.aimslab.org/people/armando-tacchella/,Leveraging Over-Parameterization to Improve the Verifiability of Neural Networks
 "on the roster, below 2 papers",166/3563,Changliu Liu,nv-jl,1,1,0,2025,2025,CAV 1,Carnegie Mellon University,,ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks
+"on the roster, below 2 papers",33/3095,David Parker,mirco-giacobbe,1,1,0,2021,2021,IJCAI 1,"University of Oxford, Department of Computer Science, UK",https://www.cs.ox.ac.uk/people/david.parker/home.html,Verifying Reinforcement Learning up to Infinity
+"on the roster, below 2 papers",222/7881,Edoardo Pirovano,venus,1,1,0,2019,2019,AAAI 1,,,Verification of RNN-Based Neural Agent-Environment Systems
+"on the roster, below 2 papers",15/3636,Georg Weissenbacher,maria-christakis,1,1,0,2024,2024,CAV 1,"TU Vienna, Institute of Logic and Computation, Austria",http://www.georg.weissenbacher.science/,Verifying Global Two-Safety Properties in Neural Networks with Confidence
+"on the roster, below 2 papers",l/InsupLee,Insup Lee,pappas,1,1,0,2021,2021,CAV 1,"University of Pennsylvania, Philadelphia, PA, USA",http://www.cis.upenn.edu/~lee/,Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning
 "on the roster, below 2 papers",200/8865,Maksym Andriushchenko,hein,1,1,0,2017,2017,NeurIPS 1,ELLIS Institute Tübingen,,Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation
+"on the roster, below 2 papers",15/5634,Michael Schapira,marabou,1,1,0,2023,2023,CAV 1,"The Hebrew University of Jerusalem, Israel",https://www.michaelschapira.com/,Verifying Generalization in Deep Learning
+"on the roster, below 2 papers",64/3102,Sylvie Thiébaux,alban-grastien,1,1,0,2023,2023,IJCAI 1,"The Australian National University, Canberra, ACT, Australia",http://users.cecs.anu.edu.au/~thiebaux/,Formal Explanations of Neural Network Policies for Planning
+"on the roster, below 2 papers",26/10265,Agnieszka M. Zbrzezny,dlv,1,0,0,2021,2021,IJCAI 1,,,On Guaranteed Optimal Robust Explanations for NLP Models
+"on the roster, below 2 papers",355/6528,Alejandro J. Mercado,venus,1,0,0,2026,2026,ECCV 1,,,IoUCert: Robustness Verification for Anchor-Based Object Detectors
+"on the roster, below 2 papers",295/3557,Alexander Hägele,eran,1,0,0,2021,2021,PLDI 1,,,Robustness certification with generative models
+"on the roster, below 2 papers",436/8950,Alistair Sirman,vehicle,1,0,0,2026,2026,ICFP 1,,,Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice
+"on the roster, below 2 papers",257/1569,Allen Antony,vehicle,1,0,0,2026,2026,CAV 1,,,VNN-LIB 2.0: Rigorous Foundations for Neural Network Verification
+"on the roster, below 2 papers",378/2831,Anagha Athavale,maria-christakis,1,0,1,2024,2024,CAV 1,,,Verifying Global Two-Safety Properties in Neural Networks with Confidence
+"on the roster, below 2 papers",245/3478,Andreea Kevorchian,venus,1,0,0,2019,2019,AAAI 1,,,Verification of RNN-Based Neural Agent-Environment Systems
+"on the roster, below 2 papers",223/2740,Angello Astorga,abcrown,1,0,1,2023,2023,OOPSLA 1,,,Perception Contracts for Safety of ML-Enabled Systems
+"on the roster, below 2 papers",437/3087,Ann Roy,vehicle,1,0,1,2026,2026,CAV 1,,,VNN-LIB 2.0: Rigorous Foundations for Neural Network Verification
+"on the roster, below 2 papers",299/5075,Ben Batten,venus,1,0,1,2021,2021,IJCAI 1,,,Efficient Neural Network Verification via Layer-based Semidefinite Relaxations and Linear Cuts
 "on the roster, below 2 papers",280/0336,Benedikt Brückner,venus,1,0,1,2026,2026,ECCV 1,,,IoUCert: Robustness Verification for Anchor-Based Object Detectors
+"on the roster, below 2 papers",71/6448,Bernardo Cuenca Grau,ian-horrocks,1,0,0,2023,2023,IJCAI 1,"University of Oxford, UK",http://www.cs.ox.ac.uk/people/bernardo.cuencagrau/,Cardinality-Minimal Explanations for Monotonic Neural Networks
+"on the roster, below 2 papers",361/3466,Brian Hyeongseok Kim,chao-wang,1,0,1,2025,2025,ICSE 1,,,Fairquant: Certifying and Quantifying Fairness of Deep Neural Networks
+"on the roster, below 2 papers",85/6436-4,Chao Peng,zhengfeng-yang,1,0,0,2023,2023,CAV 1,"East China Normal University, Shanghai Key Laboratory of Trustworthy Computing, China",,Hybrid Controller Synthesis for Nonlinear Systems Subject to Reach-Avoid Constraints
+"on the roster, below 2 papers",163/3175,Charith Mendis,singh-uiuc,1,0,0,2025,2025,OOPSLA 1,"University of Illinois at Urbana-Champaign, IL, USA",https://charithmendis.com/,Automated Verification of Soundness of DNN Certifiers
+"on the roster, below 2 papers",03/11470,Chiao Hsieh,abcrown,1,0,0,2023,2023,OOPSLA 1,,,Perception Contracts for Safety of ML-Enabled Systems
 "on the roster, below 2 papers",72/2103-1,Christian Schilling,juliareach,1,0,1,2022,2022,AAAI 1,Aalborg University,https://www.christianschilling.net/,Verification of Neural-Network Control Systems by Integrating Taylor Models and Zonotopes
+"on the roster, below 2 papers",h/DanielHsu,Daniel Hsu,neurify,1,0,0,2019,2019,S&P 1,"Columbia University, Department of Computer Science, NY, USA",http://www.cs.columbia.edu/~djhsu/,Certified Robustness to Adversarial Examples with Differential Privacy
+"on the roster, below 2 papers",184/6703,Davide Corsi,alessandro-farinelli,1,0,0,2023,2023,IJCAI 1,,,The #DNN-Verification Problem: Counting Unsafe Inputs for Deep Neural Networks
+"on the roster, below 2 papers",199/2089,Dong-Ki Kim,jonathan-p-how,1,0,0,2022,2022,ICRA 1,,,ROMAX: Certifiably Robust Deep Multiagent Reinforcement Learning via Convex Relaxation
+"on the roster, below 2 papers",265/5960,Edoardo Bacci,mirco-giacobbe,1,0,1,2021,2021,IJCAI 1,,,Verifying Reinforcement Learning up to Infinity
+"on the roster, below 2 papers",89/9058,Edward Grefenstette,deepmind,1,0,0,2019,2019,CVPR 1,Google DeepMind,,Knowing When to Stop: Evaluation and Verification of Conformity to Output-Size Specifications
+"on the roster, below 2 papers",276/0274,Emanuele La Malfa,dlv,1,0,1,2021,2021,IJCAI 1,,,On Guaranteed Optimal Robust Explanations for NLP Models
+"on the roster, below 2 papers",346/8945,Eran Avneri,drachsler-cohen,1,0,0,2023,2023,OOPSLA 1,,,Deep Learning Robustness Verification for Few-Pixel Attacks
+"on the roster, below 2 papers",02/5887,Eric Wang,guy-van-den-broeck,1,0,1,2021,2021,IJCAI 1,,,Probabilistic Sufficient Explanations
+"on the roster, below 2 papers",21/10864,Felipe Toledo,neuralsat,1,0,1,2021,2021,ASE 1,,,Distribution Models for Falsification and Verification of DNNs
+"on the roster, below 2 papers",318/3193,Gabriel Pérez S.,bernard-ghanem,1,0,1,2022,2022,CVPR 1,,,3DeformRS: Certifying Spatial Deformations on Point Clouds
+"on the roster, below 2 papers",276/5476,Gaojie Jin,iscas-zhang,1,0,0,2023,2023,ICCV 1,,,TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models
+"on the roster, below 2 papers",54/3147,Golnaz Habibi,jonathan-p-how,1,0,0,2021,2021,ICRA 1,,,Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers
+"on the roster, below 2 papers",295/3479,Gregory Bonaert,eran,1,0,1,2021,2021,PLDI 1,,,Fast and precise certification of transformers
+"on the roster, below 2 papers",154/7516,Guodong Xu,daniel-mit,1,0,0,2021,2021,CVPR 1,,,Towards Evaluating and Training Verifiably Robust Neural Networks
 "on the roster, below 2 papers",12/10840,Haoyu Li,abcrown,1,0,1,2025,2025,NeurIPS 1,,,Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion
+"on the roster, below 2 papers",355/1218,Harleen Hanspal,venus,1,0,1,2023,2023,CVPR 1,,,Efficient Verification of Neural Networks Against LVM-Based Specifications
 "on the roster, below 2 papers",344/5571,Hesun Chen,abcrown,1,0,0,2025,2025,NeurIPS 1,,,Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification
+"on the roster, below 2 papers",143/2685,James Ferlez,peregrinn,1,0,0,2021,2021,CAV 1,,,PEREGRiNN: Penalized-Relaxation Greedy Neural Network Verifier
+"on the roster, below 2 papers",79/11048,James Weimer,pappas,1,0,0,2021,2021,CAV 1,,,Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning
+"on the roster, below 2 papers",16/3878,Jianlin Li,maria-christakis,1,0,0,2021,2021,CAV 1,,,Automated Safety Verification of Programs Invoking Neural Networks
+"on the roster, below 2 papers",98/7308,Jiawei Wang,chao-wang,1,0,0,2020,2020,ASE 1,,,NEURODIFF: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation
+"on the roster, below 2 papers",437/0336,Josh Smart,vehicle,1,0,0,2026,2026,ICFP 1,,,Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice
+"on the roster, below 2 papers",196/0064,Juan C. Pérez,bernard-ghanem,1,0,0,2022,2022,CVPR 1,,,3DeformRS: Certifying Spatial Deformations on Point Clouds
+"on the roster, below 2 papers",154/5678,Juan Zhai,jia-psu,1,0,0,2024,2024,CVPR 1,,https://openreview.net/profile?id=~Juan_Zhai1,Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation
+"on the roster, below 2 papers",66/6560,Kehuan Zhang,daniel-mit,1,0,0,2021,2021,CVPR 1,The Chinese University of Hong Kong,https://staff.ie.cuhk.edu.hk/~khzhang/,Towards Evaluating and Training Verifiably Robust Neural Networks
+"on the roster, below 2 papers",89/5992,Li Zhang,zhengfeng-yang,1,0,0,2023,2023,CAV 1,,,Hybrid Controller Synthesis for Nonlinear Systems Subject to Reach-Avoid Constraints
+"on the roster, below 2 papers",50/6759,Liang Zhang,iscas-zhang,1,0,1,2023,2023,ICCV 1,"Institute of Software, Chinese Academy of Sciences",,TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models
 "on the roster, below 2 papers",298/2914,Linhan Li,neuralsat,1,0,1,2025,2025,ASE 1,,,Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks
 "on the roster, below 2 papers",c/LucaCardelli,Luca Cardelli,luca-laurenti,1,0,1,2019,2019,IJCAI 1,"Microsoft Research, Cambridge, UK",http://lucacardelli.name/,Statistical Guarantees for the Robustness of Bayesian Neural Networks
+"on the roster, below 2 papers",91/10065,Luca Oneto,vehicle,1,0,0,2026,2026,IJCAI 1,,,Leveraging Over-Parameterization to Improve the Verifiability of Neural Networks
 "on the roster, below 2 papers",311/4891,Lukas Koller,cora,1,0,1,2026,2026,ICLR 1,,,Out of the Shadows: Exploring a Latent Space for Neural Network Verification
 "on the roster, below 2 papers",04/5623,Martin C. Cooper,formal-xai,1,0,0,2021,2021,ICML 1,"University of Toulouse, IRIT, France",,Explanations for Monotonic Classifiers
+"on the roster, below 2 papers",25/3571,Matteo Maffei,maria-christakis,1,0,0,2024,2024,CAV 1,,,Verifying Global Two-Safety Properties in Neural Networks with Confidence
+"on the roster, below 2 papers",228/0598,Michael E. Akintunde,venus,1,0,1,2019,2019,AAAI 1,"Imperial College, London, UK",https://www.doc.ic.ac.uk/~ma4413/,Verification of RNN-Based Neural Agent-Environment Systems
+"on the roster, below 2 papers",86/869,Michael Everett,jonathan-p-how,1,0,1,2021,2021,ICRA 1,,,Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers
 "on the roster, below 2 papers",294/8640,Miklós Z. Horváth,eran,1,0,1,2022,2022,ICLR 1,,,Boosting Randomized Smoothing with Variance Reduced Classifiers
+"on the roster, below 2 papers",145/0008,Minghao Guo,daniel-mit,1,0,0,2021,2021,CVPR 1,,,Towards Evaluating and Training Verifiably Robust Neural Networks
+"on the roster, below 2 papers",334/1538,Mingzheng Gu,jia-psu,1,0,0,2025,2025,CVPR 1,,,Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
+"on the roster, below 2 papers",234/1850,Minh N. Vu,my-thai,1,0,0,2019,2019,IJCAI 1,,,Heterogeneous Gaussian Mechanism: Preserving Differential Privacy in Deep Learning with Provable Robustness
+"on the roster, below 2 papers",210/2351,Momchil Peychev,eran,1,0,1,2022,2022,ECCV 1,,,Latent Space Smoothing for Individually Fair Representations
+"on the roster, below 2 papers",377/6289,Naor Wiesel,drachsler-cohen,1,0,0,2024,2024,CAV 1,,,Boosting Few-Pixel Robustness Verification via Covering Verification Designs
+"on the roster, below 2 papers",253/7839,Nathaniel Xu,iscas-zhang,1,0,0,2023,2023,ICCV 1,,,TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models
 "on the roster, below 2 papers",207/7944,Navid Hashemi,nnv,1,0,1,2025,2025,NeurIPS 1,,,Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks
+"on the roster, below 2 papers",44/2806,Ning Lv,wang-lin,1,0,0,2025,2025,IJCAI 1,,,Formal Synthesis of Safe Kolmogorov-Arnold Network Controllers with Barrier Certificates
+"on the roster, below 2 papers",274/1180,Osher Maayan,marabou,1,0,0,2023,2023,CAV 1,,,Verifying Generalization in Deep Learning
+"on the roster, below 2 papers",285/6535,Ouns El Harzli,ian-horrocks,1,0,1,2023,2023,IJCAI 1,,,Cardinality-Minimal Explanations for Monotonic Neural Networks
+"on the roster, below 2 papers",m/PMadhusudan,P. Madhusudan,abcrown,1,0,0,2023,2023,OOPSLA 1,"University of Illinois, USA",http://www-faculty.cs.uiuc.edu/~madhu/,Perception Contracts for Safety of ML-Enabled Systems
+"on the roster, below 2 papers",237/9441,Pasha Khosravi,guy-van-den-broeck,1,0,0,2021,2021,IJCAI 1,,,Probabilistic Sufficient Explanations
+"on the roster, below 2 papers",276/0548,Patrick Henriksen,venus,1,0,1,2021,2021,IJCAI 1,,,DEEPSPLIT: An Efficient Splitting Method for Neural Network Verification via Indirect Effect Analysis
+"on the roster, below 2 papers",32/11105,Pavol Bielik,eran,1,0,0,2021,2021,PLDI 1,,,Robustness certification with generative models
+"on the roster, below 2 papers",83/6151,Peng Jin,ecnu,1,0,1,2022,2022,CAV 1,,,Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning
+"on the roster, below 2 papers",239/4327,Pingchuan Ma,shuai-wang,1,0,1,2020,2020,IJCAI 1,"Hong Kong University of Science and Technology, Hong Kong",https://pingchuan.moe/,Metamorphic Testing and Certified Mitigation of Fairness Violations in NLP Models
+"on the roster, below 2 papers",72/872,Qiang Li,jia-psu,1,0,0,2026,2026,S&P 1,,,Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees Against Data Poisoning Attacks
+"on the roster, below 2 papers",53/4481,Qing Liu,nnv,1,0,0,2025,2025,CAV 1,,,StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems
+"on the roster, below 2 papers",292/6386,Qiuhan Gu,singh-uiuc,1,0,1,2026,2026,PLDI 1,,,SAIL: Sound Abstract Interpreters with LLMs
+"on the roster, below 2 papers",144/4256,Radoslav Ivanov,pappas,1,0,1,2021,2021,CAV 1,"Rensselaer Polytechnic Institute, Troy, NY, USA",,Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning
+"on the roster, below 2 papers",88/8937,Relja Arandjelovic,deepmind,1,0,0,2019,2019,ICCV 1,,,Scalable Verified Training for Provably Robust Image Classification
+"on the roster, below 2 papers",307/3193,Renee Selvey,alban-grastien,1,0,1,2023,2023,IJCAI 1,,,Formal Explanations of Neural Network Policies for Planning
+"on the roster, below 2 papers",230/4208,Rhiannon Michelmore,dlv,1,0,0,2021,2021,IJCAI 1,,,On Guaranteed Optimal Robust Explanations for NLP Models
+"on the roster, below 2 papers",304/3512,Robin Staab,eran,1,0,0,2023,2023,PLDI 1,,,Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks
+"on the roster, below 2 papers",g/RoxanaGeambasu,Roxana Geambasu,neurify,1,0,0,2019,2019,S&P 1,"Columbia University, New York, NY, USA",https://roxanageambasu.github.io/,Certified Robustness to Adversarial Examples with Differential Privacy
+"on the roster, below 2 papers",288/0475,Runyang Feng,jia-psu,1,0,0,2026,2026,S&P 1,,,Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees Against Data Poisoning Attacks
+"on the roster, below 2 papers",415/3038,Saar Tzour-Shaday,drachsler-cohen,1,0,1,2025,2025,OOPSLA 1,,,Mini-Batch Robustness Verification of Deep Neural Networks
 "on the roster, below 2 papers",182/9259,Samuel Drews,albarghouthi,1,0,0,2017,2017,OOPSLA 1,,,FairSquare: probabilistic verification of program fairness
 "on the roster, below 2 papers",388/0293,Samuel Sasaki,nnv,1,0,0,2025,2025,NeurIPS 1,,,Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks
+"on the roster, below 2 papers",206/6544,Samuel Yeom,gloro,1,0,1,2020,2020,IJCAI 1,,,Individual Fairness Revisited: Transferring Techniques from Adversarial Robustness
+"on the roster, below 2 papers",377/7510,Shahar Shabelman,drachsler-cohen,1,0,0,2024,2024,CAV 1,,,Boosting Few-Pixel Robustness Verification via Covering Verification Designs
+"on the roster, below 2 papers",173/3571,Silvio Giancola,bernard-ghanem,1,0,0,2022,2022,CVPR 1,"King Abdullah University of Science and Technology (KAUST), Saudi Arabia",,3DeformRS: Certifying Spatial Deformations on Point Clouds
+"on the roster, below 2 papers",229/8553,Taylor J. Carpenter,pappas,1,0,0,2021,2021,CAV 1,,,Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning
 "on the roster, below 2 papers",272/5377,Thomas Gerspacher,formal-xai,1,0,0,2021,2021,ICML 1,,,Explanations for Monotonic Classifiers
 "on the roster, below 2 papers",222/5386,Tianhao Wei,nv-jl,1,0,1,2025,2025,CAV 1,,,ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks
+"on the roster, below 2 papers",326/8279,Tom Zelazny,marabou,1,0,0,2023,2023,CAV 1,,,Verifying Generalization in Deep Learning
+"on the roster, below 2 papers",318/0411,Tongtong Bai,jia-psu,1,0,0,2025,2025,CVPR 1,,,Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
+"on the roster, below 2 papers",117/6972,Vaggelis Atlidakis,neurify,1,0,0,2019,2019,S&P 1,,,Certified Robustness to Adversarial Examples with Differential Privacy
+"on the roster, below 2 papers",48/4792,Yang Chen,ecnu,1,0,0,2023,2023,CVPR 1,,,Boosting Verified Training for Robust Image Classifications via Abstraction
+"on the roster, below 2 papers",51/3710,Yang Liu,my-thai,1,0,0,2019,2019,IJCAI 1,,,Heterogeneous Gaussian Mechanism: Preserving Differential Privacy in Deep Learning with Provable Robustness
+"on the roster, below 2 papers",20/8079,Yanwei Chen,jia-psu,1,0,0,2025,2025,CVPR 1,,,Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
+"on the roster, below 2 papers",251/2055,Yasmin Sarita,singh-uiuc,1,0,0,2025,2025,OOPSLA 1,,,Automated Verification of Soundness of DNN Certifiers
+"on the roster, below 2 papers",33/8253-1,Yuchen Chen,jia-psu,1,0,0,2025,2025,CVPR 1,"Nanjing University, State Key Laboratory for Novel Software Technology, Software Institute, China",,Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
+"on the roster, below 2 papers",76/10611,Yueling Zhang,ecnu,1,0,0,2023,2023,CVPR 1,,,Boosting Verified Training for Robust Image Classifications via Abstraction
+"on the roster, below 2 papers",198/8309-1,Yulin Zhu,kai-zhou,1,0,0,2024,2024,S&P 1,"Hong Kong Chu Hai College, Department of Computer Science, Hong Kong",,Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks
+"on the roster, below 2 papers",90/5393,Yuntao Li,nnv,1,0,0,2025,2025,CAV 1,,,StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems
 "on the roster, below 2 papers",204/1178,Yupei Liu,gong,1,0,0,2023,2023,USENIX Security 1,,,PORE: Provably Robust Recommender Systems against Data Poisoning Attacks
+"on the roster, below 2 papers",48/7054,Yuxin Cheng,jia-psu,1,0,0,2025,2025,CVPR 1,,,Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
+"on the roster, below 2 papers",146/9561,Yuxin Yang,jia-psu,1,0,1,2026,2026,S&P 1,,,Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees Against Data Poisoning Attacks

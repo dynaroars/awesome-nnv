@@ -152,3 +152,21 @@ class DigestTest(unittest.TestCase):
         dblp = {**site, "key": "conf/nips/X26", "title": "Verifying things."}
         self.assertEqual(digest.ident(site["venue"], site["year"], site["title"]),
                          digest.ident(dblp["venue"], dblp["year"], dblp["title"]))
+
+
+class AutoUpdateTest(unittest.TestCase):
+    def test_arxiv_comment_venues(self):
+        from autoupdate import tracked_venues
+        self.assertEqual(tracked_venues("24 pages. Accepted at NeurIPS 2026"), ["neurips"])
+        self.assertEqual(tracked_venues("Accepted to IEEE S&P 2027"), ["sp"])
+        self.assertEqual(tracked_venues("To appear in USENIX Security 2027"), ["uss"])
+        self.assertEqual(tracked_venues("Accepted at the NeurIPS 2026 Workshop on Safe AI"), [])
+        self.assertEqual(tracked_venues("Accepted to ACL 2026 Findings"), [])
+        self.assertEqual(tracked_venues("Submitted to ICML 2027"), [])
+
+    def test_conference_windows(self):
+        import datetime
+        from autoupdate import conference_windows
+        near = conference_windows(datetime.date(2026, 1, 30))  # ICLR 2026 notified 2026-01-25
+        self.assertIn(("iclr", 2026), near)
+        self.assertNotIn(("iclr", 2026), conference_windows(datetime.date(2026, 6, 1)))

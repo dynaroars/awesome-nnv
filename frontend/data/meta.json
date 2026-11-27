@@ -307,6 +307,7 @@
  ],
  "label_min": 4,
  "countries": {
+  "CO": "Colombia",
   "US": "United States",
   "CN": "China",
   "GB": "United Kingdom",
@@ -355,8 +356,8 @@
  },
  "recent_year": 2026,
  "papers": 682,
- "tracked_papers": 587,
- "researchers": 465,
+ "tracked_papers": 588,
+ "researchers": 575,
  "groups": 132,
  "gaps": [
   {

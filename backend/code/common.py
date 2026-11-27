@@ -377,7 +377,7 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
-COUNTRY_NAME = {"US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
+COUNTRY_NAME = {"CO": "Colombia", "US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
                 "FR": "France", "AU": "Australia", "SG": "Singapore", "AT": "Austria", "JP": "Japan", "IL": "Israel",
                 "CA": "Canada", "RU": "Russia", "ES": "Spain", "KR": "South Korea", "IN": "India", "HK": "Hong Kong",
                 "DK": "Denmark", "HU": "Hungary", "TW": "Taiwan", "RS": "Serbia", "VN": "Vietnam", "PT": "Portugal",
@@ -397,7 +397,8 @@ _COUNTRY_HINTS = [
     ("DE", r"\btum\b|technical university of munich|technische universität münchen|tübingen|tuebingen|cispa|saarland|"
            r"saarbrücken|konstanz|kassel|cologne|köln|rwth|aachen|freiburg|max planck|darmstadt|heidelberg|bosch|"
            r"bielefeld|stuttgart|karlsruhe|berlin|dresden|oldenburg|ludwig-maximilians"),
-    ("AT", r"\bista\b|ist austria|institute of science and technology austria|klosterneuburg|tu wien|vienna|graz|linz"),
+    ("CO", r"colombia|universidad nacional|unal"),
+    ("AT", r"austrian institute of technology|\bista\b|ist austria|institute of science and technology austria|klosterneuburg|tu wien|vienna|graz|linz"),
     ("FR", r"paul sabatier|aniti|\birit\b|sncf|foxstream|paris|espci|inria|sorbonne|toulouse|grenoble|\bens\b|cnrs|saclay|lille|lyon|thales|irt saint"),
     ("NL", r"delft|amsterdam|eindhoven|utrecht|radboud|twente|leiden"),
     ("BE", r"leuven|ghent|louvain|brussel|bruxelles|antwerp"),
@@ -410,7 +411,7 @@ _COUNTRY_HINTS = [
     ("HU", r"szeged|budapest"),
     ("CZ", r"masaryk|prague|brno|czech technical"),
     ("CY", r"limassol|cyprus"),
-    ("CN", r"southwest university|nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
+    ("CN", r"^institute of software(?: \(ios\))?$|southwest university|nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
            r"beijing|harbin|sun yat-sen|huazhong|xi'an|xidian|nankai|tianjin|sichuan|shenzhen|hunan|"
            r"university of science and technology of china|\bustc\b|alibaba|baidu|tencent|huawei|beihang|jilin|"
            r"guangzhou|zhengzhou|chongqing|hangzhou|southern university of science"),
@@ -424,7 +425,7 @@ _COUNTRY_HINTS = [
     ("KR", r"kaist|seoul|korea|yonsei|postech|sungkyunkwan"),
     ("JP", r"tokyo|kyoto|nict|\bnii\b|national institute of informatics|osaka|kyushu|riken|tohoku|nagoya|japan"),
     ("IN", r"\biit\b|indian institute|bangalore|bengaluru|iisc|delhi|mumbai"),
-    ("IT", r"verona|genoa|genova|padua|padova|venice|venezia|foscari|milano|milan|politecnico|roma|rome|torino|turin|pisa|bologna|padova|trento"),
+    ("IT", r"verona|genoa|genova|padua|padova|venice|venezia|foscari|milano|milan|politecnico|roma|rome|torino|turin\b|pisa|bologna|padova|trento"),
     ("ES", r"madrid|barcelona|imdea|valencia"),
     ("US", r"\buiuc\b|ames research|kent state|liquid ai|consensys|international business machines|\bibm research|\bucsb\b|santa barbara|whiting school|siebel school|machine learning department|milwaukee|morgan stanley|massachusetts|\bmit\b|stanford|carnegie mellon|\bcmu\b|illinois|berkeley|university of california|"
            r"\bucla\b|\bucsd\b|uc san diego|princeton|harvard|columbia university|cornell|duke|purdue|penn state|"
@@ -449,6 +450,9 @@ def country_of(text):
     t = (text or "").strip()
     if not t:
         return ""
+    # dblp's "(ABBR)" after the full name: the full name decides ("Illinois Institute of Technology (IIT)" is not an
+    # Indian IIT).
+    t = re.sub(r"\s+\([A-Za-z][A-Za-z&.-]{1,11}\)$", "", t) or t
     last = t.rsplit(",", 1)[-1].strip().lower().rstrip(".")
     if last in _COUNTRY_WORDS:
         return _COUNTRY_WORDS[last]

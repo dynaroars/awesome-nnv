@@ -168,6 +168,10 @@ def institution(r, info, prof=None, site=None, signed=""):
         public, public_short = r["institution"], r["institution_short"] or r["institution"]
 
     def country(name):
+        # A university's or institute's own name wins over the profile's country field, which can be stale (Si Liu
+        # at CUHK listed as US); for companies, which are multinational, the profile's country stays.
+        if country_of(name) and re.search(r"universit|college|institut|school|academy|polytechn|école|ecole", name, re.I):
+            return country_of(name)
         if prof.get("institution") and name == prof["institution"] and prof.get("country"):
             return prof["country"]
         return country_of(name) or prof.get("country", "") or country_of(dblp) or next(
@@ -219,6 +223,11 @@ def build_researchers(people, groups, papers, dblp_people):
     for k, r in enumerate(sorted(out, key=lambda r: (-r["recent_papers"], -r["recent_score"], -r["score"],
                                                     -r["papers"], r["name"]))):
         r["recent_rank"] = k
+    # Group pages (the maintainer's order, 2026-11-27): this year's papers, this year's score, all-year papers,
+    # all-year score, citations.
+    for k, r in enumerate(sorted(out, key=lambda r: (-r["recent_papers"], -r["recent_score"], -r["papers"], -r["score"],
+                                                    -(r.get("citations") or 0), r["name"]))):
+        r["member_rank"] = k
     for r in out:
         r["institution_name"] = institution_name(r["institution"])
         r["institution_local_name"] = institution_name(r["institution_local"])
@@ -254,6 +263,7 @@ def group_label(name, *institutions):
 
 # Institutions written out in full in the Institution column (the maintainer's rule: no abbreviations).
 FULL_NAMES = {"Technische Universität München": "Technical University of Munich",
+              "Institute of Software": "Institute of Software, Chinese Academy of Sciences",
               "Universität Köln": "University of Cologne", "Technische Universität Dortmund": "TU Dortmund University",
               "Universität Konstanz": "University of Konstanz", "Universität St. Gallen": "University of St. Gallen",
               "Università degli Studi di Verona": "University of Verona", "nanjing university": "Nanjing University",
@@ -315,7 +325,7 @@ ORG = re.compile(r"universit|institut|college|eth\b|epfl|technion|kaist|cnrs|inr
 def institution_name(full):
     """The institution as written out in full: the part of an affiliation that names the organisation (not the
     department, city or country), with abbreviations expanded."""
-    parts = [p.strip() for p in (full or "").split(",") if p.strip()]
+    parts = [p.strip(' "\'“”') for p in (full or "").split(",") if p.strip(' "\'“”')]
     parts = list(dict.fromkeys(parts))
     if not parts:
         return ""
@@ -405,6 +415,7 @@ def build_groups(groups, researchers, papers, names):
                     "label": group_label(g["name"], home),
                     "slug": slug, "name": g["name"], "tools": split_list(g["tools"]), "url": g["url"],
                     "description": g["description"],
+                    "topic": g.get("topic", ""), "topic_source": g.get("topic_source", ""),
                     "members": [{"slug": r["slug"], "name": r["name"], "institution_short": r["institution_short"],
                                  "papers": r["papers"], "score": r["score"]} for r in members],
                     "institutions": list(dict.fromkeys(r["institution_name"] for r in members if r["institution_name"])),
@@ -535,7 +546,10 @@ def main():
     topics = load_topics(warnings)
     people, groups, by_pid, by_name = load_people(warnings)
     count = collections.Counter(s for p in nnv_papers(topics, by_pid, by_name) for s in p["slugs"])
-    shown = {r["slug"] for r in people if count[r["slug"]] >= TRACK_MIN}
+    # TRACK_MIN papers, or one paper for a member of a group that is tracked through its other members (the
+    # maintainer's rule, 2026-11-27).
+    tracked = {r["group"] for r in people if count[r["slug"]] >= TRACK_MIN}
+    shown = {r["slug"] for r in people if count[r["slug"]] >= TRACK_MIN or (count[r["slug"]] and r["group"] in tracked)}
     hidden = [r for r in people if r["slug"] not in shown]
     people = [r for r in people if r["slug"] in shown]
     by_pid = {k: v for k, v in by_pid.items() if v in shown}

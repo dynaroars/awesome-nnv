@@ -71,10 +71,58 @@ def promote(stats, roster, groups):
     return added
 
 
+def promote_members(stats, roster):
+    """1-paper authors who belong to a tracked group (the maintainer's rule, 2026-11-27): their only NNV paper is
+    with listed researchers of exactly one group, and dblp lists them on it at the current institution of any of
+    that group's shown members. Added to that group, marked to confirm."""
+    import json
+    import re
+    from build_site_data import institution_name
+    from common import FRONTEND
+    shown = json.loads((FRONTEND / "data" / "researchers.json").read_text())
+    key = lambda s: re.sub(r"[^a-z]", "", institution_name(s).lower())  # noqa: E731
+    group_insts = collections.defaultdict(set)
+    for r in shown:
+        for name in (r.get("institution_name"), r.get("institution_local_name")):
+            if name:
+                group_insts[r["group"]].add(key(name))
+    stamp = datetime.date.today().isoformat()
+    pid_slug = {pid: r["slug"] for r in roster if r["approved"] == "yes" for pid in split_list(r["dblp_pids"])}
+    slug_group = {r["slug"]: r["group"] for r in roster}
+    decided = {pid for r in roster for pid in split_list(r["dblp_pids"])}
+    slugs = {r["slug"] for r in roster}
+    added = []
+    for pid, s in sorted(stats.items(), key=lambda x: x[1]["name"]):
+        if pid in decided or len(s["papers"]) != 1:
+            continue
+        p = s["papers"][0]
+        groups = {slug_group[pid_slug[a["pid"]]] for a in p["authors"] if a.get("pid") in pid_slug}
+        if len(groups) != 1:
+            continue
+        group = next(iter(groups))
+        me = next(a for a in p["authors"] if a.get("pid") == pid)
+        hit = next((i for i in me.get("inst", []) if key(i) in group_insts[group]), None)
+        if not hit:
+            continue
+        slug = slugify(s["name"])
+        if slug in slugs:
+            slug = f"{slug}-{pid.replace('/', '-')}"
+        slugs.add(slug)
+        roster.append({"approved": "yes", "slug": slug, "name": s["name"], "dblp_pids": pid, "aliases": "",
+                       "group": group, "role": "", "institution": "", "institution_short": "", "homepage": "",
+                       "to_confirm": f"added automatically (1 NNV paper); group by co-authorship and institution "
+                                     f"({hit}, as a group member); current post",
+                       "notes": f"promoted at the maintainer's request (1-paper member of a tracked group), {stamp}"})
+        added.append(f"{s['name']} -> {group} ({hit})")
+    return added
+
+
 def main():
     ap = argparse.ArgumentParser(description="Rank the authors of NNV papers who are not on the site: undecided authors and roster people below the threshold.")
     ap.add_argument("--min-papers", type=int, default=2, help="least NNV papers for an undecided author to be listed")
     ap.add_argument("--promote", action="store_true", help=f"add every undecided author with {TRACK_MIN}+ NNV papers to roster.csv")
+    ap.add_argument("--promote-members", action="store_true",
+                    help="add 1-paper authors who co-wrote with exactly one tracked group, at a member's institution")
     args = ap.parse_args()
     papers = nnv_papers()
     stats = author_stats(papers)
@@ -85,6 +133,10 @@ def main():
         write_csv(ROSTER, list(roster[0].keys()), roster)
         write_csv(GROUPS_CSV, list(groups[0].keys()), groups)
         print(f"{len(added)} authors promoted to roster.csv:\n  " + "\n  ".join(added), file=sys.stderr)
+    if args.promote_members:
+        added = promote_members(stats, roster)
+        write_csv(ROSTER, list(roster[0].keys()), roster)
+        print(f"{len(added)} group members with 1 NNV paper added to roster.csv:\n  " + "\n  ".join(added), file=sys.stderr)
     people = read_json(PEOPLE_JSON, {})
     decided = {pid for r in roster for pid in split_list(r["dblp_pids"])}
     rows = []

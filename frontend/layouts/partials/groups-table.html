@@ -2,7 +2,7 @@
 <div class="table-box">
 <p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" aria-controls="groups-table" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button></p>
 <div class="scroll pinned top">
-<table class="podium collapsed" id="groups-table" data-collapsible data-page-size="20">
+<table class="podium collapsed" id="groups-table" data-collapsible data-page-size="10">
 	<thead>
 	<tr>
 		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
@@ -23,10 +23,13 @@
 	</tr>
 	</thead>
 	<tbody>
-	{{- range $n, $g := hugo.Data.groups }}
-	<tr{{ if ge $n 20 }} class="off-page"{{ end }}>
+	{{- /* Shown: groups of two or more listed researchers with an NNV paper this year (the maintainer's rules,
+	     2026-11-27). The others are still tracked and keep their pages. */}}
+	{{- $rows := slice }}{{ range hugo.Data.groups }}{{ if and (gt (len .members) 1) (gt .recent_papers 0) }}{{ $rows = $rows | append . }}{{ end }}{{ end }}
+	{{- range $n, $g := $rows }}
+	<tr{{ if ge $n 10 }} class="off-page"{{ end }}>
 		<td class="pin0 rank"><span class="cup"></span><span class="n">{{ add $n 1 }}</span></td>
-		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}" title="{{ .name }}">{{ .label }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .institution }}<br><span class="group-home">{{ partial "flag.html" $g.institution_country }} {{ . }}</span>{{ end }}</td>
+		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}" title="{{ .name }}{{ with .topic | default .description }}: {{ . }}{{ end }}">{{ .label }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .institution }}<br><span class="group-home">{{ partial "flag.html" $g.institution_country }} {{ . }}</span>{{ end }}</td>
 		<td class="l tools">{{ delimit .tools ", " }}</td>
 		<td class="l members" data-sort="{{ len .members }}">{{ range $k, $m := first 3 .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}{{ with sub (len .members) 3 }}{{ if gt . 0 }}, <a class="more" href="{{ printf "groups/%s/" $g.slug | relURL }}">+{{ . }} more</a>{{ end }}{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}

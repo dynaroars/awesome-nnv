@@ -197,6 +197,12 @@
   "venue": "NeurIPS",
   "paper": "szasz2026towards"
  },
+ "ben-wooding": {
+  "institution": "Vanderbilt University",
+  "year": 2026,
+  "venue": "NeurIPS",
+  "paper": "sasaki2026learning"
+ },
  "benjamin-rubinstein": {
   "institution": "University of Melbourne, Australia",
   "year": 2026,
@@ -599,6 +605,12 @@
   "venue": "NeurIPS",
   "paper": "yang2022improving"
  },
+ "hesun-chen": {
+  "institution": "University of Illinois at Urbana-Champaign",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "paper": "zhou2025clip"
+ },
  "hong-ming-chiu": {
   "institution": "University of Illinois at Urbana-Champaign",
   "year": 2026,
@@ -875,6 +887,12 @@
   "venue": "ICLR",
   "paper": "hu2024recipe"
  },
+ "konstantin-kaulen": {
+  "institution": "Rheinisch Westfälische Technische Hochschule Aachen",
+  "year": 2026,
+  "venue": "ICML",
+  "paper": "kaulen2026rethinking"
+ },
  "krishnamurthy-dvijotham": {
   "institution": "Google DeepMind",
   "year": 2024,
@@ -959,6 +977,12 @@
   "venue": "ICML",
   "paper": "yang2024lyapunov"
  },
+ "lukas-koller": {
+  "institution": "Technische Universität München",
+  "year": 2026,
+  "venue": "ICLR",
+  "paper": "koller2026out"
+ },
  "m-pawan-kumar": {
   "institution": "DeepMind",
   "year": 2024,
@@ -1012,6 +1036,12 @@
   "year": 2025,
   "venue": "NeurIPS",
   "paper": "lorenz2025mibp"
+ },
+ "martin-c-cooper": {
+  "institution": "University of Toulouse 3",
+  "year": 2021,
+  "venue": "ICML",
+  "paper": "silva2021explanations"
  },
  "martin-lange": {
   "institution": "Universität Kassel",
@@ -1115,6 +1145,12 @@
   "venue": "NeurIPS",
   "paper": "pautov2022smoothed"
  },
+ "miklos-z-horvath": {
+  "institution": "Swiss Federal Institute of Technology",
+  "year": 2022,
+  "venue": "ICLR",
+  "paper": "horvath2022boosting"
+ },
  "min-wu": {
   "institution": "Stanford University",
   "year": 2023,
@@ -1186,6 +1222,12 @@
   "year": 2020,
   "venue": "ICML",
   "paper": "phan2020scalable"
+ },
+ "navid-hashemi": {
+  "institution": "Vanderbilt University",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "paper": "hashemi2025scaling"
  },
  "neil-g-marchant": {
   "institution": "The University of Melbourne",
@@ -1612,6 +1654,12 @@
   "year": 2023,
   "venue": "NeurIPS",
   "paper": "zikelic2023compositional"
+ },
+ "thomas-gerspacher": {
+  "institution": "ANITI",
+  "year": 2021,
+  "venue": "ICML",
+  "paper": "silva2021explanations"
  },
  "thomas-lukasiewicz": {
   "institution": "Department of Computer Science, University of Oxford",

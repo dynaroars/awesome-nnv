@@ -55,6 +55,15 @@ publish:
 	-gh run watch --repo $(PAGES_REPO) --exit-status \
 		$$(gh run list --repo $(PAGES_REPO) --branch gh-pages --limit 1 --json databaseId --jq '.[0].databaseId')
 
+auto:
+	$(PYTHON) backend/code/autoupdate.py run
+
+auto-dry:
+	$(PYTHON) backend/code/autoupdate.py run --dry-run
+
+auto-status:
+	$(PYTHON) backend/code/autoupdate.py status
+
 test:
 	cd backend/code && $(PYTHON) -m unittest discover -s tests
 
