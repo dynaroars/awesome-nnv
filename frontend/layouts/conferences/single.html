@@ -10,7 +10,6 @@
 	</tbody>
 </table>
 </div>
-{{- with $v.missing }}<p class="note">Not yet in dblp: {{ delimit . ", " }}.</p>{{ end }}
 {{- with $v.researchers }}
 <h2>Leading researchers</h2>
 <ol>{{ range . }}<li><a href="{{ printf "researchers/%s/" .slug | relURL }}">{{ .name }}</a>: {{ .papers }}</li>{{ end }}</ol>

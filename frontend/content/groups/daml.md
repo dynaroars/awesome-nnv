@@ -1,4 +1,4 @@
 ---
-title: "DAML (TUM)"
+title: "DAML"
 key: "daml"
 ---

@@ -1,19 +1,15 @@
 {{ define "main" -}}
 {{ .Content }}
-{{- /* Conferences with no NNV paper yet are still tracked but not shown (the maintainer's rule, 2026-11-27). */}}
 {{- $shown := where hugo.Data.venues "papers" "gt" 0 }}
-{{- range hugo.Data.meta.fields }}{{ $f := . }}{{ with where $shown "field" $f.key }}
-<h2 class="panel-field">{{ $f.full_name }} <span class="note">({{ $f.name }})</span></h2>
-<div class="panel-grid">
-	{{- range . }}
-	<figure class="panel">
-		<figcaption><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a> <span class="note">{{ .papers }} &middot; {{ printf "%.1f" .share }}% of {{ lang.FormatNumber 0 .all_papers }}</span></figcaption>
-		{{ .panel | safeHTML }}
-	</figure>
-	{{- end }}
+<div class="field-grid">
+{{- range hugo.Data.overview.fields }}
+<figure>
+<figcaption><strong>{{ .name }}</strong> <span class="note">{{ .short }} &middot; {{ .papers }} papers</span></figcaption>
+{{ .chart | safeHTML }}
+</figure>
+{{- end }}
 </div>
-{{- end }}{{ end }}
-<p class="note">Bars count NNV papers per year; hover a year to compare with all main-track papers in dblp. Each field row has its own scale (printed at the top left). An empty slot means no NNV paper, a missing year means the conference was not held, and a hollow dot marks a year not yet in dblp.</p>
+<p class="note">NNV papers per year in each field, one colour per conference (largest at the bottom); hover a conference in a legend to pick it out. Fields with fewer than 20 NNV papers are shown together under Other fields.</p>
 <h2>All numbers</h2>
 <div class="scroll">
 <table>
@@ -32,7 +28,7 @@
 	<tr>
 		<td class="l">{{ .field_name }}</td>
 		<td class="l"><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a></td>
-		{{- range hugo.Data.meta.years }}{{ $y := string . }}{{ if in $v.not_held . }}<td class="na" title="Not held this year"></td>{{ else if in $v.missing . }}<td class="na" title="Not yet in dblp">&ndash;</td>{{ else }}{{ partial "num.html" (index $v.years $y) }}{{ end }}{{ end }}
+		{{- range hugo.Data.meta.years }}{{ $y := string . }}{{ if in $v.not_held . }}<td class="na" title="Not held this year"></td>{{ else if in $v.missing . }}<td class="na">&ndash;</td>{{ else }}{{ partial "num.html" (index $v.years $y) }}{{ end }}{{ end }}
 		<td class="total good">{{ .papers }}</td>
 		<td>{{ .all_papers }}</td>
 		<td>{{ printf "%.1f" .share }}%</td>
@@ -41,5 +37,4 @@
 	</tbody>
 </table>
 </div>
-<p class="note">A dash means that year's proceedings are not yet in dblp.{{ with hugo.Data.meta.from_sites }} Until dblp indexes them, we pull accepted papers directly from the conference sites for: {{ range $k, $s := . }}{{ if $k }}, {{ end }}{{ $s.venue }} {{ $s.year }} ({{ $s.site }}){{ end }}.{{ end }}</p>
 {{- end }}

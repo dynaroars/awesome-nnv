@@ -1,4 +1,4 @@
 ---
-title: "Jia group (Penn State)"
+title: "Jia group"
 key: "jia-psu"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "Vorobeychik group (WashU)"
+title: "Vorobeychik group"
 key: "vorobeychik"
 ---

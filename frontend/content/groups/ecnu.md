@@ -1,4 +1,4 @@
 ---
-title: "ECNU (Min Zhang)"
+title: "Min Zhang group"
 key: "ecnu"
 ---

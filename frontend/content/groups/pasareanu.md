@@ -1,4 +1,4 @@
 ---
-title: "Pasareanu group (CMU/NASA)"
+title: "Pasareanu group"
 key: "pasareanu"
 ---

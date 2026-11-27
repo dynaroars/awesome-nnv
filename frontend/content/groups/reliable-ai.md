@@ -1,4 +1,4 @@
 ---
-title: "Reliable AI Lab (UMD)"
+title: "Reliable AI Lab"
 key: "reliable-ai"
 ---

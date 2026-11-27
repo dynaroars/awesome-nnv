@@ -1,4 +1,4 @@
 ---
-title: "PKU (Liwei Wang)"
+title: "PKU"
 key: "pku"
 ---

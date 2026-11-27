@@ -1,4 +1,4 @@
 ---
-title: "NNV (VeriVITAL)"
+title: "NNV"
 key: "nnv"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "Romano group (Technion)"
+title: "Romano group"
 key: "yaniv-romano"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "Neurify (Columbia)"
+title: "Neurify"
 key: "neurify"
 ---

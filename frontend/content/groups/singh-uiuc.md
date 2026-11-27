@@ -1,4 +1,4 @@
 ---
-title: "Singh group (UIUC)"
+title: "Singh group"
 key: "singh-uiuc"
 ---

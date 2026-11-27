@@ -293,6 +293,12 @@
   "venue": "NeurIPS",
   "paper": "tian2023boosting"
  },
+ "chengyue-gong": {
+  "institution": "Peking University",
+  "year": 2020,
+  "venue": "NeurIPS",
+  "paper": "zhang2020black"
+ },
  "chenhao-sun": {
   "institution": "ETHZ - ETH Zurich",
   "year": 2026,
@@ -767,6 +773,12 @@
   "venue": "ICML",
   "paper": "ren2023dimension"
  },
+ "jie-li": {
+  "institution": "Shanghai Jiao Tong University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chen2022collective"
+ },
  "jinfeng-yi": {
   "institution": "JD AI Research",
   "year": 2022,
@@ -803,6 +815,12 @@
   "venue": "ICLR",
   "paper": "schuchardt2021collective"
  },
+ "johannes-welbl": {
+  "institution": "DeepMind",
+  "year": 2020,
+  "venue": "ICLR",
+  "paper": "welbl2020towards"
+ },
  "john-dickerson": {
   "institution": "Arthur AI & Univ. of Maryland",
   "year": 2022,
@@ -838,6 +856,12 @@
   "year": 2025,
   "venue": "ICLR",
   "paper": "lei2025robust"
+ },
+ "junchi-yan": {
+  "institution": "Shanghai Jiao Tong University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chen2022collective"
  },
  "junlin-wu": {
   "institution": "Washington University, Saint Louis",
@@ -1000,6 +1024,12 @@
   "year": 2023,
   "venue": "ICLR",
   "paper": "yatsura2023certified"
+ },
+ "mao-ye": {
+  "institution": "The University of Texas at Austin",
+  "year": 2020,
+  "venue": "NeurIPS",
+  "paper": "zhang2020black"
  },
  "marc-fischer": {
   "institution": "ETH Zurich",
@@ -1414,6 +1444,12 @@
   "year": 2020,
   "venue": "ICML",
   "paper": "phan2020scalable"
+ },
+ "ruoxin-chen": {
+  "institution": "Shanghai Jiao Tong University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chen2022collective"
  },
  "russ-tedrake": {
   "institution": "MIT",

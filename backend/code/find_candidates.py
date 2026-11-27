@@ -53,6 +53,8 @@ def promote(stats, roster, groups):
             for g in {slug_group[pid_slug[a["pid"]]] for a in p["authors"] if a.get("pid") in pid_slug}:
                 shared[g] += 1
         slug = slugify(s["name"])
+        if slug in {r["slug"] for r in roster}:
+            slug = f"{slug}-{pid.split('/')[-1].replace('-', '')}"
         if shared:
             group, n = shared.most_common(1)[0]
             why = f"group by co-authorship ({n} shared NNV papers)"

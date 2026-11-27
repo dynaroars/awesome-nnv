@@ -1,4 +1,4 @@
 ---
-title: "Goldstein group (UMD)"
+title: "Goldstein group"
 key: "goldstein"
 ---

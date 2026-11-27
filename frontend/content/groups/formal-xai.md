@@ -1,4 +1,4 @@
 ---
-title: "Formal XAI (Marques-Silva)"
+title: "Formal XAI"
 key: "formal-xai"
 ---

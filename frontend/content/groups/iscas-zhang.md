@@ -1,4 +1,4 @@
 ---
-title: "DeepPAC (ISCAS)"
+title: "DeepPAC"
 key: "iscas-zhang"
 ---

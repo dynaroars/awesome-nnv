@@ -1,4 +1,4 @@
 ---
-title: "Fazlyab group (JHU)"
+title: "Fazlyab group"
 key: "fazlyab"
 ---

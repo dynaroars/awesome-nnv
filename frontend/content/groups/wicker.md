@@ -1,4 +1,4 @@
 ---
-title: "Matthew Wicker group (Imperial)"
+title: "Matthew Wicker group"
 key: "wicker"
 ---

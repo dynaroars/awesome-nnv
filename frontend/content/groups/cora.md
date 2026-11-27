@@ -1,4 +1,4 @@
 ---
-title: "CORA (TUM)"
+title: "CORA"
 key: "cora"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "Albarghouthi group (UW-Madison)"
+title: "Albarghouthi group"
 key: "albarghouthi"
 ---

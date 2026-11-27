@@ -1,4 +1,4 @@
 ---
-title: "Weng group (UCSD)"
+title: "Weng group"
 key: "weng-ucsd"
 ---

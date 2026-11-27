@@ -3,11 +3,11 @@ title: "About"
 toc: true
 ---
 
-Research grows through communities of people building on each other's work. **Awesome NNV** helps you find papers in **neural-network verification (NNV)** and see how the researchers behind them collaborate. It tracks NNV papers across 25 top conferences and maps co-authorship links between researchers. Everything is open source, and you can browse the code, data tables, and scripts on [GitHub](https://github.com/dynaroars/awesome-nnv).
+Research grows through communities of people building on each other's work. **Awesome NNV** helps you find papers in **neural-network verification (NNV)** and see how the researchers behind them collaborate. It tracks NNV papers across 32 top conferences and maps co-authorship links between researchers. Everything is open source, and you can browse the code, data tables, and scripts on [GitHub](https://github.com/dynaroars/awesome-nnv).
 
 ## Venues
 
-Conferences are grouped into eight fields, following [CSRankings](https://csrankings.org/):
+Conferences are grouped into twelve fields, following [CSRankings](https://csrankings.org/):
 
 | Field | Venues |
 |:---|:---|
@@ -19,6 +19,10 @@ Conferences are grouped into eight fields, following [CSRankings](https://csrank
 | AI, artificial intelligence | AAAI, IJCAI |
 | Sec, computer security | CCS, S&P, USENIX Security, NDSS |
 | Rob, robotics | ICRA, IROS, RSS |
+| NLP, natural language processing | ACL, EMNLP, NAACL |
+| DA, design automation | DAC, ICCAD |
+| DM, data mining | KDD |
+| Emb, embedded and real-time systems | EMSOFT |
 
 Coverage starts in 2017, the year Reluplex appeared at CAV, and includes accepted papers of upcoming conferences. Following CSRankings, we only include main-track papers that are at least six pages long. We leave out workshops, companion volumes, demos, position papers, Tiny Papers, new-ideas and industry tracks, Datasets & Benchmarks tracks, and keynotes and invited talks, including those printed in the main proceedings. At AAAI and IJCAI, only the main technical track counts: special tracks (such as AAAI's Safe, Robust and Responsible AI and AI Alignment tracks, and IJCAI's AI for Good), survey, journal, demo, student and senior-member papers are left out, following the section lists on `ojs.aaai.org` and `ijcai.org`. Journal-style conference tracks (POPL, OOPSLA, ICFP, and PLDI in PACMPL, plus FSE and ISSTA in PACMSE) are included.
 
@@ -38,7 +42,7 @@ A paper counts if its main goal is to verify, certify, or give formal guarantees
 
 We leave out DNN testing and fuzzing, empirical attacks or defenses without formal guarantees, and papers that use neural networks or LLMs to verify ordinary programs.
 
-To find these papers, a broad keyword filter scans titles across all 25 conferences. Each match is then reviewed (with AI assistance) and logged with a dated note in `topics.csv`, and we continue to review and fix edge cases over time. Every included paper is assigned one primary [area](../areas/) and optional secondary tags. If you spot a mistake, please let us know (see [Corrections](#corrections)).
+To find these papers, a broad keyword filter scans titles across all 32 conferences. Each match is then reviewed (with AI assistance) and logged with a dated note in `topics.csv`, and we continue to review and fix edge cases over time. Every included paper is assigned one primary [area](../areas/) and optional secondary tags. If you spot a mistake, please let us know (see [Corrections](#corrections)).
 
 ## Researchers and groups
 
@@ -54,7 +58,7 @@ The [Monthly digest](../digest/) lists the NNV papers accepted each month, with 
 
 Individual scores follow the CSRankings adjusted count: a paper with `N` authors gives `1 / N` credit to each listed author.
 
-Group scores mirror how CSRankings ranks institutions. For each of the eight fields (ML, CV, PL, SE, LV, AI, Sec, and Rob), we sum the adjusted counts of all group members and take the geometric mean of `(field count + 1)` across the eight fields. Adding 1 prevents a zero in one field from zeroing out the whole score, while the geometric mean rewards groups that publish across multiple communities. In a group's total paper count, a paper co-authored by several members is counted only once. To follow active teams, the group leaderboard is ordered by each group's NNV papers in the current year, then by its score over that year's papers alone (the same formula); the all-year paper count and score are shown next to them.
+Group scores mirror how CSRankings ranks institutions. For each of the twelve fields (ML, CV, PL, SE, LV, AI, Sec, Rob, NLP, DA, DM, and Emb), we sum the adjusted counts of all group members and take the geometric mean of `(field count + 1)` across the twelve fields. Adding 1 prevents a zero in one field from zeroing out the whole score, while the geometric mean rewards groups that publish across multiple communities. In a group's total paper count, a paper co-authored by several members is counted only once. To follow active teams, the group leaderboard is ordered by each group's NNV papers in the current year, then by its score over that year's papers alone (the same formula); the all-year paper count and score are shown next to them.
 
 ## Citations
 

@@ -1,4 +1,4 @@
 ---
-title: "Liang group (Stanford)"
+title: "Liang group"
 key: "stanford-ml"
 ---

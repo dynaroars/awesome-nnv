@@ -1,4 +1,4 @@
 ---
-title: "Rubinstein group (Melbourne)"
+title: "Rubinstein group"
 key: "rubinstein"
 ---

@@ -1,4 +1,4 @@
 ---
-title: "MIPVerify (MIT)"
+title: "MIPVerify"
 key: "mipverify"
 ---

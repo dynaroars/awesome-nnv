@@ -1,4 +1,4 @@
 ---
-title: "Misailovic group (UIUC)"
+title: "Misailovic group"
 key: "misailovic"
 ---

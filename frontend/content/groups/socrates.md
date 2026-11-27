@@ -1,4 +1,4 @@
 ---
-title: "Socrates (SMU)"
+title: "Socrates"
 key: "socrates"
 ---

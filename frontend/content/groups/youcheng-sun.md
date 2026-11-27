@@ -1,4 +1,4 @@
 ---
-title: "Youcheng Sun (MBZUAI)"
+title: "Youcheng Sun group"
 key: "youcheng-sun"
 ---

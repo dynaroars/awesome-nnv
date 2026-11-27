@@ -33,8 +33,10 @@
 	{{- end }}
 	</span>
 </nav>
-<main{{ if eq .Layout "graph" }} class="wide"{{ end }}>
+<main{{ if eq .Layout "graph" }} class="wide"{{ else if and (eq .Section "areas") .IsSection }} class="wider"{{ end }}>
+{{- if not (and (eq .Section "areas") .IsSection) }}
 <header><h1>{{ block "title" . }}{{ .Title }}{{ end }}</h1></header>
+{{- end }}
 <article>
 {{ block "main" . }}
 {{ .Content }}

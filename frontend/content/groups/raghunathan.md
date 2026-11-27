@@ -1,4 +1,4 @@
 ---
-title: "Raghunathan group (CMU)"
+title: "Raghunathan group"
 key: "raghunathan"
 ---

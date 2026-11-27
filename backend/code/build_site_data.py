@@ -74,7 +74,7 @@ def paper_url(p):
 
 def load_people(warnings):
     dblp = read_json(PEOPLE_JSON, {})
-    groups = {g["slug"]: g for g in read_csv(GROUPS_CSV)}
+    groups = {g["slug"]: {**g, "name": re.sub(r"\s*\([^()]*\)$", "", g["name"])} for g in read_csv(GROUPS_CSV)}
     people, by_pid, by_name = [], {}, {}
     for r in read_csv(ROSTER):
         if r["approved"] != "yes":
@@ -484,10 +484,40 @@ def add_panels(venues):
             v["panel_top"] = top
 
 
+SMALL = 20
+PAT = {"ml": " pat-hash", "ai": " pat-stripe"}
+
+
+def big_fields(papers):
+    n = collections.Counter(FIELD_OF[p["venue"]] for p in papers)
+    big = sorted((f for f in FIELDS if n[f["key"]] >= SMALL), key=lambda f: -n[f["key"]])
+    return big, [f for f in sorted(FIELDS, key=lambda f: -n[f["key"]]) if f not in big]
+
+
 def field_series(papers, present_only=False):
-    series = [(f"ar-{f['key']}", f["name"], [sum(1 for p in papers if p["year"] == y and FIELD_OF[p["venue"]] == f["key"])
-                                             for y in YEARS]) for f in FIELDS]
-    return [s for s in series if sum(s[2])] if present_only else series
+    big, rest = big_fields(papers)
+    cnt = lambda ks: [sum(1 for p in papers if p["year"] == y and FIELD_OF[p["venue"]] in ks) for y in YEARS]
+    s = [(f"ar-{f['key']}{PAT.get(f['key'], '')}", f["name"], cnt({f["key"]})) for f in big]
+    if rest:
+        s.append(("ar-other", f"Other ({', '.join(f['name'] for f in rest)})", cnt({f["key"] for f in rest})))
+    return [x for x in s if sum(x[2])] if present_only else s
+
+
+def field_charts(papers, venues):
+    big, rest = big_fields(papers)
+    out = []
+    for f in big:
+        vs = sorted((v for v in venues if v["field"] == f["key"] and v["papers"]), key=lambda v: -v["papers"])
+        s = [(f"vs{i}", v["name"], [v["years"].get(str(y), 0) for y in YEARS]) for i, v in enumerate(vs)]
+        out.append({"key": f["key"], "name": f["full_name"], "short": f["name"], "papers": sum(v["papers"] for v in vs),
+                    "chart": charts.stacked_columns(f"{f['full_name']}: NNV papers per year", YEARS, s)})
+    if rest:
+        s = [(f"vs{i}", f["name"], [sum(1 for p in papers if p["year"] == y and FIELD_OF[p["venue"]] == f["key"])
+                                    for y in YEARS]) for i, f in enumerate(rest)]
+        out.append({"key": "other", "name": "Other fields", "short": ", ".join(f["name"] for f in rest),
+                    "papers": sum(sum(x[2]) for x in s),
+                    "chart": charts.stacked_columns("Other fields: NNV papers per year", YEARS, [x for x in s if sum(x[2])])})
+    return out
 
 
 def year_chart(label, papers):
@@ -495,17 +525,18 @@ def year_chart(label, papers):
 
 
 def area_trends(papers):
+    years = [y for y in YEARS if y <= LAST_YEAR]
     count = {a["key"]: [sum(1 for p in papers if p["year"] == y and (p["area"] == a["key"] or a["key"] in p["tags"]))
-                        for y in YEARS] for a in AREAS}
+                        for y in years] for a in AREAS}
     ranked = sorted(AREAS, key=lambda a: -sum(count[a["key"]]))
     series = [(f"hue{a['line'][0]} {a['line'][1]}", a["name"], count[a["key"]], a["key"]) for a in ranked]
-    return charts.multi_lines("NNV papers per year by area", YEARS, series)
+    return charts.multi_lines("NNV papers per year by area", years, series)
 
 
 def overview(papers):
     areas = [(a["key"], a["name"], sum(1 for p in papers if p["area"] == a["key"])) for a in AREAS]
     trends = area_trends(papers)
-    return {"years": charts.stacked_columns("NNV papers per year by field", YEARS, field_series(papers)),
+    return {"years": charts.stacked_columns("NNV papers per year by field", YEARS, field_series(papers), plot_h=342),
             "areas": charts.pie("NNV papers per primary area", areas), "area_trends": trends}
 
 
@@ -604,7 +635,7 @@ def main():
     digest.update(entries)  # the record only grows: a row for every new in-scope paper, none removed
     month_digest = digest.build(entries, lambda text: warn(warnings, text))
     write_json(DATA / "digest.json", month_digest)
-    write_json(DATA / "overview.json", overview(papers))
+    write_json(DATA / "overview.json", {**overview(papers), "fields": field_charts(papers, venues)})
     write_json(DATA / "graph.json", graph.layout(researchers, group_list, papers))
     write_json(DATA / "candidates.json", candidates({r["slug"] for r in researchers}, hidden, count))
     write_stubs("researchers", [(r["slug"], r["name"]) for r in researchers])

@@ -1,4 +1,4 @@
 ---
-title: "LIONS (EPFL)"
+title: "LIONS"
 key: "lions"
 ---

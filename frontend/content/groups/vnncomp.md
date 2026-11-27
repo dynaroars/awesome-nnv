@@ -1,4 +1,4 @@
 ---
-title: "VNN-COMP (RWTH Aachen)"
+title: "VNN-COMP"
 key: "vnncomp"
 ---

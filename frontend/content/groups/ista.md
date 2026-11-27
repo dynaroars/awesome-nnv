@@ -1,4 +1,4 @@
 ---
-title: "Henzinger group (ISTA)"
+title: "Henzinger group"
 key: "ista"
 ---

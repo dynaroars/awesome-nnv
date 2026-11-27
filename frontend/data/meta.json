@@ -115,6 +115,34 @@
   {
    "key": "rss",
    "name": "RSS"
+  },
+  {
+   "key": "acl",
+   "name": "ACL"
+  },
+  {
+   "key": "emnlp",
+   "name": "EMNLP"
+  },
+  {
+   "key": "naacl",
+   "name": "NAACL"
+  },
+  {
+   "key": "dac",
+   "name": "DAC"
+  },
+  {
+   "key": "iccad",
+   "name": "ICCAD"
+  },
+  {
+   "key": "kdd",
+   "name": "KDD"
+  },
+  {
+   "key": "emsoft",
+   "name": "EMSOFT"
   }
  ],
  "fields": [
@@ -239,6 +267,56 @@
     "IROS",
     "RSS"
    ]
+  },
+  {
+   "key": "nlp",
+   "name": "NLP",
+   "full_name": "Natural language processing",
+   "venues": [
+    "acl",
+    "emnlp",
+    "naacl"
+   ],
+   "names": [
+    "ACL",
+    "EMNLP",
+    "NAACL"
+   ]
+  },
+  {
+   "key": "da",
+   "name": "DA",
+   "full_name": "Design automation",
+   "venues": [
+    "dac",
+    "iccad"
+   ],
+   "names": [
+    "DAC",
+    "ICCAD"
+   ]
+  },
+  {
+   "key": "dm",
+   "name": "DM",
+   "full_name": "Data mining",
+   "venues": [
+    "kdd"
+   ],
+   "names": [
+    "KDD"
+   ]
+  },
+  {
+   "key": "emb",
+   "name": "Emb",
+   "full_name": "Embedded and real-time systems",
+   "venues": [
+    "emsoft"
+   ],
+   "names": [
+    "EMSOFT"
+   ]
   }
  ],
  "scored_fields": [
@@ -249,7 +327,11 @@
   "lv",
   "ai",
   "sec",
-  "ro"
+  "ro",
+  "nlp",
+  "da",
+  "dm",
+  "emb"
  ],
  "areas": [
   {
@@ -307,6 +389,7 @@
  ],
  "label_min": 4,
  "countries": {
+  "GR": "Greece",
   "CO": "Colombia",
   "US": "United States",
   "CN": "China",
@@ -341,7 +424,6 @@
   "IE": "Ireland",
   "PL": "Poland",
   "CZ": "Czechia",
-  "GR": "Greece",
   "SA": "Saudi Arabia",
   "AE": "United Arab Emirates",
   "BR": "Brazil",
@@ -355,14 +437,42 @@
   "QA": "Qatar"
  },
  "recent_year": 2026,
- "papers": 682,
- "tracked_papers": 588,
- "researchers": 575,
- "groups": 132,
+ "papers": 713,
+ "tracked_papers": 616,
+ "researchers": 606,
+ "groups": 139,
  "gaps": [
   {
    "venue": "CCS",
    "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "NAACL",
+   "years": [
+    2017,
+    2020,
+    2023,
+    2024,
+    2026
+   ]
+  },
+  {
+   "venue": "ICCAD",
+   "years": [
+    2026
+   ]
+  },
+  {
+   "venue": "EMSOFT",
+   "years": [
+    2018,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
     2026
    ]
   }

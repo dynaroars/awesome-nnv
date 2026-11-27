@@ -99,13 +99,28 @@ VENUES = [
      "stream": "iros", "tocs": [r"conf/iros/iros(\d{4})"]},
     {"key": "rss", "name": "RSS", "full_name": "Robotics: Science and Systems",
      "stream": "rss", "tocs": [r"conf/rss/rss(\d{4})"]},
+    {"key": "acl", "name": "ACL", "full_name": "Annual Meeting of the Association for Computational Linguistics",
+     "stream": "acl", "tocs": [r"conf/acl/acl(\d{4})(?:-1)?"]},
+    {"key": "emnlp", "name": "EMNLP", "full_name": "Conference on Empirical Methods in Natural Language Processing",
+     "stream": "emnlp", "tocs": [r"conf/emnlp/emnlp(\d{4})(?:-1)?"]},
+    {"key": "naacl", "name": "NAACL", "full_name": "Annual Conference of the North American Chapter of the ACL",
+     "stream": "naacl", "tocs": [r"conf/naacl/naacl(\d{4})(?:-1)?"]},
+    {"key": "dac", "name": "DAC", "full_name": "ACM/IEEE Design Automation Conference",
+     "stream": "dac", "tocs": [r"conf/dac/dac(\d{4})"]},
+    {"key": "iccad", "name": "ICCAD", "full_name": "IEEE/ACM International Conference on Computer-Aided Design",
+     "stream": "iccad", "tocs": [r"conf/iccad/iccad(\d{4})"]},
+    {"key": "kdd", "name": "KDD", "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+     "stream": "kdd", "tocs": [r"conf/kdd/kdd(\d{4})(?:-\d)?"]},
+    {"key": "emsoft", "name": "EMSOFT", "full_name": "International Conference on Embedded Software",
+     "stream": "emsoft", "tocs": [r"journals/tecs/tecs\d+#5s"]},
 ]
 VENUE_KEYS = [v["key"] for v in VENUES]
 
 
 VENUE_MONTH = {"icml": 7, "iclr": 5, "neurips": 12, "cvpr": 6, "iccv": 10, "eccv": 10, "pldi": 6, "popl": 1,
                "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7,
-               "aaai": 2, "ijcai": 8, "ccs": 11, "sp": 5, "uss": 8, "ndss": 2, "icra": 5, "iros": 10, "rss": 7}
+               "aaai": 2, "ijcai": 8, "ccs": 11, "sp": 5, "uss": 8, "ndss": 2, "icra": 5, "iros": 10, "rss": 7,
+               "acl": 7, "emnlp": 11, "naacl": 6, "dac": 7, "iccad": 11, "kdd": 8, "emsoft": 10}
 MONTH_EXCEPTIONS = {("iclr", 2020): 4, ("iclr", 2021): 5, ("iclr", 2022): 4, ("iclr", 2026): 4, ("eccv", 2020): 8,
                     ("eccv", 2018): 9, ("eccv", 2024): 9, ("fse", 2024): 7, ("fse", 2025): 6, ("fse", 2026): 7,
                     ("fse", 2017): 9, ("fse", 2018): 11, ("fse", 2019): 8, ("ase", 2018): 9, ("ase", 2019): 11,
@@ -117,7 +132,10 @@ MONTH_EXCEPTIONS = {("iclr", 2020): 4, ("iclr", 2021): 5, ("iclr", 2022): 4, ("i
                     ("aaai", 2019): 1, ("aaai", 2026): 1, ("ijcai", 2018): 7, ("ijcai", 2020): 7, ("ijcai", 2022): 7,
                     ("ccs", 2017): 10, ("ccs", 2018): 10, ("ccs", 2024): 10, ("ccs", 2025): 10, ("icra", 2026): 6,
                     ("iros", 2017): 9, ("iros", 2019): 11, ("iros", 2021): 9, ("rss", 2018): 6, ("rss", 2019): 6,
-                    ("rss", 2022): 6, ("rss", 2025): 6}
+                    ("rss", 2022): 6, ("rss", 2025): 6,
+                    ("acl", 2021): 8, ("acl", 2022): 5, ("acl", 2024): 8, ("emnlp", 2017): 9, ("emnlp", 2022): 12,
+                    ("emnlp", 2023): 12, ("naacl", 2022): 7, ("naacl", 2025): 4, ("dac", 2021): 12, ("dac", 2017): 6,
+                    ("dac", 2018): 6, ("dac", 2019): 6, ("dac", 2024): 6, ("dac", 2025): 6}
 
 
 def conference_month(venue, year):
@@ -137,6 +155,10 @@ FIELDS = [
     {"key": "ai", "name": "AI", "full_name": "Artificial intelligence", "venues": ["aaai", "ijcai"]},
     {"key": "sec", "name": "Sec", "full_name": "Computer security", "venues": ["ccs", "sp", "uss", "ndss"]},
     {"key": "ro", "name": "Rob", "full_name": "Robotics", "venues": ["icra", "iros", "rss"]},
+    {"key": "nlp", "name": "NLP", "full_name": "Natural language processing", "venues": ["acl", "emnlp", "naacl"]},
+    {"key": "da", "name": "DA", "full_name": "Design automation", "venues": ["dac", "iccad"]},
+    {"key": "dm", "name": "DM", "full_name": "Data mining", "venues": ["kdd"]},
+    {"key": "emb", "name": "Emb", "full_name": "Embedded and real-time systems", "venues": ["emsoft"]},
 ]
 for _f in FIELDS:
     _f["names"] = [VENUE_NAME[k] for k in _f["venues"]]
@@ -377,7 +399,7 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
-COUNTRY_NAME = {"CO": "Colombia", "US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
+COUNTRY_NAME = {"GR": "Greece", "CO": "Colombia", "US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
                 "FR": "France", "AU": "Australia", "SG": "Singapore", "AT": "Austria", "JP": "Japan", "IL": "Israel",
                 "CA": "Canada", "RU": "Russia", "ES": "Spain", "KR": "South Korea", "IN": "India", "HK": "Hong Kong",
                 "DK": "Denmark", "HU": "Hungary", "TW": "Taiwan", "RS": "Serbia", "VN": "Vietnam", "PT": "Portugal",
@@ -397,6 +419,7 @@ _COUNTRY_HINTS = [
     ("DE", r"\btum\b|technical university of munich|technische universität münchen|tübingen|tuebingen|cispa|saarland|"
            r"saarbrücken|konstanz|kassel|cologne|köln|rwth|aachen|freiburg|max planck|darmstadt|heidelberg|bosch|"
            r"bielefeld|stuttgart|karlsruhe|berlin|dresden|oldenburg|ludwig-maximilians"),
+    ("GR", r"athens|\bntua\b|greece|thessaloniki"),
     ("CO", r"colombia|universidad nacional|unal"),
     ("AT", r"austrian institute of technology|\bista\b|ist austria|institute of science and technology austria|klosterneuburg|tu wien|vienna|graz|linz"),
     ("FR", r"paul sabatier|aniti|\birit\b|sncf|foxstream|paris|espci|inria|sorbonne|toulouse|grenoble|\bens\b|cnrs|saclay|lille|lyon|thales|irt saint"),
@@ -411,7 +434,7 @@ _COUNTRY_HINTS = [
     ("HU", r"szeged|budapest"),
     ("CZ", r"masaryk|prague|brno|czech technical"),
     ("CY", r"limassol|cyprus"),
-    ("CN", r"^institute of software(?: \(ios\))?$|southwest university|nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
+    ("CN", r"^institute of software(?: \(ios\))?$|national university of defense technology|\bnudt\b|southwest university|nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
            r"beijing|harbin|sun yat-sen|huazhong|xi'an|xidian|nankai|tianjin|sichuan|shenzhen|hunan|"
            r"university of science and technology of china|\bustc\b|alibaba|baidu|tencent|huawei|beihang|jilin|"
            r"guangzhou|zhengzhou|chongqing|hangzhou|southern university of science"),

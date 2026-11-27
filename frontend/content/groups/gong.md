@@ -1,4 +1,4 @@
 ---
-title: "Gong group (Duke)"
+title: "Gong group"
 key: "gong"
 ---

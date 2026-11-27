@@ -1,4 +1,4 @@
 ---
-title: "Gao group (UCSD)"
+title: "Gao group"
 key: "gao-ucsd"
 ---

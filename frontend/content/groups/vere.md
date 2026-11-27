@@ -1,4 +1,4 @@
 ---
-title: "VeRe / ProRepair (Zhejiang)"
+title: "VeRe / ProRepair"
 key: "vere"
 ---

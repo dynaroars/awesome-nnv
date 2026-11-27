@@ -1,4 +1,4 @@
 ---
-title: "OVAL (Oxford)"
+title: "OVAL"
 key: "oval"
 ---

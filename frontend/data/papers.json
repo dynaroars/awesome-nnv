@@ -1639,6 +1639,44 @@
   "tracked": true
  },
  {
+  "id": "dong2026certified",
+  "key": "conf/kdd/DongZTL26",
+  "date": "2026-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2026,
+  "field": "dm",
+  "title": "Certified Defense on the Fairness of Graph Neural Networks",
+  "url": "https://doi.org/10.1145/3770854.3780323",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yushun Dong",
+    "slug": ""
+   },
+   {
+    "name": "Binchi Zhang",
+    "slug": ""
+   },
+   {
+    "name": "Hanghang Tong",
+    "slug": ""
+   },
+   {
+    "name": "Jundong Li",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
   "id": "qi2026cert",
   "key": "openreview/KmDPaiwdZh",
   "date": "2026-07",
@@ -2252,7 +2290,7 @@
    },
    {
     "name": "Ji Wang",
-    "slug": ""
+    "slug": "ji-wang"
    }
   ],
   "tracked": true
@@ -2637,6 +2675,52 @@
    }
   ],
   "tracked": false
+ },
+ {
+  "id": "hu2026provably",
+  "key": "conf/dac/HuZCYYW26",
+  "date": "2026-07",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2026,
+  "field": "da",
+  "title": "Provably Probabilistic Safe Controller Synthesis for Vision-Based Neural Network Control Systems",
+  "url": "https://doi.org/10.1145/3770743.3804025",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Qianlong Hu",
+    "slug": ""
+   },
+   {
+    "name": "Hanrui Zhao",
+    "slug": "hanrui-zhao"
+   },
+   {
+    "name": "Liqian Chen",
+    "slug": ""
+   },
+   {
+    "name": "Zhengfeng Yang",
+    "slug": "zhengfeng-yang"
+   },
+   {
+    "name": "Banghu Yin",
+    "slug": ""
+   },
+   {
+    "name": "Ji Wang",
+    "slug": "ji-wang"
+   }
+  ],
+  "tracked": true
  },
  {
   "id": "durand2026lipschitz",
@@ -4705,6 +4789,48 @@
   "tracked": true
  },
  {
+  "id": "seferis2025randomized",
+  "key": "conf/emnlp/SeferisWKBC25",
+  "date": "2025-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2025,
+  "field": "nlp",
+  "title": "Randomized Smoothing Meets Vision-Language Models",
+  "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1396",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Emmanouil Seferis",
+    "slug": "emmanouil-seferis"
+   },
+   {
+    "name": "Changshun Wu",
+    "slug": ""
+   },
+   {
+    "name": "Stefanos Kollias",
+    "slug": ""
+   },
+   {
+    "name": "Saddek Bensalem",
+    "slug": ""
+   },
+   {
+    "name": "Chih-Hong Cheng",
+    "slug": "chih-hong-cheng"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "singh2025automated",
   "key": "journals/pacmpl/SinghSMS25",
   "date": "2025-10",
@@ -5052,14 +5178,14 @@
   "authors": [
    {
     "name": "Emmanouil Seferis",
-    "slug": ""
+    "slug": "emmanouil-seferis"
    },
    {
     "name": "Stefanos D. Kollias",
-    "slug": ""
+    "slug": "stefanos-d-kollias"
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "silva2025efficient",
@@ -7927,7 +8053,7 @@
   "authors": [
    {
     "name": "Feiyang Cai",
-    "slug": ""
+    "slug": "feiyang-cai"
    },
    {
     "name": "Chuchu Fan",
@@ -9270,6 +9396,48 @@
   "tracked": true
  },
  {
+  "id": "shao2024certified",
+  "key": "conf/kdd/ShaoWWRY24",
+  "date": "2024-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2024,
+  "field": "dm",
+  "title": "Certified Robustness on Visual Graph Matching via Searching Optimal Smoothing Range",
+  "url": "https://doi.org/10.1145/3637528.3671852",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Huaqing Shao",
+    "slug": "huaqing-shao"
+   },
+   {
+    "name": "Lanjun Wang",
+    "slug": "lanjun-wang"
+   },
+   {
+    "name": "Yongwei Wang",
+    "slug": ""
+   },
+   {
+    "name": "Qibing Ren",
+    "slug": ""
+   },
+   {
+    "name": "Junchi Yan",
+    "slug": "junchi-yan"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "anani2024adaptive",
   "key": "conf/icml/Anani0SF24",
   "date": "2024-07",
@@ -10344,7 +10512,7 @@
    },
    {
     "name": "Dejan Nickovic",
-    "slug": ""
+    "slug": "dejan-nickovic"
    },
    {
     "name": "Georg Weissenbacher",
@@ -10579,6 +10747,94 @@
    {
     "name": "Gagandeep Singh",
     "slug": "gagandeep-singh"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zhao2024neural",
+  "key": "conf/dac/ZhaoQRZZY24",
+  "date": "2024-06",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2024,
+  "field": "da",
+  "title": "Neural Barrier Certificates Synthesis of NN-Controlled Continuous Systems via Counterexample-Guided Learning",
+  "url": "https://doi.org/10.1145/3649329.3658256",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Hanrui Zhao",
+    "slug": "hanrui-zhao"
+   },
+   {
+    "name": "Niuniu Qi",
+    "slug": "niuniu-qi"
+   },
+   {
+    "name": "Mengxin Ren",
+    "slug": "mengxin-ren"
+   },
+   {
+    "name": "Xia Zeng",
+    "slug": "xia-zeng"
+   },
+   {
+    "name": "Zhenbing Zeng",
+    "slug": "zhenbing-zeng"
+   },
+   {
+    "name": "Zhengfeng Yang",
+    "slug": "zhengfeng-yang"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zeng2024safe",
+  "key": "conf/dac/ZengLZ0Y24",
+  "date": "2024-06",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2024,
+  "field": "da",
+  "title": "Safe Controller Synthesis for Nonlinear Systems via Reinforcement Learning and PAC Approximation",
+  "url": "https://doi.org/10.1145/3649329.3657332",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Xia Zeng",
+    "slug": "xia-zeng"
+   },
+   {
+    "name": "Banglong Liu",
+    "slug": ""
+   },
+   {
+    "name": "Zhenbing Zeng",
+    "slug": "zhenbing-zeng"
+   },
+   {
+    "name": "Zhiming Liu",
+    "slug": "zhiming-liu"
+   },
+   {
+    "name": "Zhengfeng Yang",
+    "slug": "zhengfeng-yang"
    }
   ],
   "tracked": true
@@ -11691,7 +11947,7 @@
    },
    {
     "name": "Zhilu Wang",
-    "slug": ""
+    "slug": "zhilu-wang"
    },
    {
     "name": "Weichao Zhou",
@@ -11699,7 +11955,7 @@
    },
    {
     "name": "Yixuan Wang",
-    "slug": ""
+    "slug": "yixuan-wang"
    },
    {
     "name": "Jiameng Fan",
@@ -11711,11 +11967,11 @@
    },
    {
     "name": "Qi Zhu",
-    "slug": ""
+    "slug": "qi-zhu"
    },
    {
     "name": "Xin Chen",
-    "slug": ""
+    "slug": "xin-chen-15182"
    },
    {
     "name": "Wenchao Li",
@@ -12756,6 +13012,48 @@
   "tracked": true
  },
  {
+  "id": "zheng2023towards",
+  "key": "conf/iccad/ZhengZCGH23",
+  "date": "2023-11",
+  "venue": "iccad",
+  "venue_name": "ICCAD",
+  "year": 2023,
+  "field": "da",
+  "title": "Towards Effective Training of Robust Spiking Recurrent Neural Networks Under General Input Noise via Provable Analysis",
+  "url": "https://doi.org/10.1109/iccad57390.2023.10323789",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Wendong Zheng",
+    "slug": ""
+   },
+   {
+    "name": "Yu Zhou",
+    "slug": ""
+   },
+   {
+    "name": "Gang Chen",
+    "slug": ""
+   },
+   {
+    "name": "Zonghua Gu",
+    "slug": ""
+   },
+   {
+    "name": "Kai Huang",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
   "id": "zhang2023trajpac",
   "key": "conf/iccv/ZhangXYJHZ23",
   "date": "2023-10",
@@ -13257,6 +13555,40 @@
    {
     "name": "Zhendong Su",
     "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "shao2023robustness",
+  "key": "conf/kdd/ShaoWY23",
+  "date": "2023-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2023,
+  "field": "dm",
+  "title": "Robustness Certification for Structured Prediction with General Inputs via Safe Region Modeling in the Semimetric Output Space",
+  "url": "https://doi.org/10.1145/3580305.3599493",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "outputs",
+  "area_name": "Beyond linear output properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Huaqing Shao",
+    "slug": "huaqing-shao"
+   },
+   {
+    "name": "Lanjun Wang",
+    "slug": "lanjun-wang"
+   },
+   {
+    "name": "Junchi Yan",
+    "slug": "junchi-yan"
    }
   ],
   "tracked": true
@@ -13888,6 +14220,90 @@
    {
     "name": "Michael Schapira",
     "slug": "michael-schapira"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "moon2023randomized",
+  "key": "conf/acl/MoonJZTX23",
+  "date": "2023-07",
+  "venue": "acl",
+  "venue_name": "ACL",
+  "year": 2023,
+  "field": "nlp",
+  "title": "Randomized Smoothing with Masked Inference for Adversarially Robust Text Classifications",
+  "url": "https://doi.org/10.18653/v1/2023.acl-long.282",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Han Cheol Moon",
+    "slug": ""
+   },
+   {
+    "name": "Shafiq R. Joty",
+    "slug": ""
+   },
+   {
+    "name": "Ruochen Zhao",
+    "slug": ""
+   },
+   {
+    "name": "Megh Thakkar",
+    "slug": ""
+   },
+   {
+    "name": "Chi Xu",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
+  "id": "zhao2023safe",
+  "key": "conf/dac/ZhaoZQYZ23",
+  "date": "2023-07",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2023,
+  "field": "da",
+  "title": "Safe DNN-type Controller Synthesis for Nonlinear Systems via Meta Reinforcement Learning",
+  "url": "https://doi.org/10.1109/dac56929.2023.10247837",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Hanrui Zhao",
+    "slug": "hanrui-zhao"
+   },
+   {
+    "name": "Xia Zeng",
+    "slug": "xia-zeng"
+   },
+   {
+    "name": "Niuniu Qi",
+    "slug": "niuniu-qi"
+   },
+   {
+    "name": "Zhengfeng Yang",
+    "slug": "zhengfeng-yang"
+   },
+   {
+    "name": "Zhenbing Zeng",
+    "slug": "zhenbing-zeng"
    }
   ],
   "tracked": true
@@ -17530,6 +17946,53 @@
   "tracked": true
  },
  {
+  "id": "chen2022collective",
+  "key": "conf/icml/ChenLLYW22",
+  "date": "2022-07",
+  "venue": "icml",
+  "venue_name": "ICML",
+  "year": 2022,
+  "field": "ml",
+  "title": "On Collective Robustness of Bagging Against Data Poisoning",
+  "url": "https://dblp.org/rec/conf/icml/ChenLLYW22",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Ruoxin Chen",
+    "slug": "ruoxin-chen"
+   },
+   {
+    "name": "Zenan Li",
+    "slug": ""
+   },
+   {
+    "name": "Jie Li",
+    "slug": "jie-li"
+   },
+   {
+    "name": "Junchi Yan",
+    "slug": "junchi-yan"
+   },
+   {
+    "name": "Chentao Wu",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "wu2022retrievalguard",
   "key": "conf/icml/WuZH22",
   "date": "2022-07",
@@ -18034,6 +18497,86 @@
    {
     "name": "Daniel Neider",
     "slug": "daniel-neider"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "xia2022accelerated",
+  "key": "conf/dac/Xia0CC22",
+  "date": "2022-07",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2022,
+  "field": "da",
+  "title": "Accelerated synthesis of neural network-based barrier certificates using collaborative learning",
+  "url": "https://doi.org/10.1145/3489517.3530608",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Jun Xia",
+    "slug": ""
+   },
+   {
+    "name": "Ming Hu",
+    "slug": ""
+   },
+   {
+    "name": "Xin Chen",
+    "slug": ""
+   },
+   {
+    "name": "Mingsong Chen",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
+  "id": "wang2022design",
+  "key": "conf/dac/Wang0WW022",
+  "date": "2022-07",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2022,
+  "field": "da",
+  "title": "Design-while-verify: correct-by-construction control learning with verification in the loop",
+  "url": "https://doi.org/10.1145/3489517.3530556",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yixuan Wang",
+    "slug": "yixuan-wang"
+   },
+   {
+    "name": "Chao Huang",
+    "slug": "chao-huang"
+   },
+   {
+    "name": "Zhaoran Wang",
+    "slug": ""
+   },
+   {
+    "name": "Zhilu Wang",
+    "slug": "zhilu-wang"
+   },
+   {
+    "name": "Qi Zhu",
+    "slug": "qi-zhu"
    }
   ],
   "tracked": true
@@ -19150,15 +19693,15 @@
   "authors": [
    {
     "name": "Ruoxin Chen",
-    "slug": ""
+    "slug": "ruoxin-chen"
    },
    {
     "name": "Jie Li",
-    "slug": ""
+    "slug": "jie-li"
    },
    {
     "name": "Junchi Yan",
-    "slug": ""
+    "slug": "junchi-yan"
    },
    {
     "name": "Ping Li",
@@ -19169,7 +19712,7 @@
     "slug": ""
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "gu2022recurrent",
@@ -20066,6 +20609,64 @@
   "tracked": true
  },
  {
+  "id": "sha2021synthesizing",
+  "key": "conf/dac/ShaCJZYLTCL21",
+  "date": "2021-12",
+  "venue": "dac",
+  "venue_name": "DAC",
+  "year": 2021,
+  "field": "da",
+  "title": "Synthesizing Barrier Certificates of Neural Network Controlled Continuous Systems via Approximations",
+  "url": "https://doi.org/10.1109/dac18074.2021.9586327",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Meng Sha",
+    "slug": ""
+   },
+   {
+    "name": "Xin Chen",
+    "slug": "xin-chen-151827"
+   },
+   {
+    "name": "Yuzhe Ji",
+    "slug": ""
+   },
+   {
+    "name": "Qingye Zhao",
+    "slug": "qingye-zhao"
+   },
+   {
+    "name": "Zhengfeng Yang",
+    "slug": "zhengfeng-yang"
+   },
+   {
+    "name": "Wang Lin",
+    "slug": "wang-lin"
+   },
+   {
+    "name": "Enyi Tang",
+    "slug": ""
+   },
+   {
+    "name": "Qiguang Chen",
+    "slug": ""
+   },
+   {
+    "name": "Xuandong Li",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "toledo2021distribution",
   "key": "conf/kbse/ToledoSED21",
   "date": "2021-11",
@@ -20320,6 +20921,116 @@
   "tracked": true
  },
  {
+  "id": "zhang2021certified",
+  "key": "conf/emnlp/ZhangAD21",
+  "date": "2021-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2021,
+  "field": "nlp",
+  "title": "Certified Robustness to Programmable Transformations in LSTMs",
+  "url": "https://doi.org/10.18653/v1/2021.emnlp-main.82",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "inputs",
+  "area_name": "Beyond ℓp input properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yuhao Zhang",
+    "slug": "yuhao-zhang"
+   },
+   {
+    "name": "Aws Albarghouthi",
+    "slug": "aws-albarghouthi"
+   },
+   {
+    "name": "Loris D'Antoni",
+    "slug": "loris-d-antoni"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zhang2021profanity",
+  "key": "conf/emnlp/ZhangZL0SL21",
+  "date": "2021-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2021,
+  "field": "nlp",
+  "title": "Profanity-Avoiding Training Framework for Seq2seq Models with Certified Robustness",
+  "url": "https://doi.org/10.18653/v1/2021.emnlp-main.418",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Hengtong Zhang",
+    "slug": ""
+   },
+   {
+    "name": "Tianhang Zheng",
+    "slug": ""
+   },
+   {
+    "name": "Yaliang Li",
+    "slug": ""
+   },
+   {
+    "name": "Jing Gao",
+    "slug": ""
+   },
+   {
+    "name": "Lu Su",
+    "slug": ""
+   },
+   {
+    "name": "Bo Li",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
+  "id": "olivier2021sequential",
+  "key": "conf/emnlp/OlivierR21",
+  "date": "2021-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2021,
+  "field": "nlp",
+  "title": "Sequential Randomized Smoothing for Adversarially Robust Speech Recognition",
+  "url": "https://doi.org/10.18653/v1/2021.emnlp-main.514",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Raphaël Olivier",
+    "slug": ""
+   },
+   {
+    "name": "Bhiksha Raj",
+    "slug": ""
+   }
+  ],
+  "tracked": false
+ },
+ {
   "id": "lin2021integer",
   "key": "conf/iccv/Lin00S21",
   "date": "2021-10",
@@ -20349,18 +21060,18 @@
    },
    {
     "name": "Jian Lou",
-    "slug": ""
+    "slug": "jian-lou"
    },
    {
     "name": "Li Xiong",
-    "slug": ""
+    "slug": "li-xiong"
    },
    {
     "name": "Cyrus Shahabi",
     "slug": ""
    }
   ],
-  "tracked": false
+  "tracked": true
  },
  {
   "id": "lorenz2021robustness",
@@ -20409,6 +21120,52 @@
    {
     "name": "Martin Vechev",
     "slug": "martin-vechev"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "ivanov2021compositional",
+  "key": "journals/tecs/IvanovJHVAB21",
+  "date": "2021-10",
+  "venue": "emsoft",
+  "venue_name": "EMSOFT",
+  "year": 2021,
+  "field": "emb",
+  "title": "Compositional Learning and Verification of Neural Network Controllers",
+  "url": "https://doi.org/10.1145/3477023",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "5s",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Radoslav Ivanov",
+    "slug": "radoslav-ivanov"
+   },
+   {
+    "name": "Kishor Jothimurugan",
+    "slug": "kishor-jothimurugan"
+   },
+   {
+    "name": "Steve Hsu",
+    "slug": "steve-hsu"
+   },
+   {
+    "name": "Shaan Vaidya",
+    "slug": "shaan-vaidya"
+   },
+   {
+    "name": "Rajeev Alur",
+    "slug": "rajeev-alur"
+   },
+   {
+    "name": "Osbert Bastani",
+    "slug": "osbert-bastani"
    }
   ],
   "tracked": true
@@ -20665,6 +21422,44 @@
    {
     "name": "Prateek Mittal",
     "slug": "prateek-mittal"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "wang2021certified",
+  "key": "conf/kdd/WangJCG21",
+  "date": "2021-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2021,
+  "field": "dm",
+  "title": "Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation",
+  "url": "https://doi.org/10.1145/3447548.3467295",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Binghui Wang",
+    "slug": "binghui-wang"
+   },
+   {
+    "name": "Jinyuan Jia",
+    "slug": "jinyuan-jia"
+   },
+   {
+    "name": "Xiaoyu Cao",
+    "slug": "xiaoyu-cao"
+   },
+   {
+    "name": "Neil Gong",
+    "slug": "neil-gong"
    }
   ],
   "tracked": true
@@ -21703,6 +22498,44 @@
    {
     "name": "Martin Vechev",
     "slug": "martin-vechev"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "wang2021certifiedb",
+  "key": "conf/naacl/WangTLX21",
+  "date": "2021-06",
+  "venue": "naacl",
+  "venue_name": "NAACL",
+  "year": 2021,
+  "field": "nlp",
+  "title": "Certified Robustness to Word Substitution Attack with Differential Privacy",
+  "url": "https://doi.org/10.18653/v1/2021.naacl-main.87",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "probabilistic",
+  "area_name": "Probabilistic certification",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Wenjie Wang",
+    "slug": ""
+   },
+   {
+    "name": "Pengfei Tang",
+    "slug": ""
+   },
+   {
+    "name": "Jian Lou",
+    "slug": "jian-lou"
+   },
+   {
+    "name": "Li Xiong",
+    "slug": "li-xiong"
    }
   ],
   "tracked": true
@@ -22916,11 +23749,11 @@
    },
    {
     "name": "Mao Ye",
-    "slug": ""
+    "slug": "mao-ye"
    },
    {
     "name": "Chengyue Gong",
-    "slug": ""
+    "slug": "chengyue-gong"
    },
    {
     "name": "Zhanxing Zhu",
@@ -23803,6 +24636,40 @@
   "tracked": false
  },
  {
+  "id": "wang2020energy",
+  "key": "conf/iccad/WangHZ20",
+  "date": "2020-11",
+  "venue": "iccad",
+  "venue_name": "ICCAD",
+  "year": 2020,
+  "field": "da",
+  "title": "Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems",
+  "url": "https://doi.org/10.1145/3400302.3415676",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Yixuan Wang",
+    "slug": "yixuan-wang"
+   },
+   {
+    "name": "Chao Huang",
+    "slug": "chao-huang"
+   },
+   {
+    "name": "Qi Zhu",
+    "slug": "qi-zhu"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "urban2020perfectly",
   "key": "journals/pacmpl/UrbanCWZ20",
   "date": "2020-10",
@@ -23963,6 +24830,36 @@
    {
     "name": "Suman Jana",
     "slug": "suman-jana"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zugner2020certifiable",
+  "key": "conf/kdd/ZugnerG20",
+  "date": "2020-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2020,
+  "field": "dm",
+  "title": "Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations",
+  "url": "https://doi.org/10.1145/3394486.3403217",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Daniel Zügner",
+    "slug": "daniel-zugner"
+   },
+   {
+    "name": "Stephan Günnemann",
+    "slug": "stephan-gunnemann"
    }
   ],
   "tracked": true
@@ -24675,6 +25572,78 @@
   "tracked": true
  },
  {
+  "id": "jones2020robust",
+  "key": "conf/acl/JonesJRL20",
+  "date": "2020-07",
+  "venue": "acl",
+  "venue_name": "ACL",
+  "year": 2020,
+  "field": "nlp",
+  "title": "Robust Encodings: A Framework for Combating Adversarial Typos",
+  "url": "https://doi.org/10.18653/v1/2020.acl-main.245",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "inputs",
+  "area_name": "Beyond ℓp input properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Erik Jones",
+    "slug": ""
+   },
+   {
+    "name": "Robin Jia",
+    "slug": "robin-jia"
+   },
+   {
+    "name": "Aditi Raghunathan",
+    "slug": "aditi-raghunathan"
+   },
+   {
+    "name": "Percy Liang",
+    "slug": "percy-liang"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "ye2020safer",
+  "key": "conf/acl/YeGL20",
+  "date": "2020-07",
+  "venue": "acl",
+  "venue_name": "ACL",
+  "year": 2020,
+  "field": "nlp",
+  "title": "SAFER: A Structure-free Approach for Certified Robustness to Adversarial Word Substitutions",
+  "url": "https://doi.org/10.18653/v1/2020.acl-main.317",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "inputs",
+  "area_name": "Beyond ℓp input properties",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Mao Ye",
+    "slug": "mao-ye"
+   },
+   {
+    "name": "Chengyue Gong",
+    "slug": "chengyue-gong"
+   },
+   {
+    "name": "Qiang Liu",
+    "slug": "qiang-liu"
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "wu2020robustness",
   "key": "conf/cvpr/WuK20",
   "date": "2020-06",
@@ -25338,7 +26307,7 @@
   "authors": [
    {
     "name": "Johannes Welbl",
-    "slug": ""
+    "slug": "johannes-welbl"
    },
    {
     "name": "Po-Sen Huang",
@@ -26301,6 +27270,132 @@
   "tracked": true
  },
  {
+  "id": "huang2019achieving",
+  "key": "conf/emnlp/HuangSWDYGDK19",
+  "date": "2019-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2019,
+  "field": "nlp",
+  "title": "Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation",
+  "url": "https://doi.org/10.18653/v1/d19-1419",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Po-Sen Huang",
+    "slug": "po-sen-huang"
+   },
+   {
+    "name": "Robert Stanforth",
+    "slug": "robert-stanforth"
+   },
+   {
+    "name": "Johannes Welbl",
+    "slug": "johannes-welbl"
+   },
+   {
+    "name": "Chris Dyer",
+    "slug": ""
+   },
+   {
+    "name": "Dani Yogatama",
+    "slug": ""
+   },
+   {
+    "name": "Sven Gowal",
+    "slug": "sven-gowal"
+   },
+   {
+    "name": "Krishnamurthy Dvijotham",
+    "slug": "krishnamurthy-dvijotham"
+   },
+   {
+    "name": "Pushmeet Kohli",
+    "slug": "pushmeet-kohli"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "jia2019certified",
+  "key": "conf/emnlp/JiaRGL19",
+  "date": "2019-11",
+  "venue": "emnlp",
+  "venue_name": "EMNLP",
+  "year": 2019,
+  "field": "nlp",
+  "title": "Certified Robustness to Adversarial Word Substitutions",
+  "url": "https://doi.org/10.18653/v1/d19-1423",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "training",
+  "area_name": "Certified training",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Robin Jia",
+    "slug": "robin-jia"
+   },
+   {
+    "name": "Aditi Raghunathan",
+    "slug": "aditi-raghunathan"
+   },
+   {
+    "name": "Kerem Göksel",
+    "slug": ""
+   },
+   {
+    "name": "Percy Liang",
+    "slug": "percy-liang"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "cheng2019nn",
+  "key": "conf/iccad/ChengHN19",
+  "date": "2019-11",
+  "venue": "iccad",
+  "venue_name": "ICCAD",
+  "year": 2019,
+  "field": "da",
+  "title": "nn-dependability-kit: Engineering Neural Networks for Safety-Critical Autonomous Driving Systems",
+  "url": "https://doi.org/10.1109/iccad45719.2019.8942153",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "other",
+  "area_name": "Other",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Chih-Hong Cheng",
+    "slug": "chih-hong-cheng"
+   },
+   {
+    "name": "Chung-Hao Huang",
+    "slug": ""
+   },
+   {
+    "name": "Georg Nührenberg",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
   "id": "gowal2019scalable",
   "key": "conf/iccv/GowalDSBQUAMK19",
   "date": "2019-10",
@@ -26354,6 +27449,133 @@
    {
     "name": "Pushmeet Kohli",
     "slug": "pushmeet-kohli"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "bastani2019probabilistic",
+  "key": "journals/pacmpl/Bastani0S19",
+  "date": "2019-10",
+  "venue": "oopsla",
+  "venue_name": "OOPSLA",
+  "year": 2019,
+  "field": "pl",
+  "title": "Probabilistic verification of fairness properties via concentration",
+  "url": "https://doi.org/10.1145/3360544",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "OOPSLA",
+  "area": "relational",
+  "area_name": "Global & relational properties",
+  "tags": [
+   {
+    "key": "probabilistic",
+    "name": "Probabilistic certification"
+   }
+  ],
+  "authors": [
+   {
+    "name": "Osbert Bastani",
+    "slug": "osbert-bastani"
+   },
+   {
+    "name": "Xin Zhang",
+    "slug": ""
+   },
+   {
+    "name": "Armando Solar-Lezama",
+    "slug": ""
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "huang2019reachnn",
+  "key": "journals/tecs/HuangFLC019",
+  "date": "2019-10",
+  "venue": "emsoft",
+  "venue_name": "EMSOFT",
+  "year": 2019,
+  "field": "emb",
+  "title": "ReachNN: Reachability Analysis of Neural-Network Controlled Systems",
+  "url": "https://doi.org/10.1145/3358228",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "5s",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Chao Huang",
+    "slug": "chao-huang"
+   },
+   {
+    "name": "Jiameng Fan",
+    "slug": "jiameng-fan"
+   },
+   {
+    "name": "Wenchao Li",
+    "slug": "wenchao-li"
+   },
+   {
+    "name": "Xin Chen",
+    "slug": "xin-chen-15182"
+   },
+   {
+    "name": "Qi Zhu",
+    "slug": "qi-zhu"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "tran2019safety",
+  "key": "journals/tecs/TranCLMJK19",
+  "date": "2019-10",
+  "venue": "emsoft",
+  "venue_name": "EMSOFT",
+  "year": 2019,
+  "field": "emb",
+  "title": "Safety Verification of Cyber-Physical Systems with Reinforcement Learning Control",
+  "url": "https://doi.org/10.1145/3358230",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "5s",
+  "area": "control",
+  "area_name": "NN control systems",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Hoang-Dung Tran",
+    "slug": "hoang-dung-tran"
+   },
+   {
+    "name": "Feiyang Cai",
+    "slug": "feiyang-cai"
+   },
+   {
+    "name": "Diego Manzanas Lopez",
+    "slug": "diego-manzanas-lopez"
+   },
+   {
+    "name": "Patrick Musau",
+    "slug": "patrick-musau"
+   },
+   {
+    "name": "Taylor T. Johnson",
+    "slug": "taylor-t-johnson"
+   },
+   {
+    "name": "Xenofon D. Koutsoukos",
+    "slug": ""
    }
   ],
   "tracked": true
@@ -26544,6 +27766,36 @@
    {
     "name": "Matthew Wicker",
     "slug": "matthew-wicker"
+   }
+  ],
+  "tracked": true
+ },
+ {
+  "id": "zugner2019certifiable",
+  "key": "conf/kdd/ZugnerG19",
+  "date": "2019-08",
+  "venue": "kdd",
+  "venue_name": "KDD",
+  "year": 2019,
+  "field": "dm",
+  "title": "Certifiable Robustness and Robust Training for Graph Convolutional Networks",
+  "url": "https://doi.org/10.1145/3292500.3330905",
+  "citations": null,
+  "arxiv": "",
+  "source": "dblp.org",
+  "unofficial": false,
+  "issue": "",
+  "area": "architectures",
+  "area_name": "Beyond feed-forward nets",
+  "tags": [],
+  "authors": [
+   {
+    "name": "Daniel Zügner",
+    "slug": "daniel-zugner"
+   },
+   {
+    "name": "Stephan Günnemann",
+    "slug": "stephan-gunnemann"
    }
   ],
   "tracked": true
@@ -26881,11 +28133,11 @@
    },
    {
     "name": "Xin Chen",
-    "slug": ""
+    "slug": "xin-chen-151827"
    },
    {
     "name": "Qingye Zhao",
-    "slug": ""
+    "slug": "qingye-zhao"
    },
    {
     "name": "Xiangkun Li",

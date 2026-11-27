@@ -1,4 +1,4 @@
 ---
-title: "PeregriNN (UCI)"
+title: "PeregriNN"
 key: "peregrinn"
 ---

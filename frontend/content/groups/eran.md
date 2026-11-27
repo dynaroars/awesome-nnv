@@ -1,4 +1,4 @@
 ---
-title: "ERAN (SRI Lab)"
+title: "ERAN"
 key: "eran"
 ---

@@ -211,6 +211,7 @@
 			window.dispatchEvent(new Event("resize"));
 			if (keep) {
 				window.scrollBy(0, nav.getBoundingClientRect().top - before);
+				requestAnimationFrame(function () { window.scrollBy(0, nav.getBoundingClientRect().top - before); });
 				var again = Array.prototype.find.call(nav.querySelectorAll("button"), function (b) { return b.textContent === label && !b.disabled; })
 					|| nav.querySelector('[aria-current="page"]');
 				if (again) again.focus({ preventScroll: true });

@@ -1,7 +1,7 @@
 # Awesome NNV
 
 An open-source, data-driven static site that counts **neural-network verification (NNV)** papers of the field's
-leading researchers at twenty-five top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
+leading researchers at thirty-two top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
 
 - **ML:** ICML, ICLR, NeurIPS
 - **CV:** CVPR, ICCV, ECCV
@@ -11,6 +11,10 @@ leading researchers at twenty-five top venues, grouped as [CSRankings](https://c
 - **AI:** AAAI, IJCAI
 - **Sec** (computer security): CCS, S&P (IEEE Symposium on Security and Privacy), USENIX Security, NDSS
 - **Rob** (robotics): ICRA, IROS, RSS
+- **NLP**: ACL, EMNLP, NAACL
+- **DA** (design automation): DAC, ICCAD
+- **DM** (data mining): KDD
+- **Emb** (embedded and real-time systems): EMSOFT
 
 Papers are counted from 2017 (Reluplex) onward, main track only, from [dblp](https://dblp.org) (CC0). Only papers
 about verifying, certifying or formally guaranteeing the behaviour of neural networks count (not tree ensembles, nearest

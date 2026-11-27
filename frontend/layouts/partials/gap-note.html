@@ -1,1 +1,0 @@
-{{- with hugo.Data.meta.gaps }} Not yet in dblp: {{ range $k, $g := . }}{{ if $k }}; {{ end }}{{ $g.venue }} {{ delimit $g.years ", " }}{{ end }}.{{ end -}}

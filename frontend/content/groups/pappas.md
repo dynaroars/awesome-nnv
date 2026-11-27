@@ -1,4 +1,4 @@
 ---
-title: "Pappas group (Penn)"
+title: "Pappas group"
 key: "pappas"
 ---

@@ -4,9 +4,6 @@ Neural-network verification groups, {{ hugo.Data.meta.first_year }}&ndash;{{ hug
 {{ define "main" -}}
 {{ .Content }}
 {{ partial "groups-table.html" . }}
-{{- with hugo.Data.meta.gaps }}
-<p class="note">Not yet in dblp: {{ range $k, $g := . }}{{ if $k }}; {{ end }}{{ $g.venue }} {{ delimit $g.years ", " }}{{ end }}.</p>
-{{- end }}
 {{- with hugo.Data.overview }}
 <div class="fig-row">
 <figure>

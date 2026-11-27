@@ -1,4 +1,4 @@
 ---
-title: "Linyi Li group (SFU)"
+title: "Linyi Li group"
 key: "linyi-li"
 ---

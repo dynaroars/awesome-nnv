@@ -15,6 +15,17 @@ def _step(peak, limit=5):
     return next(s for s in (1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000, 5000) if peak / s <= limit)
 
 
+PATS = ('<defs><pattern id="pat-hash" width="6" height="6" patternUnits="userSpaceOnUse">'
+        '<path d="M0 3H6M3 0V6" class="pat-line"/></pattern>'
+        '<pattern id="pat-stripe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+        '<path d="M0 0V6" class="pat-line"/></pattern></defs>')
+
+
+def _pat(cls, x, y, w, h):
+    m = next((c for c in cls.split() if c.startswith("pat-")), "")
+    return f'<rect class="pat" x="{x}" y="{y}" width="{w}" height="{h}" fill="url(#{m})"/>' if m else ""
+
+
 def _legend(series, y=16, x=0):
     """Legend keys; each is a focusable group naming its series (data-series), so hovering or focusing a key
     highlights that series' marks (site.js)."""
@@ -23,14 +34,14 @@ def _legend(series, y=16, x=0):
         w = 18 + 6.4 * len(name)
         out.append(f'<g class="key" data-series="{_esc(cls)}" tabindex="0">'
                    f'<rect class="key-hit" x="{x - 3}" y="{y - 13}" width="{w + 6:.1f}" height="18"/>'
-                   f'<rect class="{cls}" x="{x}" y="{y - 10}" width="12" height="12"/>'
+                   f'<rect class="{cls}" x="{x}" y="{y - 10}" width="12" height="12"/>{_pat(cls, x, y - 10, 12, 12)}'
                    f'<text x="{x + 18}" y="{y}">{_esc(name)}</text></g>')
         x += 30 + 6.4 * len(name)
     return "".join(out)
 
 
-def stacked_columns(label, years, series, tip_word="papers"):
-    left, right, top, plot_h, bottom = 34, 10, 34, 180, 24
+def stacked_columns(label, years, series, tip_word="papers", plot_h=180):
+    left, right, top, bottom = 34, 10, 34, 24
     totals = [sum(values[k] for _, _, values in series) for k in range(len(years))]
     peak = max(totals + [4])
     step = _step(peak)
@@ -38,7 +49,7 @@ def stacked_columns(label, years, series, tip_word="papers"):
     base, plot_w = top + plot_h, WIDTH - left - right
     band = plot_w / max(len(years), 1)
     bar = min(30, band * 0.62)
-    out = [f'<svg class="chart" viewBox="0 0 {WIDTH} {base + bottom}" role="img" aria-label="{_esc(label)}">',
+    out = [f'<svg class="chart" viewBox="0 0 {WIDTH} {base + bottom}" role="img" aria-label="{_esc(label)}">', PATS,
            _legend([(cls, name) for cls, name, _ in series], x=left)]
     value = 0
     while value <= top_value:
@@ -56,7 +67,8 @@ def stacked_columns(label, years, series, tip_word="papers"):
             h = v / top_value * plot_h
             y = base - (lower + v) / top_value * plot_h
             out.append(f'<rect class="{cls} seg" x="{cx - bar / 2:.1f}" y="{y:.1f}" width="{bar:.1f}" height="{h:.1f}">'
-                       f'<title>{_esc(f"{year}, {name}: {v} {tip_word}")}</title></rect>')
+                       f'<title>{_esc(f"{year}, {name}: {v} {tip_word}")}</title></rect>'
+                       + _pat(cls, f"{cx - bar / 2:.1f}", f"{y:.1f}", f"{bar:.1f}", f"{h:.1f}"))
             lower += v
         if totals[k]:
             y = base - totals[k] / top_value * plot_h

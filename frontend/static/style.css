@@ -708,9 +708,9 @@ img.flag { width: 16px ; height: 12px ; vertical-align: -1px ; border: 1px solid
 #groups-table .tools { min-width: 10rem ; max-width: 10rem ; white-space: normal ; }
 #groups-table .members { min-width: 12.5rem ; max-width: 12.5rem ; white-space: normal ; }
 #groups-table .members a.more { color: var(--muted) ; white-space: nowrap ; }
-#groups-table tbody td:nth-child(n+5):nth-child(-n+12), #groups-table thead tr + tr th:nth-child(-n+8) {
+#groups-table tbody td:nth-child(n+5):nth-child(-n+16), #groups-table thead tr + tr th:nth-child(-n+12) {
     width: 2.4rem ; min-width: 2.4rem ; padding-left: 0.3em ; padding-right: 0.3em ; }
-#groups-table tbody td:nth-child(n+13), #groups-table thead tr + tr th:nth-child(n+9) {
+#groups-table tbody td:nth-child(n+17), #groups-table thead tr + tr th:nth-child(n+13) {
     width: 3.6rem ; min-width: 3.6rem ; padding-left: 0.35em ; padding-right: 0.35em ; }
 
 @media (max-width: 600px) { #groups-table td.pin1 { min-width: 8rem ; max-width: 10rem ; } }
@@ -788,3 +788,25 @@ svg.chart .key .key-hit { fill: transparent ; }
 svg.chart .seg, svg.chart .key { transition: opacity 0.12s ; }
 svg.chart.series-hl .seg:not(.hl), svg.chart.series-hl .key:not(.hl) { opacity: 0.25 ; }
 svg.chart .key.hl text { fill: var(--chart-value) ; font-weight: 600 ; }
+
+main.wider { max-width: 96rem ; }
+.areas-row { display: grid ; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) ; gap: 2rem ; align-items: start ; }
+.areas-side { position: sticky ; top: 0.5rem ; }
+.areas-side figure { margin: 0.5em 0 0 ; }
+.areas-row .chart { width: 100% ; height: auto ; }
+.areas-table { font-size: 0.92em ; }
+.areas-table td.wrap-cell { min-width: 10em ; max-width: 24em ; }
+@media (max-width: 1000px) { .areas-row { grid-template-columns: 1fr ; } .areas-side { position: static ; } }
+
+html { overflow-anchor: none ; }
+
+.chart .ar-other { fill: #8c8c8c ; }
+.chart .pat { pointer-events: none ; }
+.chart .pat-line { stroke: #ffffff ; stroke-opacity: 0.55 ; stroke-width: 1.4 ; }
+.chart .vs0 { fill: #257de0 ; } .chart .vs1 { fill: #f47230 ; } .chart .vs2 { fill: #00b894 ; } .chart .vs3 { fill: #f2a600 ; } .chart .vs4 { fill: #ee7fac ; }
+:root[data-theme="dark"] .chart .vs0 { fill: #338ced ; } :root[data-theme="dark"] .chart .vs1 { fill: #e76624 ; } :root[data-theme="dark"] .chart .vs2 { fill: #00a888 ; } :root[data-theme="dark"] .chart .vs3 { fill: #d28e05 ; } :root[data-theme="dark"] .chart .vs4 { fill: #e24d8b ; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chart .vs0 { fill: #338ced ; } :root:not([data-theme="light"]) .chart .vs1 { fill: #e76624 ; } :root:not([data-theme="light"]) .chart .vs2 { fill: #00a888 ; } :root:not([data-theme="light"]) .chart .vs3 { fill: #d28e05 ; } :root:not([data-theme="light"]) .chart .vs4 { fill: #e24d8b ; } }
+.field-grid { display: grid ; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)) ; gap: 1rem 1.5rem ; }
+.field-grid figure { margin: 0.5em 0 0 ; }
+.field-grid figcaption { margin-bottom: 0.2em ; }
+.field-grid .chart { width: 100% ; height: auto ; min-width: 0 ; }

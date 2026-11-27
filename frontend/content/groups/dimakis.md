@@ -1,4 +1,4 @@
 ---
-title: "Dimakis group (UT Austin)"
+title: "Dimakis group"
 key: "dimakis"
 ---

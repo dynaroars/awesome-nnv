@@ -1,4 +1,4 @@
 ---
-title: "Hein group (Tübingen)"
+title: "Hein group"
 key: "hein"
 ---

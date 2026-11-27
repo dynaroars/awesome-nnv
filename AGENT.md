@@ -1,10 +1,16 @@
 # AGENT.md: how to operate and maintain this site
 
 You are maintaining a public, English-only Hugo site that counts **neural-network verification (NNV)** papers of the
-field's leading researchers at twenty-five top venues, grouped as CSRankings groups venues. The maintainer gives short
+field's leading researchers at thirty-two top venues, grouped as CSRankings groups venues. The maintainer gives short
 requests in plain words; this file tells you how to carry them out. Read it before changing anything. It is the only
 instruction file: keep it up to date when the code or the rules change. The layout and workflow follow the sibling
 project `../vn-ai-ranking` (same folder structure, same CSS and `site.js`).
+
+## Code style (the maintainer's rules, 2026-11-27)
+
+- Write no comments in any code: Python, JavaScript, CSS, Hugo templates and shell (no `#`, `//`, `/* */`,
+  `{{/* */}}` or explanatory docstrings). Explanations belong in this file, the README or the commit message.
+- Keep variable names as short as possible, to keep the code compact.
 
 ## Layout
 
@@ -117,7 +123,15 @@ the site uses.
   `fetch_robotics.py` fills the venue-years dblp lists fewer than 20 papers of: RSS from its proceedings site
   (`roboticsproceedings.org/rssNN`, NN = year - 2004), IROS from OpenAlex's record of the IEEE proceedings (source
   S4393918188; dblp had only 1 IROS 2023 paper and no IROS 2026 on 2026-11-27). CCS 2026 has no public accepted
-  list yet and shows as missing. HSCC is not a CSRankings venue (embedded systems there is EMSOFT, RTAS, RTSS). NFM is not tracked at all (the maintainer's
+  list yet and shows as missing. HSCC is not a CSRankings venue (embedded systems there is EMSOFT, RTAS, RTSS).
+  NLP (ACL, EMNLP, NAACL: long-paper volumes only), DA (DAC, ICCAD), DM (KDD: research and applied volumes) and
+  Emb (EMSOFT: its ACM TECS special issues) were added on 2026-11-27 after a scan of the other 54 CSRankings venues
+  (2,351 prefilter hits labelled; the rest had at most one NNV paper each; INFOCOM, SIGCOMM, USENIX ATC and SIGGRAPH
+  left out). dblp gaps: NAACL 2024 long papers and the EMSOFT TECS issues of 2018, 2020 and 2022-2025 are not linked
+  to their conference streams. Charts: fields with fewer than 20 NNV papers (`SMALL`) are folded into a grey Other
+  series, series stack largest at the bottom, ML is crosshatched and AI striped (`PAT`); the Conferences page shows
+  one chart per field (conferences coloured with the first five categorical slots) and one for Other fields. No
+  "not yet in dblp" note is shown to readers (the maintainer's rule). NFM is not tracked at all (the maintainer's
   choice, 2026-11-26; it was an unscored "Other FM" field before).
 - **Years** 2017 on (Reluplex, CAV 2017), with **no upper limit** (the maintainer's rule): an accepted paper of next
   year's conference counts as soon as it is confirmed, officially (the conference site) or unofficially (an author's

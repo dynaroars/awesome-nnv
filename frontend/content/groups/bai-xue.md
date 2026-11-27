@@ -1,4 +1,4 @@
 ---
-title: "Bai Xue (ISCAS)"
+title: "Bai Xue group"
 key: "bai-xue"
 ---

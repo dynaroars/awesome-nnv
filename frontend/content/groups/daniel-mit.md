@@ -1,4 +1,4 @@
 ---
-title: "Daniel group (MIT)"
+title: "Daniel group"
 key: "daniel-mit"
 ---

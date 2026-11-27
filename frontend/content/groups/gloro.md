@@ -1,4 +1,4 @@
 ---
-title: "GloRo (CMU)"
+title: "GloRo"
 key: "gloro"
 ---

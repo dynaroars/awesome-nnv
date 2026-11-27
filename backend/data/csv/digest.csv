@@ -681,3 +681,34 @@ neurips,2017,Safe Model-based Reinforcement Learning with Stability Guarantees,,
 oopsla,2017,FairSquare: probabilistic verification of program fairness,,,"FairSquare automatically certifies that decision-making programs meet fairness definitions, encoded as probabilistic program properties, using a new technique for verifying probabilistic properties; it verifies fairness for programs beyond reach of existing program analysis tools.",https://openalex.org/W2762833920,"2026-11-27 (Claude, from the abstract)",2026-11-27
 cav,2017,Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks,,,"Reluplex verifies properties of deep ReLU networks, or finds counterexamples, by extending the simplex method to handle the non-convex ReLU; on ACAS Xu collision-avoidance networks it proves properties of networks an order of magnitude larger than before.",https://arxiv.org/abs/1702.01135,"2026-11-27 (Claude, from the abstract)",2026-11-27
 cav,2017,Safety Verification of Deep Neural Networks,,,,,,2026-11-27
+kdd,2026,Certified Defense on the Fairness of Graph Neural Networks,,,,,,2026-11-27
+dac,2026,Provably Probabilistic Safe Controller Synthesis for Vision-Based Neural Network Control Systems,,,,,,2026-11-27
+emnlp,2025,Randomized Smoothing Meets Vision-Language Models,,,,,,2026-11-27
+kdd,2024,Certified Robustness on Visual Graph Matching via Searching Optimal Smoothing Range,,,,,,2026-11-27
+dac,2024,Neural Barrier Certificates Synthesis of NN-Controlled Continuous Systems via Counterexample-Guided Learning,,,,,,2026-11-27
+dac,2024,Safe Controller Synthesis for Nonlinear Systems via Reinforcement Learning and PAC Approximation,,,,,,2026-11-27
+iccad,2023,Towards Effective Training of Robust Spiking Recurrent Neural Networks Under General Input Noise via Provable Analysis,,,,,,2026-11-27
+kdd,2023,Robustness Certification for Structured Prediction with General Inputs via Safe Region Modeling in the Semimetric Output Space,,,,,,2026-11-27
+acl,2023,Randomized Smoothing with Masked Inference for Adversarially Robust Text Classifications,,,,,,2026-11-27
+dac,2023,Safe DNN-type Controller Synthesis for Nonlinear Systems via Meta Reinforcement Learning,,,,,,2026-11-27
+dac,2022,Accelerated synthesis of neural network-based barrier certificates using collaborative learning,,,,,,2026-11-27
+dac,2022,Design-while-verify: correct-by-construction control learning with verification in the loop,,,,,,2026-11-27
+dac,2021,Synthesizing Barrier Certificates of Neural Network Controlled Continuous Systems via Approximations,,,,,,2026-11-27
+emnlp,2021,Certified Robustness to Programmable Transformations in LSTMs,,,,,,2026-11-27
+emnlp,2021,Profanity-Avoiding Training Framework for Seq2seq Models with Certified Robustness,,,,,,2026-11-27
+emnlp,2021,Sequential Randomized Smoothing for Adversarially Robust Speech Recognition,,,,,,2026-11-27
+emsoft,2021,Compositional Learning and Verification of Neural Network Controllers,,,,,,2026-11-27
+kdd,2021,Certified Robustness of Graph Neural Networks against Adversarial Structural Perturbation,,,,,,2026-11-27
+naacl,2021,Certified Robustness to Word Substitution Attack with Differential Privacy,,,,,,2026-11-27
+iccad,2020,Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems,,,,,,2026-11-27
+kdd,2020,Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations,,,,,,2026-11-27
+acl,2020,Robust Encodings: A Framework for Combating Adversarial Typos,,,,,,2026-11-27
+acl,2020,SAFER: A Structure-free Approach for Certified Robustness to Adversarial Word Substitutions,,,,,,2026-11-27
+emnlp,2019,Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation,,,,,,2026-11-27
+emnlp,2019,Certified Robustness to Adversarial Word Substitutions,,,,,,2026-11-27
+iccad,2019,nn-dependability-kit: Engineering Neural Networks for Safety-Critical Autonomous Driving Systems,,,,,,2026-11-27
+emsoft,2019,ReachNN: Reachability Analysis of Neural-Network Controlled Systems,,,,,,2026-11-27
+emsoft,2019,Safety Verification of Cyber-Physical Systems with Reinforcement Learning Control,,,,,,2026-11-27
+kdd,2019,Certifiable Robustness and Robust Training for Graph Convolutional Networks,,,,,,2026-11-27
+icml,2022,On Collective Robustness of Bagging Against Data Poisoning,,,,,,2026-11-27
+oopsla,2019,Probabilistic verification of fairness properties via concentration,,,,,,2026-11-27

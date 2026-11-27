@@ -1,4 +1,4 @@
 ---
-title: "Torr Vision Group (Oxford)"
+title: "Torr Vision Group"
 key: "tvg"
 ---

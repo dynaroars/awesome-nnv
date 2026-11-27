@@ -1,4 +1,4 @@
 ---
-title: "Chao Wang group (USC)"
+title: "Chao Wang group"
 key: "chao-wang"
 ---

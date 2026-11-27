@@ -1,4 +1,4 @@
 ---
-title: "Charon (UT Austin)"
+title: "Charon"
 key: "charon"
 ---

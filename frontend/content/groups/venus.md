@@ -1,4 +1,4 @@
 ---
-title: "Venus (Imperial)"
+title: "Venus"
 key: "venus"
 ---
