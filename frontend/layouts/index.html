@@ -11,11 +11,11 @@ Neural-network verification groups, {{ hugo.Data.meta.first_year }}&ndash;{{ hug
 <div class="fig-row">
 <figure>
 {{ .years | safeHTML }}
-<figcaption>NNV papers per year across all 16 conferences, broken down by field (includes all authors, not just listed researchers).</figcaption>
+<figcaption>NNV papers per year across all {{ len hugo.Data.meta.venues }} conferences, broken down by field (includes all authors, not just listed researchers).</figcaption>
 </figure>
 <figure>
 {{ .areas | safeHTML }}
-<figcaption>All NNV papers by primary area.</figcaption>
+<figcaption>All NNV papers by primary area, largest first (clockwise from the top).</figcaption>
 </figure>
 </div>
 {{- end }}

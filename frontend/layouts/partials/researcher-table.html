@@ -19,7 +19,7 @@
 		{{ partial "field-heads.html" . }}
 		<th class="good" data-podium title="Papers, {{ hugo.Data.meta.recent_year }}: their NNV papers from {{ hugo.Data.meta.recent_year }} at the tracked conferences. The Researchers page is ranked by this number, then by the {{ hugo.Data.meta.recent_year }} score.">Papers</th>
 		<th class="score" title="Score, {{ hugo.Data.meta.recent_year }}: the CSRankings adjusted count over {{ hugo.Data.meta.recent_year }} papers only. Each paper gives 1 / (number of authors) to every author; this is the sum of their shares.">Score</th>
-		<th class="good" title="Papers, all years: their NNV papers since 2017 across the 16 tracked conferences.">Papers</th>
+		<th class="good" title="Papers, all years: their NNV papers since 2017 across the {{ len hugo.Data.meta.venues }} tracked conferences.">Papers</th>
 		<th class="score" title="Score, all years: the CSRankings adjusted count over every NNV paper since 2017. Each paper gives 1 / (number of authors) to every author; this is the sum of their shares.">Score</th>
 		<th title="Citations: OpenAlex citations of their NNV papers, adding up a paper's preprint and published records. Shown for reference; not used in the ranking.">Citations</th>
 	</tr>

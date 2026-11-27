@@ -1,4 +1,756 @@
 {
+ "conf/aaai/0001FG22": {
+  "citations": 71,
+  "arxiv": "",
+  "openalex": [
+   "W4283802686"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/0002CLXL25": {
+  "citations": 9,
+  "arxiv": "",
+  "openalex": [
+   "W4409364009"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/0002ELJM21": {
+  "citations": 2,
+  "arxiv": "",
+  "openalex": [
+   "W3173958497"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/0002LCLZZL025": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4409348037"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/AkintundeKLP19": {
+  "citations": 79,
+  "arxiv": "",
+  "openalex": [
+   "W2905299363"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/AlfarraBKTG22": {
+  "citations": 26,
+  "arxiv": "",
+  "openalex": [
+   "W3183022079"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/AlshiekhBEKNT18": {
+  "citations": 1658,
+  "arxiv": "",
+  "openalex": [
+   "W2751422670",
+   "W2963575966"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/AraujoNCA21": {
+  "citations": 54,
+  "arxiv": "",
+  "openalex": [
+   "W3101312335",
+   "W3175181736"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/BiradarILVZ24": {
+  "citations": 33,
+  "arxiv": "",
+  "openalex": [
+   "W4393147427"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/BoopathyW0CZD21": {
+  "citations": 10,
+  "arxiv": "2102.01208",
+  "openalex": [
+   "W3128993582",
+   "W3175708632"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/BoopathyWC0D19": {
+  "citations": 217,
+  "arxiv": "",
+  "openalex": [
+   "W2902161602",
+   "W2963998105"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/BotoevaKKLM20": {
+  "citations": 204,
+  "arxiv": "",
+  "openalex": [
+   "W2998574230"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/CaiFB25": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W4409346536"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/CaoJG21": {
+  "citations": 202,
+  "arxiv": "2102.01854",
+  "openalex": [
+   "W3127520698",
+   "W3173401850"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/CardelliKLP19": {
+  "citations": 79,
+  "arxiv": "",
+  "openalex": [
+   "W2891909740",
+   "W2963160885"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/CasablancaSZS26": {
+  "citations": 6,
+  "arxiv": "2512.11750",
+  "openalex": [
+   "W7115602312",
+   "W7128724746",
+   "W7138399822",
+   "W7221946224"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/Chen0YL022": {
+  "citations": 27,
+  "arxiv": "",
+  "openalex": [
+   "W4226330442"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/CourtBG25": {
+  "citations": 29,
+  "arxiv": "",
+  "openalex": [
+   "W4409347226"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/DathathriGM19": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W2903571520"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/DelgrangeN022": {
+  "citations": 23,
+  "arxiv": "",
+  "openalex": [
+   "W4283819375"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/EinzigerGSS19": {
+  "citations": 70,
+  "arxiv": "",
+  "openalex": [
+   "W2963793947"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/FanL21": {
+  "citations": 26,
+  "arxiv": "",
+  "openalex": [
+   "W3049139724"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/FengLZBGR25": {
+  "citations": 15,
+  "arxiv": "",
+  "openalex": [
+   "W4409369812"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/FengWCZN20": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W2997227310"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/FuWZWFH0C024": {
+  "citations": 15,
+  "arxiv": "",
+  "openalex": [
+   "W4393156835"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/FultonP18": {
+  "citations": 270,
+  "arxiv": "",
+  "openalex": [
+   "W2787908307"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GhoshBM21": {
+  "citations": 55,
+  "arxiv": "",
+  "openalex": [
+   "W3086166649"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GhoshBM22": {
+  "citations": 30,
+  "arxiv": "",
+  "openalex": [
+   "W3199653094"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GoyalDB24": {
+  "citations": 19,
+  "arxiv": "",
+  "openalex": [
+   "W4393159541"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GruenbacherHLCS21": {
+  "citations": 38,
+  "arxiv": "2012.08863",
+  "openalex": [
+   "W3112385784",
+   "W3173600339"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GruenbacherLHRH22": {
+  "citations": 18,
+  "arxiv": "",
+  "openalex": [
+   "W4283820925"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/GuYGAS022": {
+  "citations": 42,
+  "arxiv": "",
+  "openalex": [
+   "W3196740281"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HeXXLLW26": {
+  "citations": 1,
+  "arxiv": "2503.16342",
+  "openalex": [
+   "W4415289355",
+   "W7128732769",
+   "W7137995403"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HenzingerLZ21": {
+  "citations": 62,
+  "arxiv": "",
+  "openalex": [
+   "W3176862352"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HuaiLMYZ22": {
+  "citations": 14,
+  "arxiv": "",
+  "openalex": [
+   "W4283820733"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HuangI023": {
+  "citations": 25,
+  "arxiv": "",
+  "openalex": [
+   "W4382240026"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HuangIICA022": {
+  "citations": 64,
+  "arxiv": "",
+  "openalex": [
+   "W4283817388"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/HuangWIWWB26": {
+  "citations": 8,
+  "arxiv": "",
+  "openalex": [
+   "W7138955261"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/IgnatievIS022": {
+  "citations": 114,
+  "arxiv": "",
+  "openalex": [
+   "W4283820034"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/IgnatievNM19": {
+  "citations": 498,
+  "arxiv": "",
+  "openalex": [
+   "W2902934778",
+   "W2964359568"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/IzzaIS024": {
+  "citations": 36,
+  "arxiv": "",
+  "openalex": [
+   "W4393147725"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/JeongKS23": {
+  "citations": 15,
+  "arxiv": "",
+  "openalex": [
+   "W4382449344"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/JiaCG21": {
+  "citations": 158,
+  "arxiv": "",
+  "openalex": [
+   "W3048759177"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/JiaLCG22": {
+  "citations": 103,
+  "arxiv": "",
+  "openalex": [
+   "W3215171287"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/KhedrS23": {
+  "citations": 38,
+  "arxiv": "",
+  "openalex": [
+   "W4382237559"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/KorzhKPRO25": {
+  "citations": 10,
+  "arxiv": "",
+  "openalex": [
+   "W4409364236"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/Lan0L22": {
+  "citations": 33,
+  "arxiv": "",
+  "openalex": [
+   "W4283791687"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LechnerZCH22": {
+  "citations": 65,
+  "arxiv": "",
+  "openalex": [
+   "W4283790991"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LevineF20": {
+  "citations": 136,
+  "arxiv": "",
+  "openalex": [
+   "W2990993734",
+   "W2998293245"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LiC00W25": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W4409367988"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LinCWZZ26": {
+  "citations": 0,
+  "arxiv": "2511.11699",
+  "openalex": [
+   "W4416349207",
+   "W7128719975",
+   "W7138436612"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/Liu0S000025": {
+  "citations": 2,
+  "arxiv": "",
+  "openalex": [
+   "W4409367684"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LiuCMER23": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W4382458132"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LyuKKWLD20": {
+  "citations": 102,
+  "arxiv": "",
+  "openalex": [
+   "W2991067485",
+   "W2998709064"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/LyuLABCG26": {
+  "citations": 2,
+  "arxiv": "2511.09834",
+  "openalex": [
+   "W4416237709",
+   "W7128726143",
+   "W7138230635"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/MaWSKV26": {
+  "citations": 2,
+  "arxiv": "",
+  "openalex": [
+   "W7138986685"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/MarzariBCF26": {
+  "citations": 6,
+  "arxiv": "",
+  "openalex": [
+   "W7139075321"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/NarodytskaKRSW18": {
+  "citations": 303,
+  "arxiv": "",
+  "openalex": [
+   "W2757956526",
+   "W2963673089"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/OrdyniakRS26": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W7128684711",
+   "W7137862505"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/PautovTMMPO22": {
+  "citations": 34,
+  "arxiv": "",
+  "openalex": [
+   "W3201574205"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/QiaoYCM25": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4409363372"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/RanzatoZ20": {
+  "citations": 65,
+  "arxiv": "",
+  "openalex": [
+   "W2997425368"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/RenXWX26": {
+  "citations": 1,
+  "arxiv": "2511.10015",
+  "openalex": [
+   "W4416238283",
+   "W7128683183",
+   "W7139003403"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/RuossBBV21": {
+  "citations": 25,
+  "arxiv": "2009.09318",
+  "openalex": [
+   "W3087339704",
+   "W3177283349"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/SelvamBC23": {
+  "citations": 10,
+  "arxiv": "",
+  "openalex": [
+   "W4382318556"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/SoriaCGGXC26": {
+  "citations": 9,
+  "arxiv": "2511.16588",
+  "openalex": [
+   "W4416550643",
+   "W7128701492",
+   "W7137828293",
+   "W7160379771"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/SubercaseauxAM25": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W4409363553"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/VinzentHH26": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W7128708982",
+   "W7138942156",
+   "W7164568987"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/WangZ024": {
+  "citations": 11,
+  "arxiv": "",
+  "openalex": [
+   "W4393147211"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/WengZ0CLD20": {
+  "citations": 51,
+  "arxiv": "",
+  "openalex": [
+   "W2998161546"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/WuLWB26": {
+  "citations": 16,
+  "arxiv": "",
+  "openalex": [
+   "W7128702014",
+   "W7138918054"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/WuZ21": {
+  "citations": 29,
+  "arxiv": "",
+  "openalex": [
+   "W3176946506"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/YuISN023": {
+  "citations": 41,
+  "arxiv": "",
+  "openalex": [
+   "W4382239829"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/YuZH25": {
+  "citations": 15,
+  "arxiv": "",
+  "openalex": [
+   "W4409361615"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZaidNY26": {
+  "citations": 3,
+  "arxiv": "2406.14265",
+  "openalex": [
+   "W4399911659",
+   "W7128703284",
+   "W7138067321"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZhangXWXLD25": {
+  "citations": 2,
+  "arxiv": "",
+  "openalex": [
+   "W4409369202"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZhangZH19": {
+  "citations": 82,
+  "arxiv": "",
+  "openalex": [
+   "W2962864294"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZhiWCZ24": {
+  "citations": 11,
+  "arxiv": "",
+  "openalex": [
+   "W4393146883"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZhouWC26": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W7137990765"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/aaai/ZikelicLHC23": {
+  "citations": 82,
+  "arxiv": "",
+  "openalex": [
+   "W4382318883"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
  "conf/cav/AleksandrovJV26": {
   "citations": 2,
   "arxiv": "",
@@ -238,6 +990,15 @@
   "matched": "doi+title",
   "fetched": "2026-11-26"
  },
+ "conf/cav/NaikGAGM26": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W7170144271"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
  "conf/cav/PaulsenW22": {
   "citations": 19,
   "arxiv": "",
@@ -462,6 +1223,97 @@
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
+ },
+ "conf/ccs/0001M21": {
+  "citations": 95,
+  "arxiv": "",
+  "openalex": [
+   "W3212077589"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/BalutaSSMS19": {
+  "citations": 178,
+  "arxiv": "",
+  "openalex": [
+   "W2955412789",
+   "W2989358546"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/CalzavaraCPP23": {
+  "citations": 9,
+  "arxiv": "",
+  "openalex": [
+   "W4388856857"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/Chen0QLJW21": {
+  "citations": 41,
+  "arxiv": "",
+  "openalex": [
+   "W3164936723"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/DuJSZLSFYB021": {
+  "citations": 53,
+  "arxiv": "",
+  "openalex": [
+   "W3214321642"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/LiWXRK00021": {
+  "citations": 81,
+  "arxiv": "",
+  "openalex": [
+   "W3213537051"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/Ma00025": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4416549436"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/RanzatoSZ25": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W4416549513"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/XieLCLKL23": {
+  "citations": 44,
+  "arxiv": "",
+  "openalex": [
+   "W4388858471"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ccs/YangLJHW24": {
+  "citations": 43,
+  "arxiv": "",
+  "openalex": [
+   "W4405170795"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
  },
  "conf/cvpr/0003CMFBGCC025": {
   "citations": 2,
@@ -1463,6 +2315,15 @@
   "matched": "title",
   "fetched": "2026-11-26"
  },
+ "conf/iclr/VarshneyGATA26": {
+  "citations": 3,
+  "arxiv": "2602.07453",
+  "openalex": [
+   "W7128507964"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
  "conf/iclr/Wang0HAZCJ24": {
   "citations": 21,
   "arxiv": "",
@@ -2452,6 +3313,69 @@
   "matched": "title",
   "fetched": "2026-11-26"
  },
+ "conf/icra/ChenPF23": {
+  "citations": 17,
+  "arxiv": "",
+  "openalex": [
+   "W4383109215"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/ChungJPSSKBPK25": {
+  "citations": 5,
+  "arxiv": "",
+  "openalex": [
+   "W4413925007"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/EntesariSF23": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W4383097441"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/EverettHH21": {
+  "citations": 31,
+  "arxiv": "",
+  "openalex": [
+   "W3119449299"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/SunKH22": {
+  "citations": 25,
+  "arxiv": "",
+  "openalex": [
+   "W3200753892"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/SunZLVPZ22": {
+  "citations": 9,
+  "arxiv": "",
+  "openalex": [
+   "W3133709597"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/icra/VincentS21": {
+  "citations": 74,
+  "arxiv": "",
+  "openalex": [
+   "W3107298849"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
  "conf/icse/BalutaCMS21": {
   "citations": 102,
   "arxiv": "2002.06864",
@@ -2516,6 +3440,433 @@
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
+ },
+ "conf/ijcai/0001LM25": {
+  "citations": 7,
+  "arxiv": "",
+  "openalex": [
+   "W4414360130"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/0004WL20": {
+  "citations": 116,
+  "arxiv": "",
+  "openalex": [
+   "W3035671939"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/AlfanoGMPST26": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W7213404002"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/AlsmannLS26": {
+  "citations": 2,
+  "arxiv": "",
+  "openalex": [
+   "W7162769468"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/AudemardBLM23": {
+  "citations": 30,
+  "arxiv": "",
+  "openalex": [
+   "W4385764239"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/BacciG021": {
+  "citations": 52,
+  "arxiv": "",
+  "openalex": [
+   "W3165816975"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/BattenKLZ21": {
+  "citations": 50,
+  "arxiv": "",
+  "openalex": [
+   "W3187944710"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/BenamiraPYGH24": {
+  "citations": 30,
+  "arxiv": "",
+  "openalex": [
+   "W4401024162"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/BenussiPWLK22": {
+  "citations": 35,
+  "arxiv": "",
+  "openalex": [
+   "W4285605761"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/CardelliKLPPW19": {
+  "citations": 74,
+  "arxiv": "",
+  "openalex": [
+   "W2918710116"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/Carr0WS0T19": {
+  "citations": 43,
+  "arxiv": "",
+  "openalex": [
+   "W2925153779"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/CarrJT20": {
+  "citations": 54,
+  "arxiv": "",
+  "openalex": [
+   "W3006002788"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/DavisZZKBW26": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W7169827508"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/FayyaziX0P25": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W4414360525"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/GimelliOT26": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W7213432495"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/HarzliG023": {
+  "citations": 17,
+  "arxiv": "",
+  "openalex": [
+   "W4385768113"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/HenriksenL21": {
+  "citations": 118,
+  "arxiv": "",
+  "openalex": [
+   "W3192314570"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/Izza021": {
+  "citations": 141,
+  "arxiv": "2105.10278",
+  "openalex": [
+   "W3165738393",
+   "W3190685737"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/IzzaIR0S25": {
+  "citations": 14,
+  "arxiv": "",
+  "openalex": [
+   "W4414359407"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/JiangHRL26": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W7130549586",
+   "W7161308542",
+   "W7222871085"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/KouvarosBB24": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4401024530"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/KouvarosL21": {
+  "citations": 61,
+  "arxiv": "",
+  "openalex": [
+   "W3190898705"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/LiZL019": {
+  "citations": 14,
+  "arxiv": "",
+  "openalex": [
+   "W2965677914"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/LiuD0WT25": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W4414360677"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/MalfaMZPK21": {
+  "citations": 92,
+  "arxiv": "",
+  "openalex": [
+   "W3163392354"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/MarzariCCF23": {
+  "citations": 31,
+  "arxiv": "",
+  "openalex": [
+   "W4385767377"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/MarzariM26": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W7161230315"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/MuravevP22": {
+  "citations": 11,
+  "arxiv": "",
+  "openalex": [
+   "W4225322559"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/PhanVLJDWT19": {
+  "citations": 63,
+  "arxiv": "",
+  "openalex": [
+   "W2948129334"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/RuanHK18": {
+  "citations": 328,
+  "arxiv": "",
+  "openalex": [
+   "W2800473699"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/SalzerST25": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4414359538"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/SelveyGT23": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W4385764466"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/Splittgerber26": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W7130315962"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/WangKB21": {
+  "citations": 38,
+  "arxiv": "",
+  "openalex": [
+   "W3164489707"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/WangLK21": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W3189488242"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/WijkWK22": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W4285601266"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/XieKN22": {
+  "citations": 64,
+  "arxiv": "",
+  "openalex": [
+   "W4285605913"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/YangLZLLZ25": {
+  "citations": 7,
+  "arxiv": "",
+  "openalex": [
+   "W4414360576"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/YangMRR23": {
+  "citations": 98,
+  "arxiv": "",
+  "openalex": [
+   "W4385764501"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/YeomF20": {
+  "citations": 31,
+  "arxiv": "",
+  "openalex": [
+   "W3034389259"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ijcai/ZhangLLD25": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W4414360702"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/iros/BrewittGGA21": {
+  "citations": 38,
+  "arxiv": "",
+  "openalex": [
+   "W3187402175"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/iros/HuangZSSM020": {
+  "citations": 9,
+  "arxiv": "",
+  "openalex": [
+   "W3131082984"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/iros/MajdCFA24": {
+  "citations": 4,
+  "arxiv": "",
+  "openalex": [
+   "W4405785500"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/iros/QinWG22": {
+  "citations": 22,
+  "arxiv": "",
+  "openalex": [
+   "W4312639337"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/iros/SeferisK25": {
+  "citations": 0,
+  "arxiv": "",
+  "openalex": [
+   "W4416750597"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/issta/00020LJMZ22": {
+  "citations": 25,
+  "arxiv": "2110.15764",
+  "openalex": [
+   "W3208550642",
+   "W3209510375"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
  },
  "conf/issta/LiWW23": {
   "citations": 10,
@@ -2625,6 +3976,24 @@
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
+ },
+ "conf/ndss/Pei000S24": {
+  "citations": 42,
+  "arxiv": "",
+  "openalex": [
+   "W4391725284"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/ndss/WangWHC0SY23": {
+  "citations": 34,
+  "arxiv": "",
+  "openalex": [
+   "W4324007187"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
  },
  "conf/nips/00010KV23": {
   "citations": 79,
@@ -4046,6 +5415,24 @@
   "matched": "doi+title",
   "fetched": "2026-11-26"
  },
+ "conf/rss/BouvierNM24": {
+  "citations": 13,
+  "arxiv": "",
+  "openalex": [
+   "W4402353995"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/rss/DaiLYPT21": {
+  "citations": 223,
+  "arxiv": "",
+  "openalex": [
+   "W3175924829"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
  "conf/sigsoft/Kwiatkowska19": {
   "citations": 0,
   "arxiv": "",
@@ -4054,6 +5441,222 @@
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
+ },
+ "conf/sp/CalzavaraCLP25": {
+  "citations": 3,
+  "arxiv": "",
+  "openalex": [
+   "W4411337262"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/CullenMLER24": {
+  "citations": 7,
+  "arxiv": "",
+  "openalex": [
+   "W4402264043"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/GehrMDTCV18": {
+  "citations": 1182,
+  "arxiv": "",
+  "openalex": [
+   "W2794609696"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/LaiZPZ24": {
+  "citations": 21,
+  "arxiv": "",
+  "openalex": [
+   "W4402265857"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/LecuyerAG0J19": {
+  "citations": 1199,
+  "arxiv": "",
+  "openalex": [
+   "W2883108656"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/LiXL23": {
+  "citations": 283,
+  "arxiv": "",
+  "openalex": [
+   "W3083878034"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/WangZJ24": {
+  "citations": 6,
+  "arxiv": "",
+  "openalex": [
+   "W4402264465"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/WeberXKZL23": {
+  "citations": 211,
+  "arxiv": "",
+  "openalex": [
+   "W4385679845"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/XiangVMM23": {
+  "citations": 59,
+  "arxiv": "",
+  "openalex": [
+   "W4384948728"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/YangLFSW26": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W7166807459"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/ZhangDKSZ25": {
+  "citations": 14,
+  "arxiv": "",
+  "openalex": [
+   "W4411337912"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/sp/ZhangHHHWBR24": {
+  "citations": 69,
+  "arxiv": "",
+  "openalex": [
+   "W4402264369"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/0001BSM21": {
+  "citations": 198,
+  "arxiv": "2005.10884",
+  "openalex": [
+   "W3157207381"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/0001MM22": {
+  "citations": 98,
+  "arxiv": "2108.09135",
+  "openalex": [
+   "W3193430514"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/0001WDPJM24": {
+  "citations": 16,
+  "arxiv": "2310.13076",
+  "openalex": [
+   "W4387891197"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/Chen0SJ20": {
+  "citations": 86,
+  "arxiv": "1904.03542",
+  "openalex": [
+   "W2925469520"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/DahiyaS024": {
+  "citations": 7,
+  "arxiv": "2306.14043",
+  "openalex": [
+   "W4382319952"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/JiaLHG23": {
+  "citations": 21,
+  "arxiv": "2303.14601",
+  "openalex": [
+   "W4361193258"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/LiW25": {
+  "citations": 13,
+  "arxiv": "2502.00765",
+  "openalex": [
+   "W4407124074"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/WangMGK00D00C025": {
+  "citations": 3,
+  "arxiv": "2501.17667",
+  "openalex": [
+   "W4406975609"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/WangPWYJ18": {
+  "citations": 596,
+  "arxiv": "1804.10829",
+  "openalex": [
+   "W2798356176"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/YangLB0C25": {
+  "citations": 7,
+  "arxiv": "",
+  "openalex": [
+   "W7135001981"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/Yuan0023": {
+  "citations": 5,
+  "arxiv": "2306.06747",
+  "openalex": [
+   "W4380558435"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
+ },
+ "conf/uss/ZhangCZX023": {
+  "citations": 45,
+  "arxiv": "2308.14333",
+  "openalex": [
+   "W4386272826"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
  },
  "journals/pacmpl/AlbarghouthiDDN17": {
   "citations": 170,
@@ -4346,6 +5949,15 @@
   ],
   "matched": "doi+title",
   "fetched": "2026-11-26"
+ },
+ "openalex/W7161246425": {
+  "citations": 1,
+  "arxiv": "",
+  "openalex": [
+   "W7161246425"
+  ],
+  "matched": "doi+title",
+  "fetched": "2026-11-27"
  },
  "openreview/0mIVNtnfDp": {
   "citations": 0,
@@ -4654,5 +6266,14 @@
   ],
   "matched": "title",
   "fetched": "2026-11-26"
+ },
+ "rss2026/p191": {
+  "citations": 5,
+  "arxiv": "",
+  "openalex": [
+   "W7162427271"
+  ],
+  "matched": "title",
+  "fetched": "2026-11-27"
  }
 }

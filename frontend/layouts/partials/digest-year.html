@@ -1,0 +1,17 @@
+{{- /* One acceptance year of the digest: a year pager, then each month's short summary with a link to its papers. */ -}}
+{{- $year := .year }}
+{{- $d := hugo.Data.digest }}
+{{- $pager := partial "digest-pager.html" (dict "year" $year) }}
+{{ $pager }}
+{{- range where $d.years "year" $year }}
+<p>{{ .count }} NNV paper{{ if ne (int .count) 1 }}s{{ end }} accepted in {{ $year }}, by month of acceptance. A conference held early in the next year usually announces its decisions in this year.</p>
+{{- end }}
+{{- range where $d.months "month" "like" (printf "^%s-" $year) }}
+<section class="digest-month" id="m{{ .month }}">
+<h2><a href="{{ printf "digest/%s/" .month | relURL }}">{{ .label }}</a>{{ if .in_progress }} <span class="note">(in progress)</span>{{ end }}</h2>
+<p class="note">{{ delimit .venues ", " }}</p>
+{{- with .intro }}<p class="digest-intro">{{ . }}</p>{{ end }}
+<p><a href="{{ printf "digest/%s/" .month | relURL }}">See the {{ .count }} paper{{ if ne (int .count) 1 }}s{{ end }} with summaries &rarr;</a></p>
+</section>
+{{- end }}
+{{ $pager }}

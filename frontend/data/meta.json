@@ -1,5 +1,5 @@
 {
- "generated_date": "2026-11-26",
+ "generated_date": "2026-11-27",
  "first_year": 2017,
  "last_year": 2027,
  "years": [
@@ -79,6 +79,42 @@
   {
    "key": "lics",
    "name": "LICS"
+  },
+  {
+   "key": "aaai",
+   "name": "AAAI"
+  },
+  {
+   "key": "ijcai",
+   "name": "IJCAI"
+  },
+  {
+   "key": "ccs",
+   "name": "CCS"
+  },
+  {
+   "key": "sp",
+   "name": "S&P"
+  },
+  {
+   "key": "uss",
+   "name": "USENIX Security"
+  },
+  {
+   "key": "ndss",
+   "name": "NDSS"
+  },
+  {
+   "key": "icra",
+   "name": "ICRA"
+  },
+  {
+   "key": "iros",
+   "name": "IROS"
+  },
+  {
+   "key": "rss",
+   "name": "RSS"
   }
  ],
  "fields": [
@@ -158,6 +194,51 @@
     "CAV",
     "LICS"
    ]
+  },
+  {
+   "key": "ai",
+   "name": "AI",
+   "full_name": "Artificial intelligence",
+   "venues": [
+    "aaai",
+    "ijcai"
+   ],
+   "names": [
+    "AAAI",
+    "IJCAI"
+   ]
+  },
+  {
+   "key": "sec",
+   "name": "Sec",
+   "full_name": "Computer security",
+   "venues": [
+    "ccs",
+    "sp",
+    "uss",
+    "ndss"
+   ],
+   "names": [
+    "CCS",
+    "S&P",
+    "USENIX Security",
+    "NDSS"
+   ]
+  },
+  {
+   "key": "ro",
+   "name": "Rob",
+   "full_name": "Robotics",
+   "venues": [
+    "icra",
+    "iros",
+    "rss"
+   ],
+   "names": [
+    "ICRA",
+    "IROS",
+    "RSS"
+   ]
   }
  ],
  "scored_fields": [
@@ -165,7 +246,10 @@
   "cv",
   "pl",
   "se",
-  "lv"
+  "lv",
+  "ai",
+  "sec",
+  "ro"
  ],
  "areas": [
   {
@@ -211,6 +295,14 @@
   {
    "key": "other",
    "name": "Other"
+  },
+  {
+   "key": "inputs",
+   "name": "Beyond ℓp input properties"
+  },
+  {
+   "key": "outputs",
+   "name": "Beyond linear output properties"
   }
  ],
  "label_min": 4,
@@ -262,11 +354,18 @@
   "QA": "Qatar"
  },
  "recent_year": 2026,
- "papers": 550,
- "tracked_papers": 458,
- "researchers": 367,
- "groups": 109,
- "gaps": [],
+ "papers": 682,
+ "tracked_papers": 587,
+ "researchers": 465,
+ "groups": 132,
+ "gaps": [
+  {
+   "venue": "CCS",
+   "years": [
+    2026
+   ]
+  }
+ ],
  "from_sites": [
   {
    "venue": "NeurIPS",
@@ -302,6 +401,26 @@
    "venue": "OOPSLA",
    "year": 2026,
    "site": "conf.researchr.org"
+  },
+  {
+   "venue": "RSS",
+   "year": 2025,
+   "site": "roboticsproceedings.org"
+  },
+  {
+   "venue": "RSS",
+   "year": 2026,
+   "site": "roboticsproceedings.org"
+  },
+  {
+   "venue": "IROS",
+   "year": 2023,
+   "site": "openalex.org"
+  },
+  {
+   "venue": "IROS",
+   "year": 2026,
+   "site": "openalex.org"
   }
  ]
 }

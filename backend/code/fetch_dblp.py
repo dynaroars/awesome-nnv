@@ -1,5 +1,6 @@
 import argparse
 import collections
+import difflib
 import gzip
 import json
 import re
@@ -121,7 +122,11 @@ def parse(venue, year, rows):
 
 def off_track_titles(venue, year, refresh=False):
     """Titles that the conference site lists outside the main track (Datasets & Benchmarks, position papers): dblp
-    files NeurIPS D&B (2022 on) and ICML position papers in the same proceedings as the main track."""
+    files NeurIPS D&B (2022 on) and ICML position papers in the same proceedings as the main track. For AAAI and IJCAI,
+    every track's papers (special tracks, surveys, demos, student abstracts, ...) from the proceedings sites."""
+    if venue in ("aaai", "ijcai"):
+        from site_tracks import tracks
+        return tracks(venue, year, refresh)[1]
     site = VIRTUAL_SITES.get(venue)
     if not site or year < 2020:  # the sites publish these lists from 2020; D&B and position tracks came later
         return set()
@@ -152,12 +157,30 @@ def collect(refresh=False, only=None):
                       file=sys.stderr)
             off = off_track_titles(venue["key"], t["year"], refresh)
             papers_only = [p for p in parsed if not not_a_paper(venue["key"], p["title"]) and norm_title(p["title"]) not in off]
+            if venue["key"] in ("aaai", "ijcai"):
+                # Only titles on the site's main-track list (or within a typo of one) are main-track papers: dblp
+                # also files IAAI, EAAI and student papers here, under issues the site labels differently.
+                from site_tracks import tracks
+                main = tracks(venue["key"], t["year"])[0]
+                if not main:  # without the site's list the tracks cannot be told apart: count none, say so
+                    print(f"  warning: no main-track list for {venue['name']} {t['year']} on the proceedings site;"
+                          f" its {len(papers_only)} dblp papers are left out until there is one", file=sys.stderr)
+                    papers_only = []
+                else:
+                    loose = [p for p in papers_only if norm_title(p["title"]) not in main]
+                    near = {p["key"] for p in loose if difflib.get_close_matches(norm_title(p["title"]), main, 1, 0.9)}
+                    papers_only = [p for p in papers_only if norm_title(p["title"]) in main or p["key"] in near]
+                    if len(loose) > len(near):
+                        print(f"  {len(loose) - len(near)} {venue['name']} {t['year']} dblp titles not on the site's"
+                              f" main-track list, dropped", file=sys.stderr)
             kept = [p for p in papers_only if p["page_count"] is None or p["page_count"] >= MIN_PAGES]
             c = coverage[venue["key"]].setdefault(t["year"], {"papers": 0, "short": 0, "other_tracks": 0, "tocs": []})
             c["papers"] += len(kept)
             c["short"] += len(papers_only) - len(kept)
             c["other_tracks"] += len(parsed) - len(papers_only)
             c["tocs"].append(f"{t['toc']}#{t['issue']}" if t["issue"] else t["toc"])
+            for p in kept:
+                p["issue"] = t["issue"]  # PACMPL / PACMSE issue label (e.g. OOPSLA1), used for the acceptance round
             papers.extend(kept)
             print(f"{venue['name']} {t['year']} {t['toc']} {t['issue']}: {len(kept)} papers"
                   f" ({len(papers_only) - len(kept)} short, {len(parsed) - len(papers_only)} other tracks or not papers)", file=sys.stderr)

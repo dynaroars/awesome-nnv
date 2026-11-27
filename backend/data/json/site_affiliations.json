@@ -59,6 +59,12 @@
   "venue": "NeurIPS",
   "paper": "zargarbashi2026should"
  },
+ "aleksandr-petiushko": {
+  "institution": "Lomonosov Moscow State University",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "pautov2022smoothed"
+ },
  "alessandro-de-palma": {
   "institution": "LSE",
   "year": 2026,
@@ -107,6 +113,18 @@
   "venue": "ICML",
   "paper": "silva2021explanations"
  },
+ "andre-platzer": {
+  "institution": "Karlsruhe Institute of Technology",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "paper": "teuber2024provably"
+ },
+ "andrea-patane": {
+  "institution": "University of Oxford",
+  "year": 2023,
+  "venue": "ICML",
+  "paper": "adams2023bnn"
+ },
  "andrew-c-cullen": {
   "institution": "University of Melbourne &amp; EthiCan",
   "year": 2026,
@@ -130,6 +148,12 @@
   "year": 2025,
   "venue": "ICLR",
   "paper": "lei2025robust"
+ },
+ "ann-nowe": {
+  "institution": "Vrije Universiteit Brussel",
+  "year": 2023,
+  "venue": "ICLR",
+  "paper": "delgrange2023wasserstein"
  },
  "anton-xue": {
   "institution": "University of Texas at Austin",
@@ -160,6 +184,12 @@
   "year": 2026,
   "venue": "NeurIPS",
   "paper": "lv2026ensuring"
+ },
+ "bailin-pan": {
+  "institution": "Hong Kong Polytechnic University",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "lai2024collective"
  },
  "balazs-banhelyi": {
   "institution": "University of Szeged",
@@ -215,6 +245,12 @@
   "venue": "NeurIPS",
   "paper": "zhang2022rethinking"
  },
+ "bojan-karlas": {
+  "institution": "Harvard Medical School",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "yang2022improving"
+ },
  "boxin-wang": {
   "institution": "Department of Computer Science, University of Illinois, Urbana Champaign",
   "year": 2022,
@@ -244,6 +280,12 @@
   "year": 2025,
   "venue": "ICLR",
   "paper": "lei2025robust"
+ },
+ "cheng-chen": {
+  "institution": "Nanyang Technological University",
+  "year": 2023,
+  "venue": "NeurIPS",
+  "paper": "tian2023boosting"
  },
  "chenhao-sun": {
   "institution": "ETHZ - ETH Zurich",
@@ -335,6 +377,18 @@
   "venue": "ICLR",
   "paper": "xu2025support"
  },
+ "dejing-dou": {
+  "institution": "\" University of Oregon, USA\"",
+  "year": 2020,
+  "venue": "ICML",
+  "paper": "phan2020scalable"
+ },
+ "derui-wang": {
+  "institution": "CSIRO's Data61",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "shu2024effects"
+ },
  "di-he": {
   "institution": "Peking University",
   "year": 2023,
@@ -362,8 +416,8 @@
  "duane-s-boning": {
   "institution": "MIT",
   "year": 2020,
-  "venue": "ICML",
-  "paper": "wang2020lp"
+  "venue": "ICLR",
+  "paper": "zhang2020towards"
  },
  "duo-zhou": {
   "institution": "University of Illinois Urbana Champaign",
@@ -389,6 +443,12 @@
   "venue": "ICLR",
   "paper": "rocamora2025certified"
  },
+ "eric-alsmann": {
+  "institution": "University of Kassel",
+  "year": 2025,
+  "venue": "ICLR",
+  "paper": "salzer2025transformer"
+ },
  "eric-wong": {
   "institution": "University of Pennsylvania",
   "year": 2025,
@@ -412,6 +472,18 @@
   "year": 2024,
   "venue": "ICLR",
   "paper": "pauli2024novel"
+ },
+ "feisi-fu": {
+  "institution": "Boston University",
+  "year": 2022,
+  "venue": "ICLR",
+  "paper": "fu2022sound"
+ },
+ "florent-delgrange": {
+  "institution": "AI Lab, Vrije Universiteit Brussel",
+  "year": 2023,
+  "venue": "ICLR",
+  "paper": "delgrange2023wasserstein"
  },
  "francisco-eiras": {
   "institution": "University of Oxford",
@@ -461,17 +533,29 @@
   "venue": "ICLR",
   "paper": "rocamora2025certified"
  },
+ "guillermo-a-perez": {
+  "institution": "University of Antwerp",
+  "year": 2023,
+  "venue": "ICLR",
+  "paper": "delgrange2023wasserstein"
+ },
  "guy-amir": {
-  "institution": "Cornell University",
-  "year": 2025,
+  "institution": "The Hebrew University of Jerusalem",
+  "year": 2024,
   "venue": "ICML",
-  "paper": "bassan2025what"
+  "paper": "bassan2024local"
  },
  "guy-katz": {
   "institution": "Hebrew University of Jerusalem",
   "year": 2026,
   "venue": "NeurIPS",
   "paper": "elboher2026pareto"
+ },
+ "guy-van-den-broeck": {
+  "institution": "UCLA",
+  "year": 2020,
+  "venue": "NeurIPS",
+  "paper": "sivaraman2020counterexample"
  },
  "hadi-salman": {
   "institution": "MIT",
@@ -509,6 +593,12 @@
   "venue": "NeurIPS",
   "paper": "behl2021overcoming"
  },
+ "hengzhi-pei": {
+  "institution": "University of Illinois, Urbana Champaign",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "yang2022improving"
+ },
  "hong-ming-chiu": {
   "institution": "University of Illinois at Urbana-Champaign",
   "year": 2026,
@@ -530,8 +620,14 @@
  "hongge-chen": {
   "institution": "MIT",
   "year": 2020,
+  "venue": "ICLR",
+  "paper": "zhang2020towards"
+ },
+ "hongkai-dai": {
+  "institution": "Toyota Research Institute",
+  "year": 2024,
   "venue": "ICML",
-  "paper": "wang2020lp"
+  "paper": "yang2024lyapunov"
  },
  "hongwei-jin": {
   "institution": "Argonne National Laboratory",
@@ -544,6 +640,12 @@
   "year": 2026,
   "venue": "NeurIPS",
   "paper": "chiu2026affine"
+ },
+ "ian-horrocks": {
+  "institution": "University of Oxford",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "paper": "morris2025sound"
  },
  "idan-refaeli": {
   "institution": "Hebrew University of Jerusalem",
@@ -592,6 +694,12 @@
   "year": 2023,
   "venue": "ICLR",
   "paper": "yatsura2023certified"
+ },
+ "jan-kronqvist": {
+  "institution": "KTH Royal Institute of Technology",
+  "year": 2021,
+  "venue": "NeurIPS",
+  "paper": "tsay2021partition"
  },
  "jan-schuchardt": {
   "institution": "Morgan Stanley",
@@ -743,11 +851,23 @@
   "venue": "ICLR",
   "paper": "dvijotham2020framework"
  },
+ "kai-zhou": {
+  "institution": "Hong Kong Polytechnic University",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "lai2024collective"
+ },
  "kaidi-xu": {
   "institution": "Northeastern University",
   "year": 2022,
   "venue": "NeurIPS",
   "paper": "liang2022toward"
+ },
+ "kevin-eykholt": {
+  "institution": "International Business Machines",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "vaishnavi2022accelerating"
  },
  "klas-leino": {
   "institution": "Carnegie Mellon University",
@@ -833,6 +953,12 @@
   "venue": "NeurIPS",
   "paper": "figueiredo2026clustered"
  },
+ "lujie-yang": {
+  "institution": "Massachusetts Institute of Technology",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "yang2024lyapunov"
+ },
  "m-pawan-kumar": {
   "institution": "DeepMind",
   "year": 2024,
@@ -887,12 +1013,6 @@
   "venue": "NeurIPS",
   "paper": "lorenz2025mibp"
  },
- "martin-c-cooper": {
-  "institution": "University of Toulouse 3",
-  "year": 2021,
-  "venue": "ICML",
-  "paper": "silva2021explanations"
- },
  "martin-lange": {
   "institution": "Universität Kassel",
   "year": 2025,
@@ -910,6 +1030,12 @@
   "year": 2023,
   "venue": "NeurIPS",
   "paper": "zikelic2023compositional"
+ },
+ "mathias-lecuyer": {
+  "institution": "University of British Columbia",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "paper": "lyu2024adaptive"
  },
  "mathieu-serrurier": {
   "institution": "university Paul Sabatier",
@@ -983,11 +1109,11 @@
   "venue": "ICML",
   "paper": "bansal2022certified"
  },
- "miklos-z-horvath": {
-  "institution": "Swiss Federal Institute of Technology",
+ "mikhail-pautov": {
+  "institution": "Skolkovo Institute of Science and Technology",
   "year": 2022,
   "venue": "NeurIPS",
-  "paper": "horvath2022de"
+  "paper": "pautov2022smoothed"
  },
  "min-wu": {
   "institution": "Stanford University",
@@ -1001,11 +1127,23 @@
   "venue": "NeurIPS",
   "paper": "lv2026ensuring"
  },
+ "ming-jin": {
+  "institution": "Virginia Tech",
+  "year": 2023,
+  "venue": "ICLR",
+  "paper": "zeng2023towards"
+ },
  "mingjie-sun": {
   "institution": "Tsinghua University",
   "year": 2023,
   "venue": "ICLR",
   "paper": "carlini2023certified"
+ },
+ "minhui-xue": {
+  "institution": "Data61, CSIRO",
+  "year": 2026,
+  "venue": "NeurIPS",
+  "paper": "zhao2026cast"
  },
  "minlie-huang": {
   "institution": "Tsinghua University",
@@ -1018,6 +1156,12 @@
   "year": 2025,
   "venue": "NeurIPS",
   "paper": "kang2025c"
+ },
+ "mirco-giacobbe": {
+  "institution": "University of Birmingham",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "abate2022neural"
  },
  "mislav-balunovic": {
   "institution": "Swiss Federal Institute of Technology",
@@ -1037,6 +1181,12 @@
   "venue": "ICML",
   "paper": "adams2023bnn"
  },
+ "my-t-thai": {
+  "institution": "University of Florida",
+  "year": 2020,
+  "venue": "ICML",
+  "paper": "phan2020scalable"
+ },
  "neil-g-marchant": {
   "institution": "The University of Melbourne",
   "year": 2026,
@@ -1055,6 +1205,12 @@
   "venue": "ICML",
   "paper": "kang2024c"
  },
+ "nicola-paoletti": {
+  "institution": "Royal Holloway, University of London",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "paper": "jeary2024verifiably"
+ },
  "nikola-jovanovic": {
   "institution": "ETHZ - ETH Zurich",
   "year": 2023,
@@ -1066,6 +1222,12 @@
   "year": 2021,
   "venue": "ICML",
   "paper": "silva2021explanations"
+ },
+ "nurislam-tursynbek": {
+  "institution": "Skoltech",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "pautov2022smoothed"
  },
  "olga-ohrimenko": {
   "institution": "The University of Melbourne",
@@ -1145,6 +1307,12 @@
   "venue": "ICLR",
   "paper": "wang2026how"
  },
+ "qiang-li": {
+  "institution": "Jilin University",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "paper": "yang2024fedgmark"
+ },
  "qiang-liu": {
   "institution": "UT Austin",
   "year": 2020,
@@ -1199,6 +1367,12 @@
   "venue": "ICML",
   "paper": "meng2024physics"
  },
+ "ruoming-jin": {
+  "institution": "Kent State University",
+  "year": 2020,
+  "venue": "ICML",
+  "paper": "phan2020scalable"
+ },
  "russ-tedrake": {
   "institution": "MIT",
   "year": 2024,
@@ -1234,6 +1408,12 @@
   "year": 2024,
   "venue": "NeurIPS",
   "paper": "teuber2024provably"
+ },
+ "sanmi-koyejo": {
+  "institution": "Stanford, Google Research",
+  "year": 2022,
+  "venue": "NeurIPS",
+  "paper": "liu2022copur"
  },
  "sarah-m-erfani": {
   "institution": "University of Melbourne",
@@ -1312,6 +1492,12 @@
   "year": 2022,
   "venue": "ICML",
   "paper": "chen2022linearity"
+ },
+ "sina-sharifi": {
+  "institution": "Johns Hopkins University",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "entesari2024compositional"
  },
  "soheil-feizi": {
   "institution": "University of Maryland, College Park",
@@ -1427,12 +1613,6 @@
   "venue": "NeurIPS",
   "paper": "zikelic2023compositional"
  },
- "thomas-gerspacher": {
-  "institution": "ANITI",
-  "year": 2021,
-  "venue": "ICML",
-  "paper": "silva2021explanations"
- },
  "thomas-lukasiewicz": {
   "institution": "Department of Computer Science, University of Oxford",
   "year": 2025,
@@ -1444,6 +1624,24 @@
   "year": 2025,
   "venue": "ICML",
   "paper": "massena2025efficient"
+ },
+ "tianlong-chen": {
+  "institution": "University of Texas at Austin",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chen2022linearity"
+ },
+ "tianyu-du": {
+  "institution": "Zhejiang University",
+  "year": 2023,
+  "venue": "NeurIPS",
+  "paper": "ye2023unit"
+ },
+ "ting-wang": {
+  "institution": "Stony Brook",
+  "year": 2023,
+  "venue": "NeurIPS",
+  "paper": "ye2023unit"
  },
  "tobias-ladner": {
   "institution": "Technical University of Munich",
@@ -1505,6 +1703,24 @@
   "venue": "ICLR",
   "paper": "rocamora2025certified"
  },
+ "weiwei-liu": {
+  "institution": "Wuhan University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "wang2022robustness"
+ },
+ "wenchao-li": {
+  "institution": "Boston University",
+  "year": 2022,
+  "venue": "ICLR",
+  "paper": "fu2022sound"
+ },
+ "wenda-chu": {
+  "institution": "Tsinghua University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chu2022tpc"
+ },
  "wenxiao-wang": {
   "institution": "University of Maryland, College Park",
   "year": 2024,
@@ -1541,6 +1757,12 @@
   "venue": "NeurIPS",
   "paper": "jin2022certifying"
  },
+ "xuanxiang-huang": {
+  "institution": "Nanyang Technological University",
+  "year": 2026,
+  "venue": "ICLR",
+  "paper": "bassan2026unifying"
+ },
  "xue-lin": {
   "institution": "Northeastern University",
   "year": 2021,
@@ -1552,6 +1774,12 @@
   "year": 2026,
   "venue": "NeurIPS",
   "paper": "saxena2026provable"
+ },
+ "yang-zheng": {
+  "institution": "University of California, San Diego",
+  "year": 2024,
+  "venue": "ICLR",
+  "paper": "wang2024scalability"
  },
  "yang-zhou": {
   "institution": "Auburn University",
@@ -1576,6 +1804,12 @@
   "year": 2024,
   "venue": "NeurIPS",
   "paper": "wu2024verified"
+ },
+ "yiannis-kantaros": {
+  "institution": "Washington University in Saint Louis",
+  "year": 2023,
+  "venue": "NeurIPS",
+  "paper": "wu2023neural"
  },
  "yihan-wang": {
   "institution": "UCLA",
@@ -1625,6 +1859,24 @@
   "venue": "ICLR",
   "paper": "li2025provably"
  },
+ "yuni-lai": {
+  "institution": "Hong Kong Polytechnic University",
+  "year": 2024,
+  "venue": "ICML",
+  "paper": "lai2024collective"
+ },
+ "zekai-wang": {
+  "institution": "Wuhan University",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "wang2022robustness"
+ },
+ "zhangyang-wang": {
+  "institution": "University of Texas at Austin",
+  "year": 2022,
+  "venue": "ICML",
+  "paper": "chen2022linearity"
+ },
  "zhe-tao": {
   "institution": "University of California, Davis",
   "year": 2025,
@@ -1642,6 +1894,18 @@
   "year": 2026,
   "venue": "ICLR",
   "paper": "liu2026certifying"
+ },
+ "zhizhen-qin": {
+  "institution": "UC San Diego",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "paper": "zhang2024seev"
+ },
+ "zhongjie-ba": {
+  "institution": "Zhejiang University",
+  "year": 2025,
+  "venue": "ICLR",
+  "paper": "lei2025robust"
  },
  "zhongkai-hao": {
   "institution": "Tsinghua University",
@@ -1690,5 +1954,17 @@
   "year": 2024,
   "venue": "ICLR",
   "paper": "hu2024recipe"
+ },
+ "zijian-huang": {
+  "institution": "University of Illinois at Urbana-Champaign",
+  "year": 2022,
+  "venue": "ICLR",
+  "paper": "wu2022crop"
+ },
+ "zongxin-liu": {
+  "institution": "Institute of Software, Chinese Academy of Sciences",
+  "year": 2026,
+  "venue": "ICLR",
+  "paper": "liu2026certifying"
  }
 }

@@ -1,7 +1,7 @@
 # AGENT.md: how to operate and maintain this site
 
 You are maintaining a public, English-only Hugo site that counts **neural-network verification (NNV)** papers of the
-field's leading researchers at sixteen top venues, grouped as CSRankings groups venues. The maintainer gives short
+field's leading researchers at twenty-five top venues, grouped as CSRankings groups venues. The maintainer gives short
 requests in plain words; this file tells you how to carry them out. Read it before changing anything. It is the only
 instruction file: keep it up to date when the code or the rules change. The layout and workflow follow the sibling
 project `../vn-ai-ranking` (same folder structure, same CSS and `site.js`).
@@ -26,6 +26,9 @@ The top level holds only `backend/`, `frontend/`, `README.md`, `makefile`, `AGEN
     left out), into `backend/work/researchr.jsonl.gz`, keyed `researchr/<venue><year>/<event id>`. Used only for a
     venue-year dblp lists under 80% of (`COMPLETE`), and only for papers whose title dblp does not have; refreshed
     weekly. Authors are matched by name, as for the ICML/NeurIPS/ICLR sites.
+  - `fetch_robotics.py`: RSS (`roboticsproceedings.org`) and IROS (OpenAlex) papers of the venue-years dblp lists
+    fewer than 20 papers of, into `backend/work/robotics.jsonl.gz` (keys `rss<year>/pNNN`, `openalex/<work id>`),
+    merged like the researchr lists; IROS papers under six pages are left out. Authors are matched by name.
   - `backend/data/csv/accepted.csv`: accepted papers known only from an author's page or announcement (venue, year,
     title, all authors in order, track, source_url, fetched, note), keyed `accepted/<venue><year>/<title>`. They count
     like any paper and show an "unofficial" tag (the maintainer's rule, 2026-11-26); a conference list or dblp listing
@@ -103,7 +106,18 @@ the site uses.
 
 - **Venues**, grouped as CSRankings does (`FIELDS` in `common.py`): ML (ICML, ICLR, NeurIPS), CV (CVPR, ICCV in
   odd years, ECCV in even years; added at the maintainer's request on 2026-11-26), PL (PLDI, POPL, ICFP,
-  OOPSLA), SE (FSE, ICSE, ASE, ISSTA), LV, logic and verification (CAV, LICS). NFM is not tracked at all (the maintainer's
+  OOPSLA), SE (FSE, ICSE, ASE, ISSTA), LV, logic and verification (CAV, LICS), AI (AAAI, IJCAI; added at the
+  maintainer's request on 2026-11-27, last in the field order so the other fields keep their chart colours), Sec, computer
+  security (CCS, S&P, USENIX Security, NDSS) and Rob, robotics (ICRA, IROS, RSS), both added at the maintainer's
+  request on 2026-11-27 after AI, in that order (chart colours `#e07a12` and `#5a4fcf`, checked with the palette
+  validator: adjacent pairs pass in both themes; `#5a4fcf` is just under 3:1 on the dark surface, as violet is,
+  which the tables relieve). Security and robotics papers come from dblp (`conf/ccs/ccsYYYY`, `conf/sp/spYYYY`,
+  `conf/uss/ussYYYY`, `conf/ndss/ndssYYYY`, `conf/icra/icraYYYY`, `conf/iros/irosYYYY`, `conf/rss/rssYYYY`;
+  the anchored patterns keep the S&P and CCS workshop volumes out; CCS posters and demos fall to the six-page rule).
+  `fetch_robotics.py` fills the venue-years dblp lists fewer than 20 papers of: RSS from its proceedings site
+  (`roboticsproceedings.org/rssNN`, NN = year - 2004), IROS from OpenAlex's record of the IEEE proceedings (source
+  S4393918188; dblp had only 1 IROS 2023 paper and no IROS 2026 on 2026-11-27). CCS 2026 has no public accepted
+  list yet and shows as missing. HSCC is not a CSRankings venue (embedded systems there is EMSOFT, RTAS, RTSS). NFM is not tracked at all (the maintainer's
   choice, 2026-11-26; it was an unscored "Other FM" field before).
 - **Years** 2017 on (Reluplex, CAV 2017), with **no upper limit** (the maintainer's rule): an accepted paper of next
   year's conference counts as soon as it is confirmed, officially (the conference site) or unofficially (an author's
@@ -120,12 +134,36 @@ the site uses.
   Datasets & Benchmarks, position, blog, journal), since dblp puts NeurIPS D&B (2022 on) and ICML 2024 position
   papers in the same proceedings as the main track. `coverage.json` counts them as `other_tracks`. ICLR and NeurIPS
   give no page numbers; their main tracks have no short papers.
+- **AAAI and IJCAI main track** (`site_tracks.py`, adapted from vn-ai-ranking's `fetch_accepted.py`): dblp files every
+  track of a year in one table of contents, so only dblp papers whose title is on the proceedings site's main-track
+  list (or within a typo of one, `difflib` 0.9) are kept. AAAI: the sections of the year's ojs.aaai.org issues named
+  "AAAI Technical Track ..." or "Main Track: ...", the AAAI-17 area sections ("Machine Learning Methods",
+  "Cognitive Modeling and Cognitive Systems", "Human-Aware Artificial Intelligence") and "Intelligent Robots (ROB)"
+  (2024); never a special track (Safe, Robust and Responsible AI; Safe and Robust AI; AI Alignment; AI for Social
+  Impact; the AAAI-17 special tracks), IAAI, EAAI, student, demo, doctoral, senior-member, new-faculty or journal
+  papers. The AAAI-17 and AAAI-18 issues (302, 301) have ordinal titles, mapped in `AAAI_ISSUE_YEAR`. IJCAI: the
+  "Main Track" section of ijcai.org/proceedings/<year>/ and every heading right after it that is not another track
+  (`IJCAI_OTHER`: "Machine Learning S-Z" in 2017, "Machine Learning M-Z" in 2019, "Search" and "Uncertainty in AI"
+  in 2026 continue the main track). The kept counts match the sites' main-track counts (`python site_tracks.py`
+  prints them). The special-track exclusion drops about 32 NNV papers (labelled by title on 2026-11-27: 13 in AAAI-23 Safe and
+  Robust AI, 11 in AAAI-24 Safe, Robust and Responsible AI, 5 in AAAI-25 and 3 in AAAI-26 AI Alignment); that is the
+  main-track rule as vn-ai-ranking keeps it, unless the maintainer decides otherwise. ojs.aaai.org has at times
+  answered scripts with a bot check: do not try to get around it. `site_tracks.fetch` keeps the cached page
+  (`backend/data/raw/aaai/`, `backend/data/raw/ijcai/`) when a refresh fails or returns a page without the expected
+  content, warns about an AAAI issue page it cannot read, and `fetch_dblp.py` counts no papers of a venue-year whose
+  site list is empty (with a warning) rather than letting every track through.
 - **Only NNV papers count** (the maintainer's choice): a paper whose main contribution is to verify, certify or give
-  formal guarantees about the behaviour of a neural network or another learned model. In scope: complete and
+  formal guarantees about the behaviour of a neural network (of any kind: Bayesian, neural ODE, equilibrium,
+  spiking, neural additive, prototype-based). A method stated for arbitrary models counts when it is evaluated on
+  neural networks. Since 2026-11-27 (the maintainer's decision) papers about other learned models are out: tree
+  ensembles and decision trees, nearest neighbours and prototype classifiers, linear and additive models, Gaussian
+  processes, probabilistic circuits and Bayesian networks, decision rules, quantum classifiers, and a decision tree
+  extracted from a network and verified in its place (46 rows, each noted "non-NN: <class>" with its old area and
+  tags, so a class can be restored by script). In scope: complete and
   incomplete verifiers, bound propagation and abstract interpretation, certified training, randomized smoothing and
   other probabilistic certification, Lipschitz certification, verification of NN controllers and closed-loop
   systems, neural certificates (barrier, Lyapunov) that are formally checked, repair with guarantees, formal
-  explanations, global and relational properties, verification of transformers, RNNs, GNNs, tree ensembles,
+  explanations, global and relational properties, verification of transformers, RNNs, GNNs,
   language and vision-language models, quantized and binarized networks, soundness of verifiers, benchmarks, tools
   and surveys of NNV. Out: DNN testing and fuzzing (coverage criteria, mutation testing), empirical attacks and
   defences without a certificate, using neural networks or LLMs to verify ordinary programs, checking code that an
@@ -136,6 +174,23 @@ the site uses.
   used for every count, so area totals add up; secondary tags are shown and counted separately ("Also tagged").
   Choose the primary area by the paper's main contribution: a verifier for transformers is `architectures`, a
   certified-training method for controllers is `training` with the tag `control`.
+- **Specification areas** `inputs` (Beyond ℓp input properties) and `outputs` (Beyond linear output properties),
+  added at the maintainer's request on 2026-11-27 (seeded by "Verifying Structural Robustness of Deep Neural
+  Network", "Verifying Neural Network Robustness with Dual Perturbations" and "IoUCert"), last in `AREAS` with line
+  styles (3, dash-dot) and (1, long dash). They say *what* is certified, the other areas *how*. Tests:
+  `inputs` = the certified input set is not an ℓp ball around the input and handling it is part of the
+  contribution; `outputs` = the certified property is not a set of linear inequalities over the outputs. Primary
+  only when the new specification is the paper's main contribution and the method is generic (a verifier or
+  smoothing certificate for geometric transformations is `inputs`); certified training stays `training` and a new
+  architecture stays `architectures`, with the specification as a tag. Group defaults (each relabelled row's note
+  names its group after "inputs:" / "outputs:", so a group can be flipped by script):
+  in for `inputs`: geometric, semantic, spatial, deformation, homography, structural and convolutional, generative
+  and latent, DTW, text edits and word substitution, graph structure and injection, point clouds, patches (tag);
+  out: ℓ0 / few-pixel / sparse (still the ℓp family), weight perturbations, bit flips, poisoning and backdoors,
+  distribution-level shift. In for `outputs`: IoU and detection, segmentation, pose, trajectory error, confidence,
+  calibration and OOD confidence, embedding distances, generation risks, output size, non-linear specifications;
+  out: plain regression ranges, top-k and multi-label, conformal prediction sets, attribution stability.
+  `relational` no longer covers semantic or transformation specifications (moved on 2026-11-27).
 - **Name matches** (conference-site papers have no dblp pid): an author counts for a listed researcher when the
   printed name equals the roster `name`, an `aliases` entry or the dblp name of one of their pids. Every such match is
   listed in `build_report.txt` ("name match to check"): check the co-authors and institution, and add a namesake's
@@ -197,6 +252,36 @@ Papers are ordered newest first by the month of their conference (`conference_mo
 lists give no dates; the months were written from memory on 2026-11-26 and may be off by a month for some years, so
 correct them from the conference sites when a paper's order looks wrong, and add each new venue-year's month when it
 is not the usual one. The Papers page shows the month in its Date column.
+
+## Monthly digest
+
+Tab "Monthly digest" (`/digest/`, the maintainer's request of 2026-11-27; menu after Conferences, before About):
+every NNV paper since 2017 placed in the month its acceptance was announced, not the month of the conference (papers
+are shared on acceptance). `digest.py` holds the rules; `build_site_data.py` calls `digest.update` (the record only
+grows) and `digest.build`, and writes `frontend/data/digest.json` plus one stub per month (`/digest/YYYY-MM/`) and
+per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder).
+- `backend/data/csv/acceptance.csv`: notification dates, one row per venue, year and cycle, each from the
+  conference's own dates or CFP page (archived copies allowed and labelled), the verbatim line quoted in `note`;
+  never from memory. Revision-stage venues (FSE, ISSTA, ICSE, OOPSLA, ICFP) use the first acceptance decision.
+- Resolution per paper: its own `accepted` date in `digest.csv`; else the venue-year's single cycle; else the cycle
+  named like its PACMPL issue (OOPSLA1/OOPSLA2, `issue` carried from dblp); else the latest notification not after
+  the day the acceptance was seen, marked approximate; else "no acceptance date yet" (never the conference month).
+- `backend/data/csv/digest.csv`: the record, one row per paper keyed by venue, year and normalized title (paper keys
+  change when dblp replaces a site record), never deleted; `summary` is one or two sentences in our own words from
+  the abstract only (`basis` = the abstract's URL; no abstract, no summary; never from the OpenReview reviews).
+  `added` dates rows; rows added after both their month and `LAUNCH` (2026-11-27) say "added to the digest".
+- `backend/data/csv/digest_months.csv`: each month's short summary ("what happened"), written from that month's
+  titles and summaries. Year pages show only these summaries; month pages list the papers with their summaries.
+- `fetch_abstracts.py`: abstracts for the summaries into `backend/work/abstracts.json` (not committed), from the
+  OpenReview submission, arXiv (40 ids a request) or OpenAlex (50 works a request; anonymous clients share a small
+  daily budget, so never one call per paper).
+- Front page, bottom right: a pie of papers by primary area, largest first clockwise from the top (the maintainer's
+  request of 2026-11-27, chosen over ranked bars; `charts.pie`). Each area keeps a fixed colour (`.pie-<key>` in
+  `style.css`): the eight validated categorical hues cycled in size order (a hue repeats only eight slices
+  apart; ties drawn in `AREAS` order), checked with the palette validator on the drawn ring in both themes (all pass;
+  the earlier one-blue ramp failed every check, and deeper steps of the hues failed colour-blind separation next to
+  their base hue). Re-run the check when the size order changes. Slice, leader line and label form one focusable `<g>`: hovering or focusing any of them
+  highlights the area and dims the rest (CSS `:has`; class `hl` forces the state for screenshots).
 
 ## Paper ids
 

@@ -16,10 +16,15 @@ def _step(peak, limit=5):
 
 
 def _legend(series, y=16, x=0):
+    """Legend keys; each is a focusable group naming its series (data-series), so hovering or focusing a key
+    highlights that series' marks (site.js)."""
     out = []
     for cls, name in series:
-        out.append(f'<rect class="{cls}" x="{x}" y="{y - 10}" width="12" height="12"/>'
-                   f'<text x="{x + 18}" y="{y}">{_esc(name)}</text>')
+        w = 18 + 6.4 * len(name)
+        out.append(f'<g class="key" data-series="{_esc(cls)}" tabindex="0">'
+                   f'<rect class="key-hit" x="{x - 3}" y="{y - 13}" width="{w + 6:.1f}" height="18"/>'
+                   f'<rect class="{cls}" x="{x}" y="{y - 10}" width="12" height="12"/>'
+                   f'<text x="{x + 18}" y="{y}">{_esc(name)}</text></g>')
         x += 30 + 6.4 * len(name)
     return "".join(out)
 
@@ -75,6 +80,79 @@ def hbars(label, rows, unit="papers"):
             out.append(f'<rect class="{cls}" x="{name_w}" y="{y}" width="{w:.1f}" height="{bar_h}" rx="2">'
                        f'<title>{_esc(f"{name}: {_fmt(value)} {unit}")}</title></rect>')
         out.append(f'<text class="value" x="{name_w + w + 6:.1f}" y="{y + bar_h - 2}">{_fmt(value)}</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def _wrap(text, width=30):
+    lines, cur = [], ""
+    for w in text.split():
+        if cur and len(cur) + 1 + len(w) > width:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = f"{cur} {w}".strip()
+    return lines + [cur]
+
+
+def pie(label, rows, unit="papers", cx=320, cy=200, r=112, link="areas/{key}/"):
+    """A pie of (key, name, value) rows, largest first, clockwise from 12 o'clock. Each area keeps its own colour
+    (class pie-<key>, style.css), so a resort moves a slice but never repaints it. Slice, leader line and label form
+    one link to the area's page (`link`): hovering or focusing any of them highlights the area. Labels sit on the slice's side, pushed apart by
+    their own height."""
+    import math
+    rows = sorted([r for r in rows if r[2]], key=lambda x: -x[2])
+    total = sum(r[2] for r in rows) or 1
+    out = [f'<svg class="chart pie" viewBox="0 0 {WIDTH} {2 * cy}" role="img" aria-label="{_esc(label)}">']
+    labels, start, slices = [], 0.0, {}
+    for k, (key, name, value) in enumerate(rows):
+        sweep = 2 * math.pi * value / total
+        a0, a1 = start, start + sweep
+        p0 = (cx + r * math.sin(a0), cy - r * math.cos(a0))
+        p1 = (cx + r * math.sin(a1), cy - r * math.cos(a1))
+        share = 100 * value / total
+        tip = _esc(f"{name}: {_fmt(value)} {unit} ({share:.0f}%)")
+        slices[key] = (f'<path class="slice" d="M{cx},{cy} L{p0[0]:.1f},{p0[1]:.1f} A{r},{r} 0 '
+                       f'{1 if sweep > math.pi else 0} 1 {p1[0]:.1f},{p1[1]:.1f} Z"><title>{tip}</title></path>', tip)
+        mid = (a0 + a1) / 2
+        count = f"{_fmt(value)} ({share:.0f}%)"
+        lines = _wrap(name, 34)
+        if len(lines[-1]) + 1 + len(count) > 34:
+            lines.append(count)
+        else:
+            lines[-1] = f"{lines[-1]} {count}"
+        labels.append({"key": key, "mid": mid, "lines": lines, "value": count, "h": 12 * len(lines) + 3,
+                       "right": math.sin(mid) >= 0, "y": cy - (r + 18) * math.cos(mid)})
+        start = a1
+    top, bottom = 8, 2 * cy - 8
+    for side in (True, False):
+        group = sorted((l for l in labels if l["right"] == side), key=lambda l: l["y"])
+        for i, l in enumerate(group):  # centre y of each label: push apart top to bottom, then back inside the box
+            low = top + l["h"] / 2 if i == 0 else group[i - 1]["ly"] + (group[i - 1]["h"] + l["h"]) / 2
+            l["ly"] = max(l["y"], low)
+        for i in range(len(group) - 1, -1, -1):
+            high = bottom - group[i]["h"] / 2 if i == len(group) - 1 else group[i + 1]["ly"] - (group[i + 1]["h"] + group[i]["h"]) / 2
+            group[i]["ly"] = min(group[i]["ly"], high)
+    for l in labels:
+        ex, ey = cx + (r + 2) * math.sin(l["mid"]), cy - (r + 2) * math.cos(l["mid"])
+        side = 1 if l["right"] else -1
+        kx = cx + side * (r + 30)
+        tx = kx + side * 4
+        leader = (f'<polyline class="leader" points="{ex:.1f},{ey:.1f} {kx - side * 10:.1f},{l["ly"]:.1f} {kx:.1f},{l["ly"]:.1f}"/>')
+        y0 = l["ly"] - 6 * (len(l["lines"]) - 1) + 4
+        spans = []
+        for i, t in enumerate(l["lines"]):
+            if i == len(l["lines"]) - 1 and t.endswith(l["value"]):  # the count, in bold, at the end of the last line
+                head = t[: -len(l["value"])].strip()
+                t = (f'{_esc(head)} ' if head else "") + f'<tspan class="value">{_esc(l["value"])}</tspan>'
+            else:
+                t = _esc(t)
+            spans.append(f'<tspan x="{tx:.1f}" y="{y0 + 12 * i:.1f}">{t}</tspan>')
+        hit_x = tx if l["right"] else tx - 200
+        path, tip = slices[l["key"]]
+        out.append(f'<a class="pie-item pie-{l["key"]}" href="{link.format(key=l["key"])}" aria-label="{tip}">{path}{leader}'
+                   f'<rect class="pie-hit" x="{hit_x:.1f}" y="{l["ly"] - l["h"] / 2:.1f}" width="200" height="{l["h"]:.1f}"/>'
+                   f'<text class="pie-label" text-anchor="{"start" if l["right"] else "end"}">{"".join(spans)}</text></a>')
     out.append("</svg>")
     return "".join(out)
 

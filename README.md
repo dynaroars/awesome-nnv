@@ -1,19 +1,24 @@
 # Awesome NNV
 
 An open-source, data-driven static site that counts **neural-network verification (NNV)** papers of the field's
-leading researchers at sixteen top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
+leading researchers at twenty-five top venues, grouped as [CSRankings](https://csrankings.org/) groups them:
 
 - **ML:** ICML, ICLR, NeurIPS
 - **CV:** CVPR, ICCV, ECCV
 - **PL:** PLDI, POPL, ICFP, OOPSLA
 - **SE:** FSE, ICSE, ASE, ISSTA
 - **LV** (logic and verification): CAV, LICS
+- **AI:** AAAI, IJCAI
+- **Sec** (computer security): CCS, S&P (IEEE Symposium on Security and Privacy), USENIX Security, NDSS
+- **Rob** (robotics): ICRA, IROS, RSS
 
 Papers are counted from 2017 (Reluplex) onward, main track only, from [dblp](https://dblp.org) (CC0). Only papers
-about verifying, certifying or formally guaranteeing the behaviour of neural networks and other learned models count.
+about verifying, certifying or formally guaranteeing the behaviour of neural networks count (not tree ensembles, nearest
+neighbours or other non-neural models).
 Each paper has one primary **area** (complete verification, bound propagation & abstract interpretation,
 probabilistic certification, certified training, repair, formal explanations, NN control systems, global &
-relational properties, beyond feed-forward nets, quantized & bit-level, other). Researchers are grouped by
+relational properties, beyond feed-forward nets, quantized & bit-level, other, beyond ℓp input properties,
+beyond linear output properties). Researchers are grouped by
 **research group**, named by its signature tool (α,β-CROWN, Marabou, NNV, ...), as at VNN-COMP.
 
 ## How to maintain

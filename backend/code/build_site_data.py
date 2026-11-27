@@ -7,8 +7,9 @@ import re
 import sys
 
 import charts
+import digest
 import graph
-from common import (COUNTRY_NAME, country_of, CSV_DIR, RESEARCHR_COVERAGE, FIRST_YEAR, all_papers, display_title, conference_month, TRACK_MIN, LABEL_MIN, slugify, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
+from common import (COUNTRY_NAME, country_of, CSV_DIR, RESEARCHR_COVERAGE, ROBOTICS_COVERAGE, FIRST_YEAR, all_papers, display_title, conference_month, TRACK_MIN, LABEL_MIN, slugify, dblp_name, VIRTUAL_COVERAGE, AREA_KEYS, JSON_DIR, assign_ids, held, AREA_NAME, AREAS, CANDIDATES, FIELD_OF, FIELDS, FRONTEND, GROUPS_CSV, LAST_YEAR,
                     PAPERS, PEOPLE_JSON, ROSTER, SCORED_FIELDS, TOPICS, VENUE_KEYS, VENUE_NAME, VENUES, WORK, YEARS,
                     norm_name, read_csv, read_json, read_jsonl_gz, split_list, write_json)
 
@@ -102,7 +103,7 @@ def nnv_papers(topics, by_pid, by_name):
         authors = []
         for a in p["authors"]:
             slug = by_pid.get(a["pid"]) if a.get("pid") else by_name.get(norm_name(a["name"]))
-            authors.append({"name": a["name"], "slug": slug or ""})
+            authors.append({"name": a["name"], "slug": slug or "", "inst": a.get("inst") or []})
         out.append({**p, **t, "authors": authors, "url": p.get("url") or paper_url(p),
                     "citations": cites[p["key"]]["citations"] if p["key"] in cites else None,
                     "arxiv": cites.get(p["key"], {}).get("arxiv", ""),
@@ -145,18 +146,19 @@ def geomean(values):
 def paper_entry(p, names):
     return {"id": p["id"], "key": p["key"], "date": p["date"], "venue": p["venue"], "venue_name": VENUE_NAME[p["venue"]], "year": p["year"],
             "field": FIELD_OF[p["venue"]], "title": display_title(p["title"]), "url": p["url"], "citations": p["citations"],
-            "arxiv": p["arxiv"], "source": p["source"], "unofficial": bool(p.get("unofficial")),
+            "arxiv": p["arxiv"], "source": p["source"], "unofficial": bool(p.get("unofficial")), "issue": p.get("issue", ""),
             "area": p["area"],
             "area_name": AREA_NAME[p["area"]], "tags": [{"key": t, "name": AREA_NAME[t]} for t in p["tags"]],
             "authors": [{"name": names.get(a["slug"], a["name"]), "slug": a["slug"]} for a in p["authors"]]}
 
 
-def institution(r, info, prof=None, site=None):
+def institution(r, info, prof=None, site=None, signed=""):
     """Public: the roster's confirmed institution, else the current one on the person's own OpenReview profile, else
-    the one printed on their latest ICML/NeurIPS/ICLR conference page, else dblp's. Local: the roster's, then the same
+    the one printed on their latest ICML/NeurIPS/ICLR conference page, else dblp's (the person page's primary
+    affiliation, else the one on their signature of their latest NNV paper). Local: the roster's, then the same
     fallbacks. The country goes with the institution shown."""
     prof = prof or {}
-    dblp = info.get("primary", "")
+    dblp = info.get("primary", "") or signed
     fallback = prof.get("institution") or (site or {}).get("institution") or dblp
     local = r["institution"] or fallback
     local_short = r["institution_short"] or local.split(",")[0]
@@ -166,8 +168,8 @@ def institution(r, info, prof=None, site=None):
         public, public_short = r["institution"], r["institution_short"] or r["institution"]
 
     def country(name):
-        if prof.get("institution") and name == prof["institution"]:
-            return prof.get("country", "")
+        if prof.get("institution") and name == prof["institution"] and prof.get("country"):
+            return prof["country"]
         return country_of(name) or prof.get("country", "") or country_of(dblp) or next(
             (c for c in map(country_of, info.get("affiliations", [])) if c), "")
 
@@ -192,9 +194,11 @@ def build_researchers(people, groups, papers, dblp_people):
         g = groups.get(r["group"], {})
         pids = split_list(r["dblp_pids"])
         info = dblp_people.get(pids[0], {}) if pids else {}
+        signed = next((a["inst"][0] for p in sorted(mine, key=lambda p: p["date"], reverse=True)
+                       for a in p["authors"] if a["slug"] == r["slug"] and a.get("inst")), "")
         out.append({
             "slug": r["slug"], "name": r["name"], "group": r["group"], "group_name": g.get("name", r["group"]),
-            "role": r["role"], **institution(r, info, links.get(r["slug"]), printed.get(r["slug"])),
+            "role": r["role"], **institution(r, info, links.get(r["slug"]), printed.get(r["slug"]), signed),
             "homepage": r["homepage"] or info.get("homepage", "") or links.get(r["slug"], {}).get("homepage", ""),
             "orcid": info.get("orcid", ""),
             "openreview": links.get(r["slug"], {}).get("openreview", ""), "scholar": links.get(r["slug"], {}).get("scholar", ""),
@@ -249,7 +253,13 @@ def group_label(name, *institutions):
 
 
 # Institutions written out in full in the Institution column (the maintainer's rule: no abbreviations).
-FULL_NAMES = {"UIUC": "University of Illinois Urbana-Champaign", "UMD": "University of Maryland",
+FULL_NAMES = {"Technische Universität München": "Technical University of Munich",
+              "Universität Köln": "University of Cologne", "Technische Universität Dortmund": "TU Dortmund University",
+              "Universität Konstanz": "University of Konstanz", "Universität St. Gallen": "University of St. Gallen",
+              "Università degli Studi di Verona": "University of Verona", "nanjing university": "Nanjing University",
+              "saarland university": "Saarland University", "university Jean Jaurès": "University of Toulouse Jean Jaurès",
+              "Rheinland-Pfälzische Technische Universität": "RPTU Kaiserslautern-Landau",
+              "UIUC": "University of Illinois Urbana-Champaign", "UMD": "University of Maryland",
               "CMU": "Carnegie Mellon University", "MIT": "Massachusetts Institute of Technology",
               "UCSB": "University of California, Santa Barbara", "UCLA": "University of California, Los Angeles",
               "UC Berkeley": "University of California, Berkeley", "UCSD": "University of California San Diego",
@@ -320,6 +330,7 @@ def institution_name(full):
     elif name == "University of London" and i > 0:
         name = f"{keep[i - 1]}, {name}"
     name = re.sub(r"\bUniv\.\s*", "University ", name)
+    name = re.sub(r"\s+\([A-Za-z][A-Za-z&.-]{1,11}\)$", "", name)  # dblp's "(KAUST)", "(UniGe)" after the full name
     return FULL_NAMES.get(name, name)
 
 
@@ -396,7 +407,7 @@ def build_groups(groups, researchers, papers, names):
                     "description": g["description"],
                     "members": [{"slug": r["slug"], "name": r["name"], "institution_short": r["institution_short"],
                                  "papers": r["papers"], "score": r["score"]} for r in members],
-                    "institutions": list(dict.fromkeys(r["institution_short"] for r in members if r["institution_short"])),
+                    "institutions": list(dict.fromkeys(r["institution_name"] for r in members if r["institution_name"])),
                     **counts(mine), "score_fields": sf, "score": geomean(sf.values()),
                     "logo": logo_of(slug), "chart": year_chart(f"{g['name']}: NNV papers per year by field", mine),
                     "paper_list": [paper_entry(p, names) for p in mine]})
@@ -481,10 +492,10 @@ def area_trends(papers):
 
 
 def overview(papers):
-    areas = [("v1", a["name"], sum(1 for p in papers if p["area"] == a["key"])) for a in AREAS]
+    areas = [(a["key"], a["name"], sum(1 for p in papers if p["area"] == a["key"])) for a in AREAS]
     trends = area_trends(papers)
     return {"years": charts.stacked_columns("NNV papers per year by field", YEARS, field_series(papers)),
-            "areas": charts.hbars("NNV papers per area", areas), "area_trends": trends}
+            "areas": charts.pie("NNV papers per primary area", areas), "area_trends": trends}
 
 
 def write_stubs(section, items):
@@ -542,8 +553,9 @@ def main():
     dblp_people = read_json(PEOPLE_JSON, {})
     coverage = read_json(WORK / "coverage.json", {})
     from_sites = read_json(VIRTUAL_COVERAGE, {})
-    for venue, years in read_json(RESEARCHR_COVERAGE, {}).items():
-        from_sites.setdefault(venue, {}).update(years)
+    for extra in (RESEARCHR_COVERAGE, ROBOTICS_COVERAGE):
+        for venue, years in read_json(extra, {}).items():
+            from_sites.setdefault(venue, {}).update(years)
     for venue, years in from_sites.items():
         for y, c in years.items():
             if c["papers"] > coverage.setdefault(venue, {}).get(y, {}).get("papers", 0):
@@ -573,7 +585,11 @@ def main():
     write_json(DATA / "groups.json", group_list)
     write_json(DATA / "areas.json", areas)
     write_json(DATA / "venues.json", venues)
-    write_json(DATA / "papers.json", [{**paper_entry(p, names), "tracked": bool(p["slugs"])} for p in papers])
+    entries = [{**paper_entry(p, names), "tracked": bool(p["slugs"])} for p in papers]
+    write_json(DATA / "papers.json", entries)
+    digest.update(entries)  # the record only grows: a row for every new in-scope paper, none removed
+    month_digest = digest.build(entries, lambda text: warn(warnings, text))
+    write_json(DATA / "digest.json", month_digest)
     write_json(DATA / "overview.json", overview(papers))
     write_json(DATA / "graph.json", graph.layout(researchers, group_list, papers))
     write_json(DATA / "candidates.json", candidates({r["slug"] for r in researchers}, hidden, count))
@@ -581,6 +597,8 @@ def main():
     write_stubs("groups", [(g["slug"], g["name"]) for g in group_list])
     write_stubs("areas", [(a["key"], a["name"]) for a in AREAS])
     write_stubs("conferences", [(v["key"], v["name"]) for v in VENUES])
+    write_stubs("digest", [(m["month"], m["label"]) for m in month_digest["months"]]  # one call: it clears the folder
+                + [(y["year"], f"Monthly digest {y['year']}") for y in month_digest["years"]])
     WORK.mkdir(parents=True, exist_ok=True)
     (WORK / "build_report.txt").write_text("\n".join(warnings) + "\n", encoding="utf-8")
     print(f"{len(papers)} NNV papers, {meta['tracked_papers']} with a listed researcher, {len(researchers)} researchers, "

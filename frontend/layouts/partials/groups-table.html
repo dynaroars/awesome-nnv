@@ -1,3 +1,4 @@
+{{ $fn := slice }}{{ range hugo.Data.meta.fields }}{{ $fn = $fn | append .name }}{{ end }}
 <div class="table-box">
 <p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" aria-controls="groups-table" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button></p>
 <div class="scroll pinned top">
@@ -15,9 +16,9 @@
 	<tr>
 		{{ partial "field-heads.html" . }}
 		<th class="good" data-podium title="Papers, {{ hugo.Data.meta.recent_year }}: NNV papers from {{ hugo.Data.meta.recent_year }} with at least one group member among the authors, each paper counted once however many members wrote it. The table is ranked by this number, then by the {{ hugo.Data.meta.recent_year }} score.">Papers</th>
-		<th class="score" title="Score, {{ hugo.Data.meta.recent_year }}: the CSRankings formula over {{ hugo.Data.meta.recent_year }} papers only. Each paper gives 1 / (number of authors) to every author; a group's members' shares are added up in each of the five fields (ML, CV, PL, SE, LV), and the score is the geometric mean of (field total + 1). 1.00 means no {{ hugo.Data.meta.recent_year }} papers.">Score</th>
+		<th class="score" title="Score, {{ hugo.Data.meta.recent_year }}: the CSRankings formula over {{ hugo.Data.meta.recent_year }} papers only. Each paper gives 1 / (number of authors) to every author; a group's members' shares are added up in each field ({{ delimit $fn ", " }}), and the score is the geometric mean of (field total + 1). 1.00 means no {{ hugo.Data.meta.recent_year }} papers.">Score</th>
 		<th class="good" title="Papers, all years: NNV papers since 2017 with at least one group member among the authors, each paper counted once.">Papers</th>
-		<th class="score" title="Score, all years: the same CSRankings formula over every NNV paper since 2017. Each paper gives 1 / (number of authors) to every author; members' shares are added up per field (ML, CV, PL, SE, LV), and the score is the geometric mean of (field total + 1).">Score</th>
+		<th class="score" title="Score, all years: the same CSRankings formula over every NNV paper since 2017. Each paper gives 1 / (number of authors) to every author; members' shares are added up per field ({{ delimit $fn ", " }}), and the score is the geometric mean of (field total + 1).">Score</th>
 		<th title="Citations: OpenAlex citations of the group's NNV papers, adding up a paper's preprint and published records and counting each paper once. Shown for reference; not used in the ranking.">Citations</th>
 	</tr>
 	</thead>

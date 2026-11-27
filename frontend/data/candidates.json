@@ -18,6 +18,23 @@
  },
  {
   "status": "on the roster, below 2 papers",
+  "pid": "200/8865",
+  "name": "Maksym Andriushchenko",
+  "group": "hein",
+  "nnv_papers": 1,
+  "last_author": 1,
+  "first_author": 0,
+  "first_year": "2017",
+  "last_year": "2017",
+  "venues": "NeurIPS 1",
+  "affiliation": "ELLIS Institute Tübingen",
+  "homepage": "",
+  "titles": [
+   "Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
   "pid": "280/0336",
   "name": "Benedikt Brückner",
   "group": "venus",
@@ -41,13 +58,13 @@
   "nnv_papers": 1,
   "last_author": 0,
   "first_author": 1,
-  "first_year": "2023",
-  "last_year": "2023",
-  "venues": "NeurIPS 1",
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "AAAI 1",
   "affiliation": "Aalborg University",
   "homepage": "https://www.christianschilling.net/",
   "titles": [
-   "Safety Verification of Decision-Tree Policies in Continuous Time"
+   "Verification of Neural-Network Control Systems by Integrating Taylor Models and Zonotopes"
   ]
  },
  {
@@ -86,6 +103,23 @@
  },
  {
   "status": "on the roster, below 2 papers",
+  "pid": "c/LucaCardelli",
+  "name": "Luca Cardelli",
+  "group": "luca-laurenti",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2019",
+  "last_year": "2019",
+  "venues": "IJCAI 1",
+  "affiliation": "Microsoft Research, Cambridge, UK",
+  "homepage": "http://lucacardelli.name/",
+  "titles": [
+   "Statistical Guarantees for the Robustness of Bayesian Neural Networks"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
   "pid": "311/4891",
   "name": "Lukas Koller",
   "group": "cora",
@@ -99,6 +133,40 @@
   "homepage": "",
   "titles": [
    "Out of the Shadows: Exploring a Latent Space for Neural Network Verification"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
+  "pid": "04/5623",
+  "name": "Martin C. Cooper",
+  "group": "formal-xai",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2021",
+  "venues": "ICML 1",
+  "affiliation": "University of Toulouse, IRIT, France",
+  "homepage": "",
+  "titles": [
+   "Explanations for Monotonic Classifiers"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
+  "pid": "294/8640",
+  "name": "Miklós Z. Horváth",
+  "group": "eran",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 1,
+  "first_year": "2022",
+  "last_year": "2022",
+  "venues": "ICLR 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Boosting Randomized Smoothing with Variance Reduced Classifiers"
   ]
  },
  {
@@ -120,6 +188,40 @@
  },
  {
   "status": "on the roster, below 2 papers",
+  "pid": "182/9259",
+  "name": "Samuel Drews",
+  "group": "albarghouthi",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2017",
+  "last_year": "2017",
+  "venues": "OOPSLA 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "FairSquare: probabilistic verification of program fairness"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
+  "pid": "272/5377",
+  "name": "Thomas Gerspacher",
+  "group": "formal-xai",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2021",
+  "last_year": "2021",
+  "venues": "ICML 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "Explanations for Monotonic Classifiers"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
   "pid": "222/5386",
   "name": "Tianhao Wei",
   "group": "nv-jl",
@@ -133,6 +235,23 @@
   "homepage": "",
   "titles": [
    "ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks"
+  ]
+ },
+ {
+  "status": "on the roster, below 2 papers",
+  "pid": "204/1178",
+  "name": "Yupei Liu",
+  "group": "gong",
+  "nnv_papers": 1,
+  "last_author": 0,
+  "first_author": 0,
+  "first_year": "2023",
+  "last_year": "2023",
+  "venues": "USENIX Security 1",
+  "affiliation": "",
+  "homepage": "",
+  "titles": [
+   "PORE: Provably Robust Recommender Systems against Data Poisoning Attacks"
   ]
  },
  {

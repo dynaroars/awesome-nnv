@@ -539,3 +539,22 @@
 		});
 	});
 })();
+
+// Legend keys of stacked charts (charts._legend): hovering or focusing a field's key highlights its bars and dims
+// the other fields, like the area pie on the front page.
+(function () {
+	document.querySelectorAll("svg.chart .key[data-series]").forEach(function (key) {
+		var svg = key.closest("svg"), cls = key.getAttribute("data-series");
+		function on() {
+			svg.classList.add("series-hl");
+			svg.querySelectorAll(".seg." + cls.split(" ")[0]).forEach(function (el) { el.classList.add("hl"); });
+			key.classList.add("hl");
+		}
+		function off() {
+			svg.classList.remove("series-hl");
+			svg.querySelectorAll(".seg.hl, .key.hl").forEach(function (el) { el.classList.remove("hl"); });
+		}
+		key.addEventListener("mouseenter", on); key.addEventListener("focus", on);
+		key.addEventListener("mouseleave", off); key.addEventListener("blur", off);
+	});
+})();

@@ -92,3 +92,63 @@ class ScoreTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SiteTracksTest(unittest.TestCase):
+    def test_aaai_main(self):
+        from site_tracks import aaai_main
+        self.assertTrue(aaai_main("AAAI Technical Track on Machine Learning I"))
+        self.assertTrue(aaai_main("Main Track: NLP and Machine Learning"))
+        self.assertTrue(aaai_main("Machine Learning Methods"))
+        self.assertTrue(aaai_main("Intelligent Robots (ROB)"))
+        self.assertFalse(aaai_main("AAAI Technical Track on Safe, Robust and Responsible AI Track"))
+        self.assertFalse(aaai_main("AAAI Special Track on AI Alignment"))
+        self.assertFalse(aaai_main("Student Abstract Track"))
+        self.assertFalse(aaai_main("IAAI Technical Track on Emerging Applications of AI"))
+
+    def test_ijcai_main_continues(self):
+        from site_tracks import main_flags
+        rows = [("Invited Speakers", "a"), ("Main track", "b"), ("Machine Learning S-Z", "c"), ("Search", "d"),
+                ("AI for Good", "e"), ("Survey Track", "f"), ("Demo Track", "g")]
+        self.assertEqual(main_flags("ijcai", rows), [False, True, True, True, False, False, False])
+
+
+class SecurityRoboticsTest(unittest.TestCase):
+    def test_workshop_volumes_are_not_main_track(self):
+        tocs = {v["key"]: v["tocs"] for v in VENUES}
+        self.assertTrue(any(re.fullmatch(p, "conf/sp/sp2024") for p in tocs["sp"]))
+        self.assertFalse(any(re.fullmatch(p, "conf/sp/spw2024") for p in tocs["sp"]))
+        self.assertFalse(any(re.fullmatch(p, "conf/ccs/ccsw2024") for p in tocs["ccs"]))
+
+    def test_rss_proceedings_parse(self):
+        import fetch_robotics
+        page = ('<tr><td width=500>\n<a href="p007.html">Certified &amp; Safe Navigation</a><br>\n'
+                '<i>Ada Lovelace, Alan Turing</i><br>\n</td></tr>').encode()
+        fetch_robotics.fetch = lambda url, name, refresh=False: page
+        rows = fetch_robotics.rss(2025)
+        self.assertEqual([(r["key"], r["title"]) for r in rows], [("rss2025/p007", "Certified & Safe Navigation")])
+        self.assertEqual([a["name"] for a in rows[0]["authors"]], ["Ada Lovelace", "Alan Turing"])
+        self.assertEqual(rows[0]["url"], "https://www.roboticsproceedings.org/rss21/p007.html")
+
+
+class DigestTest(unittest.TestCase):
+    def test_resolution_order(self):
+        import datetime as dt
+        import digest
+        d = dt.date
+        one = [(d(2026, 1, 25), "", "u")]
+        two = [(d(2025, 12, 17), "OOPSLA1", "a"), (d(2026, 6, 10), "OOPSLA2", "b")]
+        row = {"accepted": "2026-02-02", "accepted_source": "s"}
+        self.assertEqual(digest.resolve("iclr", 2026, row, one)["date"], d(2026, 2, 2))  # the paper's own date wins
+        self.assertEqual(digest.resolve("iclr", 2026, {}, one), {"date": d(2026, 1, 25), "approx": False, "cycle": "", "source": "u"})
+        self.assertEqual(digest.resolve("oopsla", 2026, {}, two, issue="OOPSLA1")["date"], d(2025, 12, 17))  # named round
+        r = digest.resolve("oopsla", 2026, {}, two, today=d(2026, 3, 1))  # unknown round: latest so far, approximate
+        self.assertEqual((r["date"], r["approx"]), (d(2025, 12, 17), True))
+        self.assertIsNone(digest.resolve("cav", 2026, {}, None))  # no date: never the conference month
+
+    def test_record_survives_key_change(self):
+        import digest
+        site = {"venue": "neurips", "year": 2026, "title": "Verifying Things", "key": "openreview/abc"}
+        dblp = {**site, "key": "conf/nips/X26", "title": "Verifying things."}
+        self.assertEqual(digest.ident(site["venue"], site["year"], site["title"]),
+                         digest.ident(dblp["venue"], dblp["year"], dblp["title"]))

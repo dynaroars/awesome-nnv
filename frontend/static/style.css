@@ -403,7 +403,6 @@ form.feedback .fb-actions { display: flex ; flex-wrap: wrap ; gap: 0.6em ; }
 .chart .band.not { fill: var(--not-accepted) ; }
 .chart .band.est { fill: var(--not-accepted) ; fill-opacity: 0.18 ; stroke: none ; }
 
-.chart .ar-ai { fill: #ab8704 ; }
 .chart .ar-ml { fill: #2d66bd ; }
 .chart .ar-cv { fill: #009cba ; }
 .chart .ar-nlp { fill: #8e479d ; }
@@ -597,6 +596,9 @@ ul.under-list li { margin: 0.4em 0 ; }
 .chart .ar-pl { fill: #ab8704 ; }
 .chart .ar-se { fill: #8e479d ; }
 .chart .ar-lv { fill: #1b7e2a ; }
+.chart .ar-ai { fill: #c94f7c ; }
+.chart .ar-sec { fill: #e07a12 ; }
+.chart .ar-ro { fill: #5a4fcf ; }
 .chart.bars { min-width: 0 ; }
 td.wrap-cell { white-space: normal ; min-width: 14em ; max-width: 34em ; }
 ul.area-counts { columns: 2 ; padding-left: 1.2em ; }
@@ -681,6 +683,7 @@ figure.clear { clear: both ; }
 .chart.lines .dashed .trend { stroke-dasharray: 8 5 ; stroke-linecap: butt ; }
 .chart.lines .dotted .trend { stroke-dasharray: 0.1 5 ; stroke-linecap: round ; stroke-width: 2.6 ; }
 .chart.lines .dashdot .trend { stroke-dasharray: 9 4 2 4 ; stroke-linecap: butt ; }
+.chart.lines .longdash .trend { stroke-dasharray: 18 5 ; stroke-linecap: butt ; }
 .chart.lines .series.hl.dotted .trend { stroke-width: 4 ; }
 tr[data-area].row-hl td { background: var(--callout) ; }
 main.wide { max-width: none ; padding: 0 2rem ; }
@@ -705,9 +708,83 @@ img.flag { width: 16px ; height: 12px ; vertical-align: -1px ; border: 1px solid
 #groups-table .tools { min-width: 10rem ; max-width: 10rem ; white-space: normal ; }
 #groups-table .members { min-width: 12.5rem ; max-width: 12.5rem ; white-space: normal ; }
 #groups-table .members a.more { color: var(--muted) ; white-space: nowrap ; }
-#groups-table tbody td:nth-child(n+5):nth-child(-n+9), #groups-table thead tr + tr th:nth-child(-n+5) {
+#groups-table tbody td:nth-child(n+5):nth-child(-n+12), #groups-table thead tr + tr th:nth-child(-n+8) {
     width: 2.4rem ; min-width: 2.4rem ; padding-left: 0.3em ; padding-right: 0.3em ; }
-#groups-table tbody td:nth-child(n+10), #groups-table thead tr + tr th:nth-child(n+6) {
+#groups-table tbody td:nth-child(n+13), #groups-table thead tr + tr th:nth-child(n+9) {
     width: 3.6rem ; min-width: 3.6rem ; padding-left: 0.35em ; padding-right: 0.35em ; }
 
 @media (max-width: 600px) { #groups-table td.pin1 { min-width: 8rem ; max-width: 10rem ; } }
+
+/* Pie of areas (charts.pie): a fixed colour per area from the eight validated categorical hues, cycled in size
+   order so a hue repeats only eight slices apart; labels carry identity. Validator on the drawn ring (ties in AREAS
+   order), light and dark: all checks pass (2026-11-27). Deeper steps of the hues failed CVD separation next to
+   their base hue, so they are not used. Re-run the check if the size order changes. 
+   Hovering or focusing an area (slice, leader or label) highlights it and dims the rest. */
+.chart.pie .slice { stroke: var(--bg) ; stroke-width: 2 ; stroke-linejoin: round ; }
+.chart.pie .leader { fill: none ; stroke: var(--axis) ; stroke-width: 1 ; }
+.chart.pie .pie-label { font-size: 11px ; fill: var(--chart-text) ; }
+.chart.pie .pie-label .value { fill: var(--chart-value) ; font-weight: 600 ; }
+.chart.pie .pie-hit { fill: transparent ; }
+.chart.pie .pie-item { cursor: pointer ; outline: none ; transition: opacity 0.12s ; }
+.chart.pie:has(.pie-item:hover, .pie-item:focus-visible, .pie-item.hl) .pie-item:not(:hover):not(:focus-visible):not(.hl) { opacity: 0.25 ; }
+.chart.pie .pie-item:hover .leader, .chart.pie .pie-item:focus-visible .leader, .chart.pie .pie-item.hl .leader { stroke: var(--chart-value) ; }
+.chart.pie .pie-item:hover .pie-label, .chart.pie .pie-item:focus-visible .pie-label, .chart.pie .pie-item.hl .pie-label { fill: var(--chart-value) ; font-weight: 600 ; }
+.chart.pie .pie-probabilistic .slice { fill: #257de0 ; }
+.chart.pie .pie-training .slice { fill: #f47230 ; }
+.chart.pie .pie-control .slice { fill: #00b894 ; }
+.chart.pie .pie-bounds .slice { fill: #f2a600 ; }
+.chart.pie .pie-other .slice { fill: #ee7fac ; }
+.chart.pie .pie-complete .slice { fill: #008a17 ; }
+.chart.pie .pie-explanations .slice { fill: #6a4ce2 ; }
+.chart.pie .pie-architectures .slice { fill: #257de0 ; }
+.chart.pie .pie-relational .slice { fill: #ec4647 ; }
+.chart.pie .pie-inputs .slice { fill: #f47230 ; }
+.chart.pie .pie-quantized .slice { fill: #00b894 ; }
+.chart.pie .pie-repair .slice { fill: #f2a600 ; }
+.chart.pie .pie-outputs .slice { fill: #ee7fac ; }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .chart.pie .pie-probabilistic .slice { fill: #338ced ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-training .slice { fill: #e76624 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-control .slice { fill: #00a888 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-bounds .slice { fill: #d28e05 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-other .slice { fill: #e24d8b ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-complete .slice { fill: #0aac23 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-explanations .slice { fill: #9887ef ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-architectures .slice { fill: #338ced ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-relational .slice { fill: #eb6263 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-inputs .slice { fill: #e76624 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-quantized .slice { fill: #00a888 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-repair .slice { fill: #d28e05 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-outputs .slice { fill: #e24d8b ; }
+}
+:root[data-theme="dark"] .chart.pie .pie-probabilistic .slice { fill: #338ced ; }
+:root[data-theme="dark"] .chart.pie .pie-training .slice { fill: #e76624 ; }
+:root[data-theme="dark"] .chart.pie .pie-control .slice { fill: #00a888 ; }
+:root[data-theme="dark"] .chart.pie .pie-bounds .slice { fill: #d28e05 ; }
+:root[data-theme="dark"] .chart.pie .pie-other .slice { fill: #e24d8b ; }
+:root[data-theme="dark"] .chart.pie .pie-complete .slice { fill: #0aac23 ; }
+:root[data-theme="dark"] .chart.pie .pie-explanations .slice { fill: #9887ef ; }
+:root[data-theme="dark"] .chart.pie .pie-architectures .slice { fill: #338ced ; }
+:root[data-theme="dark"] .chart.pie .pie-relational .slice { fill: #eb6263 ; }
+:root[data-theme="dark"] .chart.pie .pie-inputs .slice { fill: #e76624 ; }
+:root[data-theme="dark"] .chart.pie .pie-quantized .slice { fill: #00a888 ; }
+:root[data-theme="dark"] .chart.pie .pie-repair .slice { fill: #d28e05 ; }
+:root[data-theme="dark"] .chart.pie .pie-outputs .slice { fill: #e24d8b ; }
+
+/* Monthly digest */
+.digest-years { display: flex ; flex-wrap: wrap ; gap: 0.4em ; margin: 1em 0 ; }
+.digest-years a, .digest-years .current { padding: 0.15em 0.6em ; border: 1px solid var(--line) ; border-radius: 4px ; font-variant-numeric: tabular-nums ; }
+.digest-years .current { background: var(--th) ; font-weight: 600 ; }
+.digest-month { margin-top: 1.6em ; }
+.digest-intro { max-width: 48rem ; }
+ul.papers.digest > li { margin-bottom: 1em ; }
+.digest-summary { margin: 0.3em 0 0.1em ; max-width: 48rem ; }
+.digest-date { margin: 0 ; font-size: 0.85em ; }
+.digest-nav { display: flex ; gap: 1.5em ; margin: 1.5em 0 ; }
+
+/* Stacked charts: hovering or focusing a legend key highlights that field (site.js). */
+svg.chart .key { cursor: default ; outline: none ; }
+svg.chart .key .key-hit { fill: transparent ; }
+svg.chart .seg, svg.chart .key { transition: opacity 0.12s ; }
+svg.chart.series-hl .seg:not(.hl), svg.chart.series-hl .key:not(.hl) { opacity: 0.25 ; }
+svg.chart .key.hl text { fill: var(--chart-value) ; font-weight: 600 ; }

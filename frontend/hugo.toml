@@ -35,6 +35,11 @@ disableKinds = ['taxonomy', 'term', 'rss']
   pageRef = '/papers'
   weight = 5
 [[menus.main]]
+  name = 'Monthly digest'
+  identifier = 'digest'
+  pageRef = '/digest'
+  weight = 7
+[[menus.main]]
   name = 'Collaboration'
   identifier = 'collaboration'
   pageRef = '/collaboration'
@@ -43,9 +48,9 @@ disableKinds = ['taxonomy', 'term', 'rss']
   name = 'About'
   identifier = 'about'
   pageRef = '/about'
-  weight = 7
+  weight = 8
 [[menus.main]]
   name = 'Feedback'
   identifier = 'feedback'
   pageRef = '/feedback'
-  weight = 8
+  weight = 9

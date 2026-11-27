@@ -19,6 +19,8 @@ VIRTUAL_COVERAGE = WORK / "coverage_virtual.json"
 VIRTUAL_SITES = {"neurips": "https://neurips.cc", "icml": "https://icml.cc", "iclr": "https://iclr.cc"}
 RESEARCHR = WORK / "researchr.jsonl.gz"
 RESEARCHR_COVERAGE = WORK / "coverage_researchr.json"
+ROBOTICS = WORK / "robotics.jsonl.gz"
+ROBOTICS_COVERAGE = WORK / "coverage_robotics.json"
 # Accepted-paper lists on conf.researchr.org (the conference's own site) for the SE and PL venues: track page and the
 # track label of the main research track on it ({y} is the year).
 RESEARCHR_TRACKS = {"icse": ("icse-{y}/icse-{y}-research-track", "Research Track"),
@@ -79,19 +81,43 @@ VENUES = [
      "stream": "cav", "tocs": [r"conf/cav/cav(\d{4})-\d"]},
     {"key": "lics", "name": "LICS", "full_name": "ACM/IEEE Symposium on Logic in Computer Science",
      "stream": "lics", "tocs": [r"conf/lics/lics(\d{4})"]},
+    {"key": "aaai", "name": "AAAI", "full_name": "AAAI Conference on Artificial Intelligence",
+     "stream": "aaai", "tocs": [r"conf/aaai/aaai(\d{4})"]},
+    {"key": "ijcai", "name": "IJCAI", "full_name": "International Joint Conference on Artificial Intelligence",
+     "stream": "ijcai", "tocs": [r"conf/ijcai/ijcai(\d{4})"]},
+    {"key": "ccs", "name": "CCS", "full_name": "ACM Conference on Computer and Communications Security",
+     "stream": "ccs", "tocs": [r"conf/ccs/ccs(\d{4})"]},
+    {"key": "sp", "name": "S&P", "full_name": "IEEE Symposium on Security and Privacy",
+     "stream": "sp", "tocs": [r"conf/sp/sp(\d{4})"]},
+    {"key": "uss", "name": "USENIX Security", "full_name": "USENIX Security Symposium",
+     "stream": "uss", "tocs": [r"conf/uss/uss(\d{4})"]},
+    {"key": "ndss", "name": "NDSS", "full_name": "Network and Distributed System Security Symposium",
+     "stream": "ndss", "tocs": [r"conf/ndss/ndss(\d{4})"]},
+    {"key": "icra", "name": "ICRA", "full_name": "IEEE International Conference on Robotics and Automation",
+     "stream": "icra", "tocs": [r"conf/icra/icra(\d{4})"]},
+    {"key": "iros", "name": "IROS", "full_name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+     "stream": "iros", "tocs": [r"conf/iros/iros(\d{4})"]},
+    {"key": "rss", "name": "RSS", "full_name": "Robotics: Science and Systems",
+     "stream": "rss", "tocs": [r"conf/rss/rss(\d{4})"]},
 ]
 VENUE_KEYS = [v["key"] for v in VENUES]
 
 
 VENUE_MONTH = {"icml": 7, "iclr": 5, "neurips": 12, "cvpr": 6, "iccv": 10, "eccv": 10, "pldi": 6, "popl": 1,
-               "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7}
+               "icfp": 9, "oopsla": 10, "fse": 11, "icse": 5, "ase": 10, "issta": 7, "cav": 7, "lics": 7,
+               "aaai": 2, "ijcai": 8, "ccs": 11, "sp": 5, "uss": 8, "ndss": 2, "icra": 5, "iros": 10, "rss": 7}
 MONTH_EXCEPTIONS = {("iclr", 2020): 4, ("iclr", 2021): 5, ("iclr", 2022): 4, ("iclr", 2026): 4, ("eccv", 2020): 8,
                     ("eccv", 2018): 9, ("eccv", 2024): 9, ("fse", 2024): 7, ("fse", 2025): 6, ("fse", 2026): 7,
                     ("fse", 2017): 9, ("fse", 2018): 11, ("fse", 2019): 8, ("ase", 2018): 9, ("ase", 2019): 11,
                     ("ase", 2020): 9, ("ase", 2021): 11, ("ase", 2023): 9, ("ase", 2025): 11, ("issta", 2024): 9,
                     ("icse", 2017): 5, ("icse", 2025): 4, ("lics", 2018): 7, ("lics", 2019): 6, ("lics", 2022): 8,
                     ("lics", 2024): 7, ("icfp", 2025): 10, ("oopsla", 2023): 10,
-                    ("oopsla", 2024): 10, ("oopsla", 2025): 10, ("neurips", 2017): 12}
+                    ("oopsla", 2024): 10, ("oopsla", 2025): 10, ("neurips", 2017): 12,
+                    # IJCAI-PRICAI 2020 met in January 2021; its proceedings came out in July 2020.
+                    ("aaai", 2019): 1, ("aaai", 2026): 1, ("ijcai", 2018): 7, ("ijcai", 2020): 7, ("ijcai", 2022): 7,
+                    ("ccs", 2017): 10, ("ccs", 2018): 10, ("ccs", 2024): 10, ("ccs", 2025): 10, ("icra", 2026): 6,
+                    ("iros", 2017): 9, ("iros", 2019): 11, ("iros", 2021): 9, ("rss", 2018): 6, ("rss", 2019): 6,
+                    ("rss", 2022): 6, ("rss", 2025): 6}
 
 
 def conference_month(venue, year):
@@ -108,6 +134,9 @@ FIELDS = [
     {"key": "pl", "name": "PL", "full_name": "Programming languages", "venues": ["pldi", "popl", "icfp", "oopsla"]},
     {"key": "se", "name": "SE", "full_name": "Software engineering", "venues": ["fse", "icse", "ase", "issta"]},
     {"key": "lv", "name": "LV", "full_name": "Logic and verification", "venues": ["cav", "lics"]},
+    {"key": "ai", "name": "AI", "full_name": "Artificial intelligence", "venues": ["aaai", "ijcai"]},
+    {"key": "sec", "name": "Sec", "full_name": "Computer security", "venues": ["ccs", "sp", "uss", "ndss"]},
+    {"key": "ro", "name": "Rob", "full_name": "Robotics", "venues": ["icra", "iros", "rss"]},
 ]
 for _f in FIELDS:
     _f["names"] = [VENUE_NAME[k] for k in _f["venues"]]
@@ -130,13 +159,19 @@ AREAS = [
     {"key": "control", "line": (1, "dotted"), "name": "NN control systems",
      "description": "Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning."},
     {"key": "relational", "line": (2, "dotted"), "name": "Global & relational properties",
-     "description": "Global robustness, universal perturbations, fairness, monotonicity, hyperproperties, and semantic specifications."},
+     "description": "Global robustness, universal perturbations, fairness, monotonicity, and hyperproperties."},
     {"key": "architectures", "line": (1, "dashed"), "name": "Beyond feed-forward nets",
-     "description": "Verification for transformers, RNNs, GNNs, tree ensembles, language and vision-language models, and object detectors."},
+     "description": "Verification for transformers, RNNs, GNNs, language and vision-language models, and object detectors."},
     {"key": "quantized", "line": (2, "dashdot"), "name": "Quantized & bit-level",
      "description": "Bit-precise verification of quantized and binarized networks, including bit-flip resilience."},
     {"key": "other", "line": (2, "dashed"), "name": "Other",
      "description": "Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys."},
+    # Specification areas (added 2026-11-27 at the maintainer's request): what is certified, not how. Primary only when
+    # the new specification is the paper's main contribution; otherwise a tag.
+    {"key": "inputs", "line": (3, "dashdot"), "name": "Beyond ℓp input properties",
+     "description": "Input sets other than an ℓp ball: geometric, semantic and structural transformations, coordinated (convolutional) perturbations, patches, text edits, and graph and point-cloud changes."},
+    {"key": "outputs", "line": (1, "longdash"), "name": "Beyond linear output properties",
+     "description": "Properties that are not linear constraints on the outputs: IoU and detection, segmentation-level properties, pose, confidence and calibration, embedding distances, generation risks, and non-linear specifications."},
 ]
 AREA_KEYS = [a["key"] for a in AREAS]
 AREA_NAME = {a["key"]: a["name"] for a in AREAS}
@@ -290,14 +325,15 @@ def accepted_rows():
 
 
 def all_papers():
-    """dblp, then the conference sites for venue-years dblp lacks (ICML/NeurIPS/ICLR lists, researchr lists), then
+    """dblp, then the conference sites for venue-years dblp lacks (ICML/NeurIPS/ICLR lists, researchr lists, RSS
+    proceedings and OpenAlex's IROS records), then
     accepted.csv; a paper already listed by an earlier source (same venue, same title) is not added again."""
     papers = list(read_jsonl_gz(PAPERS))
     listed = {(p["venue"], p["year"]) for p in papers}
     if Path(VIRTUAL).exists():
         papers.extend(p for p in read_jsonl_gz(VIRTUAL) if (p["venue"], p["year"]) not in listed)
     seen = {(p["venue"], norm_title(p["title"])) for p in papers}
-    later = list(read_jsonl_gz(RESEARCHR)) if Path(RESEARCHR).exists() else []
+    later = [p for f in (RESEARCHR, ROBOTICS) if Path(f).exists() for p in read_jsonl_gz(f)]
     for p in later + accepted_rows():
         if (p["venue"], norm_title(p["title"])) not in seen:
             seen.add((p["venue"], norm_title(p["title"])))
@@ -355,7 +391,7 @@ _COUNTRY_WORDS = {**{v.lower(): k for k, v in COUNTRY_NAME.items()}, "usa": "US"
 # Institutions that dblp or the roster name without a country.
 _COUNTRY_HINTS = [
     ("CH", r"\beth\b|zurich|zürich|epfl|lausanne|\bidsia\b|swiss federal"),
-    ("GB", r"\blse\b|london school|oxford|cambridge|imperial college|\bucl\b|university college london|edinburgh|liverpool|manchester|"
+    ("GB", r"\blse\b|london school|strathclyde|royal holloway|university of kent|oxford|cambridge|imperial college|\bucl\b|university college london|edinburgh|liverpool|manchester|"
            r"surrey|birmingham|southampton|warwick|king's college|queen mary|bristol|glasgow|\bdeepmind\b"),
     ("IL", r"technion|hebrew university|tel aviv|weizmann|bar-ilan|ben-gurion"),
     ("DE", r"\btum\b|technical university of munich|technische universität münchen|tübingen|tuebingen|cispa|saarland|"
@@ -364,14 +400,17 @@ _COUNTRY_HINTS = [
     ("AT", r"\bista\b|ist austria|institute of science and technology austria|klosterneuburg|tu wien|vienna|graz|linz"),
     ("FR", r"paul sabatier|aniti|\birit\b|sncf|foxstream|paris|espci|inria|sorbonne|toulouse|grenoble|\bens\b|cnrs|saclay|lille|lyon|thales|irt saint"),
     ("NL", r"delft|amsterdam|eindhoven|utrecht|radboud|twente|leiden"),
-    ("BE", r"leuven|ghent|louvain"),
+    ("BE", r"leuven|ghent|louvain|brussel|bruxelles|antwerp"),
+    ("FR", r"payflows"),
+    ("SA", r"kaust|king abdullah|saudi"),
+    ("RU", r"moscow|skolkovo|skoltech|saint petersburg|innopolis"),
     ("SE", r"\bkth\b|lund|uppsala|chalmers|linköping"),
     ("DK", r"aalborg|copenhagen|\bdtu\b|aarhus"),
     ("VN", r"cmc corporation|cmc global|vietnam|hanoi|ho chi minh|vinai|vinuni|fpt software"),
     ("HU", r"szeged|budapest"),
     ("CZ", r"masaryk|prague|brno|czech technical"),
     ("CY", r"limassol|cyprus"),
-    ("CN", r"nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
+    ("CN", r"southwest university|nanchang|chinese academy|peking|tsinghua|nanjing|east china normal|\becnu\b|zhejiang|shanghai|fudan|wuhan|"
            r"beijing|harbin|sun yat-sen|huazhong|xi'an|xidian|nankai|tianjin|sichuan|shenzhen|hunan|"
            r"university of science and technology of china|\bustc\b|alibaba|baidu|tencent|huawei|beihang|jilin|"
            r"guangzhou|zhengzhou|chongqing|hangzhou|southern university of science"),
@@ -385,9 +424,9 @@ _COUNTRY_HINTS = [
     ("KR", r"kaist|seoul|korea|yonsei|postech|sungkyunkwan"),
     ("JP", r"tokyo|kyoto|nict|\bnii\b|national institute of informatics|osaka|kyushu|riken|tohoku|nagoya|japan"),
     ("IN", r"\biit\b|indian institute|bangalore|bengaluru|iisc|delhi|mumbai"),
-    ("IT", r"milano|milan|politecnico|roma|rome|torino|turin|pisa|bologna|padova|trento"),
+    ("IT", r"verona|genoa|genova|padua|padova|venice|venezia|foscari|milano|milan|politecnico|roma|rome|torino|turin|pisa|bologna|padova|trento"),
     ("ES", r"madrid|barcelona|imdea|valencia"),
-    ("US", r"\buiuc\b|\bucsb\b|santa barbara|whiting school|siebel school|machine learning department|milwaukee|morgan stanley|massachusetts|\bmit\b|stanford|carnegie mellon|\bcmu\b|illinois|berkeley|university of california|"
+    ("US", r"\buiuc\b|ames research|kent state|liquid ai|consensys|international business machines|\bibm research|\bucsb\b|santa barbara|whiting school|siebel school|machine learning department|milwaukee|morgan stanley|massachusetts|\bmit\b|stanford|carnegie mellon|\bcmu\b|illinois|berkeley|university of california|"
            r"\bucla\b|\bucsd\b|uc san diego|princeton|harvard|columbia university|cornell|duke|purdue|penn state|"
            r"pennsylvania|university of texas|ut austin|maryland|virginia|wisconsin|university of chicago|michigan|"
            r"university of washington|washington university|vanderbilt|rutgers|johns hopkins|george mason|"

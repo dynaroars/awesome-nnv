@@ -1,0 +1,8 @@
+{{- /* Year pages of the digest, newest first; the current year is not a link. */ -}}
+{{- $year := .year }}
+{{- $years := hugo.Data.digest.years }}
+<nav class="digest-years" aria-label="Digest years">
+{{- range $years }}
+{{- if eq .year $year }}<span class="current" aria-current="page">{{ .year }}</span>{{ else }}<a href="{{ printf "digest/%s/" .year | relURL }}">{{ .year }}</a>{{ end }}
+{{- end }}
+</nav>
