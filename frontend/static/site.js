@@ -142,6 +142,27 @@
 		podium(table, start ? start[1] : undefined);
 	});
 
+	document.querySelectorAll("button.period-toggle").forEach(function (b) {
+		var t = b.closest("table"), body = t.tBodies[0];
+		var col = leafHeadings(t.tHead).filter(function (x) { return x[0].hasAttribute("data-podium"); })[0];
+		function swap(el, a, d) {
+			var now = a === "html" ? el.innerHTML : el.getAttribute(a) || "", next = el.getAttribute(d) || "";
+			if (a === "html") el.innerHTML = next; else el.setAttribute(a, next);
+			el.setAttribute(d, now);
+		}
+		b.addEventListener("click", function () {
+			b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") === "true" ? "false" : "true");
+			swap(b, "html", "data-alt");
+			swap(b, "title", "data-alt-title");
+			t.querySelectorAll("td[data-alt]").forEach(function (td) {
+				swap(td, "html", "data-alt");
+				if (td.hasAttribute("data-alt-sort")) swap(td, "data-sort", "data-alt-sort");
+			});
+			t.querySelectorAll("th[aria-sort]").forEach(function (th) { th.removeAttribute("aria-sort"); });
+			if (col) sortBy(t, col[1], col[0]);
+		});
+	});
+
 	document.querySelectorAll("table[data-collapsible]").forEach(function (table) {
 		var columns = leafHeadings(table.tHead).filter(function (pair) { return pair[0].hasAttribute("data-extra"); })
 			.map(function (pair) { return pair[1]; });
@@ -278,12 +299,12 @@
 })();
 
 (function () {
-	var legend = document.querySelector(".legend-box");
+	var legend = document.querySelector(".legend-box"), card = legend && legend.querySelector(".group-card");
+	if (card) document.body.appendChild(card);
 	document.querySelectorAll("svg.net").forEach(function (svg) {
-		var pinned = null, card = legend && legend.querySelector(".group-card"), infoEl = document.getElementById("group-info");
+		var pinned = null, infoEl = document.getElementById("group-info");
 		var info = infoEl ? JSON.parse(infoEl.textContent) : {};
 		function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
-		if (card) document.body.appendChild(card);
 		function place(x, y) {
 			var w = card.offsetWidth, h = card.offsetHeight, gap = 16;
 			var left = x + gap + w > window.innerWidth - 8 ? x - gap - w : x + gap;
@@ -316,6 +337,7 @@
 		}
 		function nodeEl(id) { return svg.querySelector('.node[data-id="' + id + '"]'); }
 		function restore() {
+			if (off()) return;
 			var n = pinned && nodeEl(pinned);
 			if (n) { focus(pinned); showCard(n.dataset.group, n); placeBy(n.querySelector(".shape")); }
 			else { clear(); if (card) card.hidden = true; }
@@ -335,12 +357,14 @@
 			if (!legend) return;
 			legend.classList.add("focus");
 			svg.querySelectorAll(".node.hl").forEach(function (n) {
-				legend.querySelectorAll("li[data-color]").forEach(function (li) {
+				legend.querySelectorAll(".graph-legend:not([hidden]) li[data-color]").forEach(function (li) {
 					if (li.dataset.color === n.dataset.color) li.classList.add("hl");
 				});
 			});
 		}
+		function off() { var f = svg.closest("figure"); return f && f.hidden; }
 		function focus(id) {
+			if (off()) return;
 			clear();
 			svg.classList.add("focus");
 			svg.querySelectorAll('.node[data-id="' + id + '"]').forEach(function (n) { n.classList.add("hl"); });
@@ -353,6 +377,7 @@
 			lightLegend();
 		}
 		function focusGroup(color) {
+			if (off()) return;
 			clear();
 			svg.classList.add("focus");
 			var ids = {};
@@ -493,19 +518,33 @@
 		var tools = svg.closest(".toc-body") && svg.closest(".toc-body").querySelector(".zoom-tools");
 		if (!tools) return;
 		tools.hidden = false;
-		tools.querySelector("[data-zoom=in]").addEventListener("click", function () { zoom(1.5); });
-		tools.querySelector("[data-zoom=out]").addEventListener("click", function () { zoom(1 / 1.5); });
-		tools.querySelector("[data-zoom=reset]").addEventListener("click", reset);
+		function on() { return !svg.closest("figure").hidden; }
+		tools.querySelector("[data-zoom=in]").addEventListener("click", function () { if (on()) zoom(1.5); });
+		tools.querySelector("[data-zoom=out]").addEventListener("click", function () { if (on()) zoom(1 / 1.5); });
+		tools.querySelector("[data-zoom=reset]").addEventListener("click", function () { if (on()) reset(); });
 	});
 })();
 
 (function () {
-	var input = document.querySelector(".graph-search input"), svg = document.querySelector("svg.net");
-	if (!input || !svg || !svg.pin) return;
+	var input = document.querySelector(".graph-search input"), svgs = document.querySelectorAll("svg.net");
+	if (!input || !svgs.length || !svgs[0].pin) return;
+	var svg = document.querySelector("figure.graph:not([hidden]) svg.net") || svgs[0];
+	var views = document.querySelectorAll(".graph-view button");
+	views.forEach(function (b) {
+		b.addEventListener("click", function () {
+			document.querySelectorAll("figure.graph[data-view], .graph-legend[data-view]").forEach(function (f) { f.hidden = f.dataset.view !== b.dataset.view; });
+			views.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+			svg.pin(null);
+			svg = document.querySelector('figure.graph[data-view="' + b.dataset.view + '"] svg.net');
+			nodes = list();
+			if (input.value) go();
+		});
+	});
 	var box = input.closest(".graph-search"), status = box.querySelector(".search-status");
 	box.hidden = false;
 	function fold(t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
-	var nodes = Array.prototype.map.call(svg.querySelectorAll(".node"), function (n) { return { el: n, key: fold(n.dataset.name || "") }; });
+	function list() { return Array.prototype.map.call(svg.querySelectorAll(".node"), function (n) { return { el: n, key: fold(n.dataset.name || "") }; }); }
+	var nodes = list();
 	function find(q) {
 		var k = fold(q);
 		if (!k) return null;

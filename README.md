@@ -45,7 +45,7 @@ make fetch       # download the venues' main tracks from dblp (SPARQL)
 make topics      # add new prefilter hits to topics.csv
 make candidates  # rank undecided authors of NNV papers
 make data        # rebuild frontend/data and the page stubs
-make run         # local server with drafts at http://localhost:1313
+make run         # local server with drafts at http://localhost:1212
 make build       # production build (must show no warnings)
 make test        # unit tests
 ```

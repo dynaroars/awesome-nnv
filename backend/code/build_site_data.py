@@ -216,7 +216,7 @@ def build_researchers(people, groups, papers, dblp_people):
         })
     inherit_institutions(out)
     for r in out:
-        recent = [p for p in by_slug.get(r["slug"], []) if p["year"] == RECENT_YEAR]
+        recent = [p for p in by_slug.get(r["slug"], []) if p["recent"]]
         r["recent_papers"] = len(recent)
         r["recent_score"] = round(sum(score_fields(recent, {r["slug"]}).values()), 3)
     # The Researchers page ranks active people: this year's papers, then this year's score, then the all-year score.
@@ -377,7 +377,9 @@ def logo_of(slug):
     return ""
 
 
-RECENT_YEAR = LAST_YEAR  # the year the leaderboard ranks by: this year
+RECENT_YEAR = LAST_YEAR
+_T = datetime.date.today()
+RECENT_FROM = f"{_T.year - 1}-{_T.month:02d}-01"
 
 
 def group_home(g, members):
@@ -406,7 +408,7 @@ def build_groups(groups, researchers, papers, names):
         where = collections.Counter(r["country"] for r in members if r["country"]).most_common(1)
         country = where[0][0] if where else ""
         home, home_country = group_home(g, members)
-        recent = [p for p in mine if p["year"] == RECENT_YEAR]
+        recent = [p for p in mine if p["recent"]]
         sf_recent = score_fields(recent, ids)
         out.append({"recent_score": geomean(sf_recent.values()), "recent_papers": len(recent),
                     "recent_score_fields": sf_recent,
@@ -420,7 +422,8 @@ def build_groups(groups, researchers, papers, names):
                                  "papers": r["papers"], "score": r["score"]} for r in members],
                     "institutions": list(dict.fromkeys(r["institution_name"] for r in members if r["institution_name"])),
                     **counts(mine), "score_fields": sf, "score": geomean(sf.values()),
-                    "logo": logo_of(slug), "chart": year_chart(f"{g['name']}: NNV papers per year by field", mine),
+                    "logo": logo_of(slug), "chart": year_chart(f"{g['name']}: NNV papers per year by field", mine, 342),
+                    "pie": area_pie(f"{g['name']}: NNV papers per primary area", mine, "../../areas/{key}/"),
                     "paper_list": [paper_entry(p, names) for p in mine]})
     out = [g for g in out if g["members"]]
     # The leaderboard ranks active groups: by this year's papers, then this year's score, then all-time score (the
@@ -439,17 +442,26 @@ def top(items, key, n=10):
     return [i for k, i in enumerate(ranked) if k < n or (key(i) == cut and cut > LEADING_MIN)]
 
 
+def group_pie(a, mine, groups):
+    lead = top(groups, lambda g: g["areas"][a["key"]])
+    ids = {g["slug"]: {m["slug"] for m in g["members"]} for g in lead}
+    rest = sum(1 for p in mine if not any(ids[g["slug"]] & set(p["slugs"]) for g in lead))
+    rows = [(f"g{k}", g["name"], g["areas"][a["key"]], f"../../groups/{g['slug']}/") for k, g in enumerate(lead)]
+    return charts.pie(f"{a['name']}: NNV papers of the leading groups", rows + [("rest", "Other groups", rest, "../")], r=140)
+
+
 def build_areas(papers, researchers, groups, names):
     out = []
     for a in AREAS:
         mine = [p for p in papers if p["area"] == a["key"]]
         tagged = [p for p in papers if a["key"] in p["tags"]]
         out.append({**a, **counts(mine), "tagged": len(tagged), "total": len(mine) + len(tagged),
-                    "chart": year_chart(f"{a['name']}: NNV papers per year by field", mine + tagged),
+                    "chart": year_chart(f"{a['name']}: NNV papers per year by field", mine + tagged, 342),
                     "tracked": sum(1 for p in mine if p["slugs"]),
                     "researchers": [{"slug": r["slug"], "name": r["name"], "papers": r["areas"][a["key"]],
                                      "group": r["group"], "group_name": r["group_name"]}
                                     for r in top(researchers, lambda r: r["areas"][a["key"]])],
+                    "group_pie": group_pie(a, mine, groups),
                     "groups": [{"slug": g["slug"], "name": g["name"], "papers": g["areas"][a["key"]]}
                                for g in top(groups, lambda g: g["areas"][a["key"]])],
                     "paper_list": [paper_entry(p, names) for p in mine + tagged]})
@@ -488,8 +500,11 @@ SMALL = 20
 PAT = {"ml": " pat-hash", "ai": " pat-stripe"}
 
 
+ALL = []
+
+
 def big_fields(papers):
-    n = collections.Counter(FIELD_OF[p["venue"]] for p in papers)
+    n = collections.Counter(FIELD_OF[p["venue"]] for p in (ALL or papers))
     big = sorted((f for f in FIELDS if n[f["key"]] >= SMALL), key=lambda f: -n[f["key"]])
     return big, [f for f in sorted(FIELDS, key=lambda f: -n[f["key"]]) if f not in big]
 
@@ -520,8 +535,12 @@ def field_charts(papers, venues):
     return out
 
 
-def year_chart(label, papers):
-    return charts.stacked_columns(label, YEARS, field_series(papers, present_only=True))
+def year_chart(label, papers, h=180):
+    return charts.stacked_columns(label, YEARS, field_series(papers), plot_h=h)
+
+
+def area_pie(label, papers, link):
+    return charts.pie(label, [(a["key"], a["name"], sum(1 for p in papers if p["area"] == a["key"])) for a in AREAS], link=link)
 
 
 def area_trends(papers):
@@ -605,6 +624,10 @@ def main():
         for y, c in years.items():
             if c["papers"] > coverage.setdefault(venue, {}).get(y, {}).get("papers", 0):
                 coverage[venue][y] = c
+    ALL[:] = papers
+    acc = digest.accepted(papers)
+    for p in papers:
+        p["recent"] = (acc.get(p["key"]) or f"{p['date']}-01") >= RECENT_FROM
     researchers, names = build_researchers(people, groups, papers, dblp_people)
     group_list = build_groups(groups, researchers, papers, names)
     mark = {g["slug"]: {k: g[k] for k in ("color", "hue", "shape", "filled")} for g in group_list}
@@ -619,7 +642,7 @@ def main():
             "years": YEARS, "venues": [{"key": v["key"], "name": v["name"]} for v in VENUES],
             "fields": [{**f, "names": f["names"]} for f in FIELDS], "scored_fields": SCORED_FIELDS,
             "areas": [{"key": a["key"], "name": a["name"]} for a in AREAS],
-            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "recent_year": RECENT_YEAR, "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
+            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "recent_year": RECENT_YEAR, "recent_from": RECENT_FROM[:7], "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
             "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps,
             "from_sites": [{"venue": VENUE_NAME[v], "year": int(y), "site": c["tocs"][0]}
                            for v, ys in from_sites.items() for y, c in ys.items()
@@ -636,7 +659,10 @@ def main():
     month_digest = digest.build(entries, lambda text: warn(warnings, text))
     write_json(DATA / "digest.json", month_digest)
     write_json(DATA / "overview.json", {**overview(papers), "fields": field_charts(papers, venues)})
-    write_json(DATA / "graph.json", graph.layout(researchers, group_list, papers))
+    now = [{**r, "papers": r["recent_papers"]} for r in researchers if r["recent_papers"]]
+    write_json(DATA / "graph.json", {"all": graph.layout(researchers, group_list, papers),
+                                     "recent": graph.layout(now, group_list, [p for p in papers if p["recent"]]),
+                                     "recent_year": RECENT_YEAR})
     write_json(DATA / "candidates.json", candidates({r["slug"] for r in researchers}, hidden, count))
     write_stubs("researchers", [(r["slug"], r["name"]) for r in researchers])
     write_stubs("groups", [(g["slug"], g["name"]) for g in group_list])

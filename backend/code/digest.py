@@ -109,6 +109,16 @@ def month_label(month):
     return f"{calendar.month_name[int(m)]} {y}"
 
 
+def accepted(papers, today=None):
+    rec, cyc, seen = read_record(), notifications(), seen_dates()
+    out = {}
+    for p in papers:
+        k = ident(p["venue"], p["year"], p["title"])
+        w = resolve(p["venue"], p["year"], rec.get(k), cyc.get((p["venue"], p["year"])), seen.get(k), today, p.get("issue", ""))
+        out[p["key"]] = w["date"].isoformat() if w else ""
+    return out
+
+
 def build(papers, warn=lambda text: None, today=None):
     """digest.json: the months (newest first) with their papers, and the in-scope papers without an acceptance date."""
     today = today or datetime.date.today()

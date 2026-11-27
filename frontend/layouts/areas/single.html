@@ -3,10 +3,16 @@
 <p>{{ $a.description }}</p>
 {{- $total := add $a.papers $a.tagged }}
 <p>{{ $total }} NNV paper{{ if ne (int $total) 1 }}s{{ end }} in this area.</p>
+<div class="fig-row clear">
 <figure>
 {{ $a.chart | safeHTML }}
-<figcaption>Papers per year, by CSRankings field.{{ partial "gap-note.html" . }}</figcaption>
+<figcaption>Papers per year, by CSRankings field.</figcaption>
 </figure>
+<figure>
+{{ $a.group_pie | safeHTML }}
+<figcaption>Papers by leading group, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
 <div class="fig-row">
 <div>
 <h2>Leading researchers</h2>

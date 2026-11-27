@@ -1,0 +1,20 @@
+{{- $g := .g }}
+<figure class="graph"{{ with .key }} data-view="{{ . }}"{{ end }}{{ if .hide }} hidden{{ end }}>
+<svg class="net" viewBox="0 0 {{ $g.width }} {{ $g.height }}" role="img" aria-label="{{ .title }}">
+	{{- range $g.edges }}
+	<line class="edge" data-a="{{ .a }}" data-b="{{ .b }}" x1="{{ .x1 }}" y1="{{ .y1 }}" x2="{{ .x2 }}" y2="{{ .y2 }}" stroke-width="{{ .width }}"><title>{{ .a_name }} – {{ .b_name }}: {{ .weight }} shared paper{{ if ne (int .weight) 1 }}s{{ end }}</title></line>
+	{{- end }}
+	{{- range $g.edges }}{{ if ge (int .weight) 2 }}
+	<text class="ew" data-a="{{ .a }}" data-b="{{ .b }}" x="{{ .wx }}" y="{{ add .wy 4 }}" text-anchor="middle">{{ .weight }}</text>
+	{{- end }}{{ end }}
+	{{- range $g.nodes }}
+	<a href="{{ .url | relURL }}" class="node hue{{ .hue }}{{ if not .filled }} hollow{{ end }}" data-id="{{ .id }}" data-name="{{ .name }}" data-group="{{ .group_slug }}" data-papers="{{ .papers }}" data-degree="{{ .degree }}" aria-label="{{ .name }} ({{ .group }}): {{ .papers }} NNV papers, {{ .degree }} co-author{{ if ne (int .degree) 1 }}s{{ end }} on the list" data-color="{{ .color }}">
+		{{- if eq .shape "square" }}<rect class="shape" x="{{ .rx }}" y="{{ .ry }}" width="{{ .side }}" height="{{ .side }}"/>
+		{{- else if .points }}<polygon class="shape" points="{{ .points }}"/>
+		{{- else }}<circle class="shape" cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}"/>{{ end }}
+		<text class="deg" x="{{ .x }}" y="{{ add .y 4 }}" text-anchor="middle">{{ .degree }}</text>
+		<text x="{{ .lx }}" y="{{ .ly }}">{{ .name }}</text>
+	</a>
+	{{- end }}
+</svg>
+</figure>

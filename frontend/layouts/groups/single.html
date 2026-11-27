@@ -6,12 +6,17 @@
 <p>{{ with $g.tools }}Tools: {{ delimit . ", " }}. {{ end }}{{ with $g.url }}<a href="{{ . }}">Website</a>.{{ end }}{{ with $g.institutions }} Institutions: {{ delimit . ", " }}.{{ end }}</p>
 <p>{{ len $g.members }} listed researcher{{ if ne (len $g.members) 1 }}s{{ end }}, {{ $g.papers }} NNV paper{{ if ne (int $g.papers) 1 }}s{{ end }} (shared papers counted once), {{ $g.citations }} citations, and a score of {{ printf "%.2f" $g.score }}.</p>
 {{- $members := slice }}{{ range $g.members }}{{ $members = $members | append (index (where hugo.Data.researchers "slug" .slug) 0) }}{{ end }}
-{{- /* Ordered by this year's papers, then this year's score, all-year papers, all-year score and citations (member_rank). */}}
 {{ partial "researcher-table.html" (dict "rows" (sort $members "member_rank") "id" "members-table" "group" false) }}
-<figure class="clear">
+<div class="fig-row clear">
+<figure>
 {{ $g.chart | safeHTML }}
-<figcaption>The group's NNV papers per year, by CSRankings field (a paper with several members counts once).{{ partial "gap-note.html" . }}</figcaption>
+<figcaption>The group's NNV papers per year, by CSRankings field (a paper with several members counts once).</figcaption>
 </figure>
+<figure>
+{{ $g.pie | safeHTML }}
+<figcaption>The group's NNV papers by primary area, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
 <h2>Areas</h2>
 <ul class="area-counts">
 {{- range hugo.Data.meta.areas }}{{ $n := index $g.areas .key }}{{ if $n }}

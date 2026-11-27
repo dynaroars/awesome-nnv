@@ -222,6 +222,13 @@ the site uses.
   panels and the table, but is still fetched and scanned and keeps its own page (the maintainer's rule).
 - **Group pages** list their members by this year's papers, then this year's score, all-year papers, all-year
   score and citations (`member_rank`, the maintainer's order of 2026-11-27).
+- **Last year** (the maintainer's definition, 2026-11-27): papers accepted on or after `RECENT_FROM`, the first of the
+  month 12 months before the build (2025-11-01 on 2026-11-27), by the digest's acceptance date, else the conference
+  month. It drives `recent_papers`, `recent_score`, the rankings, the Researchers filter, the front-page group
+  filter and the Collaboration graph's "Last year" view. The front page and the Researchers page open on "Last year";
+  the heading button flips the Papers and Score columns to "Total" and re-sorts (as in vn-ai-ranking); Citations is
+  all years. The Collaboration page opens on "Last year" with its own legend (only groups drawn), and "All years"
+  switches graph and legend; clusters are placed largest first, left to right and top to bottom, 110 units apart.
 - **Group leaderboard** (front page, the maintainer's rule): only groups with two or more listed researchers and an NNV paper in `RECENT_YEAR` are
   shown (2026-11-27; the others are still tracked and keep their pages); ordered by the group's NNV papers in `RECENT_YEAR` (this
   year), then its score over that year's papers alone, then all-year score; columns: that year's papers and score, then
@@ -246,7 +253,11 @@ the site uses.
   equal area). `assign_marks` in `build_site_data.py` gives the largest groups circles first and picks, within a
   shape, the free hue that shares the fewest papers with groups already on it. Groups of `LABEL_MIN` or more are
   filled, smaller ones hollow; unlabelled groups are hollow grey circles. Same-group links are drawn shorter
-  (`component_layout` in `graph.py`) so groups form clusters. Hovering a node or a legend entry shows a card next
+  (`component_layout` in `graph.py`) so groups form clusters. For desktop screens (the maintainer's request,
+  2026-11-27) the drawing is `WIDTH` 2400 wide, clusters of 30+ researchers are laid out wide (`ASPECT` 3), others
+  at 1.35, and clusters are placed in rows (shelves), largest first, left to right then top to bottom, with a
+  110-unit gap so separate clusters never touch. The page has two drawings, Last year (default: papers accepted in
+  the last 12 months, legend limited to the groups drawn) and All years, switched by the buttons above the graph. Hovering a node or a legend entry shows a card next
   to the mouse with the researcher, then the group's description, tools and counts (`group-info` JSON in the page).
 - **Leading researchers and groups** (area and conference pages, Areas list): at least 2 papers there
   (`LEADING_MIN`), top 10 plus anyone tied with the tenth when the tenth has more than 2; ties broken by score.

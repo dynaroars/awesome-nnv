@@ -113,19 +113,22 @@ def pie(label, rows, unit="papers", cx=320, cy=200, r=112, link="areas/{key}/"):
     one link to the area's page (`link`): hovering or focusing any of them highlights the area. Labels sit on the slice's side, pushed apart by
     their own height."""
     import math
-    rows = sorted([r for r in rows if r[2]], key=lambda x: -x[2])
+    rows = sorted([r for r in rows if r[2]], key=lambda x: (x[0] == "rest", -x[2]))
     total = sum(r[2] for r in rows) or 1
     out = [f'<svg class="chart pie" viewBox="0 0 {WIDTH} {2 * cy}" role="img" aria-label="{_esc(label)}">']
     labels, start, slices = [], 0.0, {}
-    for k, (key, name, value) in enumerate(rows):
+    for k, (key, name, value, *href) in enumerate(rows):
         sweep = 2 * math.pi * value / total
         a0, a1 = start, start + sweep
         p0 = (cx + r * math.sin(a0), cy - r * math.cos(a0))
         p1 = (cx + r * math.sin(a1), cy - r * math.cos(a1))
         share = 100 * value / total
         tip = _esc(f"{name}: {_fmt(value)} {unit} ({share:.0f}%)")
-        slices[key] = (f'<path class="slice" d="M{cx},{cy} L{p0[0]:.1f},{p0[1]:.1f} A{r},{r} 0 '
-                       f'{1 if sweep > math.pi else 0} 1 {p1[0]:.1f},{p1[1]:.1f} Z"><title>{tip}</title></path>', tip)
+        if len(rows) == 1:
+            slices[key] = (f'<circle class="slice" cx="{cx}" cy="{cy}" r="{r}"><title>{tip}</title></circle>', tip)
+        else:
+            slices[key] = (f'<path class="slice" d="M{cx},{cy} L{p0[0]:.1f},{p0[1]:.1f} A{r},{r} 0 '
+                           f'{1 if sweep > math.pi else 0} 1 {p1[0]:.1f},{p1[1]:.1f} Z"><title>{tip}</title></path>', tip)
         mid = (a0 + a1) / 2
         count = f"{_fmt(value)} ({share:.0f}%)"
         lines = _wrap(name, 34)
@@ -133,7 +136,7 @@ def pie(label, rows, unit="papers", cx=320, cy=200, r=112, link="areas/{key}/"):
             lines.append(count)
         else:
             lines[-1] = f"{lines[-1]} {count}"
-        labels.append({"key": key, "mid": mid, "lines": lines, "value": count, "h": 12 * len(lines) + 3,
+        labels.append({"key": key, "href": href[0] if href else link.format(key=key), "mid": mid, "lines": lines, "value": count, "h": 12 * len(lines) + 3,
                        "right": math.sin(mid) >= 0, "y": cy - (r + 18) * math.cos(mid)})
         start = a1
     top, bottom = 8, 2 * cy - 8
@@ -162,7 +165,7 @@ def pie(label, rows, unit="papers", cx=320, cy=200, r=112, link="areas/{key}/"):
             spans.append(f'<tspan x="{tx:.1f}" y="{y0 + 12 * i:.1f}">{t}</tspan>')
         hit_x = tx if l["right"] else tx - 200
         path, tip = slices[l["key"]]
-        out.append(f'<a class="pie-item pie-{l["key"]}" href="{link.format(key=l["key"])}" aria-label="{tip}">{path}{leader}'
+        out.append(f'<a class="pie-item pie-{l["key"]}" href="{l["href"]}" aria-label="{tip}">{path}{leader}'
                    f'<rect class="pie-hit" x="{hit_x:.1f}" y="{l["ly"] - l["h"] / 2:.1f}" width="200" height="{l["h"]:.1f}"/>'
                    f'<text class="pie-label" text-anchor="{"start" if l["right"] else "end"}">{"".join(spans)}</text></a>')
     out.append("</svg>")

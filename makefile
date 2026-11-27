@@ -32,7 +32,7 @@ data:
 	cd backend/code && $(PYTHON) find_candidates.py && $(PYTHON) site_affiliations.py && $(PYTHON) build_site_data.py
 
 run:
-	cd frontend && hugo serve --buildDrafts --noHTTPCache --disableFastRender
+	cd frontend && hugo serve --port 1212 --buildDrafts --noHTTPCache --disableFastRender
 
 build:
 	rm -rf frontend/public

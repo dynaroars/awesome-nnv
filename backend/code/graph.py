@@ -6,7 +6,8 @@ import networkx as nx
 
 from common import LABEL_MIN
 
-WIDTH = 1600
+WIDTH = 2400
+ASPECT = 3.0
 PAD = 30
 LABEL_W = 7.2
 
@@ -57,7 +58,7 @@ def separate(pos, size, rounds=400, gap=6):
     return {k: tuple(v) for k, v in pos.items()}
 
 
-def component_layout(g, size, seed, group_of):
+def component_layout(g, size, seed, group_of, aspect=1.35):
     n = g.number_of_nodes()
     if n == 1:
         return {next(iter(g.nodes)): (0.0, 0.0)}
@@ -67,8 +68,12 @@ def component_layout(g, size, seed, group_of):
     span = 105 * math.sqrt(n)
     xs = [x for x, _ in pos.values()]
     ys = [y for _, y in pos.values()]
-    s = span / max((max(xs) - min(xs)) or 1, (max(ys) - min(ys)) or 1)
-    pos = {k: ((x - min(xs)) * s * 1.35, (y - min(ys)) * s) for k, (x, y) in pos.items()}
+    if (max(ys) - min(ys)) > (max(xs) - min(xs)):
+        pos = {k: (y, x) for k, (x, y) in pos.items()}
+        xs, ys = ys, xs
+    sx = span * math.sqrt(1.35 * aspect) / ((max(xs) - min(xs)) or 1)
+    sy = span * math.sqrt(1.35 / aspect) / ((max(ys) - min(ys)) or 1)
+    pos = {k: ((x - min(xs)) * sx, (y - min(ys)) * sy) for k, (x, y) in pos.items()}
     pos = separate(pos, size)
     x0 = min(x - size[k][0] for k, (x, _) in pos.items())
     y0 = min(y for _, y in pos.values())
@@ -98,20 +103,27 @@ def layout(researchers, groups, papers):
     for (a, b), w in weight.items():
         g.add_edge(a, b, weight=w)
     comps = sorted(nx.connected_components(g), key=lambda c: (-len(c), min(c)))
-    placed, x0, y0, row_h = {}, PAD, PAD, 0
     size = {s: (radius_of(r["papers"]) + 2, radius_of(r["papers"]) + 8 + LABEL_W * len(r["name"]))
             for s, r in by_slug.items()}
+    blocks = []
     for k, comp in enumerate(comps):
-        pos = component_layout(g.subgraph(comp).copy(), size, seed=k + 1, group_of={x: by_slug[x]["group"] for x in comp})
-        w = max(x + size[s][1] for s, (x, _) in pos.items()) + 24
-        h = max(y for _, y in pos.values()) + 30
-        if x0 + w > WIDTH - PAD and x0 > PAD:
-            x0, y0, row_h = PAD, y0 + row_h + 40, 0
+        pos = component_layout(g.subgraph(comp).copy(), size, seed=k + 1, group_of={x: by_slug[x]["group"] for x in comp},
+                               aspect=ASPECT if len(comp) >= 30 else 1.35)
+        blocks.append((comp, pos))
+    gap = 110
+    dims = []
+    for comp, pos in blocks:
+        dims.append((max(x + size[s][1] for s, (x, _) in pos.items()) + 12, max(y for _, y in pos.values()) + 24))
+    full = max([WIDTH] + [w + 2 * PAD for w, _ in dims])
+    placed, x0, y0, row = {}, PAD, PAD, 0
+    for (comp, pos), (w, h) in zip(blocks, dims):
+        if x0 > PAD and x0 + w > full - PAD:
+            x0, y0, row = PAD, y0 + row + gap, 0
         for s, (x, y) in pos.items():
-            placed[s] = (x0 + x + 12, y0 + y + 12)
-        x0 += w + 40
-        row_h = max(row_h, h)
-    height = y0 + row_h + PAD
+            placed[s] = (x0 + x, y0 + y + 12)
+        x0 += w + gap
+        row = max(row, h)
+    height = y0 + row + PAD
     width = max([WIDTH] + [x + LABEL_W * len(by_slug[s]["name"]) + 30 for s, (x, _) in placed.items()])
     degree = dict(g.degree())
     nodes = []

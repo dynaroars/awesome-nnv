@@ -810,3 +810,61 @@ html { overflow-anchor: none ; }
 .field-grid figure { margin: 0.5em 0 0 ; }
 .field-grid figcaption { margin-bottom: 0.2em ; }
 .field-grid .chart { width: 100% ; height: auto ; min-width: 0 ; }
+
+.graph-view { display: flex ; gap: 0 ; margin: 0 0 0.5em ; }
+.graph-view button { background: none ; border: 1px solid var(--line) ; color: var(--link) ; font: inherit ; cursor: pointer ; padding: 0.15em 0.8em ; }
+.graph-view button:first-child { border-radius: 4px 0 0 4px ; }
+.graph-view button:last-child { border-radius: 0 4px 4px 0 ; border-left: none ; }
+.graph-view button[aria-pressed="true"] { background: var(--th) ; color: var(--fg) ; font-weight: 600 ; }
+.graph-legend[hidden], figure.graph[hidden] { display: none !important ; }
+.chart.pie .pie-g0 .slice { fill: #257de0 ; }
+.chart.pie .pie-g1 .slice { fill: #f47230 ; }
+.chart.pie .pie-g2 .slice { fill: #00b894 ; }
+.chart.pie .pie-g3 .slice { fill: #f2a600 ; }
+.chart.pie .pie-g4 .slice { fill: #ee7fac ; }
+.chart.pie .pie-g5 .slice { fill: #008a17 ; }
+.chart.pie .pie-g6 .slice { fill: #6a4ce2 ; }
+.chart.pie .pie-g7 .slice { fill: #ec4647 ; }
+.chart.pie .pie-g8 .slice { fill: #257de0 ; }
+.chart.pie .pie-g9 .slice { fill: #f47230 ; }
+.chart.pie .pie-g10 .slice { fill: #00b894 ; }
+.chart.pie .pie-g11 .slice { fill: #f2a600 ; }
+.chart.pie .pie-g12 .slice { fill: #ee7fac ; }
+.chart.pie .pie-g13 .slice { fill: #008a17 ; }
+.chart.pie .pie-g14 .slice { fill: #6a4ce2 ; }
+.chart.pie .pie-g15 .slice { fill: #ec4647 ; }
+.chart.pie .pie-rest .slice { fill: #9a9a9a ; }
+:root[data-theme="dark"] .chart.pie .pie-g0 .slice { fill: #338ced ; }
+:root[data-theme="dark"] .chart.pie .pie-g1 .slice { fill: #e76624 ; }
+:root[data-theme="dark"] .chart.pie .pie-g2 .slice { fill: #00a888 ; }
+:root[data-theme="dark"] .chart.pie .pie-g3 .slice { fill: #d28e05 ; }
+:root[data-theme="dark"] .chart.pie .pie-g4 .slice { fill: #e24d8b ; }
+:root[data-theme="dark"] .chart.pie .pie-g5 .slice { fill: #0aac23 ; }
+:root[data-theme="dark"] .chart.pie .pie-g6 .slice { fill: #9887ef ; }
+:root[data-theme="dark"] .chart.pie .pie-g7 .slice { fill: #eb6263 ; }
+:root[data-theme="dark"] .chart.pie .pie-g8 .slice { fill: #338ced ; }
+:root[data-theme="dark"] .chart.pie .pie-g9 .slice { fill: #e76624 ; }
+:root[data-theme="dark"] .chart.pie .pie-g10 .slice { fill: #00a888 ; }
+:root[data-theme="dark"] .chart.pie .pie-g11 .slice { fill: #d28e05 ; }
+:root[data-theme="dark"] .chart.pie .pie-g12 .slice { fill: #e24d8b ; }
+:root[data-theme="dark"] .chart.pie .pie-g13 .slice { fill: #0aac23 ; }
+:root[data-theme="dark"] .chart.pie .pie-g14 .slice { fill: #9887ef ; }
+:root[data-theme="dark"] .chart.pie .pie-g15 .slice { fill: #eb6263 ; }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .chart.pie .pie-g0 .slice { fill: #338ced ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g1 .slice { fill: #e76624 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g2 .slice { fill: #00a888 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g3 .slice { fill: #d28e05 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g4 .slice { fill: #e24d8b ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g5 .slice { fill: #0aac23 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g6 .slice { fill: #9887ef ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g7 .slice { fill: #eb6263 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g8 .slice { fill: #338ced ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g9 .slice { fill: #e76624 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g10 .slice { fill: #00a888 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g11 .slice { fill: #d28e05 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g12 .slice { fill: #e24d8b ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g13 .slice { fill: #0aac23 ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g14 .slice { fill: #9887ef ; }
+    :root:not([data-theme="light"]) .chart.pie .pie-g15 .slice { fill: #eb6263 ; }
+}
