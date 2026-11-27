@@ -219,6 +219,9 @@ def build_researchers(people, groups, papers, dblp_people):
         recent = [p for p in by_slug.get(r["slug"], []) if p["recent"]]
         r["recent_papers"] = len(recent)
         r["recent_score"] = round(sum(score_fields(recent, {r["slug"]}).values()), 3)
+        f = [p for p in by_slug.get(r["slug"], []) if p["five"]]
+        r["five_papers"] = len(f)
+        r["five_score"] = round(sum(score_fields(f, {r["slug"]}).values()), 3)
     # The Researchers page ranks active people: this year's papers, then this year's score, then the all-year score.
     for k, r in enumerate(sorted(out, key=lambda r: (-r["recent_papers"], -r["recent_score"], -r["score"],
                                                     -r["papers"], r["name"]))):
@@ -380,6 +383,7 @@ def logo_of(slug):
 RECENT_YEAR = LAST_YEAR
 _T = datetime.date.today()
 RECENT_FROM = f"{_T.year - 1}-{_T.month:02d}-01"
+FIVE_FROM = f"{_T.year - 5}-{_T.month:02d}-01"
 
 
 def group_home(g, members):
@@ -410,7 +414,9 @@ def build_groups(groups, researchers, papers, names):
         home, home_country = group_home(g, members)
         recent = [p for p in mine if p["recent"]]
         sf_recent = score_fields(recent, ids)
+        f = [p for p in mine if p["five"]]
         out.append({"recent_score": geomean(sf_recent.values()), "recent_papers": len(recent),
+                    "five_score": geomean(score_fields(f, ids).values()), "five_papers": len(f),
                     "recent_score_fields": sf_recent,
                     "country": country, "country_name": COUNTRY_NAME.get(country, country),
                     "institution": home, "institution_country": home_country,
@@ -627,7 +633,8 @@ def main():
     ALL[:] = papers
     acc = digest.accepted(papers)
     for p in papers:
-        p["recent"] = (acc.get(p["key"]) or f"{p['date']}-01") >= RECENT_FROM
+        d = acc.get(p["key"]) or f"{p['date']}-01"
+        p["recent"], p["five"] = d >= RECENT_FROM, d >= FIVE_FROM
     researchers, names = build_researchers(people, groups, papers, dblp_people)
     group_list = build_groups(groups, researchers, papers, names)
     mark = {g["slug"]: {k: g[k] for k in ("color", "hue", "shape", "filled")} for g in group_list}
@@ -642,7 +649,7 @@ def main():
             "years": YEARS, "venues": [{"key": v["key"], "name": v["name"]} for v in VENUES],
             "fields": [{**f, "names": f["names"]} for f in FIELDS], "scored_fields": SCORED_FIELDS,
             "areas": [{"key": a["key"], "name": a["name"]} for a in AREAS],
-            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "recent_year": RECENT_YEAR, "recent_from": RECENT_FROM[:7], "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
+            "label_min": LABEL_MIN, "countries": COUNTRY_NAME, "recent_year": RECENT_YEAR, "recent_from": RECENT_FROM[:7], "five_from": FIVE_FROM[:7], "papers": len(papers), "tracked_papers": sum(1 for p in papers if p["slugs"]),
             "researchers": sum(1 for r in researchers if r["papers"]), "groups": len(group_list), "gaps": gaps,
             "from_sites": [{"venue": VENUE_NAME[v], "year": int(y), "site": c["tocs"][0]}
                            for v, ys in from_sites.items() for y, c in ys.items()
@@ -660,8 +667,10 @@ def main():
     write_json(DATA / "digest.json", month_digest)
     write_json(DATA / "overview.json", {**overview(papers), "fields": field_charts(papers, venues)})
     now = [{**r, "papers": r["recent_papers"]} for r in researchers if r["recent_papers"]]
+    fv = [{**r, "papers": r["five_papers"]} for r in researchers if r["five_papers"]]
     write_json(DATA / "graph.json", {"all": graph.layout(researchers, group_list, papers),
                                      "recent": graph.layout(now, group_list, [p for p in papers if p["recent"]]),
+                                     "five": graph.layout(fv, group_list, [p for p in papers if p["five"]]),
                                      "recent_year": RECENT_YEAR})
     write_json(DATA / "candidates.json", candidates({r["slug"] for r in researchers}, hidden, count))
     write_stubs("researchers", [(r["slug"], r["name"]) for r in researchers])

@@ -142,24 +142,23 @@
 		podium(table, start ? start[1] : undefined);
 	});
 
-	document.querySelectorAll("button.period-toggle").forEach(function (b) {
-		var t = b.closest("table"), body = t.tBodies[0];
+	document.querySelectorAll(".period-view").forEach(function (v) {
+		var t = document.getElementById(v.dataset.for), bs = v.querySelectorAll("button");
+		if (!t) return;
+		var h = t.tHead.querySelector("th.period");
 		var col = leafHeadings(t.tHead).filter(function (x) { return x[0].hasAttribute("data-podium"); })[0];
-		function swap(el, a, d) {
-			var now = a === "html" ? el.innerHTML : el.getAttribute(a) || "", next = el.getAttribute(d) || "";
-			if (a === "html") el.innerHTML = next; else el.setAttribute(a, next);
-			el.setAttribute(d, now);
-		}
-		b.addEventListener("click", function () {
-			b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") === "true" ? "false" : "true");
-			swap(b, "html", "data-alt");
-			swap(b, "title", "data-alt-title");
-			t.querySelectorAll("td[data-alt]").forEach(function (td) {
-				swap(td, "html", "data-alt");
-				if (td.hasAttribute("data-alt-sort")) swap(td, "data-sort", "data-alt-sort");
+		bs.forEach(function (b) {
+			b.addEventListener("click", function () {
+				var k = b.dataset.p;
+				bs.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+				if (h) h.textContent = b.textContent;
+				t.querySelectorAll("td[data-v" + k + "]").forEach(function (td) {
+					td.innerHTML = td.getAttribute("data-v" + k);
+					if (td.hasAttribute("data-s" + k)) td.setAttribute("data-sort", td.getAttribute("data-s" + k));
+				});
+				t.querySelectorAll("th[aria-sort]").forEach(function (th) { th.removeAttribute("aria-sort"); });
+				if (col) sortBy(t, col[1], col[0]);
 			});
-			t.querySelectorAll("th[aria-sort]").forEach(function (th) { th.removeAttribute("aria-sort"); });
-			if (col) sortBy(t, col[1], col[0]);
 		});
 	});
 

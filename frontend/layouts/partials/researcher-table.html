@@ -1,8 +1,7 @@
 {{- $rows := .rows }}{{ $id := .id }}{{ $group := .group | default true }}{{ $page := .page | default 0 }}{{ $collapse := .collapse | default false }}
 <div class="table-box">
-{{- if $collapse }}
-<p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" aria-controls="{{ $id }}" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button></p>
-{{- end }}
+{{- $from := (time.AsTime (printf "%s-01" hugo.Data.meta.recent_from)).Format "January 2006" }}{{ $five := (time.AsTime (printf "%s-01" hugo.Data.meta.five_from)).Format "January 2006" }}
+<p class="table-tools"><span class="graph-view period-view" role="group" aria-label="Papers counted" data-for="{{ $id }}"><button type="button" data-p="0" aria-pressed="true" title="Papers accepted since {{ $from }}">Last year</button><button type="button" data-p="1" aria-pressed="false" title="Papers accepted since {{ $five }}">Last 5 years</button><button type="button" data-p="2" aria-pressed="false" title="All NNV papers since 2017">Total</button></span>{{ if $collapse }} <button type="button" class="more-columns" aria-expanded="false" aria-controls="{{ $id }}" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button>{{ end }}</p>
 <div class="scroll pinned top">
 <table class="podium{{ if $collapse }} collapsed{{ end }}" id="{{ $id }}"{{ if $collapse }} data-collapsible{{ end }}{{ with $page }} data-page-size="{{ . }}"{{ end }}>
 	<thead>
@@ -12,12 +11,12 @@
 		{{- if $group }}<th rowspan="2" class="l pin2">Group</th>{{ end }}
 		<th rowspan="2" class="l">Institution</th>
 		<th colspan="{{ len hugo.Data.meta.fields }}" data-extra>NNV papers by field</th>
-		{{ $from := (time.AsTime (printf "%s-01" hugo.Data.meta.recent_from)).Format "January 2006" }}<th colspan="2" class="period"><button type="button" class="period-toggle" aria-pressed="true" data-alt="Total" title="Papers accepted since {{ $from }}. Click to show all years." data-alt-title="All NNV papers since 2017. Click to show the last year.">Last year</button></th>
+		<th colspan="2" class="period">Last year</th>
 		<th rowspan="2" title="Citations: OpenAlex citations of their NNV papers, all years, adding up a paper's preprint and published records. Shown for reference; not used in the ranking.">Citations</th>
 	</tr>
 	<tr>
 		{{ partial "field-heads.html" . }}
-		<th class="good" data-podium title="Papers: their NNV papers, last year (accepted since {{ $from }}) or all years. Ranked by papers, then score.">Papers</th>
+		<th class="good" data-podium title="Papers: their NNV papers, in the period chosen above (last year from {{ $from }}, last 5 years from {{ $five }}, or all years). Ranked by papers, then score.">Papers</th>
 		<th class="score" title="Score: the CSRankings adjusted count over the same papers. Each paper gives 1 / (number of authors) to every author.">Score</th>
 	</tr>
 	</thead>
@@ -29,8 +28,8 @@
 		{{- if $group }}<td class="l pin2">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .group | relURL }}" title="{{ .group_name }}">{{ cond site.Params.local .group_label_local .group_label }}</a></td>{{ end }}
 		<td class="l">{{ if site.Params.local }}{{ partial "flag.html" .country_local }} {{ .institution_local_name }}{{ with .institution_local_via }}<span class="note" title="Institution of {{ . }}, their likely supervisor">*</span>{{ end }}{{ else }}{{ partial "flag.html" .country }} {{ .institution_name }}{{ with .institution_via }}<span class="note" title="Institution of {{ . }}, their likely supervisor">*</span>{{ end }}{{ end }}</td>
 		{{ partial "field-cells.html" .fields }}
-		<td class="total good" data-sort="{{ printf "%010.4f" (add (mul .recent_papers 1000.0) .recent_score) }}" data-alt="{{ .papers }}" data-alt-sort="{{ printf "%010.4f" (add (mul .papers 1000.0) .score) }}">{{ .recent_papers }}</td>
-		<td class="score" data-alt="{{ printf "%.2f" .score }}">{{ printf "%.2f" .recent_score }}</td>
+		<td class="total good" data-sort="{{ printf "%010.4f" (add (mul .recent_papers 1000.0) .recent_score) }}" data-v0="{{ .recent_papers }}" data-v1="{{ .five_papers }}" data-v2="{{ .papers }}" data-s0="{{ printf "%010.4f" (add (mul .recent_papers 1000.0) .recent_score) }}" data-s1="{{ printf "%010.4f" (add (mul .five_papers 1000.0) .five_score) }}" data-s2="{{ printf "%010.4f" (add (mul .papers 1000.0) .score) }}">{{ .recent_papers }}</td>
+		<td class="score" data-v0="{{ printf "%.2f" .recent_score }}" data-v1="{{ printf "%.2f" .five_score }}" data-v2="{{ printf "%.2f" .score }}">{{ printf "%.2f" .recent_score }}</td>
 		<td>{{ .citations }}</td>
 	</tr>
 	{{- end }}

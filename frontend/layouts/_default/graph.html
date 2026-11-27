@@ -1,4 +1,4 @@
-{{ define "main" -}}{{- $g := hugo.Data.graph.all }}{{ $r := hugo.Data.graph.recent }}
+{{ define "main" -}}{{- $g := hugo.Data.graph.all }}{{ $r := hugo.Data.graph.recent }}{{ $f := hugo.Data.graph.five }}
 {{ .Content }}
 <div class="with-toc graph-page">
 <aside class="toc legend-box" aria-label="Groups">
@@ -21,15 +21,24 @@
 	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" true) }}Group of {{ hugo.Data.meta.label_min }}+ researchers</li>
 	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" false) }}Group of 1&ndash;{{ sub hugo.Data.meta.label_min 1 }} researchers</li>
 </ul>
+<ul class="graph-legend" data-view="five" hidden>
+	{{- range $f.legend }}
+	<li data-color="{{ .color }}" data-group="{{ .slug }}">{{ partial "swatch.html" . }}{{ with .logo }}<img class="legend-logo" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .country }}{{ partial "flag.html" . }}{{ end }}{{ if eq .label "" }}Other groups{{ else }}<a href="{{ printf "groups/%s/" .slug | relURL }}">{{ .label }}</a>{{ end }}</li>
+	{{- end }}
+	<li class="edge-key"><span class="line-key"></span>Shared NNV papers</li>
+	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" true) }}Group of {{ hugo.Data.meta.label_min }}+ researchers</li>
+	<li class="size-key">{{ partial "swatch.html" (dict "hue" 0 "shape" "circle" "filled" false) }}Group of 1&ndash;{{ sub hugo.Data.meta.label_min 1 }} researchers</li>
+</ul>
 </aside>
 <div class="toc-body">
 <div class="graph-tools">
-<p class="graph-view" role="group" aria-label="Papers shown"><button type="button" data-view="recent" aria-pressed="true">Last year</button><button type="button" data-view="all" aria-pressed="false">All years</button></p>
+<p class="graph-view" role="group" aria-label="Papers shown"><button type="button" data-view="recent" aria-pressed="true">Last year</button><button type="button" data-view="five" aria-pressed="false">Last 5 years</button><button type="button" data-view="all" aria-pressed="false">All years</button></p>
 <p class="graph-search" hidden><label for="graph-search-input">Find a researcher</label> <input id="graph-search-input" type="search" list="graph-names" placeholder="Name" autocomplete="off"> <span class="search-status note" aria-live="polite"></span></p>
 <datalist id="graph-names">{{ range sort $g.nodes "name" }}<option value="{{ .name }}">{{ end }}</datalist>
 <p class="zoom-tools" hidden><button type="button" data-zoom="in" title="Zoom in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" title="Zoom out" aria-label="Zoom out">&minus;</button><button type="button" data-zoom="reset" title="Show the whole graph">Reset</button><span class="note">Ctrl/&#8984; + scroll or pinch to zoom, drag to pan</span></p>
 </div>
 {{ partial "collab-graph.html" (dict "g" $r "key" "recent" "title" (printf "%s, last year" .Title)) }}
+{{ partial "collab-graph.html" (dict "g" $f "key" "five" "title" (printf "%s, last 5 years" .Title) "hide" true) }}
 {{ partial "collab-graph.html" (dict "g" $g "key" "all" "title" .Title "hide" true) }}
 </div>
 </div>
