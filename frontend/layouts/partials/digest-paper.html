@@ -7,5 +7,6 @@
 	<br><span class="authors">
 	{{- range $k, $a := .authors }}{{ if $k }}, {{ end }}{{ if $a.slug }}<a href="{{ printf "researchers/%s/" $a.slug | relURL }}">{{ $a.name }}</a>{{ else }}{{ $a.name }}{{ end }}{{ end }}</span>
 	{{- with .summary }}<p class="digest-summary">{{ . }}</p>{{ else }}<p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>{{ end }}
+	{{- with .where }}<p class="digest-where">{{ range . }}<span>{{ partial "flag.html" .flag }} <b>{{ .city }}</b> &middot; {{ .kind }}{{ with .pos }} {{ . }}{{ end }}, {{ .room }} &middot; {{ .when }} ({{ .city }} time)</span>{{ end }}</p>{{ end }}
 	{{- with .accepted }}<p class="note digest-date">{{ if $.approx }}Accepted by {{ (time .).Format "2 January 2006" }}, the latest notification of its conference's submission cycles{{ else }}Accepted {{ (time .).Format "2 January 2006" }}{{ end }}{{ with $.accepted_source }} (<a href="{{ . }}">dates</a>){{ end }}{{ with $.late }}; added to the digest {{ (time .).Format "2 January 2006" }}{{ end }}.</p>{{ end }}
 </li>

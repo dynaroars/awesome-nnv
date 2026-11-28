@@ -16,9 +16,13 @@ import argparse
 import calendar
 import csv
 import datetime
+import gzip
+import json
+import re
 import sys
+import zoneinfo
 
-from common import CSV_DIR, FRONTEND, VENUE_NAME, conference_month, norm_title, read_csv, read_json
+from common import CSV_DIR, FRONTEND, RAW, virtual_track, VENUE_NAME, conference_month, norm_title, read_csv, read_json
 
 ACCEPTANCE = CSV_DIR / "acceptance.csv"
 DIGEST = CSV_DIR / "digest.csv"
@@ -104,6 +108,44 @@ def update(papers=None, today=None):
     return added
 
 
+SITE = {"Sydney": ("AU", "Australia/Sydney"), "Atlanta": ("US", "America/New_York"), "Paris": ("FR", "Europe/Paris")}
+
+
+def sites(venue, year):
+    f = RAW / "virtual" / f"{venue}-{year}.json.gz"
+    if not f.exists():
+        return None
+    al = json.loads(gzip.open(f).read()).get("results", [])
+    hs = sum(1 for r in al if r.get("sourceurl")) > len(al) / 2
+    rs = [r for r in al if r.get("event_type") in ("Poster", "Oral") and r.get("starttime") and r.get("name")
+          and virtual_track(r["name"], r.get("sourceurl"), r.get("event_type"), hs) == "main"]
+    cy = lambda r: (r.get("session") or "").split(" ")[0]
+    room = {r["room_name"]: cy(r) for r in rs if cy(r) in SITE and r.get("room_name")}
+    if not room:
+        return None
+    by = {}
+    for r in rs:
+        by.setdefault(ident(venue, year, r["name"]), []).append(r)
+    out, tot = {}, {}
+    for k, v in by.items():
+        home = next((cy(r) for r in v if cy(r) in SITE), "")
+        if home:
+            tot[home] = tot.get(home, 0) + 1
+        w = []
+        for r in sorted(v, key=lambda r: (r["event_type"] != "Poster", r["starttime"])):
+            c = cy(r) if cy(r) in SITE else room.get(r.get("room_name")) or home
+            if c not in SITE:
+                continue
+            z = zoneinfo.ZoneInfo(SITE[c][1])
+            a = datetime.datetime.fromisoformat(r["starttime"]).astimezone(z)
+            b = datetime.datetime.fromisoformat(r["endtime"]).astimezone(z) if r.get("endtime") else None
+            t = a.strftime("%a %-d %b, %H:%M") + (b.strftime("–%H:%M") if b else "")
+            w.append({"at": a.astimezone(datetime.timezone.utc).isoformat(), "city": c, "flag": SITE[c][0], "kind": r["event_type"], "pos": r.get("poster_position") or "",
+                      "room": re.sub(r"\s+-\s+", "–", re.sub(r"\s+", " ", r.get("room_name") or "")).strip(), "when": t})
+        out[k] = w
+    return out, tot
+
+
 def month_label(month):
     y, m = month.split("-")
     return f"{calendar.month_name[int(m)]} {y}"
@@ -124,7 +166,7 @@ def build(papers, warn=lambda text: None, today=None):
     today = today or datetime.date.today()
     record, cycles, seen = read_record(), notifications(), seen_dates()
     intros = {r["month"]: r for r in read_csv(DIGEST_MONTHS)} if DIGEST_MONTHS.exists() else {}
-    months, undated = {}, []
+    months, undated, sw = {}, [], {}
     for p in in_scope(papers):
         k = ident(p["venue"], p["year"], p["title"])
         row = record.get(k)
@@ -133,6 +175,15 @@ def build(papers, warn=lambda text: None, today=None):
         when = resolve(p["venue"], p["year"], row, cycles.get((p["venue"], p["year"])), seen.get(k), today,
                        p.get("issue", ""))
         entry = {**p, "summary": (row or {}).get("summary", ""), "basis": (row or {}).get("basis", "")}
+        vy = (p["venue"], p["year"])
+        if vy not in sw:
+            sw[vy] = sites(*vy)
+        if sw[vy] is not None:
+            entry["where"] = sw[vy][0].get(k, [])
+            for w in entry["where"]:
+                w["total"] = sw[vy][1].get(w["city"], 0)
+            if not entry["where"]:
+                warn(f"digest: {p['key']} not found in the {p['venue']} {p['year']} schedule")
         if not when:
             undated.append(entry)
             continue
@@ -149,9 +200,17 @@ def build(papers, warn=lambda text: None, today=None):
     for month in sorted(months, reverse=True):
         items = sorted(months[month], key=lambda e: (e["accepted"], e["venue_name"], e["title"]))
         venues = sorted({(e["venue_name"], e["year"]) for e in items})
+        gs = {}
+        for e in items:
+            w = (e.get("where") or [{}])[0]
+            gs.setdefault(w.get("city") or e["venue_name"], {"name": w.get("city") or e["venue_name"], "flag": w.get("flag", ""),
+                                                            "total": w.get("total", 0), "label": f"{e['venue_name']} {e['year']}", "papers": []})["papers"].append(e)
+        for g in gs.values():
+            g["papers"].sort(key=lambda e: (e.get("where") or [{}])[0].get("at", ""))
         intro = intros.get(month, {})
         out.append({"month": month, "label": month_label(month), "in_progress": month == today.strftime("%Y-%m"),
                     "intro": intro.get("intro", ""), "papers": items, "count": len(items),
+                    "groups": sorted(gs.values(), key=lambda g: -len(g["papers"])),
                     "venues": [f"{v} {y}" for v, y in venues],
                     "summarised": sum(1 for e in items if e["summary"])})
     years = []

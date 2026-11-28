@@ -30,18 +30,21 @@ def fetch(url, name, refresh=False, headers=None):
         try:
             with urllib.request.urlopen(req, timeout=600) as r:
                 data = r.read()
+            err = None
             break
         except urllib.error.HTTPError as e:
             err = e
             if e.code in (403, 404, 410):
-                return None
+                break
             time.sleep(5 * (attempt + 1))
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             err = e
             time.sleep(5 * (attempt + 1))
     else:
+        err = err or "no answer"
+    if err:
         print(f"  warning: could not download {name}: {err}", file=sys.stderr)
-        return None
+        return gzip.decompress(path.read_bytes()) if path.exists() else None
     path.write_bytes(gzip.compress(data))
     time.sleep(1)
     return data

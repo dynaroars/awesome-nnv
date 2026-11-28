@@ -117,7 +117,7 @@ def claude(prompt, schema, tools="Read,Grep,Glob,WebFetch,WebSearch", timeout=36
         if wait:
             log(f"claude: waiting {wait // 60} min before retry {attempt}")
             time.sleep(wait)
-        r = subprocess.run(args + [prompt], cwd=REPO, capture_output=True, text=True, timeout=timeout)
+        r = subprocess.run(args + ["--", prompt], cwd=REPO, capture_output=True, text=True, timeout=timeout)
         try:
             outer = json.loads(r.stdout)
         except ValueError:

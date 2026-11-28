@@ -291,6 +291,12 @@ every NNV paper since 2017 placed in the month its acceptance was announced, not
 are shared on acceptance). `digest.py` holds the rules; `build_site_data.py` calls `digest.update` (the record only
 grows) and `digest.build`, and writes `frontend/data/digest.json` plus one stub per month (`/digest/YYYY-MM/`) and
 per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder).
+- Multi-site conferences (NeurIPS 2026: Sydney, Atlanta, Paris; the maintainer's request of 2026-11-28): `digest.sites`
+  reads the cached schedule (`raw/virtual/<venue>-<year>.json.gz`; the site is the first word of the session name, an
+  oral without one takes its room's or its poster's site) and gives each paper its site, hall, poster number and
+  session in the site's local time (the feed writes every time at US Pacific). A month page then groups papers by
+  site, each sorted by poster session, with "NNV / all main-track papers at that site" in the heading; other months
+  group by conference. A paper missing from the schedule is a build warning.
 - `backend/data/csv/acceptance.csv`: notification dates, one row per venue, year and cycle, each from the
   conference's own dates or CFP page (archived copies allowed and labelled), the verbatim line quoted in `note`;
   never from memory. Revision-stage venues (FSE, ISSTA, ICSE, OOPSLA, ICFP) use the first acceptance decision.

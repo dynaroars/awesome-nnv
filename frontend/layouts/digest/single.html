@@ -6,7 +6,14 @@
 {{- if $m.in_progress }}<p class="note">This month is still in progress: papers are added as conferences announce their acceptances.</p>{{ end }}
 {{- with $m.intro }}<p class="digest-intro">{{ . }}</p>{{ end }}
 <p>{{ $m.count }} NNV paper{{ if ne (int $m.count) 1 }}s{{ end }} accepted in {{ $m.label }}, at {{ delimit $m.venues ", " " and " }}.</p>
+{{- if or (gt (len $m.groups) 1) (index $m.groups 0).flag }}
+{{- range $m.groups }}
+<h2 class="digest-venue">{{ with .flag }}{{ partial "flag.html" . }} {{ end }}{{ .name }}{{ with .flag }}, {{ index hugo.Data.meta.countries . }}{{ end }} <span class="note">{{ if .total }}{{ len .papers }} / {{ lang.FormatNumber 0 .total }} {{ .label }} papers are NNV, by poster session{{ else }}{{ len .papers }} paper{{ if ne (len .papers) 1 }}s{{ end }}{{ end }}</span></h2>
+<ul class="papers digest">{{ range .papers }}{{ partial "digest-paper.html" . }}{{ end }}</ul>
+{{- end }}
+{{- else }}
 <ul class="papers digest">{{ range $m.papers }}{{ partial "digest-paper.html" . }}{{ end }}</ul>
+{{- end }}
 <nav class="digest-nav">
 {{- if lt (add $i 1) (len $months) }}{{ $prev := index $months (add $i 1) }}<a href="{{ printf "digest/%s/" $prev.month | relURL }}">&larr; {{ $prev.label }}</a>{{ end }}
 <a href="{{ printf "digest/%s/" (substr $m.month 0 4) | relURL }}">All of {{ substr $m.month 0 4 }}</a>
