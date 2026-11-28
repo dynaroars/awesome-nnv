@@ -206,7 +206,7 @@
 		var size = parseInt(table.dataset.pageSize, 10), body = table.tBodies[0];
 		var nav = table.id && document.querySelector('nav.pager[aria-controls="' + table.id + '"]');
 		if (!size || !nav) return;
-		function rows() { return Array.prototype.filter.call(body.rows, function (tr) { return !tr.classList.contains("total"); }); }
+		function rows() { return Array.prototype.filter.call(body.rows, function (tr) { return !tr.classList.contains("total") && !tr.classList.contains("flt"); }); }
 		function link(label, page, current, disabled) {
 			var b = document.createElement("button");
 			b.type = "button";
@@ -242,6 +242,19 @@
 		var index = target ? rows().indexOf(target) : -1;
 		show(index > 0 ? Math.floor(index / size) : 0, false);
 		if (index >= 0) target.scrollIntoView({ block: "center" });
+	});
+
+	document.querySelectorAll(".aw-view").forEach(function (v) {
+		var t = document.getElementById(v.dataset.for);
+		var bs = Array.prototype.slice.call(v.querySelectorAll("button"));
+		bs.forEach(function (b) {
+			b.addEventListener("click", function () {
+				var a = b.dataset.a === "1";
+				bs.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+				Array.prototype.forEach.call(t.tBodies[0].rows, function (tr) { tr.classList.toggle("flt", a && !tr.hasAttribute("data-aw")); });
+				if (t.paginate) t.paginate(0, false);
+			});
+		});
 	});
 
 	document.querySelectorAll("table").forEach(function (table) {

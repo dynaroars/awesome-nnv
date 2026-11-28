@@ -819,7 +819,8 @@ html { overflow-anchor: none ; }
 .graph-view button:first-child { border-radius: 4px 0 0 4px ; }
 .graph-view button:last-child { border-radius: 0 4px 4px 0 ; }
 .graph-view button + button { border-left: none ; }
-.table-tools .period-view { display: inline-flex ; margin: 0 auto 0 0 ; }
+.table-tools .period-view, .table-tools .aw-view { display: inline-flex ; margin: 0 auto 0 0 ; }
+tr.flt { display: none ; }
 .graph-view button[aria-pressed="true"] { background: var(--th) ; color: var(--fg) ; font-weight: 600 ; }
 .graph-legend[hidden], figure.graph[hidden] { display: none !important ; }
 .chart.pie .pie-g0 .slice { fill: #257de0 ; }

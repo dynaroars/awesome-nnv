@@ -1,6 +1,8 @@
 {{ define "main" -}}
 {{ .Content }}
 <div class="table-box">
+{{- $aw := where hugo.Data.papers "pres" "ne" "" }}
+<p class="table-tools"><span class="graph-view aw-view" role="group" aria-label="Papers shown" data-for="papers-table"><button type="button" data-a="0" aria-pressed="true">All papers ({{ len hugo.Data.papers }})</button><button type="button" data-a="1" aria-pressed="false" title="Papers the conference chose for an oral, a spotlight or a highlight">Oral, spotlight or highlight 🎉 ({{ len $aw }})</button></span></p>
 <div class="scroll">
 <table id="papers-table" data-page-size="15">
 	<thead>
@@ -16,9 +18,9 @@
 	<tbody>
 	{{- $who := dict }}{{ range hugo.Data.researchers }}{{ $who = merge $who (dict .slug .) }}{{ end }}
 	{{- range $k, $p := hugo.Data.papers }}
-	<tr id="{{ .id }}"{{ if ge $k 15 }} class="off-page"{{ end }}>
+	<tr id="{{ .id }}"{{ if ge $k 15 }} class="off-page"{{ end }}{{ if .pres }} data-aw{{ end }}>
 		<td class="l" data-sort="{{ replace .date "-" "." }}">{{ (time (printf "%s-01" .date)).Format "Jan 2006" }}</td>
-		<td class="l venue-year"><a href="{{ printf "conferences/%s/" .venue | relURL }}">{{ .venue_name }}</a>&rsquo;{{ printf "%02d" (mod .year 100) }}{{ with .pres }} <span class="tag other">{{ . }}</span>{{ end }}</td>
+		<td class="l venue-year"><a href="{{ printf "conferences/%s/" .venue | relURL }}">{{ .venue_name }}</a>&rsquo;{{ printf "%02d" (mod .year 100) }}{{ with .pres }} <span class="tag other">{{ . }}</span> 🎉{{ end }}</td>
 		<td class="l"><a href="{{ printf "areas/%s/" .area | relURL }}">{{ .area_name }}</a></td>
 		<td class="l">{{ $n := 0 }}{{ range .authors }}{{ if .slug }}{{ if $n }}, {{ end }}{{ $n = add $n 1 }}<a href="{{ printf "researchers/%s/" .slug | relURL }}"{{ with index $who .slug }} title="{{ partial "who.html" . }}"{{ end }}>{{ .name }}</a>{{ end }}{{ end }}{{ if not $n }}<span class="na">&ndash;</span>{{ end }}</td>
 		<td class="l wrap-cell"><a href="{{ .url }}">{{ partial "title.html" .title }}</a>{{ if .unofficial }} <span class="unofficial" title="Accepted according to an author's page; not yet in the conference's published list or dblp">unofficial</span>{{ end }}{{ with .arxiv }} <span class="note">(<a href="https://arxiv.org/abs/{{ . }}">arXiv</a>)</span>{{ end }}</td>
