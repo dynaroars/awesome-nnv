@@ -146,6 +146,38 @@ def sites(venue, year):
     return out, tot
 
 
+def kind(t):
+    t = t.lower()
+    if "oral" in t or "talk" in t or "top-5%" in t or "long presentation" in t:
+        return "oral"
+    if "spotlight" in t or "top-25%" in t:
+        return "spotlight"
+    return ""
+
+
+def presentations(papers):
+    rk, out = {"": 0, "spotlight": 1, "oral": 2}, {}
+    for v, y in {(p["venue"], p["year"]) for p in papers}:
+        f = RAW / "virtual" / f"{v}-{y}.json.gz"
+        if not f.exists():
+            continue
+        for r in json.loads(gzip.open(f).read()).get("results", []):
+            if not r.get("name"):
+                continue
+            d = r.get("decision") or ""
+            x = "" if (v, y) == ("icml", 2021) and kind(d) == "spotlight" else kind(d)
+            if "oral" in f"{r.get('event_type') or ''} {r.get('eventtype') or ''}".lower():
+                x = "oral"
+            k = ident(v, y, r["name"])
+            if rk[x] > rk[out.get(k, "")]:
+                out[k] = x
+    return out
+
+
+def vlogo(v):
+    return next((f"img/venues/{v}.{x}" for x in ("svg", "png") if (FRONTEND / "static" / "img" / "venues" / f"{v}.{x}").exists()), "")
+
+
 def month_label(month):
     y, m = month.split("-")
     return f"{calendar.month_name[int(m)]} {y}"
@@ -167,6 +199,7 @@ def build(papers, warn=lambda text: None, today=None):
     record, cycles, seen = read_record(), notifications(), seen_dates()
     intros = {r["month"]: r for r in read_csv(DIGEST_MONTHS)} if DIGEST_MONTHS.exists() else {}
     months, undated, sw = {}, [], {}
+    pr = presentations(in_scope(papers))
     for p in in_scope(papers):
         k = ident(p["venue"], p["year"], p["title"])
         row = record.get(k)
@@ -174,7 +207,7 @@ def build(papers, warn=lambda text: None, today=None):
             warn(f"digest: no digest.csv row for {p['key']} (run digest.py)")
         when = resolve(p["venue"], p["year"], row, cycles.get((p["venue"], p["year"])), seen.get(k), today,
                        p.get("issue", ""))
-        entry = {**p, "summary": (row or {}).get("summary", ""), "basis": (row or {}).get("basis", "")}
+        entry = {**p, "summary": (row or {}).get("summary", ""), "basis": (row or {}).get("basis", ""), "pres": pr.get(k, "")}
         vy = (p["venue"], p["year"])
         if vy not in sw:
             sw[vy] = sites(*vy)
@@ -200,6 +233,11 @@ def build(papers, warn=lambda text: None, today=None):
     for month in sorted(months, reverse=True):
         items = sorted(months[month], key=lambda e: (e["accepted"], e["venue_name"], e["title"]))
         venues = sorted({(e["venue_name"], e["year"]) for e in items})
+        vc = {}
+        for e in items:
+            vc.setdefault((e["venue"], e["venue_name"], e["year"]), 0)
+            vc[(e["venue"], e["venue_name"], e["year"])] += 1
+        vl = [{"key": v, "name": n, "year": y, "n": c, "logo": vlogo(v)} for (v, n, y), c in sorted(vc.items(), key=lambda x: (-x[1], x[0][1]))]
         gs = {}
         for e in items:
             w = (e.get("where") or [{}])[0]
@@ -211,7 +249,7 @@ def build(papers, warn=lambda text: None, today=None):
         out.append({"month": month, "label": month_label(month), "in_progress": month == today.strftime("%Y-%m"),
                     "intro": intro.get("intro", ""), "papers": items, "count": len(items),
                     "groups": sorted(gs.values(), key=lambda g: -len(g["papers"])),
-                    "venues": [f"{v} {y}" for v, y in venues],
+                    "venues": [f"{v} {y}" for v, y in venues], "vlist": vl,
                     "summarised": sum(1 for e in items if e["summary"])})
     years = []
     for m in out:

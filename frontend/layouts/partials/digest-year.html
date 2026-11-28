@@ -9,7 +9,7 @@
 {{- range where $d.months "month" "like" (printf "^%s-" $year) }}
 <section class="digest-month" id="m{{ .month }}">
 <h2><a href="{{ printf "digest/%s/" .month | relURL }}">{{ .label }}</a>{{ if .in_progress }} <span class="note">(in progress)</span>{{ end }}</h2>
-<p class="note">{{ delimit .venues ", " }}</p>
+<p class="vchips">{{ range .vlist }}<a class="vchip" href="{{ printf "conferences/%s/" .key | relURL }}">{{ with .logo }}<span class="vl"><img src="{{ . | relURL }}" alt="" loading="lazy"></span>{{ end }}{{ .name }} {{ .year }} <span class="note">{{ .n }}</span></a>{{ end }}</p>
 {{- with .intro }}<p class="digest-intro">{{ . }}</p>{{ end }}
 <p><a href="{{ printf "digest/%s/" .month | relURL }}">See the {{ .count }} paper{{ if ne (int .count) 1 }}s{{ end }} with summaries &rarr;</a></p>
 </section>

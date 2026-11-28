@@ -1,6 +1,6 @@
 {{- /* One paper of the monthly digest: tags, title, authors, summary, acceptance date. */ -}}
 <li id="{{ .id }}">
-	<a class="tag-link" href="{{ printf "conferences/%s/" .venue | relURL }}"><span class="tag accepted">{{ .venue_name }} {{ .year }}</span></a>
+	<a class="tag-link" href="{{ printf "conferences/%s/" .venue | relURL }}"><span class="tag accepted">{{ .venue_name }} {{ .year }}</span></a>{{ with .pres }} <span class="tag other">{{ . }}</span> 🎉{{ end }}
 	<a class="tag-link" href="{{ printf "areas/%s/" .area | relURL }}"><span class="tag other">{{ .area_name }}</span></a>
 	{{- range .tags }}<a class="tag-link" href="{{ printf "areas/%s/" .key | relURL }}"><span class="tag own">{{ .name }}</span></a>{{ end }}
 	<a href="{{ .url }}">{{ partial "title.html" .title }}</a>{{ if .unofficial }} <span class="unofficial" title="Accepted according to an author's page; not yet in the conference's published list or dblp">unofficial</span>{{ end }}{{ with .arxiv }} <span class="note">(<a href="https://arxiv.org/abs/{{ . }}">arXiv</a>)</span>{{ end }}
@@ -8,5 +8,4 @@
 	{{- range $k, $a := .authors }}{{ if $k }}, {{ end }}{{ if $a.slug }}<a href="{{ printf "researchers/%s/" $a.slug | relURL }}">{{ $a.name }}</a>{{ else }}{{ $a.name }}{{ end }}{{ end }}</span>
 	{{- with .summary }}<p class="digest-summary">{{ . }}</p>{{ else }}<p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>{{ end }}
 	{{- with .where }}<p class="digest-where">{{ range . }}<span>{{ partial "flag.html" .flag }} <b>{{ .city }}</b> &middot; {{ .kind }}{{ with .pos }} {{ . }}{{ end }}, {{ .room }} &middot; {{ .when }} ({{ .city }} time)</span>{{ end }}</p>{{ end }}
-	{{- with .accepted }}<p class="note digest-date">{{ if $.approx }}Accepted by {{ (time .).Format "2 January 2006" }}, the latest notification of its conference's submission cycles{{ else }}Accepted {{ (time .).Format "2 January 2006" }}{{ end }}{{ with $.accepted_source }} (<a href="{{ . }}">dates</a>){{ end }}{{ with $.late }}; added to the digest {{ (time .).Format "2 January 2006" }}{{ end }}.</p>{{ end }}
 </li>

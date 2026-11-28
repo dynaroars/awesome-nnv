@@ -95,6 +95,7 @@ def load_people(warnings):
 
 def nnv_papers(topics, by_pid, by_name):
     cites = read_json(JSON_DIR / "citations.json", {})
+    ax = read_json(JSON_DIR / "arxiv_titles.json", {})
     out = []
     for p in all_papers():
         t = topics.get(p["key"])
@@ -106,7 +107,7 @@ def nnv_papers(topics, by_pid, by_name):
             authors.append({"name": a["name"], "slug": slug or "", "inst": a.get("inst") or []})
         out.append({**p, **t, "authors": authors, "url": p.get("url") or paper_url(p),
                     "citations": cites[p["key"]]["citations"] if p["key"] in cites else None,
-                    "arxiv": cites.get(p["key"], {}).get("arxiv", ""),
+                    "arxiv": cites.get(p["key"], {}).get("arxiv", "") or ax.get(p["key"], ""),
                     "by_name": [a["slug"] for a, src in zip(authors, p["authors"]) if a["slug"] and not src.get("pid")],
                     "source": p.get("source", "dblp.org"),
                     "slugs": list(dict.fromkeys(a["slug"] for a in authors if a["slug"]))})

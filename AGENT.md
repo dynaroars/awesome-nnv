@@ -297,6 +297,19 @@ per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder)
   session in the site's local time (the feed writes every time at US Pacific). A month page then groups papers by
   site, each sorted by poster session, with "NNV / all main-track papers at that site" in the heading; other months
   group by conference. A paper missing from the schedule is a build warning.
+- Oral and spotlight tags (with 🎉, as in vn-ai-ranking; 2026-11-28): `digest.presentations` reads the cached
+  NeurIPS, ICML and ICLR schedules. Spotlight comes only from the decision ("spotlight", "top-25%"), oral from the
+  decision ("oral", "talk", "top-5%", ICML 2022 "Long Presentation") or an Oral session. Session types never give a
+  spotlight (every ICML 2022 short talk and many NeurIPS 2022 papers had "Spotlight" sessions), and ICML 2021's
+  "Spotlight" decision is ignored (it was every non-oral paper). Digest papers no longer show their acceptance date.
+- Abstracts for summaries (`fetch_abstracts.py`, 2026-11-28): OpenReview, then the arXiv id from OpenAlex, then an
+  arXiv title search (exact title ignoring case and punctuation, plus a shared author surname; hits kept in
+  `backend/data/json/arxiv_titles.json`, which also gives the paper its arXiv link), then OpenAlex, then the local
+  PDF's first page (`written` says "from the PDF"; the PDF itself is never committed). Misses are cached: run with
+  `--refresh` to look again for papers posted to arXiv later.
+- Digest year pages show each month as a card (alternating tint, as on vn-ai-ranking's research page) with a chip
+  per conference: its logo from `frontend/static/img/venues/<key>.svg|png` when there is one (13 copied from
+  vn-ai-ranking), its name and its paper count. Conferences without a logo show the name only.
 - `backend/data/csv/acceptance.csv`: notification dates, one row per venue, year and cycle, each from the
   conference's own dates or CFP page (archived copies allowed and labelled), the verbatim line quoted in `note`;
   never from memory. Revision-stage venues (FSE, ISSTA, ICSE, OOPSLA, ICFP) use the first acceptance decision.
