@@ -10,31 +10,44 @@
 {{- end }}
 </div>
 <p class="note">NNV papers per year in each field, one colour per conference (largest at the bottom); hover a conference in a legend to pick it out. Fields with fewer than 20 NNV papers are shown together under Other fields.</p>
-<h2>All numbers</h2>
+{{- $cs := dict "neurips" "nips" "sp" "oakland" "uss" "usenixsec" }}
+{{- $fl := slice }}{{ range os.ReadDir "static/img/flags" }}{{ $fl = $fl | append (strings.TrimSuffix ".svg" .Name) }}{{ end }}
+<h2 id="all">All numbers and deadlines</h2>
+<p class="table-tools"><button type="button" class="more-columns" aria-expanded="false" aria-controls="conf-table" data-names="Hidden: {names}" data-show="Show papers per year" data-hide="Hide papers per year">Show papers per year</button></p>
 <div class="scroll">
-<table>
+<table class="collapsed" id="conf-table" data-collapsible data-src="https://raw.githubusercontent.com/dynaroars/cspicks/main/csconfs/data/conferences.json" data-flags="{{ delimit $fl " " }}" data-img="{{ "img/flags/" | relURL }}">
 	<thead>
 	<tr>
 		<th class="l">Field</th>
 		<th class="l">Conference</th>
-		{{- range hugo.Data.meta.years }}<th>{{ . }}</th>{{ end }}
+		{{- range hugo.Data.meta.years }}<th data-extra>{{ . }}</th>{{ end }}
 		<th class="good">NNV papers</th>
 		<th title="All main-track papers in dblp for these years">All papers</th>
 		<th title="NNV papers as a share of all papers">Share</th>
+		<th class="l" title="The edition with the next paper deadline, linked to its site or call for papers">Next edition</th>
+		<th class="l">Location</th>
+		<th class="l" data-asc title="Paper deadline, anywhere on Earth (UTC&minus;12)">Deadline</th>
 	</tr>
 	</thead>
 	<tbody>
-	{{- range $shown }}{{ $v := . }}
-	<tr>
+	{{- $ft := dict }}{{ range $shown }}{{ $ft = merge $ft (dict .field (add (index $ft .field | default 0) .papers)) }}{{ end }}
+	{{- $rs := slice }}{{ range $shown }}{{ $rs = $rs | append (dict "v" . "k" (printf "%06d-%s-%06d-%s" (sub 999999 (index $ft .field)) .field (sub 999999 .papers) .key)) }}{{ end }}
+	{{- range sort $rs "k" }}{{ $v := .v }}{{ with $v }}
+	<tr data-k="{{ index $cs .key | default .key }}">
 		<td class="l">{{ .field_name }}</td>
 		<td class="l"><a href="{{ printf "conferences/%s/" .key | relURL }}" title="{{ .full_name }}">{{ .name }}</a></td>
 		{{- range hugo.Data.meta.years }}{{ $y := string . }}{{ if in $v.not_held . }}<td class="na" title="Not held this year"></td>{{ else if in $v.missing . }}<td class="na">&ndash;</td>{{ else }}{{ partial "num.html" (index $v.years $y) }}{{ end }}{{ end }}
 		<td class="total good">{{ .papers }}</td>
 		<td>{{ .all_papers }}</td>
 		<td>{{ printf "%.1f" .share }}%</td>
+		<td class="l"></td>
+		<td class="l"></td>
+		<td class="l note">loading&hellip;</td>
 	</tr>
-	{{- end }}
+	{{- end }}{{ end }}
 	</tbody>
 </table>
 </div>
+<p class="note">Next edition, location and deadline are loaded on each visit from the <a href="https://cspicks.roars.dev/csconfs.html">CS conference schedule</a> on roars.dev (<a href="https://github.com/dynaroars/cspicks/tree/main/csconfs/data">its data</a>); this site keeps no copy.</p>
+<p class="note" id="dl-err" hidden>The schedule could not be loaded; see the <a href="https://cspicks.roars.dev/csconfs.html">CS conference schedule</a> instead.</p>
 {{- end }}

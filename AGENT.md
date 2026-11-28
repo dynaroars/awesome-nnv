@@ -220,6 +220,18 @@ the site uses.
   group's flag (Collaboration legend and card) is the country most of its members are at.
 - **Conferences page**: a tracked conference with no NNV paper yet (LICS on 2026-11-27) is left out of the
   panels and the table, but is still fetched and scanned and keeps its own page (the maintainer's rule).
+- **Conferences table** (the maintainer's request of 2026-11-28): one table, rows grouped by field with the fields
+  ordered by their NNV papers (most first) and the conferences inside by papers; the field cell is shown once per
+  group (`td.rep` blanks the repeats, recomputed after a sort, so no rowspan breaks the column sort). The 2017-2027
+  columns are collapsed behind "Show papers per year". Next edition, Location and Deadline are filled in the browser
+  from the cspicks repo's `csconfs/data/conferences.json` on raw.githubusercontent.com (the data behind
+  cspicks.roars.dev/csconfs.html; CORS open, about 130 KB gzipped): this site keeps no copy, so the schedule is
+  always as current as cspicks. Keys that differ: neurips→nips, sp→oakland, uss→usenixsec. Per conference: the
+  earliest deadline still ahead (AoE, as cspicks: the day after at 11:59 UTC), else the next edition whose deadline is
+  TBA, else the next edition whose deadline has closed, else "not announced" linked to the series site. "estimate"
+  is the feed's `estimated` flag; only round or cycle labels are taken from `note`. Place parsing and the country
+  table mirror cspicks' `csconfs/place.ts`; a flag shows only when its svg is in `static/img/flags` (flag-icons
+  7.2.3). The countdown is to the minute.
 - **Group pages** list their members by this year's papers, then this year's score, all-year papers, all-year
   score and citations (`member_rank`, the maintainer's order of 2026-11-27).
 - **Last year** (the maintainer's definition, 2026-11-27): papers accepted on or after `RECENT_FROM`, the first of the

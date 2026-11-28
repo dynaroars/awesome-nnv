@@ -90,7 +90,7 @@
 		});
 		var numeric = values.filter(function (v) { return v.text && v.text !== "–"; }).every(function (v) { return v.num !== null; });
 		var previous = cell.getAttribute("aria-sort");
-		var order = previous ? (previous === "descending" ? "ascending" : "descending") : (numeric ? "descending" : "ascending");
+		var order = previous ? (previous === "descending" ? "ascending" : "descending") : (numeric && !cell.hasAttribute("data-asc") ? "descending" : "ascending");
 		var sign = order === "ascending" ? 1 : -1;
 		values.sort(function (a, b) {
 			var ea = !a.text || a.text === "–", eb = !b.text || b.text === "–";
@@ -616,5 +616,116 @@
 		}
 		key.addEventListener("mouseenter", on); key.addEventListener("focus", on);
 		key.addEventListener("mouseleave", off); key.addEventListener("blur", off);
+	});
+})();
+
+(function () {
+	var t = document.getElementById("conf-table");
+	if (!t || !t.dataset.src) return;
+	function mg() {
+		var pv = null;
+		Array.prototype.forEach.call(t.tBodies[0].rows, function (tr) { var c = tr.cells[0], x = c.textContent.trim(); c.classList.toggle("rep", x === pv); pv = x; });
+	}
+	mg();
+	new MutationObserver(mg).observe(t.tBodies[0], { childList: true });
+	var fl = t.dataset.flags.split(" "), im = t.dataset.img;
+	var ST = "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split(" ");
+	function kv(s) { var o = {}; s.split(",").forEach(function (x) { var p = x.split(":"); o[p[0]] = p[1]; }); return o; }
+	var SN = kv("alabama:AL,alaska:AK,arizona:AZ,arkansas:AR,california:CA,colorado:CO,connecticut:CT,delaware:DE,florida:FL,georgia:GA,hawaii:HI,idaho:ID,illinois:IL,indiana:IN,iowa:IA,kansas:KS,kentucky:KY,louisiana:LA,maine:ME,maryland:MD,massachusetts:MA,michigan:MI,minnesota:MN,mississippi:MS,missouri:MO,montana:MT,nebraska:NE,nevada:NV,new hampshire:NH,new jersey:NJ,new mexico:NM,new york:NY,north carolina:NC,north dakota:ND,ohio:OH,oklahoma:OK,oregon:OR,pennsylvania:PA,rhode island:RI,south carolina:SC,south dakota:SD,tennessee:TN,texas:TX,utah:UT,vermont:VT,virginia:VA,washington:WA,west virginia:WV,wisconsin:WI,wyoming:WY,district of columbia:DC,washington dc:DC,washington d.c.:DC");
+	var CC = kv("canada:ca,italy:it,germany:de,uk:gb,united kingdom:gb,england:gb,scotland:gb,wales:gb,northern ireland:gb,france:fr,china:cn,hong kong:hk,australia:au,spain:es,portugal:pt,netherlands:nl,the netherlands:nl,japan:jp,greece:gr,austria:at,singapore:sg,south korea:kr,korea:kr,republic of korea:kr,india:in,sweden:se,brazil:br,denmark:dk,taiwan:tw,ireland:ie,czech republic:cz,czechia:cz,israel:il,switzerland:ch,finland:fi,new zealand:nz,mexico:mx,turkey:tr,poland:pl,luxembourg:lu,chile:cl,belgium:be,thailand:th,norway:no,malaysia:my,cyprus:cy,croatia:hr,argentina:ar,vietnam:vn,uae:ae,united arab emirates:ae,morocco:ma,slovenia:si,iceland:is,hungary:hu,estonia:ee,south africa:za,malta:mt,curaçao:cw,curacao:cw,barbados:bb,ukraine:ua,tunisia:tn,rwanda:rw,peru:pe,latvia:lv,dominican republic:do,costa rica:cr,puerto rico:pr,serbia:rs");
+	var US = ["usa", "us", "united states", "united states of america"];
+	var VK = /\b(hotel|resort|spa|marina|convention cent(?:er|re)|cent(?:er|re)|campus|university|college|hall|inn|lodge|palace)\b/i;
+	var MO = "jan feb mar apr may jun jul aug sep oct nov dec".split(" ");
+	var F = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+	function el(n, c, x) { var e = document.createElement(n); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
+	function pp(s) {
+		var g = s.replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+		if (g.length > 1 && VK.test(g[0])) g.shift();
+		if (!g.length) return null;
+		var c = g.length > 1 ? g[0] : "", r = g.slice(c ? 1 : 0), l = r[r.length - 1], st = null;
+		r.forEach(function (x) { var u = SN[x.toLowerCase()] || (ST.indexOf(x.toUpperCase()) >= 0 ? x.toUpperCase() : null); if (u) st = u; });
+		if (US.indexOf(l.toLowerCase()) >= 0 || st) return { t: [c, st, "US"].filter(Boolean).join(", "), c: "us", n: "United States" };
+		return { t: c ? c + ", " + l : l, c: CC[l.toLowerCase()] || null, n: l };
+	}
+	function pd(v) { var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(v || ""); return m ? [+m[1], +m[2], +m[3]] : null; }
+	function aoe(p) { return Date.UTC(p[0], p[1] - 1, p[2] + 1, 11, 59, 59, 999); }
+	function fd(p) { return F.format(new Date(Date.UTC(p[0], p[1] - 1, p[2]))); }
+	function st(c) {
+		var s = c.date || "", p = pd(s), m = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*(\d{1,2})?/i.exec(s), y = /\b(20\d\d)\b/.exec(s);
+		if (p) return Date.UTC(p[0], p[1] - 1, p[2]);
+		return m ? Date.UTC(y ? +y[1] : c.year, MO.indexOf(m[1].toLowerCase()), +(m[2] || 1)) : Date.UTC(c.year, 11, 31);
+	}
+	function p2(n) { return (n < 10 ? "0" : "") + n; }
+	function cd(ms) {
+		var m = Math.floor(ms / 6e4), d = Math.floor(m / 1440);
+		m %= 1440;
+		return d + "d " + p2(Math.floor(m / 60)) + "h " + p2(m % 60) + "m";
+	}
+	function ok(u) { return /^https?:\/\//.test(u || "") ? u : null; }
+	function pick(cs, now) {
+		var f = cs.filter(function (c) { var p = pd(c.deadline); return p && aoe(p) >= now; })
+			.sort(function (a, b) { return aoe(pd(a.deadline)) - aoe(pd(b.deadline)); });
+		if (f.length) return f[0];
+		var u = cs.filter(function (c) { return st(c) > now; }).sort(function (a, b) { return !pd(b.deadline) - !pd(a.deadline) || st(a) - st(b) || (pd(b.deadline) ? aoe(pd(b.deadline)) : 0) - (pd(a.deadline) ? aoe(pd(a.deadline)) : 0); });
+		return u[0] || null;
+	}
+	function fill(d) {
+		var now = Date.now(), by = {}, tk = [];
+		d.forEach(function (c) { (c.venueKeys || []).forEach(function (k) { (by[k] = by[k] || []).push(c); }); });
+		Array.prototype.forEach.call(t.tBodies[0].rows, function (tr) {
+			var n = tr.cells.length, ce = tr.cells[n - 3], cl = tr.cells[n - 2], cd0 = tr.cells[n - 1];
+			var cs = by[tr.dataset.k] || [], c = pick(cs, now), nm = tr.cells[1].textContent.trim();
+			cd0.textContent = "";
+			cd0.dataset.sort = "–";
+			cd0.classList.remove("note");
+			if (!c) {
+				var lt = cs.slice().sort(function (a, b) { return b.year - a.year; })[0], h = lt && ok(lt.seriesLink || lt.link);
+				ce.appendChild(h ? Object.assign(el("a", "", "not announced"), { href: h }) : el("span", "note", "not announced"));
+				cd0.appendChild(el("span", "note", "–"));
+				return;
+			}
+			var h = ok(c.link) || ok(c.seriesLink), x = nm + " " + c.year;
+			ce.appendChild(h ? Object.assign(el("a", "", x), { href: h }) : document.createTextNode(x));
+			var r = /^(Round|Cycle) \d+\/\d+/.exec(c.note || "");
+			if (r) ce.appendChild(el("span", "note", " " + r[0].toLowerCase()));
+			if (c.estimated) { var e = el("span", "tag est", "estimate"); e.title = "Projected from an earlier edition; no call for papers yet"; ce.append(" ", e); }
+			if (c.place) {
+				c.place.split(";").forEach(function (s, k) {
+					var q = pp(s);
+					if (!q) return;
+					if (k) cl.append("; ");
+					if (q.c && fl.indexOf(q.c) >= 0) {
+						var i = el("img", "flag");
+						i.src = im + q.c + ".svg"; i.alt = q.n; i.title = q.n; i.width = 16; i.height = 12;
+						cl.append(i, " ");
+					}
+					cl.append(q.t);
+				});
+			} else cl.appendChild(el("span", "note", "TBA"));
+			var p = pd(c.deadline);
+			if (!p) { cd0.appendChild(el("span", "note", "TBA")); return; }
+			var a = aoe(p), w = el("span", "cd");
+			if (a >= now) cd0.dataset.sort = String(a);
+			cd0.title = "Closes " + new Date(a).toLocaleString() + " your time";
+			cd0.append(el("span", "cd", fd(p) + " AoE"), " · ", w);
+			var ab = pd(c.abstractDeadline);
+			if (ab && aoe(ab) >= now) cd0.append(el("br"), el("span", "note", "abstract " + fd(ab)));
+			tk.push([w, a]);
+		});
+		function tick() {
+			var now = Date.now();
+			tk.forEach(function (z) {
+				var l = z[1] - now;
+				z[0].textContent = l > 0 ? cd(l) : "closed";
+				z[0].classList.toggle("soon", l > 0 && l < 7 * 864e5);
+				z[0].classList.toggle("note", l <= 0);
+			});
+		}
+		tick();
+		setInterval(tick, 15000);
+	}
+	fetch(t.dataset.src).then(function (r) { if (!r.ok) throw r.status; return r.json(); }).then(fill).catch(function () {
+		Array.prototype.forEach.call(t.tBodies[0].rows, function (tr) { tr.cells[tr.cells.length - 1].textContent = "–"; });
+		document.getElementById("dl-err").hidden = false;
 	});
 })();
