@@ -5628,7 +5628,7 @@
      "authors": [
       {
        "name": "Konstantin Kaulen",
-       "slug": "konstantin-kaulen"
+       "slug": ""
       },
       {
        "name": "Hadar Shavit",
@@ -5640,7 +5640,7 @@
       }
      ],
      "pres": "",
-     "tracked": true,
+     "tracked": false,
      "summary": "Re-evaluates IBP-based certified training by comparing Pareto fronts of natural versus certified accuracy found with automated multi-objective hyperparameter tuning, exposing undertuned prior configurations, setting new best results and showing earlier advances were smaller than assumed.",
      "basis": "https://arxiv.org/abs/2606.02134",
      "where": [
@@ -6586,7 +6586,7 @@
        "authors": [
         {
          "name": "Konstantin Kaulen",
-         "slug": "konstantin-kaulen"
+         "slug": ""
         },
         {
          "name": "Hadar Shavit",
@@ -6598,7 +6598,7 @@
         }
        ],
        "pres": "",
-       "tracked": true,
+       "tracked": false,
        "summary": "Re-evaluates IBP-based certified training by comparing Pareto fronts of natural versus certified accuracy found with automated multi-objective hyperparameter tuning, exposing undertuned prior configurations, setting new best results and showing earlier advances were smaller than assumed.",
        "basis": "https://arxiv.org/abs/2606.02134",
        "where": [

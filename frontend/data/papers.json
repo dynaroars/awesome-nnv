@@ -2194,7 +2194,7 @@
   "authors": [
    {
     "name": "Konstantin Kaulen",
-    "slug": "konstantin-kaulen"
+    "slug": ""
    },
    {
     "name": "Hadar Shavit",
@@ -2206,7 +2206,7 @@
    }
   ],
   "pres": "",
-  "tracked": true
+  "tracked": false
  },
  {
   "id": "yang2026semantic",

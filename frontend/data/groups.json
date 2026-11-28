@@ -1273,7 +1273,7 @@
   "award_rank": 18,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "marabou",
   "hue": 5,
   "shape": "circle",
@@ -2219,7 +2219,7 @@
   "award_rank": 1,
   "award_place": 2,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "daml",
   "hue": 5,
   "shape": "diamond",
@@ -2777,10 +2777,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 119,
+  "award_rank": 118,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "vehicle",
   "hue": 4,
   "shape": "square",
@@ -3137,10 +3137,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 30,
+  "award_rank": 29,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -3747,7 +3747,7 @@
   "award_rank": 7,
   "award_place": 8,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "neuralsat",
   "hue": 5,
   "shape": "square",
@@ -5097,7 +5097,7 @@
   "award_rank": 13,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "singh-uiuc",
   "hue": 7,
   "shape": "circle",
@@ -5405,10 +5405,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 33,
+  "award_rank": 32,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "cora",
   "hue": 1,
   "shape": "triangle",
@@ -6066,10 +6066,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 102,
+  "award_rank": 101,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "rubinstein",
   "hue": 7,
   "shape": "diamond",
@@ -6849,10 +6849,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 120,
+  "award_rank": 119,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "venus",
   "hue": 1,
   "shape": "square",
@@ -6862,7 +6862,7 @@
  {
   "recent_score": 1.092,
   "recent_papers": 3,
-  "five_score": 1.509,
+  "five_score": 1.53,
   "five_papers": 33,
   "recent_score_fields": {
    "ml": 1.167,
@@ -6990,6 +6990,13 @@
     "institution_short": "Meta",
     "papers": 3,
     "score": 0.676
+   },
+   {
+    "slug": "christopher-brix",
+    "name": "Christopher Brix",
+    "institution_short": "Safe Intelligence",
+    "papers": 3,
+    "score": 0.65
    },
    {
     "slug": "duo-zhou",
@@ -7186,6 +7193,7 @@
    "City University of Hong Kong",
    "Microsoft Research",
    "Meta",
+   "Safe Intelligence",
    "Machine Learning Department",
    "Northeastern University",
    "University of Texas at Austin",
@@ -7256,20 +7264,20 @@
    "2027": 0
   },
   "score_fields": {
-   "ml": 29.702,
+   "ml": 30.152,
    "cv": 0.833,
    "pl": 1.0,
    "se": 0.0,
    "lv": 0.0,
    "ai": 2.267,
-   "sec": 1.017,
+   "sec": 1.217,
    "ro": 0.0,
    "nlp": 0.0,
    "da": 0.0,
    "dm": 0.0,
    "emb": 0.0
   },
-  "score": 1.735,
+  "score": 1.75,
   "logo": "img/groups/abcrown.png",
   "chart": "<svg class=\"chart\" viewBox=\"0 0 640 400\" role=\"img\" aria-label=\"α,β-CROWN: NNV papers per year by field\"><defs><pattern id=\"pat-hash\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 3H6M3 0V6\" class=\"pat-line\"/></pattern><pattern id=\"pat-stripe\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(45)\"><path d=\"M0 0V6\" class=\"pat-line\"/></pattern></defs><g class=\"key\" data-series=\"ar-ml pat-hash\" tabindex=\"0\"><rect class=\"key-hit\" x=\"31\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-ml pat-hash\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><rect class=\"pat\" x=\"34\" y=\"6\" width=\"12\" height=\"12\" fill=\"url(#pat-hash)\"/><text x=\"52\" y=\"16\">ML</text></g><g class=\"key\" data-series=\"ar-ai pat-stripe\" tabindex=\"0\"><rect class=\"key-hit\" x=\"73.8\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-ai pat-stripe\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><rect class=\"pat\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\" fill=\"url(#pat-stripe)\"/><text x=\"94.8\" y=\"16\">AI</text></g><g class=\"key\" data-series=\"ar-lv\" tabindex=\"0\"><rect class=\"key-hit\" x=\"116.6\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-lv\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">LV</text></g><g class=\"key\" data-series=\"ar-cv\" tabindex=\"0\"><rect class=\"key-hit\" x=\"159.39999999999998\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-cv\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">CV</text></g><g class=\"key\" data-series=\"ar-sec\" tabindex=\"0\"><rect class=\"key-hit\" x=\"202.2\" y=\"3\" width=\"43.2\" height=\"18\"/><rect class=\"ar-sec\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">Sec</text></g><g class=\"key\" data-series=\"ar-pl\" tabindex=\"0\"><rect class=\"key-hit\" x=\"251.39999999999998\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-pl\" x=\"254.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"272.4\" y=\"16\">PL</text></g><g class=\"key\" data-series=\"ar-se\" tabindex=\"0\"><rect class=\"key-hit\" x=\"294.2\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-se\" x=\"297.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"315.2\" y=\"16\">SE</text></g><g class=\"key\" data-series=\"ar-other\" tabindex=\"0\"><rect class=\"key-hit\" x=\"337.0\" y=\"3\" width=\"209.6\" height=\"18\"/><rect class=\"ar-other\" x=\"340.0\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"358.0\" y=\"16\">Other (Rob, NLP, DA, DM, Emb)</text></g><line class=\"axis\" x1=\"34\" y1=\"376.0\" x2=\"630\" y2=\"376.0\"/><text x=\"28\" y=\"380.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"262.0\" x2=\"630\" y2=\"262.0\"/><text x=\"28\" y=\"266.0\" text-anchor=\"end\">5</text><line class=\"grid\" x1=\"34\" y1=\"148.0\" x2=\"630\" y2=\"148.0\"/><text x=\"28\" y=\"152.0\" text-anchor=\"end\">10</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">15</text><text x=\"61.1\" y=\"393\" text-anchor=\"middle\">2017</text><rect class=\"ar-ml pat-hash seg\" x=\"100.3\" y=\"262.0\" width=\"30.0\" height=\"114.0\"><title>2018, ML: 5 papers</title></rect><rect class=\"pat\" x=\"100.3\" y=\"262.0\" width=\"30.0\" height=\"114.0\" fill=\"url(#pat-hash)\"/><rect class=\"ar-sec seg\" x=\"100.3\" y=\"239.2\" width=\"30.0\" height=\"22.8\"><title>2018, Sec: 1 papers</title></rect><text class=\"value\" x=\"115.3\" y=\"234.2\" text-anchor=\"middle\">6</text><text x=\"115.3\" y=\"393\" text-anchor=\"middle\">2018</text><rect class=\"ar-ml pat-hash seg\" x=\"154.5\" y=\"307.6\" width=\"30.0\" height=\"68.4\"><title>2019, ML: 3 papers</title></rect><rect class=\"pat\" x=\"154.5\" y=\"307.6\" width=\"30.0\" height=\"68.4\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"154.5\" y=\"284.8\" width=\"30.0\" height=\"22.8\"><title>2019, AI: 1 papers</title></rect><rect class=\"pat\" x=\"154.5\" y=\"284.8\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><text class=\"value\" x=\"169.5\" y=\"279.8\" text-anchor=\"middle\">4</text><text x=\"169.5\" y=\"393\" text-anchor=\"middle\">2019</text><rect class=\"ar-ml pat-hash seg\" x=\"208.6\" y=\"170.8\" width=\"30.0\" height=\"205.2\"><title>2020, ML: 9 papers</title></rect><rect class=\"pat\" x=\"208.6\" y=\"170.8\" width=\"30.0\" height=\"205.2\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"208.6\" y=\"148.0\" width=\"30.0\" height=\"22.8\"><title>2020, AI: 1 papers</title></rect><rect class=\"pat\" x=\"208.6\" y=\"148.0\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><rect class=\"ar-sec seg\" x=\"208.6\" y=\"125.2\" width=\"30.0\" height=\"22.8\"><title>2020, Sec: 1 papers</title></rect><text class=\"value\" x=\"223.6\" y=\"120.2\" text-anchor=\"middle\">11</text><text x=\"223.6\" y=\"393\" text-anchor=\"middle\">2020</text><rect class=\"ar-ml pat-hash seg\" x=\"262.8\" y=\"170.8\" width=\"30.0\" height=\"205.2\"><title>2021, ML: 9 papers</title></rect><rect class=\"pat\" x=\"262.8\" y=\"170.8\" width=\"30.0\" height=\"205.2\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"262.8\" y=\"148.0\" width=\"30.0\" height=\"22.8\"><title>2021, AI: 1 papers</title></rect><rect class=\"pat\" x=\"262.8\" y=\"148.0\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><rect class=\"ar-sec seg\" x=\"262.8\" y=\"125.2\" width=\"30.0\" height=\"22.8\"><title>2021, Sec: 1 papers</title></rect><text class=\"value\" x=\"277.8\" y=\"120.2\" text-anchor=\"middle\">11</text><text x=\"277.8\" y=\"393\" text-anchor=\"middle\">2021</text><rect class=\"ar-ml pat-hash seg\" x=\"317.0\" y=\"193.6\" width=\"30.0\" height=\"182.4\"><title>2022, ML: 8 papers</title></rect><rect class=\"pat\" x=\"317.0\" y=\"193.6\" width=\"30.0\" height=\"182.4\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"317.0\" y=\"170.8\" width=\"30.0\" height=\"22.8\"><title>2022, AI: 1 papers</title></rect><rect class=\"pat\" x=\"317.0\" y=\"170.8\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><rect class=\"ar-cv seg\" x=\"317.0\" y=\"125.2\" width=\"30.0\" height=\"45.6\"><title>2022, CV: 2 papers</title></rect><text class=\"value\" x=\"332.0\" y=\"120.2\" text-anchor=\"middle\">11</text><text x=\"332.0\" y=\"393\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml pat-hash seg\" x=\"371.2\" y=\"239.2\" width=\"30.0\" height=\"136.8\"><title>2023, ML: 6 papers</title></rect><rect class=\"pat\" x=\"371.2\" y=\"239.2\" width=\"30.0\" height=\"136.8\" fill=\"url(#pat-hash)\"/><rect class=\"ar-sec seg\" x=\"371.2\" y=\"216.4\" width=\"30.0\" height=\"22.8\"><title>2023, Sec: 1 papers</title></rect><rect class=\"ar-pl seg\" x=\"371.2\" y=\"193.6\" width=\"30.0\" height=\"22.8\"><title>2023, PL: 1 papers</title></rect><text class=\"value\" x=\"386.2\" y=\"188.6\" text-anchor=\"middle\">8</text><text x=\"386.2\" y=\"393\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml pat-hash seg\" x=\"425.4\" y=\"284.8\" width=\"30.0\" height=\"91.2\"><title>2024, ML: 4 papers</title></rect><rect class=\"pat\" x=\"425.4\" y=\"284.8\" width=\"30.0\" height=\"91.2\" fill=\"url(#pat-hash)\"/><text class=\"value\" x=\"440.4\" y=\"279.8\" text-anchor=\"middle\">4</text><text x=\"440.4\" y=\"393\" text-anchor=\"middle\">2024</text><rect class=\"ar-ml pat-hash seg\" x=\"479.5\" y=\"262.0\" width=\"30.0\" height=\"114.0\"><title>2025, ML: 5 papers</title></rect><rect class=\"pat\" x=\"479.5\" y=\"262.0\" width=\"30.0\" height=\"114.0\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"479.5\" y=\"239.2\" width=\"30.0\" height=\"22.8\"><title>2025, AI: 1 papers</title></rect><rect class=\"pat\" x=\"479.5\" y=\"239.2\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><rect class=\"ar-sec seg\" x=\"479.5\" y=\"216.4\" width=\"30.0\" height=\"22.8\"><title>2025, Sec: 1 papers</title></rect><text class=\"value\" x=\"494.5\" y=\"211.4\" text-anchor=\"middle\">7</text><text x=\"494.5\" y=\"393\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml pat-hash seg\" x=\"533.7\" y=\"330.4\" width=\"30.0\" height=\"45.6\"><title>2026, ML: 2 papers</title></rect><rect class=\"pat\" x=\"533.7\" y=\"330.4\" width=\"30.0\" height=\"45.6\" fill=\"url(#pat-hash)\"/><rect class=\"ar-ai pat-stripe seg\" x=\"533.7\" y=\"307.6\" width=\"30.0\" height=\"22.8\"><title>2026, AI: 1 papers</title></rect><rect class=\"pat\" x=\"533.7\" y=\"307.6\" width=\"30.0\" height=\"22.8\" fill=\"url(#pat-stripe)\"/><text class=\"value\" x=\"548.7\" y=\"302.6\" text-anchor=\"middle\">3</text><text x=\"548.7\" y=\"393\" text-anchor=\"middle\">2026</text><text x=\"602.9\" y=\"393\" text-anchor=\"middle\">2027</text></svg>",
   "pie": "<svg class=\"chart pie\" viewBox=\"0 0 640 400\" role=\"img\" aria-label=\"α,β-CROWN: NNV papers per primary area\"><a class=\"pie-item pie-training\" href=\"../../areas/training/\" aria-label=\"Certified training: 17 papers (26%)\"><path class=\"slice\" d=\"M320,200 L320.0,88.0 A112,112 0 0 1 431.7,208.1 Z\"><title>Certified training: 17 papers (26%)</title></path><polyline class=\"leader\" points=\"403.5,122.4 452.0,111.5 462.0,111.5\"/><rect class=\"pie-hit\" x=\"466.0\" y=\"104.0\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"start\"><tspan x=\"466.0\" y=\"115.5\">Certified training <tspan class=\"value\">17 (26%)</tspan></tspan></text></a><a class=\"pie-item pie-bounds\" href=\"../../areas/bounds/\" aria-label=\"Bound propagation &amp; abstract interpretation: 16 papers (25%)\"><path class=\"slice\" d=\"M320,200 L431.7,208.1 A112,112 0 0 1 314.6,311.9 Z\"><title>Bound propagation &amp; abstract interpretation: 16 papers (25%)</title></path><polyline class=\"leader\" points=\"395.6,285.3 452.0,297.3 462.0,297.3\"/><rect class=\"pie-hit\" x=\"466.0\" y=\"283.8\" width=\"200\" height=\"27.0\"/><text class=\"pie-label\" text-anchor=\"start\"><tspan x=\"466.0\" y=\"295.3\">Bound propagation &amp; abstract</tspan><tspan x=\"466.0\" y=\"307.3\">interpretation <tspan class=\"value\">16 (25%)</tspan></tspan></text></a><a class=\"pie-item pie-probabilistic\" href=\"../../areas/probabilistic/\" aria-label=\"Probabilistic certification: 12 papers (18%)\"><path class=\"slice\" d=\"M320,200 L314.6,311.9 A112,112 0 0 1 215.3,239.7 Z\"><title>Probabilistic certification: 12 papers (18%)</title></path><polyline class=\"leader\" points=\"253.0,292.2 188.0,305.2 178.0,305.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"291.7\" width=\"200\" height=\"27.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"303.2\">Probabilistic certification</tspan><tspan x=\"174.0\" y=\"315.2\"><tspan class=\"value\">12 (18%)</tspan></tspan></text></a><a class=\"pie-item pie-control\" href=\"../../areas/control/\" aria-label=\"NN control systems: 7 papers (11%)\"><path class=\"slice\" d=\"M320,200 L215.3,239.7 A112,112 0 0 1 213.5,165.4 Z\"><title>NN control systems: 7 papers (11%)</title></path><polyline class=\"leader\" points=\"206.0,202.8 188.0,203.1 178.0,203.1\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"195.6\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"207.1\">NN control systems <tspan class=\"value\">7 (11%)</tspan></tspan></text></a><a class=\"pie-item pie-complete\" href=\"../../areas/complete/\" aria-label=\"Complete verification: 6 papers (9%)\"><path class=\"slice\" d=\"M320,200 L213.5,165.4 A112,112 0 0 1 249.9,112.7 Z\"><title>Complete verification: 6 papers (9%)</title></path><polyline class=\"leader\" points=\"226.2,135.2 188.0,157.2 178.0,157.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"149.7\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"161.2\">Complete verification <tspan class=\"value\">6 (9%)</tspan></tspan></text></a><a class=\"pie-item pie-explanations\" href=\"../../areas/explanations/\" aria-label=\"Formal explanations: 2 papers (3%)\"><path class=\"slice\" d=\"M320,200 L249.9,112.7 A112,112 0 0 1 268.0,100.8 Z\"><title>Formal explanations: 2 papers (3%)</title></path><polyline class=\"leader\" points=\"257.5,104.6 188.0,142.2 178.0,142.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"134.7\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"146.2\">Formal explanations <tspan class=\"value\">2 (3%)</tspan></tspan></text></a><a class=\"pie-item pie-architectures\" href=\"../../areas/architectures/\" aria-label=\"Beyond feed-forward nets: 2 papers (3%)\"><path class=\"slice\" d=\"M320,200 L268.0,100.8 A112,112 0 0 1 288.0,92.7 Z\"><title>Beyond feed-forward nets: 2 papers (3%)</title></path><polyline class=\"leader\" points=\"277.0,94.4 188.0,127.2 178.0,127.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"119.7\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"131.2\">Beyond feed-forward nets <tspan class=\"value\">2 (3%)</tspan></tspan></text></a><a class=\"pie-item pie-relational\" href=\"../../areas/relational/\" aria-label=\"Global &amp; relational properties: 1 papers (2%)\"><path class=\"slice\" d=\"M320,200 L288.0,92.7 A112,112 0 0 1 298.5,90.1 Z\"><title>Global &amp; relational properties: 1 papers (2%)</title></path><polyline class=\"leader\" points=\"292.7,89.3 188.0,106.2 178.0,106.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"92.7\" width=\"200\" height=\"27.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"104.2\">Global &amp; relational properties</tspan><tspan x=\"174.0\" y=\"116.2\"><tspan class=\"value\">1 (2%)</tspan></tspan></text></a><a class=\"pie-item pie-other\" href=\"../../areas/other/\" aria-label=\"Other: 1 papers (2%)\"><path class=\"slice\" d=\"M320,200 L298.5,90.1 A112,112 0 0 1 309.2,88.5 Z\"><title>Other: 1 papers (2%)</title></path><polyline class=\"leader\" points=\"303.5,87.2 188.0,85.2 178.0,85.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"77.7\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"89.2\">Other <tspan class=\"value\">1 (2%)</tspan></tspan></text></a><a class=\"pie-item pie-inputs\" href=\"../../areas/inputs/\" aria-label=\"Beyond ℓp input properties: 1 papers (2%)\"><path class=\"slice\" d=\"M320,200 L309.2,88.5 A112,112 0 0 1 320.0,88.0 Z\"><title>Beyond ℓp input properties: 1 papers (2%)</title></path><polyline class=\"leader\" points=\"314.5,86.1 188.0,70.2 178.0,70.2\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"62.7\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"74.2\">Beyond ℓp input properties <tspan class=\"value\">1 (2%)</tspan></tspan></text></a></svg>",
@@ -10161,7 +10169,7 @@
   "award_rank": 0,
   "award_place": 1,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "abcrown",
   "hue": 1,
   "shape": "circle",
@@ -11521,7 +11529,7 @@
   "award_rank": 9,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "jia-psu",
   "hue": 3,
   "shape": "circle",
@@ -13268,7 +13276,7 @@
   "award_rank": 4,
   "award_place": 4,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "eran",
   "hue": 4,
   "shape": "circle",
@@ -13643,10 +13651,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 27,
+  "award_rank": 26,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "alessandro-farinelli",
   "hue": 1,
   "shape": "triangle",
@@ -14602,10 +14610,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 40,
+  "award_rank": 39,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "dlv",
   "hue": 6,
   "shape": "square",
@@ -15137,10 +15145,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 44,
+  "award_rank": 43,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "iscas-zhang",
   "hue": 3,
   "shape": "diamond",
@@ -15948,10 +15956,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 86,
+  "award_rank": 85,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "ecnu",
   "hue": 8,
   "shape": "circle",
@@ -16561,10 +16569,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 131,
+  "award_rank": 130,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "zhengfeng-yang",
   "hue": 2,
   "shape": "diamond",
@@ -17322,7 +17330,7 @@
   "award_rank": 2,
   "award_place": 3,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "alexandre-allauzen",
   "hue": 8,
   "shape": "diamond",
@@ -18024,10 +18032,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 90,
+  "award_rank": 89,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "nnv",
   "hue": 2,
   "shape": "square",
@@ -18439,10 +18447,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 84,
+  "award_rank": 83,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "mathieu-serrurier",
   "hue": 3,
   "shape": "triangle",
@@ -19025,7 +19033,7 @@
   "award_rank": 21,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "oval",
   "hue": 2,
   "shape": "triangle",
@@ -19272,10 +19280,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 39,
+  "award_rank": 38,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "cong-tian",
   "hue": 1,
   "shape": "triangle",
@@ -19735,7 +19743,7 @@
   "award_rank": 16,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "gloro",
   "hue": 1,
   "shape": "triangle",
@@ -20151,10 +20159,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 82,
+  "award_rank": 81,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "maria-christakis",
   "hue": 7,
   "shape": "square",
@@ -20431,10 +20439,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 81,
+  "award_rank": 80,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -20843,10 +20851,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 122,
+  "award_rank": 121,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "vorobeychik",
   "hue": 3,
   "shape": "triangle",
@@ -21495,10 +21503,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 49,
+  "award_rank": 48,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "formal-xai",
   "hue": 1,
   "shape": "diamond",
@@ -21743,10 +21751,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 94,
+  "award_rank": 93,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21976,308 +21984,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 83,
+  "award_rank": 82,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
-  "color": "other",
-  "hue": 0,
-  "shape": "circle",
-  "filled": false,
-  "legend_order": null
- },
- {
-  "recent_score": 1.024,
-  "recent_papers": 1,
-  "five_score": 1.065,
-  "five_papers": 4,
-  "recent_score_fields": {
-   "ml": 0.333,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0,
-   "ai": 0.0,
-   "sec": 0.0,
-   "ro": 0.0,
-   "nlp": 0.0,
-   "da": 0.0,
-   "dm": 0.0,
-   "emb": 0.0
-  },
-  "oral": 0,
-  "spotlight": 1,
-  "highlight": 0,
-  "awards": 1,
-  "country": "GB",
-  "country_name": "United Kingdom",
-  "institution": "Safe Intelligence",
-  "institution_country": "GB",
-  "label": "VNN-COMP",
-  "slug": "vnncomp",
-  "name": "VNN-COMP",
-  "tools": [
-   "VNN-COMP",
-   "VNN-LIB"
-  ],
-  "url": "https://sites.google.com/view/vnn2025",
-  "description": "Organisers of the International Verification of Neural Networks Competition at RWTH Aachen University.",
-  "topic": "Annual competition bringing together researchers who build formal methods and tools that provide guarantees about the behaviour of neural networks and systems built on them.",
-  "topic_source": "https://sites.google.com/view/vnn2025",
-  "members": [
-   {
-    "slug": "christopher-brix",
-    "name": "Christopher Brix",
-    "institution_short": "Safe Intelligence",
-    "papers": 3,
-    "score": 0.65
-   },
-   {
-    "slug": "konstantin-kaulen",
-    "name": "Konstantin Kaulen",
-    "institution_short": "Rheinisch Westfälische Technische Hochschule Aachen",
-    "papers": 1,
-    "score": 0.333
-   }
-  ],
-  "institutions": [
-   "Safe Intelligence",
-   "Rheinisch Westfälische Technische Hochschule Aachen"
-  ],
-  "papers": 4,
-  "citations": 138,
-  "venues": {
-   "icml": 1,
-   "uss": 1,
-   "neurips": 2
-  },
-  "fields": {
-   "ml": 3,
-   "cv": 0,
-   "pl": 0,
-   "se": 0,
-   "lv": 0,
-   "ai": 0,
-   "sec": 1,
-   "ro": 0,
-   "nlp": 0,
-   "da": 0,
-   "dm": 0,
-   "emb": 0
-  },
-  "areas": {
-   "complete": 1,
-   "bounds": 1,
-   "probabilistic": 0,
-   "training": 2,
-   "repair": 0,
-   "explanations": 0,
-   "control": 0,
-   "relational": 0,
-   "architectures": 0,
-   "quantized": 0,
-   "other": 0,
-   "inputs": 0,
-   "outputs": 0
-  },
-  "years": {
-   "2017": 0,
-   "2018": 0,
-   "2019": 0,
-   "2020": 0,
-   "2021": 0,
-   "2022": 0,
-   "2023": 1,
-   "2024": 1,
-   "2025": 1,
-   "2026": 1,
-   "2027": 0
-  },
-  "score_fields": {
-   "ml": 0.783,
-   "cv": 0.0,
-   "pl": 0.0,
-   "se": 0.0,
-   "lv": 0.0,
-   "ai": 0.0,
-   "sec": 0.2,
-   "ro": 0.0,
-   "nlp": 0.0,
-   "da": 0.0,
-   "dm": 0.0,
-   "emb": 0.0
-  },
-  "score": 1.065,
-  "logo": "",
-  "chart": "<svg class=\"chart\" viewBox=\"0 0 640 400\" role=\"img\" aria-label=\"VNN-COMP: NNV papers per year by field\"><defs><pattern id=\"pat-hash\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 3H6M3 0V6\" class=\"pat-line\"/></pattern><pattern id=\"pat-stripe\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(45)\"><path d=\"M0 0V6\" class=\"pat-line\"/></pattern></defs><g class=\"key\" data-series=\"ar-ml pat-hash\" tabindex=\"0\"><rect class=\"key-hit\" x=\"31\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-ml pat-hash\" x=\"34\" y=\"6\" width=\"12\" height=\"12\"/><rect class=\"pat\" x=\"34\" y=\"6\" width=\"12\" height=\"12\" fill=\"url(#pat-hash)\"/><text x=\"52\" y=\"16\">ML</text></g><g class=\"key\" data-series=\"ar-ai pat-stripe\" tabindex=\"0\"><rect class=\"key-hit\" x=\"73.8\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-ai pat-stripe\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\"/><rect class=\"pat\" x=\"76.8\" y=\"6\" width=\"12\" height=\"12\" fill=\"url(#pat-stripe)\"/><text x=\"94.8\" y=\"16\">AI</text></g><g class=\"key\" data-series=\"ar-lv\" tabindex=\"0\"><rect class=\"key-hit\" x=\"116.6\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-lv\" x=\"119.6\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"137.6\" y=\"16\">LV</text></g><g class=\"key\" data-series=\"ar-cv\" tabindex=\"0\"><rect class=\"key-hit\" x=\"159.39999999999998\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-cv\" x=\"162.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"180.39999999999998\" y=\"16\">CV</text></g><g class=\"key\" data-series=\"ar-sec\" tabindex=\"0\"><rect class=\"key-hit\" x=\"202.2\" y=\"3\" width=\"43.2\" height=\"18\"/><rect class=\"ar-sec\" x=\"205.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"223.2\" y=\"16\">Sec</text></g><g class=\"key\" data-series=\"ar-pl\" tabindex=\"0\"><rect class=\"key-hit\" x=\"251.39999999999998\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-pl\" x=\"254.39999999999998\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"272.4\" y=\"16\">PL</text></g><g class=\"key\" data-series=\"ar-se\" tabindex=\"0\"><rect class=\"key-hit\" x=\"294.2\" y=\"3\" width=\"36.8\" height=\"18\"/><rect class=\"ar-se\" x=\"297.2\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"315.2\" y=\"16\">SE</text></g><g class=\"key\" data-series=\"ar-other\" tabindex=\"0\"><rect class=\"key-hit\" x=\"337.0\" y=\"3\" width=\"209.6\" height=\"18\"/><rect class=\"ar-other\" x=\"340.0\" y=\"6\" width=\"12\" height=\"12\"/><text x=\"358.0\" y=\"16\">Other (Rob, NLP, DA, DM, Emb)</text></g><line class=\"axis\" x1=\"34\" y1=\"376.0\" x2=\"630\" y2=\"376.0\"/><text x=\"28\" y=\"380.0\" text-anchor=\"end\">0</text><line class=\"grid\" x1=\"34\" y1=\"290.5\" x2=\"630\" y2=\"290.5\"/><text x=\"28\" y=\"294.5\" text-anchor=\"end\">1</text><line class=\"grid\" x1=\"34\" y1=\"205.0\" x2=\"630\" y2=\"205.0\"/><text x=\"28\" y=\"209.0\" text-anchor=\"end\">2</text><line class=\"grid\" x1=\"34\" y1=\"119.5\" x2=\"630\" y2=\"119.5\"/><text x=\"28\" y=\"123.5\" text-anchor=\"end\">3</text><line class=\"grid\" x1=\"34\" y1=\"34.0\" x2=\"630\" y2=\"34.0\"/><text x=\"28\" y=\"38.0\" text-anchor=\"end\">4</text><text x=\"61.1\" y=\"393\" text-anchor=\"middle\">2017</text><text x=\"115.3\" y=\"393\" text-anchor=\"middle\">2018</text><text x=\"169.5\" y=\"393\" text-anchor=\"middle\">2019</text><text x=\"223.6\" y=\"393\" text-anchor=\"middle\">2020</text><text x=\"277.8\" y=\"393\" text-anchor=\"middle\">2021</text><text x=\"332.0\" y=\"393\" text-anchor=\"middle\">2022</text><rect class=\"ar-ml pat-hash seg\" x=\"371.2\" y=\"290.5\" width=\"30.0\" height=\"85.5\"><title>2023, ML: 1 papers</title></rect><rect class=\"pat\" x=\"371.2\" y=\"290.5\" width=\"30.0\" height=\"85.5\" fill=\"url(#pat-hash)\"/><text class=\"value\" x=\"386.2\" y=\"285.5\" text-anchor=\"middle\">1</text><text x=\"386.2\" y=\"393\" text-anchor=\"middle\">2023</text><rect class=\"ar-ml pat-hash seg\" x=\"425.4\" y=\"290.5\" width=\"30.0\" height=\"85.5\"><title>2024, ML: 1 papers</title></rect><rect class=\"pat\" x=\"425.4\" y=\"290.5\" width=\"30.0\" height=\"85.5\" fill=\"url(#pat-hash)\"/><text class=\"value\" x=\"440.4\" y=\"285.5\" text-anchor=\"middle\">1</text><text x=\"440.4\" y=\"393\" text-anchor=\"middle\">2024</text><rect class=\"ar-sec seg\" x=\"479.5\" y=\"290.5\" width=\"30.0\" height=\"85.5\"><title>2025, Sec: 1 papers</title></rect><text class=\"value\" x=\"494.5\" y=\"285.5\" text-anchor=\"middle\">1</text><text x=\"494.5\" y=\"393\" text-anchor=\"middle\">2025</text><rect class=\"ar-ml pat-hash seg\" x=\"533.7\" y=\"290.5\" width=\"30.0\" height=\"85.5\"><title>2026, ML: 1 papers</title></rect><rect class=\"pat\" x=\"533.7\" y=\"290.5\" width=\"30.0\" height=\"85.5\" fill=\"url(#pat-hash)\"/><text class=\"value\" x=\"548.7\" y=\"285.5\" text-anchor=\"middle\">1</text><text x=\"548.7\" y=\"393\" text-anchor=\"middle\">2026</text><text x=\"602.9\" y=\"393\" text-anchor=\"middle\">2027</text></svg>",
-  "pie": "<svg class=\"chart pie\" viewBox=\"0 0 640 400\" role=\"img\" aria-label=\"VNN-COMP: NNV papers per primary area\"><a class=\"pie-item pie-training\" href=\"../../areas/training/\" aria-label=\"Certified training: 2 papers (50%)\"><path class=\"slice\" d=\"M320,200 L320.0,88.0 A112,112 0 0 1 320.0,312.0 Z\"><title>Certified training: 2 papers (50%)</title></path><polyline class=\"leader\" points=\"434.0,200.0 452.0,200.0 462.0,200.0\"/><rect class=\"pie-hit\" x=\"466.0\" y=\"192.5\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"start\"><tspan x=\"466.0\" y=\"204.0\">Certified training <tspan class=\"value\">2 (50%)</tspan></tspan></text></a><a class=\"pie-item pie-complete\" href=\"../../areas/complete/\" aria-label=\"Complete verification: 1 papers (25%)\"><path class=\"slice\" d=\"M320,200 L320.0,312.0 A112,112 0 0 1 208.0,200.0 Z\"><title>Complete verification: 1 papers (25%)</title></path><polyline class=\"leader\" points=\"239.4,280.6 188.0,291.9 178.0,291.9\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"284.4\" width=\"200\" height=\"15.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"295.9\">Complete verification <tspan class=\"value\">1 (25%)</tspan></tspan></text></a><a class=\"pie-item pie-bounds\" href=\"../../areas/bounds/\" aria-label=\"Bound propagation &amp; abstract interpretation: 1 papers (25%)\"><path class=\"slice\" d=\"M320,200 L208.0,200.0 A112,112 0 0 1 320.0,88.0 Z\"><title>Bound propagation &amp; abstract interpretation: 1 papers (25%)</title></path><polyline class=\"leader\" points=\"239.4,119.4 188.0,108.1 178.0,108.1\"/><rect class=\"pie-hit\" x=\"-26.0\" y=\"94.6\" width=\"200\" height=\"27.0\"/><text class=\"pie-label\" text-anchor=\"end\"><tspan x=\"174.0\" y=\"106.1\">Bound propagation &amp; abstract</tspan><tspan x=\"174.0\" y=\"118.1\">interpretation <tspan class=\"value\">1 (25%)</tspan></tspan></text></a></svg>",
-  "paper_list": [
-   {
-    "id": "kaulen2026rethinking",
-    "key": "openreview/XoaS2r1ezP",
-    "date": "2026-07",
-    "venue": "icml",
-    "venue_name": "ICML",
-    "year": 2026,
-    "field": "ml",
-    "title": "Rethinking Evaluation Paradigms in IBP-based Certified Training",
-    "url": "https://openreview.net/forum?id=XoaS2r1ezP",
-    "citations": 1,
-    "arxiv": "2606.02134",
-    "source": "icml.cc",
-    "unofficial": false,
-    "issue": "",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Konstantin Kaulen",
-      "slug": "konstantin-kaulen"
-     },
-     {
-      "name": "Hadar Shavit",
-      "slug": ""
-     },
-     {
-      "name": "Holger Hoos",
-      "slug": ""
-     }
-    ],
-    "pres": ""
-   },
-   {
-    "id": "yang2025certphash",
-    "key": "conf/uss/YangLB0C25",
-    "date": "2025-08",
-    "venue": "uss",
-    "venue_name": "USENIX Security",
-    "year": 2025,
-    "field": "sec",
-    "title": "CertPHash: Towards Certified Perceptual Hashing via Robust Training",
-    "url": "https://dblp.org/rec/conf/uss/YangLB0C25",
-    "citations": 7,
-    "arxiv": "",
-    "source": "dblp.org",
-    "unofficial": false,
-    "issue": "",
-    "area": "training",
-    "area_name": "Certified training",
-    "tags": [
-     {
-      "key": "outputs",
-      "name": "Beyond linear output properties"
-     }
-    ],
-    "authors": [
-     {
-      "name": "Yuchen Yang",
-      "slug": ""
-     },
-     {
-      "name": "Qichang Liu",
-      "slug": ""
-     },
-     {
-      "name": "Christopher Brix",
-      "slug": "christopher-brix"
-     },
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
-     },
-     {
-      "name": "Yinzhi Cao",
-      "slug": ""
-     }
-    ],
-    "pres": ""
-   },
-   {
-    "id": "zhou2024scalable",
-    "key": "conf/nips/ZhouBH024",
-    "date": "2024-12",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2024,
-    "field": "ml",
-    "title": "Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes",
-    "url": "https://dblp.org/rec/conf/nips/ZhouBH024",
-    "citations": 66,
-    "arxiv": "2501.00200",
-    "source": "dblp.org",
-    "unofficial": false,
-    "issue": "",
-    "area": "complete",
-    "area_name": "Complete verification",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Duo Zhou",
-      "slug": "duo-zhou"
-     },
-     {
-      "name": "Christopher Brix",
-      "slug": "christopher-brix"
-     },
-     {
-      "name": "Grani A. Hanasusanto",
-      "slug": "grani-a-hanasusanto"
-     },
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
-     }
-    ],
-    "pres": ""
-   },
-   {
-    "id": "kotha2023provably",
-    "key": "conf/nips/KothaBKD023",
-    "date": "2023-12",
-    "venue": "neurips",
-    "venue_name": "NeurIPS",
-    "year": 2023,
-    "field": "ml",
-    "title": "Provably Bounding Neural Network Preimages",
-    "url": "https://dblp.org/rec/conf/nips/KothaBKD023",
-    "citations": 64,
-    "arxiv": "",
-    "source": "dblp.org",
-    "unofficial": false,
-    "issue": "",
-    "area": "bounds",
-    "area_name": "Bound propagation & abstract interpretation",
-    "tags": [],
-    "authors": [
-     {
-      "name": "Suhas Kotha",
-      "slug": ""
-     },
-     {
-      "name": "Christopher Brix",
-      "slug": "christopher-brix"
-     },
-     {
-      "name": "Zico Kolter",
-      "slug": "zico-kolter"
-     },
-     {
-      "name": "Krishnamurthy Dvijotham",
-      "slug": "krishnamurthy-dvijotham"
-     },
-     {
-      "name": "Huan Zhang",
-      "slug": "huan-zhang"
-     }
-    ],
-    "pres": "spotlight"
-   }
-  ],
-  "award_rank": 24,
-  "award_place": 16,
-  "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -22523,7 +22233,7 @@
   "award_rank": 15,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -22769,7 +22479,7 @@
   "award_rank": 19,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -22959,10 +22669,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 41,
+  "award_rank": 40,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -23169,10 +22879,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 65,
+  "award_rank": 64,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -23379,10 +23089,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 132,
+  "award_rank": 131,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -24554,10 +24264,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 78,
+  "award_rank": 77,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "linyi-li",
   "hue": 8,
   "shape": "triangle",
@@ -25136,10 +24846,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 52,
+  "award_rank": 51,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "gong",
   "hue": 1,
   "shape": "triangle",
@@ -25521,7 +25231,7 @@
   "award_rank": 12,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25723,10 +25433,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 47,
+  "award_rank": 46,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25959,10 +25669,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 53,
+  "award_rank": 52,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26195,10 +25905,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 135,
+  "award_rank": 134,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26439,10 +26149,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 43,
+  "award_rank": 42,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26683,10 +26393,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 110,
+  "award_rank": 109,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26927,10 +26637,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 115,
+  "award_rank": 114,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -27128,10 +26838,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 36,
+  "award_rank": 35,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -27605,10 +27315,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 124,
+  "award_rank": 123,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "wenchao-li",
   "hue": 6,
   "shape": "diamond",
@@ -27966,10 +27676,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 79,
+  "award_rank": 78,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -28191,10 +27901,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 25,
+  "award_rank": 24,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -30277,10 +29987,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 106,
+  "award_rank": 105,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "secure-learning",
   "hue": 2,
   "shape": "circle",
@@ -30498,10 +30208,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 109,
+  "award_rank": 108,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -31504,10 +31214,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 42,
+  "award_rank": 41,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "daniel-mit",
   "hue": 6,
   "shape": "circle",
@@ -32619,7 +32329,7 @@
   "award_rank": 6,
   "award_place": 7,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "deepmind",
   "hue": 3,
   "shape": "square",
@@ -33444,7 +33154,7 @@
   "award_rank": 5,
   "award_place": 4,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "reliable-ai",
   "hue": 1,
   "shape": "triangle",
@@ -33910,10 +33620,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 108,
+  "award_rank": 107,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -34406,10 +34116,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 58,
+  "award_rank": 57,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "ista",
   "hue": 1,
   "shape": "triangle",
@@ -34817,10 +34527,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 46,
+  "award_rank": 45,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "drachsler-cohen",
   "hue": 1,
   "shape": "triangle",
@@ -35651,7 +35361,7 @@
   "award_rank": 17,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "ibm",
   "hue": 3,
   "shape": "triangle",
@@ -35986,10 +35696,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 26,
+  "award_rank": 25,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "albarghouthi",
   "hue": 1,
   "shape": "triangle",
@@ -36573,10 +36283,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 57,
+  "award_rank": 56,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "hein",
   "hue": 2,
   "shape": "triangle",
@@ -36882,7 +36592,7 @@
   "award_rank": 22,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -37555,7 +37265,7 @@
   "award_rank": 20,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "neurify",
   "hue": 4,
   "shape": "diamond",
@@ -37958,10 +37668,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 93,
+  "award_rank": 92,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "pappas",
   "hue": 8,
   "shape": "square",
@@ -38259,10 +37969,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 34,
+  "award_rank": 33,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "chao-wang",
   "hue": 1,
   "shape": "triangle",
@@ -38653,10 +38363,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 97,
+  "award_rank": 96,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "fu-song",
   "hue": 1,
   "shape": "triangle",
@@ -39398,10 +39108,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 125,
+  "award_rank": 124,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -39957,10 +39667,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 51,
+  "award_rank": 50,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "goldstein",
   "hue": 4,
   "shape": "triangle",
@@ -40325,10 +40035,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 48,
+  "award_rank": 47,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -40756,10 +40466,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 80,
+  "award_rank": 79,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "mipverify",
   "hue": 5,
   "shape": "triangle",
@@ -41285,10 +40995,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 116,
+  "award_rank": 115,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "tvg",
   "hue": 1,
   "shape": "triangle",
@@ -41742,7 +41452,7 @@
   "award_rank": 8,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "aaron-j-havens",
   "hue": 2,
   "shape": "triangle",
@@ -42077,10 +41787,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 118,
+  "award_rank": 117,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "vere",
   "hue": 1,
   "shape": "triangle",
@@ -42483,10 +42193,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 123,
+  "award_rank": 122,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "wang-lin",
   "hue": 6,
   "shape": "triangle",
@@ -42840,10 +42550,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 35,
+  "award_rank": 34,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "charon",
   "hue": 2,
   "shape": "triangle",
@@ -43280,10 +42990,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 37,
+  "award_rank": 36,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -43604,10 +43314,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 50,
+  "award_rank": 49,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -43981,7 +43691,7 @@
   "award_rank": 11,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -44275,10 +43985,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 71,
+  "award_rank": 70,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "kai-zhou",
   "hue": 1,
   "shape": "triangle",
@@ -44650,10 +44360,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 92,
+  "award_rank": 91,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "pku",
   "hue": 2,
   "shape": "triangle",
@@ -44920,10 +44630,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 45,
+  "award_rank": 44,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45133,10 +44843,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 29,
+  "award_rank": 28,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45438,10 +45148,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 70,
+  "award_rank": 69,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45870,10 +45580,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 95,
+  "award_rank": 94,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -46222,10 +45932,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 76,
+  "award_rank": 75,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -46452,10 +46162,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 56,
+  "award_rank": 55,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -46712,10 +46422,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 98,
+  "award_rank": 97,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47034,7 +46744,7 @@
   "award_rank": 10,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47381,10 +47091,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 100,
+  "award_rank": 99,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47799,10 +47509,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 136,
+  "award_rank": 135,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "nnenum",
   "hue": 1,
   "shape": "triangle",
@@ -48114,10 +47824,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 117,
+  "award_rank": 116,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48318,7 +48028,7 @@
   "award_rank": 14,
   "award_place": 9,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48674,10 +48384,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 85,
+  "award_rank": 84,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48974,10 +48684,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 73,
+  "award_rank": 72,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -49233,10 +48943,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 89,
+  "award_rank": 88,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "my-thai",
   "hue": 7,
   "shape": "triangle",
@@ -49441,10 +49151,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 61,
+  "award_rank": 60,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -49760,10 +49470,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 104,
+  "award_rank": 103,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -50073,7 +49783,7 @@
   "award_rank": 23,
   "award_place": 16,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -50318,10 +50028,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 31,
+  "award_rank": 30,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "bernard-ghanem",
   "hue": 2,
   "shape": "triangle",
@@ -50587,10 +50297,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 121,
+  "award_rank": 120,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -50805,10 +50515,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 67,
+  "award_rank": 66,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "jonathan-p-how",
   "hue": 1,
   "shape": "triangle",
@@ -51018,10 +50728,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 87,
+  "award_rank": 86,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51234,10 +50944,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 54,
+  "award_rank": 53,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51495,10 +51205,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 99,
+  "award_rank": 98,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "radu-grosu",
   "hue": 2,
   "shape": "triangle",
@@ -51700,10 +51410,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 107,
+  "award_rank": 106,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52099,7 +51809,7 @@
   "award_rank": 3,
   "award_place": 4,
   "award_tied": true,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52285,10 +51995,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 28,
+  "award_rank": 27,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52596,10 +52306,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 130,
+  "award_rank": 129,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52789,10 +52499,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 32,
+  "award_rank": 31,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52982,10 +52692,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 38,
+  "award_rank": 37,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53235,10 +52945,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 63,
+  "award_rank": 62,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53432,10 +53142,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 129,
+  "award_rank": 128,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53674,10 +53384,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 77,
+  "award_rank": 76,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53888,10 +53598,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 59,
+  "award_rank": 58,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54084,10 +53794,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 62,
+  "award_rank": 61,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54280,10 +53990,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 101,
+  "award_rank": 100,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54476,10 +54186,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 111,
+  "award_rank": 110,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54690,10 +54400,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 126,
+  "award_rank": 125,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55003,10 +54713,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 91,
+  "award_rank": 90,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55271,10 +54981,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 133,
+  "award_rank": 132,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55477,10 +55187,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 64,
+  "award_rank": 63,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55683,10 +55393,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 75,
+  "award_rank": 74,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55883,10 +55593,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 60,
+  "award_rank": 59,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56083,10 +55793,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 74,
+  "award_rank": 73,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56288,10 +55998,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 72,
+  "award_rank": 71,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56493,10 +56203,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 96,
+  "award_rank": 95,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56703,10 +56413,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 105,
+  "award_rank": 104,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56908,10 +56618,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 112,
+  "award_rank": 111,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57117,10 +56827,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 66,
+  "award_rank": 65,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57322,10 +57032,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 88,
+  "award_rank": 87,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57531,10 +57241,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 127,
+  "award_rank": 126,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57816,10 +57526,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 69,
+  "award_rank": 68,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -58025,10 +57735,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 68,
+  "award_rank": 67,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -58234,10 +57944,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 103,
+  "award_rank": 102,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -58460,10 +58170,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 55,
+  "award_rank": 54,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -58686,10 +58396,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 128,
+  "award_rank": 127,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -58912,10 +58622,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 134,
+  "award_rank": 133,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -59163,10 +58873,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 113,
+  "award_rank": 112,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -59414,10 +59124,10 @@
     "pres": ""
    }
   ],
-  "award_rank": 114,
+  "award_rank": 113,
   "award_place": 0,
   "award_tied": false,
-  "award_of": 25,
+  "award_of": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
