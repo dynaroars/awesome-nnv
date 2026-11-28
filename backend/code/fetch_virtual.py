@@ -1,5 +1,6 @@
 import argparse
 import collections
+import gzip
 import html
 import json
 import re
@@ -31,6 +32,52 @@ def parse(venue, year, data):
     return list(papers.values())
 
 
+SCHED = {"cvpr": "https://cvpr.thecvf.com", "iccv": "https://iccv.thecvf.com", "eccv": "https://eccv.ecva.net"}
+
+
+def sched(refresh):
+    for v, site in SCHED.items():
+        for y in range(2023, LAST_YEAR + 1):
+            if (v == "iccv" and y % 2 == 0) or (v == "eccv" and y % 2):
+                continue
+            f = RAW / f"virtual/{v}-{y}.json.gz"
+            if f.exists() and not (refresh and y == LAST_YEAR):
+                continue
+            d = fetch(f"{site}/static/virtual/data/{v}-{y}-orals-posters.json", f"virtual/{v}-{y}.json", True)
+            if not d or not d.lstrip().startswith(b"{"):
+                f.unlink(missing_ok=True)
+                continue
+            d, i = json.loads(d), 1
+            while d.get("next"):
+                n = fetch(d["next"].replace("http://", "https://"), f"virtual/{v}-{y}-{i}.json", True)
+                (RAW / f"virtual/{v}-{y}-{i}.json.gz").unlink(missing_ok=True)
+                if not n:
+                    break
+                n = json.loads(n)
+                d["results"] += n.get("results", [])
+                d["next"], i = n.get("next"), i + 1
+            if d.get("next"):
+                f.unlink(missing_ok=True)
+                print(f"{v} {y}: schedule incomplete ({len(d['results'])} of {d.get('count')}), not kept", file=sys.stderr)
+                continue
+            f.write_bytes(gzip.compress(json.dumps(d).encode()))
+            print(f"{v} {y}: {len(d['results'])} schedule entries from {site}", file=sys.stderr)
+
+
+CVPR_LISTS = {"accepted": "/Conferences/{y}/AcceptedPapers", "highlights": "/virtual/{y}/events/Highlights{y}", "orals": "/virtual/{y}/events/Oral"}
+
+
+def cvpr_lists(refresh):
+    for y in range(2023, LAST_YEAR + 1):
+        for k, u in CVPR_LISTS.items():
+            f = RAW / f"cvpr/{k}-{y}.html.gz"
+            if f.exists() and not (refresh and y == LAST_YEAR):
+                continue
+            if not fetch(SCHED["cvpr"] + u.format(y=y), f"cvpr/{k}-{y}.html", True):
+                f.parent.mkdir(parents=True, exist_ok=True)
+                f.write_bytes(gzip.compress(b""))
+
+
 def main():
     ap = argparse.ArgumentParser(description="Read the accepted main-track papers of venue-years that dblp does not list yet from the conference sites (neurips.cc, icml.cc, iclr.cc).")
     ap.add_argument("--refresh", action="store_true", help="download the lists again")
@@ -54,6 +101,8 @@ def main():
                 coverage[venue][str(year)] = {"papers": len(rows), "short": 0, "tocs": [site.split("//")[1]]}
                 print(f"{venue} {year}: {len(rows)} main-track papers from {site}", file=sys.stderr)
     write_jsonl_gz(VIRTUAL, papers)
+    sched(args.refresh)
+    cvpr_lists(args.refresh)
     write_json(VIRTUAL_COVERAGE, coverage)
 
 

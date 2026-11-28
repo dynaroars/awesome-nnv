@@ -226,7 +226,8 @@
       "name": "Dacheng Tao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anani2026certified",
@@ -267,7 +268,8 @@
       "name": "Jonas Fischer",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2026certified",
@@ -308,7 +310,8 @@
       "name": "YANG CAO",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gosch2026certifying",
@@ -350,7 +353,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shen2026credit",
@@ -391,7 +395,8 @@
       "name": "Yushun Dong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dhar2026does",
@@ -496,7 +501,8 @@
       "name": "Pietro Lió",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2026front",
@@ -529,7 +535,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2026higher",
@@ -558,7 +565,8 @@
       "name": "Natalie Frank",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2026neural",
@@ -591,7 +599,8 @@
       "name": "Kaidi Yang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "taheri2026probabilistic",
@@ -620,7 +629,8 @@
       "name": "Majid Zamani",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kaulen2026rethinking",
@@ -653,7 +663,8 @@
       "name": "Holger Hoos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2026semantic",
@@ -707,7 +718,8 @@
       "name": "Sarah M. Erfani",
       "slug": "sarah-m-erfani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2026verified",
@@ -753,7 +765,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2025average",
@@ -790,7 +803,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "azzolin2025beyond",
@@ -832,7 +846,8 @@
       "name": "Stefano Teso",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2025certification",
@@ -885,7 +900,8 @@
       "name": "Calvin Tsay",
       "slug": "calvin-tsay"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2025ctbench",
@@ -923,7 +939,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "massena2025efficient",
@@ -977,7 +994,8 @@
       "name": "Sébastien Gerchinovitz",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lai2025enhancing",
@@ -1014,7 +1032,8 @@
       "name": "Shang-Tse Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "kofnov2025exact",
@@ -1056,7 +1075,8 @@
       "name": "Efstathia Bura",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2025explaining",
@@ -1097,7 +1117,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chehade2025levis",
@@ -1142,7 +1163,8 @@
       "name": "Hao Zhu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "szasz2025no",
@@ -1180,7 +1202,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "anani2025pixel",
@@ -1217,7 +1240,8 @@
       "name": "Bernt Schiele",
       "slug": "bernt-schiele"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "blohm2025probably",
@@ -1259,7 +1283,8 @@
       "name": "Sagar Malhotra",
       "slug": "sagar-malhotra"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xin2025provably",
@@ -1296,7 +1321,8 @@
       "name": "Xiao Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiu2025sdp",
@@ -1333,7 +1359,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "boetius2025solving",
@@ -1371,7 +1398,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anani2024adaptive",
@@ -1413,7 +1441,8 @@
       "name": "Mario Fritz",
       "slug": "mario-fritz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2024breaking",
@@ -1451,7 +1480,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024c",
@@ -1501,7 +1531,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024certifiably",
@@ -1542,7 +1573,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lai2024collective",
@@ -1592,7 +1624,8 @@
       "name": "Kai Zhou",
       "slug": "kai-zhou"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "entesari2024compositional",
@@ -1625,7 +1658,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shu2024effects",
@@ -1678,7 +1712,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "eiras2024efficient",
@@ -1723,7 +1758,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yadav2024fairproof",
@@ -1760,7 +1796,8 @@
       "name": "Kamalika Chaudhuri",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2024fine",
@@ -1802,7 +1839,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2024local",
@@ -1835,7 +1873,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "yang2024lyapunov",
@@ -1880,7 +1919,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meng2024physics",
@@ -1925,7 +1965,8 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024relational",
@@ -1959,7 +2000,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2024robust",
@@ -1992,7 +2034,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hojny2024verifying",
@@ -2034,7 +2077,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baninajjar2024vnn",
@@ -2067,7 +2111,8 @@
       "name": "Amir Aminifar",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2023robust",
@@ -2100,7 +2145,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "adams2023bnn",
@@ -2137,7 +2183,8 @@
       "name": "Luca Laurenti",
       "slug": "luca-laurenti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "petrov2023certifying",
@@ -2183,7 +2230,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ren2023dimension",
@@ -2224,7 +2272,8 @@
       "name": "Da Yan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2023direct",
@@ -2253,7 +2302,8 @@
       "name": "Ian R. Manchester",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "delattre2023efficient",
@@ -2290,7 +2340,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jovanovic2023fare",
@@ -2327,7 +2378,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "voracek2023improving",
@@ -2356,7 +2408,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bethune2023robust",
@@ -2405,7 +2458,8 @@
       "name": "Andres Troya-Galvis",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rezaei2023run",
@@ -2442,7 +2496,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiu2023tight",
@@ -2471,7 +2526,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meunier2022dynamical",
@@ -2508,7 +2564,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "li2022cerdeq",
@@ -2546,7 +2603,8 @@
       "name": "Zhouchen Lin",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kou2022certified",
@@ -2579,7 +2637,8 @@
       "name": "Yisen Wang",
       "slug": "yisen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bansal2022certified",
@@ -2632,7 +2691,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2022certified",
@@ -2682,7 +2742,8 @@
       "name": "Hanwang Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2022certifying",
@@ -2727,7 +2788,8 @@
       "name": "Ce Zhang",
       "slug": "ce-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022double",
@@ -2764,7 +2826,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hao2022gsmooth",
@@ -2814,7 +2877,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022improved",
@@ -2847,7 +2911,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022input",
@@ -2889,7 +2954,8 @@
       "name": "Lingfei Wu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sukenik2022intriguing",
@@ -2922,7 +2988,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022linearity",
@@ -2971,7 +3038,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022collective",
@@ -3017,7 +3085,8 @@
       "name": "Chentao Wu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022retrievalguard",
@@ -3055,7 +3124,8 @@
       "name": "Heng Huang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022robustness",
@@ -3089,7 +3159,8 @@
       "name": "Weiwei Liu",
       "slug": "weiwei-liu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "chu2022tpc",
@@ -3127,7 +3198,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2021crfl",
@@ -3164,7 +3236,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "silva2021explanations",
@@ -3205,7 +3278,8 @@
       "name": "Nina Narodytska",
       "slug": "nina-narodytska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "leino2021globally",
@@ -3238,7 +3312,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2021improved",
@@ -3267,7 +3342,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "jordan2021provable",
@@ -3296,7 +3372,8 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2021scalable",
@@ -3334,7 +3411,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2021skew",
@@ -3363,7 +3441,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021towards",
@@ -3404,7 +3483,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ashtiani2020black",
@@ -3437,7 +3517,8 @@
       "name": "Ruth Urner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rosenfeld2020certified",
@@ -3474,7 +3555,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020curse",
@@ -3511,7 +3593,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bojchevski2020efficient",
@@ -3549,7 +3632,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lim2020hierarchical",
@@ -3582,7 +3666,8 @@
       "name": "Ersin Yumer",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2020neural",
@@ -3615,7 +3700,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2020randomized",
@@ -3660,7 +3746,8 @@
       "name": "Jerry Li",
       "slug": "jerry-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020robustness",
@@ -3698,7 +3785,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "phan2020scalable",
@@ -3743,7 +3831,8 @@
       "name": "Dejing Dou",
       "slug": "dejing-dou"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2020second",
@@ -3777,7 +3866,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cohen2019certified",
@@ -3810,7 +3900,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2019certifying",
@@ -3843,7 +3934,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ko2019popqorn",
@@ -3893,7 +3985,8 @@
       "name": "Dahua Lin",
       "slug": "dahua-lin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2019proven",
@@ -3947,7 +4040,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mirman2018differentiable",
@@ -3985,7 +4079,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wong2018provable",
@@ -4019,7 +4114,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2018towards",
@@ -4072,7 +4168,8 @@
       "name": "Inderjit S. Dhillon",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICML: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2017: 0 of 434 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M44.9,78 V73.5 Q44.9,71.0 47.4,71.0 H54.4 Q56.9,71.0 56.9,73.5 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2018: 3 of 621 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M64.2,78 V71.2 Q64.2,68.7 66.7,68.7 H73.7 Q76.2,68.7 76.2,71.2 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2019: 4 of 773 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M83.5,78 V57.2 Q83.5,54.7 86.0,54.7 H92.9 Q95.4,54.7 95.4,57.2 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2020: 10 of 1,085 papers (0.9%)</title></rect><path class=\"ar-ml\" d=\"M102.8,78 V61.8 Q102.8,59.3 105.3,59.3 H112.2 Q114.7,59.3 114.7,61.8 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2021: 8 of 1,183 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M122.0,78 V43.2 Q122.0,40.7 124.5,40.7 H131.5 Q134.0,40.7 134.0,43.2 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2022: 16 of 1,234 papers (1.3%)</title></rect><path class=\"ar-ml\" d=\"M141.3,78 V54.8 Q141.3,52.3 143.8,52.3 H150.7 Q153.2,52.3 153.2,54.8 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2023: 11 of 1,828 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M160.6,78 V40.8 Q160.6,38.3 163.1,38.3 H170.0 Q172.5,38.3 172.5,40.8 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2024: 17 of 2,535 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M179.8,78 V45.5 Q179.8,43.0 182.3,43.0 H189.3 Q191.8,43.0 191.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2025: 15 of 3,257 papers (0.5%)</title></rect><path class=\"ar-ml\" d=\"M199.1,78 V50.2 Q199.1,47.7 201.6,47.7 H208.6 Q211.1,47.7 211.1,50.2 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2026: 13 of 6,341 papers (0.2%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICML 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -4262,7 +4359,8 @@
       "name": "Nayyar Zaidi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2026certifying",
@@ -4312,7 +4410,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2026dual",
@@ -4345,7 +4444,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026ensembleshap",
@@ -4379,7 +4479,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2026expressiveness",
@@ -4412,7 +4513,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boumazouza2026fame",
@@ -4453,7 +4555,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hadad2026formal",
@@ -4486,7 +4589,8 @@
       "name": "Shahaf Bassan",
       "slug": "shahaf-bassan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026how",
@@ -4540,7 +4644,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2026lipnext",
@@ -4573,7 +4678,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "koller2026out",
@@ -4606,7 +4712,8 @@
       "name": "Matthias Althoff",
       "slug": "matthias-althoff"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "froese2026parameterized",
@@ -4648,7 +4755,8 @@
       "name": "Moritz Stargalla",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2026provably",
@@ -4697,7 +4805,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2026unifying",
@@ -4730,7 +4839,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rocamora2025certified",
@@ -4772,7 +4882,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chaudhary2025certifying",
@@ -4826,7 +4937,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "he2025certifying",
@@ -4880,7 +4992,8 @@
       "name": "Chen Ma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sabanayagam2025exact",
@@ -4922,7 +5035,8 @@
       "name": "Debarghya Ghoshdastidar",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "liu2025multi",
@@ -4963,7 +5077,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "scholten2025provably",
@@ -4992,7 +5107,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "li2025provably",
@@ -5042,7 +5158,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2025robust",
@@ -5071,7 +5188,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lei2025robust",
@@ -5128,7 +5246,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "emde2025shh",
@@ -5190,7 +5309,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2025support",
@@ -5232,7 +5352,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2025towards",
@@ -5269,7 +5390,8 @@
       "name": "Jason Gross",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "emde2025towards",
@@ -5315,7 +5437,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2025transformer",
@@ -5353,7 +5476,8 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2025verifying",
@@ -5399,7 +5523,8 @@
       "name": "Jun Zhao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2024recipe",
@@ -5436,7 +5561,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mukhoty2024certified",
@@ -5482,7 +5608,8 @@
       "name": "Bin Gu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024colep",
@@ -5524,7 +5651,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "saha2024drsm",
@@ -5570,7 +5698,8 @@
       "name": "Tudor Dumitras",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2024expressive",
@@ -5615,7 +5744,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baader2024expressivity",
@@ -5657,7 +5787,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xia2024gnncert",
@@ -5703,7 +5834,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "ugare2024incremental",
@@ -5744,7 +5876,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024interpreting",
@@ -5782,7 +5915,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ghazanfari2024lipsim",
@@ -5828,7 +5962,8 @@
       "name": "Siddharth Garg",
       "slug": "siddharth-garg"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xia2024mitigating",
@@ -5865,7 +6000,8 @@
       "name": "Henghui Ding",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pauli2024novel",
@@ -5914,7 +6050,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024scalability",
@@ -5963,7 +6100,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yan2024provably",
@@ -5996,7 +6134,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2024lipschitz",
@@ -6038,7 +6177,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2024understanding",
@@ -6075,7 +6215,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carlini2023certified",
@@ -6120,7 +6261,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -6161,7 +6303,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "sun2023certifiably",
@@ -6210,7 +6353,8 @@
       "name": "Furong Huang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yatsura2023certified",
@@ -6264,7 +6408,8 @@
       "name": "Jan Hendrik Metzen",
       "slug": "jan-hendrik-metzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2023certified",
@@ -6301,7 +6446,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "wu2023denoising",
@@ -6351,7 +6497,8 @@
       "name": "Di He",
       "slug": "di-he"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2023densepure",
@@ -6408,7 +6555,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zeqiri2023efficient",
@@ -6454,7 +6602,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2023fundamental",
@@ -6488,7 +6637,8 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2023localized",
@@ -6525,7 +6675,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "mangal2023perils",
@@ -6570,7 +6721,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023provable",
@@ -6612,7 +6764,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "kumar2023provable",
@@ -6649,7 +6802,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2023robust",
@@ -6691,7 +6845,8 @@
       "name": "Adrian Weller",
       "slug": "adrian-weller"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "voracek2023sound",
@@ -6725,7 +6880,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zeng2023towards",
@@ -6774,7 +6930,8 @@
       "name": "Ruoxi Jia",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delgrange2023wasserstein",
@@ -6807,7 +6964,8 @@
       "name": "Guillermo A. Pérez",
       "slug": "guillermo-a-perez"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gendler2022adversarially",
@@ -6844,7 +7002,8 @@
       "name": "Yaniv Romano",
       "slug": "yaniv-romano"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022almost",
@@ -6885,7 +7044,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "horvath2022boosting",
@@ -6922,7 +7082,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zhang2022boosting",
@@ -6959,7 +7120,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wei2022certified",
@@ -6993,7 +7155,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ferrari2022complete",
@@ -7035,7 +7198,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022copa",
@@ -7089,7 +7253,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022crop",
@@ -7139,7 +7304,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022how",
@@ -7188,7 +7354,8 @@
       "name": "Sijia Liu",
       "slug": "sijia-liu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "singla2022improved",
@@ -7221,7 +7388,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "yang2022certified",
@@ -7271,7 +7439,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022convergence",
@@ -7308,7 +7477,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2022policy",
@@ -7346,7 +7516,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dimitrov2022provably",
@@ -7383,7 +7554,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fu2022sound",
@@ -7412,7 +7584,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2021certify",
@@ -7445,7 +7618,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2021collective",
@@ -7487,7 +7661,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2021deep",
@@ -7516,7 +7691,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "metzen2021efficient",
@@ -7554,7 +7730,8 @@
       "name": "Maksym Yatsura",
       "slug": "maksym-yatsura"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "donti2021enforcing",
@@ -7591,7 +7768,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pabbaraju2021estimating",
@@ -7629,7 +7807,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2021fantastic",
@@ -7658,7 +7837,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2021fast",
@@ -7712,7 +7892,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fromherz2021fast",
@@ -7753,7 +7934,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zombori2021fooling",
@@ -7794,7 +7976,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "trockman2021orthogonalizing",
@@ -7823,7 +8006,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "sheikholeslami2021provably",
@@ -7856,7 +8040,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sahoo2021scaling",
@@ -7897,7 +8082,8 @@
       "name": "Patrick Riley",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2021scaling",
@@ -7938,7 +8124,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dvijotham2020framework",
@@ -7995,7 +8182,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "balunovic2020adversarial",
@@ -8024,7 +8212,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiang2020certified",
@@ -8078,7 +8267,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2020certified",
@@ -8115,7 +8305,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "narodytska2020search",
@@ -8152,7 +8343,8 @@
       "name": "Toby Walsh",
       "slug": "toby-walsh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "latorre2020lipschitz",
@@ -8185,7 +8377,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhai2020macer",
@@ -8243,7 +8436,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lu2020neural",
@@ -8272,7 +8466,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "croce2020provable",
@@ -8301,7 +8496,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2020robustness",
@@ -8347,7 +8543,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meinke2020towards",
@@ -8381,7 +8578,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020towards",
@@ -8439,7 +8637,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "welbl2020towards",
@@ -8497,7 +8696,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baader2020universal",
@@ -8535,7 +8735,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "webb2019statistical",
@@ -8572,7 +8773,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019boosting",
@@ -8614,7 +8816,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tjeng2019evaluating",
@@ -8647,7 +8850,8 @@
       "name": "Russ Tedrake",
       "slug": "russ-tedrake"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2019training",
@@ -8684,7 +8888,8 @@
       "name": "Aleksander Madry",
       "slug": "aleksander-madry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qin2019verification",
@@ -8746,7 +8951,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018certified",
@@ -8784,7 +8990,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sinha2018certifying",
@@ -8817,7 +9024,8 @@
       "name": "John C. Duchi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICLR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2017: 0 of 198 papers (0.0%)</title></rect><path class=\"ar-ml\" d=\"M44.9,78 V75.8 Q44.9,73.3 47.4,73.3 H54.4 Q56.9,73.3 56.9,75.8 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2018: 2 of 336 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M64.2,78 V68.8 Q64.2,66.3 66.7,66.3 H73.7 Q76.2,66.3 76.2,68.8 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2019: 5 of 502 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M83.5,78 V47.8 Q83.5,45.3 86.0,45.3 H92.9 Q95.4,45.3 95.4,47.8 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2020: 14 of 687 papers (2.0%)</title></rect><path class=\"ar-ml\" d=\"M102.8,78 V47.8 Q102.8,45.3 105.3,45.3 H112.2 Q114.7,45.3 114.7,47.8 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2021: 14 of 860 papers (1.6%)</title></rect><path class=\"ar-ml\" d=\"M122.0,78 V45.5 Q122.0,43.0 124.5,43.0 H131.5 Q134.0,43.0 134.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2022: 15 of 1,094 papers (1.4%)</title></rect><path class=\"ar-ml\" d=\"M141.3,78 V40.8 Q141.3,38.3 143.8,38.3 H150.7 Q153.2,38.3 153.2,40.8 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2023: 17 of 1,573 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M160.6,78 V43.2 Q160.6,40.7 163.1,40.7 H170.0 Q172.5,40.7 172.5,43.2 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2024: 16 of 2,260 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M179.8,78 V45.5 Q179.8,43.0 182.3,43.0 H189.3 Q191.8,43.0 191.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2025: 15 of 3,704 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M199.1,78 V50.2 Q199.1,47.7 201.6,47.7 H208.6 Q211.1,47.7 211.1,50.2 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2026: 13 of 5,351 papers (0.2%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICLR 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -8996,7 +9204,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2026cast",
@@ -9050,7 +9259,8 @@
       "name": "Minhui Xue",
       "slug": "minhui-xue"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "luca2026certification",
@@ -9084,7 +9294,8 @@
       "name": "Kimon Fountoulakis",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhong2026certified",
@@ -9133,7 +9344,8 @@
       "name": "Ruzica Piskac",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cheng2026certified",
@@ -9167,7 +9379,8 @@
       "name": "Di Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "figueiredo2026clustered",
@@ -9212,7 +9425,8 @@
       "name": "Luca Laurenti",
       "slug": "luca-laurenti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "refaeli2026do",
@@ -9249,7 +9463,8 @@
       "name": "Shahaf Bassan",
       "slug": "shahaf-bassan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hekal2026end",
@@ -9286,7 +9501,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lv2026ensuring",
@@ -9336,7 +9552,8 @@
       "name": "Luke Ong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2026flip",
@@ -9365,7 +9582,8 @@
       "name": "Zihao Ren",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "deng2026focusbranch",
@@ -9402,7 +9620,8 @@
       "name": "Yuepeng Wang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2026halt",
@@ -9435,7 +9654,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bournez2026iterated",
@@ -9468,7 +9688,8 @@
       "name": "Adrian Wurm",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2026joint",
@@ -9510,7 +9731,8 @@
       "name": "Yang Cao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2026learning",
@@ -9535,7 +9757,8 @@
       "name": "Alessandro De Palma",
       "slug": "alessandro-de-palma"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026learning",
@@ -9576,7 +9799,8 @@
       "name": "Shengze Cai",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sasaki2026learning",
@@ -9614,7 +9838,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cao2026multi",
@@ -9643,7 +9868,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "elboher2026pareto",
@@ -9688,7 +9914,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "saxena2026provable",
@@ -9725,7 +9952,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yun2026provably",
@@ -9758,7 +9986,8 @@
       "name": "Navid Azizan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "alavi2026scalable",
@@ -9796,7 +10025,8 @@
       "name": "Saber Jafarpour",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2026should",
@@ -9829,7 +10059,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gursoy2026sparse",
@@ -9858,7 +10089,8 @@
       "name": "Nicolas Mansard",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "szasz2026towards",
@@ -9896,7 +10128,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2026verifyingc",
@@ -9929,7 +10162,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2026what",
@@ -9975,7 +10209,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ji2025abstract",
@@ -10025,7 +10260,8 @@
       "name": "Sayan Mitra",
       "slug": "sayan-mitra"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "huang2025adaptdel",
@@ -10067,7 +10303,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2025c",
@@ -10109,7 +10346,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "long2025certifying",
@@ -10142,7 +10380,8 @@
       "name": "Nikolay Atanasov",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2025clip",
@@ -10188,7 +10427,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2025compositional",
@@ -10225,7 +10465,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "liu2025fortifying",
@@ -10267,7 +10508,8 @@
       "name": "Sarah M. Erfani",
       "slug": "sarah-m-erfani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2025generating",
@@ -10300,7 +10542,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2025mibp",
@@ -10333,7 +10576,8 @@
       "name": "Mario Fritz",
       "slug": "mario-fritz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2025one",
@@ -10366,7 +10610,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2025probabilistic",
@@ -10412,7 +10657,8 @@
       "name": "Eric Wong",
       "slug": "eric-wong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tao2025provable",
@@ -10441,7 +10687,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "shen2025reliabilityrag",
@@ -10486,7 +10733,8 @@
       "name": "Aleksandra Korolova",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025scalable",
@@ -10524,7 +10772,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hashemi2025scaling",
@@ -10574,7 +10823,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "morris2025sound",
@@ -10608,7 +10858,8 @@
       "name": "Ian Horrocks",
       "slug": "ian-horrocks"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025two",
@@ -10645,7 +10896,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "sun2024achieving",
@@ -10682,7 +10934,8 @@
       "name": "Soroush Vosoughi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2024adaptive",
@@ -10723,7 +10976,8 @@
       "name": "Mathias Lécuyer",
       "slug": "mathias-lecuyer"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "rekavandi2024certified",
@@ -10760,7 +11014,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gao2024certified",
@@ -10802,7 +11057,8 @@
       "name": "Xiaorui Liu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2024consistency",
@@ -10851,7 +11107,8 @@
       "name": "Chaowei Xiao",
       "slug": "chaowei-xiao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2024diffusion",
@@ -10900,7 +11157,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024dynamic",
@@ -10937,7 +11195,8 @@
       "name": "Isil Dillig",
       "slug": "isil-dillig"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2024eclipse",
@@ -10966,7 +11225,8 @@
       "name": "S. Sivaranjani",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "yang2024fedgmark",
@@ -11008,7 +11268,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "altstidl2024scalability",
@@ -11058,7 +11319,8 @@
       "name": "Leo Schwinn",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tao2024provable",
@@ -11087,7 +11349,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "teuber2024provably",
@@ -11120,7 +11383,8 @@
       "name": "André Platzer",
       "slug": "andre-platzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "suresh2024relational",
@@ -11153,7 +11417,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2024scalable",
@@ -11190,7 +11455,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024seev",
@@ -11232,7 +11498,8 @@
       "name": "Andrew Clark",
       "slug": "andrew-clark"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "voracek2024treatment",
@@ -11257,7 +11524,8 @@
       "name": "Václav Vorácek",
       "slug": "vaclav-voracek"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeary2024verifiably",
@@ -11294,7 +11562,8 @@
       "name": "Nicola Paoletti",
       "slug": "nicola-paoletti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024verified",
@@ -11327,7 +11596,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2023provable",
@@ -11369,7 +11639,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pfrommer2023asymmetric",
@@ -11406,7 +11677,8 @@
       "name": "Somayeh Sojoudi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tian2023boosting",
@@ -11456,7 +11728,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2023cbd",
@@ -11489,7 +11762,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2023certifiably",
@@ -11539,7 +11813,8 @@
       "name": "Suhang Wang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2023certification",
@@ -11572,7 +11847,8 @@
       "name": "Adrian Weller",
       "slug": "adrian-weller"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fazlyab2023certified",
@@ -11609,7 +11885,8 @@
       "name": "Rama Chellappa",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zikelic2023compositional",
@@ -11650,7 +11927,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2023connecting",
@@ -11687,7 +11965,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023exact",
@@ -11729,7 +12008,8 @@
       "name": "Andrew Clark",
       "slug": "andrew-clark"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2023exploiting",
@@ -11775,7 +12055,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "scholten2023hierarchical",
@@ -11812,7 +12093,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2023multi",
@@ -11841,7 +12123,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2023neural",
@@ -11878,7 +12161,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kotha2023provably",
@@ -11919,7 +12203,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "huang2023rs",
@@ -11973,7 +12258,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xue2023stability",
@@ -12011,7 +12297,8 @@
       "name": "Eric Wong",
       "slug": "eric-wong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2023temporal",
@@ -12040,7 +12327,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ye2023unit",
@@ -12098,7 +12386,8 @@
       "name": "Fenglong Ma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2023unlocking",
@@ -12139,7 +12428,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2023verix",
@@ -12172,7 +12462,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022quantitative",
@@ -12205,7 +12496,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "vaishnavi2022accelerating",
@@ -12238,7 +12530,8 @@
       "name": "Amir Rahmati",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022bagflip",
@@ -12271,7 +12564,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022certifying",
@@ -12313,7 +12607,8 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2022certifying",
@@ -12358,7 +12653,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2022copur",
@@ -12395,7 +12691,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2022double",
@@ -12436,7 +12733,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2022efficiently",
@@ -12477,7 +12775,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022general",
@@ -12535,7 +12834,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2022improvedb",
@@ -12564,7 +12864,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2022improving",
@@ -12634,7 +12935,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2022invariance",
@@ -12668,7 +12970,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022lethal",
@@ -12701,7 +13004,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2022lot",
@@ -12734,7 +13038,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022multiguard",
@@ -12767,7 +13072,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "abate2022neural",
@@ -12805,7 +13111,8 @@
       "name": "Mirco Giacobbe",
       "slug": "mirco-giacobbe"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2022neural",
@@ -12842,7 +13149,8 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bethune2022pay",
@@ -12887,7 +13195,8 @@
       "name": "Alberto González-Sanz",
       "slug": "alberto-gonzalez-sanz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bharti2022provable",
@@ -12929,7 +13238,8 @@
       "name": "Jerry Zhu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meinke2022provably",
@@ -12971,7 +13281,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "scholten2022randomized",
@@ -13021,7 +13332,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022rethinking",
@@ -13058,7 +13370,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mazouz2022safety",
@@ -13099,7 +13412,8 @@
       "name": "Morteza Lahijanian",
       "slug": "morteza-lahijanian"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "melcer2022shield",
@@ -13132,7 +13446,8 @@
       "name": "Stavros Tripakis",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pautov2022smoothed",
@@ -13173,7 +13488,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rocamora2022sound",
@@ -13219,7 +13535,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liang2022toward",
@@ -13265,7 +13582,8 @@
       "name": "Yuan Xie",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2022zonotope",
@@ -13302,7 +13620,8 @@
       "name": "Sewoong Oh",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021beta",
@@ -13356,7 +13675,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2021center",
@@ -13390,7 +13710,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2021fast",
@@ -13431,7 +13752,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lechner2021infinite",
@@ -13468,7 +13790,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "berrada2021make",
@@ -13526,7 +13849,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "behl2021overcoming",
@@ -13563,7 +13887,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tsay2021partition",
@@ -13600,7 +13925,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "leino2021relaxing",
@@ -13629,7 +13955,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "han2021scalecert",
@@ -13691,7 +14018,8 @@
       "name": "Yunji Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021semialgebraic",
@@ -13733,7 +14061,8 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2021smoothmix",
@@ -13783,7 +14112,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2021towards",
@@ -13820,7 +14150,8 @@
       "name": "Jaewook Lee",
       "slug": "jaewook-lee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2021training",
@@ -13861,7 +14192,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2020de",
@@ -13895,7 +14227,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2020efficient",
@@ -13932,7 +14265,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2020automatic",
@@ -13994,7 +14328,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020black",
@@ -14035,7 +14370,8 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bitterwolf2020certifiably",
@@ -14077,7 +14413,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2020certified",
@@ -14115,7 +14452,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2020certified",
@@ -14157,7 +14495,8 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2020certified",
@@ -14203,7 +14542,8 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020certifying",
@@ -14245,7 +14585,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "curry2020certifying",
@@ -14282,7 +14623,8 @@
       "name": "John Dickerson",
       "slug": "john-dickerson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2020consistency",
@@ -14316,7 +14658,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sivaraman2020counterexample",
@@ -14358,7 +14701,8 @@
       "name": "Guy Van den Broeck",
       "slug": "guy-van-den-broeck"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2020denoised",
@@ -14399,7 +14743,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiang2020detection",
@@ -14453,7 +14798,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2020efficient",
@@ -14487,7 +14833,8 @@
       "name": "Martin C. Rinard",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dathathri2020enabling",
@@ -14552,7 +14899,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2020exactly",
@@ -14586,7 +14934,8 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020higher",
@@ -14631,7 +14980,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruoss2020learning",
@@ -14673,7 +15023,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "krishnan2020lipschitz",
@@ -14706,7 +15057,8 @@
       "name": "Fabio Pasqualetti",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2020lipschitz",
@@ -14739,7 +15091,8 @@
       "name": "Saerom Park",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anderson2020neurosymbolic",
@@ -14776,7 +15129,8 @@
       "name": "Swarat Chaudhuri",
       "slug": "swarat-chaudhuri"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020tightness",
@@ -14801,7 +15155,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020semialgebraic",
@@ -14838,7 +15193,8 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tjandraatmadja2020convex",
@@ -14883,7 +15239,8 @@
       "name": "Juan Pablo Vielma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2019convex",
@@ -14924,7 +15281,8 @@
       "name": "Pengchuan Zhang",
       "slug": "pengchuan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "prabhakar2019abstraction",
@@ -14953,7 +15311,8 @@
       "name": "Zahra Rahimi Afzal",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019beyond",
@@ -14990,7 +15349,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bojchevski2019certifiable",
@@ -15024,7 +15384,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2019certified",
@@ -15061,7 +15422,8 @@
       "name": "Lawrence Carin",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "balunovic2019certifying",
@@ -15107,7 +15469,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sotoudeh2019computing",
@@ -15141,7 +15504,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fazlyab2019efficient",
@@ -15182,7 +15546,8 @@
       "name": "George J. Pappas",
       "slug": "george-j-pappas"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chang2019neural",
@@ -15215,7 +15580,8 @@
       "name": "Sicun Gao",
       "slug": "sicun-gao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ignatiev2019relating",
@@ -15248,7 +15614,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2019preventing",
@@ -15293,7 +15660,8 @@
       "name": "Jörn-Henrik Jacobsen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2019provable",
@@ -15326,7 +15694,8 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2019provably",
@@ -15380,7 +15749,8 @@
       "name": "Greg Yang",
       "slug": "greg-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pinot2019theoretical",
@@ -15429,7 +15799,8 @@
       "name": "Jamal Atif",
       "slug": "jamal-atif"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2019tight",
@@ -15466,7 +15837,8 @@
       "name": "Tommi S. Jaakkola",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2018unified",
@@ -15507,7 +15879,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018efficient",
@@ -15553,7 +15926,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2018efficient",
@@ -15594,7 +15968,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2018fast",
@@ -15635,7 +16010,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "virmaux2018lipschitz",
@@ -15664,7 +16040,8 @@
       "name": "Kevin Scaman",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tsuzuku2018lipschitz",
@@ -15697,7 +16074,8 @@
       "name": "Masashi Sugiyama",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wong2018scaling",
@@ -15739,7 +16117,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018semidefinite",
@@ -15772,7 +16151,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hein2017formal",
@@ -15806,7 +16186,8 @@
       "name": "Maksym Andriushchenko",
       "slug": "maksym-andriushchenko"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "berkenkamp2017safe",
@@ -15843,7 +16224,8 @@
       "name": "Andreas Krause",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NeurIPS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">30</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-ml\" d=\"M25.7,78 V75.8 Q25.7,73.3 28.2,73.3 H35.1 Q37.6,73.3 37.6,75.8 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2017: 2 of 677 papers (0.3%)</title></rect><path class=\"ar-ml\" d=\"M44.9,78 V61.8 Q44.9,59.3 47.4,59.3 H54.4 Q56.9,59.3 56.9,61.8 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2018: 8 of 1,009 papers (0.8%)</title></rect><path class=\"ar-ml\" d=\"M64.2,78 V45.5 Q64.2,43.0 66.7,43.0 H73.7 Q76.2,43.0 76.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2019: 15 of 1,426 papers (1.1%)</title></rect><path class=\"ar-ml\" d=\"M83.5,78 V22.2 Q83.5,19.7 86.0,19.7 H92.9 Q95.4,19.7 95.4,22.2 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2020: 25 of 1,898 papers (1.3%)</title></rect><path class=\"ar-ml\" d=\"M102.8,78 V50.2 Q102.8,47.7 105.3,47.7 H112.2 Q114.7,47.7 114.7,50.2 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2021: 13 of 2,334 papers (0.6%)</title></rect><path class=\"ar-ml\" d=\"M122.0,78 V15.2 Q122.0,12.7 124.5,12.7 H131.5 Q134.0,12.7 134.0,15.2 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2022: 28 of 2,671 papers (1.0%)</title></rect><path class=\"ar-ml\" d=\"M141.3,78 V31.5 Q141.3,29.0 143.8,29.0 H150.7 Q153.2,29.0 153.2,31.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2023: 21 of 3,221 papers (0.7%)</title></rect><path class=\"ar-ml\" d=\"M160.6,78 V38.5 Q160.6,36.0 163.1,36.0 H170.0 Q172.5,36.0 172.5,38.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2024: 18 of 4,039 papers (0.4%)</title></rect><path class=\"ar-ml\" d=\"M179.8,78 V40.8 Q179.8,38.3 182.3,38.3 H189.3 Q191.8,38.3 191.8,40.8 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2025: 17 of 5,288 papers (0.3%)</title></rect><path class=\"ar-ml\" d=\"M199.1,78 V17.5 Q199.1,15.0 201.6,15.0 H208.6 Q211.1,15.0 211.1,17.5 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2026: 27 of 7,897 papers (0.3%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>NeurIPS 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -16002,7 +16384,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2026verifying",
@@ -16044,7 +16427,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": "highlight"
    },
    {
     "id": "bahari2025certified",
@@ -16090,7 +16474,8 @@
       "name": "Alexandre Alahi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "highlight"
    },
    {
     "id": "li2025deterministic",
@@ -16132,7 +16517,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jacob2025patchdemux",
@@ -16170,7 +16556,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2025tightening",
@@ -16227,7 +16614,8 @@
       "name": "Zhenyu Chen",
       "slug": "zhenyu-chen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "prach20241",
@@ -16264,7 +16652,8 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024mmcert",
@@ -16306,7 +16695,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2024towards",
@@ -16351,7 +16741,8 @@
       "name": "Zhenyu Chen",
       "slug": "zhenyu-chen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chaouai2024universal",
@@ -16385,7 +16776,8 @@
       "name": "Mohamed Tamaazousti",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023boosting",
@@ -16434,7 +16826,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hanspal2023efficient",
@@ -16468,7 +16861,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023pointcert",
@@ -16510,7 +16904,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "s20223deformrs",
@@ -16556,7 +16951,8 @@
       "name": "Bernard Ghanem",
       "slug": "bernard-ghanem"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2022certified",
@@ -16602,7 +16998,8 @@
       "name": "Aleksander Madry",
       "slug": "aleksander-madry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022towards",
@@ -16656,7 +17053,8 @@
       "name": "Wenqiang Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "serrurier2021achieving",
@@ -16701,7 +17099,8 @@
       "name": "Eustasio del Barrio",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2021pointguard",
@@ -16739,7 +17138,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhen2021simpler",
@@ -16777,7 +17177,8 @@
       "name": "Vikas Singh",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2021towards",
@@ -16827,7 +17228,8 @@
       "name": "Dahua Lin",
       "slug": "dahua-lin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2020robustness",
@@ -16861,7 +17263,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020towards",
@@ -16907,7 +17310,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2019knowing",
@@ -16957,7 +17361,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2019robustness",
@@ -17006,7 +17411,8 @@
       "name": "Jifeng He",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CVPR: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">5</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2017: 0 of 782 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2018: 0 of 979 papers (0.0%)</title></rect><path class=\"ar-cv\" d=\"M64.2,78 V52.5 Q64.2,50.0 66.7,50.0 H73.7 Q76.2,50.0 76.2,52.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2019: 2 of 1,294 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M83.5,78 V52.5 Q83.5,50.0 86.0,50.0 H92.9 Q95.4,50.0 95.4,52.5 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2020: 2 of 1,465 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M102.8,78 V24.5 Q102.8,22.0 105.3,22.0 H112.2 Q114.7,22.0 114.7,24.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2021: 4 of 1,660 papers (0.2%)</title></rect><path class=\"ar-cv\" d=\"M122.0,78 V38.5 Q122.0,36.0 124.5,36.0 H131.5 Q134.0,36.0 134.0,38.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2022: 3 of 2,070 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M141.3,78 V38.5 Q141.3,36.0 143.8,36.0 H150.7 Q153.2,36.0 153.2,38.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2023: 3 of 2,352 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M160.6,78 V24.5 Q160.6,22.0 163.1,22.0 H170.0 Q172.5,22.0 172.5,24.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2024: 4 of 2,715 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M179.8,78 V24.5 Q179.8,22.0 182.3,22.0 H189.3 Q191.8,22.0 191.8,24.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2025: 4 of 2,871 papers (0.1%)</title></rect><path class=\"ar-cv\" d=\"M199.1,78 V52.5 Q199.1,50.0 201.6,50.0 H208.6 Q211.1,50.0 211.1,52.5 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2026: 2 of 4,042 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>CVPR 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -17142,7 +17548,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2021integer",
@@ -17184,7 +17591,8 @@
       "name": "Cyrus Shahabi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2021robustness",
@@ -17234,7 +17642,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gowal2019scalable",
@@ -17291,7 +17700,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICCV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">5</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2017: 0 of 621 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2018: not held</title></rect><path class=\"ar-cv\" d=\"M64.2,78 V66.5 Q64.2,64.0 66.7,64.0 H73.7 Q76.2,64.0 76.2,66.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2019: 1 of 1,075 papers (0.1%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2020: not held</title></rect><path class=\"ar-cv\" d=\"M102.8,78 V52.5 Q102.8,50.0 105.3,50.0 H112.2 Q114.7,50.0 114.7,52.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2021: 2 of 1,611 papers (0.1%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2022: not held</title></rect><path class=\"ar-cv\" d=\"M141.3,78 V66.5 Q141.3,64.0 143.8,64.0 H150.7 Q153.2,64.0 153.2,66.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2023: 1 of 2,156 papers (0.0%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2024: not held</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2025: 0 of 2,699 papers (0.0%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2026: not held</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCV 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -17416,7 +17826,8 @@
       "name": "Mathieu Serrurier",
       "slug": "mathieu-serrurier"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bruckner2026ioucert",
@@ -17466,7 +17877,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yudin2026pay",
@@ -17508,7 +17920,8 @@
       "name": "Maxim V. Rakhuba",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "choi2024adversarial",
@@ -17545,7 +17958,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "jiang2024certifiably",
@@ -17586,7 +18000,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2024cross",
@@ -17620,7 +18035,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024protip",
@@ -17678,7 +18094,8 @@
       "name": "Xingyu Zhao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paik2024towards",
@@ -17719,7 +18136,8 @@
       "name": "Jae Hong Seo",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022spectral",
@@ -17768,7 +18186,8 @@
       "name": "Z. Morley Mao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "prach2022almost",
@@ -17797,7 +18216,8 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "peychev2022latent",
@@ -17843,7 +18263,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hong2022unicr",
@@ -17876,7 +18297,8 @@
       "name": "Yuan Hong",
       "slug": "yuan-hong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022vip",
@@ -17918,7 +18340,8 @@
       "name": "Cihang Xie",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ECCV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">5</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2017: not held</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2018: 0 of 776 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2019: not held</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2020: 0 of 1,358 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2021: not held</title></rect><path class=\"ar-cv\" d=\"M122.0,78 V10.5 Q122.0,8.0 124.5,8.0 H131.5 Q134.0,8.0 134.0,10.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2022: 5 of 1,645 papers (0.3%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2023: not held</title></rect><path class=\"ar-cv\" d=\"M160.6,78 V10.5 Q160.6,8.0 163.1,8.0 H170.0 Q172.5,8.0 172.5,10.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2024: 5 of 2,386 papers (0.2%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2025: not held</title></rect><path class=\"ar-cv\" d=\"M199.1,78 V38.5 Q199.1,36.0 201.6,36.0 H208.6 Q211.1,36.0 211.1,38.5 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2026: 3 of 2,835 papers (0.1%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ECCV 2027: not held</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -18048,7 +18471,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024input",
@@ -18081,7 +18505,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2023abstract",
@@ -18123,7 +18548,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tao2023architecture",
@@ -18160,7 +18586,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2023incremental",
@@ -18197,7 +18624,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bonaert2021fast",
@@ -18234,7 +18662,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sotoudeh2021provable",
@@ -18263,7 +18692,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mirman2021robustness",
@@ -18304,7 +18734,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhu2019inductive",
@@ -18341,7 +18772,8 @@
       "name": "Suresh Jagannathan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anderson2019optimization",
@@ -18383,7 +18815,8 @@
       "name": "Swarat Chaudhuri",
       "slug": "swarat-chaudhuri"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"PLDI: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2017: 0 of 47 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2018: 0 of 55 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2019: 2 of 76 papers (2.6%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2020: 0 of 77 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M102.8,78 V54.2 Q102.8,51.8 105.3,51.8 H112.2 Q114.7,51.8 114.7,54.2 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2021: 3 of 87 papers (3.4%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2022: 0 of 68 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M141.3,78 V54.2 Q141.3,51.8 143.8,51.8 H150.7 Q153.2,51.8 153.2,54.2 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2023: 3 of 83 papers (3.6%)</title></rect><path class=\"ar-pl\" d=\"M160.6,78 V71.8 Q160.6,69.2 163.1,69.2 H170.0 Q172.5,69.2 172.5,71.8 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2024: 1 of 89 papers (1.1%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2025: 0 of 88 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M199.1,78 V71.8 Q199.1,69.2 201.6,69.2 H208.6 Q211.1,69.2 211.1,71.8 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2026: 1 of 106 papers (0.9%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>PLDI 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -18508,7 +18941,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "laurel2022dual",
@@ -18545,7 +18979,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022interval",
@@ -18582,7 +19017,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2022prima",
@@ -18623,7 +19059,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019abstract",
@@ -18660,7 +19097,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"POPL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2017: 0 of 64 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2018: 0 of 66 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M64.2,78 V71.8 Q64.2,69.2 66.7,69.2 H73.7 Q76.2,69.2 76.2,71.8 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2019: 1 of 77 papers (1.3%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2020: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2021: 0 of 61 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M122.0,78 V54.2 Q122.0,51.8 124.5,51.8 H131.5 Q134.0,51.8 134.0,54.2 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2022: 3 of 65 papers (4.6%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2023: 0 of 74 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M160.6,78 V71.8 Q160.6,69.2 163.1,69.2 H170.0 Q172.5,69.2 172.5,71.8 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2024: 1 of 93 papers (1.1%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2025: 0 of 79 papers (0.0%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2026: 0 of 91 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>POPL 2027: 0 of 108 papers (0.0%)</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -18790,7 +19228,8 @@
       "name": "Grant O. Passmore",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICFP: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2017: 0 of 44 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2018: 0 of 40 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2019: 0 of 39 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2020: 0 of 37 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2021: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2022: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2023: 0 of 33 papers (0.0%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2024: 0 of 35 papers (0.0%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2025: 0 of 36 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M199.1,78 V71.8 Q199.1,69.2 201.6,69.2 H208.6 Q211.1,69.2 211.1,71.8 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2026: 1 of 38 papers (2.6%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICFP 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -18920,7 +19359,8 @@
       "name": "Bowen Du",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2025automated",
@@ -18957,7 +19397,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2025convex",
@@ -18990,7 +19431,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025correct",
@@ -19024,7 +19466,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025efficient",
@@ -19069,7 +19512,8 @@
       "name": "Yulei Sui",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kabaha2025guarding",
@@ -19098,7 +19542,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shaday2025mini",
@@ -19127,7 +19572,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kabaha2025quantization",
@@ -19156,7 +19602,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025verification",
@@ -19201,7 +19648,8 @@
       "name": "Jin Song Dong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kabaha2024verification",
@@ -19230,7 +19678,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shapira2023deep",
@@ -19263,7 +19712,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "astorga2023perception",
@@ -19300,7 +19750,8 @@
       "name": "Sayan Mitra",
       "slug": "sayan-mitra"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2022proof",
@@ -19338,7 +19789,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022scalable",
@@ -19379,7 +19831,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "urban2020perfectly",
@@ -19416,7 +19869,8 @@
       "name": "Fuyuan Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bastani2019probabilistic",
@@ -19454,7 +19908,8 @@
       "name": "Armando Solar-Lezama",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "albarghouthi2017fairsquare",
@@ -19496,7 +19951,8 @@
       "name": "Aditya V. Nori",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"OOPSLA: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">8</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-pl\" d=\"M25.7,78 V71.8 Q25.7,69.2 28.2,69.2 H35.1 Q37.6,69.2 37.6,71.8 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2017: 1 of 66 papers (1.5%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2018: 0 of 60 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M64.2,78 V71.8 Q64.2,69.2 66.7,69.2 H73.7 Q76.2,69.2 76.2,71.8 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2019: 1 of 73 papers (1.4%)</title></rect><path class=\"ar-pl\" d=\"M83.5,78 V71.8 Q83.5,69.2 86.0,69.2 H92.9 Q95.4,69.2 95.4,71.8 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2020: 1 of 109 papers (0.9%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2021: 0 of 71 papers (0.0%)</title></rect><path class=\"ar-pl\" d=\"M122.0,78 V63.0 Q122.0,60.5 124.5,60.5 H131.5 Q134.0,60.5 134.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2022: 2 of 92 papers (2.2%)</title></rect><path class=\"ar-pl\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2023: 2 of 110 papers (1.8%)</title></rect><path class=\"ar-pl\" d=\"M160.6,78 V71.8 Q160.6,69.2 163.1,69.2 H170.0 Q172.5,69.2 172.5,71.8 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2024: 1 of 148 papers (0.7%)</title></rect><path class=\"ar-pl\" d=\"M179.8,78 V10.5 Q179.8,8.0 182.3,8.0 H189.3 Q191.8,8.0 191.8,10.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2025: 8 of 215 papers (3.7%)</title></rect><path class=\"ar-pl\" d=\"M199.1,78 V71.8 Q199.1,69.2 201.6,69.2 H208.6 Q211.1,69.2 211.1,71.8 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2026: 1 of 170 papers (0.6%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>OOPSLA 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -19620,7 +20076,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2026verifyingb",
@@ -19662,7 +20119,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2024crosscert",
@@ -19708,7 +20166,8 @@
       "name": "Wing-Kwong Chan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2024harnessing",
@@ -19745,7 +20204,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"FSE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2017: 0 of 89 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2018: 0 of 75 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2019: 0 of 95 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2020: 0 of 125 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2021: 0 of 130 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2022: 0 of 133 papers (0.0%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2023: 0 of 168 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M160.6,78 V45.5 Q160.6,43.0 163.1,43.0 H170.0 Q172.5,43.0 172.5,45.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2024: 2 of 121 papers (1.7%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2025: 0 of 132 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M199.1,78 V45.5 Q199.1,43.0 201.6,43.0 H208.6 Q211.1,43.0 211.1,45.5 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2026: 2 of 211 papers (0.9%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>FSE 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -19908,7 +20368,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kim2025fairquant",
@@ -19941,7 +20402,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chi2025patch",
@@ -19994,7 +20456,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2024vere",
@@ -20044,7 +20507,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "biswas2023fairify",
@@ -20078,7 +20542,8 @@
       "name": "Hridesh Rajan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022towards",
@@ -20123,7 +20588,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baluta2021scalable",
@@ -20160,7 +20626,8 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2020reludiff",
@@ -20198,7 +20665,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICSE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2017: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2018: 0 of 152 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2019: 0 of 109 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2020: 1 of 129 papers (0.8%)</title></rect><path class=\"ar-se\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2021: 1 of 138 papers (0.7%)</title></rect><path class=\"ar-se\" d=\"M122.0,78 V63.0 Q122.0,60.5 124.5,60.5 H131.5 Q134.0,60.5 134.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2022: 1 of 197 papers (0.5%)</title></rect><path class=\"ar-se\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2023: 1 of 209 papers (0.5%)</title></rect><path class=\"ar-se\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2024: 1 of 234 papers (0.4%)</title></rect><path class=\"ar-se\" d=\"M179.8,78 V45.5 Q179.8,43.0 182.3,43.0 H189.3 Q191.8,43.0 191.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2025: 2 of 245 papers (0.8%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2026: 0 of 321 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M218.4,78 V63.0 Q218.4,60.5 220.9,60.5 H227.8 Q230.3,60.5 230.3,63.0 V78 Z\"/><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICSE 2027: 1 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -20309,7 +20777,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2025provableb",
@@ -20351,7 +20820,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhong2023expediting",
@@ -20384,7 +20854,8 @@
       "name": "Siau-Cheng Khoo",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2023hobat",
@@ -20413,7 +20884,8 @@
       "name": "Guoqiang Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022provably",
@@ -20454,7 +20926,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022qvip",
@@ -20508,7 +20981,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "toledo2021distribution",
@@ -20545,7 +21019,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2020neurodiff",
@@ -20587,7 +21062,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gopinath2019property",
@@ -20629,7 +21105,8 @@
       "name": "Ankur Taly",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ASE: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2017: 0 of 108 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2018: 0 of 84 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2019: 1 of 84 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2020: 1 of 93 papers (1.1%)</title></rect><path class=\"ar-se\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2021: 1 of 85 papers (1.2%)</title></rect><path class=\"ar-se\" d=\"M122.0,78 V45.5 Q122.0,43.0 124.5,43.0 H131.5 Q134.0,43.0 134.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2022: 2 of 138 papers (1.4%)</title></rect><path class=\"ar-se\" d=\"M141.3,78 V45.5 Q141.3,43.0 143.8,43.0 H150.7 Q153.2,43.0 153.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2023: 2 of 161 papers (1.2%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2024: 0 of 186 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M179.8,78 V45.5 Q179.8,43.0 182.3,43.0 H189.3 Q191.8,43.0 191.8,45.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2025: 2 of 309 papers (0.6%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2026: 0 of 263 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ASE 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -20751,7 +21228,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pham2024certified",
@@ -20785,7 +21263,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xue2023tale",
@@ -20826,7 +21305,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2022weakened",
@@ -20871,7 +21351,8 @@
       "name": "Jian Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ISSTA: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2017: 0 of 31 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2018: 0 of 31 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2019: 0 of 32 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2020: 0 of 43 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2021: 0 of 51 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M122.0,78 V63.0 Q122.0,60.5 124.5,60.5 H131.5 Q134.0,60.5 134.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2022: 1 of 60 papers (1.7%)</title></rect><path class=\"ar-se\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2023: 1 of 117 papers (0.9%)</title></rect><path class=\"ar-se\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2024: 1 of 143 papers (0.7%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2025: 0 of 110 papers (0.0%)</title></rect><path class=\"ar-se\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2026: 1 of 210 papers (0.5%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ISSTA 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -21062,7 +21543,8 @@
       "name": "Wensheng Wang",
       "slug": "wensheng-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ladner2026perception",
@@ -21104,7 +21586,8 @@
       "name": "Matthias Althoff",
       "slug": "matthias-althoff"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2026precise",
@@ -21142,7 +21625,8 @@
       "name": "Jianjun Zhao",
       "slug": "jianjun-zhao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026qav",
@@ -21179,7 +21663,8 @@
       "name": "Yakun Sheng",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "aleksandrov2026rocq",
@@ -21217,7 +21702,8 @@
       "name": "Kim Völlinger",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "roy2026vnn",
@@ -21254,7 +21740,8 @@
       "name": "Matthew L. Daggitt",
       "slug": "matthew-l-daggitt"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tobler2025formally",
@@ -21287,7 +21774,8 @@
       "name": "Toby Murray",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2025deductive",
@@ -21316,7 +21804,8 @@
       "name": "He Zhu",
       "slug": "he-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hwang2025floating",
@@ -21362,7 +21851,8 @@
       "name": "Feras Saad",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wei2025modelverification",
@@ -21411,7 +21901,8 @@
       "name": "Changliu Liu",
       "slug": "changliu-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2025neuralsat",
@@ -21444,7 +21935,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "badings2025policy",
@@ -21481,7 +21973,8 @@
       "name": "Nils Jansen",
       "slug": "nils-jansen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "labbaf2025space",
@@ -21526,7 +22019,8 @@
       "name": "Natasha Sharygina",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2025starv",
@@ -21584,7 +22078,8 @@
       "name": "Georgios Fainekos",
       "slug": "georgios-fainekos"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shapira2024boosting",
@@ -21621,7 +22116,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024certified",
@@ -21650,7 +22146,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024marabou",
@@ -21744,7 +22241,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024safe",
@@ -21773,7 +22271,8 @@
       "name": "He Zhu",
       "slug": "he-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhi2024unifying",
@@ -21819,7 +22318,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "athavale2024verifying",
@@ -21864,7 +22364,8 @@
       "name": "Georg Weissenbacher",
       "slug": "georg-weissenbacher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023hybrid",
@@ -21909,7 +22410,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lopez2023nnv",
@@ -21955,7 +22457,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023qebverif",
@@ -21993,7 +22496,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "amir2023verifying",
@@ -22034,7 +22538,8 @@
       "name": "Michael Schapira",
       "slug": "michael-schapira"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2022example",
@@ -22063,7 +22568,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "casadio2022neural",
@@ -22117,7 +22623,8 @@
       "name": "Idan Refaeli",
       "slug": "idan-refaeli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "goubault2022rino",
@@ -22146,7 +22653,8 @@
       "name": "Sylvie Putot",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2022shared",
@@ -22187,7 +22695,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022trainify",
@@ -22233,7 +22742,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pham2022verifying",
@@ -22267,7 +22777,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2021iterative",
@@ -22316,7 +22827,8 @@
       "name": "Zhiming Liu",
       "slug": "zhiming-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "christakis2021automated",
@@ -22374,7 +22886,8 @@
       "name": "Valentin Wüstholz",
       "slug": "valentin-wustholz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021bdd4bnn",
@@ -22415,7 +22928,8 @@
       "name": "Taolue Chen",
       "slug": "taolue-chen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shriver2021dnnv",
@@ -22453,7 +22967,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "usman2021nnrepair",
@@ -22494,7 +23009,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "khedr2021peregrinn",
@@ -22527,7 +23043,8 @@
       "name": "Yasser Shoukry",
       "slug": "yasser-shoukry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2021robustness",
@@ -22589,7 +23106,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ryou2021scalable",
@@ -22639,7 +23157,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ivanov2021verisig",
@@ -22684,7 +23203,8 @@
       "name": "Insup Lee",
       "slug": "insup-lee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "elboher2020abstraction",
@@ -22717,7 +23237,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bak2020improved",
@@ -22754,7 +23275,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020nnv",
@@ -22816,7 +23338,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2020systematic",
@@ -22853,7 +23376,8 @@
       "name": "Sebastian Elbaum",
       "slug": "sebastian-elbaum"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020verification",
@@ -22890,7 +23414,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2019marabou",
@@ -22968,7 +23493,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2017reluplex",
@@ -23009,7 +23535,8 @@
       "name": "Mykel J. Kochenderfer",
       "slug": "mykel-j-kochenderfer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2017safety",
@@ -23046,7 +23573,8 @@
       "name": "Min Wu",
       "slug": "min-wu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CAV: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">10</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><path class=\"ar-lv\" d=\"M25.7,78 V66.5 Q25.7,64.0 28.2,64.0 H35.1 Q37.6,64.0 37.6,66.5 V78 Z\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2017: 2 of 61 papers (3.3%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2018: 0 of 70 papers (0.0%)</title></rect><path class=\"ar-lv\" d=\"M64.2,78 V73.5 Q64.2,71.0 66.7,71.0 H73.7 Q76.2,71.0 76.2,73.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2019: 1 of 67 papers (1.5%)</title></rect><path class=\"ar-lv\" d=\"M83.5,78 V45.5 Q83.5,43.0 86.0,43.0 H92.9 Q95.4,43.0 95.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2020: 5 of 65 papers (7.7%)</title></rect><path class=\"ar-lv\" d=\"M102.8,78 V17.5 Q102.8,15.0 105.3,15.0 H112.2 Q114.7,15.0 114.7,17.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2021: 9 of 83 papers (10.8%)</title></rect><path class=\"ar-lv\" d=\"M122.0,78 V38.5 Q122.0,36.0 124.5,36.0 H131.5 Q134.0,36.0 134.0,38.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2022: 6 of 51 papers (11.8%)</title></rect><path class=\"ar-lv\" d=\"M141.3,78 V52.5 Q141.3,50.0 143.8,50.0 H150.7 Q153.2,50.0 153.2,52.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2023: 4 of 67 papers (6.0%)</title></rect><path class=\"ar-lv\" d=\"M160.6,78 V38.5 Q160.6,36.0 163.1,36.0 H170.0 Q172.5,36.0 172.5,38.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2024: 6 of 69 papers (8.7%)</title></rect><path class=\"ar-lv\" d=\"M179.8,78 V24.5 Q179.8,22.0 182.3,22.0 H189.3 Q191.8,22.0 191.8,24.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2025: 8 of 79 papers (10.1%)</title></rect><path class=\"ar-lv\" d=\"M199.1,78 V38.5 Q199.1,36.0 201.6,36.0 H208.6 Q211.1,36.0 211.1,38.5 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2026: 6 of 81 papers (7.4%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>CAV 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -23303,7 +23831,8 @@
       "name": "Tianze Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2026certmask",
@@ -23353,7 +23882,8 @@
       "name": "Zhishan Guo",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ren2026efficient",
@@ -23395,7 +23925,8 @@
       "name": "Bai Xue",
       "slug": "bai-xue"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2026efficiently",
@@ -23432,7 +23963,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "soria2026formal",
@@ -23477,7 +24009,8 @@
       "name": "Daniela Cancila",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "he2026hiq",
@@ -23522,7 +24055,8 @@
       "name": "Kai Wen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2026learning",
@@ -23568,7 +24102,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "casablanca2026lucid",
@@ -23610,7 +24145,8 @@
       "name": "Sadegh Soudjani",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "marzari2026probabilistic",
@@ -23652,7 +24188,8 @@
       "name": "Alessandro Farinelli",
       "slug": "alessandro-farinelli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2026parameterized",
@@ -23702,7 +24239,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "vinzent2026probabilistic",
@@ -23740,7 +24278,8 @@
       "name": "Jörg Hoffmann",
       "slug": "jorg-hoffmann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2026tighter",
@@ -23786,7 +24325,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zaid2026veriflow",
@@ -23819,7 +24359,8 @@
       "name": "Mustafa Yalçiner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "korzh2025certification",
@@ -23865,7 +24406,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qiao2025certified",
@@ -23902,7 +24444,8 @@
       "name": "Jing Ma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2025commit",
@@ -23952,7 +24495,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025formal",
@@ -23997,7 +24541,8 @@
       "name": "Zuohua Ding",
       "slug": "zuohua-ding"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025learning",
@@ -24050,7 +24595,8 @@
       "name": "Wu Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yu2025neural",
@@ -24088,7 +24634,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "court2025probabilistic",
@@ -24121,7 +24668,8 @@
       "name": "Alexander W. Goodall",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "feng2025prosac",
@@ -24166,7 +24714,8 @@
       "name": "Miguel Rodrigues",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cai2025scalable",
@@ -24199,7 +24748,8 @@
       "name": "Stanley Bak",
       "slug": "stanley-bak"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025sparse",
@@ -24240,7 +24790,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025training",
@@ -24289,7 +24840,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "biradar2024axiomatic",
@@ -24330,7 +24882,8 @@
       "name": "Yair Zick",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "goyal2024deepsade",
@@ -24368,7 +24921,8 @@
       "name": "Hendrik Blockeel",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "izza2024delivering",
@@ -24405,7 +24959,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024drf",
@@ -24438,7 +24993,8 @@
       "name": "Weiwei Liu",
       "slug": "weiwei-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fu2024reglo",
@@ -24500,7 +25056,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhi2024robustness",
@@ -24537,7 +25094,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "khedr2023certifair",
@@ -24566,7 +25124,8 @@
       "name": "Yasser Shoukry",
       "slug": "yasser-shoukry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2023confidence",
@@ -24604,7 +25163,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yu2023eliminating",
@@ -24645,7 +25205,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2023enhancing",
@@ -24686,7 +25247,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zikelic2023learning",
@@ -24723,7 +25285,8 @@
       "name": "Krishnendu Chatterjee",
       "slug": "krishnendu-chatterjee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2023solving",
@@ -24756,7 +25319,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pautov2022cc",
@@ -24801,7 +25365,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alfarra2022deformrs",
@@ -24847,7 +25412,8 @@
       "name": "Bernard Ghanem",
       "slug": "bernard-ghanem"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delgrange2022distillation",
@@ -24885,7 +25451,8 @@
       "name": "Guillermo A. Pérez",
       "slug": "guillermo-a-perez"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gruenbacher2022gotube",
@@ -24943,7 +25510,8 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022input",
@@ -24984,7 +25552,8 @@
       "name": "Bin Sheng",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gu2022recurrent",
@@ -25029,7 +25598,8 @@
       "name": "Ming Jin",
       "slug": "ming-jin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lechner2022stability",
@@ -25066,7 +25636,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lan2022tight",
@@ -25104,7 +25675,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huai2022towards",
@@ -25150,7 +25722,8 @@
       "name": "Aidong Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schilling2022verification",
@@ -25183,7 +25756,8 @@
       "name": "Sebastián Guadalupe",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021adaptive",
@@ -25224,7 +25798,8 @@
       "name": "Ian M. Molloy",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fan2021adversarial",
@@ -25253,7 +25828,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruoss2021efficient",
@@ -25295,7 +25871,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2021fast",
@@ -25340,7 +25917,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2021intrinsic",
@@ -25378,7 +25956,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2021lipschitz",
@@ -25420,7 +25999,8 @@
       "name": "Jamal Atif",
       "slug": "jamal-atif"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gruenbacher2021verification",
@@ -25474,7 +26054,8 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cao2021provably",
@@ -25507,7 +26088,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "henzinger2021scalable",
@@ -25545,7 +26127,8 @@
       "name": "Dorde Zikelic",
       "slug": "dorde-zikelic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2021tightening",
@@ -25574,7 +26157,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "botoeva2020efficient",
@@ -25615,7 +26199,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2020fastened",
@@ -25660,7 +26245,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "feng2020regularized",
@@ -25706,7 +26292,8 @@
       "name": "Yang Ning",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2020robustness",
@@ -25735,7 +26322,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2020towards",
@@ -25780,7 +26368,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ignatiev2019abduction",
@@ -25813,7 +26402,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2019cnn",
@@ -25854,7 +26444,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dathathri2019inverse",
@@ -25887,7 +26478,8 @@
       "name": "Richard M. Murray",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2019recurjac",
@@ -25920,7 +26512,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "akintunde2019verification",
@@ -25962,7 +26555,8 @@
       "name": "Edoardo Pirovano",
       "slug": "edoardo-pirovano"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fulton2018safe",
@@ -25991,7 +26585,8 @@
       "name": "André Platzer",
       "slug": "andre-platzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alshiekh2018safe",
@@ -26036,7 +26631,8 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "narodytska2018verifying",
@@ -26082,7 +26678,8 @@
       "name": "Toby Walsh",
       "slug": "toby-walsh"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"AAAI: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">15</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2017: 0 of 601 papers (0.0%)</title></rect><path class=\"ar-ai\" d=\"M44.9,78 V66.5 Q44.9,64.0 47.4,64.0 H54.4 Q56.9,64.0 56.9,66.5 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2018: 3 of 923 papers (0.3%)</title></rect><path class=\"ar-ai\" d=\"M64.2,78 V57.2 Q64.2,54.7 66.7,54.7 H73.7 Q76.2,54.7 76.2,57.2 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2019: 5 of 1,101 papers (0.5%)</title></rect><path class=\"ar-ai\" d=\"M83.5,78 V57.2 Q83.5,54.7 86.0,54.7 H92.9 Q95.4,54.7 95.4,57.2 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2020: 5 of 1,581 papers (0.3%)</title></rect><path class=\"ar-ai\" d=\"M102.8,78 V33.8 Q102.8,31.3 105.3,31.3 H112.2 Q114.7,31.3 114.7,33.8 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2021: 10 of 1,653 papers (0.6%)</title></rect><path class=\"ar-ai\" d=\"M122.0,78 V33.8 Q122.0,31.3 124.5,31.3 H131.5 Q134.0,31.3 134.0,33.8 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2022: 10 of 1,318 papers (0.8%)</title></rect><path class=\"ar-ai\" d=\"M141.3,78 V52.5 Q141.3,50.0 143.8,50.0 H150.7 Q153.2,50.0 153.2,52.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2023: 6 of 1,577 papers (0.4%)</title></rect><path class=\"ar-ai\" d=\"M160.6,78 V52.5 Q160.6,50.0 163.1,50.0 H170.0 Q172.5,50.0 172.5,52.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2024: 6 of 2,331 papers (0.3%)</title></rect><path class=\"ar-ai\" d=\"M179.8,78 V29.2 Q179.8,26.7 182.3,26.7 H189.3 Q191.8,26.7 191.8,29.2 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2025: 11 of 3,027 papers (0.4%)</title></rect><path class=\"ar-ai\" d=\"M199.1,78 V19.8 Q199.1,17.3 201.6,17.3 H208.6 Q211.1,17.3 211.1,19.8 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2026: 13 of 4,149 papers (0.3%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>AAAI 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -26239,7 +26836,8 @@
       "name": "Tom A. Splittgerber",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gimelli2026leveraging",
@@ -26272,7 +26870,8 @@
       "name": "Armando Tacchella",
       "slug": "armando-tacchella"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "davis2026lookahead",
@@ -26317,7 +26916,8 @@
       "name": "Haoze Wu",
       "slug": "haoze-wu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "marzari2026probabilisticb",
@@ -26355,7 +26955,8 @@
       "name": "Enrico Marchesini",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alfano2026semifactual",
@@ -26405,7 +27006,8 @@
       "name": "Irina Trubitsyna",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jiang2026synthesis",
@@ -26447,7 +27049,8 @@
       "name": "Anthony W. Lin",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alsmann2026complexity",
@@ -26480,7 +27083,8 @@
       "name": "Marco Sälzer",
       "slug": "marco-salzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "silva2025efficient",
@@ -26513,7 +27117,8 @@
       "name": "Maria Vanina Martinez",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fayyazi2025efficient",
@@ -26555,7 +27160,8 @@
       "name": "Massoud Pedram",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025formalb",
@@ -26592,7 +27198,8 @@
       "name": "Zuohua Ding",
       "slug": "zuohua-ding"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2025graphprot",
@@ -26642,7 +27249,8 @@
       "name": "Hang Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025neuron",
@@ -26683,7 +27291,8 @@
       "name": "Cong Tian",
       "slug": "cong-tian"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2025verifying",
@@ -26721,7 +27330,8 @@
       "name": "Nicolas Troquard",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kouvaros2024formal",
@@ -26754,7 +27364,8 @@
       "name": "Cosmo De Bonis-Campbell",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "benamira2024truth",
@@ -26795,7 +27406,8 @@
       "name": "Bryan Hooi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "harzli2023cardinality",
@@ -26828,7 +27440,8 @@
       "name": "Ian Horrocks",
       "slug": "ian-horrocks"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "selvey2023formal",
@@ -26866,7 +27479,8 @@
       "name": "Sylvie Thiébaux",
       "slug": "sylvie-thiebaux"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023safe",
@@ -26903,7 +27517,8 @@
       "name": "Luc De Raedt",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "marzari2023dnn",
@@ -26945,7 +27560,8 @@
       "name": "Alessandro Farinelli",
       "slug": "alessandro-farinelli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muravev2022certified",
@@ -26979,7 +27595,8 @@
       "name": "Aleksandr Petiushko",
       "slug": "aleksandr-petiushko"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "benussi2022individual",
@@ -27020,7 +27637,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2022neuro",
@@ -27053,7 +27671,8 @@
       "name": "Daniel Neider",
       "slug": "daniel-neider"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "henriksen2021deepsplit",
@@ -27082,7 +27701,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "batten2021efficient",
@@ -27124,7 +27744,8 @@
       "name": "Yang Zheng",
       "slug": "yang-zheng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "malfa2021guaranteed",
@@ -27165,7 +27786,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021probabilistic",
@@ -27198,7 +27820,8 @@
       "name": "Guy Van den Broeck",
       "slug": "guy-van-den-broeck"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kouvaros2021towards",
@@ -27227,7 +27850,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bacci2021verifying",
@@ -27260,7 +27884,8 @@
       "name": "David Parker",
       "slug": "david-parker"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yeom2020individual",
@@ -27294,7 +27919,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2020metamorphic",
@@ -27332,7 +27958,8 @@
       "name": "Jin Liu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carr2020verifiable",
@@ -27370,7 +27997,8 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carr2019counterexample",
@@ -27420,7 +28048,8 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "phan2019heterogeneous",
@@ -27469,7 +28098,8 @@
       "name": "My T. Thai",
       "slug": "my-t-thai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2019robustra",
@@ -27506,7 +28136,8 @@
       "name": "Tao Xie",
       "slug": "tao-xie"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cardelli2019statistical",
@@ -27556,7 +28187,8 @@
       "name": "Matthew Wicker",
       "slug": "matthew-wicker"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruan2018reachability",
@@ -27589,7 +28221,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"IJCAI: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">15</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2017: 0 of 647 papers (0.0%)</title></rect><path class=\"ar-ai\" d=\"M44.9,78 V75.8 Q44.9,73.3 47.4,73.3 H54.4 Q56.9,73.3 56.9,75.8 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2018: 1 of 709 papers (0.1%)</title></rect><path class=\"ar-ai\" d=\"M64.2,78 V61.8 Q64.2,59.3 66.7,59.3 H73.7 Q76.2,59.3 76.2,61.8 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2019: 4 of 799 papers (0.5%)</title></rect><path class=\"ar-ai\" d=\"M83.5,78 V66.5 Q83.5,64.0 86.0,64.0 H92.9 Q95.4,64.0 95.4,66.5 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2020: 3 of 592 papers (0.5%)</title></rect><path class=\"ar-ai\" d=\"M102.8,78 V52.5 Q102.8,50.0 105.3,50.0 H112.2 Q114.7,50.0 114.7,52.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2021: 6 of 586 papers (1.0%)</title></rect><path class=\"ar-ai\" d=\"M122.0,78 V66.5 Q122.0,64.0 124.5,64.0 H131.5 Q134.0,64.0 134.0,66.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2022: 3 of 678 papers (0.4%)</title></rect><path class=\"ar-ai\" d=\"M141.3,78 V61.8 Q141.3,59.3 143.8,59.3 H150.7 Q153.2,59.3 153.2,61.8 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2023: 4 of 639 papers (0.6%)</title></rect><path class=\"ar-ai\" d=\"M160.6,78 V71.2 Q160.6,68.7 163.1,68.7 H170.0 Q172.5,68.7 172.5,71.2 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2024: 2 of 790 papers (0.3%)</title></rect><path class=\"ar-ai\" d=\"M179.8,78 V52.5 Q179.8,50.0 182.3,50.0 H189.3 Q191.8,50.0 191.8,52.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2025: 6 of 1,014 papers (0.6%)</title></rect><path class=\"ar-ai\" d=\"M199.1,78 V47.8 Q199.1,45.3 201.6,45.3 H208.6 Q211.1,45.3 211.1,47.8 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2026: 7 of 693 papers (1.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>IJCAI 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -27710,7 +28343,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2024distributed",
@@ -27756,7 +28390,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2023unraveling",
@@ -27806,7 +28441,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "du2021cert",
@@ -27872,7 +28508,8 @@
       "name": "Ting Wang",
       "slug": "ting-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021detectorguard",
@@ -27910,7 +28547,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021learning",
@@ -27960,7 +28598,8 @@
       "name": "David A. Wagner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2021tss",
@@ -28018,7 +28657,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baluta2019quantitative",
@@ -28059,7 +28699,8 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"CCS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2017: 0 of 152 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2018: 0 of 137 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2019: 1 of 151 papers (0.7%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2020: 0 of 122 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M102.8,78 V10.5 Q102.8,8.0 105.3,8.0 H112.2 Q114.7,8.0 114.7,10.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2021: 4 of 198 papers (2.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2022: 0 of 219 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2023: 1 of 235 papers (0.4%)</title></rect><path class=\"ar-sec\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2024: 1 of 331 papers (0.3%)</title></rect><path class=\"ar-sec\" d=\"M179.8,78 V63.0 Q179.8,60.5 182.3,60.5 H189.3 Q191.8,60.5 191.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2025: 1 of 317 papers (0.3%)</title></rect><circle class=\"pending\" cx=\"205.1\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2026: not yet in dblp</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>CCS 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -28187,7 +28828,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025fairzk",
@@ -28233,7 +28875,8 @@
       "name": "Yupeng Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024fcert",
@@ -28266,7 +28909,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2024it",
@@ -28307,7 +28951,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lai2024node",
@@ -28353,7 +28998,8 @@
       "name": "Kai Zhou",
       "slug": "kai-zhou"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024text",
@@ -28411,7 +29057,8 @@
       "name": "Kui Ren",
       "slug": "kui-ren"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2023objectseeker",
@@ -28457,7 +29104,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2023rab",
@@ -28503,7 +29151,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2023sok",
@@ -28536,7 +29185,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lecuyer2019certified",
@@ -28577,7 +29227,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gehr2018ai2",
@@ -28622,7 +29273,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"S&amp;P: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2017: 0 of 60 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M44.9,78 V63.0 Q44.9,60.5 47.4,60.5 H54.4 Q56.9,60.5 56.9,63.0 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2018: 1 of 63 papers (1.6%)</title></rect><path class=\"ar-sec\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2019: 1 of 84 papers (1.2%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2020: 0 of 104 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2021: 0 of 114 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2022: 0 of 148 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M141.3,78 V28.0 Q141.3,25.5 143.8,25.5 H150.7 Q153.2,25.5 153.2,28.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2023: 3 of 199 papers (1.5%)</title></rect><path class=\"ar-sec\" d=\"M160.6,78 V10.5 Q160.6,8.0 163.1,8.0 H170.0 Q172.5,8.0 172.5,10.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2024: 4 of 261 papers (1.5%)</title></rect><path class=\"ar-sec\" d=\"M179.8,78 V63.0 Q179.8,60.5 182.3,60.5 H189.3 Q191.8,60.5 191.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2025: 1 of 255 papers (0.4%)</title></rect><path class=\"ar-sec\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2026: 1 of 254 papers (0.4%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>S&amp;P 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -28767,7 +29419,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2025camp",
@@ -28837,7 +29490,8 @@
       "name": "Liming Zhu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2025certphash",
@@ -28883,7 +29537,8 @@
       "name": "Yinzhi Cao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yan2025certta",
@@ -28933,7 +29588,8 @@
       "name": "Ke Xu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dahiya2024machine",
@@ -28971,7 +29627,8 @@
       "name": "Ross Anderson",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2024patchcure",
@@ -29021,7 +29678,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023diffsmooth",
@@ -29062,7 +29720,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "guo2023patrol",
@@ -29108,7 +29767,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2023pore",
@@ -29145,7 +29805,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yuan2023precise",
@@ -29178,7 +29839,8 @@
       "name": "Zhendong Su",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2022patchcleanser",
@@ -29216,7 +29878,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021patchguard",
@@ -29258,7 +29921,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020training",
@@ -29295,7 +29959,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018formal",
@@ -29336,7 +30001,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"USENIX Security: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2017: 0 of 85 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M44.9,78 V63.0 Q44.9,60.5 47.4,60.5 H54.4 Q56.9,60.5 56.9,63.0 V78 Z\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2018: 1 of 101 papers (1.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2019: 0 of 113 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2020: 1 of 159 papers (0.6%)</title></rect><path class=\"ar-sec\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2021: 1 of 247 papers (0.4%)</title></rect><path class=\"ar-sec\" d=\"M122.0,78 V63.0 Q122.0,60.5 124.5,60.5 H131.5 Q134.0,60.5 134.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2022: 1 of 256 papers (0.4%)</title></rect><path class=\"ar-sec\" d=\"M141.3,78 V10.5 Q141.3,8.0 143.8,8.0 H150.7 Q153.2,8.0 153.2,10.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2023: 4 of 422 papers (0.9%)</title></rect><path class=\"ar-sec\" d=\"M160.6,78 V45.5 Q160.6,43.0 163.1,43.0 H170.0 Q172.5,43.0 172.5,45.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2024: 2 of 418 papers (0.5%)</title></rect><path class=\"ar-sec\" d=\"M179.8,78 V10.5 Q179.8,8.0 182.3,8.0 H189.3 Q191.8,8.0 191.8,10.5 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2025: 4 of 439 papers (0.9%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2026: 0 of 362 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>USENIX Security 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -29453,7 +30119,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2023bars",
@@ -29502,7 +30169,8 @@
       "name": "Xia Yin",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NDSS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2017: 0 of 68 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2018: 0 of 71 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2019: 0 of 90 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2020: 0 of 89 papers (0.0%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2021: 0 of 87 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2022: 0 of 83 papers (0.0%)</title></rect><path class=\"ar-sec\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2023: 1 of 94 papers (1.1%)</title></rect><path class=\"ar-sec\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2024: 1 of 140 papers (0.7%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2025: 0 of 211 papers (0.0%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2026: 0 of 265 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>NDSS 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -29622,7 +30290,8 @@
       "name": "Glen Chou",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chung2025guaranteed",
@@ -29679,7 +30348,8 @@
       "name": "Shreyas Kousik",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2023one",
@@ -29712,7 +30382,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "entesari2023reachlipbnb",
@@ -29750,7 +30421,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022formal",
@@ -29795,7 +30467,8 @@
       "name": "Michael M. Zavlanos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022romax",
@@ -29833,7 +30506,8 @@
       "name": "Jonathan P. How",
       "slug": "jonathan-p-how"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "everett2021efficient",
@@ -29866,7 +30540,8 @@
       "name": "Jonathan P. How",
       "slug": "jonathan-p-how"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "vincent2021reachable",
@@ -29900,7 +30575,8 @@
       "name": "Mac Schwager",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICRA: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2017: 0 of 791 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2018: 0 of 780 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2019: 0 of 1,022 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2020: 0 of 1,072 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M102.8,78 V45.5 Q102.8,43.0 105.3,43.0 H112.2 Q114.7,43.0 114.7,45.5 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2021: 2 of 1,385 papers (0.1%)</title></rect><path class=\"ar-ro\" d=\"M122.0,78 V45.5 Q122.0,43.0 124.5,43.0 H131.5 Q134.0,43.0 134.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2022: 2 of 929 papers (0.2%)</title></rect><path class=\"ar-ro\" d=\"M141.3,78 V45.5 Q141.3,43.0 143.8,43.0 H150.7 Q153.2,43.0 153.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2023: 2 of 1,339 papers (0.1%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2024: 0 of 1,760 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M179.8,78 V63.0 Q179.8,60.5 182.3,60.5 H189.3 Q191.8,60.5 191.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2025: 1 of 1,603 papers (0.1%)</title></rect><path class=\"ar-ro\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2026: 1 of 1,872 papers (0.1%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICRA 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -30031,7 +30707,8 @@
       "name": "Xiaowei Huang",
       "slug": "xiaowei-huang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "seferis2025feasibility",
@@ -30060,7 +30737,8 @@
       "name": "Stefanos D. Kollias",
       "slug": "stefanos-d-kollias"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "majd2024repairing",
@@ -30102,7 +30780,8 @@
       "name": "Heni Ben Amor",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qin2022quantifying",
@@ -30140,7 +30819,8 @@
       "name": "Sicun Gao",
       "slug": "sicun-gao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2020practical",
@@ -30185,7 +30865,8 @@
       "name": "Xiaowei Huang",
       "slug": "xiaowei-huang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"IROS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2017: 0 of 873 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2018: 0 of 1,083 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2019: 0 of 933 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2020: 1 of 1,127 papers (0.1%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2021: 0 of 1,030 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M122.0,78 V63.0 Q122.0,60.5 124.5,60.5 H131.5 Q134.0,60.5 134.0,63.0 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2022: 1 of 1,214 papers (0.1%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2023: 0 of 1,195 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2024: 1 of 1,578 papers (0.1%)</title></rect><path class=\"ar-ro\" d=\"M179.8,78 V63.0 Q179.8,60.5 182.3,60.5 H189.3 Q191.8,60.5 191.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2025: 1 of 1,983 papers (0.1%)</title></rect><path class=\"ar-ro\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2026: 1 of 1,549 papers (0.1%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>IROS 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -30299,7 +30980,8 @@
       "name": "Glen Chou",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bouvier2024policed",
@@ -30332,7 +31014,8 @@
       "name": "Negar Mehr",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dai2021lyapunov",
@@ -30373,7 +31056,8 @@
       "name": "Russ Tedrake",
       "slug": "russ-tedrake"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"RSS: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2017: 0 of 75 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2018: 0 of 71 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2019: 0 of 84 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2020: 0 of 103 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2021: 1 of 92 papers (1.1%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2022: 0 of 74 papers (0.0%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2023: 0 of 112 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2024: 1 of 134 papers (0.7%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2025: 0 of 163 papers (0.0%)</title></rect><path class=\"ar-ro\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2026: 1 of 210 papers (0.5%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>RSS 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -30490,7 +31174,8 @@
       "name": "Chi Xu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jones2020robust",
@@ -30527,7 +31212,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ye2020safer",
@@ -30560,7 +31246,8 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ACL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2017: 0 of 195 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2018: 0 of 256 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2019: 0 of 647 papers (0.0%)</title></rect><path class=\"ar-nlp\" d=\"M83.5,78 V45.5 Q83.5,43.0 86.0,43.0 H92.9 Q95.4,43.0 95.4,45.5 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2020: 2 of 769 papers (0.3%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2021: 0 of 571 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2022: 0 of 603 papers (0.0%)</title></rect><path class=\"ar-nlp\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2023: 1 of 910 papers (0.1%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2024: 0 of 864 papers (0.0%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2025: 0 of 1,601 papers (0.0%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2026: 0 of 2,222 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ACL 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -30677,7 +31364,8 @@
       "name": "Chih-Hong Cheng",
       "slug": "chih-hong-cheng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021certified",
@@ -30710,7 +31398,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021profanity",
@@ -30755,7 +31444,8 @@
       "name": "Bo Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "olivier2021sequential",
@@ -30784,7 +31474,8 @@
       "name": "Bhiksha Raj",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2019achieving",
@@ -30837,7 +31528,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2019certified",
@@ -30874,7 +31566,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"EMNLP: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2017: 0 of 316 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2018: 0 of 533 papers (0.0%)</title></rect><path class=\"ar-nlp\" d=\"M64.2,78 V45.5 Q64.2,43.0 66.7,43.0 H73.7 Q76.2,43.0 76.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2019: 2 of 668 papers (0.3%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2020: 0 of 750 papers (0.0%)</title></rect><path class=\"ar-nlp\" d=\"M102.8,78 V28.0 Q102.8,25.5 105.3,25.5 H112.2 Q114.7,25.5 114.7,28.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2021: 3 of 845 papers (0.4%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2022: 0 of 828 papers (0.0%)</title></rect><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2023: 0 of 1,046 papers (0.0%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2024: 0 of 1,267 papers (0.0%)</title></rect><path class=\"ar-nlp\" d=\"M179.8,78 V63.0 Q179.8,60.5 182.3,60.5 H189.3 Q191.8,60.5 191.8,63.0 V78 Z\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2025: 1 of 1,809 papers (0.1%)</title></rect><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2026: 0 of 678 papers (0.0%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMNLP 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -30993,7 +31686,8 @@
       "name": "Li Xiong",
       "slug": "li-xiong"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"NAACL: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><circle class=\"pending\" cx=\"31.6\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2017: not yet in dblp</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2018: 0 of 205 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2019: 0 of 416 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"89.5\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2020: not yet in dblp</title></rect><path class=\"ar-nlp\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2021: 1 of 472 papers (0.2%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2022: 0 of 441 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"147.3\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2023: not yet in dblp</title></rect><circle class=\"pending\" cx=\"166.5\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2024: not yet in dblp</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2025: 0 of 637 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"205.1\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2026: not yet in dblp</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>NAACL 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -31140,7 +31834,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2024neural",
@@ -31185,7 +31880,8 @@
       "name": "Zhengfeng Yang",
       "slug": "zhengfeng-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zeng2024safe",
@@ -31226,7 +31922,8 @@
       "name": "Zhengfeng Yang",
       "slug": "zhengfeng-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2023safe",
@@ -31267,7 +31964,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xia2022accelerated",
@@ -31304,7 +32002,8 @@
       "name": "Mingsong Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022design",
@@ -31345,7 +32044,8 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sha2021synthesizing",
@@ -31402,7 +32102,8 @@
       "name": "Xuandong Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"DAC: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2017: 0 of 173 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2018: 0 of 178 papers (0.0%)</title></rect><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2019: 0 of 240 papers (0.0%)</title></rect><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2020: 0 of 243 papers (0.0%)</title></rect><path class=\"ar-da\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2021: 1 of 217 papers (0.5%)</title></rect><path class=\"ar-da\" d=\"M122.0,78 V45.5 Q122.0,43.0 124.5,43.0 H131.5 Q134.0,43.0 134.0,45.5 V78 Z\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2022: 2 of 221 papers (0.9%)</title></rect><path class=\"ar-da\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2023: 1 of 265 papers (0.4%)</title></rect><path class=\"ar-da\" d=\"M160.6,78 V45.5 Q160.6,43.0 163.1,43.0 H170.0 Q172.5,43.0 172.5,45.5 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2024: 2 of 337 papers (0.6%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2025: 0 of 420 papers (0.0%)</title></rect><path class=\"ar-da\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2026: 1 of 543 papers (0.2%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>DAC 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -31521,7 +32222,8 @@
       "name": "Kai Huang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2020energy",
@@ -31554,7 +32256,8 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cheng2019nn",
@@ -31587,7 +32290,8 @@
       "name": "Georg Nührenberg",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"ICCAD: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2017: 0 of 129 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2018: 0 of 135 papers (0.0%)</title></rect><path class=\"ar-da\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2019: 1 of 126 papers (0.8%)</title></rect><path class=\"ar-da\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2020: 1 of 157 papers (0.6%)</title></rect><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2021: 0 of 146 papers (0.0%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2022: 0 of 154 papers (0.0%)</title></rect><path class=\"ar-da\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2023: 1 of 195 papers (0.5%)</title></rect><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2024: 0 of 235 papers (0.0%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2025: 0 of 303 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"205.1\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2026: not yet in dblp</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>ICCAD 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -31726,7 +32430,8 @@
       "name": "Jundong Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shao2024certified",
@@ -31767,7 +32472,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shao2023robustness",
@@ -31800,7 +32506,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021certified",
@@ -31837,7 +32544,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zugner2020certifiable",
@@ -31866,7 +32574,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zugner2019certifiable",
@@ -31895,7 +32604,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"KDD: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2017: 0 of 227 papers (0.0%)</title></rect><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2018: 0 of 309 papers (0.0%)</title></rect><path class=\"ar-dm\" d=\"M64.2,78 V63.0 Q64.2,60.5 66.7,60.5 H73.7 Q76.2,60.5 76.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2019: 1 of 342 papers (0.3%)</title></rect><path class=\"ar-dm\" d=\"M83.5,78 V63.0 Q83.5,60.5 86.0,60.5 H92.9 Q95.4,60.5 95.4,63.0 V78 Z\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2020: 1 of 373 papers (0.3%)</title></rect><path class=\"ar-dm\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2021: 1 of 400 papers (0.2%)</title></rect><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2022: 0 of 462 papers (0.0%)</title></rect><path class=\"ar-dm\" d=\"M141.3,78 V63.0 Q141.3,60.5 143.8,60.5 H150.7 Q153.2,60.5 153.2,63.0 V78 Z\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2023: 1 of 499 papers (0.2%)</title></rect><path class=\"ar-dm\" d=\"M160.6,78 V63.0 Q160.6,60.5 163.1,60.5 H170.0 Q172.5,60.5 172.5,63.0 V78 Z\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2024: 1 of 595 papers (0.2%)</title></rect><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2025: 0 of 802 papers (0.0%)</title></rect><path class=\"ar-dm\" d=\"M199.1,78 V63.0 Q199.1,60.5 201.6,60.5 H208.6 Q211.1,60.5 211.1,63.0 V78 Z\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2026: 1 of 1,411 papers (0.1%)</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>KDD 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",
@@ -32024,7 +32734,8 @@
       "name": "Osbert Bastani",
       "slug": "osbert-bastani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2019reachnn",
@@ -32065,7 +32776,8 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2019safety",
@@ -32110,7 +32822,8 @@
       "name": "Xenofon D. Koutsoukos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
   "panel": "<svg class=\"chart mini\" viewBox=\"0 0 240 96\" role=\"img\" aria-label=\"EMSOFT: NNV papers per year\"><line class=\"grid\" x1=\"22\" y1=\"8\" x2=\"234\" y2=\"8\"/><text x=\"18\" y=\"12\" text-anchor=\"end\">4</text><line class=\"axis\" x1=\"22\" y1=\"78\" x2=\"234\" y2=\"78\"/><text x=\"18\" y=\"82\" text-anchor=\"end\">0</text><rect class=\"hit\" x=\"22.0\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2017: 0 of 73 papers (0.0%)</title></rect><circle class=\"pending\" cx=\"50.9\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"41.3\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2018: not yet in dblp</title></rect><path class=\"ar-emb\" d=\"M64.2,78 V45.5 Q64.2,43.0 66.7,43.0 H73.7 Q76.2,43.0 76.2,45.5 V78 Z\"/><rect class=\"hit\" x=\"60.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2019: 2 of 66 papers (3.0%)</title></rect><circle class=\"pending\" cx=\"89.5\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"79.8\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2020: not yet in dblp</title></rect><path class=\"ar-emb\" d=\"M102.8,78 V63.0 Q102.8,60.5 105.3,60.5 H112.2 Q114.7,60.5 114.7,63.0 V78 Z\"/><rect class=\"hit\" x=\"99.1\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2021: 1 of 57 papers (1.8%)</title></rect><circle class=\"pending\" cx=\"128.0\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"118.4\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2022: not yet in dblp</title></rect><circle class=\"pending\" cx=\"147.3\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"137.6\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2023: not yet in dblp</title></rect><circle class=\"pending\" cx=\"166.5\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"156.9\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2024: not yet in dblp</title></rect><circle class=\"pending\" cx=\"185.8\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"176.2\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2025: not yet in dblp</title></rect><circle class=\"pending\" cx=\"205.1\" cy=\"78\" r=\"2.6\"/><rect class=\"hit\" x=\"195.5\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2026: not yet in dblp</title></rect><rect class=\"hit\" x=\"214.7\" y=\"8\" width=\"19.3\" height=\"70\"><title>EMSOFT 2027: 0 of 0 papers</title></rect><text x=\"31.6\" y=\"92\" text-anchor=\"middle\">2017</text><text x=\"224.4\" y=\"92\" text-anchor=\"middle\">2027</text></svg>",

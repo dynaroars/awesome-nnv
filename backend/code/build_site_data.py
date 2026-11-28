@@ -150,7 +150,18 @@ def paper_entry(p, names):
             "arxiv": p["arxiv"], "source": p["source"], "unofficial": bool(p.get("unofficial")), "issue": p.get("issue", ""),
             "area": p["area"],
             "area_name": AREA_NAME[p["area"]], "tags": [{"key": t, "name": AREA_NAME[t]} for t in p["tags"]],
-            "authors": [{"name": names.get(a["slug"], a["name"]), "slug": a["slug"]} for a in p["authors"]]}
+            "authors": [{"name": names.get(a["slug"], a["name"]), "slug": a["slug"]} for a in p["authors"]], "pres": p.get("pres", "")}
+
+
+def aw(ps):
+    c = collections.Counter(p.get("pres", "") for p in ps)
+    return {"oral": c["oral"], "spotlight": c["spotlight"], "highlight": c["highlight"],
+            "awards": c["oral"] + c["spotlight"] + c["highlight"]}
+
+
+def aw_rank(xs):
+    for k, x in enumerate(sorted(xs, key=lambda x: (-x["awards"], -x["oral"], -x["spotlight"], -x["highlight"], x["name"]))):
+        x["award_rank"] = k
 
 
 def institution(r, info, prof=None, site=None, signed=""):
@@ -223,6 +234,8 @@ def build_researchers(people, groups, papers, dblp_people):
         f = [p for p in by_slug.get(r["slug"], []) if p["five"]]
         r["five_papers"] = len(f)
         r["five_score"] = round(sum(score_fields(f, {r["slug"]}).values()), 3)
+        r.update(aw(by_slug.get(r["slug"], [])))
+    aw_rank(out)
     # The Researchers page ranks active people: this year's papers, then this year's score, then the all-year score.
     for k, r in enumerate(sorted(out, key=lambda r: (-r["recent_papers"], -r["recent_score"], -r["score"],
                                                     -r["papers"], r["name"]))):
@@ -418,7 +431,7 @@ def build_groups(groups, researchers, papers, names):
         f = [p for p in mine if p["five"]]
         out.append({"recent_score": geomean(sf_recent.values()), "recent_papers": len(recent),
                     "five_score": geomean(score_fields(f, ids).values()), "five_papers": len(f),
-                    "recent_score_fields": sf_recent,
+                    "recent_score_fields": sf_recent, **aw(mine),
                     "country": country, "country_name": COUNTRY_NAME.get(country, country),
                     "institution": home, "institution_country": home_country,
                     "label": group_label(g["name"], home),
@@ -433,6 +446,7 @@ def build_groups(groups, researchers, papers, names):
                     "pie": area_pie(f"{g['name']}: NNV papers per primary area", mine, "../../areas/{key}/"),
                     "paper_list": [paper_entry(p, names) for p in mine]})
     out = [g for g in out if g["members"]]
+    aw_rank(out)
     # The leaderboard ranks active groups: by this year's papers, then this year's score, then all-time score (the
     # maintainer's rule).
     out.sort(key=lambda g: (-g["recent_papers"], -g["recent_score"], -g["score"], -g["papers"], g["name"]))
@@ -636,6 +650,9 @@ def main():
     for p in papers:
         d = acc.get(p["key"]) or f"{p['date']}-01"
         p["recent"], p["five"] = d >= RECENT_FROM, d >= FIVE_FROM
+    pr = digest.presentations(papers)
+    for p in papers:
+        p["pres"] = pr.get(digest.ident(p["venue"], p["year"], p["title"]), "")
     researchers, names = build_researchers(people, groups, papers, dblp_people)
     group_list = build_groups(groups, researchers, papers, names)
     mark = {g["slug"]: {k: g[k] for k in ("color", "hue", "shape", "filled")} for g in group_list}

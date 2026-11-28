@@ -7,5 +7,5 @@
 	<br><span class="authors">
 	{{- range $k, $a := .authors }}{{ if $k }}, {{ end }}{{ if $a.slug }}<a href="{{ printf "researchers/%s/" $a.slug | relURL }}">{{ $a.name }}</a>{{ else }}{{ $a.name }}{{ end }}{{ end }}</span>
 	{{- with .summary }}<p class="digest-summary">{{ . }}</p>{{ else }}<p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>{{ end }}
-	{{- with .where }}<p class="digest-where">{{ range . }}<span>{{ partial "flag.html" .flag }} <b>{{ .city }}</b> &middot; {{ .kind }}{{ with .pos }} {{ . }}{{ end }}, {{ .room }} &middot; {{ .when }} ({{ .city }} time)</span>{{ end }}</p>{{ end }}
+	{{- with .where }}<p class="digest-where">{{ range . }}<span>{{ with .flag }}{{ partial "flag.html" . }} {{ end }}<b>{{ .city }}</b> &middot; {{ .kind }}{{ with .pos }} {{ . }}{{ end }}{{ with .room }}, {{ . }}{{ end }} &middot; {{ .when }} ({{ .zone }})</span>{{ end }}</p>{{ end }}
 </li>

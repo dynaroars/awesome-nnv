@@ -18,6 +18,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "Hebrew University of Jerusalem",
@@ -256,7 +260,8 @@
       "name": "Shahaf Bassan",
       "slug": "shahaf-bassan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "elboher2026pareto",
@@ -301,7 +306,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "davis2026lookahead",
@@ -346,7 +352,8 @@
       "name": "Haoze Wu",
       "slug": "haoze-wu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2026verified",
@@ -392,7 +399,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boumazouza2026fame",
@@ -433,7 +441,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hadad2026formal",
@@ -466,7 +475,8 @@
       "name": "Shahaf Bassan",
       "slug": "shahaf-bassan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2026provably",
@@ -515,7 +525,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2026unifying",
@@ -548,7 +559,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2026efficiently",
@@ -585,7 +597,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2026parameterized",
@@ -635,7 +648,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2025explaining",
@@ -676,7 +690,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2024local",
@@ -709,7 +724,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "wu2024marabou",
@@ -803,7 +819,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2023verix",
@@ -836,7 +853,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "amir2023verifying",
@@ -877,7 +895,8 @@
       "name": "Michael Schapira",
       "slug": "michael-schapira"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022scalable",
@@ -918,7 +937,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2022weakened",
@@ -963,7 +983,8 @@
       "name": "Jian Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "casadio2022neural",
@@ -1017,7 +1038,8 @@
       "name": "Idan Refaeli",
       "slug": "idan-refaeli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "elboher2020abstraction",
@@ -1050,7 +1072,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2020robustness",
@@ -1084,7 +1107,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2019marabou",
@@ -1162,7 +1186,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2017reluplex",
@@ -1203,7 +1228,8 @@
       "name": "Mykel J. Kochenderfer",
       "slug": "mykel-j-kochenderfer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2017safety",
@@ -1240,9 +1266,11 @@
       "name": "Min Wu",
       "slug": "min-wu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 20,
   "color": "marabou",
   "hue": 5,
   "shape": "circle",
@@ -1268,6 +1296,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 2,
+  "highlight": 0,
+  "awards": 3,
   "country": "DE",
   "country_name": "Germany",
   "institution": "Technical University of Munich",
@@ -1441,7 +1473,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "saxena2026provable",
@@ -1478,7 +1511,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2026should",
@@ -1511,7 +1545,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gosch2026certifying",
@@ -1553,7 +1588,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2026front",
@@ -1586,7 +1622,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2025one",
@@ -1619,7 +1656,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sabanayagam2025exact",
@@ -1661,7 +1699,8 @@
       "name": "Debarghya Ghoshdastidar",
       "slug": ""
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "scholten2025provably",
@@ -1690,7 +1729,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zargarbashi2025robust",
@@ -1719,7 +1759,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zargarbashi2024robust",
@@ -1752,7 +1793,8 @@
       "name": "Aleksandar Bojchevski",
       "slug": "aleksandar-bojchevski"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2023provable",
@@ -1794,7 +1836,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "scholten2023hierarchical",
@@ -1831,7 +1874,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2023localized",
@@ -1868,7 +1912,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "schuchardt2022invariance",
@@ -1902,7 +1947,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "scholten2022randomized",
@@ -1952,7 +1998,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sukenik2022intriguing",
@@ -1985,7 +2032,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "schuchardt2021collective",
@@ -2027,7 +2075,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zugner2020certifiable",
@@ -2056,7 +2105,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bojchevski2020efficient",
@@ -2094,7 +2144,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bojchevski2019certifiable",
@@ -2128,7 +2179,8 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zugner2019certifiable",
@@ -2157,9 +2209,11 @@
       "name": "Stephan Günnemann",
       "slug": "stephan-gunnemann"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 1,
   "color": "daml",
   "hue": 5,
   "shape": "diamond",
@@ -2185,6 +2239,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "University of Western Australia",
@@ -2398,7 +2456,8 @@
       "name": "Shahaf Bassan",
       "slug": "shahaf-bassan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "daggitt2026compositional",
@@ -2452,7 +2511,8 @@
       "name": "Grant O. Passmore",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gimelli2026leveraging",
@@ -2485,7 +2545,8 @@
       "name": "Armando Tacchella",
       "slug": "armando-tacchella"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "roy2026vnn",
@@ -2522,7 +2583,8 @@
       "name": "Matthew L. Daggitt",
       "slug": "matthew-l-daggitt"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "teuber2024provably",
@@ -2555,7 +2617,8 @@
       "name": "André Platzer",
       "slug": "andre-platzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024marabou",
@@ -2649,7 +2712,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "casadio2022neural",
@@ -2703,9 +2767,11 @@
       "name": "Idan Refaeli",
       "slug": "idan-refaeli"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 121,
   "color": "vehicle",
   "hue": 4,
   "shape": "square",
@@ -2731,6 +2797,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Institute of Software, Chinese Academy of Sciences",
@@ -2881,7 +2951,8 @@
       "name": "Luke Ong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2026precondition",
@@ -2918,7 +2989,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2026provably",
@@ -2963,7 +3035,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ren2026efficient",
@@ -3005,7 +3078,8 @@
       "name": "Bai Xue",
       "slug": "bai-xue"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022towards",
@@ -3050,9 +3124,11 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 32,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -3078,6 +3154,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 1,
+  "awards": 2,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Virginia",
@@ -3273,7 +3353,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2026verifyingb",
@@ -3315,7 +3396,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2026verifying",
@@ -3357,7 +3439,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": "highlight"
    },
    {
     "id": "duong2025compositional",
@@ -3394,7 +3477,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "duong2025generating",
@@ -3427,7 +3511,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025destabilizing",
@@ -3456,7 +3541,8 @@
       "name": "ThanhVu Nguyen",
       "slug": "thanhvu-nguyen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2025neuralsat",
@@ -3489,7 +3575,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "duong2024harnessing",
@@ -3526,7 +3613,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "toledo2021distribution",
@@ -3563,7 +3651,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shriver2021dnnv",
@@ -3601,7 +3690,8 @@
       "name": "Matthew B. Dwyer",
       "slug": "matthew-b-dwyer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2020systematic",
@@ -3638,9 +3728,11 @@
       "name": "Sebastian Elbaum",
       "slug": "sebastian-elbaum"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 9,
   "color": "neuralsat",
   "hue": 5,
   "shape": "square",
@@ -3666,6 +3758,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Illinois Urbana-Champaign",
@@ -3903,7 +3999,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gu2026sail",
@@ -3936,7 +4033,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026how",
@@ -3990,7 +4088,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2025automated",
@@ -4027,7 +4126,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chaudhary2025certifying",
@@ -4081,7 +4181,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2025support",
@@ -4123,7 +4224,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "suresh2024relational",
@@ -4156,7 +4258,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2024cross",
@@ -4190,7 +4293,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024relational",
@@ -4224,7 +4328,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024input",
@@ -4257,7 +4362,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2024incremental",
@@ -4298,7 +4404,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "banerjee2024interpreting",
@@ -4336,7 +4443,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2023incremental",
@@ -4373,7 +4481,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023provable",
@@ -4415,7 +4524,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "ugare2022proof",
@@ -4453,7 +4563,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022scalable",
@@ -4494,7 +4605,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2022shared",
@@ -4535,7 +4647,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dimitrov2022provably",
@@ -4572,7 +4685,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "laurel2022dual",
@@ -4609,7 +4723,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2022prima",
@@ -4650,7 +4765,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2021robustness",
@@ -4700,7 +4816,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ryou2021scalable",
@@ -4750,7 +4867,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019beyond",
@@ -4787,7 +4905,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "balunovic2019certifying",
@@ -4833,7 +4952,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019boosting",
@@ -4875,7 +4995,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019abstract",
@@ -4912,7 +5033,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2018fast",
@@ -4953,9 +5075,11 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 15,
   "color": "singh-uiuc",
   "hue": 7,
   "shape": "circle",
@@ -4981,6 +5105,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "Technical University of Munich",
@@ -5129,7 +5257,8 @@
       "name": "Matthias Althoff",
       "slug": "matthias-althoff"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "koller2026out",
@@ -5162,7 +5291,8 @@
       "name": "Matthias Althoff",
       "slug": "matthias-althoff"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2026provably",
@@ -5211,7 +5341,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bassan2025explaining",
@@ -5252,9 +5383,11 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 35,
   "color": "cora",
   "hue": 1,
   "shape": "triangle",
@@ -5280,6 +5413,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AU",
   "country_name": "Australia",
   "institution": "University of Melbourne",
@@ -5455,7 +5592,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2026what",
@@ -5501,7 +5639,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2026semantic",
@@ -5555,7 +5694,8 @@
       "name": "Sarah M. Erfani",
       "slug": "sarah-m-erfani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2025adaptdel",
@@ -5597,7 +5737,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025fortifying",
@@ -5639,7 +5780,8 @@
       "name": "Sarah M. Erfani",
       "slug": "sarah-m-erfani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025multi",
@@ -5680,7 +5822,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rekavandi2024certified",
@@ -5717,7 +5860,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2024it",
@@ -5758,7 +5902,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2023rs",
@@ -5812,7 +5957,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2023enhancing",
@@ -5853,7 +5999,8 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cullen2022double",
@@ -5894,9 +6041,11 @@
       "name": "Benjamin Rubinstein",
       "slug": "benjamin-rubinstein"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 104,
   "color": "rubinstein",
   "hue": 7,
   "shape": "diamond",
@@ -5922,6 +6071,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Imperial College London",
@@ -6143,7 +6296,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bruckner2026ioucert",
@@ -6193,7 +6347,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "durand2026lipschitz",
@@ -6235,7 +6390,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025scalable",
@@ -6273,7 +6429,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kouvaros2024formal",
@@ -6306,7 +6463,8 @@
       "name": "Cosmo De Bonis-Campbell",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2024expressive",
@@ -6351,7 +6509,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024scalability",
@@ -6400,7 +6559,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hanspal2023efficient",
@@ -6434,7 +6594,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lan2022tight",
@@ -6472,7 +6633,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "henriksen2021deepsplit",
@@ -6501,7 +6663,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "batten2021efficient",
@@ -6543,7 +6706,8 @@
       "name": "Yang Zheng",
       "slug": "yang-zheng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kouvaros2021towards",
@@ -6572,7 +6736,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "botoeva2020efficient",
@@ -6613,7 +6778,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "akintunde2019verification",
@@ -6655,9 +6821,11 @@
       "name": "Edoardo Pirovano",
       "slug": "edoardo-pirovano"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 122,
   "color": "venus",
   "hue": 1,
   "shape": "square",
@@ -6683,6 +6851,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 6,
+  "highlight": 0,
+  "awards": 6,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Illinois Urbana-Champaign",
@@ -7110,7 +7282,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "elboher2026pareto",
@@ -7155,7 +7328,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "davis2026lookahead",
@@ -7200,7 +7374,8 @@
       "name": "Haoze Wu",
       "slug": "haoze-wu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ji2025abstract",
@@ -7250,7 +7425,8 @@
       "name": "Sayan Mitra",
       "slug": "sayan-mitra"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zhou2025clip",
@@ -7296,7 +7472,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2025probabilistic",
@@ -7342,7 +7519,8 @@
       "name": "Eric Wong",
       "slug": "eric-wong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025two",
@@ -7379,7 +7557,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "yang2025certphash",
@@ -7425,7 +7604,8 @@
       "name": "Yinzhi Cao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiu2025sdp",
@@ -7462,7 +7642,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "li2025sparse",
@@ -7503,7 +7684,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2024scalable",
@@ -7540,7 +7722,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024verified",
@@ -7573,7 +7756,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2024fine",
@@ -7615,7 +7799,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2024lyapunov",
@@ -7660,7 +7845,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kotha2023provably",
@@ -7701,7 +7887,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "xue2023stability",
@@ -7739,7 +7926,8 @@
       "name": "Eric Wong",
       "slug": "eric-wong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "astorga2023perception",
@@ -7776,7 +7964,8 @@
       "name": "Sayan Mitra",
       "slug": "sayan-mitra"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023diffsmooth",
@@ -7817,7 +8006,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ren2023dimension",
@@ -7858,7 +8048,8 @@
       "name": "Da Yan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiu2023tight",
@@ -7887,7 +8078,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carlini2023certified",
@@ -7932,7 +8124,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zeng2023towards",
@@ -7981,7 +8174,8 @@
       "name": "Ruoxi Jia",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2022efficiently",
@@ -8022,7 +8216,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022general",
@@ -8080,7 +8275,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liang2022toward",
@@ -8126,7 +8322,8 @@
       "name": "Yuan Xie",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022vip",
@@ -8168,7 +8365,8 @@
       "name": "Cihang Xie",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022linearity",
@@ -8217,7 +8415,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2022certified",
@@ -8263,7 +8462,8 @@
       "name": "Aleksander Madry",
       "slug": "aleksander-madry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wei2022certified",
@@ -8297,7 +8497,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022copa",
@@ -8351,7 +8552,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022how",
@@ -8400,7 +8602,8 @@
       "name": "Sijia Liu",
       "slug": "sijia-liu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "wang2022convergence",
@@ -8437,7 +8640,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gu2022recurrent",
@@ -8482,7 +8686,8 @@
       "name": "Ming Jin",
       "slug": "ming-jin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021beta",
@@ -8536,7 +8741,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2021fast",
@@ -8577,7 +8783,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "han2021scalecert",
@@ -8639,7 +8846,8 @@
       "name": "Yunji Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2021training",
@@ -8680,7 +8888,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021learning",
@@ -8730,7 +8939,8 @@
       "name": "David A. Wagner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "donti2021enforcing",
@@ -8767,7 +8977,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pabbaraju2021estimating",
@@ -8805,7 +9016,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2021fast",
@@ -8859,7 +9071,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "trockman2021orthogonalizing",
@@ -8888,7 +9101,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "sheikholeslami2021provably",
@@ -8921,7 +9135,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021adaptive",
@@ -8962,7 +9177,8 @@
       "name": "Ian M. Molloy",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2020automatic",
@@ -9024,7 +9240,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2020denoised",
@@ -9065,7 +9282,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020tightness",
@@ -9090,7 +9308,8 @@
       "name": "Richard Y. Zhang",
       "slug": "richard-y-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020training",
@@ -9127,7 +9346,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rosenfeld2020certified",
@@ -9164,7 +9384,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2020randomized",
@@ -9209,7 +9430,8 @@
       "name": "Jerry Li",
       "slug": "jerry-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dvijotham2020framework",
@@ -9266,7 +9488,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhai2020macer",
@@ -9324,7 +9547,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shi2020robustness",
@@ -9370,7 +9594,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020towards",
@@ -9428,7 +9653,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2020towards",
@@ -9473,7 +9699,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2019convex",
@@ -9514,7 +9741,8 @@
       "name": "Pengchuan Zhang",
       "slug": "pengchuan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2019provably",
@@ -9568,7 +9796,8 @@
       "name": "Greg Yang",
       "slug": "greg-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cohen2019certified",
@@ -9601,7 +9830,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2019recurjac",
@@ -9634,7 +9864,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018efficient",
@@ -9680,7 +9911,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2018efficient",
@@ -9721,7 +9953,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wong2018scaling",
@@ -9763,7 +9996,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018formal",
@@ -9804,7 +10038,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wong2018provable",
@@ -9838,7 +10073,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2018towards",
@@ -9891,9 +10127,11 @@
       "name": "Inderjit S. Dhillon",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 0,
   "color": "abcrown",
   "hue": 1,
   "shape": "circle",
@@ -9919,6 +10157,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "CN",
   "country_name": "China",
   "institution": "Nanjing University",
@@ -10234,7 +10476,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2026ensembleshap",
@@ -10268,7 +10511,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025agnncert",
@@ -10306,7 +10550,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025deterministic",
@@ -10348,7 +10593,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2025tightening",
@@ -10405,7 +10651,8 @@
       "name": "Zhenyu Chen",
       "slug": "zhenyu-chen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025provably",
@@ -10455,7 +10702,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2024fedgmark",
@@ -10497,7 +10745,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2024distributed",
@@ -10543,7 +10792,8 @@
       "name": "Binghui Wang",
       "slug": "binghui-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jiang2024certifiably",
@@ -10584,7 +10834,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024mmcert",
@@ -10626,7 +10877,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2024towards",
@@ -10671,7 +10923,8 @@
       "name": "Zhenyu Chen",
       "slug": "zhenyu-chen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xia2024gnncert",
@@ -10717,7 +10970,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "wang2024fcert",
@@ -10750,7 +11004,8 @@
       "name": "Jinyuan Jia",
       "slug": "jinyuan-jia"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024text",
@@ -10808,7 +11063,8 @@
       "name": "Kui Ren",
       "slug": "kui-ren"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pei2024textguard",
@@ -10849,7 +11105,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2023pore",
@@ -10886,7 +11143,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023pointcert",
@@ -10928,7 +11186,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022multiguard",
@@ -10961,7 +11220,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hong2022unicr",
@@ -10994,7 +11254,8 @@
       "name": "Yuan Hong",
       "slug": "yuan-hong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022almost",
@@ -11035,7 +11296,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021certified",
@@ -11072,7 +11334,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2021pointguard",
@@ -11110,7 +11373,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2021intrinsic",
@@ -11148,7 +11412,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cao2021provably",
@@ -11181,7 +11446,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2020certified",
@@ -11218,9 +11484,11 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 11,
   "color": "jia-psu",
   "hue": 3,
   "shape": "circle",
@@ -11246,6 +11514,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 2,
   "country": "CH",
   "country_name": "Switzerland",
   "institution": "ETH Zurich",
@@ -11514,7 +11786,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2026expressiveness",
@@ -11547,7 +11820,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2025average",
@@ -11584,7 +11858,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2025certification",
@@ -11637,7 +11912,8 @@
       "name": "Calvin Tsay",
       "slug": "calvin-tsay"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2025ctbench",
@@ -11675,7 +11951,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baader2024expressivity",
@@ -11717,7 +11994,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2024understanding",
@@ -11754,7 +12032,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mao2023connecting",
@@ -11791,7 +12070,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jovanovic2023fare",
@@ -11828,7 +12108,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2023abstract",
@@ -11870,7 +12151,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2023certified",
@@ -11907,7 +12189,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "zeqiri2023efficient",
@@ -11953,7 +12236,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "peychev2022latent",
@@ -11999,7 +12283,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2022shared",
@@ -12040,7 +12325,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "horvath2022boosting",
@@ -12077,7 +12363,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "ferrari2022complete",
@@ -12119,7 +12406,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dimitrov2022provably",
@@ -12156,7 +12444,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2022prima",
@@ -12197,7 +12486,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2021robustness",
@@ -12247,7 +12537,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2021scalable",
@@ -12285,7 +12576,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ryou2021scalable",
@@ -12335,7 +12627,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bonaert2021fast",
@@ -12372,7 +12665,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mirman2021robustness",
@@ -12413,7 +12707,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muller2021certify",
@@ -12446,7 +12741,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruoss2021efficient",
@@ -12488,7 +12784,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fischer2020certified",
@@ -12526,7 +12823,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruoss2020learning",
@@ -12568,7 +12866,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "balunovic2020adversarial",
@@ -12597,7 +12896,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baader2020universal",
@@ -12635,7 +12935,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019beyond",
@@ -12672,7 +12973,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "balunovic2019certifying",
@@ -12718,7 +13020,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019boosting",
@@ -12760,7 +13063,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2019abstract",
@@ -12797,7 +13101,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singh2018fast",
@@ -12838,7 +13143,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mirman2018differentiable",
@@ -12876,7 +13182,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gehr2018ai2",
@@ -12921,9 +13228,11 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 6,
   "color": "eran",
   "hue": 4,
   "shape": "circle",
@@ -12949,6 +13258,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "IT",
   "country_name": "Italy",
   "institution": "University of Verona",
@@ -13108,7 +13421,8 @@
       "name": "Enrico Marchesini",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "marzari2026probabilistic",
@@ -13150,7 +13464,8 @@
       "name": "Alessandro Farinelli",
       "slug": "alessandro-farinelli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wei2025modelverification",
@@ -13199,7 +13514,8 @@
       "name": "Changliu Liu",
       "slug": "changliu-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "marzari2023dnn",
@@ -13241,7 +13557,8 @@
       "name": "Alessandro Farinelli",
       "slug": "alessandro-farinelli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022formal",
@@ -13286,9 +13603,11 @@
       "name": "Michael M. Zavlanos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 29,
   "color": "alessandro-farinelli",
   "hue": 1,
   "shape": "triangle",
@@ -13314,6 +13633,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "University of Oxford",
@@ -13539,7 +13862,8 @@
       "name": "Xiaowei Huang",
       "slug": "xiaowei-huang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anani2026certified",
@@ -13580,7 +13904,8 @@
       "name": "Jonas Fischer",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2025mibp",
@@ -13613,7 +13938,8 @@
       "name": "Mario Fritz",
       "slug": "mario-fritz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anani2025pixel",
@@ -13650,7 +13976,8 @@
       "name": "Bernt Schiele",
       "slug": "bernt-schiele"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chi2025patch",
@@ -13703,7 +14030,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025training",
@@ -13752,7 +14080,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeary2024verifiably",
@@ -13789,7 +14118,8 @@
       "name": "Nicola Paoletti",
       "slug": "nicola-paoletti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024protip",
@@ -13847,7 +14177,8 @@
       "name": "Xingyu Zhao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anani2024adaptive",
@@ -13889,7 +14220,8 @@
       "name": "Mario Fritz",
       "slug": "mario-fritz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "benussi2022individual",
@@ -13930,7 +14262,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lorenz2021robustness",
@@ -13980,7 +14313,8 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "malfa2021guaranteed",
@@ -14021,7 +14355,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2020practical",
@@ -14066,7 +14401,8 @@
       "name": "Xiaowei Huang",
       "slug": "xiaowei-huang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2020robustness",
@@ -14100,7 +14436,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cardelli2019statistical",
@@ -14150,7 +14487,8 @@
       "name": "Matthew Wicker",
       "slug": "matthew-wicker"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ruan2018reachability",
@@ -14183,7 +14521,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2017safety",
@@ -14220,9 +14559,11 @@
       "name": "Min Wu",
       "slug": "min-wu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 42,
   "color": "dlv",
   "hue": 6,
   "shape": "square",
@@ -14248,6 +14589,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Institute of Software, Chinese Academy of Sciences",
@@ -14439,7 +14784,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2026certifying",
@@ -14489,7 +14835,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chi2025patch",
@@ -14542,7 +14889,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025training",
@@ -14591,7 +14939,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2024vere",
@@ -14641,7 +14990,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023trajpac",
@@ -14695,7 +15045,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022towards",
@@ -14740,9 +15091,11 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 46,
   "color": "iscas-zhang",
   "hue": 3,
   "shape": "diamond",
@@ -14768,6 +15121,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "East China Normal University",
@@ -14998,7 +15355,8 @@
       "name": "Luke Ong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2026tighter",
@@ -15044,7 +15402,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024marabou",
@@ -15138,7 +15497,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhi2024unifying",
@@ -15184,7 +15544,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhi2024robustness",
@@ -15221,7 +15582,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tian2023boosting",
@@ -15271,7 +15633,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xue2023tale",
@@ -15312,7 +15675,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023boosting",
@@ -15361,7 +15725,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022provably",
@@ -15402,7 +15767,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022qvip",
@@ -15456,7 +15822,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022trainify",
@@ -15502,7 +15869,8 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2021tightening",
@@ -15531,9 +15899,11 @@
       "name": "Min Zhang",
       "slug": "min-zhang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 88,
   "color": "ecnu",
   "hue": 8,
   "shape": "circle",
@@ -15559,6 +15929,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "East China Normal University",
@@ -15754,7 +16128,8 @@
       "name": "Ji Wang",
       "slug": "ji-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2026tighter",
@@ -15800,7 +16175,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2024neural",
@@ -15845,7 +16221,8 @@
       "name": "Zhengfeng Yang",
       "slug": "zhengfeng-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zeng2024safe",
@@ -15886,7 +16263,8 @@
       "name": "Zhengfeng Yang",
       "slug": "zhengfeng-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023hybrid",
@@ -15931,7 +16309,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhao2023safe",
@@ -15972,7 +16351,8 @@
       "name": "Zhenbing Zeng",
       "slug": "zhenbing-zeng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sha2021synthesizing",
@@ -16029,7 +16409,8 @@
       "name": "Xuandong Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2021iterative",
@@ -16078,7 +16459,8 @@
       "name": "Zhiming Liu",
       "slug": "zhiming-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2019robustness",
@@ -16127,9 +16509,11 @@
       "name": "Jifeng He",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 133,
   "color": "zhengfeng-yang",
   "hue": 2,
   "shape": "diamond",
@@ -16155,6 +16539,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 2,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 2,
   "country": "JP",
   "country_name": "Japan",
   "institution": "Tokyo Institute of Technology",
@@ -16287,7 +16675,8 @@
       "name": "Yang Cao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2026certified",
@@ -16328,7 +16717,8 @@
       "name": "YANG CAO",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2024lipschitz",
@@ -16370,7 +16760,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2023efficient",
@@ -16407,7 +16798,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -16448,7 +16840,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "meunier2022dynamical",
@@ -16485,9 +16878,11 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": "oral"
    }
   ],
+  "award_rank": 4,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -16513,6 +16908,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Vanderbilt University",
@@ -16733,7 +17132,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hashemi2025scaling",
@@ -16783,7 +17183,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2025starv",
@@ -16841,7 +17242,8 @@
       "name": "Georgios Fainekos",
       "slug": "georgios-fainekos"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "majd2024repairing",
@@ -16883,7 +17285,8 @@
       "name": "Heni Ben Amor",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lopez2023nnv",
@@ -16929,7 +17332,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2021robustness",
@@ -16991,7 +17395,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bak2020improved",
@@ -17028,7 +17433,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020nnv",
@@ -17090,7 +17496,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020verification",
@@ -17127,7 +17534,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2019safety",
@@ -17172,9 +17580,11 @@
       "name": "Xenofon D. Koutsoukos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 92,
   "color": "nnv",
   "hue": 2,
   "shape": "square",
@@ -17200,6 +17610,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "FR",
   "country_name": "France",
   "institution": "University of Toulouse Jean Jaurès",
@@ -17381,7 +17795,8 @@
       "name": "Mathieu Serrurier",
       "slug": "mathieu-serrurier"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "massena2025efficient",
@@ -17435,7 +17850,8 @@
       "name": "Sébastien Gerchinovitz",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bethune2023robust",
@@ -17484,7 +17900,8 @@
       "name": "Andres Troya-Galvis",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bethune2022pay",
@@ -17529,7 +17946,8 @@
       "name": "Alberto González-Sanz",
       "slug": "alberto-gonzalez-sanz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "serrurier2021achieving",
@@ -17574,9 +17992,11 @@
       "name": "Eustasio del Barrio",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 86,
   "color": "mathieu-serrurier",
   "hue": 1,
   "shape": "triangle",
@@ -17602,6 +18022,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Google DeepMind",
@@ -17744,7 +18168,8 @@
       "name": "Alessandro De Palma",
       "slug": "alessandro-de-palma"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "emde2025shh",
@@ -17806,7 +18231,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "eiras2024efficient",
@@ -17851,7 +18277,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2024expressive",
@@ -17896,7 +18323,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "berrada2021make",
@@ -17954,7 +18382,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "behl2021overcoming",
@@ -17991,7 +18420,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2021scaling",
@@ -18032,7 +18462,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lu2020neural",
@@ -18061,7 +18492,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "webb2019statistical",
@@ -18098,7 +18530,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2018unified",
@@ -18139,9 +18572,11 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 23,
   "color": "oval",
   "hue": 2,
   "shape": "triangle",
@@ -18167,6 +18602,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Xidian University",
@@ -18338,7 +18777,8 @@
       "name": "Wensheng Wang",
       "slug": "wensheng-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025neuron",
@@ -18379,9 +18819,11 @@
       "name": "Cong Tian",
       "slug": "cong-tian"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 41,
   "color": "cong-tian",
   "hue": 1,
   "shape": "triangle",
@@ -18407,6 +18849,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "Carnegie Mellon University",
@@ -18563,7 +19009,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2024recipe",
@@ -18600,7 +19047,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hu2023unlocking",
@@ -18641,7 +19089,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mangal2023perils",
@@ -18686,7 +19135,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "leino2021relaxing",
@@ -18715,7 +19165,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "leino2021globally",
@@ -18748,7 +19199,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fromherz2021fast",
@@ -18789,7 +19241,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "yeom2020individual",
@@ -18823,9 +19276,11 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 18,
   "color": "gloro",
   "hue": 8,
   "shape": "triangle",
@@ -18851,6 +19306,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "Vienna University of Technology",
@@ -19047,7 +19506,8 @@
       "name": "Jörg Hoffmann",
       "slug": "jorg-hoffmann"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kofnov2025exact",
@@ -19089,7 +19549,8 @@
       "name": "Efstathia Bura",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "athavale2024verifying",
@@ -19134,7 +19595,8 @@
       "name": "Georg Weissenbacher",
       "slug": "georg-weissenbacher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "christakis2021automated",
@@ -19192,7 +19654,8 @@
       "name": "Valentin Wüstholz",
       "slug": "valentin-wustholz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "urban2020perfectly",
@@ -19229,9 +19692,11 @@
       "name": "Fuyuan Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 84,
   "color": "maria-christakis",
   "hue": 7,
   "shape": "square",
@@ -19257,6 +19722,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "RPTU Kaiserslautern-Landau",
@@ -19387,7 +19856,8 @@
       "name": "Marco Sälzer",
       "slug": "marco-salzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2025verifying",
@@ -19425,7 +19895,8 @@
       "name": "Nicolas Troquard",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2025transformer",
@@ -19463,7 +19934,8 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2023fundamental",
@@ -19497,9 +19969,11 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 83,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -19525,6 +19999,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Washington University in St. Louis",
@@ -19691,7 +20169,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024seev",
@@ -19733,7 +20212,8 @@
       "name": "Andrew Clark",
       "slug": "andrew-clark"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2024verified",
@@ -19766,7 +20246,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023exact",
@@ -19808,7 +20289,8 @@
       "name": "Andrew Clark",
       "slug": "andrew-clark"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2023neural",
@@ -19845,7 +20327,8 @@
       "name": "Yevgeniy Vorobeychik",
       "slug": "yevgeniy-vorobeychik"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022crop",
@@ -19895,9 +20378,11 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 124,
   "color": "vorobeychik",
   "hue": 3,
   "shape": "triangle",
@@ -19923,6 +20408,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "FR",
   "country_name": "France",
   "institution": "French National Centre for Scientific Research",
@@ -20111,7 +20600,8 @@
       "name": "Guy Katz",
       "slug": "guy-katz"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "silva2025efficient",
@@ -20144,7 +20634,8 @@
       "name": "Maria Vanina Martinez",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "biradar2024axiomatic",
@@ -20185,7 +20676,8 @@
       "name": "Yair Zick",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "izza2024delivering",
@@ -20222,7 +20714,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yu2023eliminating",
@@ -20263,7 +20756,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2023solving",
@@ -20296,7 +20790,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022scalable",
@@ -20337,7 +20832,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "silva2021explanations",
@@ -20378,7 +20874,8 @@
       "name": "Nina Narodytska",
       "slug": "nina-narodytska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "narodytska2020search",
@@ -20415,7 +20912,8 @@
       "name": "Toby Walsh",
       "slug": "toby-walsh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ignatiev2019relating",
@@ -20448,7 +20946,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ignatiev2019abduction",
@@ -20481,7 +20980,8 @@
       "name": "João Marques-Silva",
       "slug": "joao-marques-silva"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "narodytska2018verifying",
@@ -20527,9 +21027,11 @@
       "name": "Toby Walsh",
       "slug": "toby-walsh"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 51,
   "color": "formal-xai",
   "hue": 1,
   "shape": "diamond",
@@ -20555,6 +21057,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of California, Irvine",
@@ -20702,7 +21208,8 @@
       "name": "Matthias Althoff",
       "slug": "matthias-althoff"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "khedr2023certifair",
@@ -20731,7 +21238,8 @@
       "name": "Yasser Shoukry",
       "slug": "yasser-shoukry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "khedr2021peregrinn",
@@ -20764,9 +21272,11 @@
       "name": "Yasser Shoukry",
       "slug": "yasser-shoukry"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 96,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -20792,6 +21302,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "University of Kassel",
@@ -20914,7 +21428,8 @@
       "name": "Marco Sälzer",
       "slug": "marco-salzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2025transformer",
@@ -20952,7 +21467,8 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salzer2023fundamental",
@@ -20986,9 +21502,11 @@
       "name": "Martin Lange",
       "slug": "martin-lange"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 85,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21014,6 +21532,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Safe Intelligence",
@@ -21148,7 +21670,8 @@
       "name": "Holger Hoos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2025certphash",
@@ -21194,7 +21717,8 @@
       "name": "Yinzhi Cao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2024scalable",
@@ -21231,7 +21755,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kotha2023provably",
@@ -21272,9 +21797,11 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    }
   ],
+  "award_rank": 26,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21300,6 +21827,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "HU",
   "country_name": "Hungary",
   "institution": "University of Szeged",
@@ -21428,7 +21959,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "szasz2025no",
@@ -21466,7 +21998,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zombori2021fooling",
@@ -21507,9 +22040,11 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 17,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21535,6 +22070,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "HU",
   "country_name": "Hungary",
   "institution": "University of Szeged",
@@ -21663,7 +22202,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "szasz2025no",
@@ -21701,7 +22241,8 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "zombori2021fooling",
@@ -21742,9 +22283,11 @@
       "name": "Márk Jelasity",
       "slug": "mark-jelasity"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 21,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21770,6 +22313,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "TU Dortmund University",
@@ -21892,7 +22439,8 @@
       "name": "Mustafa Yalçiner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2022neuro",
@@ -21925,9 +22473,11 @@
       "name": "Daniel Neider",
       "slug": "daniel-neider"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 43,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -21953,6 +22503,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "JP",
   "country_name": "Japan",
   "institution": "Kyushu University",
@@ -22080,7 +22634,8 @@
       "name": "Jianjun Zhao",
       "slug": "jianjun-zhao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025efficient",
@@ -22125,9 +22680,11 @@
       "name": "Yulei Sui",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 67,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -22153,6 +22710,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "JP",
   "country_name": "Japan",
   "institution": "National Institute of Informatics",
@@ -22280,7 +22841,8 @@
       "name": "Jianjun Zhao",
       "slug": "jianjun-zhao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025efficient",
@@ -22325,9 +22887,11 @@
       "name": "Yulei Sui",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 134,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -22353,6 +22917,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Simon Fraser University",
@@ -22520,7 +23088,8 @@
       "name": "Yuepeng Wang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2025commit",
@@ -22570,7 +23139,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025sparse",
@@ -22611,7 +23181,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shu2024effects",
@@ -22664,7 +23235,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024colep",
@@ -22706,7 +23278,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2023rab",
@@ -22752,7 +23325,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2023sok",
@@ -22785,7 +23359,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2022certifying",
@@ -22830,7 +23405,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022general",
@@ -22888,7 +23464,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2022improving",
@@ -22958,7 +23535,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2022lot",
@@ -22991,7 +23569,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022spectral",
@@ -23040,7 +23619,8 @@
       "name": "Z. Morley Mao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2022certifying",
@@ -23085,7 +23665,8 @@
       "name": "Ce Zhang",
       "slug": "ce-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022double",
@@ -23122,7 +23703,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chu2022tpc",
@@ -23160,7 +23742,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022copa",
@@ -23214,7 +23797,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022crop",
@@ -23264,7 +23848,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2022certified",
@@ -23314,7 +23899,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2021tss",
@@ -23372,7 +23958,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2020automatic",
@@ -23434,7 +24021,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2019robustra",
@@ -23471,9 +24059,11 @@
       "name": "Tao Xie",
       "slug": "tao-xie"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 80,
   "color": "linyi-li",
   "hue": 7,
   "shape": "triangle",
@@ -23499,6 +24089,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Duke University",
@@ -23657,7 +24251,8 @@
       "name": "Yushun Dong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jiang2024certifiably",
@@ -23698,7 +24293,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2023pore",
@@ -23735,7 +24331,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023pointcert",
@@ -23777,7 +24374,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022multiguard",
@@ -23810,7 +24408,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2022almost",
@@ -23851,7 +24450,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021certified",
@@ -23888,7 +24488,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2021pointguard",
@@ -23926,7 +24527,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2021intrinsic",
@@ -23964,7 +24566,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cao2021provably",
@@ -23997,7 +24600,8 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2020certified",
@@ -24034,9 +24638,11 @@
       "name": "Neil Gong",
       "slug": "neil-gong"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 54,
   "color": "gong",
   "hue": 1,
   "shape": "triangle",
@@ -24062,6 +24668,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Illinois Urbana-Champaign",
@@ -24207,7 +24817,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2024incremental",
@@ -24248,7 +24859,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ugare2023incremental",
@@ -24285,7 +24897,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2023provable",
@@ -24327,7 +24940,8 @@
       "name": "Gagandeep Singh",
       "slug": "gagandeep-singh"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "ugare2022proof",
@@ -24365,7 +24979,8 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "laurel2022dual",
@@ -24402,9 +25017,11 @@
       "name": "Sasa Misailovic",
       "slug": "sasa-misailovic"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 14,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -24430,6 +25047,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GR",
   "country_name": "Greece",
   "institution": "National Technical University of Athens",
@@ -24568,7 +25189,8 @@
       "name": "Chih-Hong Cheng",
       "slug": "chih-hong-cheng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "seferis2025feasibility",
@@ -24597,9 +25219,11 @@
       "name": "Stefanos D. Kollias",
       "slug": "stefanos-d-kollias"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 49,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -24625,6 +25249,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "HK",
   "country_name": "Hong Kong",
   "institution": "City University of Hong Kong",
@@ -24756,7 +25384,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2025convex",
@@ -24789,7 +25418,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2024relu",
@@ -24822,9 +25452,11 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 55,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -24850,6 +25482,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AU",
   "country_name": "Australia",
   "institution": "University of Queensland",
@@ -24981,7 +25617,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2025convex",
@@ -25014,7 +25651,8 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2024relu",
@@ -25047,9 +25685,11 @@
       "name": "Guangdong Bai",
       "slug": "guangdong-bai"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 137,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25075,6 +25715,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "University of Konstanz",
@@ -25209,7 +25853,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2025solving",
@@ -25247,7 +25892,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2023robust",
@@ -25280,9 +25926,11 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 45,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25308,6 +25956,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "University of Konstanz",
@@ -25442,7 +26094,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2025solving",
@@ -25480,7 +26133,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2023robust",
@@ -25513,9 +26167,11 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 112,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25541,6 +26197,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CH",
   "country_name": "Switzerland",
   "institution": "University of St. Gallen",
@@ -25675,7 +26335,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2025solving",
@@ -25713,7 +26374,8 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boetius2023robust",
@@ -25746,9 +26408,11 @@
       "name": "Tobias Sutter",
       "slug": "tobias-sutter"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 117,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25774,6 +26438,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "Carl von Ossietzky University of Oldenburg",
@@ -25904,7 +26572,8 @@
       "name": "Chih-Hong Cheng",
       "slug": "chih-hong-cheng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cheng2019nn",
@@ -25937,9 +26606,11 @@
       "name": "Georg Nührenberg",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 38,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -25965,6 +26636,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Boston University",
@@ -26164,7 +26839,8 @@
       "name": "Wensheng Wang",
       "slug": "wensheng-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fu2024reglo",
@@ -26226,7 +26902,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022design",
@@ -26267,7 +26944,8 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fu2022sound",
@@ -26296,7 +26974,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fan2021adversarial",
@@ -26325,7 +27004,8 @@
       "name": "Wenchao Li",
       "slug": "wenchao-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2020energy",
@@ -26358,7 +27038,8 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2019reachnn",
@@ -26399,9 +27080,11 @@
       "name": "Qi Zhu",
       "slug": "qi-zhu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 126,
   "color": "wenchao-li",
   "hue": 6,
   "shape": "diamond",
@@ -26427,6 +27110,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Delft University of Technology",
@@ -26578,7 +27265,8 @@
       "name": "Luca Laurenti",
       "slug": "luca-laurenti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "adams2023bnn",
@@ -26615,7 +27303,8 @@
       "name": "Luca Laurenti",
       "slug": "luca-laurenti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mazouz2022safety",
@@ -26656,7 +27345,8 @@
       "name": "Morteza Lahijanian",
       "slug": "morteza-lahijanian"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "benussi2022individual",
@@ -26697,7 +27387,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cardelli2019statistical",
@@ -26747,9 +27438,11 @@
       "name": "Matthew Wicker",
       "slug": "matthew-wicker"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 81,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26775,6 +27468,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AU",
   "country_name": "Australia",
   "institution": "Australian National University",
@@ -26924,7 +27621,8 @@
       "name": "Daniela Cancila",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "selvey2023formal",
@@ -26962,9 +27660,11 @@
       "name": "Sylvie Thiébaux",
       "slug": "sylvie-thiebaux"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 27,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -26990,6 +27690,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Chicago",
@@ -27356,7 +28060,8 @@
       "name": "Minhui Xue",
       "slug": "minhui-xue"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2025c",
@@ -27398,7 +28103,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2025camp",
@@ -27468,7 +28174,8 @@
       "name": "Liming Zhu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lei2025robust",
@@ -27525,7 +28232,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2025commit",
@@ -27575,7 +28283,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2025sparse",
@@ -27616,7 +28325,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2024consistency",
@@ -27665,7 +28375,8 @@
       "name": "Chaowei Xiao",
       "slug": "chaowei-xiao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024c",
@@ -27715,7 +28426,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024certifiably",
@@ -27756,7 +28468,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shu2024effects",
@@ -27809,7 +28522,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2024colep",
@@ -27851,7 +28565,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024text",
@@ -27909,7 +28624,8 @@
       "name": "Kui Ren",
       "slug": "kui-ren"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pei2024textguard",
@@ -27950,7 +28666,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2023cbd",
@@ -27983,7 +28700,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2023unraveling",
@@ -28033,7 +28751,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023diffsmooth",
@@ -28074,7 +28793,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "guo2023patrol",
@@ -28120,7 +28840,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2023densepure",
@@ -28177,7 +28898,8 @@
       "name": "Dawn Song",
       "slug": "dawn-song"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2023rab",
@@ -28223,7 +28945,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2023sok",
@@ -28256,7 +28979,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kang2022certifying",
@@ -28301,7 +29025,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2022copur",
@@ -28338,7 +29063,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022general",
@@ -28396,7 +29122,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2022improving",
@@ -28466,7 +29193,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2022lot",
@@ -28499,7 +29227,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weber2022certifying",
@@ -28544,7 +29273,8 @@
       "name": "Ce Zhang",
       "slug": "ce-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022double",
@@ -28581,7 +29311,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chu2022tpc",
@@ -28619,7 +29350,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022copa",
@@ -28673,7 +29405,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wu2022crop",
@@ -28723,7 +29456,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2022certified",
@@ -28773,7 +29507,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2021training",
@@ -28814,7 +29549,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2021tss",
@@ -28872,7 +29608,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xie2021crfl",
@@ -28909,7 +29646,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020towards",
@@ -28967,7 +29705,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2019robustra",
@@ -29004,9 +29743,11 @@
       "name": "Tao Xie",
       "slug": "tao-xie"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 108,
   "color": "secure-learning",
   "hue": 2,
   "shape": "circle",
@@ -29032,6 +29773,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "SG",
   "country_name": "Singapore",
   "institution": "Nanyang Technological University",
@@ -29178,7 +29923,8 @@
       "name": "Nayyar Zaidi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xia2024mitigating",
@@ -29215,9 +29961,11 @@
       "name": "Henghui Ding",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 111,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -29243,6 +29991,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Chinese University of Hong Kong",
@@ -29491,7 +30243,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pautov2022smoothed",
@@ -29532,7 +30285,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "muravev2022certified",
@@ -29566,7 +30320,8 @@
       "name": "Aleksandr Petiushko",
       "slug": "aleksandr-petiushko"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gendler2022adversarially",
@@ -29603,7 +30358,8 @@
       "name": "Yaniv Romano",
       "slug": "yaniv-romano"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pautov2022cc",
@@ -29648,7 +30404,8 @@
       "name": "Ivan V. Oseledets",
       "slug": "ivan-v-oseledets"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2021towards",
@@ -29698,7 +30455,8 @@
       "name": "Dahua Lin",
       "slug": "dahua-lin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2021fast",
@@ -29743,7 +30501,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020higher",
@@ -29788,7 +30547,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2020neural",
@@ -29821,7 +30581,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020towards",
@@ -29867,7 +30628,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lyu2020fastened",
@@ -29912,7 +30674,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2020towards",
@@ -29957,7 +30720,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ko2019popqorn",
@@ -30007,7 +30771,8 @@
       "name": "Dahua Lin",
       "slug": "dahua-lin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2019proven",
@@ -30061,7 +30826,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2019cnn",
@@ -30102,7 +30868,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2018efficient",
@@ -30143,7 +30910,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2018towards",
@@ -30196,9 +30964,11 @@
       "name": "Inderjit S. Dhillon",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 44,
   "color": "daniel-mit",
   "hue": 6,
   "shape": "circle",
@@ -30224,6 +30994,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 2,
+  "highlight": 0,
+  "awards": 2,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Google DeepMind",
@@ -30444,7 +31218,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2024expressive",
@@ -30489,7 +31264,8 @@
       "name": "Alessio Lomuscio",
       "slug": "alessio-lomuscio"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kotha2023provably",
@@ -30530,7 +31306,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "carlini2023certified",
@@ -30575,7 +31352,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "berrada2021make",
@@ -30633,7 +31411,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "behl2021overcoming",
@@ -30670,7 +31449,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2021scaling",
@@ -30711,7 +31491,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2020efficient",
@@ -30748,7 +31529,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dathathri2020enabling",
@@ -30813,7 +31595,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dvijotham2020framework",
@@ -30870,7 +31653,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020towards",
@@ -30928,7 +31712,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "welbl2020towards",
@@ -30986,7 +31771,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2019achieving",
@@ -31039,7 +31825,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gowal2019scalable",
@@ -31096,7 +31883,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2019knowing",
@@ -31146,7 +31934,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qin2019verification",
@@ -31208,7 +31997,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dathathri2019inverse",
@@ -31241,7 +32031,8 @@
       "name": "Richard M. Murray",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2018unified",
@@ -31282,9 +32073,11 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 8,
   "color": "deepmind",
   "hue": 3,
   "shape": "square",
@@ -31310,6 +32103,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 2,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Maryland",
@@ -31470,7 +32267,8 @@
       "name": "Tudor Dumitras",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2023temporal",
@@ -31499,7 +32297,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rezaei2023run",
@@ -31536,7 +32335,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2023certifiably",
@@ -31585,7 +32385,8 @@
       "name": "Furong Huang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2023provable",
@@ -31622,7 +32423,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2022improvedb",
@@ -31651,7 +32453,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022lethal",
@@ -31684,7 +32487,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022improved",
@@ -31717,7 +32521,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2022improved",
@@ -31750,7 +32555,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "kumar2022policy",
@@ -31788,7 +32594,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2021improved",
@@ -31817,7 +32624,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "singla2021skew",
@@ -31846,7 +32654,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2021deep",
@@ -31875,7 +32684,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2021fantastic",
@@ -31904,7 +32714,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2020de",
@@ -31938,7 +32749,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020certifying",
@@ -31980,7 +32792,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020curse",
@@ -32017,7 +32830,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "singla2020second",
@@ -32051,7 +32865,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "levine2020robustness",
@@ -32080,9 +32895,11 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 7,
   "color": "reliable-ai",
   "hue": 1,
   "shape": "triangle",
@@ -32108,6 +32925,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "SG",
   "country_name": "Singapore",
   "institution": "Singapore Management University",
@@ -32250,7 +33071,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025verification",
@@ -32295,7 +33117,8 @@
       "name": "Jin Song Dong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025training",
@@ -32344,7 +33167,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pham2024certified",
@@ -32378,7 +33202,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2024certified",
@@ -32407,7 +33232,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023qebverif",
@@ -32445,7 +33271,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022qvip",
@@ -32499,7 +33326,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pham2022verifying",
@@ -32533,9 +33361,11 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 110,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -32561,6 +33391,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "Institute of Science and Technology Austria",
@@ -32711,7 +33545,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zikelic2023compositional",
@@ -32752,7 +33587,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zikelic2023learning",
@@ -32789,7 +33625,8 @@
       "name": "Krishnendu Chatterjee",
       "slug": "krishnendu-chatterjee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gruenbacher2022gotube",
@@ -32847,7 +33684,8 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lechner2022stability",
@@ -32884,7 +33722,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lechner2021infinite",
@@ -32921,7 +33760,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gruenbacher2021verification",
@@ -32975,7 +33815,8 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "henzinger2021scalable",
@@ -33013,9 +33854,11 @@
       "name": "Dorde Zikelic",
       "slug": "dorde-zikelic"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 60,
   "color": "ista",
   "hue": 1,
   "shape": "triangle",
@@ -33041,6 +33884,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "IL",
   "country_name": "Israel",
   "institution": "Technion - Israel Institute of Technology",
@@ -33207,7 +34054,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shaday2025mini",
@@ -33236,7 +34084,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kabaha2025quantization",
@@ -33265,7 +34114,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kabaha2024verification",
@@ -33294,7 +34144,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shapira2024boosting",
@@ -33331,7 +34182,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shapira2023deep",
@@ -33364,7 +34216,8 @@
       "name": "Dana Drachsler-Cohen",
       "slug": "dana-drachsler-cohen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gehr2018ai2",
@@ -33409,9 +34262,11 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 48,
   "color": "drachsler-cohen",
   "hue": 8,
   "shape": "diamond",
@@ -33437,6 +34292,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "IBM Research",
@@ -33605,7 +34464,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "vaishnavi2022accelerating",
@@ -33638,7 +34498,8 @@
       "name": "Amir Rahmati",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2022spectral",
@@ -33687,7 +34548,8 @@
       "name": "Z. Morley Mao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022linearity",
@@ -33736,7 +34598,8 @@
       "name": "Zhangyang Wang",
       "slug": "zhangyang-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022how",
@@ -33785,7 +34648,8 @@
       "name": "Sijia Liu",
       "slug": "sijia-liu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "xie2021crfl",
@@ -33822,7 +34686,8 @@
       "name": "Bo Li",
       "slug": "bo-li"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021adaptive",
@@ -33863,7 +34728,8 @@
       "name": "Ian M. Molloy",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2021fast",
@@ -33908,7 +34774,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020higher",
@@ -33953,7 +34820,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020towards",
@@ -33999,7 +34867,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2020towards",
@@ -34044,7 +34913,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2019tight",
@@ -34081,7 +34951,8 @@
       "name": "Tommi S. Jaakkola",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2019proven",
@@ -34135,7 +35006,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2019cnn",
@@ -34176,7 +35048,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2018efficient",
@@ -34217,9 +35090,11 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 19,
   "color": "ibm",
   "hue": 3,
   "shape": "triangle",
@@ -34245,6 +35120,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Wisconsin–Madison",
@@ -34392,7 +35271,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022interval",
@@ -34429,7 +35309,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021certified",
@@ -34462,7 +35343,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2020robustness",
@@ -34500,7 +35382,8 @@
       "name": "Loris D'Antoni",
       "slug": "loris-d-antoni"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "albarghouthi2017fairsquare",
@@ -34542,9 +35425,11 @@
       "name": "Aditya V. Nori",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 28,
   "color": "albarghouthi",
   "hue": 1,
   "shape": "triangle",
@@ -34570,6 +35455,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "University of Tübingen",
@@ -34732,7 +35621,8 @@
       "name": "Václav Vorácek",
       "slug": "vaclav-voracek"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "voracek2023improving",
@@ -34761,7 +35651,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yatsura2023certified",
@@ -34815,7 +35706,8 @@
       "name": "Jan Hendrik Metzen",
       "slug": "jan-hendrik-metzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "voracek2023sound",
@@ -34849,7 +35741,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meinke2022provably",
@@ -34891,7 +35784,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "metzen2021efficient",
@@ -34929,7 +35823,8 @@
       "name": "Maksym Yatsura",
       "slug": "maksym-yatsura"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bitterwolf2020certifiably",
@@ -34971,7 +35866,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "croce2020provable",
@@ -35000,7 +35896,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "meinke2020towards",
@@ -35034,7 +35931,8 @@
       "name": "Matthias Hein",
       "slug": "matthias-hein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wong2018scaling",
@@ -35076,7 +35974,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hein2017formal",
@@ -35110,9 +36009,11 @@
       "name": "Maksym Andriushchenko",
       "slug": "maksym-andriushchenko"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 59,
   "color": "hein",
   "hue": 2,
   "shape": "triangle",
@@ -35138,6 +36039,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "University of California, Davis",
@@ -35274,7 +36179,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "tao2024provable",
@@ -35303,7 +36209,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tao2023architecture",
@@ -35340,7 +36247,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sotoudeh2021provable",
@@ -35369,7 +36277,8 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sotoudeh2019computing",
@@ -35403,9 +36312,11 @@
       "name": "Aditya V. Thakur",
       "slug": "aditya-v-thakur"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 24,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -35431,6 +36342,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "Columbia University",
@@ -35627,7 +36542,8 @@
       "name": "Mathias Lécuyer",
       "slug": "mathias-lecuyer"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "xiang2024patchcure",
@@ -35677,7 +36593,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022general",
@@ -35735,7 +36652,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021beta",
@@ -35789,7 +36707,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021learning",
@@ -35839,7 +36758,8 @@
       "name": "David A. Wagner",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xu2021fast",
@@ -35893,7 +36813,8 @@
       "name": "Cho-Jui Hsieh",
       "slug": "cho-jui-hsieh"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020training",
@@ -35930,7 +36851,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lecuyer2019certified",
@@ -35971,7 +36893,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018efficient",
@@ -36017,7 +36940,8 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2018formal",
@@ -36058,9 +36982,11 @@
       "name": "Suman Jana",
       "slug": "suman-jana"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 22,
   "color": "neurify",
   "hue": 4,
   "shape": "diamond",
@@ -36086,6 +37012,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Pennsylvania",
@@ -36282,7 +37212,8 @@
       "name": "Eric Wong",
       "slug": "eric-wong"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ivanov2021compositional",
@@ -36327,7 +37258,8 @@
       "name": "Osbert Bastani",
       "slug": "osbert-bastani"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ivanov2021verisig",
@@ -36372,7 +37304,8 @@
       "name": "Insup Lee",
       "slug": "insup-lee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fazlyab2019efficient",
@@ -36413,7 +37346,8 @@
       "name": "George J. Pappas",
       "slug": "george-j-pappas"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bastani2019probabilistic",
@@ -36451,9 +37385,11 @@
       "name": "Armando Solar-Lezama",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 95,
   "color": "pappas",
   "hue": 8,
   "shape": "square",
@@ -36479,6 +37415,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Southern California",
@@ -36631,7 +37571,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2022example",
@@ -36660,7 +37601,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2020neurodiff",
@@ -36702,7 +37644,8 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "paulsen2020reludiff",
@@ -36740,9 +37683,11 @@
       "name": "Chao Wang",
       "slug": "chao-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 36,
   "color": "chao-wang",
   "hue": 1,
   "shape": "triangle",
@@ -36768,6 +37713,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Chinese Academy of Sciences",
@@ -36939,7 +37888,8 @@
       "name": "Jin Song Dong",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2025training",
@@ -36988,7 +37938,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2023qebverif",
@@ -37026,7 +37977,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022qvip",
@@ -37080,7 +38032,8 @@
       "name": "Jun Sun",
       "slug": "jun-sun"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021bdd4bnn",
@@ -37121,9 +38074,11 @@
       "name": "Taolue Chen",
       "slug": "taolue-chen"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 99,
   "color": "fu-song",
   "hue": 1,
   "shape": "triangle",
@@ -37149,6 +38104,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of California San Diego",
@@ -37283,7 +38242,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yan2024provably",
@@ -37316,7 +38276,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qin2022quantifying",
@@ -37354,7 +38315,8 @@
       "name": "Sicun Gao",
       "slug": "sicun-gao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gendler2022adversarially",
@@ -37391,7 +38353,8 @@
       "name": "Yaniv Romano",
       "slug": "yaniv-romano"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2021fast",
@@ -37436,7 +38399,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020higher",
@@ -37481,7 +38445,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2020neural",
@@ -37514,7 +38479,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mohapatra2020towards",
@@ -37560,7 +38526,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2020towards",
@@ -37605,7 +38572,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ko2019popqorn",
@@ -37655,7 +38623,8 @@
       "name": "Dahua Lin",
       "slug": "dahua-lin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2019proven",
@@ -37709,7 +38678,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "boopathy2019cnn",
@@ -37750,7 +38720,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2018efficient",
@@ -37791,7 +38762,8 @@
       "name": "Luca Daniel",
       "slug": "luca-daniel"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "weng2018towards",
@@ -37844,9 +38816,11 @@
       "name": "Inderjit S. Dhillon",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 127,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -37872,6 +38846,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 2,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 2,
   "country": "US",
   "country_name": "United States",
   "institution": "New York University",
@@ -38036,7 +39014,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ghazanfari2024lipsim",
@@ -38082,7 +39061,8 @@
       "name": "Siddharth Garg",
       "slug": "siddharth-garg"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pauli2024novel",
@@ -38131,7 +39111,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024scalability",
@@ -38180,7 +39161,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2024lipschitz",
@@ -38222,7 +39204,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2023exploiting",
@@ -38268,7 +39251,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2023efficient",
@@ -38305,7 +39289,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -38346,7 +39331,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "meunier2022dynamical",
@@ -38383,7 +39369,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "araujo2021lipschitz",
@@ -38425,7 +39412,8 @@
       "name": "Jamal Atif",
       "slug": "jamal-atif"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pinot2019theoretical",
@@ -38474,9 +39462,11 @@
       "name": "Jamal Atif",
       "slug": "jamal-atif"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 3,
   "color": "alexandre-araujo",
   "hue": 2,
   "shape": "triangle",
@@ -38502,6 +39492,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Maryland",
@@ -38667,7 +39661,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bansal2022certified",
@@ -38720,7 +39715,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2022policy",
@@ -38758,7 +39754,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2021center",
@@ -38792,7 +39789,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020certifying",
@@ -38834,7 +39832,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "curry2020certifying",
@@ -38871,7 +39870,8 @@
       "name": "John Dickerson",
       "slug": "john-dickerson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiang2020detection",
@@ -38925,7 +39925,8 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kumar2020curse",
@@ -38962,7 +39963,8 @@
       "name": "Soheil Feizi",
       "slug": "soheil-feizi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chiang2020certified",
@@ -39016,9 +40018,11 @@
       "name": "Tom Goldstein",
       "slug": "tom-goldstein"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 53,
   "color": "goldstein",
   "hue": 3,
   "shape": "triangle",
@@ -39044,6 +40048,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Johns Hopkins University",
@@ -39184,7 +40192,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fazlyab2023certified",
@@ -39221,7 +40230,8 @@
       "name": "Rama Chellappa",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2023one",
@@ -39254,7 +40264,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "entesari2023reachlipbnb",
@@ -39292,7 +40303,8 @@
       "name": "Mahyar Fazlyab",
       "slug": "mahyar-fazlyab"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "donti2021enforcing",
@@ -39329,7 +40341,8 @@
       "name": "Zico Kolter",
       "slug": "zico-kolter"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fazlyab2019efficient",
@@ -39370,9 +40383,11 @@
       "name": "George J. Pappas",
       "slug": "george-j-pappas"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 50,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -39398,6 +40413,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Massachusetts Institute of Technology",
@@ -39573,7 +40592,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "salman2022certified",
@@ -39619,7 +40639,8 @@
       "name": "Aleksander Madry",
       "slug": "aleksander-madry"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dai2021lyapunov",
@@ -39660,7 +40681,8 @@
       "name": "Russ Tedrake",
       "slug": "russ-tedrake"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dvijotham2020framework",
@@ -39717,7 +40739,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tjeng2019evaluating",
@@ -39750,7 +40773,8 @@
       "name": "Russ Tedrake",
       "slug": "russ-tedrake"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiao2019training",
@@ -39787,9 +40811,11 @@
       "name": "Aleksander Madry",
       "slug": "aleksander-madry"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 82,
   "color": "mipverify",
   "hue": 4,
   "shape": "triangle",
@@ -39815,6 +40841,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "University of Oxford",
@@ -39998,7 +41028,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "emde2025towards",
@@ -40044,7 +41075,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "eiras2024efficient",
@@ -40089,7 +41121,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "petrov2023certifying",
@@ -40135,7 +41168,8 @@
       "name": "Adel Bibi",
       "slug": "adel-bibi"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alfarra2022deformrs",
@@ -40181,7 +41215,8 @@
       "name": "Bernard Ghanem",
       "slug": "bernard-ghanem"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "behl2021overcoming",
@@ -40218,7 +41253,8 @@
       "name": "Krishnamurthy Dvijotham",
       "slug": "krishnamurthy-dvijotham"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "palma2021scaling",
@@ -40259,7 +41295,8 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bunel2018unified",
@@ -40300,9 +41337,11 @@
       "name": "M. Pawan Kumar",
       "slug": "m-pawan-kumar"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 118,
   "color": "tvg",
   "hue": 1,
   "shape": "triangle",
@@ -40328,6 +41367,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Wisconsin–Madison",
@@ -40484,7 +41527,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pauli2024novel",
@@ -40533,7 +41577,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024scalability",
@@ -40582,7 +41627,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2023exploiting",
@@ -40628,7 +41674,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -40669,7 +41716,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "wang2022quantitative",
@@ -40702,7 +41750,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022interval",
@@ -40739,9 +41788,11 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 10,
   "color": "aaron-j-havens",
   "hue": 3,
   "shape": "triangle",
@@ -40767,6 +41818,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Zhejiang University",
@@ -40925,7 +41980,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2025provable",
@@ -40962,7 +42018,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chi2025patch",
@@ -41015,7 +42072,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2024vere",
@@ -41065,9 +42123,11 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 120,
   "color": "vere",
   "hue": 1,
   "shape": "triangle",
@@ -41093,6 +42153,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Zhejiang Sci-Tech University",
@@ -41258,7 +42322,8 @@
       "name": "Zuohua Ding",
       "slug": "zuohua-ding"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2025formal",
@@ -41303,7 +42368,8 @@
       "name": "Zuohua Ding",
       "slug": "zuohua-ding"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sha2021synthesizing",
@@ -41360,7 +42426,8 @@
       "name": "Xuandong Li",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2021iterative",
@@ -41409,7 +42476,8 @@
       "name": "Zhiming Liu",
       "slug": "zhiming-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2019robustness",
@@ -41458,9 +42526,11 @@
       "name": "Jifeng He",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 125,
   "color": "wang-lin",
   "hue": 5,
   "shape": "triangle",
@@ -41486,6 +42556,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Texas at Austin",
@@ -41637,7 +42711,8 @@
       "name": "Isil Dillig",
       "slug": "isil-dillig"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zikelic2023compositional",
@@ -41678,7 +42753,8 @@
       "name": "Thomas A. Henzinger",
       "slug": "thomas-a-henzinger"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anderson2020neurosymbolic",
@@ -41715,7 +42791,8 @@
       "name": "Swarat Chaudhuri",
       "slug": "swarat-chaudhuri"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "anderson2019optimization",
@@ -41757,7 +42834,8 @@
       "name": "Swarat Chaudhuri",
       "slug": "swarat-chaudhuri"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gehr2018ai2",
@@ -41802,9 +42880,11 @@
       "name": "Martin Vechev",
       "slug": "martin-vechev"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 37,
   "color": "charon",
   "hue": 2,
   "shape": "triangle",
@@ -41830,6 +42910,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "NVIDIA",
@@ -41975,7 +43059,8 @@
       "name": "Aleksandra Korolova",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jacob2025patchdemux",
@@ -42013,7 +43098,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2024patchcure",
@@ -42063,7 +43149,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2023objectseeker",
@@ -42109,7 +43196,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2022patchcleanser",
@@ -42147,7 +43235,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021detectorguard",
@@ -42185,7 +43274,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021patchguard",
@@ -42227,9 +43317,11 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 39,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -42255,6 +43347,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of California San Diego",
@@ -42396,7 +43492,8 @@
       "name": "Andrew Clark",
       "slug": "andrew-clark"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sun2024breaking",
@@ -42434,7 +43531,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "qin2022quantifying",
@@ -42472,7 +43570,8 @@
       "name": "Sicun Gao",
       "slug": "sicun-gao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chang2019neural",
@@ -42505,7 +43604,8 @@
       "name": "Sicun Gao",
       "slug": "sicun-gao"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "dathathri2019inverse",
@@ -42538,9 +43638,11 @@
       "name": "Richard M. Murray",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 52,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -42566,6 +43668,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "KR",
   "country_name": "South Korea",
   "institution": "Korea University",
@@ -42710,7 +43816,8 @@
       "name": "Feras Saad",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "choi2024adversarial",
@@ -42747,7 +43854,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "jeong2023multi",
@@ -42776,7 +43884,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2023confidence",
@@ -42814,7 +43923,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2021smoothmix",
@@ -42864,7 +43974,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2020consistency",
@@ -42898,9 +44009,11 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 13,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -42926,6 +44039,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "HK",
   "country_name": "Hong Kong",
   "institution": "Hong Kong Polytechnic University",
@@ -43088,7 +44205,8 @@
       "name": "Hang Zhang",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lai2024collective",
@@ -43138,7 +44256,8 @@
       "name": "Kai Zhou",
       "slug": "kai-zhou"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lai2024node",
@@ -43184,9 +44303,11 @@
       "name": "Kai Zhou",
       "slug": "kai-zhou"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 73,
   "color": "kai-zhou",
   "hue": 1,
   "shape": "triangle",
@@ -43212,6 +44333,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Peking University",
@@ -43373,7 +44498,8 @@
       "name": "Di He",
       "slug": "di-he"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022rethinking",
@@ -43410,7 +44536,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2022boosting",
@@ -43447,7 +44574,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhang2021towards",
@@ -43488,7 +44616,8 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhai2020macer",
@@ -43546,9 +44675,11 @@
       "name": "Liwei Wang",
       "slug": "liwei-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 94,
   "color": "pku",
   "hue": 2,
   "shape": "triangle",
@@ -43574,6 +44705,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Texas, Austin",
@@ -43708,7 +44843,8 @@
       "name": "Sewoong Oh",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2021provable",
@@ -43737,7 +44873,8 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2020exactly",
@@ -43771,7 +44908,8 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jordan2019provable",
@@ -43804,9 +44942,11 @@
       "name": "Alex Dimakis",
       "slug": "alex-dimakis"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 47,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -43832,6 +44972,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "BE",
   "country_name": "Belgium",
   "institution": "Vrije Universiteit Brussel",
@@ -43969,7 +45113,8 @@
       "name": "Guillermo A. Pérez",
       "slug": "guillermo-a-perez"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delgrange2022distillation",
@@ -44007,9 +45152,11 @@
       "name": "Guillermo A. Pérez",
       "slug": "guillermo-a-perez"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 31,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -44035,6 +45182,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Shanghai Jiao Tong University",
@@ -44180,7 +45331,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shao2023robustness",
@@ -44213,7 +45365,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022collective",
@@ -44259,7 +45412,8 @@
       "name": "Chentao Wu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2022input",
@@ -44300,9 +45454,11 @@
       "name": "Bin Sheng",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 72,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -44328,6 +45484,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Princeton University",
@@ -44465,7 +45625,8 @@
       "name": "Aleksandra Korolova",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jacob2025patchdemux",
@@ -44503,7 +45664,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2024patchcure",
@@ -44553,7 +45715,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2023objectseeker",
@@ -44599,7 +45762,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2022patchcleanser",
@@ -44637,7 +45801,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021detectorguard",
@@ -44675,7 +45840,8 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "xiang2021patchguard",
@@ -44717,9 +45883,11 @@
       "name": "Prateek Mittal",
       "slug": "prateek-mittal"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 97,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -44745,6 +45913,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Stanford University",
@@ -44911,7 +46083,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jones2020robust",
@@ -44948,7 +46121,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2019certified",
@@ -44985,7 +46159,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018semidefinite",
@@ -45018,7 +46193,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018certified",
@@ -45056,9 +46232,11 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 78,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45084,6 +46262,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Rutgers University",
@@ -45209,7 +46391,8 @@
       "name": "He Zhu",
       "slug": "he-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024safe",
@@ -45238,7 +46421,8 @@
       "name": "He Zhu",
       "slug": "he-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhu2019inductive",
@@ -45275,9 +46459,11 @@
       "name": "Suresh Jagannathan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 58,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45303,6 +46489,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Texas at Austin",
@@ -45449,7 +46639,8 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2020certified",
@@ -45491,7 +46682,8 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ye2020safer",
@@ -45524,9 +46716,11 @@
       "name": "Qiang Liu",
       "slug": "qiang-liu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 100,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45552,6 +46746,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "KR",
   "country_name": "South Korea",
   "institution": "Korea Advanced Institute of Science & Technology",
@@ -45679,7 +46877,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "jeong2023multi",
@@ -45708,7 +46907,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2023confidence",
@@ -45746,7 +46946,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2021smoothmix",
@@ -45796,7 +46997,8 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jeong2020consistency",
@@ -45830,9 +47032,11 @@
       "name": "Jinwoo Shin",
       "slug": "jinwoo-shin"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 12,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -45858,6 +47062,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Carnegie Mellon University",
@@ -46022,7 +47230,8 @@
       "name": "Pushmeet Kohli",
       "slug": "pushmeet-kohli"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jones2020robust",
@@ -46059,7 +47268,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jia2019certified",
@@ -46096,7 +47306,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018semidefinite",
@@ -46129,7 +47340,8 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "raghunathan2018certified",
@@ -46167,9 +47379,11 @@
       "name": "Percy Liang",
       "slug": "percy-liang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 102,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -46195,6 +47409,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Stony Brook University",
@@ -46328,7 +47546,8 @@
       "name": "Stanley Bak",
       "slug": "stanley-bak"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2021robustness",
@@ -46390,7 +47609,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bak2020improved",
@@ -46427,7 +47647,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020nnv",
@@ -46489,7 +47710,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2020verification",
@@ -46526,7 +47748,8 @@
       "name": "Taylor T. Johnson",
       "slug": "taylor-t-johnson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tran2019safety",
@@ -46571,9 +47794,11 @@
       "name": "Xenofon D. Koutsoukos",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 138,
   "color": "nnenum",
   "hue": 1,
   "shape": "triangle",
@@ -46599,6 +47824,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Texas at Austin",
@@ -46741,7 +47970,8 @@
       "name": "Nils Jansen",
       "slug": "nils-jansen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carr2020verifiable",
@@ -46779,7 +48009,8 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "carr2019counterexample",
@@ -46829,7 +48060,8 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alshiekh2018safe",
@@ -46874,9 +48106,11 @@
       "name": "Ufuk Topcu",
       "slug": "ufuk-topcu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 119,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -46902,6 +48136,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 1,
   "country": "CN",
   "country_name": "China",
   "institution": "Wuhan University",
@@ -47031,7 +48269,8 @@
       "name": "Weiwei Liu",
       "slug": "weiwei-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2022robustness",
@@ -47065,9 +48304,11 @@
       "name": "Weiwei Liu",
       "slug": "weiwei-liu"
      }
-    ]
+    ],
+    "pres": "oral"
    }
   ],
+  "award_rank": 16,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47093,6 +48334,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Imperial College London",
@@ -47245,7 +48490,8 @@
       "name": "Calvin Tsay",
       "slug": "calvin-tsay"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2023certification",
@@ -47278,7 +48524,8 @@
       "name": "Adrian Weller",
       "slug": "adrian-weller"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wicker2023robust",
@@ -47320,7 +48567,8 @@
       "name": "Adrian Weller",
       "slug": "adrian-weller"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "benussi2022individual",
@@ -47361,7 +48609,8 @@
       "name": "Marta Kwiatkowska",
       "slug": "marta-kwiatkowska"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "cardelli2019statistical",
@@ -47411,9 +48660,11 @@
       "name": "Matthew Wicker",
       "slug": "matthew-wicker"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 87,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47439,6 +48690,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CH",
   "country_name": "Switzerland",
   "institution": "École Polytechnique Fédérale de Lausanne",
@@ -47587,7 +48842,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "rocamora2022sound",
@@ -47633,7 +48889,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "latorre2020lipschitz",
@@ -47666,7 +48923,8 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "liu2019certifying",
@@ -47699,9 +48957,11 @@
       "name": "Volkan Cevher",
       "slug": "volkan-cevher"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 75,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -47727,6 +48987,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Florida",
@@ -47899,7 +49163,8 @@
       "name": "Dejing Dou",
       "slug": "dejing-dou"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "phan2019heterogeneous",
@@ -47948,9 +49213,11 @@
       "name": "My T. Thai",
       "slug": "my-t-thai"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 91,
   "color": "my-thai",
   "hue": 6,
   "shape": "triangle",
@@ -47976,6 +49243,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "University of Oxford",
@@ -48113,7 +49384,8 @@
       "name": "Ian Horrocks",
       "slug": "ian-horrocks"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "harzli2023cardinality",
@@ -48146,9 +49418,11 @@
       "name": "Ian Horrocks",
       "slug": "ian-horrocks"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 63,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48174,6 +49448,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "Amazon",
@@ -48333,7 +49611,8 @@
       "name": "Calvin Tsay",
       "slug": "calvin-tsay"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hojny2024verifying",
@@ -48375,7 +49654,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "tsay2021partition",
@@ -48412,7 +49692,8 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "botoeva2020efficient",
@@ -48453,9 +49734,11 @@
       "name": "Ruth Misener",
       "slug": "ruth-misener"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 106,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48481,6 +49764,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 1,
   "country": "US",
   "country_name": "United States",
   "institution": "Carnegie Mellon University / NASA Ames",
@@ -48627,7 +49914,8 @@
       "name": "Matt Fredrikson",
       "slug": "matt-fredrikson"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "usman2021nnrepair",
@@ -48668,7 +49956,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fromherz2021fast",
@@ -48709,7 +49998,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "gopinath2019property",
@@ -48751,9 +50041,11 @@
       "name": "Ankur Taly",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 25,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -48779,6 +50071,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "SA",
   "country_name": "Saudi Arabia",
   "institution": "King Abdullah University of Science and Technology",
@@ -48943,7 +50239,8 @@
       "name": "Bernard Ghanem",
       "slug": "bernard-ghanem"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "alfarra2022deformrs",
@@ -48989,9 +50286,11 @@
       "name": "Bernard Ghanem",
       "slug": "bernard-ghanem"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 33,
   "color": "bernard-ghanem",
   "hue": 2,
   "shape": "triangle",
@@ -49017,6 +50316,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "FR",
   "country_name": "France",
   "institution": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
@@ -49168,7 +50471,8 @@
       "name": "Jun Zhao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021semialgebraic",
@@ -49210,7 +50514,8 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020semialgebraic",
@@ -49247,9 +50552,11 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 123,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -49275,6 +50582,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Massachusetts Institute of Technology",
@@ -49422,7 +50733,8 @@
       "name": "Jonathan P. How",
       "slug": "jonathan-p-how"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "everett2021efficient",
@@ -49455,9 +50767,11 @@
       "name": "Jonathan P. How",
       "slug": "jonathan-p-how"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 69,
   "color": "jonathan-p-how",
   "hue": 1,
   "shape": "triangle",
@@ -49483,6 +50797,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "GB",
   "country_name": "United Kingdom",
   "institution": "University of Birmingham",
@@ -49625,7 +50943,8 @@
       "name": "Mirco Giacobbe",
       "slug": "mirco-giacobbe"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "bacci2021verifying",
@@ -49658,9 +50977,11 @@
       "name": "David Parker",
       "slug": "david-parker"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 89,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -49686,6 +51007,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of California, Los Angeles",
@@ -49822,7 +51147,8 @@
       "name": "Guy Van den Broeck",
       "slug": "guy-van-den-broeck"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "sivaraman2020counterexample",
@@ -49864,9 +51190,11 @@
       "name": "Guy Van den Broeck",
       "slug": "guy-van-den-broeck"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 56,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -49892,6 +51220,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 2,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 2,
   "country": "FR",
   "country_name": "France",
   "institution": "Ecole supérieure de physique et chimie",
@@ -50031,7 +51363,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "delattre2023efficient",
@@ -50068,7 +51401,8 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -50109,7 +51443,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    },
    {
     "id": "meunier2022dynamical",
@@ -50146,9 +51481,11 @@
       "name": "Alexandre Allauzen",
       "slug": "alexandre-allauzen"
      }
-    ]
+    ],
+    "pres": "oral"
    }
   ],
+  "award_rank": 2,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -50174,6 +51511,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "Vienna University of Technology",
@@ -50343,7 +51684,8 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gruenbacher2021verification",
@@ -50397,9 +51739,11 @@
       "name": "Radu Grosu",
       "slug": "radu-grosu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 101,
   "color": "radu-grosu",
   "hue": 2,
   "shape": "triangle",
@@ -50425,6 +51769,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "HK",
   "country_name": "Hong Kong",
   "institution": "Hong Kong University of Science and Technology",
@@ -50554,7 +51902,8 @@
       "name": "Zhendong Su",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "ma2020metamorphic",
@@ -50592,9 +51941,11 @@
       "name": "Jin Liu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 109,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -50620,6 +51971,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 1,
+  "spotlight": 1,
+  "highlight": 0,
+  "awards": 2,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Illinois Urbana-Champaign",
@@ -50747,7 +52102,8 @@
       "name": "Huan Zhang",
       "slug": "huan-zhang"
      }
-    ]
+    ],
+    "pres": "spotlight"
    },
    {
     "id": "havens2024fine",
@@ -50789,7 +52145,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "pauli2024novel",
@@ -50838,7 +52195,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2024scalability",
@@ -50887,7 +52245,8 @@
       "name": "Somesh Jha",
       "slug": "somesh-jha"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "havens2023exploiting",
@@ -50933,7 +52292,8 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "araujo2023unified",
@@ -50974,9 +52334,11 @@
       "name": "Bin Hu",
       "slug": "bin-hu"
      }
-    ]
+    ],
+    "pres": "oral"
    }
   ],
+  "award_rank": 5,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51002,6 +52364,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "DE",
   "country_name": "Germany",
   "institution": "Karlsruher Institut für Technologie",
@@ -51124,7 +52490,8 @@
       "name": "André Platzer",
       "slug": "andre-platzer"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "fulton2018safe",
@@ -51153,9 +52520,11 @@
       "name": "André Platzer",
       "slug": "andre-platzer"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 30,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51181,6 +52550,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AE",
   "country_name": "United Arab Emirates",
   "institution": "Mohamed bin Zayed University of Artificial Intelligence",
@@ -51321,7 +52694,8 @@
       "name": "Zhen Wang",
       "slug": "zhen-wang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "li2022towards",
@@ -51366,7 +52740,8 @@
       "name": "Lijun Zhang",
       "slug": "lijun-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "usman2021nnrepair",
@@ -51407,7 +52782,8 @@
       "name": "Corina S. Pasareanu",
       "slug": "corina-s-pasareanu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "huang2020practical",
@@ -51452,9 +52828,11 @@
       "name": "Xiaowei Huang",
       "slug": "xiaowei-huang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 132,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51480,6 +52858,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "Institute of Science and Technology Austria",
@@ -51606,7 +52988,8 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "prach2022almost",
@@ -51635,9 +53018,11 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 34,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51663,6 +53048,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "ISTA (Institute of Science and Technology Austria)",
@@ -51789,7 +53178,8 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "prach2022almost",
@@ -51818,9 +53208,11 @@
       "name": "Christoph H. Lampert",
       "slug": "christoph-h-lampert"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 40,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -51846,6 +53238,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "FR",
   "country_name": "France",
   "institution": "Laboratoire d'Analyse et d'Architecture des Systèmes (CNRS)",
@@ -51981,7 +53377,8 @@
       "name": "Jun Zhao",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2021semialgebraic",
@@ -52023,7 +53420,8 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2020semialgebraic",
@@ -52060,9 +53458,11 @@
       "name": "Edouard Pauwels",
       "slug": "edouard-pauwels"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 65,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52088,6 +53488,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Peking University",
@@ -52214,7 +53618,8 @@
       "name": "Zhouchen Lin",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "kou2022certified",
@@ -52247,9 +53652,11 @@
       "name": "Yisen Wang",
       "slug": "yisen-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 131,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52275,6 +53682,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Peking University",
@@ -52417,7 +53828,8 @@
       "name": "Yuan Xie",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "han2021scalecert",
@@ -52479,9 +53891,11 @@
       "name": "Yunji Chen",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 79,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52507,6 +53921,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Argonne National Laboratory",
@@ -52637,7 +54055,8 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2020certified",
@@ -52683,9 +54102,11 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 61,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52711,6 +54132,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "KR",
   "country_name": "South Korea",
   "institution": "Seoul National University",
@@ -52836,7 +54261,8 @@
       "name": "Jaewook Lee",
       "slug": "jaewook-lee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2020lipschitz",
@@ -52869,9 +54295,11 @@
       "name": "Saerom Park",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 64,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -52897,6 +54325,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "IL",
   "country_name": "Israel",
   "institution": "Technion - Israel Institute of Technology",
@@ -53018,7 +54450,8 @@
       "name": "Tsui-Wei Weng",
       "slug": "tsui-wei-weng"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "gendler2022adversarially",
@@ -53055,9 +54488,11 @@
       "name": "Yaniv Romano",
       "slug": "yaniv-romano"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 103,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53083,6 +54518,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "KR",
   "country_name": "South Korea",
   "institution": "Hanyang University",
@@ -53208,7 +54647,8 @@
       "name": "Jaewook Lee",
       "slug": "jaewook-lee"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lee2020lipschitz",
@@ -53241,9 +54681,11 @@
       "name": "Saerom Park",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 113,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53269,6 +54711,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Illinois, Chicago",
@@ -53399,7 +54845,8 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2020certified",
@@ -53445,9 +54892,11 @@
       "name": "Xinhua Zhang",
       "slug": "xinhua-zhang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 128,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53473,6 +54922,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Carnegie Mellon University",
@@ -53628,7 +55081,8 @@
       "name": "Changliu Liu",
       "slug": "changliu-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2019marabou",
@@ -53706,7 +55160,8 @@
       "name": "Clark Barrett",
       "slug": "clark-barrett"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "katz2017reluplex",
@@ -53747,9 +55202,11 @@
       "name": "Mykel J. Kochenderfer",
       "slug": "mykel-j-kochenderfer"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 93,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -53775,6 +55232,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Southwest University",
@@ -53906,7 +55367,8 @@
       "name": "Zhengfeng Yang",
       "slug": "zhengfeng-yang"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "yang2021iterative",
@@ -53955,7 +55417,8 @@
       "name": "Zhiming Liu",
       "slug": "zhiming-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "lin2019robustness",
@@ -54004,9 +55467,11 @@
       "name": "Jifeng He",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 135,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54032,6 +55497,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Sun Yat-sen University",
@@ -54163,7 +55632,8 @@
       "name": "Cyrus Shahabi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021certifiedb",
@@ -54200,9 +55670,11 @@
       "name": "Li Xiong",
       "slug": "li-xiong"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 66,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54228,6 +55700,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Emory University",
@@ -54359,7 +55835,8 @@
       "name": "Cyrus Shahabi",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "wang2021certifiedb",
@@ -54396,9 +55873,11 @@
       "name": "Li Xiong",
       "slug": "li-xiong"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 77,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54424,6 +55903,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Shanghai Jiao Tong University",
@@ -54553,7 +56036,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shao2023robustness",
@@ -54586,9 +56070,11 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 62,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54614,6 +56100,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Tianjin University",
@@ -54743,7 +56233,8 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "shao2023robustness",
@@ -54776,9 +56267,11 @@
       "name": "Junchi Yan",
       "slug": "junchi-yan"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 76,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54804,6 +56297,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Georgia Institute of Technology",
@@ -54930,7 +56427,8 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baluta2019quantitative",
@@ -54971,9 +56469,11 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 74,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -54999,6 +56499,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "SG",
   "country_name": "Singapore",
   "institution": "National University of Singapore",
@@ -55125,7 +56629,8 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baluta2019quantitative",
@@ -55166,9 +56671,11 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 98,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55194,6 +56701,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "AT",
   "country_name": "Austria",
   "institution": "Vienna University of Technology",
@@ -55324,7 +56835,8 @@
       "name": "Stefano Teso",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "blohm2025probably",
@@ -55366,9 +56878,11 @@
       "name": "Sagar Malhotra",
       "slug": "sagar-malhotra"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 107,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55394,6 +56908,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "SG",
   "country_name": "Singapore",
   "institution": "National University of Singapore",
@@ -55520,7 +57038,8 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "baluta2019quantitative",
@@ -55561,9 +57080,11 @@
       "name": "Prateek Saxena",
       "slug": "prateek-saxena"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 114,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55589,6 +57110,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Auburn University",
@@ -55718,7 +57243,8 @@
       "name": "Da Yan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022input",
@@ -55760,9 +57286,11 @@
       "name": "Lingfei Wu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 68,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55788,6 +57316,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "University of Colorado at Boulder",
@@ -55914,7 +57446,8 @@
       "name": "Luca Laurenti",
       "slug": "luca-laurenti"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "mazouz2022safety",
@@ -55955,9 +57488,11 @@
       "name": "Morteza Lahijanian",
       "slug": "morteza-lahijanian"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 90,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -55983,6 +57518,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Auburn University",
@@ -56112,7 +57651,8 @@
       "name": "Da Yan",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "jin2022input",
@@ -56154,9 +57694,11 @@
       "name": "Lingfei Wu",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 129,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56182,6 +57724,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Tsinghua University",
@@ -56329,7 +57875,8 @@
       "name": "Anima Anandkumar",
       "slug": "anima-anandkumar"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "chen2024diffusion",
@@ -56378,7 +57925,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hao2022gsmooth",
@@ -56428,9 +57976,11 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 71,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56456,6 +58006,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CA",
   "country_name": "Canada",
   "institution": "University of Waterloo",
@@ -56590,7 +58144,8 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2022neural",
@@ -56627,9 +58182,11 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 70,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56655,6 +58212,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "Massachusetts Institute of Technology",
@@ -56789,7 +58350,8 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "zhou2022neural",
@@ -56826,9 +58388,11 @@
       "name": "Jun Liu",
       "slug": "jun-liu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 105,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -56854,6 +58418,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Tsinghua University",
@@ -56992,7 +58560,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hao2022gsmooth",
@@ -57042,9 +58611,11 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 57,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57070,6 +58641,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Tsinghua University",
@@ -57208,7 +58783,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hao2022gsmooth",
@@ -57258,9 +58834,11 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 130,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57286,6 +58864,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Tsinghua University",
@@ -57424,7 +59006,8 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "hao2022gsmooth",
@@ -57474,9 +59057,11 @@
       "name": "Jun Zhu",
       "slug": "jun-zhu"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 136,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57502,6 +59087,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "CN",
   "country_name": "China",
   "institution": "Zhejiang University",
@@ -57649,7 +59238,8 @@
       "name": "Fenglong Ma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "du2021cert",
@@ -57715,9 +59305,11 @@
       "name": "Ting Wang",
       "slug": "ting-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 115,
   "color": "other",
   "hue": 0,
   "shape": "circle",
@@ -57743,6 +59335,10 @@
    "dm": 0.0,
    "emb": 0.0
   },
+  "oral": 0,
+  "spotlight": 0,
+  "highlight": 0,
+  "awards": 0,
   "country": "US",
   "country_name": "United States",
   "institution": "State University of New York at Stony Brook",
@@ -57890,7 +59486,8 @@
       "name": "Fenglong Ma",
       "slug": ""
      }
-    ]
+    ],
+    "pres": ""
    },
    {
     "id": "du2021cert",
@@ -57956,9 +59553,11 @@
       "name": "Ting Wang",
       "slug": "ting-wang"
      }
-    ]
+    ],
+    "pres": ""
    }
   ],
+  "award_rank": 116,
   "color": "other",
   "hue": 0,
   "shape": "circle",

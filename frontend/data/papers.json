@@ -39,6 +39,7 @@
     "slug": "guangdong-bai"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -77,6 +78,7 @@
     "slug": "richard-y-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -132,6 +134,7 @@
     "slug": "minhui-xue"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -167,6 +170,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -217,6 +221,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -252,6 +257,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -298,6 +304,7 @@
     "slug": "luca-laurenti"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -336,6 +343,7 @@
     "slug": "shahaf-bassan"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -374,6 +382,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -425,6 +434,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -455,6 +465,7 @@
     "slug": ""
    }
   ],
+  "pres": "oral",
   "tracked": false
  },
  {
@@ -493,6 +504,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -527,6 +539,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -561,6 +574,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -604,6 +618,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -630,6 +645,7 @@
     "slug": "alessandro-de-palma"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -672,6 +688,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -711,6 +728,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -741,6 +759,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -787,6 +806,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -825,6 +845,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -859,6 +880,7 @@
     "slug": ""
    }
   ],
+  "pres": "spotlight",
   "tracked": false
  },
  {
@@ -898,6 +920,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -932,6 +955,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -962,6 +986,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1001,6 +1026,7 @@
     "slug": "mark-jelasity"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1035,6 +1061,7 @@
     "slug": "thanhvu-nguyen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1082,6 +1109,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1125,6 +1153,7 @@
     "slug": "mathieu-serrurier"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1176,6 +1205,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1219,6 +1249,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1253,6 +1284,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1303,6 +1335,7 @@
     "slug": "xiaowei-huang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1358,6 +1391,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1389,6 +1423,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1423,6 +1458,7 @@
     "slug": "armando-tacchella"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1469,6 +1505,7 @@
     "slug": "haoze-wu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1508,6 +1545,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1559,6 +1597,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1602,6 +1641,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1636,6 +1676,7 @@
     "slug": "marco-salzer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1674,6 +1715,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1716,6 +1758,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -1758,6 +1801,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1800,6 +1844,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1843,6 +1888,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1885,6 +1931,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -1991,6 +2038,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2025,6 +2073,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2055,6 +2104,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2089,6 +2139,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2119,6 +2170,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2153,6 +2205,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2208,6 +2261,7 @@
     "slug": "sarah-m-erfani"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2255,6 +2309,7 @@
     "slug": "tobias-sutter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2293,6 +2348,7 @@
     "slug": "ji-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2336,6 +2392,7 @@
     "slug": "thanhvu-nguyen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2383,6 +2440,7 @@
     "slug": "sasa-misailovic"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2438,6 +2496,7 @@
     "slug": "wensheng-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2481,6 +2540,7 @@
     "slug": "matthias-althoff"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2520,6 +2580,7 @@
     "slug": "jianjun-zhao"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2558,6 +2619,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2597,6 +2659,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2635,6 +2698,7 @@
     "slug": "matthew-l-daggitt"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2674,6 +2738,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2720,6 +2785,7 @@
     "slug": "ji-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2763,6 +2829,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2806,6 +2873,7 @@
     "slug": "thanhvu-nguyen"
    }
   ],
+  "pres": "highlight",
   "tracked": true
  },
  {
@@ -2840,6 +2908,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2874,6 +2943,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -2916,6 +2986,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -2975,6 +3046,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3026,6 +3098,7 @@
     "slug": "lijun-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3060,6 +3133,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3095,6 +3169,7 @@
     "slug": "jinyuan-jia"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3129,6 +3204,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3171,6 +3247,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3205,6 +3282,7 @@
     "slug": "shahaf-bassan"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3260,6 +3338,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3294,6 +3373,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3328,6 +3408,7 @@
     "slug": "matthias-althoff"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3371,6 +3452,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -3421,6 +3503,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3455,6 +3538,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3498,6 +3582,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -3549,6 +3634,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -3592,6 +3678,7 @@
     "slug": "bai-xue"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3630,6 +3717,7 @@
     "slug": "clark-barrett"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3676,6 +3764,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3722,6 +3811,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -3769,6 +3859,7 @@
     "slug": "yevgeniy-vorobeychik"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3812,6 +3903,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -3855,6 +3947,7 @@
     "slug": "alessandro-farinelli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3906,6 +3999,7 @@
     "slug": "clark-barrett"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3945,6 +4039,7 @@
     "slug": "jorg-hoffmann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -3992,6 +4087,7 @@
     "slug": "zhenbing-zeng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4026,6 +4122,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4077,6 +4174,7 @@
     "slug": "sayan-mitra"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -4120,6 +4218,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4163,6 +4262,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4197,6 +4297,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -4244,6 +4345,7 @@
     "slug": "huan-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4282,6 +4384,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -4325,6 +4428,7 @@
     "slug": "sarah-m-erfani"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4359,6 +4463,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4393,6 +4498,7 @@
     "slug": "mario-fritz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4427,6 +4533,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4474,6 +4581,7 @@
     "slug": "eric-wong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4504,6 +4612,7 @@
     "slug": "aditya-v-thakur"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -4550,6 +4659,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4589,6 +4699,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4640,6 +4751,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4675,6 +4787,7 @@
     "slug": "ian-horrocks"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4713,6 +4826,7 @@
     "slug": "huan-zhang"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -4743,6 +4857,7 @@
     "slug": "thanhvu-nguyen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4786,6 +4901,7 @@
     "slug": "zhen-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4828,6 +4944,7 @@
     "slug": "chih-hong-cheng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4866,6 +4983,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4900,6 +5018,7 @@
     "slug": "guangdong-bai"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4935,6 +5054,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -4981,6 +5101,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5011,6 +5132,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5041,6 +5163,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5071,6 +5194,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5117,6 +5241,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5155,6 +5280,7 @@
     "slug": "zhen-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5185,6 +5311,7 @@
     "slug": "stefanos-d-kollias"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5219,6 +5346,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5262,6 +5390,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -5300,6 +5429,7 @@
     "slug": "zuohua-ding"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5351,6 +5481,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5393,6 +5524,7 @@
     "slug": "cong-tian"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5432,6 +5564,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5471,6 +5604,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5542,6 +5676,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5589,6 +5724,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5640,6 +5776,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -5678,6 +5815,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5721,6 +5859,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5775,6 +5914,7 @@
     "slug": "calvin-tsay"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5814,6 +5954,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5869,6 +6010,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5907,6 +6049,7 @@
     "slug": ""
    }
   ],
+  "pres": "spotlight",
   "tracked": false
  },
  {
@@ -5950,6 +6093,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -5992,6 +6136,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6038,6 +6183,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -6077,6 +6223,7 @@
     "slug": "mark-jelasity"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -6115,6 +6262,7 @@
     "slug": "bernt-schiele"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6158,6 +6306,7 @@
     "slug": "sagar-malhotra"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6196,6 +6345,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -6234,6 +6384,7 @@
     "slug": "richard-y-zhang"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -6273,6 +6424,7 @@
     "slug": "tobias-sutter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6307,6 +6459,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -6337,6 +6490,7 @@
     "slug": "he-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6384,6 +6538,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6434,6 +6589,7 @@
     "slug": "changliu-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6468,6 +6624,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6506,6 +6663,7 @@
     "slug": "nils-jansen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6552,6 +6710,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -6611,6 +6770,7 @@
     "slug": "georgios-fainekos"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6658,6 +6818,7 @@
     "slug": ""
    }
   ],
+  "pres": "highlight",
   "tracked": false
  },
  {
@@ -6701,6 +6862,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6740,6 +6902,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6798,6 +6961,7 @@
     "slug": "zhenyu-chen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6841,6 +7005,7 @@
     "slug": "volkan-cevher"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6896,6 +7061,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -6951,6 +7117,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -6994,6 +7161,7 @@
     "slug": ""
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -7036,6 +7204,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7066,6 +7235,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -7117,6 +7287,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7147,6 +7318,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7205,6 +7377,7 @@
     "slug": "anima-anandkumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7268,6 +7441,7 @@
     "slug": "adel-bibi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7311,6 +7485,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7349,6 +7524,7 @@
     "slug": ""
    }
   ],
+  "pres": "spotlight",
   "tracked": false
  },
  {
@@ -7396,6 +7572,7 @@
     "slug": "adel-bibi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7435,6 +7612,7 @@
     "slug": "martin-lange"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7482,6 +7660,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7529,6 +7708,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -7587,6 +7767,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -7621,6 +7802,7 @@
     "slug": "chao-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7675,6 +7857,7 @@
     "slug": "lijun-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7722,6 +7905,7 @@
     "slug": "ivan-v-oseledets"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7760,6 +7944,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -7811,6 +7996,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7857,6 +8043,7 @@
     "slug": "zuohua-ding"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7911,6 +8098,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -7950,6 +8138,7 @@
     "slug": "thomas-a-henzinger"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -7984,6 +8173,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -8030,6 +8220,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -8064,6 +8255,7 @@
     "slug": "stanley-bak"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8106,6 +8298,7 @@
     "slug": "zhangyang-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8156,6 +8349,7 @@
     "slug": "lijun-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8194,6 +8388,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -8236,6 +8431,7 @@
     "slug": "mathias-lecuyer"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -8274,6 +8470,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8317,6 +8514,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -8367,6 +8565,7 @@
     "slug": "chaowei-xiao"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8417,6 +8616,7 @@
     "slug": "jun-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8455,6 +8655,7 @@
     "slug": "isil-dillig"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8485,6 +8686,7 @@
     "slug": ""
    }
   ],
+  "pres": "spotlight",
   "tracked": false
  },
  {
@@ -8528,6 +8730,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8579,6 +8782,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -8609,6 +8813,7 @@
     "slug": "aditya-v-thakur"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8643,6 +8848,7 @@
     "slug": "andre-platzer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8677,6 +8883,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8715,6 +8922,7 @@
     "slug": "huan-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8758,6 +8966,7 @@
     "slug": "andrew-clark"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8784,6 +8993,7 @@
     "slug": "vaclav-voracek"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8822,6 +9032,7 @@
     "slug": "nicola-paoletti"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8856,6 +9067,7 @@
     "slug": "yevgeniy-vorobeychik"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8886,6 +9098,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8933,6 +9146,7 @@
     "slug": "binghui-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -8976,6 +9190,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9014,6 +9229,7 @@
     "slug": "jinwoo-shin"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -9056,6 +9272,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9091,6 +9308,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9150,6 +9368,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9192,6 +9411,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -9227,6 +9447,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9261,6 +9482,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9303,6 +9525,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -9342,6 +9565,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -9393,6 +9617,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9435,6 +9660,7 @@
     "slug": "junchi-yan"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9478,6 +9704,7 @@
     "slug": "mario-fritz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9517,6 +9744,7 @@
     "slug": "tsui-wei-weng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9568,6 +9796,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9610,6 +9839,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9661,6 +9891,7 @@
     "slug": "kai-zhou"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9695,6 +9926,7 @@
     "slug": "mahyar-fazlyab"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9749,6 +9981,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9795,6 +10028,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9833,6 +10067,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -9876,6 +10111,7 @@
     "slug": "bin-hu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -9910,6 +10146,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -9956,6 +10193,7 @@
     "slug": "huan-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10002,6 +10240,7 @@
     "slug": "jun-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10037,6 +10276,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10071,6 +10311,7 @@
     "slug": "aleksandar-bojchevski"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10114,6 +10355,7 @@
     "slug": "ruth-misener"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10148,6 +10390,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -10195,6 +10438,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -10233,6 +10477,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10271,6 +10516,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10301,6 +10547,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10396,6 +10643,7 @@
     "slug": "clark-barrett"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10426,6 +10674,7 @@
     "slug": "he-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10473,6 +10722,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10519,6 +10769,7 @@
     "slug": "georg-weissenbacher"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10553,6 +10804,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -10591,6 +10843,7 @@
     "slug": "christoph-h-lampert"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10634,6 +10887,7 @@
     "slug": "jinyuan-jia"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10680,6 +10934,7 @@
     "slug": "zhenyu-chen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10715,6 +10970,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -10749,6 +11005,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10795,6 +11052,7 @@
     "slug": "zhengfeng-yang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10837,6 +11095,7 @@
     "slug": "zhengfeng-yang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10875,6 +11134,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -10922,6 +11182,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -10965,6 +11226,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11012,6 +11274,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11058,6 +11321,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11101,6 +11365,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11148,6 +11413,7 @@
     "slug": "jinyuan-jia"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -11190,6 +11456,7 @@
     "slug": "sasa-misailovic"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11229,6 +11496,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11276,6 +11544,7 @@
     "slug": "siddharth-garg"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11314,6 +11583,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11364,6 +11634,7 @@
     "slug": "bin-hu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11414,6 +11685,7 @@
     "slug": "somesh-jha"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11448,6 +11720,7 @@
     "slug": "tsui-wei-weng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11491,6 +11764,7 @@
     "slug": "alexandre-allauzen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11529,6 +11803,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11580,6 +11855,7 @@
     "slug": "zhen-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11614,6 +11890,7 @@
     "slug": "jinyuan-jia"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11656,6 +11933,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11703,6 +11981,7 @@
     "slug": "kai-zhou"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11762,6 +12041,7 @@
     "slug": "kui-ren"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11804,6 +12084,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11843,6 +12124,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -11881,6 +12163,7 @@
     "slug": "joao-marques-silva"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11915,6 +12198,7 @@
     "slug": "weiwei-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -11978,6 +12262,7 @@
     "slug": "wenchao-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12016,6 +12301,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12058,6 +12344,7 @@
     "slug": "dawn-song"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12092,6 +12379,7 @@
     "slug": "guangdong-bai"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12135,6 +12423,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12173,6 +12462,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -12224,6 +12514,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12258,6 +12549,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12309,6 +12601,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -12343,6 +12636,7 @@
     "slug": "adrian-weller"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12381,6 +12675,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12423,6 +12718,7 @@
     "slug": "thomas-a-henzinger"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12461,6 +12757,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12504,6 +12801,7 @@
     "slug": "andrew-clark"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12551,6 +12849,7 @@
     "slug": "bin-hu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12589,6 +12888,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12619,6 +12919,7 @@
     "slug": "jinwoo-shin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12657,6 +12958,7 @@
     "slug": "yevgeniy-vorobeychik"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12699,6 +13001,7 @@
     "slug": "huan-zhang"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -12754,6 +13057,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12793,6 +13097,7 @@
     "slug": "eric-wong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12823,6 +13128,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12882,6 +13188,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12924,6 +13231,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -12958,6 +13266,7 @@
     "slug": "clark-barrett"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13009,6 +13318,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13051,6 +13361,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -13106,6 +13417,7 @@
     "slug": "lijun-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13140,6 +13452,7 @@
     "slug": "dana-drachsler-cohen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13178,6 +13491,7 @@
     "slug": "sayan-mitra"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13212,6 +13526,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -13242,6 +13557,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -13276,6 +13592,7 @@
     "slug": "ian-horrocks"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13315,6 +13632,7 @@
     "slug": "sylvie-thiebaux"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13353,6 +13671,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -13396,6 +13715,7 @@
     "slug": "alessandro-farinelli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13438,6 +13758,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13485,6 +13806,7 @@
     "slug": "dawn-song"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13523,6 +13845,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13557,6 +13880,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13591,6 +13915,7 @@
     "slug": "junchi-yan"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13625,6 +13950,7 @@
     "slug": "tobias-sutter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13663,6 +13989,7 @@
     "slug": "luca-laurenti"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13710,6 +14037,7 @@
     "slug": "adel-bibi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13752,6 +14080,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13782,6 +14111,7 @@
     "slug": ""
    }
   ],
+  "pres": "oral",
   "tracked": false
  },
  {
@@ -13820,6 +14150,7 @@
     "slug": "alexandre-allauzen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13858,6 +14189,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13888,6 +14220,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13938,6 +14271,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -13976,6 +14310,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14006,6 +14341,7 @@
     "slug": "richard-y-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14048,6 +14384,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14094,6 +14431,7 @@
     "slug": "zhenbing-zeng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14141,6 +14479,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14180,6 +14519,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14222,6 +14562,7 @@
     "slug": "michael-schapira"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14264,6 +14605,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -14306,6 +14648,7 @@
     "slug": "zhenbing-zeng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14356,6 +14699,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14391,6 +14735,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14434,6 +14779,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14477,6 +14823,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14515,6 +14862,7 @@
     "slug": "aditya-v-thakur"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14553,6 +14901,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14599,6 +14948,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14641,6 +14991,7 @@
     "slug": "bin-hu"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -14691,6 +15042,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14746,6 +15098,7 @@
     "slug": "jan-hendrik-metzen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14784,6 +15137,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -14835,6 +15189,7 @@
     "slug": "di-he"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14893,6 +15248,7 @@
     "slug": "dawn-song"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14940,6 +15296,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -14975,6 +15332,7 @@
     "slug": "martin-lange"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15013,6 +15371,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -15059,6 +15418,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15102,6 +15462,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -15140,6 +15501,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15183,6 +15545,7 @@
     "slug": "adrian-weller"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15218,6 +15581,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15268,6 +15632,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15302,6 +15667,7 @@
     "slug": "guillermo-a-perez"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15337,6 +15703,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -15384,6 +15751,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15431,6 +15799,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15465,6 +15834,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15499,6 +15869,7 @@
     "slug": "mahyar-fazlyab"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15538,6 +15909,7 @@
     "slug": "mahyar-fazlyab"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15568,6 +15940,7 @@
     "slug": "yasser-shoukry"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15607,6 +15980,7 @@
     "slug": "jinwoo-shin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15649,6 +16023,7 @@
     "slug": "joao-marques-silva"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15691,6 +16066,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15729,6 +16105,7 @@
     "slug": "krishnendu-chatterjee"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15763,6 +16140,7 @@
     "slug": "joao-marques-silva"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15813,6 +16191,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -15847,6 +16226,7 @@
     "slug": "somesh-jha"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15881,6 +16261,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15915,6 +16296,7 @@
     "slug": "loris-d-antoni"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -15958,6 +16340,7 @@
     "slug": "xinhua-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16004,6 +16387,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16042,6 +16426,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16084,6 +16469,7 @@
     "slug": "benjamin-rubinstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16126,6 +16512,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16185,6 +16572,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16215,6 +16603,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16286,6 +16675,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16321,6 +16711,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16355,6 +16746,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16389,6 +16781,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16423,6 +16816,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16462,6 +16856,7 @@
     "slug": "mirco-giacobbe"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16500,6 +16895,7 @@
     "slug": "jun-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16546,6 +16942,7 @@
     "slug": "alberto-gonzalez-sanz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16589,6 +16986,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -16632,6 +17030,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16683,6 +17082,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16721,6 +17121,7 @@
     "slug": "liwei-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16763,6 +17164,7 @@
     "slug": "morteza-lahijanian"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16797,6 +17199,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -16839,6 +17242,7 @@
     "slug": "ivan-v-oseledets"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16886,6 +17290,7 @@
     "slug": "volkan-cevher"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16933,6 +17338,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -16971,6 +17377,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17021,6 +17428,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17051,6 +17459,7 @@
     "slug": "christoph-h-lampert"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17098,6 +17507,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17132,6 +17542,7 @@
     "slug": "yuan-hong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17175,6 +17586,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17214,6 +17626,7 @@
     "slug": "sasa-misailovic"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17256,6 +17669,7 @@
     "slug": "gagandeep-singh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17298,6 +17712,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17353,6 +17768,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17392,6 +17808,7 @@
     "slug": "sicun-gao"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17431,6 +17848,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17469,6 +17887,7 @@
     "slug": "alexandre-allauzen"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -17508,6 +17927,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17542,6 +17962,7 @@
     "slug": "yisen-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17596,6 +18017,7 @@
     "slug": "tom-goldstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17647,6 +18069,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -17693,6 +18116,7 @@
     "slug": "ce-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17731,6 +18155,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17782,6 +18207,7 @@
     "slug": "jun-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17816,6 +18242,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17859,6 +18286,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17893,6 +18321,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17943,6 +18372,7 @@
     "slug": "zhangyang-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -17990,6 +18420,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18029,6 +18460,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -18064,6 +18496,7 @@
     "slug": "weiwei-liu"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -18103,6 +18536,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18149,6 +18583,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18179,6 +18614,7 @@
     "slug": "chao-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18234,6 +18670,7 @@
     "slug": "idan-refaeli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18264,6 +18701,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -18306,6 +18744,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18353,6 +18792,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18388,6 +18828,7 @@
     "slug": "jun-sun"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18423,6 +18864,7 @@
     "slug": "aleksandr-petiushko"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18465,6 +18907,7 @@
     "slug": "marta-kwiatkowska"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18499,6 +18942,7 @@
     "slug": "daniel-neider"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18537,6 +18981,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -18579,6 +19024,7 @@
     "slug": "qi-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18626,6 +19072,7 @@
     "slug": "bernard-ghanem"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18673,6 +19120,7 @@
     "slug": "aleksander-madry"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18728,6 +19176,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -18774,6 +19223,7 @@
     "slug": "lijun-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18820,6 +19270,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18859,6 +19310,7 @@
     "slug": "jonathan-p-how"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18897,6 +19349,7 @@
     "slug": "yaniv-romano"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18939,6 +19392,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -18977,6 +19431,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -19015,6 +19470,7 @@
     "slug": "liwei-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19050,6 +19506,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19093,6 +19550,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19148,6 +19606,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19199,6 +19658,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19249,6 +19709,7 @@
     "slug": "sijia-liu"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -19283,6 +19744,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -19334,6 +19796,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19372,6 +19835,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19411,6 +19875,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19449,6 +19914,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19479,6 +19945,7 @@
     "slug": "wenchao-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19525,6 +19992,7 @@
     "slug": "ivan-v-oseledets"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19572,6 +20040,7 @@
     "slug": "bernard-ghanem"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19611,6 +20080,7 @@
     "slug": "guillermo-a-perez"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19670,6 +20140,7 @@
     "slug": "radu-grosu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19712,6 +20183,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19758,6 +20230,7 @@
     "slug": "ming-jin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19796,6 +20269,7 @@
     "slug": "thomas-a-henzinger"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19835,6 +20309,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19882,6 +20357,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -19916,6 +20392,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -19954,6 +20431,7 @@
     "slug": "sasa-misailovic"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -19992,6 +20470,7 @@
     "slug": "somesh-jha"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20034,6 +20513,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20089,6 +20569,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20124,6 +20605,7 @@
     "slug": "tom-goldstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20166,6 +20648,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20204,6 +20687,7 @@
     "slug": "thomas-a-henzinger"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20263,6 +20747,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -20301,6 +20786,7 @@
     "slug": "krishnamurthy-dvijotham"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20339,6 +20825,7 @@
     "slug": "ruth-misener"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20369,6 +20856,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20432,6 +20920,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20475,6 +20964,7 @@
     "slug": "edouard-pauwels"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20526,6 +21016,7 @@
     "slug": "jinwoo-shin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20564,6 +21055,7 @@
     "slug": "jaewook-lee"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20606,6 +21098,7 @@
     "slug": "anima-anandkumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20664,6 +21157,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20702,6 +21196,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20769,6 +21264,7 @@
     "slug": "ting-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20808,6 +21304,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20859,6 +21356,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20918,6 +21416,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20952,6 +21451,7 @@
     "slug": "loris-d-antoni"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -20998,6 +21498,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -21028,6 +21529,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -21071,6 +21573,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21122,6 +21625,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21168,6 +21672,7 @@
     "slug": "osbert-bastani"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21198,6 +21703,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21241,6 +21747,7 @@
     "slug": "yang-zheng"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21283,6 +21790,7 @@
     "slug": "marta-kwiatkowska"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21317,6 +21825,7 @@
     "slug": "guy-van-den-broeck"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21347,6 +21856,7 @@
     "slug": "alessio-lomuscio"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21381,6 +21891,7 @@
     "slug": "david-parker"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21424,6 +21935,7 @@
     "slug": "prateek-mittal"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21462,6 +21974,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21500,6 +22013,7 @@
     "slug": "bo-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21542,6 +22056,7 @@
     "slug": "nina-narodytska"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21576,6 +22091,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21606,6 +22122,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "oral",
   "tracked": true
  },
  {
@@ -21636,6 +22153,7 @@
     "slug": "alex-dimakis"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21675,6 +22193,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21705,6 +22224,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21747,6 +22267,7 @@
     "slug": "liwei-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21797,6 +22318,7 @@
     "slug": "zhiming-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21856,6 +22378,7 @@
     "slug": "valentin-wustholz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21898,6 +22421,7 @@
     "slug": "taolue-chen"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21937,6 +22461,7 @@
     "slug": "matthew-b-dwyer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -21979,6 +22504,7 @@
     "slug": "corina-s-pasareanu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22013,6 +22539,7 @@
     "slug": "yasser-shoukry"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22076,6 +22603,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22127,6 +22655,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22173,6 +22702,7 @@
     "slug": "insup-lee"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22215,6 +22745,7 @@
     "slug": "russ-tedrake"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22261,6 +22792,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22300,6 +22832,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22339,6 +22872,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -22390,6 +22924,7 @@
     "slug": "dahua-lin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22428,6 +22963,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22458,6 +22994,7 @@
     "slug": "aditya-v-thakur"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22500,6 +23037,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22538,6 +23076,7 @@
     "slug": "li-xiong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22572,6 +23111,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22615,6 +23155,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22645,6 +23186,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22684,6 +23226,7 @@
     "slug": "maksym-yatsura"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22722,6 +23265,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22761,6 +23305,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22791,6 +23336,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22846,6 +23392,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22888,6 +23435,7 @@
     "slug": "corina-s-pasareanu"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -22930,6 +23478,7 @@
     "slug": "mark-jelasity"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -22960,6 +23509,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "spotlight",
   "tracked": true
  },
  {
@@ -22994,6 +23544,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23036,6 +23587,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -23078,6 +23630,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23116,6 +23669,7 @@
     "slug": "prateek-saxena"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23150,6 +23704,7 @@
     "slug": "jonathan-p-how"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23185,6 +23740,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -23227,6 +23783,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23257,6 +23814,7 @@
     "slug": "wenchao-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23300,6 +23858,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23346,6 +23905,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23385,6 +23945,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23428,6 +23989,7 @@
     "slug": "jamal-atif"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23483,6 +24045,7 @@
     "slug": "radu-grosu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23517,6 +24080,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23556,6 +24120,7 @@
     "slug": "dorde-zikelic"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23586,6 +24151,7 @@
     "slug": "min-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23621,6 +24187,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23659,6 +24226,7 @@
     "slug": "krishnamurthy-dvijotham"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23722,6 +24290,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23764,6 +24333,7 @@
     "slug": "qiang-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23807,6 +24377,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23846,6 +24417,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23889,6 +24461,7 @@
     "slug": "qiang-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23936,6 +24509,7 @@
     "slug": "xinhua-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -23979,6 +24553,7 @@
     "slug": "tom-goldstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24017,6 +24592,7 @@
     "slug": "john-dickerson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24052,6 +24628,7 @@
     "slug": "jinwoo-shin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24095,6 +24672,7 @@
     "slug": "guy-van-den-broeck"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24137,6 +24715,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24192,6 +24771,7 @@
     "slug": "tom-goldstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24227,6 +24807,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -24293,6 +24874,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24328,6 +24910,7 @@
     "slug": "alex-dimakis"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24374,6 +24957,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24417,6 +25001,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24451,6 +25036,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -24485,6 +25071,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24523,6 +25110,7 @@
     "slug": "swarat-chaudhuri"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24549,6 +25137,7 @@
     "slug": "richard-y-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24587,6 +25176,7 @@
     "slug": "edouard-pauwels"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24633,6 +25223,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -24667,6 +25258,7 @@
     "slug": "qi-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24705,6 +25297,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24751,6 +25344,7 @@
     "slug": "xiaowei-huang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24794,6 +25388,7 @@
     "slug": "chao-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24832,6 +25427,7 @@
     "slug": "suman-jana"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24862,6 +25458,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24896,6 +25493,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -24934,6 +25532,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -24972,6 +25571,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25011,6 +25611,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25045,6 +25646,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -25079,6 +25681,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25125,6 +25728,7 @@
     "slug": "jerry-li"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25164,6 +25768,7 @@
     "slug": "loris-d-antoni"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25210,6 +25815,7 @@
     "slug": "dejing-dou"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25245,6 +25851,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25279,6 +25886,7 @@
     "slug": "guy-katz"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25317,6 +25925,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25380,6 +25989,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25418,6 +26028,7 @@
     "slug": "sebastian-elbaum"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25456,6 +26067,7 @@
     "slug": "taylor-t-johnson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25491,6 +26103,7 @@
     "slug": "matt-fredrikson"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25530,6 +26143,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25569,6 +26183,7 @@
     "slug": "ufuk-topcu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25607,6 +26222,7 @@
     "slug": "percy-liang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25641,6 +26257,7 @@
     "slug": "qiang-liu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25676,6 +26293,7 @@
     "slug": "marta-kwiatkowska"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25723,6 +26341,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25762,6 +26381,7 @@
     "slug": "chao-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25820,6 +26440,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25850,6 +26471,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25905,6 +26527,7 @@
     "slug": "tom-goldstein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25943,6 +26566,7 @@
     "slug": "neil-gong"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -25981,6 +26605,7 @@
     "slug": "toby-walsh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26015,6 +26640,7 @@
     "slug": "volkan-cevher"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26074,6 +26700,7 @@
     "slug": "liwei-wang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26104,6 +26731,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26134,6 +26762,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26181,6 +26810,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26216,6 +26846,7 @@
     "slug": "matthias-hein"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26275,6 +26906,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26334,6 +26966,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26373,6 +27006,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26415,6 +27049,7 @@
     "slug": "ruth-misener"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26461,6 +27096,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26508,6 +27144,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -26538,6 +27175,7 @@
     "slug": "soheil-feizi"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26584,6 +27222,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26626,6 +27265,7 @@
     "slug": "pengchuan-zhang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26656,6 +27296,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -26694,6 +27335,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26729,6 +27371,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26767,6 +27410,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -26814,6 +27458,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26849,6 +27494,7 @@
     "slug": "aditya-v-thakur"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26891,6 +27537,7 @@
     "slug": "george-j-pappas"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26925,6 +27572,7 @@
     "slug": "sicun-gao"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -26959,6 +27607,7 @@
     "slug": "joao-marques-silva"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27005,6 +27654,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -27039,6 +27689,7 @@
     "slug": "alex-dimakis"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27094,6 +27745,7 @@
     "slug": "greg-yang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27144,6 +27796,7 @@
     "slug": "jamal-atif"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27182,6 +27835,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27225,6 +27879,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27267,6 +27922,7 @@
     "slug": "prateek-saxena"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27321,6 +27977,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27359,6 +28016,7 @@
     "slug": "percy-liang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27393,6 +28051,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27451,6 +28110,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27490,6 +28150,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27532,6 +28193,7 @@
     "slug": "qi-zhu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27578,6 +28240,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27629,6 +28292,7 @@
     "slug": "ufuk-topcu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27679,6 +28343,7 @@
     "slug": "my-t-thai"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27717,6 +28382,7 @@
     "slug": "tao-xie"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27768,6 +28434,7 @@
     "slug": "matthew-wicker"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27798,6 +28465,7 @@
     "slug": "stephan-gunnemann"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27832,6 +28500,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27866,6 +28535,7 @@
     "slug": "volkan-cevher"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27917,6 +28587,7 @@
     "slug": "dahua-lin"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -27972,6 +28643,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28051,6 +28723,7 @@
     "slug": "clark-barrett"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28102,6 +28775,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28152,6 +28826,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28190,6 +28865,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28233,6 +28909,7 @@
     "slug": "swarat-chaudhuri"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28271,6 +28948,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28314,6 +28992,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28348,6 +29027,7 @@
     "slug": "russ-tedrake"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28386,6 +29066,7 @@
     "slug": "aleksander-madry"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28449,6 +29130,7 @@
     "slug": "pushmeet-kohli"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28491,6 +29173,7 @@
     "slug": "suman-jana"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28529,6 +29212,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28563,6 +29247,7 @@
     "slug": "joao-marques-silva"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28605,6 +29290,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28639,6 +29325,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28673,6 +29360,7 @@
     "slug": "cho-jui-hsieh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28716,6 +29404,7 @@
     "slug": "edoardo-pirovano"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28758,6 +29447,7 @@
     "slug": "m-pawan-kumar"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28805,6 +29495,7 @@
     "slug": "suman-jana"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28847,6 +29538,7 @@
     "slug": "luca-daniel"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28889,6 +29581,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -28919,6 +29612,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -28953,6 +29647,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -28996,6 +29691,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29030,6 +29726,7 @@
     "slug": "percy-liang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29072,6 +29769,7 @@
     "slug": "suman-jana"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29111,6 +29809,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29146,6 +29845,7 @@
     "slug": "zico-kolter"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29200,6 +29900,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29234,6 +29935,7 @@
     "slug": "marta-kwiatkowska"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29273,6 +29975,7 @@
     "slug": "percy-liang"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29307,6 +30010,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -29353,6 +30057,7 @@
     "slug": "martin-vechev"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29383,6 +30088,7 @@
     "slug": "andre-platzer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29429,6 +30135,7 @@
     "slug": "ufuk-topcu"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29476,6 +30183,7 @@
     "slug": "toby-walsh"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29511,6 +30219,7 @@
     "slug": "maksym-andriushchenko"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29549,6 +30258,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": false
  },
  {
@@ -29592,6 +30302,7 @@
     "slug": ""
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29634,6 +30345,7 @@
     "slug": "mykel-j-kochenderfer"
    }
   ],
+  "pres": "",
   "tracked": true
  },
  {
@@ -29672,6 +30384,7 @@
     "slug": "min-wu"
    }
   ],
+  "pres": "",
   "tracked": true
  }
 ]

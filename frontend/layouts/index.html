@@ -4,6 +4,8 @@ Neural-network verification groups, {{ hugo.Data.meta.first_year }}&ndash;{{ hug
 {{ define "main" -}}
 {{ .Content }}
 {{ partial "groups-table.html" . }}
+{{ $aw := slice }}{{ range hugo.Data.groups }}{{ if and (gt (len .members) 1) (gt .awards 0) }}{{ $aw = $aw | append . }}{{ end }}{{ end }}
+{{ partial "award-table.html" (dict "rows" (sort $aw "award_rank") "id" "award-groups" "groups" true) }}
 {{- with hugo.Data.overview }}
 <div class="fig-row">
 <figure>

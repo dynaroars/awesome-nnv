@@ -402,7 +402,7 @@ def read_csv(path):
 COUNTRY_NAME = {"GR": "Greece", "CO": "Colombia", "US": "United States", "CN": "China", "GB": "United Kingdom", "DE": "Germany", "CH": "Switzerland",
                 "FR": "France", "AU": "Australia", "SG": "Singapore", "AT": "Austria", "JP": "Japan", "IL": "Israel",
                 "CA": "Canada", "RU": "Russia", "ES": "Spain", "KR": "South Korea", "IN": "India", "HK": "Hong Kong",
-                "DK": "Denmark", "HU": "Hungary", "TW": "Taiwan", "RS": "Serbia", "VN": "Vietnam", "PT": "Portugal",
+                "DK": "Denmark", "HU": "Hungary", "TW": "Taiwan", "RS": "Serbia", "RW": "Rwanda", "VN": "Vietnam", "PT": "Portugal",
                 "FI": "Finland", "MO": "Macao", "NL": "Netherlands", "BE": "Belgium", "SE": "Sweden", "IT": "Italy",
                 "NO": "Norway", "IE": "Ireland", "PL": "Poland", "CZ": "Czechia", "GR": "Greece", "SA": "Saudi Arabia",
                 "AE": "United Arab Emirates", "BR": "Brazil", "NZ": "New Zealand", "LU": "Luxembourg", "CY": "Cyprus",

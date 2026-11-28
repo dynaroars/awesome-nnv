@@ -291,17 +291,24 @@ every NNV paper since 2017 placed in the month its acceptance was announced, not
 are shared on acceptance). `digest.py` holds the rules; `build_site_data.py` calls `digest.update` (the record only
 grows) and `digest.build`, and writes `frontend/data/digest.json` plus one stub per month (`/digest/YYYY-MM/`) and
 per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder).
-- Multi-site conferences (NeurIPS 2026: Sydney, Atlanta, Paris; the maintainer's request of 2026-11-28): `digest.sites`
-  reads the cached schedule (`raw/virtual/<venue>-<year>.json.gz`; the site is the first word of the session name, an
-  oral without one takes its room's or its poster's site) and gives each paper its site, hall, poster number and
-  session in the site's local time (the feed writes every time at US Pacific). A month page then groups papers by
-  site, each sorted by poster session, with "NNV / all main-track papers at that site" in the heading; other months
-  group by conference. A paper missing from the schedule is a build warning.
-- Oral and spotlight tags (with 🎉, as in vn-ai-ranking; 2026-11-28): `digest.presentations` reads the cached
-  NeurIPS, ICML and ICLR schedules. Spotlight comes only from the decision ("spotlight", "top-25%"), oral from the
-  decision ("oral", "talk", "top-5%", ICML 2022 "Long Presentation") or an Oral session. Session types never give a
-  spotlight (every ICML 2022 short talk and many NeurIPS 2022 papers had "Spotlight" sessions), and ICML 2021's
-  "Spotlight" decision is ignored (it was every non-oral paper). Digest papers no longer show their acceptance date.
+- Where and when (the maintainer's requests of 2026-11-28): `digest.sites` reads every cached schedule
+  (`raw/virtual/<venue>-<year>.json.gz`: ICLR, ICML, NeurIPS, and CVPR, ICCV, ECCV from 2023, fetched by
+  `fetch_virtual.sched`) and gives each paper its city, hall, poster number and session in the city's local time
+  (`digest.HOST` names each in-person venue-year's city; the feeds write times at US Pacific; virtual years show UTC).
+  Multi-site years (NeurIPS 2025: San Diego, Mexico City; NeurIPS 2026: Sydney, Atlanta, Paris) take the city from the
+  start of the session name, an oral without one its room's or its poster's city, and their month pages group papers
+  by city; other months group by conference. Each group is sorted by poster session and its heading gives "NNV / all
+  main-track papers" there. CVPR 2026's schedule API needs a login past the first 200 entries, so an incomplete
+  schedule is dropped. A paper of the current year missing from its schedule is a build warning.
+- Oral, spotlight and highlight tags (with 🎉 in the digest, as in vn-ai-ranking): `digest.presentations` reads the
+  schedules, plus CVPR's accepted-paper pages (2023 to 2025, `title="Highlight"`) and its Highlights and Oral pages
+  (2026) in `raw/cvpr/`. Spotlight comes only from the decision ("spotlight", "top-25%") or an ECCV Spotlight session,
+  oral from the decision ("oral", "talk", "top-5%", ICML 2022 "Long Presentation") or an Oral session, highlight from
+  the decision or CVPR's lists. Other session types never give a spotlight (every ICML 2022 short talk and many
+  NeurIPS 2022 papers had "Spotlight" sessions), and ICML 2021's "Spotlight" decision is ignored (it was every
+  non-oral paper). Each paper carries `pres`: a tag in the Papers venue column, and all-time counts per group and
+  researcher (`oral`, `spotlight`, `highlight`, `awards`, `award_rank`) for the tables below the rankings on the front
+  page and Researchers (`partials/award-table.html`). Digest papers no longer show their acceptance date.
 - Abstracts for summaries (`fetch_abstracts.py`, 2026-11-28): OpenReview, then the arXiv id from OpenAlex, then an
   arXiv title search (exact title ignoring case and punctuation, plus a shared author surname; hits kept in
   `backend/data/json/arxiv_titles.json`, which also gives the paper its arXiv link), then OpenAlex, then the local

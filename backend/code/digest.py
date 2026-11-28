@@ -17,6 +17,7 @@ import calendar
 import csv
 import datetime
 import gzip
+import html
 import json
 import re
 import sys
@@ -108,40 +109,55 @@ def update(papers=None, today=None):
     return added
 
 
-SITE = {"Sydney": ("AU", "Australia/Sydney"), "Atlanta": ("US", "America/New_York"), "Paris": ("FR", "Europe/Paris")}
+CITY = {"Sydney": ("AU", "Australia/Sydney"), "Atlanta": ("US", "America/New_York"), "Paris": ("FR", "Europe/Paris"),
+        "San Diego": ("US", "America/Los_Angeles"), "Mexico City": ("MX", "America/Mexico_City"), "Kigali": ("RW", "Africa/Kigali"),
+        "Vienna": ("AT", "Europe/Vienna"), "Singapore": ("SG", "Asia/Singapore"), "Rio de Janeiro": ("BR", "America/Sao_Paulo"),
+        "Baltimore": ("US", "America/New_York"), "Honolulu": ("US", "Pacific/Honolulu"), "Vancouver": ("CA", "America/Vancouver"),
+        "Seoul": ("KR", "Asia/Seoul"), "New Orleans": ("US", "America/Chicago"), "Seattle": ("US", "America/Los_Angeles"),
+        "Nashville": ("US", "America/Chicago"), "Denver": ("US", "America/Denver"), "Milan": ("IT", "Europe/Rome"),
+        "Malmö": ("SE", "Europe/Stockholm"), "Virtual": ("", "UTC")}
+HOST = {("iclr", 2023): "Kigali", ("iclr", 2024): "Vienna", ("iclr", 2025): "Singapore", ("iclr", 2026): "Rio de Janeiro",
+        ("icml", 2022): "Baltimore", ("icml", 2023): "Honolulu", ("icml", 2024): "Vienna", ("icml", 2025): "Vancouver",
+        ("icml", 2026): "Seoul", ("neurips", 2022): "New Orleans", ("neurips", 2023): "New Orleans",
+        ("neurips", 2024): "Vancouver", ("neurips", 2025): "San Diego", ("cvpr", 2023): "Vancouver", ("cvpr", 2024): "Seattle",
+        ("cvpr", 2025): "Nashville", ("cvpr", 2026): "Denver", ("iccv", 2023): "Paris", ("iccv", 2025): "Honolulu",
+        ("eccv", 2024): "Milan", ("eccv", 2026): "Malmö"}
+EV = {"Poster": "Poster", "Oral": "Oral", "Spotlight": "Spotlight talk"}
+
+
+def sched(v, y):
+    f = RAW / "virtual" / f"{v}-{y}.json.gz"
+    return json.loads(gzip.open(f).read()).get("results", []) if f.exists() else []
 
 
 def sites(venue, year):
-    f = RAW / "virtual" / f"{venue}-{year}.json.gz"
-    if not f.exists():
-        return None
-    al = json.loads(gzip.open(f).read()).get("results", [])
+    al = sched(venue, year)
     hs = sum(1 for r in al if r.get("sourceurl")) > len(al) / 2
-    rs = [r for r in al if r.get("event_type") in ("Poster", "Oral") and r.get("starttime") and r.get("name")
+    rs = [r for r in al if r.get("eventtype") in EV and r.get("starttime") and r.get("name")
           and virtual_track(r["name"], r.get("sourceurl"), r.get("event_type"), hs) == "main"]
-    cy = lambda r: (r.get("session") or "").split(" ")[0]
-    room = {r["room_name"]: cy(r) for r in rs if cy(r) in SITE and r.get("room_name")}
-    if not room:
+    if not rs:
         return None
+    dc = HOST.get((venue, year), "Virtual")
+    cy = lambda r: next((c for c in CITY if (r.get("session") or "").startswith(c + " ")), "")
+    room = {r["room_name"]: cy(r) for r in rs if cy(r) and r.get("room_name")}
     by = {}
     for r in rs:
         by.setdefault(ident(venue, year, r["name"]), []).append(r)
     out, tot = {}, {}
     for k, v in by.items():
-        home = next((cy(r) for r in v if cy(r) in SITE), "")
-        if home:
-            tot[home] = tot.get(home, 0) + 1
+        home = next((cy(r) for r in v if cy(r)), "") or dc
+        tot[home] = tot.get(home, 0) + 1
         w = []
-        for r in sorted(v, key=lambda r: (r["event_type"] != "Poster", r["starttime"])):
-            c = cy(r) if cy(r) in SITE else room.get(r.get("room_name")) or home
-            if c not in SITE:
-                continue
-            z = zoneinfo.ZoneInfo(SITE[c][1])
+        for r in sorted(v, key=lambda r: (r["eventtype"] != "Poster", r["starttime"])):
+            c = cy(r) or room.get(r.get("room_name")) or home
+            z = zoneinfo.ZoneInfo(CITY[c][1])
             a = datetime.datetime.fromisoformat(r["starttime"]).astimezone(z)
             b = datetime.datetime.fromisoformat(r["endtime"]).astimezone(z) if r.get("endtime") else None
             t = a.strftime("%a %-d %b, %H:%M") + (b.strftime("–%H:%M") if b else "")
-            w.append({"at": a.astimezone(datetime.timezone.utc).isoformat(), "city": c, "flag": SITE[c][0], "kind": r["event_type"], "pos": r.get("poster_position") or "",
-                      "room": re.sub(r"\s+-\s+", "–", re.sub(r"\s+", " ", r.get("room_name") or "")).strip(), "when": t})
+            w.append({"at": a.astimezone(datetime.timezone.utc).isoformat(), "city": c, "flag": CITY[c][0], "kind": EV[r["eventtype"]],
+                      "pos": re.sub(r"#\s+", "#", re.sub(r"^Poster\s*", "", r.get("poster_position") or "")),
+                      "room": re.sub(r"\s+-\s+", "–", re.sub(r"\s+", " ", r.get("room_name") or "")).strip(), "when": t,
+                      "zone": f"{c} time" if CITY[c][0] else "UTC"})
         out[k] = w
     return out, tot
 
@@ -152,25 +168,47 @@ def kind(t):
         return "oral"
     if "spotlight" in t or "top-25%" in t:
         return "spotlight"
+    if "highlight" in t:
+        return "highlight"
     return ""
 
 
+RK = {"": 0, "highlight": 1, "spotlight": 1, "oral": 2}
+
+
 def presentations(papers):
-    rk, out = {"": 0, "spotlight": 1, "oral": 2}, {}
+    out = {}
     for v, y in {(p["venue"], p["year"]) for p in papers}:
-        f = RAW / "virtual" / f"{v}-{y}.json.gz"
-        if not f.exists():
-            continue
-        for r in json.loads(gzip.open(f).read()).get("results", []):
+        for r in sched(v, y):
             if not r.get("name"):
                 continue
-            d = r.get("decision") or ""
-            x = "" if (v, y) == ("icml", 2021) and kind(d) == "spotlight" else kind(d)
-            if "oral" in f"{r.get('event_type') or ''} {r.get('eventtype') or ''}".lower():
+            x = "" if (v, y) == ("icml", 2021) and kind(r.get("decision") or "") == "spotlight" else kind(r.get("decision") or "")
+            e = f"{r.get('event_type') or ''} {r.get('eventtype') or ''}".lower()
+            if "oral" in e:
                 x = "oral"
+            elif v == "eccv" and r.get("eventtype") == "Spotlight" and not x:
+                x = "spotlight"
             k = ident(v, y, r["name"])
-            if rk[x] > rk[out.get(k, "")]:
+            if RK[x] > RK[out.get(k, "")]:
                 out[k] = x
+    for y in sorted({p["year"] for p in papers if p["venue"] == "cvpr"}):
+        for k, x in cvpr_pres(y).items():
+            if RK[x] > RK[out.get(k, "")]:
+                out[k] = x
+    return out
+
+
+def cvpr_pres(y):
+    rd = lambda k: gzip.open(f).read().decode("utf-8", "replace") if (f := RAW / f"cvpr/{k}-{y}.html.gz").exists() else ""
+    t = lambda s: html.unescape(re.sub(r"<[^>]+>|\s+", " ", s)).strip()
+    out = {}
+    for r in rd("accepted").split("<tr>"):
+        m = re.search(r"<strong>(.*?)</strong>", r, re.S)
+        if m and 'title="Highlight"' in r:
+            out[ident("cvpr", y, t(m.group(1)))] = "highlight"
+    for k, x in (("highlights", "highlight"), ("orals", "oral")):
+        for m in re.finditer(rf'href="/virtual/{y}/(?:poster|oral)/\d+">([^<]+)<', rd(k)):
+            out[ident("cvpr", y, t(m.group(1)))] = x
     return out
 
 
@@ -215,7 +253,8 @@ def build(papers, warn=lambda text: None, today=None):
             entry["where"] = sw[vy][0].get(k, [])
             for w in entry["where"]:
                 w["total"] = sw[vy][1].get(w["city"], 0)
-            if not entry["where"]:
+            entry["multi"] = len(sw[vy][1]) > 1
+            if not entry["where"] and p["year"] >= today.year:
                 warn(f"digest: {p['key']} not found in the {p['venue']} {p['year']} schedule")
         if not when:
             undated.append(entry)
@@ -241,10 +280,14 @@ def build(papers, warn=lambda text: None, today=None):
         gs = {}
         for e in items:
             w = (e.get("where") or [{}])[0]
-            gs.setdefault(w.get("city") or e["venue_name"], {"name": w.get("city") or e["venue_name"], "flag": w.get("flag", ""),
-                                                            "total": w.get("total", 0), "label": f"{e['venue_name']} {e['year']}", "papers": []})["papers"].append(e)
+            c, lb = w.get("city", ""), f"{e['venue_name']} {e['year']}"
+            nm = c if e.get("multi") else lb
+            gs.setdefault(nm, {"name": nm, "city": c, "flag": w.get("flag", ""), "total": w.get("total", 0), "label": lb,
+                               "papers": []})["papers"].append(e)
+            if c and not gs[nm]["city"]:
+                gs[nm].update(city=c, flag=w["flag"], total=w["total"])
         for g in gs.values():
-            g["papers"].sort(key=lambda e: (e.get("where") or [{}])[0].get("at", ""))
+            g["papers"].sort(key=lambda e: (e.get("where") or [{"at": "~"}])[0]["at"])
         intro = intros.get(month, {})
         out.append({"month": month, "label": month_label(month), "in_progress": month == today.strftime("%Y-%m"),
                     "intro": intro.get("intro", ""), "papers": items, "count": len(items),
