@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>July 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-07/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="July 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-07/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>July 2022</h1></header>
+<article>
+<p class="digest-intro">ASE 2022 and ECCV 2022 decisions: ECCV brought randomized smoothing work, including UniCR, ViP for patch attacks with vision transformers and LASSI for certified individual fairness, plus almost-orthogonal Lipschitz layers. ASE added QVIP, an ILP-based verifier for quantized neural networks, and provably tightest linear approximations for sigmoid-like networks.</p>
+<p>9 NNV papers accepted in July 2022, at ASE 2022, DAC 2022 and ECCV 2022. 2 of them are placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">ECCV 2022 <span class="note">5 papers</span></h2>
+<ul class="papers digest"><li id="sun2022spectral">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-19772-7_38">A Spectral View of Randomized Smoothing Under Common Corruptions: Benchmarking and Improving Certified Robustness</a>
+
+	<br><span class="authors">Jiachen Sun, Akshay Mehra, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, Dan Hendrycks, Jihun Hamm, Z. Morley Mao</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="prach2022almost">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-19803-8_21">Almost-Orthogonal Layers for Efficient General-Purpose Lipschitz Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2208.03160">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/bernd-prach/">Bernd Prach</a>, <a href="/researchers/christoph-h-lampert/">Christoph H. Lampert</a></span><p class="digest-summary">Builds Lipschitz networks with almost-orthogonal layers, a rescaling-based weight parametrization that guarantees each fully-connected or convolutional layer has Lipschitz constant at most 1 without costly orthogonalization or inversion; certified robust accuracy on image classification is on par with most existing methods while being simpler and more broadly applicable.</p>
+</li>
+<li id="peychev2022latent">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-19778-9_31">Latent Space Smoothing for Individually Fair Representations</a> <span class="note">(<a href="https://arxiv.org/abs/2111.13650">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/momchil-peychev/">Momchil Peychev</a>, <a href="/researchers/anian-ruoss/">Anian Ruoss</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">LASSI learns representations that certify individual fairness for high-dimensional data, capturing similar individuals in a generative latent space, training with adversarial learning and applying randomized smoothing; certified individual fairness on real image data rises by up to 90%.</p>
+</li>
+<li id="hong2022unicr">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-20065-6_6">UniCR: Universally Approximated Certified Robustness via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2207.02152">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hanbin-hong/">Hanbin Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a></span><p class="digest-summary">Approximates randomized smoothing certificates for any input, classifier, ℓp perturbation and continuous noise distribution in UniCR, automating certification without case-by-case analysis and validating both the tightness of certified robustness and the optimality of the noise distribution; experiments show advantages over state-of-the-art certified defenses.</p>
+</li>
+<li id="li2022vip">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-19806-9_33">ViP: Unified Certified Detection and Recovery for Patch Attack with Vision Transformers</a>
+
+	<br><span class="authors">Junbo Li, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Cihang Xie</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">DAC 2022 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="xia2022accelerated">
+	<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1145/3489517.3530608">Accelerated synthesis of neural network-based barrier certificates using collaborative learning</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors">Jun Xia, Ming Hu, Xin Chen, Mingsong Chen</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="wang2022design">
+	<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1145/3489517.3530556">Design-while-verify: correct-by-construction control learning with verification in the loop</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/yixuan-wang/">Yixuan Wang</a>, <a href="/researchers/chao-huang/">Chao Huang</a>, Zhaoran Wang, <a href="/researchers/zhilu-wang/">Zhilu Wang</a>, <a href="/researchers/qi-zhu/">Qi Zhu</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ASE 2022 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="zhang2022provably">
+	<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3551349.3556907">Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2208.09872">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhaodi-zhang/">Zhaodi Zhang</a>, <a href="/researchers/yiting-wu/">Yiting Wu</a>, <a href="/researchers/si-liu/">Si Liu</a>, <a href="/researchers/jing-liu/">Jing Liu</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary">Defines network-wise tightness for linear approximations of sigmoid-like activations in robustness verification and gives two efficient, provably tightest approximations; certified lower robustness bounds improve by up to 251.28%, with more precise results on convolutional networks.</p>
+</li>
+<li id="zhang2022qvip">
+	<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2022</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1145/3551349.3556916">QVIP: An ILP-based Formal Verification Approach for Quantized Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/yedi-zhang/">Yedi Zhang</a>, <a href="/researchers/zhe-zhao/">Zhe Zhao</a>, <a href="/researchers/guangke-chen/">Guangke Chen</a>, <a href="/researchers/fu-song/">Fu Song</a>, <a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/taolue-chen/">Taolue Chen</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span><p class="digest-summary">QVIP verifies quantized neural networks with a sound and complete encoding into integer linear constraints solved off the shelf, applied to local robustness and maximum robustness radius; it is two orders of magnitude faster than prior methods and solves more tasks.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-06/">&larr; June 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-09/">September 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2025</h1></header>
+<article>
+<p class="digest-intro">AAAI 2026 decisions: neural control safety leads, with ReLU barrier certificate verification and falsification, LUCID and probabilistic policy verification via predicate abstraction. Formal explanations get faster with VeriX&#43; and abductive latent explanations for prototype networks, while abstract domains target transformer self-attention and RNNs with DeepPrism; Lipschitz estimation goes quantum-classical with HiQ-Lip.</p>
+<p>14 NNV papers accepted in November 2025, at AAAI 2026 and EMNLP 2025. 1 of them is placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">AAAI 2026 <span class="note">13 papers</span></h2>
+<ul class="papers digest"><li id="lyu2026certmask">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i10.37716">CertMask: Certifiable Defense Against Adversarial Patches via Theoretically Optimal Mask Coverage</a> <span class="note">(<a href="https://arxiv.org/abs/2511.09834">arXiv</a>)</span>
+
+	<br><span class="authors">Xuntao Lyu, Ching-Chi Lin, Abdullah Al Arafat, Georg von der Brüggen, Jian-Jia Chen, Zhishan Guo</span><p class="digest-summary">CertMask certifies image classifiers against adversarial patches with a single round of masking whose mask set covers every patch location at least k times, cutting cost from O(n^2) to O(n); it raises certified robust accuracy by up to 13.4% over PatchCleanser.</p>
+</li>
+<li id="zhou2026certified">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i16.38377">Certified L2-Norm Robustness of 3D Point Cloud Recognition in the Frequency Domain</a>
+
+	<br><span class="authors">Liang Zhou, Qiming Wang, Tianze Chen</span><p class="digest-summary">FreqCert certifies 3D point cloud classifiers against global l2 perturbations by applying the graph Fourier transform, voting over spectrally partitioned sub-point clouds, and deriving a tight closed-form certified radius; it achieves higher certified accuracy on ModelNet40 and ScanObjectNN.</p>
+</li>
+<li id="ren2026efficient">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i42.40890">Efficient Verification and Falsification of ReLU Neural Barrier Certificates</a> <span class="note">(<a href="https://arxiv.org/abs/2511.10015">arXiv</a>)</span>
+
+	<br><span class="authors">Dejin Ren, Yiling Xue, Taoran Wu, <a href="/researchers/bai-xue/">Bai Xue</a></span><p class="digest-summary">States a necessary and sufficient condition for the correctness of ReLU neural barrier certificates for continuous-time systems, encodable as SMT or optimization, enabling both verification and, for the first time, falsification; numerical experiments confirm its validity and effectiveness.</p>
+</li>
+<li id="wu2026efficiently">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i42.40900">Efficiently Computing Compact Formal Explanations</a>
+
+	<br><span class="authors"><a href="/researchers/min-wu/">Min Wu</a>, Xiaofu Li, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span><p class="digest-summary">VeriX&#43; shrinks and speeds up formal explanations for ML models using bound-propagation-based sensitivity, binary-search traversal with confidence ranking and an adapted QuickXplain; it cuts explanation size by 38% on GTSRB and time by 90% on MNIST, scaling to transformers.</p>
+</li>
+<li id="soria2026formal">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i30.39755">Formal Abductive Latent Explanations for Prototype-Based Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2511.16588">arXiv</a>)</span>
+
+	<br><span class="authors">Jules Soria, Zakaria Chihani, Julien Girard-Satabin, <a href="/researchers/alban-grastien/">Alban Grastien</a>, Romain Xu-Darme, Daniela Cancila</span><p class="digest-summary">Abductive Latent Explanations give sufficient conditions on the latent representation of prototype-based case-based reasoning networks that imply the prediction, addressing misleading prototype explanations; a solver-free, scalable algorithm generates them for standard and fine-grained image classification.</p>
+</li>
+<li id="he2026hiq">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i26.39312">HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2503.16342">arXiv</a>)</span>
+
+	<br><span class="authors">Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, Kai Wen</span><p class="digest-summary">HiQ-Lip estimates global Lipschitz constants of ReLU networks with a hybrid quantum-classical method, casting the problem as Quadratic Unconstrained Binary Optimization with multilevel graph coarsening; on two-layer networks with 256 hidden neurons it doubles solving speed and gives tighter upper bounds than LiPopt.</p>
+</li>
+<li id="casablanca2026lucid">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i24.39075">LUCID: Learning-Enabled Uncertainty-Aware Certification of Stochastic Dynamical Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2512.11750">arXiv</a>)</span>
+
+	<br><span class="authors">Ernesto Casablanca, Oliver Schön, Paolo Zuliani, Sadegh Soudjani</span><p class="digest-summary">LUCID certifies safety of black-box stochastic dynamical systems from transition data by learning control barrier certificates in a Reproducing Kernel Hilbert Space with ambiguity sets, using a finite Fourier kernel expansion to turn a semi-infinite non-convex problem into a linear program.</p>
+</li>
+<li id="ma2026learning">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i42.40882">Learning Vision-Based Neural Network Controllers with Semi-Probabilistic Safety Guarantees</a>
+
+	<br><span class="authors">Xinhang Ma, <a href="/researchers/junlin-wu/">Junlin Wu</a>, Hussein Sibai, <a href="/researchers/yiannis-kantaros/">Yiannis Kantaros</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span><p class="digest-summary">Verifies and trains vision-based neural network controllers in a semi-probabilistic framework combining reachability analysis, conditional generative networks and distribution-free tail bounds, with a safety loss and curriculum learning; evaluated in X-Plane 11, CARLA, a physical F1Tenth setup and AirSim.</p>
+</li>
+<li id="marzari2026probabilistic">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i42.40883">On the Probabilistic Learnability of Compact Neural Network Preimage Bounds</a>
+
+	<br><span class="authors"><a href="/researchers/luca-marzari/">Luca Marzari</a>, Manuele Bicego, <a href="/researchers/ferdinando-cicalese/">Ferdinando Cicalese</a>, <a href="/researchers/alessandro-farinelli/">Alessandro Farinelli</a></span><p class="digest-summary">RF-ProVe approximates neural network preimages probabilistically, using an ensemble of randomized decision trees to propose input regions satisfying an output property and refining them by active resampling, with formal statistical guarantees on region purity and global coverage.</p>
+</li>
+<li id="huang2026parameterized">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i42.40860">Parameterized Abstract Interpretation for Transformer Verification</a>
+
+	<br><span class="authors"><a href="/researchers/pei-huang/">Pei Huang</a>, Dennis Wei, <a href="/researchers/omri-isac/">Omri Isac</a>, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span><p class="digest-summary">Proposes two parameterized linear abstract domains for inner products in transformer self-attention, one from symbolic quadratic bounds and tangents, one interpolating prior affine bounds; both verify robustness instances existing methods cannot and give tighter interval results, especially in deeper networks.</p>
+</li>
+<li id="vinzent2026probabilistic">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i43.40965">Probabilistic Safety Verification of Neural Policies via Predicate Abstraction</a>
+
+	<br><span class="authors">Marcel Vinzent, <a href="/researchers/holger-hermanns/">Holger Hermanns</a>, <a href="/researchers/jorg-hoffmann/">Jörg Hoffmann</a></span><p class="digest-summary">Extends policy predicate abstraction to probabilistic safety verification of neural action policies, adapting probabilistic CEGAR to neural policies; the algorithm decides whether a policy meets an unsafety-probability bound and derives upper and lower bounds where encodings into probabilistic model checkers prove ineffective.</p>
+</li>
+<li id="lin2026tighter">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i28.39533">Tighter Truncated Rectangular Prism Approximation for RNN Robustness Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2511.11699">arXiv</a>)</span>
+
+	<br><span class="authors">Xingqi Lin, Liangyu Chen, Min Wu, <a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a></span><p class="digest-summary">DeepPrism verifies RNN robustness by enclosing the Hadamard-product surface with a truncated rectangular prism of two linear planes, refined to minimize volume and surface area; it improves on existing approaches in image classification, speech recognition and sentiment analysis tasks.</p>
+</li>
+<li id="zaid2026veriflow">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1609/aaai.v40i33.40030">VeriFlow: Modeling Distributions for Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2406.14265">arXiv</a>)</span>
+
+	<br><span class="authors">Faried Abu Zaid, <a href="/researchers/daniel-neider/">Daniel Neider</a>, Mustafa Yalçiner</span><p class="digest-summary">VeriFlow is a flow-based density model with a piecewise-affine transformation, letting linear-arithmetic verifiers restrict global properties such as fairness or robustness to a data distribution, since upper density level sets become linear constraints in the latent space.</p>
+</li>
+</ul>
+<h2 class="digest-venue">EMNLP 2025 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="seferis2025randomized">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.18653/v1/2025.emnlp-main.1396">Randomized Smoothing Meets Vision-Language Models</a> <span class="note">(<a href="https://arxiv.org/abs/2509.16088">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/emmanouil-seferis/">Emmanouil Seferis</a>, Changshun Wu, Stefanos Kollias, Saddek Bensalem, <a href="/researchers/chih-hong-cheng/">Chih-Hong Cheng</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-09/">&larr; September 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-12/">December 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2024</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2024 decisions: randomized smoothing leads, extended to multi-step defences, regression models, Deep Equilibrium Models and diffusion purification. Safe control is the other strand, with Dynamic Model Predictive Shielding, VerSAILLE&#39;s differential dynamic logic and SEEV&#39;s ReLU barrier functions, while BICCOS adds cutting planes to branch-and-bound and RABBit targets relational verification.</p>
+<p>18 NNV papers accepted in September 2024, at NeurIPS 2024.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> NeurIPS 2024 &middot; Vancouver, Canada <span class="note">18 / 3,783 NeurIPS 2024 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="lyu2024adaptive">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LyuSSSL24">Adaptive Randomized Smoothing: Certified Adversarial Robustness for Multi-Step Defences</a>
+
+	<br><span class="authors">Saiyue Lyu, Shadab Shaikh, Frederick Shpilevskiy, Evan Shelhamer, <a href="/researchers/mathias-lecuyer/">Mathias Lécuyer</a></span><p class="digest-summary">Adaptive Randomized Smoothing certifies test-time adaptive, multi-step image classifiers against L-infinity adversarial examples by analyzing randomized smoothing with f-Differential Privacy; it improves standard accuracy by 1 to 15 points and ImageNet certified accuracy by up to 1.6 points.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2205, East Exhibit Hall A-C &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="gao2024certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/GaoHXL24">Certified Robustness for Deep Equilibrium Models via Serialized Random Smoothing</a>
+
+	<br><span class="authors">Weizhi Gao, Zhichao Hou, Han Xu, Xiaorui Liu</span><p class="digest-summary">Brings randomized smoothing certification to Deep Equilibrium Models, with Serialized Randomized Smoothing reusing historical information to cut redundant computation and a new certified radius estimate; certification of DEQs runs up to 7x faster with almost no loss in certified accuracy.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2204, East Exhibit Hall A-C &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="li2024consistency">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiCJWL0X24">Consistency Purification: Effective and Efficient Diffusion Purification towards Certified Robustness</a>
+
+	<br><span class="authors">Yiquan Li, <a href="/researchers/zhongzhu-chen/">Zhongzhu Chen</a>, <a href="/researchers/kun-jin/">Kun Jin</a>, <a href="/researchers/jiongxiao-wang/">Jiongxiao Wang</a>, <a href="/researchers/jiachen-lei/">Jiachen Lei</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/chaowei-xiao/">Chaowei Xiao</a></span><p class="digest-summary">Consistency Purification improves diffusion-based purification for randomized smoothing by using a one-step consistency model, fine-tuned with an LPIPS loss, to keep purified images on the data manifold and semantically aligned, giving better certified robustness and efficiency than baselines.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #7300, West Ballroom A-D &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="zhou2024scalable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhouBH024">Scalable Neural Network Verification with Branch-and-bound Inferred Cutting Planes</a> <span class="note">(<a href="https://arxiv.org/abs/2501.00200">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/duo-zhou/">Duo Zhou</a>, <a href="/researchers/christopher-brix/">Christopher Brix</a>, <a href="/researchers/grani-a-hanasusanto/">Grani A. Hanasusanto</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span><p class="digest-summary">BICCOS strengthens branch-and-bound neural network verification with cutting planes inferred from neuron relationships in verified subproblems, plus influence-based strengthening and multi-tree search; it verifies more instances than other verifiers, scales to large networks and is part of α,β-CROWN.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2206, East Exhibit Hall A-C &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="voracek2024treatment">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Voracek24">Treatment of Statistical Estimation Problems in Randomized Smoothing for Adversarial Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/vaclav-voracek/">Václav Vorácek</a></span><p class="digest-summary">Examines statistical estimation in randomized smoothing certification, giving confidence-sequence procedures with optimal sample complexity and the same guarantees as standard methods for deciding robustness at a radius, plus a randomized Clopper-Pearson interval that yields strictly stronger certificates.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #4911, East Exhibit Hall A-C &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="wu2024verified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/0001ZV24">Verified Safe Reinforcement Learning for Neural Network Dynamic Models</a>
+
+	<br><span class="authors"><a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span><p class="digest-summary">Learns control policies for nonlinear neural network dynamical systems that are verified safe via finite-horizon reachability, using a curriculum that lengthens the verified horizon, incremental verification and multiple initial-state-dependent controllers; verified horizons are up to an order of magnitude longer than baselines.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #6611, West Ballroom A-D &middot; Wed 11 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="sun2024achieving">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SunMGV24">Achieving Domain-Independent Certified Robustness via Knowledge Continuity</a> <span class="note">(<a href="https://arxiv.org/abs/2411.01644">arXiv</a>)</span>
+
+	<br><span class="authors">Alan Sun, Chiyu Ma, Kenneth Ge, Soroush Vosoughi</span><p class="digest-summary">Defines knowledge continuity, a Lipschitz-inspired notion whose robustness certificates depend only on the loss and the network&#39;s learned intermediate metric spaces, not on domain, norm or distribution; shows expressiveness need not conflict with it, and applies it to regularization, a certification algorithm and localizing vulnerable components.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2203, East Exhibit Hall A-C &middot; Wed 11 Dec, 16:30–19:30 (Vancouver time)</span></p>
+</li>
+<li id="suresh2024relational">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SureshB024">Relational Verification Leaps Forward with RABBit</a>
+
+	<br><span class="authors"><a href="/researchers/tarun-suresh/">Tarun Suresh</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2207, East Exhibit Hall A-C &middot; Wed 11 Dec, 16:30–19:30 (Vancouver time)</span></p>
+</li>
+<li id="zhang2024seev">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangQG024">SEEV: Synthesis with Efficient Exact Verification for ReLU Neural Barrier Functions</a>
+
+	<br><span class="authors"><a href="/researchers/hongchao-zhang/">Hongchao Zhang</a>, <a href="/researchers/zhizhen-qin/">Zhizhen Qin</a>, <a href="/researchers/sicun-gao/">Sicun Gao</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a></span><p class="digest-summary">SEEV synthesizes ReLU neural control barrier functions with a regularizer that reduces activation regions on the safety boundary, and verifies them exactly using tight over-approximations of the safety conditions per linear segment, improving verification efficiency while keeping barrier function quality.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #4509, East Exhibit Hall A-C &middot; Wed 11 Dec, 16:30–19:30 (Vancouver time)</span></p>
+</li>
+<li id="chen2024diffusion">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ChenDSHYSZ24">Diffusion Models are Certifiably Robust Classifiers</a>
+
+	<br><span class="authors">Huanran Chen, <a href="/researchers/yinpeng-dong/">Yinpeng Dong</a>, Shitong Shao, <a href="/researchers/zhongkai-hao/">Zhongkai Hao</a>, Xiao Yang, <a href="/researchers/hang-su/">Hang Su</a>, <a href="/researchers/jun-zhu/">Jun Zhu</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2600, East Exhibit Hall A-C &middot; Thu 12 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="banerjee2024dynamic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BanerjeeRBD24">Dynamic Model Predictive Shielding for Provably Safe Reinforcement Learning</a>
+
+	<br><span class="authors">Arko Banerjee, Kia Rahmani, Joydeep Biswas, <a href="/researchers/isil-dillig/">Isil Dillig</a></span><p class="digest-summary">Dynamic Model Predictive Shielding keeps reinforcement learning provably safe during and after training by using a local planner, informed by the neural policy&#39;s reward estimates, to choose recovery actions; recovery regret falls exponentially with planning depth and rewards exceed baselines.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #6502, West Ballroom A-D &middot; Thu 12 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="xu2024eclipse">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/XuS24">ECLipsE: Efficient Compositional Lipschitz Constant Estimation for Deep Neural Networks</a>
+
+	<br><span class="authors">Yuezhu Xu, S. Sivaranjani</span><p class="digest-summary">ECLipsE estimates Lipschitz constants of deep feed-forward networks compositionally, splitting the large matrix verification problem into per-layer subproblems solved by small SDPs or in closed form; it runs up to thousands of times faster with bounds close to or better than prior methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2105, East Exhibit Hall A-C &middot; Thu 12 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="yang2024fedgmark">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/YangLHW24">FedGMark: Certifiably Robust Watermarking for Federated Graph Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2410.17533">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span><p class="digest-summary">Protects federated graph learning models with certified backdoor-based watermarks: FedGMark learns customized watermarks from graph structure and client information and uses a graph learning architecture that defends against empirical and provably worst-case watermark removal attacks, with experiments confirming empirical and provable watermarking performance.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #4610, East Exhibit Hall A-C &middot; Thu 12 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="altstidl2024scalability">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/AltstidlDKEGS24">On the Scalability of Certified Adversarial Robustness with Generated Data</a>
+
+	<br><span class="authors">Thomas Altstidl, David Dobre, Arthur Kosmala, Bjoern M. Eskofier, Gauthier Gidel, Leo Schwinn</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #2109, East Exhibit Hall A-C &middot; Thu 12 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="teuber2024provably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TeuberMP24">Provably Safe Neural Network Controllers via Differential Dynamic Logic</a>
+
+	<br><span class="authors"><a href="/researchers/samuel-teuber/">Samuel Teuber</a>, Stefan Mitsch, <a href="/researchers/andre-platzer/">André Platzer</a></span><p class="digest-summary">VerSAILLE derives neural network specifications from differential dynamic logic control envelopes so that a network proof yields infinite-time safety of the closed loop; Mosaic verifies the resulting polynomial arithmetic properties on piecewise-linear networks, proving safety on airborne collision avoidance benchmarks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #4201, East Exhibit Hall A-C &middot; Thu 12 Dec, 16:30–19:30 (Vancouver time)</span></p>
+</li>
+<li id="tao2024provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TaoT24">Provable Editing of Deep Neural Networks using Parametric Linear Relaxation</a>
+
+	<br><span class="authors"><a href="/researchers/zhe-tao/">Zhe Tao</a>, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span><p class="digest-summary">Provably edits a DNN so that every input in a polytope maps into an output polytope while minimizing parameter change, relaxing the NP-hard problem to a linear program via Parametric Linear Relaxation; PREPARED fixes VNN-COMP property violations within 45 seconds and beats prior editing methods on image, BERT and physics-constrained networks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #4411, East Exhibit Hall A-C &middot; Fri 13 Dec, 11:00–14:00 (Vancouver time)</span></p>
+</li>
+<li id="jeary2024verifiably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JearyKHP24">Verifiably Robust Conformal Prediction</a>
+
+	<br><span class="authors">Linus Jeary, Tom Kuipers, Mehran Hosseini, <a href="/researchers/nicola-paoletti/">Nicola Paoletti</a></span><p class="digest-summary">VRCP restores conformal prediction coverage under adversarial attacks using neural network verification instead of randomized smoothing, supporting l1, l2 and l-infinity perturbations and regression; on CIFAR10, CIFAR100, TinyImageNet and deep RL tasks it keeps above-nominal coverage with tighter prediction regions.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster #6210, West Ballroom A-D &middot; Fri 13 Dec, 16:30–19:30 (Vancouver time)</span></p>
+</li>
+<li id="rekavandi2024certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/RekavandiFOR24">Certified Adversarial Robustness via Randomized α-Smoothing for Regression Models</a>
+
+	<br><span class="authors">Aref Miri Rekavandi, Farhad Farokhi, <a href="/researchers/olga-ohrimenko/">Olga Ohrimenko</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-08/">&larr; August 2024</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-11/">November 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

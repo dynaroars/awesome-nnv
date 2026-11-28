@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2019 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2019-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2019">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2019-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2019</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2019 decisions: convex relaxations come under scrutiny, with an exact study revealing an inherent barrier and k-ReLU&#39;s multi-neuron relaxations moving beyond it. Randomized smoothing gains adversarial training and tighter certificates, and other directions include DEEPG for geometric robustness, certificates for graph perturbations, GeoCert&#39;s exact pointwise robustness, SDP-based Lipschitz bounds and Neural Lyapunov Control.</p>
+<p>15 NNV papers accepted in September 2019, at NeurIPS 2019.</p>
+<ul class="papers digest"><li id="salman2019convex">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SalmanY0HZ19">A Convex Relaxation Barrier to Tight Robustness Verification of Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1902.08722">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hadi-salman/">Hadi Salman</a>, <a href="/researchers/greg-yang/">Greg Yang</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/pengchuan-zhang/">Pengchuan Zhang</a></span><p class="digest-summary">Unifies LP-relaxed verifiers under one convex relaxation framework with primal-dual strong duality, then solves the optimal relaxation exactly using over 22 CPU-years, finding it barely narrows the gap to PGD on MNIST and CIFAR networks: an inherent barrier.</p>
+</li>
+<li id="prabhakar2019abstraction">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/PrabhakarA19">Abstraction based Output Range Analysis for Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2007.09527">arXiv</a>)</span>
+
+	<br><span class="authors">Pavithra Prabhakar, Zahra Rahimi Afzal</span><p class="digest-summary">Computes output ranges of ReLU feed-forward networks by abstracting them into smaller interval neural networks with interval weights that over-approximate the output range, then solving a mixed integer linear program; experiments show the time-precision trade-off.</p>
+</li>
+<li id="singh2019beyond">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SinghGPV19">Beyond the Single Neuron Convex Barrier for Neural Network Certification</a>
+
+	<br><span class="authors"><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, Rupanshu Ganvir, <a href="/researchers/markus-puschel/">Markus Püschel</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">k-ReLU computes convex relaxations of multiple ReLUs in a layer jointly rather than one at a time, overcoming the single-neuron triangle relaxation barrier; combined with existing verifiers, it certifies significantly more precisely while staying scalable.</p>
+</li>
+<li id="bojchevski2019certifiable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BojchevskiG19">Certifiable Robustness to Graph Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/1910.14356">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">The first method to certify robustness and non-robustness of graph neural networks and label/feature propagation to graph structure perturbations, computing certificates efficiently via connections to PageRank and Markov decision processes, plus robust training that increases certifiably robust nodes.</p>
+</li>
+<li id="li2019certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiCWC19">Certified Adversarial Robustness with Additive Noise</a> <span class="note">(<a href="https://arxiv.org/abs/1809.03113">arXiv</a>)</span>
+
+	<br><span class="authors">Bai Li, Changyou Chen, Wenlin Wang, Lawrence Carin</span><p class="digest-summary">Connects adversarial robustness to additive random noise to obtain scalable certified bounds on input perturbation norms, plus a training strategy that enlarges these bounds; on MNIST, CIFAR-10 and ImageNet it competes with provable defense methods.</p>
+</li>
+<li id="balunovic2019certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BalunovicBSGV19">Certifying Geometric Robustness of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">DEEPG certifies robustness to geometric transformations such as rotation and scaling by computing sound, asymptotically optimal linear relaxations for any composition of transformations through sampling plus optimization, certifying more complex transformations than prior methods on large networks.</p>
+</li>
+<li id="sotoudeh2019computing">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SotoudehT19">Computing Linear Restrictions of Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1908.06214">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/matthew-sotoudeh/">Matthew Sotoudeh</a>, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span><p class="digest-summary">ExactLine exactly computes the restriction of a piecewise-linear network to a line segment, partitioning it into affine regions; used to find exact ACAS Xu decision boundaries, compute exact integrated gradients and test a hypothesis about adversarial examples.</p>
+</li>
+<li id="fazlyab2019efficient">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/FazlyabRHMP19">Efficient and Accurate Estimation of Lipschitz Constants for Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1906.04893">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a>, Alexander Robey, Hamed Hassani, Manfred Morari, <a href="/researchers/george-j-pappas/">George J. Pappas</a></span><p class="digest-summary">Computes guaranteed upper bounds on deep network Lipschitz constants via a semidefinite program, modelling activations as gradients of convex potentials with quadratic constraints; gives the most accurate bounds in experiments on random, MNIST and Iris networks, usable for robustness guarantees.</p>
+</li>
+<li id="chang2019neural">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ChangRG19">Neural Lyapunov Control</a> <span class="note">(<a href="https://arxiv.org/abs/2005.00611">arXiv</a>)</span>
+
+	<br><span class="authors">Ya-Chien Chang, Nima Roohi, <a href="/researchers/sicun-gao/">Sicun Gao</a></span><p class="digest-summary">Learns nonlinear control policies together with neural Lyapunov functions using a learner and a counterexample-finding falsifier, terminating with provable stability once no counterexample exists, and obtaining much larger regions of attraction than LQR and SOS/SDP.</p>
+</li>
+<li id="ignatiev2019relating">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/nips/IgnatievNM19">On Relating Explanations and Adversarial Examples</a>
+
+	<br><span class="authors"><a href="/researchers/alexey-ignatiev/">Alexey Ignatiev</a>, <a href="/researchers/nina-narodytska/">Nina Narodytska</a>, <a href="/researchers/joao-marques-silva/">João Marques-Silva</a></span><p class="digest-summary">Shows that explanations and adversarial examples of ML models are related by a generalized hitting set duality, and gives algorithms that compute adversarial examples from explanations and vice versa.</p>
+</li>
+<li id="li2019preventing">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiHALGJ19">Preventing Gradient Attenuation in Lipschitz Constrained Convolutional Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1911.00937">arXiv</a>)</span>
+
+	<br><span class="authors">Qiyang Li, Saminul Haque, Cem Anil, James Lucas, Roger B. Grosse, Jörn-Henrik Jacobsen</span><p class="digest-summary">Trains provably Lipschitz convolutional networks without gradient norm attenuation via BCOP, the Block Convolution Orthogonal Parameterization of orthogonal convolutions, competing with existing approaches for provable adversarial robustness and Wasserstein distance estimation.</p>
+</li>
+<li id="jordan2019provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JordanLD19">Provable Certificates for Adversarial Examples: Fitting a Ball in the Union of Polytopes</a> <span class="note">(<a href="https://arxiv.org/abs/1903.08778">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/matt-jordan/">Matt Jordan</a>, Justin Lewis, <a href="/researchers/alex-dimakis/">Alex Dimakis</a></span><p class="digest-summary">GeoCert computes exact pointwise robustness of ReLU networks for convex ℓp norms by finding the largest ball around an input inside a polyhedral complex, returning anytime lower bounds that tighten until exact and beat prior work under time limits.</p>
+</li>
+<li id="salman2019provably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SalmanLRZZBY19">Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/1906.04584">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hadi-salman/">Hadi Salman</a>, <a href="/researchers/jerry-li/">Jerry Li</a>, <a href="/researchers/ilya-p-razenshteyn/">Ilya P. Razenshteyn</a>, <a href="/researchers/pengchuan-zhang/">Pengchuan Zhang</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Sébastien Bubeck, <a href="/researchers/greg-yang/">Greg Yang</a></span><p class="digest-summary">Improves randomized smoothing by adversarially training smoothed classifiers with an attack adapted to them, outperforming all existing provably ℓ2-robust classifiers on ImageNet and CIFAR-10; pre-training and semi-supervised learning give further gains.</p>
+</li>
+<li id="pinot2019theoretical">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/PinotMAKYGA19">Theoretical evidence for adversarial robustness through randomization</a> <span class="note">(<a href="https://arxiv.org/abs/1902.01148">arXiv</a>)</span>
+
+	<br><span class="authors">Rafael Pinot, <a href="/researchers/laurent-meunier/">Laurent Meunier</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, Hisashi Kashima, Florian Yger, Cédric Gouy-Pailler, <a href="/researchers/jamal-atif/">Jamal Atif</a></span><p class="digest-summary">Gives theoretical grounding for noise-injection defenses: relates the randomization rate to adversarial robustness for exponential-family noise distributions and derives an upper bound on the adversarial generalization gap of randomized networks, supported by experiments.</p>
+</li>
+<li id="lee2019tight">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LeeYCJ19">Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/1906.04948">arXiv</a>)</span>
+
+	<br><span class="authors">Guang-He Lee, Yang Yuan, <a href="/researchers/shiyu-chang/">Shiyu Chang</a>, Tommi S. Jaakkola</span><p class="digest-summary">Extends robustness certificates for randomly smoothed classifiers beyond Gaussian ℓ2 to broad distribution classes, including discrete ℓ0-bounded adversaries, and tightens guarantees using function-class assumptions such as decision trees; evaluated on image and molecule datasets.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-08/">&larr; August 2019</a>
+<a href="/digest/2019/">All of 2019</a><a href="/digest/2019-10/">October 2019 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

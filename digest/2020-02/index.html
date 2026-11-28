@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>February 2020 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2020-02/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="February 2020">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2020-02/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>February 2020</h1></header>
+<article>
+<p class="digest-intro">CVPR 2020 decisions: verification moves beyond ℓp inputs, with robustness guarantees for CNN-RNN video classifiers under optical flow perturbations and Semantify-NN, which verifies robustness to hue, brightness, contrast and rotation through semantic perturbation layers.</p>
+<p>2 NNV papers accepted in February 2020, at CVPR 2020.</p>
+<ul class="papers digest"><li id="wu2020robustness">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2020</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr42600.2020.00039">Robustness Guarantees for Deep Neural Networks on Videos</a>
+
+	<br><span class="authors"><a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a></span><p class="digest-summary">Bounds the maximum safe radius of CNN-RNN video classifiers over optical flow perturbations, using Lipschitz-based discretisation and a cooperative two-player game solved anytime, with gradient search for upper bounds and admissible A* for lower bounds; evaluated on UCF101.</p>
+</li>
+<li id="mohapatra2020towards">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2020</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr42600.2020.00032">Towards Verifying Robustness of Neural Networks Against A Family of Semantic Perturbations</a>
+
+	<br><span class="authors"><a href="/researchers/jeet-mohapatra/">Jeet Mohapatra</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">Semantify-NN verifies robustness to semantic perturbations such as hue, saturation, brightness, contrast and rotation by prepending semantic perturbation layers, so any ℓp-norm verifier applies; a refinement step tightens certificates beyond naive ℓp conversion across architectures and datasets.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-12/">&larr; December 2019</a>
+<a href="/digest/2020/">All of 2020</a><a href="/digest/2020-04/">April 2020 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

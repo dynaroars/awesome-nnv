@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2019 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2019-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2019">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2019-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2019</h1></header>
+<article>
+<p class="digest-intro">CAV 2019 and ICML 2019 decisions: the SMT-based Marabou framework appears alongside randomized smoothing with a tight Gaussian ℓ2 guarantee. POPQORN certifies recurrent networks including LSTMs and GRUs, PROVEN takes a probabilistic approach to verification, and non-uniform bounds against adversarial attacks are certified.</p>
+<p>5 NNV papers accepted in April 2019, at CAV 2019 and ICML 2019.</p>
+<h2 class="digest-venue">ICML 2019 <span class="note">4 papers</span></h2>
+<ul class="papers digest"><li id="cohen2019certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/CohenRK19">Certified Adversarial Robustness via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/1902.02918">arXiv</a>)</span>
+
+	<br><span class="authors">Jeremy Cohen, <a href="/researchers/elan-rosenfeld/">Elan Rosenfeld</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Proves a tight ℓ2 robustness guarantee for randomized smoothing with Gaussian noise, turning any noise-tolerant classifier into a certifiably robust one; reaches 49% certified top-1 accuracy on ImageNet for ℓ2 perturbations below 0.5.</p>
+</li>
+<li id="liu2019certifying">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/LiuTC19">On Certifying Non-Uniform Bounds against Adversarial Attacks</a>
+
+	<br><span class="authors">Chen Liu, Ryota Tomioka, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="ko2019popqorn">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2019</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/KoLWDWL19">POPQORN: Quantifying Robustness of Recurrent Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1905.07387">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/ching-yun-ko/">Ching-Yun Ko</a>, <a href="/researchers/zhaoyang-lyu/">Zhaoyang Lyu</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a>, <a href="/researchers/ngai-wong/">Ngai Wong</a>, <a href="/researchers/dahua-lin/">Dahua Lin</a></span><p class="digest-summary">POPQORN computes certified lower bounds on the minimum adversarial perturbation for recurrent networks, including vanilla RNNs, LSTMs and GRUs, handling multi-step inputs and gate-state interactions; per-step robustness quantification gives new insights.</p>
+</li>
+<li id="weng2019proven">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WengCNSBOD19">PROVEN: Verifying Robustness of Neural Networks with a Probabilistic Approach</a>
+
+	<br><span class="authors"><a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, Lam M. Nguyen, Mark S. Squillante, <a href="/researchers/akhilan-boopathy/">Akhilan Boopathy</a>, <a href="/researchers/ivan-v-oseledets/">Ivan V. Oseledets</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">CAV 2019 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="katz2019marabou">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2019</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-25540-4_26">The Marabou Framework for Verification and Analysis of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/guy-katz/">Guy Katz</a>, Derek A. Huang, Duligur Ibeling, <a href="/researchers/kyle-julian/">Kyle Julian</a>, Christopher Lazarus, Rachel Lim, Parth Shah, Shantanu Thakoor, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/aleksandar-zeljic/">Aleksandar Zeljic</a>, <a href="/researchers/david-l-dill/">David L. Dill</a>, <a href="/researchers/mykel-j-kochenderfer/">Mykel J. Kochenderfer</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span><p class="digest-summary">Marabou is an SMT-based framework that verifies deep neural network properties by turning queries into constraint satisfaction problems, supporting various activations and topologies, high-level reasoning to prune search, parallel execution and TensorFlow inputs.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-03/">&larr; March 2019</a>
+<a href="/digest/2019/">All of 2019</a><a href="/digest/2019-05/">May 2019 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

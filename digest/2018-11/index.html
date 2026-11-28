@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2018 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2018-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2018">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2018-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2018</h1></header>
+<article>
+<p class="digest-intro">AAAI 2019 decisions: bound propagation grows with CNN-Cert and RecurJac&#39;s Jacobian bounds, alongside verification of RNN-based agent-environment systems. Abduction-based explanations and inverse abstraction of neural network pre-images via symbolic interpolation point toward explanation and interpretable analysis.</p>
+<p>5 NNV papers accepted in November 2018, at AAAI 2019.</p>
+<ul class="papers digest"><li id="ignatiev2019abduction">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1609/aaai.v33i01.33011511">Abduction-Based Explanations for Machine Learning Models</a> <span class="note">(<a href="https://arxiv.org/abs/1811.10656">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alexey-ignatiev/">Alexey Ignatiev</a>, <a href="/researchers/nina-narodytska/">Nina Narodytska</a>, <a href="/researchers/joao-marques-silva/">João Marques-Silva</a></span><p class="digest-summary">Computes cardinality- or subset-minimal explanations for any ML model by abductive reasoning, requiring only that the model be encoded as constraints decidable by an oracle; experiments on well-known datasets show the approach scales and produces high-quality explanations.</p>
+</li>
+<li id="boopathy2019cnn">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v33i01.33013240">CNN-Cert: An Efficient Framework for Certifying Robustness of Convolutional Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1811.12395">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/akhilan-boopathy/">Akhilan Boopathy</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">Certifies robustness of general convolutional networks with CNN-Cert, handling convolution, max-pooling, batch normalization, residual blocks and general activations, and generalizing Fast-Lin and CROWN; it is up to 17 and 11 times faster than those and 366 times faster than dual LP with similar or better bounds.</p>
+</li>
+<li id="dathathri2019inverse">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1609/aaai.v33i01.33013437">Inverse Abstraction of Neural Networks Using Symbolic Interpolation</a>
+
+	<br><span class="authors"><a href="/researchers/sumanth-dathathri/">Sumanth Dathathri</a>, <a href="/researchers/sicun-gao/">Sicun Gao</a>, Richard M. Murray</span><p class="digest-summary">Computes compact symbolic over- and under-approximations of neural network pre-images layer by layer via symbolic interpolation, enabling formal analysis, extraction of simple control laws and interpretable descriptions of inputs leading to unsafe outputs.</p>
+</li>
+<li id="zhang2019recurjac">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v33i01.33015757">RecurJac: An Efficient Recursive Algorithm for Bounding Jacobian Matrix of Neural Networks and Its Applications</a> <span class="note">(<a href="https://arxiv.org/abs/1810.11783">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/pengchuan-zhang/">Pengchuan Zhang</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Computes upper and lower bounds on every element of a network&#39;s input Jacobian with the recursive RecurJac algorithm for a wide range of activations, yielding better local Lipschitz constants for robustness verification in polynomial time and characterizing the loss landscape, such as whether stationary points exist nearby.</p>
+</li>
+<li id="akintunde2019verification">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1609/aaai.v33i01.33016006">Verification of RNN-Based Neural Agent-Environment Systems</a>
+
+	<br><span class="authors"><a href="/researchers/michael-e-akintunde/">Michael E. Akintunde</a>, <a href="/researchers/andreea-kevorchian/">Andreea Kevorchian</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/edoardo-pirovano/">Edoardo Pirovano</a></span><p class="digest-summary">Verifies agent-environment systems whose stateful agent runs a ReLU recurrent network, using equivalences between recurrent and feed-forward networks on bounded traces to give a sound and complete procedure for properties in a simplified bounded LTL.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2018-10/">&larr; October 2018</a>
+<a href="/digest/2018/">All of 2018</a><a href="/digest/2018-12/">December 2018 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

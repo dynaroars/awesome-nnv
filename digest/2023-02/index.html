@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>February 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-02/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="February 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-02/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>February 2023</h1></header>
+<article>
+<p class="digest-intro">CVPR 2023 and PLDI 2023 decisions: PLDI brings CRAFT&#39;s abstract interpretation of fixpoint iterators, APRNN&#39;s architecture-preserving repair and IVAN&#39;s incremental verification. CVPR covers verified training via abstraction, verification against latent-variable-model specifications and PointCert for point cloud classification.</p>
+<p>6 NNV papers accepted in February 2023, at CVPR 2023 and PLDI 2023.</p>
+<h2 class="digest-venue">PLDI 2023 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="muller2023abstract">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2023</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1145/3591252">Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2110.08260">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/robin-staab/">Robin Staab</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">CRAFT over-approximates fixpoints of numerical iterators via abstract interpretation without joins, using a new CH-Zonotope domain; on monDEQ neural networks it is two orders of magnitude faster, one order more scalable and 25% higher in certified accuracy than prior work.</p>
+</li>
+<li id="tao2023architecture">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2023</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://doi.org/10.1145/3591238">Architecture-Preserving Provable Repair of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/zhe-tao/">Zhe Tao</a>, Stephanie Nawas, Jacqueline Mitchell, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span><p class="digest-summary">APRNN provably repairs DNNs over V-polytope specifications by changing only parameters, possibly across multiple layers, in polynomial time, supporting piecewise-linear activations and convolutional, pooling and residual layers; it beats PRDNN and REASSURE on MNIST, ImageNet and ACAS Xu.</p>
+</li>
+<li id="ugare2023incremental">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2023</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1145/3591299">Incremental Verification of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/shubham-ugare/">Shubham Ugare</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">IVAN makes complete DNN verification incremental, reusing work from verifying the original network when it is updated, via new theory, data structures and algorithms; it achieves geometric mean speedups of 2.4x on MNIST and CIFAR10 and 3.8x on ACAS-XU.</p>
+</li>
+</ul>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> CVPR 2023 &middot; Vancouver, Canada <span class="note">3 / 2,359 CVPR 2023 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="hanspal2023efficient">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2023</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr52729.2023.00379">Efficient Verification of Neural Networks Against LVM-Based Specifications</a>
+
+	<br><span class="authors"><a href="/researchers/harleen-hanspal/">Harleen Hanspal</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">Verifies neural networks against specifications defined by latent variable models that capture pose, viewpoint and occlusion changes, by attaching an invertible encoding head so latent-space sets can be verified with little reconstruction overhead; scales largely independently of input dimension.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster 371, West Building Exhibit Halls ABC &middot; Tue 20 Jun, 10:30–12:00 (Vancouver time)</span></p>
+</li>
+<li id="zhang2023pointcert">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52729.2023.00916">PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees</a>
+
+	<br><span class="authors">Jinghuai Zhang, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/hongbin-liu/">Hongbin Liu</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">PointCert turns any point cloud classifier into one with deterministic certified robustness, keeping the label when fewer than a threshold number of points are added, deleted or modified; it outperforms probabilistic certified defenses on ModelNet and ScanObjectNN.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster 121, West Building Exhibit Halls ABC &middot; Wed 21 Jun, 10:30–12:00 (Vancouver time)</span></p>
+</li>
+<li id="zhang2023boosting">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1109/cvpr52729.2023.01559">Boosting Verified Training for Robust Image Classifications via Abstraction</a>
+
+	<br><span class="authors"><a href="/researchers/zhaodi-zhang/">Zhaodi Zhang</a>, <a href="/researchers/zhiyi-xue/">Zhiyi Xue</a>, <a href="/researchers/yang-chen/">Yang Chen</a>, <a href="/researchers/si-liu/">Si Liu</a>, <a href="/researchers/yueling-zhang/">Yueling Zhang</a>, <a href="/researchers/jing-liu/">Jing Liu</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary">Certified training that maps perturbed images to intervals before training, smoothing the loss landscape, and enables sound and complete black-box verification; it reduces verified errors by up to 95.64%, gives up to 602.50x speedup and scales to 138-million-parameter models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> <b>Vancouver</b> &middot; Poster 371, West Building Exhibit Halls ABC &middot; Wed 21 Jun, 16:30–18:00 (Vancouver time)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-01/">&larr; January 2023</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-03/">March 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

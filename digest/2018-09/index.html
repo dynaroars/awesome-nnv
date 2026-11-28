@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2018 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2018-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2018">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2018-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2018</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2018 decisions: bound propagation and abstract interpretation lead, with CROWN for general activations, DeepZ, symbolic-interval safety analysis and semidefinite relaxations. A unified view of piecewise-linear verification brings a benchmark comparison, while Lipschitz estimation with AutoLip and SeqLip, Lipschitz-margin training and scaled provable adversarial defenses advance certified robustness.</p>
+<p>8 NNV papers accepted in September 2018, at NeurIPS 2018.</p>
+<ul class="papers digest"><li id="bunel2018unified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BunelTTKM18">A Unified View of Piecewise Linear Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/1711.00455">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/rudy-bunel/">Rudy Bunel</a>, Ilker Turkaslan, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary">Presents a unified framework covering existing piecewise-linear network verifiers, yielding new combined methods with a two-orders-of-magnitude speedup, and a benchmark dataset used for the first experimental comparison of verification algorithms and problem hardness factors.</p>
+</li>
+<li id="wang2018efficient">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/WangPWYJ18">Efficient Formal Safety Analysis of Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1809.08098">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/kexin-pei/">Kexin Pei</a>, <a href="/researchers/justin-whitehouse/">Justin Whitehouse</a>, <a href="/researchers/junfeng-yang/">Junfeng Yang</a>, <a href="/researchers/suman-jana/">Suman Jana</a></span><p class="digest-summary">Checks safety properties of neural networks, such as L-norm robustness, by estimating tight output bounds over input ranges and finding concrete counterexamples, outperforming existing approaches by orders of magnitude on networks 10 times larger.</p>
+</li>
+<li id="zhang2018efficient">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangWCHD18">Efficient Neural Network Robustness Certification with General Activation Functions</a> <span class="note">(<a href="https://arxiv.org/abs/1811.00866">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">CROWN certifies robustness of networks with general activations, including ReLU, tanh, sigmoid and arctan, by bounding activations with adaptively chosen linear and quadratic functions, improving certified lower bounds over Fast-Lin on ReLU networks at similar cost.</p>
+</li>
+<li id="singh2018fast">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SinghGMPV18">Fast and Effective Robustness Certification</a>
+
+	<br><span class="authors"><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/markus-puschel/">Markus Püschel</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">DeepZ certifies neural network robustness with abstract interpretation sound under floating point, supporting ReLU, tanh and sigmoid in feedforward and convolutional networks; it verifies 97% on an 88,500-unit network under L∞ ε=0.1 in 133 seconds average.</p>
+</li>
+<li id="virmaux2018lipschitz">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/VirmauxS18">Lipschitz regularity of deep neural networks: analysis and efficient estimation</a> <span class="note">(<a href="https://arxiv.org/abs/1805.10965">arXiv</a>)</span>
+
+	<br><span class="authors">Aladin Virmaux, Kevin Scaman</span><p class="digest-summary">Shows exact Lipschitz constant computation is NP-hard even for two-layer networks, then gives AutoLip, a generic upper bound for any automatically differentiable function, and SeqLip, which tightens bounds for sequential networks by splitting per layer pair.</p>
+</li>
+<li id="tsuzuku2018lipschitz">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TsuzukuSS18">Lipschitz-Margin Training: Scalable Certification of Perturbation Invariance for Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1802.04034">arXiv</a>)</span>
+
+	<br><span class="authors">Yusuke Tsuzuku, Issei Sato, Masashi Sugiyama</span><p class="digest-summary">Lower-bounds the adversarial perturbation size needed to fool a network using Lipschitz constants and prediction margins, applicable to complicated architectures, plus Lipschitz-margin training that enlarges provably guarded areas, giving non-trivial guarantees on large networks.</p>
+</li>
+<li id="wong2018scaling">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/WongSMK18">Scaling provable adversarial defenses</a> <span class="note">(<a href="https://arxiv.org/abs/1805.12514">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/eric-wong/">Eric Wong</a>, Frank R. Schmidt, <a href="/researchers/jan-hendrik-metzen/">Jan Hendrik Metzen</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Scales provable adversarial training to general networks with skip connections and nonlinearities, using random projections and cascades; provable robust error falls from 5.8% to 3.1% on MNIST at ε=0.1 and from 80% to 36.4% on CIFAR at ε=2/255.</p>
+</li>
+<li id="raghunathan2018semidefinite">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/RaghunathanSL18">Semidefinite relaxations for certifying robustness to adversarial examples</a> <span class="note">(<a href="https://arxiv.org/abs/1811.01057">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aditi-raghunathan/">Aditi Raghunathan</a>, <a href="/researchers/jacob-steinhardt/">Jacob Steinhardt</a>, <a href="/researchers/percy-liang/">Percy Liang</a></span><p class="digest-summary">Certifies robustness of arbitrary ReLU networks to adversarial examples with a semidefinite relaxation that is tighter than previous relaxations and gives meaningful guarantees on three networks not trained against it.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2018-05/">&larr; May 2018</a>
+<a href="/digest/2018/">All of 2018</a><a href="/digest/2018-10/">October 2018 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

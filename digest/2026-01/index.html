@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2026 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2026-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2026">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2026-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2026</h1></header>
+<article>
+<p class="digest-intro">ICLR 2026 and ICRA 2026 decisions: formal explanations lead, with FAME, verified circuit discovery, explanations for Neural Additive Models and a complexity-theoretic unification. Theory covers multi-neuron convex relaxations and the parameterized hardness of zonotope containment, while certification scales up through LipNeXt, dual randomized smoothing and probabilistic verification of the full YOLO pipeline; ICRA adds safety verification of generative motion planners.</p>
+<p>14 NNV papers accepted in January 2026, at ICLR 2026 and ICRA 2026.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> ICLR 2026 &middot; Rio de Janeiro, Brazil <span class="note">13 / 5,313 ICLR 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="wang2026how">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WangCHRGS26">How Catastrophic is Your LLM? Certifying Risks in Conversation</a>
+
+	<br><span class="authors">Chengxiao Wang, <a href="/researchers/isha-chaudhary/">Isha Chaudhary</a>, <a href="/researchers/qian-hu/">Qian Hu</a>, Weitong Ruan, <a href="/researchers/rahul-gupta/">Rahul Gupta</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4009, Pavilion 4 &middot; Thu 23 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="hu2026lipnext">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/HuHF26">LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models</a> <span class="note">(<a href="https://arxiv.org/abs/2601.18513">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/kai-hu/">Kai Hu</a>, Haoqi Hu, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">LipNeXt is a constraint-free, convolution-free 1-Lipschitz architecture trained by manifold optimization on the orthogonal manifold with a Spatial Shift Module; it scales Lipschitz-based certification to 1-2B-parameter ImageNet models, improving certified robust accuracy by up to 8% at ε=1.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#5206, Pavilion 4 &middot; Thu 23 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="bassan2026provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BassanELSKAK26">Provably Explaining Neural Additive Models</a> <span class="note">(<a href="https://arxiv.org/abs/2602.17530">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/yizhak-yisrael-elboher/">Yizhak Yisrael Elboher</a>, <a href="/researchers/tobias-ladner/">Tobias Ladner</a>, Volkan Sahin, Jan Kretínský, <a href="/researchers/matthias-althoff/">Matthias Althoff</a>, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">Generates provably cardinally-minimal sufficient explanations for Neural Additive Models using only logarithmically many verification queries in the number of features after parallel preprocessing; yields smaller explanations and much lower runtime than existing algorithms for the weaker subset-minimal variant.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4303, Pavilion 4 &middot; Thu 23 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="hadad2026formal">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/HadadKB26">Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2602.16823">arXiv</a>)</span>
+
+	<br><span class="authors">Itamar Hadad, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a></span><p class="digest-summary">Uses neural network verification to discover circuits with provable guarantees of input-domain robustness, robust patching and minimality, and links the three theoretically; experiments with verifiers on vision models yield circuits with substantially stronger robustness guarantees than standard circuit discovery.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4414, Pavilion 4 &middot; Thu 23 Apr, 15:15–17:45 (Rio de Janeiro time)</span></p>
+</li>
+<li id="koller2026out">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/KollerLA26">Out of the Shadows: Exploring a Latent Space for Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2505.17854">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/lukas-koller/">Lukas Koller</a>, <a href="/researchers/tobias-ladner/">Tobias Ladner</a>, <a href="/researchers/matthias-althoff/">Matthias Althoff</a></span><p class="digest-summary">Refines inputs for neural network verification by transferring output specifications back through the latent space of zonotope set propagation, shrinking the input set to unsafe regions; the GPU-friendly, matrix-only tool cuts branch-and-bound subproblems and competes with top VNN-COMP tools.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4410, Pavilion 4 &middot; Thu 23 Apr, 15:15–17:45 (Rio de Janeiro time)</span></p>
+</li>
+<li id="bassan2026unifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BassanHK26">Unifying Formal Explanations: A Complexity-Theoretic Perspective</a> <span class="note">(<a href="https://arxiv.org/abs/2602.18160">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/xuanxiang-huang/">Xuanxiang Huang</a>, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">Unifies sufficient and contrastive explanations as minimizing one probabilistic value function whose complexity depends on monotonicity, submodularity and supermodularity; global settings admit polynomial-time algorithms for neural networks, decision trees and tree ensembles, while local versions remain NP-hard.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4903, Pavilion 4 &middot; Thu 23 Apr, 15:15–17:45 (Rio de Janeiro time)</span></p>
+</li>
+<li id="liu2026certifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/LiuYLCZ26">Certifying the Full YOLO Pipeline: A Probabilistic Verification Approach</a>
+
+	<br><span class="authors"><a href="/researchers/zongxin-liu/">Zongxin Liu</a>, Lijia Yu, Tao Lin, <a href="/researchers/zhiming-chi/">Zhiming Chi</a>, <a href="/researchers/lijun-zhang/">Lijun Zhang</a></span><p class="digest-summary">Probabilistically verifies YOLO object detectors against object disappearance by estimating output ranges under input perturbation distributions, formally verifying non-maximum suppression within them, and refining iteratively; it gives comparable guarantees and tighter IoU lower bounds with far fewer samples than existing methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#4205, Pavilion 4 &middot; Fri 24 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="sun2026dual">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SunMV26">Dual Randomized Smoothing: Beyond Global Noise Variance</a> <span class="note">(<a href="https://arxiv.org/abs/2512.01782">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chenhao-sun/">Chenhao Sun</a>, <a href="/researchers/yuhao-mao/">Yuhao Mao</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Dual randomized smoothing certifies robustness with input-dependent noise variances, proven valid when locally constant, using a separately smoothed variance estimator feeding a standard smoothed classifier; on CIFAR-10 it beats prior input-dependent methods by up to 20.0% at 60% inference overhead.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P3-#916, Pavilion 3 &middot; Fri 24 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="wang2026ensembleshap">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WangJ26">EnsembleSHAP: Faithful and Certifiably Robust Attribution for Random Subspace Method</a> <span class="note">(<a href="https://arxiv.org/abs/2603.30034">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yanting-wang/">Yanting Wang</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span><p class="digest-summary">EnsembleSHAP is a feature attribution method for the random subspace method that reuses its computational byproducts, stays efficient, keeps properties such as local accuracy, and is provably robust to explanation-preserving attacks; evaluated against backdoor, adversarial and jailbreak attacks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P4-#3811, Pavilion 4 &middot; Fri 24 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="boumazouza2026fame">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BoumazouzaEDBK26">FAME: Formal Abstract Minimal Explanation for Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2603.10661">arXiv</a>)</span>
+
+	<br><span class="authors">Ryma Boumazouza, Raya Elsaleh, Melanie Ducoffe, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">FAME computes formal abductive explanations for neural networks via abstract interpretation, progressively shrinking dedicated perturbation domains and using LiRPA bounds to discard irrelevant features; against VERIX&#43; it gives smaller explanations and lower runtime on medium- to large-scale networks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P3-#1012, Pavilion 3 &middot; Fri 24 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="mao2026expressiveness">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MaoZV26">Expressiveness of Multi-Neuron Convex Relaxations in Neural Network Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2410.06816">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yuhao-mao/">Yuhao Mao</a>, Yani Zhang, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Analyzes the expressiveness of multi-neuron convex relaxations for ReLU network certification, proving them inherently incomplete (a universal convex barrier), while showing completeness is reachable by adding polynomially many ReLU neurons or by partitioning the input into convex sub-polytopes.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P3-#1901, Pavilion 3 &middot; Fri 24 Apr, 15:15–17:45 (Rio de Janeiro time)</span></p>
+</li>
+<li id="dhar2026certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/DharXPHASZZ26">Certified vs. Empirical Adversarial Robustness via Hybrid Convolutions with Attention Stochasticity</a> <span class="note">(<a href="https://arxiv.org/abs/2605.01519">arXiv</a>)</span>
+
+	<br><span class="authors">Joy Dhar, <a href="/researchers/song-xia/">Song Xia</a>, Manish Kumar Pandey, Maryam Haghighat, Azadeh Alavi, Ferdous Sohel, Wenyu Zhang, Nayyar Zaidi</span><p class="digest-summary">HyCAS couples 1-Lipschitz spectrally normalized convolutions with random projection filters and attention noise, yielding a randomized network that is at most 2-Lipschitz with L2 certificates; it raises certified accuracy by up to 7.3% and empirical robustness by up to 3.1% on imaging benchmarks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P3-#812, Pavilion 3 &middot; Sat 25 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+<li id="froese2026parameterized">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/FroeseGHS26">Parameterized Hardness of Zonotope Containment and Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2509.22849">arXiv</a>)</span>
+
+	<br><span class="authors">Vincent Froese, Moritz Grillo, Christoph Hertrich, Moritz Stargalla</span><p class="digest-summary">Proves parameterized hardness for ReLU network verification: deciding positivity of an ℓ-layer network is W[ℓ−1]-hard in the input dimension, so zonotope non-containment is W[1]-hard; maximum and Lipschitz-constant approximation are also hard, making naive enumeration essentially optimal under the Exponential Time Hypothesis.</p><p class="digest-where"><span><img class="flag" src="/img/flags/br.svg" alt="Brazil" title="Brazil" width="16" height="12" loading="lazy"> <b>Rio de Janeiro</b> &middot; Poster P3-#904, Pavilion 3 &middot; Sat 25 Apr, 10:30–13:00 (Rio de Janeiro time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">ICRA 2026 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="nath2026formal">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra57385.2026.11696753">Formal Safety Verification and Refinement for Generative Motion Planners via Certified Local Stabilization</a>
+
+	<br><span class="authors">Devesh Nath, Haoran Yin, Glen Chou</span><p class="digest-summary">Certifies closed-loop safety of generative motion planners by stabilizing sampled references with a small neural tracking controller and applying neural network verification to obtain reachable sets; verified references are reused online, improving safety for diffusion, flow-matching and vision-language planners in simulation and hardware.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-12/">&larr; December 2025</a>
+<a href="/digest/2026/">All of 2026</a><a href="/digest/2026-02/">February 2026 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

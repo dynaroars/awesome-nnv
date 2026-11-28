@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>May 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-05/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="May 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-05/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>May 2021</h1></header>
+<article>
+<p class="digest-intro">ICML 2021 and RSS 2021 decisions: Lipschitz-based certified training leads, with Skew Orthogonal Convolutions, globally-robust networks and l-infinity-dist neurons. Smoothing work covers certified segmentation, deterministic L1 smoothing and CRFL for federated learning, alongside formal explanations for monotonic classifiers and Lyapunov-stable neural-network control.</p>
+<p>9 NNV papers accepted in May 2021, at ICML 2021 and RSS 2021.</p>
+<h2 class="digest-venue">ICML 2021 &middot; Virtual <span class="note">8 / 1,183 ICML 2021 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="levine2021improved">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/0001F21">Improved, Deterministic Smoothing for L1 Certified Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 22 Jul, 16:00–18:00 (UTC)</span><span><b>Virtual</b> &middot; Oral &middot; Thu 22 Jul, 13:00–13:20 (UTC)</span></p>
+</li>
+<li id="fischer2021scalable">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/FischerBV21">Scalable Certified Segmentation via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2107.00228">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Certifies image and point cloud segmentation with randomized smoothing, using multiple-testing correction and allowing abstention on single pixels or points; achieves competitive accuracy with guarantees on Pascal Context, Cityscapes and ShapeNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 22 Jul, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="singla2021skew">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/0002F21">Skew Orthogonal Convolutions</a> <span class="note">(<a href="https://arxiv.org/abs/2105.11417">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Skew Orthogonal Convolution builds orthogonal, gradient-norm-preserving convolution layers from the exponential of a skew-symmetric Jacobian with a bounded Taylor approximation, training provably Lipschitz CNNs faster with better standard and certified accuracy on CIFAR-10 and CIFAR-100.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 22 Jul, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="xie2021crfl">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Xie0CL21">CRFL: Certifiably Robust Federated Learning against Backdoor Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2106.08283">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chulin-xie/">Chulin Xie</a>, Minghao Chen, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">CRFL trains federated learning models with certified robustness against backdoors by clipping and smoothing model parameters, giving sample-wise certificates tied to poisoning ratio, attacker count and training iterations, and the first benchmark for this setting.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 23 Jul, 04:00–06:00 (UTC)</span></p>
+</li>
+<li id="silva2021explanations">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/icml/0001GCIN21">Explanations for Monotonic Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2106.00154">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/joao-marques-silva/">João Marques-Silva</a>, <a href="/researchers/thomas-gerspacher/">Thomas Gerspacher</a>, <a href="/researchers/martin-c-cooper/">Martin C. Cooper</a>, <a href="/researchers/alexey-ignatiev/">Alexey Ignatiev</a>, <a href="/researchers/nina-narodytska/">Nina Narodytska</a></span><p class="digest-summary">Gives algorithms polynomial in classifier run time and feature count to compute one formal explanation of a black-box monotonic classifier, plus a practical model-agnostic algorithm for enumerating formal explanations.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 23 Jul, 04:00–06:00 (UTC)</span></p>
+</li>
+<li id="leino2021globally">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/LeinoWF21">Globally-Robust Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2102.08452">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/zifan-wang/">Zifan Wang</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Builds globally-robust networks by integrating efficient global Lipschitz bounds into training, producing models certifiable by construction with low time and memory cost; a large Tiny-Imagenet model trains in hours, and local bounds are proved not to raise maximum verifiable accuracy.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 23 Jul, 04:00–06:00 (UTC)</span></p>
+</li>
+<li id="jordan2021provable">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/JordanD21">Provable Lipschitz Certification for Generative Models</a> <span class="note">(<a href="https://arxiv.org/abs/2107.02732">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/matt-jordan/">Matt Jordan</a>, <a href="/researchers/alex-dimakis/">Alex Dimakis</a></span><p class="digest-summary">Upper bounds the Lipschitz constant of generative models by approximating the set of vector-Jacobian products with layerwise zonotope abstractions, giving tight bounds on small networks and scaling to VAE and DCGAN architectures.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 23 Jul, 04:00–06:00 (UTC)</span></p>
+</li>
+<li id="zhang2021towards">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ZhangCLHW21">Towards Certifying L-infinity Robustness using Neural Networks with L-inf-dist Neurons</a> <span class="note">(<a href="https://arxiv.org/abs/2102.05363">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/bohang-zhang/">Bohang Zhang</a>, Tianle Cai, Zhou Lu, <a href="/researchers/di-he/">Di He</a>, <a href="/researchers/liwei-wang/">Liwei Wang</a></span><p class="digest-summary">Introduces l-infinity-dist neurons whose networks are 1-Lipschitz under the l-infinity norm, giving certified robustness from output margins; reaches 93.09% certified accuracy on MNIST, 35.42% on CIFAR-10 and 16.31% on TinyImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 23 Jul, 04:00–06:00 (UTC)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">RSS 2021 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="dai2021lyapunov">
+	<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.15607/rss.2021.xvii.063">Lyapunov-stable neural-network control</a>
+
+	<br><span class="authors"><a href="/researchers/hongkai-dai/">Hongkai Dai</a>, Benoit Landry, <a href="/researchers/lujie-yang/">Lujie Yang</a>, Marco Pavone, <a href="/researchers/russ-tedrake/">Russ Tedrake</a></span><p class="digest-summary">Synthesizes a Lyapunov-stable neural-network controller together with a neural Lyapunov function, verifying the Lyapunov condition as a mixed-integer linear program that either certifies it or returns counterexamples; also inner-approximates the region of attraction, tested on pendulum and quadrotor robots.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-04/">&larr; April 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-06/">June 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

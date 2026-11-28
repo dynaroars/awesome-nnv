@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2022</h1></header>
+<article>
+<p class="digest-intro">AAAI 2023 decisions: formal explanations stand out, with background knowledge for shorter explanations and a feature relevancy algorithm. Other work covers CertiFair for global fairness of ReLU classifiers, confidence-aware training of smoothed classifiers, pointwise certification against poisoning, and control policies with reach-avoid guarantees for stochastic systems.</p>
+<p>6 NNV papers accepted in November 2022, at AAAI 2023.</p>
+<ul class="papers digest"><li id="khedr2023certifair">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i7.25994">CertiFair: A Framework for Certified Global Fairness of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/haitham-khedr/">Haitham Khedr</a>, <a href="/researchers/yasser-shoukry/">Yasser Shoukry</a></span><p class="digest-summary">CertiFair is a sound and complete verifier for global individual fairness of ReLU classifiers under distance-based similarity, returning counterexamples when violated, plus a fairness loss for provably fair training; global individual fairness improves by 96% without significant accuracy loss.</p>
+</li>
+<li id="jeong2023confidence">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i7.25968">Confidence-Aware Training of Smoothed Classifiers for Certified Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/jongheon-jeong/">Jongheon Jeong</a>, Seojin Kim, <a href="/researchers/jinwoo-shin/">Jinwoo Shin</a></span><p class="digest-summary">Training method for randomized-smoothing classifiers that uses accuracy under Gaussian noise as a per-sample proxy for robustness, filtering out samples unlikely to benefit from the adversarial objective; consistently improves certified l2 robustness over earlier training methods.</p>
+</li>
+<li id="yu2023eliminating">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i4.25528">Eliminating the Impossible, Whatever Remains Must Be True: On Extracting and Applying Background Knowledge in the Context of Formal Explanations</a>
+
+	<br><span class="authors">Jinqiang Yu, <a href="/researchers/alexey-ignatiev/">Alexey Ignatiev</a>, <a href="/researchers/peter-j-stuckey/">Peter J. Stuckey</a>, <a href="/researchers/nina-narodytska/">Nina Narodytska</a>, <a href="/researchers/joao-marques-silva/">João Marques-Silva</a></span><p class="digest-summary">Uses background knowledge extracted from data with rule induction to make formal explanations of ML predictions shorter for why questions and more accurate for why-not questions, dropping the assumption that features are independent and uniformly distributed.</p>
+</li>
+<li id="liu2023enhancing">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i7.26065">Enhancing the Antidote: Improved Pointwise Certifications against Poisoning Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Pointwise certification against poisoning attacks that modify a bounded number of training samples, built on differential privacy and the Sampled Gaussian Mechanism; the certified robustness guarantees are more than twice as large as those of earlier certifications.</p>
+</li>
+<li id="zikelic2023learning">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i10.26407">Learning Control Policies for Stochastic Systems with Reach-Avoid Guarantees</a>
+
+	<br><span class="authors"><a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a></span><p class="digest-summary">Learns controllers for discrete-time nonlinear stochastic systems with infinite-horizon probabilistic reach-avoid guarantees, using neural reach-avoid supermartingales as certificates; supports learning policies from scratch, verifying fixed policies or fine-tuning, validated on 3 stochastic RL tasks.</p>
+</li>
+<li id="huang2023solving">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1609/aaai.v37i4.25514">Solving Explainability Queries with Quantification: The Case of Feature Relevancy</a>
+
+	<br><span class="authors"><a href="/researchers/xuanxiang-huang/">Xuanxiang Huang</a>, <a href="/researchers/yacine-izza/">Yacine Izza</a>, <a href="/researchers/joao-marques-silva/">João Marques-Silva</a></span><p class="digest-summary">Algorithm for the feature relevancy problem, deciding whether a feature can appear in some explanation of a prediction, applicable to any classifier meeting minor requirements; on random forests it outperforms QBF solvers by orders of magnitude.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-10/">&larr; October 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-12/">December 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

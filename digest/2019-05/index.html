@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>May 2019 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2019-05/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="May 2019">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2019-05/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>May 2019</h1></header>
+<article>
+<p class="digest-intro">IJCAI 2019 decisions: Robustra trains provably robust networks over a reference model&#39;s adversarial space, while other titles address statistical robustness guarantees for Bayesian neural networks, differential privacy with provable robustness, and counterexample-guided strategy improvement for POMDPs using recurrent neural networks.</p>
+<p>5 NNV papers accepted in May 2019, at IJCAI 2019 and S&amp;P 2019. 1 of them is placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">IJCAI 2019 <span class="note">4 papers</span></h2>
+<ul class="papers digest"><li id="carr2019counterexample">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2019/768">Counterexample-Guided Strategy Improvement for POMDPs Using Recurrent Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1903.08428">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, Ralf Wimmer, Alexandru Constantin Serban, Bernd Becker, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span><p class="digest-summary">Synthesizes POMDP strategies that provably satisfy temporal logic constraints by training an RNN, restricting it to a finite-memory strategy, verifying the induced Markov chain and retraining from counterexamples, improving the state of the art by up to three orders of magnitude in solving time and model size.</p>
+</li>
+<li id="phan2019heterogeneous">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2019/660">Heterogeneous Gaussian Mechanism: Preserving Differential Privacy in Deep Learning with Provable Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/1906.01444">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/nhathai-phan/">NhatHai Phan</a>, <a href="/researchers/minh-n-vu/">Minh N. Vu</a>, <a href="/researchers/yang-liu/">Yang Liu</a>, <a href="/researchers/ruoming-jin/">Ruoming Jin</a>, <a href="/researchers/dejing-dou/">Dejing Dou</a>, Xintao Wu, <a href="/researchers/my-t-thai/">My T. Thai</a></span><p class="digest-summary">Preserves differential privacy in deep networks with a Heterogeneous Gaussian Mechanism that relaxes the privacy budget constraint to (0, ∞) and allows arbitrary noise redistribution; injecting this noise into the first hidden layer yields a tighter provable robustness bound against adversarial examples.</p>
+</li>
+<li id="li2019robustra">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2019/654">Robustra: Training Provable Robust Neural Networks over Reference Adversarial Space</a>
+
+	<br><span class="authors"><a href="/researchers/linyi-li/">Linyi Li</a>, Zexuan Zhong, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/tao-xie/">Tao Xie</a></span><p class="digest-summary">Robustra trains provably robust DNNs by solving the attacker-defender min-max game over a reference model&#39;s adversarial space through a linearized dual. On MNIST it cuts the ℓ∞ provable error bound from 2.74% to 2.09% at ε=0.1 and 24.19% to 16.91% at ε=0.3.</p>
+</li>
+<li id="cardelli2019statistical">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2019/789">Statistical Guarantees for the Robustness of Bayesian Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1903.01980">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/luca-cardelli/">Luca Cardelli</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a>, <a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/nicola-paoletti/">Nicola Paoletti</a>, <a href="/researchers/andrea-patane/">Andrea Patanè</a>, <a href="/researchers/matthew-wicker/">Matthew Wicker</a></span><p class="digest-summary">Defines probabilistic robustness for Bayesian neural networks as the probability that an adversarial point exists in a bounded set, and estimates it with a priori error and confidence bounds using statistical verification, comparing approximate inference techniques on MNIST and a two-class subset of GTSRB.</p>
+</li>
+</ul>
+<h2 class="digest-venue">S&amp;P 2019 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="lecuyer2019certified">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/sp.2019.00044">Certified Robustness to Adversarial Examples with Differential Privacy</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/mathias-lecuyer/">Mathias Lécuyer</a>, <a href="/researchers/vaggelis-atlidakis/">Vaggelis Atlidakis</a>, <a href="/researchers/roxana-geambasu/">Roxana Geambasu</a>, <a href="/researchers/daniel-hsu/">Daniel Hsu</a>, <a href="/researchers/suman-jana/">Suman Jana</a></span><p class="digest-summary">PixelDP certifies robustness to norm-bounded adversarial examples using a connection to differential privacy, the first certified defense that scales to large networks and datasets such as Inception on ImageNet and applies to arbitrary model types.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-04/">&larr; April 2019</a>
+<a href="/digest/2019/">All of 2019</a><a href="/digest/2019-07/">July 2019 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

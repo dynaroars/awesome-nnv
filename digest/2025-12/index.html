@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>December 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-12/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="December 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-12/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>December 2025</h1></header>
+<article>
+<p class="digest-intro">FSE 2026 and OOPSLA 2026 decisions: complete ReLU verification with fewer binary variables through SART, precondition synthesis with statistical guarantees via StatPre, and structural robustness verification of DNNs with VeriS.</p>
+<p>3 NNV papers accepted in December 2025, at FSE 2026 and OOPSLA 2026.</p>
+<h2 class="digest-venue">FSE 2026 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="liu2026precondition">
+	<a class="tag-link" href="/conferences/fse/"><span class="tag accepted">FSE 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1145/3797151">Precondition Synthesis for Deep Neural Networks with Statistical Guarantees</a>
+
+	<br><span class="authors">Zengyu Liu, <a href="/researchers/bai-xue/">Bai Xue</a>, <a href="/researchers/pengfei-yang/">Pengfei Yang</a>, <a href="/researchers/ji-wang/">Ji Wang</a></span><p class="digest-summary">Synthesizes preconditions for deep neural networks with statistical guarantees via StatPre, a select-and-solve framework using Box-based abstraction, cluster-based center selection and statistical model approximation; on 15 models and 27 properties from 6 benchmarks it gives broader coverage than 4 existing schemes.</p>
+</li>
+<li id="duong2026verifyingb">
+	<a class="tag-link" href="/conferences/fse/"><span class="tag accepted">FSE 2026</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3797095">Verifying Structural Robustness of Deep Neural Network</a>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/thanh-le/">Thanh Le</a>, <a href="/researchers/lam-nguyen/">Lam Nguyen</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a></span><p class="digest-summary">Verifies structural robustness of DNNs against coordinated linear position-invariant and position-varying perturbations; VeriS encodes these perturbations as subnetworks so existing local-robustness verifiers apply, verifying 78% of 5508 problems across image, audio and healthcare networks.</p>
+</li>
+</ul>
+<h2 class="digest-venue">OOPSLA 2026 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="xu2026sart">
+	<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1145/3798237">SART: Sign-Absolute Reformulation Theory for Binary Variable Reduction in Neural Network Verification</a>
+
+	<br><span class="authors">Jin Xu, Miaomiao Zhang, Bowen Du</span><p class="digest-summary">SART cuts the binary variables needed for complete ReLU network verification below one per unstable neuron, proving final-layer variables can be halved; the LayerABS verifier extends the gain to all layers through progressive tightening and outperforms existing baselines across benchmarks.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-11/">&larr; November 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2026-01/">January 2026 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

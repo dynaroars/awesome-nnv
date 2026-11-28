@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2017 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2017-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2017">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2017-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2017</h1></header>
+<article>
+<p class="digest-intro">CAV 2017 decisions: complete verification arrives with Reluplex, an SMT solver extending the simplex method to ReLU networks and evaluated on ACAS Xu collision-avoidance networks, alongside safety verification of deep neural networks.</p>
+<p>2 NNV papers accepted in April 2017, at CAV 2017.</p>
+<ul class="papers digest"><li id="katz2017reluplex">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2017</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-319-63387-9_5">Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1702.01135">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a>, <a href="/researchers/david-l-dill/">David L. Dill</a>, <a href="/researchers/kyle-julian/">Kyle Julian</a>, <a href="/researchers/mykel-j-kochenderfer/">Mykel J. Kochenderfer</a></span><p class="digest-summary">Reluplex verifies properties of deep ReLU networks, or finds counterexamples, by extending the simplex method to handle the non-convex ReLU; on ACAS Xu collision-avoidance networks it proves properties of networks an order of magnitude larger than before.</p>
+</li>
+<li id="huang2017safety">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2017</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-319-63387-9_1">Safety Verification of Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1610.06940">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/xiaowei-huang/">Xiaowei Huang</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a>, Sen Wang, <a href="/researchers/min-wu/">Min Wu</a></span><p class="digest-summary">Verifies safety of feed-forward image classifiers with an SMT-based framework that discretizes a neighbourhood of an input under manipulations such as scratches, camera angle or lighting, and propagates the analysis layer by layer, guaranteeing to find adversarial examples if any exist; implemented with Z3.</p>
+</li>
+</ul>
+<nav class="digest-nav">
+<a href="/digest/2017/">All of 2017</a><a href="/digest/2017-06/">June 2017 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

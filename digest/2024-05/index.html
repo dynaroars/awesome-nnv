@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>May 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-05/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="May 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-05/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>May 2024</h1></header>
+<article>
+<p class="digest-intro">ICML 2024 and RSS 2024 decisions: randomized smoothing and conformal prediction lead, from hierarchical segmentation certification and smoothed DRL agents to C-RAG for retrieval-augmented language models. Other directions include ∂-CROWN for physics-informed neural networks, relational verification with RACoon, Lyapunov-stable neural control, and POLICEd RL for robot policies with hard constraints.</p>
+<p>18 NNV papers accepted in May 2024, at ICML 2024 and RSS 2024.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> ICML 2024 &middot; Vienna, Austria <span class="note">17 / 2,530 ICML 2024 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="shu2024effects">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ShuXWCCX0024">Effects of Exponential Gaussian Distribution on (Double Sampling) Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2406.02309">arXiv</a>)</span>
+
+	<br><span class="authors">Youwei Shu, Xi Xiao, <a href="/researchers/derui-wang/">Derui Wang</a>, Yuxin Cao, Siji Chen, <a href="/researchers/minhui-xue/">Minhui Xue</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Studies Exponential Standard Gaussian and Exponential General Gaussian smoothing distributions for randomized smoothing and Double Sampling Randomized Smoothing, deriving certified radius formulas and tighter l2 lower bounds; EGG raises DSRS certified accuracy by up to 6.4% on ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2709, Hall C 4-9 &middot; Tue 23 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="havens2024fine">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/icml/HavensAZ024">Fine-grained Local Sensitivity Analysis of Standard Dot-Product Self-Attention</a>
+
+	<br><span class="authors"><a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span><p class="digest-summary">LoFAST analyzes the local sensitivity of dot-product self-attention to l2 input perturbations, showing it is controlled by the attention weight matrices and the unperturbed input, and yields non-vacuous certified l2 robustness for vision transformers on CIFAR-10 and SVHN.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #1007, Hall C 4-9 &middot; Tue 23 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="yang2024lyapunov">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/icml/YangDSHT024">Lyapunov-stable Neural Control for State and Output Feedback: A Novel Formulation</a> <span class="note">(<a href="https://arxiv.org/abs/2404.07956">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/lujie-yang/">Lujie Yang</a>, <a href="/researchers/hongkai-dai/">Hongkai Dai</a>, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/russ-tedrake/">Russ Tedrake</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span><p class="digest-summary">Learns neural network controllers and observers with Lyapunov certificates over a larger verifiable region of attraction, using fast falsification in training and post-hoc branch-and-bound with linear bound propagation instead of SOS, MIP or SMT solvers; gives formally stable output feedback control.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #317, Hall C 4-9 &middot; Tue 23 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="banerjee2024relational">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Banerjee024">Relational DNN Verification With Cross Executional Bound Refinement</a> <span class="note">(<a href="https://arxiv.org/abs/2405.10143">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">RACoon verifies relational properties of DNNs, such as robustness to universal adversarial perturbations and worst-case hamming distance, by exploiting cross-execution dependencies at every layer, gaining substantial precision over existing baselines across datasets, networks and properties.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2415, Hall C 4-9 &middot; Tue 23 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="entesari2024compositional">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/EntesariSF24">Compositional Curvature Bounds for Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2406.05119">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/taha-entesari/">Taha Entesari</a>, <a href="/researchers/sina-sharifi/">Sina Sharifi</a>, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a></span><p class="digest-summary">Bounds the second derivative of continuously differentiable deep networks layer by layer, using the curvature bound with local gradients to give robustness and attack certificates and as a differentiable training regularizer; evaluated on MNIST and CIFAR-10 classification.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #916, Hall C 4-9 &middot; Tue 23 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="eiras2024efficient">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/EirasBBD0K24">Efficient Error Certification for Physics-Informed Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2305.10157">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/francisco-eiras/">Francisco Eiras</a>, <a href="/researchers/adel-bibi/">Adel Bibi</a>, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary">∂-CROWN certifies the worst-case residual error of physics-informed neural networks over their whole continuous domain after training, giving tight certificates for PINNs solving Burgers&#39;, Schrödinger&#39;s, Allan-Cahn and Diffusion-Sorption equations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #816, Hall C 4-9 &middot; Tue 23 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="lai2024collective">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/LaiPCY024">Collective Certified Robustness against Graph Injection Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2403.01423">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/bailin-pan/">Bailin Pan</a>, Kaihuang Chen, Yancheng Yuan, <a href="/researchers/kai-zhou/">Kai Zhou</a></span><p class="digest-summary">Certifies a set of target nodes in graph neural networks at once against graph injection attacks by formulating a binary integer quadratic constrained program and relaxing it to a linear program; on Citeseer the certified ratio rises from 0.0% to 81.2%.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #904, Hall C 4-9 &middot; Wed 24 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="yadav2024fairproof">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Yadav0BC24">FairProof : Confidential and Certifiable Fairness for Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2402.12572">arXiv</a>)</span>
+
+	<br><span class="authors">Chhavi Yadav, Amrita Roy Chowdhury, Dan Boneh, Kamalika Chaudhuri</span><p class="digest-summary">FairProof publicly verifies the fairness of a confidential fully-connected neural network with zero-knowledge proofs, using a fairness certification algorithm designed to suit such proofs; it is implemented in Gnark and shown to be practically feasible.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2304, Hall C 4-9 &middot; Wed 24 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="kang2024certifiably">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/KangL0X024">Certifiably Byzantine-Robust Federated Conformal Prediction</a> <span class="note">(<a href="https://arxiv.org/abs/2406.01960">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, Zhen Lin, Jimeng Sun, Cao Xiao, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Rob-FCP makes federated conformal prediction robust to Byzantine clients reporting arbitrary statistics, with a proven coverage bound asymptotically near the target and an estimator for an unknown number of malicious clients, evaluated on five benchmark and healthcare datasets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2512, Hall C 4-9 &middot; Wed 24 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="bassan2024local">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/icml/BassanAK24">Local vs. Global Interpretability: A Computational Complexity Perspective</a> <span class="note">(<a href="https://arxiv.org/abs/2406.02981">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">Uses computational complexity to compare local and global explanations for linear models, decision trees and neural networks, proving that finding global sufficient subsets is harder than local ones for linear models, while the reverse holds for neural networks and decision trees.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2410, Hall C 4-9 &middot; Wed 24 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="zargarbashi2024robust">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ZargarbashiAB24">Robust Yet Efficient Conformal Prediction Sets</a> <span class="note">(<a href="https://arxiv.org/abs/2407.09165">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/soroush-h-zargarbashi/">Soroush H. Zargarbashi</a>, <a href="/researchers/mohammad-sadegh-akhondzadeh/">Mohammad Sadegh Akhondzadeh</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary">Makes conformal prediction sets provably robust to evasion and calibration poisoning by bounding the worst-case change in conformity scores; tighter bounds give smaller sets, covering continuous and sparse discrete data and attacks on both features and labels.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2313, Hall C 4-9 &middot; Wed 24 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="baninajjar2024vnn">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/BaninajjarRA24">VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2312.09748">arXiv</a>)</span>
+
+	<br><span class="authors">Anahita Baninajjar, Ahmed Rezine, Amir Aminifar</span><p class="digest-summary">Generates verification-friendly neural networks with a post-training optimization that keeps prediction performance close to the original DNN while making the network easier for formal verifiers, so robustness can be established for more networks in less time.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #911, Hall C 4-9 &middot; Wed 24 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+<li id="anani2024adaptive">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Anani0SF24">Adaptive Hierarchical Certification for Segmentation using Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2402.08400">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alaa-anani/">Alaa Anani</a>, <a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a href="/researchers/bernt-schiele/">Bernt Schiele</a>, <a href="/researchers/mario-fritz/">Mario Fritz</a></span><p class="digest-summary">Certifies semantic segmentation with randomized smoothing over a class hierarchy, relaxing unstable pixels to coarser classes instead of abstaining, and introduces the Certified Information Gain metric; on Cityscapes, PASCAL-Context, ACDC and COCO-Stuff it lowers abstain rate and raises CIG.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #801, Hall C 4-9 &middot; Thu 25 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="sun2024breaking">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/icml/SunGW24">Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents</a> <span class="note">(<a href="https://arxiv.org/abs/2406.18062">arXiv</a>)</span>
+
+	<br><span class="authors">Chung-En Sun, <a href="/researchers/sicun-gao/">Sicun Gao</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a></span><p class="digest-summary">S-DQN and S-PPO train randomized-smoothing DRL agents with better clean reward, empirical robustness and robustness guarantees, beating existing smoothed agents by 2.16x and robustly trained agents by 2.13x on average under the strongest attack; a stronger Smoothed Attack is also introduced.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #700, Hall C 4-9 &middot; Thu 25 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="kang2024c">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/KangGYS024">C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models</a> <span class="note">(<a href="https://arxiv.org/abs/2402.03181">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/nezihe-merve-gurel/">Nezihe Merve Gürel</a>, Ning Yu, <a href="/researchers/dawn-song/">Dawn Song</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">C-RAG certifies generation risks of retrieval-augmented language models through conformal risk analysis, giving an upper confidence bound that also holds under distribution shift, and proves RAG attains lower conformal generation risk than a single LLM given non-trivial retrieval quality.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #2402, Hall C 4-9 &middot; Thu 25 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="hojny2024verifying">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/HojnyZCM24">Verifying message-passing neural networks via topology-based bounds tightening</a> <span class="note">(<a href="https://arxiv.org/abs/2402.13937">arXiv</a>)</span>
+
+	<br><span class="authors">Christopher Hojny, Shiqiang Zhang, Juan S. Campos, <a href="/researchers/ruth-misener/">Ruth Misener</a></span><p class="digest-summary">Certifies robustness of ReLU message-passing neural networks with mixed-integer optimization, handling edge addition and removal, global and local budgets and feature changes, and tightening bounds using graph topology; implemented as an extension of the SCIP branch-and-cut solver.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #1001, Hall C 4-9 &middot; Thu 25 Jul, 11:30–13:00 (Vienna time)</span></p>
+</li>
+<li id="meng2024physics">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/icml/MengZMFS024">Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2402.10119">arXiv</a>)</span>
+
+	<br><span class="authors">Yiming Meng, <a href="/researchers/ruikun-zhou/">Ruikun Zhou</a>, Amartya Mukherjee, Maxwell Fitzsimmons, Christopher Song, <a href="/researchers/jun-liu/">Jun Liu</a></span><p class="digest-summary">Proposes extreme learning machine and physics-informed neural network variants of policy iteration for nonlinear optimal control with convergence guarantees, outperforming Galerkin methods, and applies formal verification to show the resulting controllers are stable.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #1214, Hall C 4-9 &middot; Thu 25 Jul, 13:30–15:00 (Vienna time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">RSS 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="bouvier2024policed">
+	<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.15607/rss.2024.xx.104">POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints</a>
+
+	<br><span class="authors">Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr</span><p class="digest-summary">POLICEd RL learns robot control policies that provably satisfy affine hard state constraints with a black-box environment by making the policy affine around the unsafe set as a repulsive buffer; it works with any RL training algorithm and outperforms existing methods.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-04/">&larr; April 2024</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-06/">June 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2023</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2023, CCS 2023, NDSS 2024 and USENIX Security 2024 decisions: certified training and randomized smoothing lead, from deterministic certification on ImageNet with LiResNet to hierarchical and diffusion-based smoothing. Neural control appears through barrier functions, Lyapunov control and compositional policy learning, while INVPROP bounds preimages, VeriX targets verified explainability, and TextGuard and CBD address backdoors.</p>
+<p>24 NNV papers accepted in September 2023, at CCS 2023, NDSS 2024, NeurIPS 2023 and USENIX Security 2024.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> NeurIPS 2023 &middot; New Orleans, United States <span class="note">21 / 3,186 NeurIPS 2023 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="pfrommer2023asymmetric">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/PfrommerAPS23">Asymmetric Certified Robustness via Feature-Convex Neural Networks</a>
+
+	<br><span class="authors">Samuel Pfrommer, Brendon G. Anderson, Julien Piet, Somayeh Sojoudi</span><p class="digest-summary">Feature-convex neural networks, composing an input-convex network with a Lipschitz feature map, give deterministic closed-form certified radii for any ℓp norm on a sensitive class in asymmetric binary classification, reaching state-of-the-art certified ℓ1 radii on malware and image datasets efficiently.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #803, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="wicker2023certification">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/WickerPW23">Certification of Distributional Individual Fairness</a>
+
+	<br><span class="authors"><a href="/researchers/matthew-wicker/">Matthew Wicker</a>, Vihari Piratla, <a href="/researchers/adrian-weller/">Adrian Weller</a></span><p class="digest-summary">Certifies distributional individual fairness of neural networks, guaranteeing fair predictions for all distributions in a γ-Wasserstein ball around the data, via a convex approximation of individual fairness constraints and quasi-convex optimization; scales to networks orders of magnitude larger than prior work.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #2004, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="xue2023stability">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/XueA023">Stability Guarantees for Feature Attributions with Multiplicative Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/anton-xue/">Anton Xue</a>, <a href="/researchers/rajeev-alur/">Rajeev Alur</a>, <a href="/researchers/eric-wong/">Eric Wong</a></span><p class="digest-summary">Multiplicative Smoothing (MuS) makes a classifier Lipschitz with respect to feature masking, which provably yields relaxed stability guarantees for feature attributions; it works with any classifier and attribution method, including LIME and SHAP, on vision and language models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1625, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="ye2023unit">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Ye0ZDCWM23">UniT: A Unified Look at Certified Robust Training against Text Adversarial Perturbation</a>
+
+	<br><span class="authors">Muchao Ye, Ziyi Yin, Tianrong Zhang, <a href="/researchers/tianyu-du/">Tianyu Du</a>, Jinghui Chen, <a href="/researchers/ting-wang/">Ting Wang</a>, Fenglong Ma</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1700, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="zhang2023exact">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Zhang0V023">Exact Verification of ReLU Neural Control Barrier Functions</a>
+
+	<br><span class="authors"><a href="/researchers/hongchao-zhang/">Hongchao Zhang</a>, <a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a></span><p class="digest-summary">Exactly verifies safety of ReLU neural control barrier functions using a generalized Nagumo theorem for nonsmooth boundaries: the barrier is split into linear segments, each checked by a nonlinear program, with pruning by IBP and linear relaxation; compared against SMT-based methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1024, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 17:15–19:15 (New Orleans time)</span></p>
+</li>
+<li id="havens2023exploiting">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HavensAGK023">Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models</a>
+
+	<br><span class="authors"><a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/siddharth-garg/">Siddharth Garg</a>, <a href="/researchers/farshad-khorrami/">Farshad Khorrami</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #711, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 17:15–19:15 (New Orleans time)</span></p>
+</li>
+<li id="scholten2023hierarchical">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ScholtenSBG23">Hierarchical Randomized Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Hierarchical randomized smoothing certifies models against adversaries that perturb only a subset of entities, such as pixels or nodes, by adding noise to a randomly chosen subset of entities; it gives certificates for discrete and continuous domains with better robustness-accuracy trade-offs.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #715, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 17:15–19:15 (New Orleans time)</span></p>
+</li>
+<li id="wu2023neural">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/00010KV23">Neural Lyapunov Control for Discrete-Time Systems</a>
+
+	<br><span class="authors"><a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a>, <a href="/researchers/yiannis-kantaros/">Yiannis Kantaros</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span><p class="digest-summary">Learns provably stable neural Lyapunov controllers for discrete-time nonlinear systems, verifying Lyapunov conditions with mixed-integer linear programming, computing verified sublevel sets and finding counterexamples by gradient search; it beats baselines by an order of magnitude on path tracking.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1025, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Tue 12 Dec, 17:15–19:15 (New Orleans time)</span></p>
+</li>
+<li id="xiang2023cbd">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/XiangXL23">CBD: A Certified Backdoor Detector Based on Local Dominant Probability</a>
+
+	<br><span class="authors">Zhen Xiang, Zidi Xiong, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">CBD is a certified backdoor detector based on conformal prediction with a local dominant probability statistic, giving detection conditions and a false positive rate bound; for ℓ2-bounded random triggers it reaches certified true positive rates up to 98% on GTSRB and CIFAR-10.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1619, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="fazlyab2023certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/FazlyabERC23">Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization</a>
+
+	<br><span class="authors"><a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a>, <a href="/researchers/taha-entesari/">Taha Entesari</a>, Aniket Roy, Rama Chellappa</span><p class="digest-summary">Trains certifiably robust classifiers by enlarging the logit margin while regularizing the Lipschitz constant along vulnerable directions, using a scalable method for differentiable guaranteed Lipschitz upper bounds; reports competitive improvements on MNIST, CIFAR-10 and Tiny-ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #720, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="kotha2023provably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/KothaBKD023">Provably Bounding Neural Network Preimages</a>
+
+	<br><span class="authors">Suhas Kotha, <a href="/researchers/christopher-brix/">Christopher Brix</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span><p class="digest-summary">INVPROP over-approximates neural network preimages, the inputs that lead to a linearly constrained output set, on GPU without an LP solver and with branch-and-bound; in some settings it is over 2500x tighter and 2.5x faster than prior work, and ships in α,β-CROWN.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #713, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="wang2023temporal">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/0002F23">Temporal Robustness against Data poisoning</a>
+
+	<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Proposes a temporal threat model for data poisoning based on data timestamps, with earliness and duration metrics, defines temporal robustness, provides a benchmark simulating continual data collection, and gives a temporal aggregation baseline with provable temporal robustness even against unbounded poisoned samples.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1624, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="wu2023verix">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Wu0B23">VeriX: Towards Verified Explainability of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span><p class="digest-summary">VeriX computes optimal robust explanations and counterfactuals along decision boundaries of machine learning models, building them iteratively with constraint solving and a feature-level sensitivity ranking heuristic; evaluated on image recognition benchmarks and autonomous aircraft taxiing.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1511, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="zikelic2023compositional">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZikelicLVCH23">Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees</a>
+
+	<br><span class="authors"><a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/abhinav-verma/">Abhinav Verma</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span><p class="digest-summary">Learns compositions of neural network policies for stochastic control with a formal certificate that a SpectRL specification holds with a target probability, using reach-avoid supermartingales per sub-task and a tighter reach-avoid probability bound; evaluated on Stochastic Nine Rooms.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1516, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 17:00–19:00 (New Orleans time)</span></p>
+</li>
+<li id="mao2023connecting">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MaoM0V23">Connecting Certified and Adversarial Training</a>
+
+	<br><span class="authors"><a href="/researchers/yuhao-mao/">Yuhao Mao</a>, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Combines IBP and PGD in TAPS, an unsound certified training method that optimizes more precise worst-case loss approximations to reduce over-regularization, raising both certified and standard accuracy and setting a new state of the art in many settings, such as 22% certified accuracy on TinyImageNet at ℓ∞ radius 1/255.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1708, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 17:00–19:00 (New Orleans time)</span></p>
+</li>
+<li id="hu2023unlocking">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HuZWLF23">Unlocking Deterministic Robustness Certification on ImageNet</a>
+
+	<br><span class="authors"><a href="/researchers/kai-hu/">Kai Hu</a>, Andy Zou, <a href="/researchers/zifan-wang/">Zifan Wang</a>, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Scales deterministic Lipschitz-based robustness certification to ImageNet with the LiResNet architecture, whose residual block admits tight Lipschitz bounds, and the EMMA loss that penalizes worst-case adversaries from all classes; also gives the best ℓ2 certified accuracy on CIFAR-10/100 and Tiny-ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #801, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Wed 13 Dec, 17:00–19:00 (New Orleans time)</span></p>
+</li>
+<li id="schuchardt2023provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SchuchardtSG23">(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More</a>
+
+	<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Defines adversarial robustness that accounts for task equivariances such as rotation or permutation, and shows it is provable with equivariant models plus standard certification; introduces equivariance-preserving randomized smoothing and the first graph edit distance certificates for node classification.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #800, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Thu 14 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="lin2023certifiably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LinXDZW23">Certifiably Robust Graph Contrastive Learning</a>
+
+	<br><span class="authors">Minhua Lin, Teng Xiao, Enyan Dai, Xiang Zhang, Suhang Wang</span><p class="digest-summary">Certifies robustness of graph contrastive learning against structure and attribute attacks with RES (Randomized Edgedrop Smoothing), which works for any GCL model and preserves the certificate in downstream tasks; also proposes a training method for robust GCL.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #811, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Thu 14 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="huang2023rs">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HuangMLBOR23">RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion</a>
+
+	<br><span class="authors"><a href="/researchers/zhuoqun-huang/">Zhuoqun Huang</a>, <a href="/researchers/neil-g-marchant/">Neil G. Marchant</a>, Keane Lucas, Lujo Bauer, <a href="/researchers/olga-ohrimenko/">Olga Ohrimenko</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">RS-Del certifies sequence classifiers against edit-distance-bounded adversaries via randomized deletion smoothing, with a certification proof built on longest common subsequences; on the MalConv malware detector it reaches 91% certified accuracy at an edit distance radius of 128 bytes.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #801, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Thu 14 Dec, 10:45–12:45 (New Orleans time)</span></p>
+</li>
+<li id="jeong2023multi">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JeongS23">Multi-scale Diffusion Denoised Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/jongheon-jeong/">Jongheon Jeong</a>, <a href="/researchers/jinwoo-shin/">Jinwoo Shin</a></span><p class="digest-summary">Improves denoised smoothing with diffusion models by selectively smoothing across multiple noise scales with one diffusion model, plus fine-tuning it to denoise consistently when the image is recoverable; this gives strong certified robustness at high noise while keeping accuracy near non-smoothed classifiers.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1621, Great Hall &amp; Hall B1&#43;B2 (level 1) &middot; Thu 14 Dec, 17:00–19:00 (New Orleans time)</span></p>
+</li>
+<li id="tian2023boosting">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TianZ0WC023">Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/jiaxu-tian/">Jiaxu Tian</a>, <a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, <a href="/researchers/si-liu/">Si Liu</a>, <a href="/researchers/peixin-wang/">Peixin Wang</a>, <a href="/researchers/cheng-chen/">Cheng Chen</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="dahiya2024machine">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/uss/DahiyaS024">Machine Learning needs Better Randomness Standards: Randomised Smoothing and PRNG-based attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2306.14043">arXiv</a>)</span>
+
+	<br><span class="authors">Pranav Dahiya, Ilia Shumailov, Ross Anderson</span><p class="digest-summary">Shows that backdooring the random number generator used by randomised smoothing can make certification over- or underestimate robustness by up to 81 times, with tiny changes that NIST randomness tests miss, and argues for updated NIST guidelines for machine learning.</p>
+</li>
+</ul>
+<h2 class="digest-venue">CCS 2023 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="xie2023unraveling">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1145/3576915.3623193">Unraveling the Connections between Privacy and Certified Robustness in Federated Learning Against Poisoning Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/chulin-xie/">Chulin Xie</a>, Yunhui Long, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, Qinbin Li, <a href="/researchers/sanmi-koyejo/">Sanmi Koyejo</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Studies how differential privacy in federated learning yields certified robustness against poisoning, giving certified prediction and certified attack inefficacy at user and instance levels; stronger privacy improves certified attack inefficacy but not necessarily certified prediction.</p>
+</li>
+</ul>
+<h2 class="digest-venue">NDSS 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="pei2024textguard">
+	<a class="tag-link" href="/conferences/ndss/"><span class="tag accepted">NDSS 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/ndss/Pei000S24">TextGuard: Provable Defense against Backdoor Attacks on Text Classification</a>
+
+	<br><span class="authors"><a href="/researchers/hengzhi-pei/">Hengzhi Pei</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/wenbo-guo/">Wenbo Guo</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/dawn-song/">Dawn Song</a></span><p class="digest-summary">TextGuard is a provable defense against backdoor attacks on text classification: it splits training sentences into sub-sentences to form sub-training sets, trains an ensemble, and guarantees unchanged predictions when the trigger length is below a threshold, beating prior certified defenses.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-08/">&larr; August 2023</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-10/">October 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

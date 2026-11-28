@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>February 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-02/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="February 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-02/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>February 2025</h1></header>
+<article>
+<p class="digest-intro">CVPR 2025 decisions: certification of human trajectory prediction, deterministic GNN certification against graph poisoning with PGNNCert, PatchDEMUX for multi-label patch defense, and tighter MaxPool verification with Ti-Lin.</p>
+<p>4 NNV papers accepted in February 2025, at CVPR 2025.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> CVPR 2025 &middot; Nashville, United States <span class="note">4 / 2,870 CVPR 2025 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="li2025deterministic">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1109/cvpr52734.2025.00473">Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations</a>
+
+	<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/meng-pang/">Meng Pang</a>, <a href="/researchers/yun-dong/">Yun Dong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span><p class="digest-summary">Certifies GNNs against training-time poisoning with PGNNCert, giving deterministic guarantees under arbitrary edge, node and node-feature perturbations for node and graph classification; it significantly outperforms prior certified defenses limited to edge or node perturbations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Nashville</b> &middot; Poster #464, ExHall D &middot; Fri 13 Jun, 10:30–12:30 (Nashville time)</span></p>
+</li>
+<li id="jacob2025patchdemux">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52734.2025.00929">PatchDEMUX: A Certifiably Robust Framework for Multi-label Classifiers Against Adversarial Patches</a>
+
+	<br><span class="authors">Dennis Jacob, <a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">Extends single-label certifiable patch defenses to multi-label classifiers with PatchDEMUX, treating the task as isolated binary problems, plus a tighter procedure for single-patch attackers; with PatchCleanser as backbone it achieves non-trivial robustness on MS-COCO and PASCAL VOC with high clean performance.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Nashville</b> &middot; Poster #435, ExHall D &middot; Fri 13 Jun, 16:00–18:00 (Nashville time)</span></p>
+</li>
+<li id="bahari2025certified">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a> <span class="tag other">highlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52734.2025.01148">Certified Human Trajectory Prediction</a>
+
+	<br><span class="authors">Mohammadhossein Bahari, Saeed Saadatnejad, Amirhossein Askari-Farsangi, Seyed-Mohsen Moosavi-Dezfooli, Alexandre Alahi</span><p class="digest-summary">Certifies human trajectory prediction models against noisy or adversarial inputs, addressing unbounded and multi-modal outputs, with a diffusion-based trajectory denoiser to limit performance loss and new certified performance metrics; certified predictors show accuracy and robustness advantages over non-certified ones.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Nashville</b> &middot; Poster #158, ExHall D &middot; Sat 14 Jun, 10:30–12:30 (Nashville time)</span></p>
+</li>
+<li id="xiao2025tightening">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr52734.2025.01927">Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone</a>
+
+	<br><span class="authors"><a href="/researchers/yuan-xiao/">Yuan Xiao</a>, <a href="/researchers/yuchen-chen/">Yuchen Chen</a>, <a href="/researchers/shiqing-ma/">Shiqing Ma</a>, <a href="/researchers/chunrong-fang/">Chunrong Fang</a>, <a href="/researchers/tongtong-bai/">Tongtong Bai</a>, <a href="/researchers/mingzheng-gu/">Mingzheng Gu</a>, <a href="/researchers/yuxin-cheng/">Yuxin Cheng</a>, <a href="/researchers/yanwei-chen/">Yanwei Chen</a>, <a href="/researchers/zhenyu-chen/">Zhenyu Chen</a></span><p class="digest-summary">Tightens robustness verification of MaxPool-based CNNs with Ti-Lin, giving provably neuron-wise tightest linear bounds for MaxPool; across LeNet, PointNet and networks on MNIST, CIFAR-10, Tiny ImageNet and ModelNet40 it improves certified accuracy by up to 78.6% at similar runtime.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Nashville</b> &middot; Poster #465, ExHall D &middot; Sat 14 Jun, 17:00–19:00 (Nashville time)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-01/">&larr; January 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-03/">March 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

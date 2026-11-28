@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2021</h1></header>
+<article>
+<p class="digest-intro">CAV 2021 and IJCAI 2021 decisions: complete verification and tooling lead, with DNNV, PEREGRiNN, DeepSplit and dependency-based branching. Verification extends to recurrent networks with Prover, binarized networks with BDD4BNN and programs invoking neural networks, while Verisig 2.0 and barrier certificates address controllers. NNrepair and robust explanations for NLP models round out the month.</p>
+<p>15 NNV papers accepted in April 2021, at CAV 2021 and IJCAI 2021.</p>
+<h2 class="digest-venue">CAV 2021 <span class="note">9 papers</span></h2>
+<ul class="papers digest"><li id="yang2021iterative">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_22">An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation</a>
+
+	<br><span class="authors"><a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, Yidan Zhang, <a href="/researchers/wang-lin/">Wang Lin</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/xiaochao-tang/">Xiaochao Tang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a>, <a href="/researchers/zhiming-liu/">Zhiming Liu</a></span><p class="digest-summary">SRLBC synthesizes safe DNN controllers for nonlinear systems by alternating deep RL training with a verifier that computes a maximal safe initial region and barrier certificate via polynomial abstraction and bilinear matrix inequalities, handling systems up to dimension 12.</p>
+</li>
+<li id="christakis2021automated">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_9">Automated Safety Verification of Programs Invoking Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/maria-christakis/">Maria Christakis</a>, Hasan Ferit Eniser, <a href="/researchers/holger-hermanns/">Holger Hermanns</a>, <a href="/researchers/jorg-hoffmann/">Jörg Hoffmann</a>, Yugesh Kothari, <a href="/researchers/jianlin-li/">Jianlin Li</a>, Jorge A. Navas, <a href="/researchers/valentin-wustholz/">Valentin Wüstholz</a></span><p class="digest-summary">Verifies system-level safety of programs that call neural networks by tightly integrating program analysis and network analysis in an abstract interpretation framework, evaluated on 26 variants of a restricted autonomous-driving benchmark.</p>
+</li>
+<li id="zhang2021bdd4bnn">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_8">BDD4BNN: A BDD-Based Quantitative Analysis Framework for Binarized Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/yedi-zhang/">Yedi Zhang</a>, <a href="/researchers/zhe-zhao/">Zhe Zhao</a>, <a href="/researchers/guangke-chen/">Guangke Chen</a>, <a href="/researchers/fu-song/">Fu Song</a>, <a href="/researchers/taolue-chen/">Taolue Chen</a></span><p class="digest-summary">BDD4BNN encodes binarized neural networks into Binary Decision Diagrams through cardinality constraints over blocks, enabling precise quantitative robustness analysis and interpretability of BNNs, with a prototype tool showing effectiveness and efficiency.</p>
+</li>
+<li id="shriver2021dnnv">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_6">DNNV: A Framework for Deep Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">DNNV standardizes input and output formats for DNN verifiers, offers a DSL for properties, and applies simplification and reduction operations so more verifiers can run existing benchmarks, raising benchmark support from 30% to 74%.</p>
+</li>
+<li id="usman2021nnrepair">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_1">NNrepair: Constraint-Based Repair of Neural Network Classifiers</a>
+
+	<br><span class="authors">Muhammad Usman, <a href="/researchers/divya-gopinath/">Divya Gopinath</a>, <a href="/researchers/youcheng-sun/">Youcheng Sun</a>, Yannic Noller, <a href="/researchers/corina-s-pasareanu/">Corina S. Pasareanu</a></span><p class="digest-summary">NNrepair repairs neural network classifiers by fault localization followed by constraint solving to modify parameters at an intermediate or last layer; on MNIST and CIFAR-10 it improves accuracy by 45.56 points on poisoned and 10.40 on adversarial data.</p>
+</li>
+<li id="khedr2021peregrinn">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_13">PEREGRiNN: Penalized-Relaxation Greedy Neural Network Verifier</a>
+
+	<br><span class="authors"><a href="/researchers/haitham-khedr/">Haitham Khedr</a>, <a href="/researchers/james-ferlez/">James Ferlez</a>, <a href="/researchers/yasser-shoukry/">Yasser Shoukry</a></span><p class="digest-summary">PEREGRiNN verifies polytopic input-output specifications of ReLU networks using a convex solver both as feasibility checker and to penalize relaxation, pushing large relaxations toward the input; it verifies more properties faster on an MNIST robustness suite.</p>
+</li>
+<li id="tran2021robustness">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_12">Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability</a>
+
+	<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, Neelanjana Pal, <a href="/researchers/patrick-musau/">Patrick Musau</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, Nathaniel Hamilton, <a href="/researchers/xiaodong-yang/">Xiaodong Yang</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary">Verifies robustness of semantic segmentation networks in NNV via a relaxed reachability method that solves only a chosen share of LPs and supports up-sampling layers, measuring robust pixel percentage and robust IoU on M2NIST with reduced verification time.</p>
+</li>
+<li id="ryou2021scalable">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_10">Scalable Polyhedral Verification of Recurrent Neural Networks</a>
+
+	<br><span class="authors">Wonryong Ryou, Jiayu Chen, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, Andrei Marian Dan, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Prover, a verifier for recurrent neural networks, computes polyhedral abstractions of nonlinear recurrent updates via sampling, optimization and Fermat&#39;s theorem, refining them by gradient descent; it certifies RNNs for vision, speech (with abstractions of the preprocessing pipeline) and motion-sensor classification beyond prior tools.</p>
+</li>
+<li id="ivanov2021verisig">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-81685-8_11">Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning</a>
+
+	<br><span class="authors"><a href="/researchers/radoslav-ivanov/">Radoslav Ivanov</a>, <a href="/researchers/taylor-j-carpenter/">Taylor J. Carpenter</a>, <a href="/researchers/james-weimer/">James Weimer</a>, <a href="/researchers/rajeev-alur/">Rajeev Alur</a>, <a href="/researchers/george-j-pappas/">George J. Pappas</a>, <a href="/researchers/insup-lee/">Insup Lee</a></span><p class="digest-summary">Verisig 2.0 checks closed-loop systems with tanh/sigmoid neural network controllers using Taylor-model reachability with preconditioning and shrink wrapping, parallelized for larger networks; on 10 benchmarks it is more accurate and faster than three tools, with speed-ups up to 21x and 268x.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IJCAI 2021 <span class="note">6 papers</span></h2>
+<ul class="papers digest"><li id="henriksen2021deepsplit">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/351">DEEPSPLIT: An Efficient Splitting Method for Neural Network Verification via Indirect Effect Analysis</a>
+
+	<br><span class="authors"><a href="/researchers/patrick-henriksen/">Patrick Henriksen</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">DeepSplit is a complete verifier for ReLU networks based on symbolic interval propagation that picks split nodes by their indirect effect on successor relaxations and encodes splits efficiently in linear programming, giving 1 to 2 orders of magnitude speedups.</p>
+</li>
+<li id="batten2021efficient">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/301">Efficient Neural Network Verification via Layer-based Semidefinite Relaxations and Linear Cuts</a>
+
+	<br><span class="authors"><a href="/researchers/ben-batten/">Ben Batten</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/yang-zheng/">Yang Zheng</a></span><p class="digest-summary">Verifies local robustness of neural networks with a layer-based semidefinite relaxation combined with linear cuts and chordal graph decompositions, provably tighter than prior approaches and an order of magnitude faster than earlier SDP methods.</p>
+</li>
+<li id="malfa2021guaranteed">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/366">On Guaranteed Optimal Robust Explanations for NLP Models</a>
+
+	<br><span class="authors"><a href="/researchers/emanuele-la-malfa/">Emanuele La Malfa</a>, <a href="/researchers/rhiannon-michelmore/">Rhiannon Michelmore</a>, <a href="/researchers/agnieszka-m-zbrzezny/">Agnieszka M. Zbrzezny</a>, <a href="/researchers/nicola-paoletti/">Nicola Paoletti</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a></span><p class="digest-summary">Computes optimal robust explanations for NLP neural networks as word subsets that guarantee unchanged prediction under bounded embedding perturbations of the other words, using implicit hitting sets and maximum universal subsets, evaluated on SST, Twitter and IMDB.</p>
+</li>
+<li id="wang2021probabilistic">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/424">Probabilistic Sufficient Explanations</a>
+
+	<br><span class="authors"><a href="/researchers/eric-wang/">Eric Wang</a>, <a href="/researchers/pasha-khosravi/">Pasha Khosravi</a>, <a href="/researchers/guy-van-den-broeck/">Guy Van den Broeck</a></span><p class="digest-summary">Defines probabilistic sufficient explanations, the simplest feature subsets that give strong probabilistic guarantees the classifier behaves the same under the data distribution, found with probabilistic circuits and expected predictions; compared favourably with Anchors and logical explanations.</p>
+</li>
+<li id="kouvaros2021towards">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/364">Towards Scalable Complete Verification of Relu Neural Networks via Dependency-based Branching</a>
+
+	<br><span class="authors"><a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">Complete verification of ReLU networks that branches on ReLU states according to dependencies between nodes, giving MILP sub-problems with fewer integer constraints; on the fully connected networks of the first verification competition it reports 145% gains over prior complete methods.</p>
+</li>
+<li id="bacci2021verifying">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2021/297">Verifying Reinforcement Learning up to Infinity</a>
+
+	<br><span class="authors"><a href="/researchers/edoardo-bacci/">Edoardo Bacci</a>, <a href="/researchers/mirco-giacobbe/">Mirco Giacobbe</a>, <a href="/researchers/david-parker/">David Parker</a></span><p class="digest-summary">Verifies time-unbounded safety of neural network controllers for dynamical systems with abstract interpretation that builds template polyhedra via MILP and interval arithmetic, yielding safe invariant overapproximations of the reach set for linear, piecewise linear and nonlinear dynamics.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-02/">&larr; February 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-05/">May 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

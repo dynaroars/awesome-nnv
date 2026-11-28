@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2019 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2019-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2019">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2019-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2019</h1></header>
+<article>
+<p class="digest-intro">AAAI 2020 and USENIX Security 2020 decisions: Venus prunes MILP search through ReLU dependency analysis, Fastened CROWN tightens certificates, and randomized smoothing and ablation address sparse attacks. Certification also extends to weight perturbations, with robustness-aware quantization, and to verifiably robust PDF malware classifiers.</p>
+<p>9 NNV papers accepted in November 2019, at AAAI 2020, EMNLP 2019, ICCAD 2019 and USENIX Security 2020. 3 of them are placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">AAAI 2020 <span class="note">5 papers</span></h2>
+<ul class="papers digest"><li id="botoeva2020efficient">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v34i04.5729">Efficient Verification of ReLU-Based Neural Networks via Dependency Analysis</a>
+
+	<br><span class="authors"><a href="/researchers/elena-botoeva/">Elena Botoeva</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/jan-kronqvist/">Jan Kronqvist</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/ruth-misener/">Ruth Misener</a></span><p class="digest-summary">Venus verifies ReLU feed-forward networks by exploiting dependency relations between ReLU nodes to prune the MILP search tree, combined with input domain splitting and symbolic interval propagation; evaluated on ACAS collision-avoidance, MNIST and CIFAR-10 models with considerable gains.</p>
+</li>
+<li id="lyu2020fastened">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v34i04.5944">Fastened CROWN: Tightened Neural Network Robustness Certificates</a> <span class="note">(<a href="https://arxiv.org/abs/1912.00574">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhaoyang-lyu/">Zhaoyang Lyu</a>, <a href="/researchers/ching-yun-ko/">Ching-Yun Ko</a>, Zhifeng Kong, <a href="/researchers/ngai-wong/">Ngai Wong</a>, <a href="/researchers/dahua-lin/">Dahua Lin</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">Proves that CROWN&#39;s solution is optimal for a given linear program under mild constraints, making costly LP-based certification unnecessary, and proposes FROWN, an optimization-based algorithm that tightens CROWN robustness certificates to certify larger robust regions across various networks.</p>
+</li>
+<li id="feng2020regularized">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://doi.org/10.1609/aaai.v34i04.5798">Regularized Training and Tight Certification for Randomized Smoothed Classifier with Provable Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2002.07246">arXiv</a>)</span>
+
+	<br><span class="authors">Huijie Feng, Chunpeng Wu, Guoyang Chen, Weifeng Zhang, Yang Ning</span><p class="digest-summary">Trains base classifiers for Gaussian randomized smoothing with a regularized risk that adaptively encourages accuracy and robustness of the smoothed classifier, usable with standard or adversarial training, plus a certification algorithm that exploits the regularization for tighter high-probability ℓ2 robustness bounds on CIFAR-10 and ImageNet.</p>
+</li>
+<li id="levine2020robustness">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v34i04.5888">Robustness Certificates for Sparse Adversarial Attacks by Randomized Ablation</a> <span class="note">(<a href="https://arxiv.org/abs/1911.09272">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Extends randomized smoothing to the ℓ0 threat model by randomly ablating input features instead of adding noise, certifying over 50% of MNIST images against any 8-pixel distortion and doubling or better the median certificates of a noise-based approach (8 vs 4 pixels on MNIST, 16 vs 1 on ImageNet).</p>
+</li>
+<li id="weng2020towards">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v34i04.6105">Towards Certificated Model Robustness Against Weight Perturbations</a>
+
+	<br><span class="authors"><a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, Pu Zhao, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/xue-lin/">Xue Lin</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">Certifies robustness of neural networks to weight perturbations by computing a bound within which outputs cannot be adversarially changed, and links this to weight quantization, yielding a robustness-aware quantization scheme that improves generalization of quantized networks.</p>
+</li>
+</ul>
+<h2 class="digest-venue">EMNLP 2019 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="huang2019achieving">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2019</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.18653/v1/d19-1419">Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation</a> <span class="note">(<a href="https://arxiv.org/abs/1909.01492">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/po-sen-huang/">Po-Sen Huang</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/johannes-welbl/">Johannes Welbl</a>, Chris Dyer, Dani Yogatama, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="jia2019certified">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2019</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.18653/v1/d19-1423">Certified Robustness to Adversarial Word Substitutions</a> <span class="note">(<a href="https://arxiv.org/abs/1909.00986">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/robin-jia/">Robin Jia</a>, <a href="/researchers/aditi-raghunathan/">Aditi Raghunathan</a>, Kerem Göksel, <a href="/researchers/percy-liang/">Percy Liang</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICCAD 2019 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="cheng2019nn">
+	<a class="tag-link" href="/conferences/iccad/"><span class="tag accepted">ICCAD 2019</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/iccad45719.2019.8942153">nn-dependability-kit: Engineering Neural Networks for Safety-Critical Autonomous Driving Systems</a> <span class="note">(<a href="https://arxiv.org/abs/1811.06746">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/chih-hong-cheng/">Chih-Hong Cheng</a>, Chung-Hao Huang, Georg Nührenberg</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2020 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="chen2020training">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/uss/Chen0SJ20">On Training Robust PDF Malware Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/1904.03542">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yizheng-chen/">Yizheng Chen</a>, <a href="/researchers/shiqi-wang/">Shiqi Wang</a>, Dongdong She, <a href="/researchers/suman-jana/">Suman Jana</a></span><p class="digest-summary">Trains PDF malware classifiers with formally verified robustness properties over subtree insertions and deletions using verifiably robust training, achieving 92.27% average verified robust accuracy with 99.74% accuracy and 0.56% false positives, and raising evasion cost for unrestricted attackers.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-10/">&larr; October 2019</a>
+<a href="/digest/2019/">All of 2019</a><a href="/digest/2019-12/">December 2019 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>May 2018 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2018-05/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="May 2018">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2018-05/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>May 2018</h1></header>
+<article>
+<p class="digest-intro">ICML 2018 and USENIX Security 2018 decisions: ReluVal&#39;s symbolic interval analysis and Fast-Lin and Fast-Lip certify ReLU networks much faster than Reluplex, while certified training takes shape through the convex outer adversarial polytope and differentiable abstract interpretation.</p>
+<p>5 NNV papers accepted in May 2018, at ICML 2018, S&amp;P 2018 and USENIX Security 2018. 1 of them is placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">ICML 2018 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="mirman2018differentiable">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/MirmanGV18">Differentiable Abstract Interpretation for Provably Robust Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Trains large neural networks that are certifiably robust to adversarial perturbations by making abstract interpretation differentiable, with several abstract transformers that balance efficiency and precision.</p>
+</li>
+<li id="wong2018provable">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WongK18">Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope</a> <span class="note">(<a href="https://arxiv.org/abs/1711.00851">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/eric-wong/">Eric Wong</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Trains ReLU classifiers provably robust to norm-bounded perturbations by minimizing worst-case loss over a convex outer approximation of reachable activations, solving the dual LP as a backprop-like network; on MNIST, provable error stays below 5.8% at ℓ∞ ε=0.1.</p>
+</li>
+<li id="weng2018towards">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WengZCSHDBD18">Towards Fast Computation of Certified Robustness for ReLU Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1804.09699">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/hongge-chen/">Hongge Chen</a>, Zhao Song, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a>, <a href="/researchers/duane-s-boning/">Duane S. Boning</a>, Inderjit S. Dhillon</span><p class="digest-summary">Fast-Lin and Fast-Lip certify lower bounds on the minimum adversarial distortion of ReLU networks by linear bounding of ReLUs or local Lipschitz bounds, running over 10,000 times faster than Reluplex, and prove approximation hardness for ℓ1 distortion.</p>
+</li>
+</ul>
+<h2 class="digest-venue">S&amp;P 2018 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="gehr2018ai2">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/sp.2018.00058">AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/dana-drachsler-cohen/">Dana Drachsler-Cohen</a>, Petar Tsankov, <a href="/researchers/swarat-chaudhuri/">Swarat Chaudhuri</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2018 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="wang2018formal">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2018</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/uss/WangPWYJ18">Formal Security Analysis of Neural Networks using Symbolic Intervals</a> <span class="note">(<a href="https://arxiv.org/abs/1804.10829">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/kexin-pei/">Kexin Pei</a>, <a href="/researchers/justin-whitehouse/">Justin Whitehouse</a>, <a href="/researchers/junfeng-yang/">Junfeng Yang</a>, <a href="/researchers/suman-jana/">Suman Jana</a></span><p class="digest-summary">ReluVal checks security properties of ReLU networks without SMT solvers, using parallelizable symbolic interval analysis to bound outputs. It is 200 times faster than Reluplex on average and verifies a property on which Reluplex timed out.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2018-04/">&larr; April 2018</a>
+<a href="/digest/2018/">All of 2018</a><a href="/digest/2018-09/">September 2018 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

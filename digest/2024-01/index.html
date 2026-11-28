@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2024</h1></header>
+<article>
+<p class="digest-intro">ICLR 2024 and FSE 2024 decisions: randomized smoothing and certified training lead, with conformal prediction certificates (COLEP, RSCP&#43;), dual and incremental smoothing, and studies of IBP certified training and expressive losses. SDP-based Lipschitz estimation recurs, and FSE adds VeriStable for DPLL-based verification and CrossCert for patch robustness certification.</p>
+<p>18 NNV papers accepted in January 2024, at FSE 2024 and ICLR 2024.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> ICLR 2024 &middot; Vienna, Austria <span class="note">16 / 2,252 ICLR 2024 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="palma2024expressive">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/PalmaBDKSL24">Expressive Losses for Verified Robustness via Convex Combinations</a> <span class="note">(<a href="https://arxiv.org/abs/2305.13991">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alessandro-de-palma/">Alessandro De Palma</a>, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">Argues that loss expressivity, spanning lower and upper bounds of the worst-case loss through one coefficient, is key to verified training, showing simple convex combinations of adversarial attacks and IBP bounds reach state-of-the-art verified robustness across settings.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #114, Halle B &middot; Tue 7 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="ghazanfari2024lipsim">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/GhazanfariAKKG24">LipSim: A Provably Robust Perceptual Similarity Metric</a> <span class="note">(<a href="https://arxiv.org/abs/2310.18274">arXiv</a>)</span>
+
+	<br><span class="authors">Sara Ghazanfari, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, Prashanth Krishnamurthy, <a href="/researchers/farshad-khorrami/">Farshad Khorrami</a>, <a href="/researchers/siddharth-garg/">Siddharth Garg</a></span><p class="digest-summary">LipSim is a perceptual similarity metric built on 1-Lipschitz networks that certifies its output against all l2-bounded perturbations, after showing ViT ensemble-based metrics are vulnerable to attacks; evaluated on natural and certified scores and image retrieval.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #231, Halle B &middot; Tue 7 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="xia2024mitigating">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XiaY0D24">Mitigating the Curse of Dimensionality for Certified Robustness via Dual Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2404.09586">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/song-xia/">Song Xia</a>, Yi Yu, Xudong Jiang, Henghui Ding</span><p class="digest-summary">Dual Randomized Smoothing down-samples an image into two sub-images and smooths each in lower dimension, proving a tight l2 certified radius for the original input that shrinks more slowly with dimension; improves accuracy and certified robustness on CIFAR-10 and ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #118, Halle B &middot; Tue 7 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="baader2024expressivity">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BaaderMMV24">Expressivity of ReLU-Networks under Convex Relaxations</a> <span class="note">(<a href="https://arxiv.org/abs/2311.04015">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/yuhao-mao/">Yuhao Mao</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Studies how expressive ReLU networks are under common convex relaxations, showing more precise relaxations can exactly analyze more univariate functions, yet no single-neuron relaxation precisely analyzes ReLU networks for multivariate convex monotone piecewise-linear functions.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #229, Halle B &middot; Tue 7 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="hu2024recipe">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/HuLWF24">A Recipe for Improved Certifiable Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2310.02513">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/kai-hu/">Kai Hu</a>, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/zifan-wang/">Zifan Wang</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Improves Lipschitz-based deterministic certification by exploring the design space, adding large Cholesky-orthogonalized residual dense layers to Lipschitz-controlled ResNets and filtered generative data augmentation, raising the best deterministic VRA by up to 8.5 percentage points.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #159, Halle B &middot; Wed 8 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="kang2024colep">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/KangGL024">COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits</a> <span class="note">(<a href="https://arxiv.org/abs/2403.11348">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/nezihe-merve-gurel/">Nezihe Merve Gürel</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">COLEP certifies the coverage of conformal prediction under bounded adversarial perturbations by combining learned semantic models with reasoning via probabilistic circuits; certified coverage improves by up to 12% on GTSRB, 9% on CIFAR-10 and 14% on AwA2.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #269, Halle B &middot; Wed 8 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="mukhoty2024certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MukhotyAMX024">Certified Adversarial Robustness for Rate Encoded Spiking Neural Networks</a>
+
+	<br><span class="authors">Bhaskar Mukhoty, Hilal AlQuabeh, Giulia De Masi, Huan Xiong, Bin Gu</span><p class="digest-summary">Gives the first provable l1-norm robustness guarantee for rate-encoded spiking neural networks by linking rate encoding to randomized smoothing, and adds adversarial training that improves empirical robust accuracy on CIFAR-10, CIFAR-100 and ImageNet-100.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #129, Halle B &middot; Wed 8 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="mao2024understanding">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MaoM0V24">Understanding Certified Training with Interval Bound Propagation</a> <span class="note">(<a href="https://arxiv.org/abs/2306.10426">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yuhao-mao/">Yuhao Mao</a>, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Studies why interval bound propagation (IBP) certified training works, using a new bound-tightness metric; derives conditions for exact IBP bounds that explain the robustness-accuracy trade-off, finds wider ReLU networks perform better, and shows tightness is neither necessary nor sufficient for certifiable robustness.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #223, Halle B &middot; Wed 8 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="saha2024drsm">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Saha0KFD24">DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2303.13372">arXiv</a>)</span>
+
+	<br><span class="authors">Shoumik Saha, <a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, Yigitcan Kaya, <a href="/researchers/soheil-feizi/">Soheil Feizi</a>, Tudor Dumitras</span><p class="digest-summary">DRSM certifies malware detectors against contiguous adversarial bytes by adapting de-randomized smoothing to MalConv with a window ablation scheme, at a marginal accuracy cost, and releases PACE, a public dataset of 15.5K benign executables.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #113, Halle B &middot; Thu 9 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="pauli2024novel">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/PauliHAGKA024">Novel Quadratic Constraints for Extending LipSDP beyond Slope-Restricted Activations</a> <span class="note">(<a href="https://arxiv.org/abs/2401.14033">arXiv</a>)</span>
+
+	<br><span class="authors">Patricia Pauli, <a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/siddharth-garg/">Siddharth Garg</a>, <a href="/researchers/farshad-khorrami/">Farshad Khorrami</a>, Frank Allgöwer, <a href="/researchers/bin-hu/">Bin Hu</a></span><p class="digest-summary">Extends LipSDP to GroupSort, MaxMin and Householder activations with new quadratic constraints, giving a unified SDP for l2 and l-infinity Lipschitz bounds of residual, non-residual and implicit networks that is less conservative than existing approaches.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #118, Halle B &middot; Thu 9 May, 10:45–12:45 (Vienna time)</span></p>
+</li>
+<li id="xia2024gnncert">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XiaYWJ24">GNNCert: Deterministic Certification of Graph Neural Networks against Adversarial Perturbations</a>
+
+	<br><span class="authors">Zaishuo Xia, Han Yang, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span><p class="digest-summary">GNNCert deterministically certifies graph classifiers against bounded perturbations to both graph structure and node features, guaranteeing the same label when perturbed edges and feature-perturbed nodes are limited; on 8 benchmark datasets it outperforms three prior methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #216, Halle B &middot; Thu 9 May, 16:30–18:30 (Vienna time)</span><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Oral, Halle A 7 &middot; Thu 9 May, 15:45–16:00 (Vienna time)</span></p>
+</li>
+<li id="ugare2024incremental">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/UgareSB0M24">Incremental Randomized Smoothing Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2305.19521">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shubham-ugare/">Shubham Ugare</a>, <a href="/researchers/tarun-suresh/">Tarun Suresh</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a></span><p class="digest-summary">IRS incrementally certifies modified models, such as quantized or pruned versions, under randomized smoothing by reusing the original smoothed model&#39;s guarantees with very few samples, achieving up to 3x speedup over recertifying from scratch.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #115, Halle B &middot; Thu 9 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="wang2024scalability">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Wang0HAZCJ24">On the Scalability and Memory Efficiency of Semidefinite Programs for Lipschitz Constant Estimation of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/zi-wang/">Zi Wang</a>, <a href="/researchers/bin-hu/">Bin Hu</a>, <a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/yang-zheng/">Yang Zheng</a>, Yudong Chen, <a href="/researchers/somesh-jha/">Somesh Jha</a></span><p class="digest-summary">Recasts SDP-based Lipschitz constant estimation as an eigenvalue optimization solvable by first-order methods in autodiff frameworks, via redundant quadratic constraints and Lagrangian and Shor relaxations, using far less memory and scaling to large ImageNet networks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #144, Halle B &middot; Thu 9 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="yan2024provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/YanRW24">Provably Robust Conformal Prediction with Improved Efficiency</a> <span class="note">(<a href="https://arxiv.org/abs/2404.19651">arXiv</a>)</span>
+
+	<br><span class="authors">Ge Yan, <a href="/researchers/yaniv-romano/">Yaniv Romano</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a></span><p class="digest-summary">Fixes the flawed guarantee of randomized smoothed conformal prediction with RSCP&#43;, certifying coverage of conformal prediction sets under adversarial noise, and adds Post-Training Transformation and Robust Conformal Training to shrink sets, improving efficiency up to 16.9x on ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #117, Halle B &middot; Thu 9 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="banerjee2024interpreting">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BanerjeeS024">Interpreting Robustness Proofs of Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2301.13845">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/avaljot-singh/">Avaljot Singh</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">Generates human-understandable interpretations of DNN robustness proofs, revealing that proofs for standard networks rely on spurious features, provably robust training filters out even meaningful features, and combined adversarial and provable training best balances the two.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #200, Halle B &middot; Fri 10 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+<li id="delattre2024lipschitz">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/DelattreABA24">The Lipschitz-Variance-Margin Tradeoff for Enhanced Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2309.16883">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/blaise-delattre/">Blaise Delattre</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/quentin-barthelemy/">Quentin Barthélemy</a>, <a href="/researchers/alexandre-allauzen/">Alexandre Allauzen</a></span><p class="digest-summary">Improves randomized smoothing certificates by analysing how Monte-Carlo variance interacts with the base classifier&#39;s Lipschitz constant and margin, using a new logit-to-probability mapping, Bernstein&#39;s inequality and tighter Lipschitz bounds; raises certified accuracy and works zero-shot on pre-trained models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/at.svg" alt="Austria" title="Austria" width="16" height="12" loading="lazy"> <b>Vienna</b> &middot; Poster #104, Halle B &middot; Fri 10 May, 16:30–18:30 (Vienna time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">FSE 2024 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="zhou2024crosscert">
+	<a class="tag-link" href="/conferences/fse/"><span class="tag accepted">FSE 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1145/3660827">CrossCert: A Cross-Checking Detection Approach to Patch Robustness Certification for Deep Learning Models</a>
+
+	<br><span class="authors">Qilin Zhou, Zhengyuan Wei, Haipeng Wang, Bo Jiang, Wing-Kwong Chan</span><p class="digest-summary">CrossCert cross-checks two certified recovery defenders against adversarial patches to give unwavering certification, guaranteeing a benign label without warnings under patching, with detection certification comparable to PatchCensor and slightly below ViP.</p>
+</li>
+<li id="duong2024harnessing">
+	<a class="tag-link" href="/conferences/fse/"><span class="tag accepted">FSE 2024</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1145/3643765">Harnessing Neuron Stability to Improve DNN Verification</a>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/dong-xu/">Dong Xu</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">VeriStable extends DPLL-based DNN verification by detecting neurons that become stable during search, cutting combinatorial cost, and adds multi-threading and restarts from SAT solvers; on MNIST and CIFAR FNNs, CNNs and ResNets it outperforms α-β-CROWN and MN-BaB.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-12/">&larr; December 2023</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-02/">February 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

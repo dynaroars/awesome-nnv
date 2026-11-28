@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>February 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-02/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="February 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-02/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>February 2021</h1></header>
+<article>
+<p class="digest-intro">CVPR 2021, ICRA 2021 and PLDI 2021 decisions: PLDI brought DeepT for certifying transformers, provable repair of DNNs and GenProve with generative models. CVPR work centres on certified training, including linear bound propagation and covariance propagation, plus PointGuard for point clouds, while ICRA covered reachability of closed-loop systems including Reachable Polyhedral Marching.</p>
+<p>9 NNV papers accepted in February 2021, at CVPR 2021, ICRA 2021 and PLDI 2021.</p>
+<h2 class="digest-venue">CVPR 2021 <span class="note">4 papers</span></h2>
+<ul class="papers digest"><li id="serrurier2021achieving">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1109/cvpr46437.2021.00057">Achieving Robustness in Classification Using Optimal Transport With Hinge Regularization</a>
+
+	<br><span class="authors"><a href="/researchers/mathieu-serrurier/">Mathieu Serrurier</a>, <a href="/researchers/franck-mamalet/">Franck Mamalet</a>, <a href="/researchers/alberto-gonzalez-sanz/">Alberto González-Sanz</a>, <a href="/researchers/thibaut-boissin/">Thibaut Boissin</a>, Jean-Michel Loubes, Eustasio del Barrio</span><p class="digest-summary">Learns 1-Lipschitz binary and multi-class classifiers with a hinge-regularized Kantorovich-Rubinstein loss grounded in optimal transport, which yields a certifiable robustness bound; experiments show the guarantees hold without significant accuracy loss, and adversarial examples become visually meaningful.</p>
+</li>
+<li id="liu2021pointguard">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr46437.2021.00612">PointGuard: Provably Robust 3D Point Cloud Classification</a>
+
+	<br><span class="authors"><a href="/researchers/hongbin-liu/">Hongbin Liu</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">PointGuard certifies 3D point cloud classifiers against adversarially modified, added or deleted points by majority voting over random point subsamples; the derived bound on the number of tolerated points is proven tight, with evaluation on ModelNet40 and ScanNet.</p>
+</li>
+<li id="zhen2021simpler">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/cvpr46437.2021.00721">Simpler Certified Radius Maximization by Propagating Covariances</a>
+
+	<br><span class="authors">Xingjian Zhen, Rudrasis Chakraborty, Vikas Singh</span><p class="digest-summary">Maximizes the certified radius of smoothed classifiers by propagating the covariance of the Gaussian smoothing distribution through the network instead of Monte Carlo sampling, giving runtime savings on moderately deep networks for CIFAR-10, ImageNet and Places365 at a small accuracy cost.</p>
+</li>
+<li id="lyu2021towards">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr46437.2021.00429">Towards Evaluating and Training Verifiably Robust Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/zhaoyang-lyu/">Zhaoyang Lyu</a>, <a href="/researchers/minghao-guo/">Minghao Guo</a>, Tong Wu, <a href="/researchers/guodong-xu/">Guodong Xu</a>, <a href="/researchers/kehuan-zhang/">Kehuan Zhang</a>, <a href="/researchers/dahua-lin/">Dahua Lin</a></span><p class="digest-summary">Proves CROWN is always tighter than interval bound propagation with suitable bounding lines, proposes linear bound propagation (LBP) to verify large networks with lower verified error, and a ParamRamp activation that improves verified robustness on MNIST, CIFAR-10 and Tiny-ImageNet.</p>
+</li>
+</ul>
+<h2 class="digest-venue">PLDI 2021 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="bonaert2021fast">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2021</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1145/3453483.3454056">Fast and precise certification of transformers</a>
+
+	<br><span class="authors"><a href="/researchers/gregory-bonaert/">Gregory Bonaert</a>, <a href="/researchers/dimitar-i-dimitrov/">Dimitar I. Dimitrov</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">DeepT certifies Transformer networks via abstract interpretation with a Multi-norm Zonotope domain covering ℓ1 and ℓ2 perturbations, including transformers for softmax and dot product; it certifies radii 28x larger than prior work and handles synonym attacks on long word sequences.</p>
+</li>
+<li id="sotoudeh2021provable">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2021</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://doi.org/10.1145/3453483.3454064">Provable repair of deep neural networks</a>
+
+	<br><span class="authors"><a href="/researchers/matthew-sotoudeh/">Matthew Sotoudeh</a>, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span><p class="digest-summary">Repairs a DNN so it provably satisfies a specification: Provable Point Repair finds minimal repairs for finite point sets with any activation, and Provable Polytope Repair handles convex polytopes for piecewise-linear networks, both reduced to linear programming via a Decoupled DNN architecture.</p>
+</li>
+<li id="mirman2021robustness">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2021</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1145/3453483.3454100">Robustness certification with generative models</a>
+
+	<br><span class="authors"><a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/alexander-hagele/">Alexander Hägele</a>, <a href="/researchers/pavol-bielik/">Pavol Bielik</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">GenProve certifies classifiers against semantic image transformations produced by generative models, such as changing age or hair colour, by capturing infinite non-convex sets of activations and distributions over them, giving sound deterministic and probabilistic guarantees on realistic networks.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICRA 2021 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="everett2021efficient">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra48506.2021.9561348">Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers</a>
+
+	<br><span class="authors"><a href="/researchers/michael-everett/">Michael Everett</a>, <a href="/researchers/golnaz-habibi/">Golnaz Habibi</a>, <a href="/researchers/jonathan-p-how/">Jonathan P. How</a></span><p class="digest-summary">Computes forward reachable sets of closed-loop systems with neural network controllers through a linear programming formulation with input set partitioning and support for measurement and process noise; it gives 10x less conservatism in half the computation time of prior methods, shown on a quadrotor.</p>
+</li>
+<li id="vincent2021reachable">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1109/icra48506.2021.9561956">Reachable Polyhedral Marching (RPM): A Safety Verification Algorithm for Robotic Systems with Deep Neural Network Components</a>
+
+	<br><span class="authors">Joseph A. Vincent, Mac Schwager</span><p class="digest-summary">Reachable Polyhedral Marching computes exact forward and backward reachable sets of ReLU networks over multiple steps by incrementally enumerating polyhedral input cells, with early exit on unsafe cells; on ACAS Xu it finds unsafe actions many times faster than the fastest existing method.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-01/">&larr; January 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-04/">April 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>July 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-07/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="July 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-07/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>July 2021</h1></header>
+<article>
+<p class="digest-intro">ASE 2021, CCS 2021 and ICCV 2021 decisions: semantic transformations are a common theme, with TSS and 3DCertify for point clouds, alongside Cert-RNN for recurrent networks, DetectorGuard for object detectors and integer-only certification for quantized neural networks. ASE added DFV, which uses distribution models for falsification and verification.</p>
+<p>7 NNV papers accepted in July 2021, at ASE 2021, CCS 2021 and ICCV 2021.</p>
+<h2 class="digest-venue">CCS 2021 <span class="note">4 papers</span></h2>
+<ul class="papers digest"><li id="du2021cert">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3460120.3484538">Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/tianyu-du/">Tianyu Du</a>, Shouling Ji, Lujia Shen, Yao Zhang, Jinfeng Li, Jie Shi, Chengfang Fang, Jianwei Yin, Raheem Beyah, <a href="/researchers/ting-wang/">Ting Wang</a></span><p class="digest-summary">Cert-RNN certifies robustness of recurrent networks such as vanilla RNNs and LSTMs with precise abstract transformers for their nonlinear operations, giving bounds on average 1.86 times larger than POPQORN on an MNIST sequence model.</p>
+</li>
+<li id="xiang2021detectorguard">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1145/3460120.3484757">DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">DetectorGuard provably secures object detectors against localized patch hiding attacks by checking objectness from a robust image classifier against detector boxes, so a certified object is detected or an alert is raised, at under 1% clean cost.</p>
+</li>
+<li id="chen2021learning">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1145/3460120.3484776">Learning Security Classifiers with Verified Global Robustness Properties</a>
+
+	<br><span class="authors"><a href="/researchers/yizheng-chen/">Yizheng Chen</a>, <a href="/researchers/shiqi-wang/">Shiqi Wang</a>, Yue Qin, Xiaojing Liao, <a href="/researchers/suman-jana/">Suman Jana</a>, David A. Wagner</span><p class="digest-summary">Trains security classifiers, structured as ensembles of logic rules, to satisfy verified global robustness properties via a booster-fixer scheme using counterexample guided inductive synthesis; a Twitter spam classifier meets five properties with a 5.4% drop in true positive rate.</p>
+</li>
+<li id="li2021tss">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1145/3460120.3485258">TSS: Transformation-Specific Smoothing for Robustness Certification</a>
+
+	<br><span class="authors"><a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/maurice-weber/">Maurice Weber</a>, <a href="/researchers/xiaojun-xu/">Xiaojun Xu</a>, Luka Rimanic, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">TSS certifies robustness against semantic transformations, using transformation-specific randomized smoothing for resolvable ones like blur and stratified sampling for interpolating ones like rotation; it reaches 30.4% certified accuracy against rotations within 30 degrees on ImageNet.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICCV 2021 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="lin2021integer">
+	<a class="tag-link" href="/conferences/iccv/"><span class="tag accepted">ICCV 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/quantized/"><span class="tag own">Quantized &amp; bit-level</span></a>
+	<a href="https://doi.org/10.1109/iccv48922.2021.00773">Integer-arithmetic-only Certified Robustness for Quantized Neural Networks</a>
+
+	<br><span class="authors">Haowen Lin, <a href="/researchers/jian-lou/">Jian Lou</a>, <a href="/researchers/li-xiong/">Li Xiong</a>, Cyrus Shahabi</span><p class="digest-summary">An integer randomized smoothing method with quantization gives smoothed classifiers that use only integer arithmetic, with a tight l2 robustness guarantee, matching accuracy and running 4 to 5 times faster than floating-point certified methods on CPUs and mobile devices.</p>
+</li>
+<li id="lorenz2021robustness">
+	<a class="tag-link" href="/conferences/iccv/"><span class="tag accepted">ICCV 2021</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/iccv48922.2021.00751">Robustness Certification for Point Cloud Models</a>
+
+	<br><span class="authors"><a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a href="/researchers/anian-ruoss/">Anian Ruoss</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">3DCertify verifies robustness of 3D point cloud models to semantic transformations using first-order Taylor relaxations for any differentiable transformation and a precise max-pool relaxation; it certifies 95.7% of point clouds against rotations of 60 degrees.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ASE 2021 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="toledo2021distribution">
+	<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/ase51524.2021.9678590">Distribution Models for Falsification and Verification of DNNs</a>
+
+	<br><span class="authors"><a href="/researchers/felipe-toledo/">Felipe Toledo</a>, <a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">DFV learns an input distribution model, prefixes it to the DNN and restates the property over its input space so existing falsifiers and verifiers target realistic inputs; a study with 7 tools and 93 models shows more representative counterexamples.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-06/">&larr; June 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-08/">August 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

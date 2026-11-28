@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2025</h1></header>
+<article>
+<p class="digest-intro">ICLR 2025 and ICRA 2025 decisions: probabilistic certification leads, with robust conformal prediction, Fuzzed Randomized Smoothing against backdoors and certified uncertainty calibration. Language models get certificates for counterfactual bias and domain, poisoning defenses cover GNN labels and offline RL, and theory addresses transformer encoder satisfiability; ICRA adds NeuralPARC for reach-avoid through narrow gaps.</p>
+<p>16 NNV papers accepted in January 2025, at ICLR 2025 and ICRA 2025.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> ICLR 2025 &middot; Singapore, Singapore <span class="note">15 / 3,683 ICLR 2025 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="chaudhary2025certifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ChaudharyH0Z0025">Certifying Counterfactual Bias in LLMs</a> <span class="note">(<a href="https://arxiv.org/abs/2405.18780">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/isha-chaudhary/">Isha Chaudhary</a>, <a href="/researchers/qian-hu/">Qian Hu</a>, Manoj Kumar, Morteza Ziyadi, <a href="/researchers/rahul-gupta/">Rahul Gupta</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">Certifies LLMs for counterfactual bias with LLMCert-B, producing high-confidence bounds on the probability of unbiased responses for prompts differing in demographic group, drawn from prefix distributions such as random tokens and jailbreak mixtures; non-trivial certificates expose vulnerabilities in leading LLMs.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #244, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="liu2025multi">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/LiuCMER25">Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2505.20621">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Certifies offline reinforcement learning against data poisoning at both per-state action and cumulative reward levels using differential privacy properties, across continuous, discrete, stochastic and deterministic settings; performance drops at most 50% with up to 7% poisoned data, with 5 times larger certified radii.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #341, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="emde2025shh">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/EmdePAKRL0B25">Shh, don&#39;t say that! Domain Certification in LLMs</a>
+
+	<br><span class="authors"><a href="/researchers/cornelius-emde/">Cornelius Emde</a>, Alasdair Paren, Preetham Arvind, Maxime Guillaume Kayser, <a href="/researchers/tom-rainforth/">Tom Rainforth</a>, <a href="/researchers/thomas-lukasiewicz/">Thomas Lukasiewicz</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/adel-bibi/">Adel Bibi</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #239, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="xu2025support">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XuBV025">Support is All You Need for Certified VAE Training</a> <span class="note">(<a href="https://arxiv.org/abs/2504.11831">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/changming-xu/">Changming Xu</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, Deepak Vasisht, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">Trains variational autoencoders with certified probabilistic guarantees under adversarial attacks using CIVET, which bounds worst-case VAE error through error on chosen support sets in the latent layer; it outperforms prior methods across wireless and vision datasets, architectures and perturbation sizes.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #346, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="rocamora2025certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Abad-Rocamora0C25">Certified Robustness Under Bounded Levenshtein Distance</a> <span class="note">(<a href="https://arxiv.org/abs/2501.13676">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/elias-abad-rocamora/">Elías Abad-Rocamora</a>, <a href="/researchers/grigorios-chrysos/">Grigorios Chrysos</a>, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span><p class="digest-summary">Certifies text classifiers under Levenshtein distance with LipsLev, which computes Lipschitz constants of convolutional classifiers with respect to Levenshtein distance to train 1-Lipschitz models certified in one forward pass; it reaches 38.80% and 13.93% verified accuracy on AG-News, 4 orders of magnitude faster.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #339, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="li2025provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/LiPD0W25">Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2502.04224">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/meng-pang/">Meng Pang</a>, <a href="/researchers/yun-dong/">Yun Dong</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span><p class="digest-summary">Proposes XGNNCert, a provably robust explainable GNN that guarantees explanations under worst-case graph perturbations with a bounded number of perturbed edges stay close to unattacked ones without affecting GNN predictions; evaluated across several graph datasets and GNN explainers.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #503, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="lei2025robust">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/LeiBWCXBR0A25">Robust Representation Consistency Model via Contrastive Denoising</a> <span class="note">(<a href="https://arxiv.org/abs/2501.13094">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jiachen-lei/">Jiachen Lei</a>, Julius Berner, <a href="/researchers/jiongxiao-wang/">Jiongxiao Wang</a>, <a href="/researchers/zhongzhu-chen/">Zhongzhu Chen</a>, <a href="/researchers/chaowei-xiao/">Chaowei Xiao</a>, <a href="/researchers/zhongjie-ba/">Zhongjie Ba</a>, <a href="/researchers/kui-ren/">Kui Ren</a>, <a href="/researchers/jun-zhu/">Jun Zhu</a>, <a href="/researchers/anima-anandkumar/">Anima Anandkumar</a></span><p class="digest-summary">Improves randomized smoothing with a consistency model that turns diffusion denoising into latent-space contrastive instance discrimination, enabling single-pass denoise-then-classify; on ImageNet it beats diffusion-based certified accuracy by 5.3% on average, up to 11.6%, with 85 times lower inference cost.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #338, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="yang2025verifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/YangELMZ25">Verifying Properties of Binary Neural Networks Using Sparse Polynomial Optimization</a> <span class="note">(<a href="https://arxiv.org/abs/2405.17049">arXiv</a>)</span>
+
+	<br><span class="authors">Jianting Yang, Srecko Ðurasinovic, <a href="/researchers/jean-b-lasserre/">Jean B. Lasserre</a>, <a href="/researchers/victor-magron/">Victor Magron</a>, Jun Zhao</span><p class="digest-summary">Verifies robustness of Binary Neural Networks against ℓ∞ and ℓ2 attacks with semidefinite programming relaxations from sparse polynomial optimization, an alternative to SMT and MILP that supports continuous inputs, avoids floating-point issues, and improves scalability through tighter first-order relaxations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #333, Hall 3 &#43; Hall 2B &middot; Thu 24 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="emde2025towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/EmdePL0B25">Towards Certification of Uncertainty Calibration under Adversarial Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2405.13922">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/cornelius-emde/">Cornelius Emde</a>, Francesco Pinto, <a href="/researchers/thomas-lukasiewicz/">Thomas Lukasiewicz</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/adel-bibi/">Adel Bibi</a></span><p class="digest-summary">Certifies uncertainty calibration of neural classifiers under adversarial perturbations, giving analytic worst-case bounds on the Brier score and mixed-integer-program bounds on expected calibration error, and introduces calibration attacks used for adversarial calibration training.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #330, Hall 3 &#43; Hall 2B &middot; Fri 25 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="wu2025towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WuJDG25">Towards a Unified and Verified Understanding of Group-Operation Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2410.07476">arXiv</a>)</span>
+
+	<br><span class="authors">Wilson Wu, Louis Jaburi, Jacob Drori, Jason Gross</span><p class="digest-summary">Reverse-engineers one-hidden-layer networks trained on finite group operations and verifies the explanation by turning it into a compact proof of model performance; for symmetric group S5 models it runs 3x faster than brute force and gives at least 95% accuracy bounds for 45% of models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #469, Hall 3 &#43; Hall 2B &middot; Fri 25 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="salzer2025transformer">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SalzerAL25">Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning</a> <span class="note">(<a href="https://arxiv.org/abs/2405.18548">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/eric-alsmann/">Eric Alsmann</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span><p class="digest-summary">Analyzes the complexity of transformer encoder satisfiability (trSAT), relevant to formal verification, showing it undecidable for commonly studied encoders but decidable for quantized ones, where it is NEXPTIME-hard in some scenarios and in NEXPTIME in others.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #512, Hall 3 &#43; Hall 2B &middot; Fri 25 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="sabanayagam2025exact">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SabanayagamGGG25">Exact Certification of (Graph) Neural Networks Against Label Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2412.00537">arXiv</a>)</span>
+
+	<br><span class="authors">Mahalakshmi Sabanayagam, Lukas Gosch, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a>, Debarghya Ghoshdastidar</span><p class="digest-summary">Certifies GNNs exactly against label-flipping poisoning by using the Neural Tangent Kernel to rewrite the bilevel problem as a MILP, giving sample-wise and collective certificates; it ranks GNN architectures and reveals robustness plateaus at intermediate perturbation budgets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #189, Hall 3 &#43; Hall 2B &middot; Fri 25 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="zargarbashi2025robust">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZargarbashiB25">Robust Conformal Prediction with a Single Binary Certificate</a>
+
+	<br><span class="authors"><a href="/researchers/soroush-h-zargarbashi/">Soroush H. Zargarbashi</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary">Makes conformal prediction robust to adversarial inputs by binarizing smoothed samples with a coverage-preserving threshold, needing only one binary certificate instead of certifying each point; it yields smaller robust sets with far fewer Monte Carlo samples, such as 150 for CIFAR10, and drops bounded-score requirements.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #429, Hall 3 &#43; Hall 2B &middot; Sat 26 Apr, 10:00–12:30 (Singapore time)</span></p>
+</li>
+<li id="he2025certifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/HeYZ0HY025">Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2502.06892">arXiv</a>)</span>
+
+	<br><span class="authors">Bowei He, Lihao Yin, Hui-Ling Zhen, Jianping Zhang, Lanqing Hong, Mingxuan Yuan, Chen Ma</span><p class="digest-summary">Certifies pre-trained language models against backdoor attacks with Fuzzed Randomized Smoothing (FRS), combining biphased parameter smoothing with Monte Carlo tree search fuzzing to find vulnerable text segments in Damerau-Levenshtein space, without needing poisoned data; it gives a broader certified radius than prior methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #562, Hall 3 &#43; Hall 2B &middot; Sat 26 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+<li id="scholten2025provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ScholtenG25">Provably Reliable Conformal Prediction Sets in the Presence of Data Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2410.09878">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Builds conformal prediction sets with provable reliability under training and calibration poisoning through reliable prediction sets (RPS), using smoothed scores aggregated over classifiers trained on data partitions and majority votes over sets calibrated on distinct subsets; validated on image classification.</p><p class="digest-where"><span><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> <b>Singapore</b> &middot; Poster #302, Hall 3 &#43; Hall 2B &middot; Sat 26 Apr, 15:00–17:30 (Singapore time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">ICRA 2025 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="chung2025guaranteed">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra55743.2025.11127579">Guaranteed Reach-Avoid for Black-Box Systems through Narrow Gaps via Neural Network Reachability</a>
+
+	<br><span class="authors">Long Kiu Chung, Wonsuhk Jung, Srivatsank Pullabhotla, Parth Shinde, Yadu Sunil, Saihari Kota, Luis Felipe Wolf Batista, Cédric Pradalier, Shreyas Kousik</span><p class="digest-summary">NeuralPARC extends PARC reach-avoid computation to ReLU networks trained on robot trajectory data, computing reachable sets with modeling error to return states and parameters that guarantee a black-box system reaches its goal through narrow gaps, shown on drift parking and a surface vehicle.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-12/">&larr; December 2024</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-02/">February 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

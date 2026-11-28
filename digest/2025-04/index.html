@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2025</h1></header>
+<article>
+<p class="digest-intro">CAV 2025, IJCAI 2025 and USENIX Security 2025 decisions: verification tools lead, with NeuralSAT, StarV, ModelVerification.jl and a Dafny-verified robustness certifier. Neural control work brings logarithmic neural certificates, deductive RL synthesis and KAN controllers with barrier certificates; theory covers floating-point universal approximation and PSPACE-completeness for quantized GNNs, alongside space explanations and FaVeR fairness repair.</p>
+<p>15 NNV papers accepted in April 2025, at CAV 2025, IJCAI 2025 and USENIX Security 2025.</p>
+<h2 class="digest-venue">CAV 2025 <span class="note">8 papers</span></h2>
+<ul class="papers digest"><li id="tobler2025formally">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_15">A Formally Verified Robustness Certifier for Neural Networks</a>
+
+	<br><span class="authors">James Tobler, Hira Taqdees Syeda, Toby Murray</span><p class="digest-summary">Implements and formally verifies in Dafny a certification function for globally-robust neural networks, after showing previous unverified implementations can be exploitably unsound and that approximations like power iteration do not guarantee soundness; describes specifications, design decisions and practical experience.</p>
+</li>
+<li id="wang2025deductive">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98685-7_4">Deductive Synthesis of Reinforcement Learning Agents for Infinite Horizon Tasks</a>
+
+	<br><span class="authors"><a href="/researchers/yuning-wang/">Yuning Wang</a>, <a href="/researchers/he-zhu/">He Zhu</a></span><p class="digest-summary">Synthesizes reinforcement learning agents that provably satisfy infinite-horizon temporal reach-avoid specifications by decomposing them into finite-horizon subtasks with separate policies, using formal verification to guarantee the composition; synthesized agents beat standard RL in performance and specification compliance.</p>
+</li>
+<li id="hwang2025floating">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_14">Floating-Point Neural Networks are Provably Robust Universal Approximators</a>
+
+	<br><span class="authors">Geonho Hwang, Wonyeol Lee, Yeachan Park, <a href="/researchers/sejun-park/">Sejun Park</a>, Feras Saad</span><p class="digest-summary">Proves the first interval universal approximation theorem for floating-point neural networks, showing their interval abstract semantics can exactly capture the direct image map of any rounded target function; corollaries include existence of provably robust floating-point networks and a computational completeness result.</p>
+</li>
+<li id="wei2025modelverification">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_18">ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/tianhao-wei/">Tianhao Wei</a>, Hanjiang Hu, <a href="/researchers/luca-marzari/">Luca Marzari</a>, Kai S. Yun, Peizhi Niu, <a href="/researchers/xusheng-luo/">Xusheng Luo</a>, <a href="/researchers/changliu-liu/">Changliu Liu</a></span><p class="digest-summary">Presents ModelVerification.jl, a toolbox collecting a suite of methods for formally verifying different types of DNNs against varied input-output specifications, aimed at giving developers and practitioners a single self-contained verification framework.</p>
+</li>
+<li id="duong2025neuralsat">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_19">NeuralSAT: A High-Performance Verification Tool for Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">Presents the latest version of NeuralSAT, a DNN verification tool based on the DPLL(T) framework that supports many architectures and activation functions; after a New Participant Award and 4th place at VNN-COMP&#39;23, it placed second at VNN-COMP&#39;24.</p>
+</li>
+<li id="badings2025policy">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_16">Policy Verification in Stochastic Dynamical Systems Using Logarithmic Neural Certificates</a>
+
+	<br><span class="authors">Thom Badings, Wietze Koops, Sebastian Junges, <a href="/researchers/nils-jansen/">Nils Jansen</a></span><p class="digest-summary">Verifies neural network policies in discrete-time stochastic systems against reach-avoid specifications using learned neural certificates, introducing logarithmic reach-avoid supermartingales and weighted-norm Lipschitz bounds to shrink Lipschitz constants; it verifies specifications with probabilities as high as 99.9999%.</p>
+</li>
+<li id="labbaf2025space">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98682-6_15">Space Explanations of Neural Network Classification</a>
+
+	<br><span class="authors">Faezeh Labbaf, Tomás Kolárik, Martin Blicha, Grigory Fedyukovich, Michael Wand, Natasha Sharygina</span><p class="digest-summary">Introduces space explanations, logic-based explanations of neural network classification that give provable guarantees over continuous input regions, generated with Craig interpolation and unsatisfiable cores; case studies of various sizes show them more meaningful than existing explanations.</p>
+</li>
+<li id="tran2025starv">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-98679-6_17">StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems</a>
+
+	<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/sung-woo-choi/">Sung Woo Choi</a>, <a href="/researchers/yuntao-li/">Yuntao Li</a>, <a href="/researchers/qing-liu/">Qing Liu</a>, Hideki Okamoto, Bardh Hoxha, <a href="/researchers/georgios-fainekos/">Georgios Fainekos</a></span><p class="digest-summary">Presents StarV, a star-reachability tool for verifying DNNs and learning-enabled cyber-physical systems, adding ProbStar reachability and ProbStar Temporal Logic for quantitative verification and a SparseImageStar representation for memory-efficient CNN and segmentation verification; it beats existing tools in speed, scalability and memory.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IJCAI 2025 <span class="note">6 papers</span></h2>
+<ul class="papers digest"><li id="fayyazi2025efficient">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/repair/"><span class="tag own">Repair &amp; patching</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/42">Efficient Counterexample-Guided Fairness Verification and Repair of Neural Networks Using Satisfiability Modulo Convex Programming</a>
+
+	<br><span class="authors">Arya Fayyazi, Yifeng Xiao, Pierluigi Nuzzo, Massoud Pedram</span><p class="digest-summary">Verifies and repairs individual fairness in pre-trained neural networks with FaVeR, which uses counterexamples from satisfiability modulo convex programming to locate high-sensitivity neurons and adjust their weights; it repairs 100% of models with under 2.27% accuracy loss.</p>
+</li>
+<li id="silva2025efficient">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/294">Efficient and Rigorous Model-Agnostic Explanations</a>
+
+	<br><span class="authors"><a href="/researchers/joao-marques-silva/">João Marques-Silva</a>, Jairo A. Lefebre-Lobaina, Maria Vanina Martinez</span><p class="digest-summary">Proposes efficient algorithms for symbolic, model-agnostic explanations that explain samples of a black-box model&#39;s behavior, keeping the rigor of logic-based explainability without needing access to model internals; experiments confirm the algorithms scale.</p>
+</li>
+<li id="zhang2025formalb">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/35">Formal Synthesis of Safe Kolmogorov-Arnold Network Controllers with Barrier Certificates</a>
+
+	<br><span class="authors"><a href="/researchers/xiongqi-zhang/">Xiongqi Zhang</a>, <a href="/researchers/ning-lv/">Ning Lv</a>, <a href="/researchers/wang-lin/">Wang Lin</a>, <a href="/researchers/zuohua-ding/">Zuohua Ding</a></span><p class="digest-summary">Synthesizes safe controllers and control barrier certificates using Kolmogorov-Arnold Networks instead of feed-forward networks, then prunes and symbolizes them so candidates can be formally verified with Satisfiability Modulo Theories; the KAN4CBC tool handles higher system dimensions with better efficiency.</p>
+</li>
+<li id="yang2025graphprot">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/70">GraphProt: Certified Black-Box Shielding Against Backdoored Graph Models</a>
+
+	<br><span class="authors">Xiao Yang, <a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/kai-zhou/">Kai Zhou</a>, Gaolei Li, Jianhua Li, Hang Zhang</span><p class="digest-summary">Shields GNN graph classifiers against backdoor attacks with GraphProt, a certified black-box defense that filters topology and features, samples subgraphs, and takes a majority vote over subgraph predictions; it lowers attack success rates while preserving clean classification accuracy.</p>
+</li>
+<li id="liu2025neuron">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/51">Neuron Similarity-Based Neural Network Verification via Abstraction and Refinement</a>
+
+	<br><span class="authors"><a href="/researchers/yuehao-liu/">Yuehao Liu</a>, <a href="/researchers/yansong-dong/">Yansong Dong</a>, <a href="/researchers/liang-zhao/">Liang Zhao</a>, <a href="/researchers/wensheng-wang/">Wensheng Wang</a>, <a href="/researchers/cong-tian/">Cong Tian</a></span><p class="digest-summary">Speeds up DNN verification with ARVerifier, which merges similar neurons based on interval outputs into a smaller abstract network and refines on spurious counterexamples; on ACAS Xu and MNIST it cuts verification time by 11.61%, 18.70% and 12.20% for α,β-CROWN, Verinet and Marabou.</p>
+</li>
+<li id="salzer2025verifying">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2025/519">Verifying Quantized Graph Neural Networks is PSPACE-complete</a>
+
+	<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, François Schwarzentruber, Nicolas Troquard</span><p class="digest-summary">Shows that verifying quantized graph neural networks through the linear-constrained validity problem (LVP) is PSPACE-complete for reasonable activation functions, via a translation into a logical language, a proof system, and a matching hardness proof.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2025 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="yan2025certta">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/uss/YanLXLL025">CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis</a>
+
+	<br><span class="authors">Jinzhu Yan, Zhuotao Liu, Yuyang Xie, Shiyu Liang, Lin Liu, Ke Xu</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-03/">&larr; March 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-05/">May 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

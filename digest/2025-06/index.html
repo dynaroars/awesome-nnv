@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>June 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-06/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="June 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-06/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>June 2025</h1></header>
+<article>
+<p class="digest-intro">OOPSLA 2025 and IROS 2025 decisions: tighter activation convex hull approximation with WraAct, mini-batch robustness verification with BaVerLy, and quantization guaranteed to match floating-point classifications with CoMPAQt. Certified individual fairness through training and the feasibility of real-time randomized smoothing certification round out the month.</p>
+<p>5 NNV papers accepted in June 2025, at IROS 2025 and OOPSLA 2025.</p>
+<h2 class="digest-venue">OOPSLA 2025 <span class="note">4 papers</span></h2>
+<ul class="papers digest"><li id="ma2025convex">
+	<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2025</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3763086">Convex Hull Approximation for Activation Functions</a>
+
+	<br><span class="authors"><a href="/researchers/zhongkui-ma/">Zhongkui Ma</a>, Zihan Wang, <a href="/researchers/guangdong-bai/">Guangdong Bai</a></span><p class="digest-summary">Builds tight over-approximations of activation function convex hulls with WraAct, which smooths functions using double-linear-piece functions; versus SBLM&#43;PDDM it is on average 400X faster and 150X more precise, and within a verifier it beats PRIMA by up to 20 verified samples.</p>
+</li>
+<li id="zhang2025correct">
+	<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2025</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1145/3763107">Correct-by-Construction: Certified Individual Fairness through Neural Network Training</a>
+
+	<br><span class="authors"><a href="/researchers/ruihan-zhang/">Ruihan Zhang</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span><p class="digest-summary">Guarantees individual fairness throughout neural network training via provably fair initialization and a fairness-preserving training algorithm using randomized response mechanisms to protect sensitive attributes; resulting models are fair and accurate, and training is much faster than certified training that runs verification.</p>
+</li>
+<li id="shaday2025mini">
+	<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2025</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3763150">Mini-Batch Robustness Verification of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/saar-tzour-shaday/">Saar Tzour-Shaday</a>, <a href="/researchers/dana-drachsler-cohen/">Dana Drachsler-Cohen</a></span><p class="digest-summary">Verifies local robustness of many ϵ-balls jointly with BaVerLy, a sound and complete verifier that groups balls with similar network computations into adaptively sized mini-batches and refines on failure; on MNIST and CIFAR-10 networks it is 2.3x faster on average, up to 4.1x.</p>
+</li>
+<li id="kabaha2025quantization">
+	<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2025</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a>
+	<a href="https://doi.org/10.1145/3763118">Quantization with Guaranteed Floating-Point Neural Network Classifications</a>
+
+	<br><span class="authors"><a href="/researchers/anan-kabaha/">Anan Kabaha</a>, <a href="/researchers/dana-drachsler-cohen/">Dana Drachsler-Cohen</a></span><p class="digest-summary">Guarantees quantized networks match floating-point classifications using CoMPAQt, a MILP encoding with custom relaxations that bounds the confidence of inconsistent inputs and drives correction mechanisms; one guarantees 100% consistency while cutting computational cost 3.8x on average, another reaches near-perfect consistency at 4.1x.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IROS 2025 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="seferis2025feasibility">
+	<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/iros60139.2025.11246579">Feasibility Analysis of real-time Robustness Certification</a>
+
+	<br><span class="authors"><a href="/researchers/emmanouil-seferis/">Emmanouil Seferis</a>, <a href="/researchers/stefanos-d-kollias/">Stefanos D. Kollias</a></span><p class="digest-summary">Studies how cutting the number of randomized smoothing samples by orders of magnitude affects certified radius, finding only modest loss in average certified radius that off-the-shelf improvements can offset, enabling real-time robustness certification on CIFAR-10 and ImageNet.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-05/">&larr; May 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-07/">July 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

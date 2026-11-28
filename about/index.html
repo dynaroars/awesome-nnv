@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/about/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="About">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/about/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/">Monthly digest</a>
+	<a href="/about/" class="current">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>About</h1></header>
+<article>
+
+<div class="with-toc">
+	<aside class="toc" aria-label="On this page">
+		<p class="toc-title">On this page</p>
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#venues">Venues</a></li>
+    <li><a href="#what-counts-as-an-nnv-paper">What counts as an NNV paper</a></li>
+    <li><a href="#researchers-and-groups">Researchers and groups</a></li>
+    <li><a href="#monthly-digest">Monthly digest</a></li>
+    <li><a href="#scores">Scores</a></li>
+    <li><a href="#citations">Citations</a></li>
+    <li><a href="#corrections">Corrections</a></li>
+  </ul>
+</nav>
+	</aside>
+	<div class="toc-body">
+		<p>Research grows through communities of people building on each other&rsquo;s work. <strong>Awesome NNV</strong> helps you find papers in <strong>neural-network verification (NNV)</strong> and see how the researchers behind them collaborate. It tracks NNV papers across 32 top conferences and maps co-authorship links between researchers. Everything is open source, and you can browse the code, data tables, and scripts on <a href="https://github.com/dynaroars/awesome-nnv">GitHub</a>.</p>
+<h2 id="venues">Venues</h2>
+<p>Conferences are grouped into twelve fields, following <a href="https://csrankings.org/">CSRankings</a>:</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Field</th>
+					<th style="text-align: left">Venues</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">ML, machine learning</td>
+					<td style="text-align: left">ICML, ICLR, NeurIPS</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">CV, computer vision</td>
+					<td style="text-align: left">CVPR, ICCV, ECCV</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">PL, programming languages</td>
+					<td style="text-align: left">PLDI, POPL, ICFP, OOPSLA</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">SE, software engineering</td>
+					<td style="text-align: left">FSE, ICSE, ASE, ISSTA</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">LV, logic and verification</td>
+					<td style="text-align: left">CAV, LICS</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">AI, artificial intelligence</td>
+					<td style="text-align: left">AAAI, IJCAI</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Sec, computer security</td>
+					<td style="text-align: left">CCS, S&amp;P, USENIX Security, NDSS</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Rob, robotics</td>
+					<td style="text-align: left">ICRA, IROS, RSS</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">NLP, natural language processing</td>
+					<td style="text-align: left">ACL, EMNLP, NAACL</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">DA, design automation</td>
+					<td style="text-align: left">DAC, ICCAD</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">DM, data mining</td>
+					<td style="text-align: left">KDD</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">Emb, embedded and real-time systems</td>
+					<td style="text-align: left">EMSOFT</td>
+			</tr>
+	</tbody>
+</table>
+<p>Coverage starts in 2017, the year Reluplex appeared at CAV, and includes accepted papers of upcoming conferences. Following CSRankings, we only include main-track papers that are at least six pages long. We leave out workshops, companion volumes, demos, position papers, Tiny Papers, new-ideas and industry tracks, Datasets &amp; Benchmarks tracks, and keynotes and invited talks, including those printed in the main proceedings. At AAAI and IJCAI, only the main technical track counts: special tracks (such as AAAI&rsquo;s Safe, Robust and Responsible AI and AI Alignment tracks, and IJCAI&rsquo;s AI for Good), survey, journal, demo, student and senior-member papers are left out, following the section lists on <code>ojs.aaai.org</code> and <code>ijcai.org</code>. Journal-style conference tracks (POPL, OOPSLA, ICFP, and PLDI in PACMPL, plus FSE and ISSTA in PACMSE) are included.</p>
+<p>Most paper lists come from <a href="https://dblp.org">dblp</a> (CC0) via its SPARQL service. Because dblp can take a few weeks to index new proceedings, we temporarily pull recent ICML, NeurIPS, and ICLR papers from the official conference sites (<code>icml.cc</code>, <code>neurips.cc</code>, <code>iclr.cc</code>) and match authors by name until dblp catches up. For the software-engineering and programming-languages conferences, we read the accepted-paper lists on the conferences&rsquo; own pages (<code>conf.researchr.org</code>) the same way. Robotics years that dblp has not indexed are read from the RSS proceedings (<code>roboticsproceedings.org</code>) and, for IROS, from OpenAlex&rsquo;s record of the IEEE proceedings. A paper whose acceptance is confirmed only on an author&rsquo;s page is counted too and marked <em>unofficial</em> until an official list includes it. Any other recent conference years missing from dblp are noted on the <a href="../conferences/">Conferences</a> page. When OpenAlex has an arXiv record for a paper, we link to it next to the title.</p>
+<h2 id="what-counts-as-an-nnv-paper">What counts as an NNV paper</h2>
+<p>A paper counts if its main goal is to verify, certify, or give formal guarantees about a neural network. Papers about other learned models, such as tree ensembles, nearest-neighbour classifiers or linear models, are not included. Specifically, we include:</p>
+<ul>
+<li>Complete and incomplete verifiers, bound propagation, and abstract interpretation</li>
+<li>Certified training, randomized smoothing, probabilistic certification, and Lipschitz bounds</li>
+<li>Neural controllers, closed-loop systems, and formally checked neural certificates (such as barrier and Lyapunov functions)</li>
+<li>Provable repair, formal explanations, and global or relational properties</li>
+<li>Verification of quantized networks and non-feed-forward models (transformers, RNNs, GNNs, and language models)</li>
+<li>Specifications beyond the usual ones: input sets other than an ℓp ball (geometric, semantic and structural transformations, patches, text edits) and output properties that are not linear (IoU for object detection, segmentation, pose, confidence)</li>
+<li>Verifier soundness, proof checking, tools, benchmarks, and surveys</li>
+</ul>
+<p>We leave out DNN testing and fuzzing, empirical attacks or defenses without formal guarantees, and papers that use neural networks or LLMs to verify ordinary programs.</p>
+<p>To find these papers, a broad keyword filter scans titles across all 32 conferences. Each match is then reviewed (with AI assistance) and logged with a dated note in <code>topics.csv</code>, and we continue to review and fix edge cases over time. Every included paper is assigned one primary <a href="../areas/">area</a> and optional secondary tags. If you spot a mistake, please let us know (see <a href="#corrections">Corrections</a>).</p>
+<h2 id="researchers-and-groups">Researchers and groups</h2>
+<p>Every author with at least two NNV papers at the tracked venues is listed, from students to senior faculty and industry researchers; authors with a single paper are added once they reach two. Every researcher is matched by their dblp ID so authors with the same name do not get mixed up. Institutions come from manual checks or dblp profiles, and new researchers are first placed in the group of the listed co-author they share the most NNV papers with, then checked by hand.</p>
+<p>Rather than ranking by university, we organize people by <strong>research group</strong>, named after their signature tool or research focus (similar to how teams compete at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>). Institutions are shown for context only, and all of a researcher&rsquo;s papers count toward their current group.</p>
+<h2 id="monthly-digest">Monthly digest</h2>
+<p>The <a href="../digest/">Monthly digest</a> lists the NNV papers accepted each month, with a short summary of each written from its abstract. Papers are dated by their conference&rsquo;s acceptance notification, taken from the conference&rsquo;s own pages, because that is when most papers are shared.</p>
+<h2 id="scores">Scores</h2>
+<p>Individual scores follow the CSRankings adjusted count: a paper with <code>N</code> authors gives <code>1 / N</code> credit to each listed author.</p>
+<p>Group scores mirror how CSRankings ranks institutions. For each of the twelve fields (ML, CV, PL, SE, LV, AI, Sec, Rob, NLP, DA, DM, and Emb), we sum the adjusted counts of all group members and take the geometric mean of <code>(field count + 1)</code> across the twelve fields. Adding 1 prevents a zero in one field from zeroing out the whole score, while the geometric mean rewards groups that publish across multiple communities. In a group&rsquo;s total paper count, a paper co-authored by several members is counted only once. To follow active teams, the group leaderboard is ordered by each group&rsquo;s NNV papers in the current year, then by its score over that year&rsquo;s papers alone (the same formula); the all-year paper count and score are shown next to them.</p>
+<h2 id="citations">Citations</h2>
+<p>Citation counts are pulled from <a href="https://openalex.org/">OpenAlex</a>. Because OpenAlex often stores a preprint and its published version as separate entries, we sum citations across all records that match the paper&rsquo;s DOI or have the same title within a nearby year. A researcher&rsquo;s citation total sums their NNV papers, and a group&rsquo;s total counts each shared paper once. Citations are shown for reference only and do not affect rankings.</p>
+<h2 id="corrections">Corrections</h2>
+<p>Spot something missing or wrong? Use the <a href="../feedback/">Feedback</a> page or open an issue on <a href="https://github.com/dynaroars/awesome-nnv/issues">GitHub</a> to suggest a researcher, recategorize a paper, or flag a paper that should or shouldn&rsquo;t be included.</p>
+
+	</div>
+</div>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

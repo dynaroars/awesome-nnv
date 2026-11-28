@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NN control systems | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="NN control systems: Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning. 95 papers at top venues.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/areas/control/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="NN control systems">
+	<meta property="og:description" content="NN control systems: Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning. 95 papers at top venues.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/areas/control/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/" class="current">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>NN control systems</h1></header>
+<article>
+
+<p>Closed-loop reachability, neural controllers, barrier and Lyapunov certificates, and verified reinforcement learning.</p>
+<p>106 NNV papers in this area.</p>
+<div class="fig-row clear">
+<figure>
+<svg class="chart" viewBox="0 0 640 400" role="img" aria-label="NN control systems: NNV papers per year by field"><defs><pattern id="pat-hash" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3H6M3 0V6" class="pat-line"/></pattern><pattern id="pat-stripe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V6" class="pat-line"/></pattern></defs><g class="key" data-series="ar-ml pat-hash" tabindex="0"><rect class="key-hit" x="31" y="3" width="36.8" height="18"/><rect class="ar-ml pat-hash" x="34" y="6" width="12" height="12"/><rect class="pat" x="34" y="6" width="12" height="12" fill="url(#pat-hash)"/><text x="52" y="16">ML</text></g><g class="key" data-series="ar-ai pat-stripe" tabindex="0"><rect class="key-hit" x="73.8" y="3" width="36.8" height="18"/><rect class="ar-ai pat-stripe" x="76.8" y="6" width="12" height="12"/><rect class="pat" x="76.8" y="6" width="12" height="12" fill="url(#pat-stripe)"/><text x="94.8" y="16">AI</text></g><g class="key" data-series="ar-lv" tabindex="0"><rect class="key-hit" x="116.6" y="3" width="36.8" height="18"/><rect class="ar-lv" x="119.6" y="6" width="12" height="12"/><text x="137.6" y="16">LV</text></g><g class="key" data-series="ar-cv" tabindex="0"><rect class="key-hit" x="159.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-cv" x="162.39999999999998" y="6" width="12" height="12"/><text x="180.39999999999998" y="16">CV</text></g><g class="key" data-series="ar-sec" tabindex="0"><rect class="key-hit" x="202.2" y="3" width="43.2" height="18"/><rect class="ar-sec" x="205.2" y="6" width="12" height="12"/><text x="223.2" y="16">Sec</text></g><g class="key" data-series="ar-pl" tabindex="0"><rect class="key-hit" x="251.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-pl" x="254.39999999999998" y="6" width="12" height="12"/><text x="272.4" y="16">PL</text></g><g class="key" data-series="ar-se" tabindex="0"><rect class="key-hit" x="294.2" y="3" width="36.8" height="18"/><rect class="ar-se" x="297.2" y="6" width="12" height="12"/><text x="315.2" y="16">SE</text></g><g class="key" data-series="ar-other" tabindex="0"><rect class="key-hit" x="337.0" y="3" width="209.6" height="18"/><rect class="ar-other" x="340.0" y="6" width="12" height="12"/><text x="358.0" y="16">Other (Rob, NLP, DA, DM, Emb)</text></g><line class="axis" x1="34" y1="376.0" x2="630" y2="376.0"/><text x="28" y="380.0" text-anchor="end">0</text><line class="grid" x1="34" y1="290.5" x2="630" y2="290.5"/><text x="28" y="294.5" text-anchor="end">5</text><line class="grid" x1="34" y1="205.0" x2="630" y2="205.0"/><text x="28" y="209.0" text-anchor="end">10</text><line class="grid" x1="34" y1="119.5" x2="630" y2="119.5"/><text x="28" y="123.5" text-anchor="end">15</text><line class="grid" x1="34" y1="34.0" x2="630" y2="34.0"/><text x="28" y="38.0" text-anchor="end">20</text><rect class="ar-ml pat-hash seg" x="46.1" y="358.9" width="30.0" height="17.1"><title>2017, ML: 1 papers</title></rect><rect class="pat" x="46.1" y="358.9" width="30.0" height="17.1" fill="url(#pat-hash)"/><text class="value" x="61.1" y="353.9" text-anchor="middle">1</text><text x="61.1" y="393" text-anchor="middle">2017</text><rect class="ar-ai pat-stripe seg" x="100.3" y="341.8" width="30.0" height="34.2"><title>2018, AI: 2 papers</title></rect><rect class="pat" x="100.3" y="341.8" width="30.0" height="34.2" fill="url(#pat-stripe)"/><text class="value" x="115.3" y="336.8" text-anchor="middle">2</text><text x="115.3" y="393" text-anchor="middle">2018</text><rect class="ar-ml pat-hash seg" x="154.5" y="358.9" width="30.0" height="17.1"><title>2019, ML: 1 papers</title></rect><rect class="pat" x="154.5" y="358.9" width="30.0" height="17.1" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="154.5" y="324.7" width="30.0" height="34.2"><title>2019, AI: 2 papers</title></rect><rect class="pat" x="154.5" y="324.7" width="30.0" height="34.2" fill="url(#pat-stripe)"/><rect class="ar-pl seg" x="154.5" y="307.6" width="30.0" height="17.1"><title>2019, PL: 1 papers</title></rect><rect class="ar-other seg" x="154.5" y="273.4" width="30.0" height="34.2"><title>2019, Other (Rob, NLP, DA, DM, Emb): 2 papers</title></rect><text class="value" x="169.5" y="268.4" text-anchor="middle">6</text><text x="169.5" y="393" text-anchor="middle">2019</text><rect class="ar-ml pat-hash seg" x="208.6" y="341.8" width="30.0" height="34.2"><title>2020, ML: 2 papers</title></rect><rect class="pat" x="208.6" y="341.8" width="30.0" height="34.2" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="208.6" y="324.7" width="30.0" height="17.1"><title>2020, AI: 1 papers</title></rect><rect class="pat" x="208.6" y="324.7" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="208.6" y="307.6" width="30.0" height="17.1"><title>2020, LV: 1 papers</title></rect><rect class="ar-other seg" x="208.6" y="273.4" width="30.0" height="34.2"><title>2020, Other (Rob, NLP, DA, DM, Emb): 2 papers</title></rect><text class="value" x="223.6" y="268.4" text-anchor="middle">6</text><text x="223.6" y="393" text-anchor="middle">2020</text><rect class="ar-ml pat-hash seg" x="262.8" y="341.8" width="30.0" height="34.2"><title>2021, ML: 2 papers</title></rect><rect class="pat" x="262.8" y="341.8" width="30.0" height="34.2" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="262.8" y="307.6" width="30.0" height="34.2"><title>2021, AI: 2 papers</title></rect><rect class="pat" x="262.8" y="307.6" width="30.0" height="34.2" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="262.8" y="273.4" width="30.0" height="34.2"><title>2021, LV: 2 papers</title></rect><rect class="ar-other seg" x="262.8" y="187.9" width="30.0" height="85.5"><title>2021, Other (Rob, NLP, DA, DM, Emb): 5 papers</title></rect><text class="value" x="277.8" y="182.9" text-anchor="middle">11</text><text x="277.8" y="393" text-anchor="middle">2021</text><rect class="ar-ml pat-hash seg" x="317.0" y="239.2" width="30.0" height="136.8"><title>2022, ML: 8 papers</title></rect><rect class="pat" x="317.0" y="239.2" width="30.0" height="136.8" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="317.0" y="153.7" width="30.0" height="85.5"><title>2022, AI: 5 papers</title></rect><rect class="pat" x="317.0" y="153.7" width="30.0" height="85.5" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="317.0" y="119.5" width="30.0" height="34.2"><title>2022, LV: 2 papers</title></rect><rect class="ar-other seg" x="317.0" y="51.1" width="30.0" height="68.4"><title>2022, Other (Rob, NLP, DA, DM, Emb): 4 papers</title></rect><text class="value" x="332.0" y="46.1" text-anchor="middle">19</text><text x="332.0" y="393" text-anchor="middle">2022</text><rect class="ar-ml pat-hash seg" x="371.2" y="273.4" width="30.0" height="102.6"><title>2023, ML: 6 papers</title></rect><rect class="pat" x="371.2" y="273.4" width="30.0" height="102.6" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="371.2" y="222.1" width="30.0" height="51.3"><title>2023, AI: 3 papers</title></rect><rect class="pat" x="371.2" y="222.1" width="30.0" height="51.3" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="371.2" y="187.9" width="30.0" height="34.2"><title>2023, LV: 2 papers</title></rect><rect class="ar-sec seg" x="371.2" y="170.8" width="30.0" height="17.1"><title>2023, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="371.2" y="153.7" width="30.0" height="17.1"><title>2023, PL: 1 papers</title></rect><rect class="ar-other seg" x="371.2" y="102.4" width="30.0" height="51.3"><title>2023, Other (Rob, NLP, DA, DM, Emb): 3 papers</title></rect><text class="value" x="386.2" y="97.4" text-anchor="middle">16</text><text x="386.2" y="393" text-anchor="middle">2023</text><rect class="ar-ml pat-hash seg" x="425.4" y="256.3" width="30.0" height="119.7"><title>2024, ML: 7 papers</title></rect><rect class="pat" x="425.4" y="256.3" width="30.0" height="119.7" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="425.4" y="222.1" width="30.0" height="34.2"><title>2024, AI: 2 papers</title></rect><rect class="pat" x="425.4" y="222.1" width="30.0" height="34.2" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="425.4" y="187.9" width="30.0" height="34.2"><title>2024, LV: 2 papers</title></rect><rect class="ar-other seg" x="425.4" y="119.5" width="30.0" height="68.4"><title>2024, Other (Rob, NLP, DA, DM, Emb): 4 papers</title></rect><text class="value" x="440.4" y="114.5" text-anchor="middle">15</text><text x="440.4" y="393" text-anchor="middle">2024</text><rect class="ar-ml pat-hash seg" x="479.5" y="324.7" width="30.0" height="51.3"><title>2025, ML: 3 papers</title></rect><rect class="pat" x="479.5" y="324.7" width="30.0" height="51.3" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="479.5" y="222.1" width="30.0" height="102.6"><title>2025, AI: 6 papers</title></rect><rect class="pat" x="479.5" y="222.1" width="30.0" height="102.6" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="479.5" y="170.8" width="30.0" height="51.3"><title>2025, LV: 3 papers</title></rect><rect class="ar-sec seg" x="479.5" y="153.7" width="30.0" height="17.1"><title>2025, Sec: 1 papers</title></rect><rect class="ar-other seg" x="479.5" y="136.6" width="30.0" height="17.1"><title>2025, Other (Rob, NLP, DA, DM, Emb): 1 papers</title></rect><text class="value" x="494.5" y="131.6" text-anchor="middle">14</text><text x="494.5" y="393" text-anchor="middle">2025</text><rect class="ar-ml pat-hash seg" x="533.7" y="273.4" width="30.0" height="102.6"><title>2026, ML: 6 papers</title></rect><rect class="pat" x="533.7" y="273.4" width="30.0" height="102.6" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="533.7" y="187.9" width="30.0" height="85.5"><title>2026, AI: 5 papers</title></rect><rect class="pat" x="533.7" y="187.9" width="30.0" height="85.5" fill="url(#pat-stripe)"/><rect class="ar-pl seg" x="533.7" y="170.8" width="30.0" height="17.1"><title>2026, PL: 1 papers</title></rect><rect class="ar-other seg" x="533.7" y="102.4" width="30.0" height="68.4"><title>2026, Other (Rob, NLP, DA, DM, Emb): 4 papers</title></rect><text class="value" x="548.7" y="97.4" text-anchor="middle">16</text><text x="548.7" y="393" text-anchor="middle">2026</text><text x="602.9" y="393" text-anchor="middle">2027</text></svg>
+<figcaption>Papers per year, by CSRankings field.</figcaption>
+</figure>
+<figure>
+<svg class="chart pie" viewBox="0 0 640 400" role="img" aria-label="NN control systems: NNV papers of the leading groups"><a class="pie-item pie-g0" href="../../groups/abcrown/" aria-label="α,β-CROWN: 7 papers (7%)"><path class="slice" d="M320,200 L320.0,60.0 A140,140 0 0 1 376.9,72.1 Z"><title>α,β-CROWN: 7 papers (7%)</title></path><polyline class="leader" points="349.5,61.1 480.0,45.5 490.0,45.5"/><rect class="pie-hit" x="494.0" y="38.0" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="49.5">α,β-CROWN <tspan class="value">7 (7%)</tspan></tspan></text></a><a class="pie-item pie-g1" href="../../groups/ista/" aria-label="Henzinger group: 7 papers (7%)"><path class="slice" d="M320,200 L376.9,72.1 A140,140 0 0 1 424.0,106.3 Z"><title>Henzinger group: 7 papers (7%)</title></path><polyline class="leader" points="403.5,85.1 480.0,72.2 490.0,72.2"/><rect class="pie-hit" x="494.0" y="64.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="76.2">Henzinger group <tspan class="value">7 (7%)</tspan></tspan></text></a><a class="pie-item pie-g2" href="../../groups/zhengfeng-yang/" aria-label="Zhengfeng Yang group: 7 papers (7%)"><path class="slice" d="M320,200 L424.0,106.3 A140,140 0 0 1 453.1,156.7 Z"><title>Zhengfeng Yang group: 7 papers (7%)</title></path><polyline class="leader" points="443.0,129.0 480.0,121.0 490.0,121.0"/><rect class="pie-hit" x="494.0" y="113.5" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="125.0">Zhengfeng Yang group <tspan class="value">7 (7%)</tspan></tspan></text></a><a class="pie-item pie-g3" href="../../groups/vorobeychik/" aria-label="Vorobeychik group: 6 papers (6%)"><path class="slice" d="M320,200 L453.1,156.7 A140,140 0 0 1 459.9,206.3 Z"><title>Vorobeychik group: 6 papers (6%)</title></path><polyline class="leader" points="460.7,180.9 480.0,178.8 490.0,178.8"/><rect class="pie-hit" x="494.0" y="171.3" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="182.8">Vorobeychik group <tspan class="value">6 (6%)</tspan></tspan></text></a><a class="pie-item pie-g4" href="../../groups/ecnu/" aria-label="Min Zhang group: 5 papers (5%)"><path class="slice" d="M320,200 L459.9,206.3 A140,140 0 0 1 451.8,247.2 Z"><title>Min Zhang group: 5 papers (5%)</title></path><polyline class="leader" points="459.3,227.4 480.0,230.5 490.0,230.5"/><rect class="pie-hit" x="494.0" y="223.0" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="234.5">Min Zhang group <tspan class="value">5 (5%)</tspan></tspan></text></a><a class="pie-item pie-g5" href="../../groups/wang-lin/" aria-label="Wang Lin group: 4 papers (4%)"><path class="slice" d="M320,200 L451.8,247.2 A140,140 0 0 1 436.8,277.1 Z"><title>Wang Lin group: 4 papers (4%)</title></path><polyline class="leader" points="447.0,263.5 480.0,270.7 490.0,270.7"/><rect class="pie-hit" x="494.0" y="263.2" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="274.7">Wang Lin group <tspan class="value">4 (4%)</tspan></tspan></text></a><a class="pie-item pie-g6" href="../../groups/ufuk-topcu/" aria-label="Ufuk Topcu group: 4 papers (4%)"><path class="slice" d="M320,200 L436.8,277.1 A140,140 0 0 1 415.2,302.6 Z"><title>Ufuk Topcu group: 4 papers (4%)</title></path><polyline class="leader" points="428.3,291.8 480.0,302.2 490.0,302.2"/><rect class="pie-hit" x="494.0" y="294.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="306.2">Ufuk Topcu group <tspan class="value">4 (4%)</tspan></tspan></text></a><a class="pie-item pie-g7" href="../../groups/secure-learning/" aria-label="Secure Learning Lab: 3 papers (3%)"><path class="slice" d="M320,200 L415.2,302.6 A140,140 0 0 1 395.4,318.0 Z"><title>Secure Learning Lab: 3 papers (3%)</title></path><polyline class="leader" points="406.9,312.3 480.0,325.0 490.0,325.0"/><rect class="pie-hit" x="494.0" y="317.5" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="329.0">Secure Learning Lab <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g8" href="../../groups/fazlyab/" aria-label="Fazlyab group: 3 papers (3%)"><path class="slice" d="M320,200 L395.4,318.0 A140,140 0 0 1 373.1,329.5 Z"><title>Fazlyab group: 3 papers (3%)</title></path><polyline class="leader" points="385.4,326.0 480.0,340.2 490.0,340.2"/><rect class="pie-hit" x="494.0" y="332.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="344.2">Fazlyab group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g9" href="../../groups/charon/" aria-label="Charon: 3 papers (3%)"><path class="slice" d="M320,200 L373.1,329.5 A140,140 0 0 1 349.1,336.9 Z"><title>Charon: 3 papers (3%)</title></path><polyline class="leader" points="361.9,335.7 480.0,355.2 490.0,355.2"/><rect class="pie-hit" x="494.0" y="347.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="359.2">Charon <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g10" href="../../groups/gao-ucsd/" aria-label="Gao group: 3 papers (3%)"><path class="slice" d="M320,200 L349.1,336.9 A140,140 0 0 1 324.2,339.9 Z"><title>Gao group: 3 papers (3%)</title></path><polyline class="leader" points="337.0,341.0 480.0,370.2 490.0,370.2"/><rect class="pie-hit" x="494.0" y="362.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="374.2">Gao group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g11" href="../../groups/he-zhu/" aria-label="He Zhu group: 3 papers (3%)"><path class="slice" d="M320,200 L324.2,339.9 A140,140 0 0 1 299.1,338.4 Z"><title>He Zhu group: 3 papers (3%)</title></path><polyline class="leader" points="311.5,341.7 160.0,368.5 150.0,368.5"/><rect class="pie-hit" x="-54.0" y="361.0" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="372.5">He Zhu group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g12" href="../../groups/bai-xue/" aria-label="Bai Xue group: 3 papers (3%)"><path class="slice" d="M320,200 L299.1,338.4 A140,140 0 0 1 274.8,332.5 Z"><title>Bai Xue group: 3 papers (3%)</title></path><polyline class="leader" points="286.3,338.0 160.0,353.5 150.0,353.5"/><rect class="pie-hit" x="-54.0" y="346.0" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="357.5">Bai Xue group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-rest" href="../" aria-label="Other groups: 47 papers (45%)"><path class="slice" d="M320,200 L274.8,332.5 A140,140 0 0 1 320.0,60.0 Z"><title>Other groups: 47 papers (45%)</title></path><polyline class="leader" points="179.9,176.7 160.0,174.1 150.0,174.1"/><rect class="pie-hit" x="-54.0" y="166.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="178.1">Other groups <tspan class="value">47 (45%)</tspan></tspan></text></a></svg>
+<figcaption>Papers by leading group, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
+<div class="fig-row">
+<div>
+<h2>Leading researchers</h2>
+<ol><li><a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a> <span class="note">(Zhengfeng Yang group)</span>: 7</li><li><a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a> <span class="note">(Henzinger group)</span>: 6</li><li><a href="/researchers/mathias-lechner/">Mathias Lechner</a> <span class="note">(Henzinger group)</span>: 6</li><li><a href="/researchers/min-zhang/">Min Zhang</a> <span class="note">(Min Zhang group)</span>: 5</li><li><a href="/researchers/dorde-zikelic/">Dorde Zikelic</a> <span class="note">(Henzinger group)</span>: 5</li><li><a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a> <span class="note">(Vorobeychik group)</span>: 5</li><li><a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a> <span class="note">(Zhengfeng Yang group)</span>: 5</li><li><a href="/researchers/xia-zeng/">Xia Zeng</a> <span class="note">(Zhengfeng Yang group)</span>: 5</li><li><a href="/researchers/huan-zhang/">Huan Zhang</a> <span class="note">(α,β-CROWN)</span>: 4</li><li><a href="/researchers/junlin-wu/">Junlin Wu</a> <span class="note">(Vorobeychik group)</span>: 4</li><li><a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a> <span class="note">(Henzinger group)</span>: 4</li><li><a href="/researchers/dapeng-zhi/">Dapeng Zhi</a> <span class="note">(Min Zhang group)</span>: 4</li><li><a href="/researchers/wang-lin/">Wang Lin</a> <span class="note">(Wang Lin group)</span>: 4</li><li><a href="/researchers/peixin-wang/">Peixin Wang</a> <span class="note">(Min Zhang group)</span>: 4</li></ol>
+</div>
+<div>
+<h2>Leading groups</h2>
+<ol><li><a href="/groups/abcrown/">α,β-CROWN</a>: 7</li><li><a href="/groups/ista/">Henzinger group</a>: 7</li><li><a href="/groups/zhengfeng-yang/">Zhengfeng Yang group</a>: 7</li><li><a href="/groups/vorobeychik/">Vorobeychik group</a>: 6</li><li><a href="/groups/ecnu/">Min Zhang group</a>: 5</li><li><a href="/groups/wang-lin/">Wang Lin group</a>: 4</li><li><a href="/groups/ufuk-topcu/">Ufuk Topcu group</a>: 4</li><li><a href="/groups/secure-learning/">Secure Learning Lab</a>: 3</li><li><a href="/groups/fazlyab/">Fazlyab group</a>: 3</li><li><a href="/groups/charon/">Charon</a>: 3</li><li><a href="/groups/gao-ucsd/">Gao group</a>: 3</li><li><a href="/groups/he-zhu/">He Zhu group</a>: 3</li><li><a href="/groups/bai-xue/">Bai Xue group</a>: 3</li></ol>
+</div>
+</div>
+<h2>Papers</h2>
+
+<ul class="papers">
+	<li id="lv2026ensuring">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/repair/"><span class="tag own">Repair &amp; patching</span></a>
+		<a href="https://openreview.net/forum?id=fMUyPAggFz">Ensuring Deployment-Time Safety of Neural Network Controlled Systems via Localized Certificate Repair</a> <span class="note">(<a href="https://arxiv.org/abs/2611.33813">arXiv</a>)</span>
+		<br><span class="authors">Xiaoyang Lv, <a href="/researchers/peixin-wang/">Peixin Wang</a>, Jianhao Bai, <a href="/researchers/bai-xue/">Bai Xue</a>, <a href="/researchers/min-zhang/">Min Zhang</a>, Luke Ong</span>
+	</li>
+	<li id="wang2026learning">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://openreview.net/forum?id=yy5SiFn9vr">Learning Provable Neural Network Observer for Uncertain Dynamical Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2609.30819">arXiv</a>)</span> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Zhangyi Wang, Jiaxu Liu, Chen Song, Chao Xu, Shengze Cai</span>
+	</li>
+	<li id="yun2026provably">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a> <span class="tag other">spotlight</span> 🎉
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://openreview.net/forum?id=PHVIRBgte1">Provably Safe, Yet Scalable Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2606.14536">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Kai Yun, Zeyang Li, Navid Azizan</span>
+	</li>
+	<li id="alavi2026scalable">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+		<a href="https://openreview.net/forum?id=0mIVNtnfDp">Scalable Neural Safety Certification via Monotonicity</a> <span class="note">(<a href="https://arxiv.org/abs/2611.11119">arXiv</a>)</span> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Amirreza Alavi, Majid Zamani, Saber Jafarpour</span>
+	</li>
+	<li id="he2026safety">
+		<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/iros61738.2026.11776536">Safety-Constrained Reinforcement Learning with Post-Training Reachability Verification for Robot Navigation</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Qisong He, Xinmiao Huang, Jinwei Hu, Zhuoyun Li, Yi Dong, Changshun Wu, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a></span>
+	</li>
+	<li id="daggitt2026compositional">
+		<a class="tag-link" href="/conferences/icfp/"><span class="tag accepted">ICFP 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1145/3828680">Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/alistair-sirman/">Alistair Sirman</a>, Alessandro Bruni, <a href="/researchers/samuel-teuber/">Samuel Teuber</a>, <a href="/researchers/josh-smart/">Josh Smart</a>, Grant O. Passmore</span>
+	</li>
+	<li id="marzari2026probabilisticb">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2026/30">Probabilistic Verification of Recurrent Neural Networks for Single and Multi-Agent Reinforcement Learning</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/luca-marzari/">Luca Marzari</a>, Enrico Marchesini</span>
+	</li>
+	<li id="zhou2026neural">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://openreview.net/forum?id=mJEVzcuDNF">Neural Vector Lyapunov–Razumikhin Certificates for Delayed Interconnected Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2604.00774">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Jingyuan Zhou, Yuexuan Wang, Kaidi Yang</span>
+	</li>
+	<li id="shen2026parallel">
+		<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+		<a href="https://www.roboticsproceedings.org/rss22/p191.html">Parallel Differentiable Reachability for Learning and Planning with Certified Neural Dynamics and Controllers</a> <span class="note cites">&middot; 5 citations</span>
+		<br><span class="authors">Keyi Shen, Glen Chou</span>
+	</li>
+	<li id="hu2026provably">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3770743.3804025">Provably Probabilistic Safe Controller Synthesis for Vision-Based Neural Network Control Systems</a>
+		<br><span class="authors">Qianlong Hu, <a href="/researchers/hanrui-zhao/">Hanrui Zhao</a>, Liqian Chen, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, Banghu Yin, <a href="/researchers/ji-wang/">Ji Wang</a></span>
+	</li>
+	<li id="nath2026formal">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra57385.2026.11696753">Formal Safety Verification and Refinement for Generative Motion Planners via Certified Local Stabilization</a>
+		<br><span class="authors">Devesh Nath, Haoran Yin, Glen Chou</span>
+	</li>
+	<li id="ren2026efficient">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i42.40890">Efficient Verification and Falsification of ReLU Neural Barrier Certificates</a> <span class="note">(<a href="https://arxiv.org/abs/2511.10015">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Dejin Ren, Yiling Xue, Taoran Wu, <a href="/researchers/bai-xue/">Bai Xue</a></span>
+	</li>
+	<li id="ma2026learning">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i42.40882">Learning Vision-Based Neural Network Controllers with Semi-Probabilistic Safety Guarantees</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Xinhang Ma, <a href="/researchers/junlin-wu/">Junlin Wu</a>, Hussein Sibai, <a href="/researchers/yiannis-kantaros/">Yiannis Kantaros</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span>
+	</li>
+	<li id="casablanca2026lucid">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i24.39075">LUCID: Learning-Enabled Uncertainty-Aware Certification of Stochastic Dynamical Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2512.11750">arXiv</a>)</span> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors">Ernesto Casablanca, Oliver Schön, Paolo Zuliani, Sadegh Soudjani</span>
+	</li>
+	<li id="vinzent2026probabilistic">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i43.40965">Probabilistic Safety Verification of Neural Policies via Predicate Abstraction</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Marcel Vinzent, <a href="/researchers/holger-hermanns/">Holger Hermanns</a>, <a href="/researchers/jorg-hoffmann/">Jörg Hoffmann</a></span>
+	</li>
+	<li id="long2025certifying">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LongCA25">Certifying Stability of Reinforcement Learning Policies using Generalized Lyapunov Functions</a> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors">Kehan Long, Jorge Cortés, Nikolay Atanasov</span>
+	</li>
+	<li id="li2025two">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a> <span class="tag other">spotlight</span> 🎉
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LiZHZ25">Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion</a> <span class="note cites">&middot; 19 citations</span>
+		<br><span class="authors"><a href="/researchers/haoyu-li/">Haoyu Li</a>, <a href="/researchers/xiangru-zhong/">Xiangru Zhong</a>, <a href="/researchers/bin-hu/">Bin Hu</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span>
+	</li>
+	<li id="zhang2025formalb">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2025/35">Formal Synthesis of Safe Kolmogorov-Arnold Network Controllers with Barrier Certificates</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/xiongqi-zhang/">Xiongqi Zhang</a>, <a href="/researchers/ning-lv/">Ning Lv</a>, <a href="/researchers/wang-lin/">Wang Lin</a>, <a href="/researchers/zuohua-ding/">Zuohua Ding</a></span>
+	</li>
+	<li id="wang2025deductive">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98685-7_4">Deductive Synthesis of Reinforcement Learning Agents for Infinite Horizon Tasks</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/yuning-wang/">Yuning Wang</a>, <a href="/researchers/he-zhu/">He Zhu</a></span>
+	</li>
+	<li id="badings2025policy">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98679-6_16">Policy Verification in Stochastic Dynamical Systems Using Logarithmic Neural Certificates</a> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors">Thom Badings, Wietze Koops, Sebastian Junges, <a href="/researchers/nils-jansen/">Nils Jansen</a></span>
+	</li>
+	<li id="liu2025multi">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/LiuCMER25">Multi-level Certified Defense Against Poisoning Attacks in Offline Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2505.20621">arXiv</a>)</span> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span>
+	</li>
+	<li id="chung2025guaranteed">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra55743.2025.11127579">Guaranteed Reach-Avoid for Black-Box Systems through Narrow Gaps via Neural Network Reachability</a> <span class="note cites">&middot; 5 citations</span>
+		<br><span class="authors">Long Kiu Chung, Wonsuhk Jung, Srivatsank Pullabhotla, Parth Shinde, Yadu Sunil, Saihari Kota, Luis Felipe Wolf Batista, Cédric Pradalier, Shreyas Kousik</span>
+	</li>
+	<li id="zhang2025formal">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i1.32101">Formal Synthesis of Barrier Certificates Using Fourier Kolmogorov-Arnold Network</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/xiongqi-zhang/">Xiongqi Zhang</a>, Junwei Xu, Yang Wang, Dongming Xiang, <a href="/researchers/wang-lin/">Wang Lin</a>, <a href="/researchers/zuohua-ding/">Zuohua Ding</a></span>
+	</li>
+	<li id="zhang2025learning">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i22.34504">Learning Verified Safe Neural Network Controllers for Multi-Agent Path Finding</a> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors">Mingyue Zhang, Nianyu Li, Yi Chen, Jialong Li, Xiaoyi Zhang, Hengjun Zhao, Jiamou Liu, Wu Chen</span>
+	</li>
+	<li id="yu2025neural">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/repair/"><span class="tag own">Repair &amp; patching</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i25.34840">Neural Control and Certificate Repair via Runtime Monitoring</a> <span class="note cites">&middot; 15 citations</span>
+		<br><span class="authors">Emily Yu, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span>
+	</li>
+	<li id="court2025probabilistic">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i15.33767">Probabilistic Shielding for Safe Reinforcement Learning</a> <span class="note cites">&middot; 29 citations</span>
+		<br><span class="authors">Edwin Hamel-De le Court, Francesco Belardinelli, Alexander W. Goodall</span>
+	</li>
+	<li id="cai2025scalable">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i1.31976">Scalable Surrogate Verification of Image-Based Neural Network Control Systems Using Composition and Unrolling</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/feiyang-cai/">Feiyang Cai</a>, Chuchu Fan, <a href="/researchers/stanley-bak/">Stanley Bak</a></span>
+	</li>
+	<li id="banerjee2024dynamic">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/BanerjeeRBD24">Dynamic Model Predictive Shielding for Provably Safe Reinforcement Learning</a> <span class="note cites">&middot; 44 citations</span>
+		<br><span class="authors">Arko Banerjee, Kia Rahmani, Joydeep Biswas, <a href="/researchers/isil-dillig/">Isil Dillig</a></span>
+	</li>
+	<li id="teuber2024provably">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/TeuberMP24">Provably Safe Neural Network Controllers via Differential Dynamic Logic</a> <span class="note cites">&middot; 32 citations</span>
+		<br><span class="authors"><a href="/researchers/samuel-teuber/">Samuel Teuber</a>, Stefan Mitsch, <a href="/researchers/andre-platzer/">André Platzer</a></span>
+	</li>
+	<li id="zhang2024seev">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ZhangQG024">SEEV: Synthesis with Efficient Exact Verification for ReLU Neural Barrier Functions</a> <span class="note cites">&middot; 24 citations</span>
+		<br><span class="authors"><a href="/researchers/hongchao-zhang/">Hongchao Zhang</a>, <a href="/researchers/zhizhen-qin/">Zhizhen Qin</a>, <a href="/researchers/sicun-gao/">Sicun Gao</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a></span>
+	</li>
+	<li id="wu2024verified">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/0001ZV24">Verified Safe Reinforcement Learning for Neural Network Dynamic Models</a> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors"><a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span>
+	</li>
+	<li id="kouvaros2024formal">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/ijcai/KouvarosBB24">Formal Verification of Parameterised Neural-symbolic Multi-agent Systems</a> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors"><a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/elena-botoeva/">Elena Botoeva</a>, Cosmo De Bonis-Campbell</span>
+	</li>
+	<li id="yang2024lyapunov">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/icml/YangDSHT024">Lyapunov-stable Neural Control for State and Output Feedback: A Novel Formulation</a> <span class="note">(<a href="https://arxiv.org/abs/2404.07956">arXiv</a>)</span> <span class="note cites">&middot; 74 citations</span>
+		<br><span class="authors"><a href="/researchers/lujie-yang/">Lujie Yang</a>, <a href="/researchers/hongkai-dai/">Hongkai Dai</a>, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/russ-tedrake/">Russ Tedrake</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span>
+	</li>
+	<li id="meng2024physics">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/icml/MengZMFS024">Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2402.10119">arXiv</a>)</span> <span class="note cites">&middot; 39 citations</span>
+		<br><span class="authors">Yiming Meng, <a href="/researchers/ruikun-zhou/">Ruikun Zhou</a>, Amartya Mukherjee, Maxwell Fitzsimmons, Christopher Song, <a href="/researchers/jun-liu/">Jun Liu</a></span>
+	</li>
+	<li id="wang2024safe">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-65633-0_11">Safe Exploration in Reinforcement Learning by Reachability Analysis over Learned Models</a> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors"><a href="/researchers/yuning-wang/">Yuning Wang</a>, <a href="/researchers/he-zhu/">He Zhu</a></span>
+	</li>
+	<li id="zhi2024unifying">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-65630-9_20">Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems</a> <span class="note cites">&middot; 27 citations</span>
+		<br><span class="authors"><a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, <a href="/researchers/peixin-wang/">Peixin Wang</a>, <a href="/researchers/si-liu/">Si Liu</a>, C.-H. Luke Ong, <a href="/researchers/min-zhang/">Min Zhang</a></span>
+	</li>
+	<li id="bouvier2024policed">
+		<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.15607/rss.2024.xx.104">POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors">Jean-Baptiste Bouvier, Kartik Nagpal, Negar Mehr</span>
+	</li>
+	<li id="zhao2024neural">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3649329.3658256">Neural Barrier Certificates Synthesis of NN-Controlled Continuous Systems via Counterexample-Guided Learning</a>
+		<br><span class="authors"><a href="/researchers/hanrui-zhao/">Hanrui Zhao</a>, <a href="/researchers/niuniu-qi/">Niuniu Qi</a>, <a href="/researchers/mengxin-ren/">Mengxin Ren</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a>, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a></span>
+	</li>
+	<li id="zeng2024safe">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3649329.3657332">Safe Controller Synthesis for Nonlinear Systems via Reinforcement Learning and PAC Approximation</a>
+		<br><span class="authors"><a href="/researchers/xia-zeng/">Xia Zeng</a>, Banglong Liu, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a>, <a href="/researchers/zhiming-liu/">Zhiming Liu</a>, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a></span>
+	</li>
+	<li id="zhi2024robustness">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2024</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v38i18.29976">Robustness Verification of Deep Reinforcement Learning Based Control Systems Using Reward Martingales</a> <span class="note cites">&middot; 11 citations</span>
+		<br><span class="authors"><a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, <a href="/researchers/peixin-wang/">Peixin Wang</a>, <a href="/researchers/cheng-chen/">Cheng Chen</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span>
+	</li>
+	<li id="tian2023boosting">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+		<a href="https://dblp.org/rec/conf/nips/TianZ0WC023">Boosting Verification of Deep Reinforcement Learning via Piece-Wise Linear Decision Neural Networks</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors"><a href="/researchers/jiaxu-tian/">Jiaxu Tian</a>, <a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, <a href="/researchers/si-liu/">Si Liu</a>, <a href="/researchers/peixin-wang/">Peixin Wang</a>, <a href="/researchers/cheng-chen/">Cheng Chen</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span>
+	</li>
+	<li id="zikelic2023compositional">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ZikelicLVCH23">Compositional Policy Learning in Stochastic Control Systems with Formal Guarantees</a> <span class="note cites">&middot; 41 citations</span>
+		<br><span class="authors"><a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/abhinav-verma/">Abhinav Verma</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span>
+	</li>
+	<li id="zhang2023exact">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/nips/Zhang0V023">Exact Verification of ReLU Neural Control Barrier Functions</a> <span class="note cites">&middot; 60 citations</span>
+		<br><span class="authors"><a href="/researchers/hongchao-zhang/">Hongchao Zhang</a>, <a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a></span>
+	</li>
+	<li id="wu2023neural">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/00010KV23">Neural Lyapunov Control for Discrete-Time Systems</a> <span class="note cites">&middot; 79 citations</span>
+		<br><span class="authors"><a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a>, <a href="/researchers/yiannis-kantaros/">Yiannis Kantaros</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a></span>
+	</li>
+	<li id="astorga2023perception">
+		<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3622875">Perception Contracts for Safety of ML-Enabled Systems</a> <span class="note cites">&middot; 42 citations</span>
+		<br><span class="authors"><a href="/researchers/angello-astorga/">Angello Astorga</a>, <a href="/researchers/chiao-hsieh/">Chiao Hsieh</a>, <a href="/researchers/p-madhusudan/">P. Madhusudan</a>, <a href="/researchers/sayan-mitra/">Sayan Mitra</a></span>
+	</li>
+	<li id="yang2023safe">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2023/637">Safe Reinforcement Learning via Probabilistic Logic Shields</a> <span class="note cites">&middot; 98 citations</span>
+		<br><span class="authors">Wen-Chi Yang, Giuseppe Marra, Gavin Rens, Luc De Raedt</span>
+	</li>
+	<li id="guo2023patrol">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/uss/0002WWXS23">PATROL: Provable Defense against Adversarial Policy in Two-player Games</a>
+		<br><span class="authors"><a href="/researchers/wenbo-guo/">Wenbo Guo</a>, Xian Wu, Lun Wang, Xinyu Xing, <a href="/researchers/dawn-song/">Dawn Song</a></span>
+	</li>
+	<li id="yang2023hybrid">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-37706-8_16">Hybrid Controller Synthesis for Nonlinear Systems Subject to Reach-Avoid Constraints</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors"><a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, <a href="/researchers/li-zhang/">Li Zhang</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/xiaochao-tang/">Xiaochao Tang</a>, <a href="/researchers/chao-peng/">Chao Peng</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a></span>
+	</li>
+	<li id="zhao2023safe">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/dac56929.2023.10247837">Safe DNN-type Controller Synthesis for Nonlinear Systems via Meta Reinforcement Learning</a>
+		<br><span class="authors"><a href="/researchers/hanrui-zhao/">Hanrui Zhao</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/niuniu-qi/">Niuniu Qi</a>, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a></span>
+	</li>
+	<li id="sun2023certifiably">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SunZHLFGH23">Certifiably Robust Policy Learning against Adversarial Multi-Agent Communication</a>
+		<br><span class="authors">Yanchao Sun, Ruijie Zheng, Parisa Hassanzadeh, Yongyuan Liang, <a href="/researchers/soheil-feizi/">Soheil Feizi</a>, Sumitra Ganesh, Furong Huang</span>
+	</li>
+	<li id="delgrange2023wasserstein">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/DelgrangeN023">Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2303.12558">arXiv</a>)</span> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors"><a href="/researchers/florent-delgrange/">Florent Delgrange</a>, <a href="/researchers/ann-nowe/">Ann Nowé</a>, <a href="/researchers/guillermo-a-perez/">Guillermo A. Pérez</a></span>
+	</li>
+	<li id="chen2023one">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra48891.2023.10160643">One-Shot Reachability Analysis of Neural Network Dynamical Systems</a> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors">Shaoru Chen, Victor M. Preciado, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a></span>
+	</li>
+	<li id="entesari2023reachlipbnb">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1109/icra48891.2023.10160732">ReachLipBnB: A branch-and-bound method for reachability analysis of neural autonomous systems using Lipschitz bounds</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/taha-entesari/">Taha Entesari</a>, <a href="/researchers/sina-sharifi/">Sina Sharifi</a>, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a></span>
+	</li>
+	<li id="zikelic2023learning">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v37i10.26407">Learning Control Policies for Stochastic Systems with Reach-Avoid Guarantees</a> <span class="note cites">&middot; 82 citations</span>
+		<br><span class="authors"><a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a></span>
+	</li>
+	<li id="abate2022neural">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/nips/AbateEG22">Neural Abstractions</a> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors">Alessandro Abate, Alec Edwards, <a href="/researchers/mirco-giacobbe/">Mirco Giacobbe</a></span>
+	</li>
+	<li id="zhou2022neural">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ZhouQSL22">Neural Lyapunov Control of Unknown Nonlinear Systems with Stability Guarantees</a> <span class="note cites">&middot; 131 citations</span>
+		<br><span class="authors"><a href="/researchers/ruikun-zhou/">Ruikun Zhou</a>, Thanin Quartz, Hans De Sterck, <a href="/researchers/jun-liu/">Jun Liu</a></span>
+	</li>
+	<li id="mazouz2022safety">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/MazouzMRLL22">Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions</a> <span class="note cites">&middot; 46 citations</span>
+		<br><span class="authors">Rayan Mazouz, Karan Muvvala, Akash Ratheesh, <a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/morteza-lahijanian/">Morteza Lahijanian</a></span>
+	</li>
+	<li id="melcer2022shield">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/MelcerAT22">Shield Decentralization for Safe Multi-Agent Reinforcement Learning</a> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors">Daniel Melcer, Christopher Amato, Stavros Tripakis</span>
+	</li>
+	<li id="qin2022quantifying">
+		<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1109/iros47612.2022.9982058">Quantifying Safety of Learning-based Self-Driving Control Using Almost-Barrier Functions</a> <span class="note cites">&middot; 22 citations</span>
+		<br><span class="authors"><a href="/researchers/zhizhen-qin/">Zhizhen Qin</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/sicun-gao/">Sicun Gao</a></span>
+	</li>
+	<li id="goubault2022rino">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-13185-1_25">RINO: Robust INner and Outer Approximated Reachability of Neural Networks Controlled Systems</a> <span class="note cites">&middot; 20 citations</span>
+		<br><span class="authors">Eric Goubault, Sylvie Putot</span>
+	</li>
+	<li id="jin2022trainify">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-13185-1_10">Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning</a> <span class="note cites">&middot; 53 citations</span>
+		<br><span class="authors"><a href="/researchers/peng-jin/">Peng Jin</a>, <a href="/researchers/jiaxu-tian/">Jiaxu Tian</a>, <a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, Xuejun Wen, <a href="/researchers/min-zhang/">Min Zhang</a></span>
+	</li>
+	<li id="xia2022accelerated">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3489517.3530608">Accelerated synthesis of neural network-based barrier certificates using collaborative learning</a>
+		<br><span class="authors">Jun Xia, Ming Hu, Xin Chen, Mingsong Chen</span>
+	</li>
+	<li id="sun2022formal">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra46639.2022.9811866">Formal Verification of Stochastic Systems with ReLU Neural Network Controllers</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Shiqi Sun, Yan Zhang, <a href="/researchers/xusheng-luo/">Xusheng Luo</a>, Panagiotis Vlantis, Miroslav Pajic, Michael M. Zavlanos</span>
+	</li>
+	<li id="wu2022copa">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WuL0KKZ022">COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2203.08398">arXiv</a>)</span> <span class="note cites">&middot; 32 citations</span>
+		<br><span class="authors"><a href="/researchers/fan-wu/">Fan Wu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, Krishnaram Kenthapadi, <a href="/researchers/ding-zhao/">Ding Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="wu2022crop">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WuLHVZ022">CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2106.09292">arXiv</a>)</span> <span class="note cites">&middot; 61 citations</span>
+		<br><span class="authors"><a href="/researchers/fan-wu/">Fan Wu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/zijian-huang/">Zijian Huang</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a>, <a href="/researchers/ding-zhao/">Ding Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="delgrange2022distillation">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i6.20602">Distillation of RL Policies with Formal Guarantees via Variational Abstraction of Markov Decision Processes</a> <span class="note cites">&middot; 23 citations</span>
+		<br><span class="authors"><a href="/researchers/florent-delgrange/">Florent Delgrange</a>, <a href="/researchers/ann-nowe/">Ann Nowé</a>, <a href="/researchers/guillermo-a-perez/">Guillermo A. Pérez</a></span>
+	</li>
+	<li id="gruenbacher2022gotube">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i6.20631">GoTube: Scalable Statistical Verification of Continuous-Depth Models</a> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, Daniela Rus, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span>
+	</li>
+	<li id="gu2022recurrent">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i5.20476">Recurrent Neural Network Controllers Synthesis with Stability Guarantees for Partially Observed Systems</a> <span class="note cites">&middot; 42 citations</span>
+		<br><span class="authors">Fangda Gu, He Yin, Laurent El Ghaoui, Murat Arcak, Peter J. Seiler, <a href="/researchers/ming-jin/">Ming Jin</a></span>
+	</li>
+	<li id="lechner2022stability">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i7.20695">Stability Verification in Stochastic Control Systems via Neural Network Supermartingales</a> <span class="note cites">&middot; 65 citations</span>
+		<br><span class="authors"><a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span>
+	</li>
+	<li id="schilling2022verification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i7.20790">Verification of Neural-Network Control Systems by Integrating Taylor Models and Zonotopes</a> <span class="note cites">&middot; 71 citations</span>
+		<br><span class="authors">Christian Schilling, Marcelo Forets, Sebastián Guadalupe</span>
+	</li>
+	<li id="lechner2021infinite">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LechnerZCH21">Infinite Time Horizon Safety of Bayesian Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2111.03165">arXiv</a>)</span> <span class="note cites">&middot; 20 citations</span>
+		<br><span class="authors"><a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span>
+	</li>
+	<li id="sha2021synthesizing">
+		<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/dac18074.2021.9586327">Synthesizing Barrier Certificates of Neural Network Controlled Continuous Systems via Approximations</a>
+		<br><span class="authors">Meng Sha, <a href="/researchers/xin-chen-151827/">Xin Chen</a>, Yuzhe Ji, <a href="/researchers/qingye-zhao/">Qingye Zhao</a>, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, <a href="/researchers/wang-lin/">Wang Lin</a>, Enyi Tang, Qiguang Chen, Xuandong Li</span>
+	</li>
+	<li id="ivanov2021compositional">
+		<a class="tag-link" href="/conferences/emsoft/"><span class="tag accepted">EMSOFT 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3477023">Compositional Learning and Verification of Neural Network Controllers</a>
+		<br><span class="authors"><a href="/researchers/radoslav-ivanov/">Radoslav Ivanov</a>, <a href="/researchers/kishor-jothimurugan/">Kishor Jothimurugan</a>, <a href="/researchers/steve-hsu/">Steve Hsu</a>, <a href="/researchers/shaan-vaidya/">Shaan Vaidya</a>, <a href="/researchers/rajeev-alur/">Rajeev Alur</a>, <a href="/researchers/osbert-bastani/">Osbert Bastani</a></span>
+	</li>
+	<li id="bacci2021verifying">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2021/297">Verifying Reinforcement Learning up to Infinity</a> <span class="note cites">&middot; 52 citations</span>
+		<br><span class="authors"><a href="/researchers/edoardo-bacci/">Edoardo Bacci</a>, <a href="/researchers/mirco-giacobbe/">Mirco Giacobbe</a>, <a href="/researchers/david-parker/">David Parker</a></span>
+	</li>
+	<li id="yang2021iterative">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_22">An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation</a> <span class="note cites">&middot; 20 citations</span>
+		<br><span class="authors"><a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, Yidan Zhang, <a href="/researchers/wang-lin/">Wang Lin</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/xiaochao-tang/">Xiaochao Tang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a>, <a href="/researchers/zhiming-liu/">Zhiming Liu</a></span>
+	</li>
+	<li id="ivanov2021verisig">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_11">Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning</a> <span class="note cites">&middot; 122 citations</span>
+		<br><span class="authors"><a href="/researchers/radoslav-ivanov/">Radoslav Ivanov</a>, <a href="/researchers/taylor-j-carpenter/">Taylor J. Carpenter</a>, <a href="/researchers/james-weimer/">James Weimer</a>, <a href="/researchers/rajeev-alur/">Rajeev Alur</a>, <a href="/researchers/george-j-pappas/">George J. Pappas</a>, <a href="/researchers/insup-lee/">Insup Lee</a></span>
+	</li>
+	<li id="dai2021lyapunov">
+		<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.15607/rss.2021.xvii.063">Lyapunov-stable neural-network control</a> <span class="note cites">&middot; 223 citations</span>
+		<br><span class="authors"><a href="/researchers/hongkai-dai/">Hongkai Dai</a>, Benoit Landry, <a href="/researchers/lujie-yang/">Lujie Yang</a>, Marco Pavone, <a href="/researchers/russ-tedrake/">Russ Tedrake</a></span>
+	</li>
+	<li id="donti2021enforcing">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/DontiRFK21">Enforcing robust control guarantees within neural network policies</a> <span class="note">(<a href="https://arxiv.org/abs/2011.08105">arXiv</a>)</span> <span class="note cites">&middot; 67 citations</span>
+		<br><span class="authors">Priya L. Donti, Melrose Roderick, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span>
+	</li>
+	<li id="everett2021efficient">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra48506.2021.9561348">Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers</a> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors"><a href="/researchers/michael-everett/">Michael Everett</a>, <a href="/researchers/golnaz-habibi/">Golnaz Habibi</a>, <a href="/researchers/jonathan-p-how/">Jonathan P. How</a></span>
+	</li>
+	<li id="vincent2021reachable">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://doi.org/10.1109/icra48506.2021.9561956">Reachable Polyhedral Marching (RPM): A Safety Verification Algorithm for Robotic Systems with Deep Neural Network Components</a> <span class="note cites">&middot; 74 citations</span>
+		<br><span class="authors">Joseph A. Vincent, Mac Schwager</span>
+	</li>
+	<li id="gruenbacher2021verification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v35i13.17372">On the Verification of Neural ODEs with Stochastic Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2012.08863">arXiv</a>)</span> <span class="note cites">&middot; 38 citations</span>
+		<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, Jacek Cyranka, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span>
+	</li>
+	<li id="anderson2020neurosymbolic">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/AndersonVDC20">Neurosymbolic Reinforcement Learning with Formally Verified Exploration</a> <span class="note">(<a href="https://arxiv.org/abs/2009.12612">arXiv</a>)</span> <span class="note cites">&middot; 106 citations</span>
+		<br><span class="authors"><a href="/researchers/greg-anderson/">Greg Anderson</a>, <a href="/researchers/abhinav-verma/">Abhinav Verma</a>, <a href="/researchers/isil-dillig/">Isil Dillig</a>, <a href="/researchers/swarat-chaudhuri/">Swarat Chaudhuri</a></span>
+	</li>
+	<li id="wang2020energy">
+		<a class="tag-link" href="/conferences/iccad/"><span class="tag accepted">ICCAD 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3400302.3415676">Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2008.06162">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/yixuan-wang/">Yixuan Wang</a>, <a href="/researchers/chao-huang/">Chao Huang</a>, <a href="/researchers/qi-zhu/">Qi Zhu</a></span>
+	</li>
+	<li id="huang2020practical">
+		<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/iros45743.2020.9340720">Practical Verification of Neural Network Enabled State Estimation System for Robotics</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Wei Huang, Yifan Zhou, <a href="/researchers/youcheng-sun/">Youcheng Sun</a>, James Sharp, Simon Maskell, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a></span>
+	</li>
+	<li id="wang2020neural">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/icml/WangWD20">Neural Network Control Policy Verification With Persistent Adversarial Perturbation</a>
+		<br><span class="authors">Yuh-Shyang Wang, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span>
+	</li>
+	<li id="carr2020verifiable">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2020/570">Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints</a> <span class="note">(<a href="https://arxiv.org/abs/2002.05615">arXiv</a>)</span> <span class="note cites">&middot; 54 citations</span>
+		<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span>
+	</li>
+	<li id="chang2019neural">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ChangRG19">Neural Lyapunov Control</a> <span class="note">(<a href="https://arxiv.org/abs/2005.00611">arXiv</a>)</span> <span class="note cites">&middot; 228 citations</span>
+		<br><span class="authors">Ya-Chien Chang, Nima Roohi, <a href="/researchers/sicun-gao/">Sicun Gao</a></span>
+	</li>
+	<li id="huang2019reachnn">
+		<a class="tag-link" href="/conferences/emsoft/"><span class="tag accepted">EMSOFT 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3358228">ReachNN: Reachability Analysis of Neural-Network Controlled Systems</a> <span class="note">(<a href="https://arxiv.org/abs/1906.10654">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/chao-huang/">Chao Huang</a>, <a href="/researchers/jiameng-fan/">Jiameng Fan</a>, <a href="/researchers/wenchao-li/">Wenchao Li</a>, <a href="/researchers/xin-chen-15182/">Xin Chen</a>, <a href="/researchers/qi-zhu/">Qi Zhu</a></span>
+	</li>
+	<li id="tran2019safety">
+		<a class="tag-link" href="/conferences/emsoft/"><span class="tag accepted">EMSOFT 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3358230">Safety Verification of Cyber-Physical Systems with Reinforcement Learning Control</a>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/feiyang-cai/">Feiyang Cai</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/patrick-musau/">Patrick Musau</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a>, Xenofon D. Koutsoukos</span>
+	</li>
+	<li id="carr2019counterexample">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2019/768">Counterexample-Guided Strategy Improvement for POMDPs Using Recurrent Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1903.08428">arXiv</a>)</span> <span class="note cites">&middot; 43 citations</span>
+		<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, Ralf Wimmer, Alexandru Constantin Serban, Bernd Becker, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span>
+	</li>
+	<li id="zhu2019inductive">
+		<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1145/3314221.3314638">An inductive synthesis framework for verifiable reinforcement learning</a> <span class="note cites">&middot; 132 citations</span>
+		<br><span class="authors"><a href="/researchers/he-zhu/">He Zhu</a>, Zikang Xiong, Stephen Magill, Suresh Jagannathan</span>
+	</li>
+	<li id="akintunde2019verification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v33i01.33016006">Verification of RNN-Based Neural Agent-Environment Systems</a> <span class="note cites">&middot; 79 citations</span>
+		<br><span class="authors"><a href="/researchers/michael-e-akintunde/">Michael E. Akintunde</a>, <a href="/researchers/andreea-kevorchian/">Andreea Kevorchian</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/edoardo-pirovano/">Edoardo Pirovano</a></span>
+	</li>
+	<li id="fulton2018safe">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2018</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v32i1.12107">Safe Reinforcement Learning via Formal Methods: Toward Safe Control Through Proof and Learning</a> <span class="note cites">&middot; 270 citations</span>
+		<br><span class="authors">Nathan Fulton, <a href="/researchers/andre-platzer/">André Platzer</a></span>
+	</li>
+	<li id="alshiekh2018safe">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2018</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://doi.org/10.1609/aaai.v32i1.11797">Safe Reinforcement Learning via Shielding</a> <span class="note">(<a href="https://arxiv.org/abs/1708.08611">arXiv</a>)</span> <span class="note cites">&middot; 1658 citations</span>
+		<br><span class="authors">Mohammed Alshiekh, Roderick Bloem, Rüdiger Ehlers, Bettina Könighofer, Scott Niekum, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span>
+	</li>
+	<li id="berkenkamp2017safe">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2017</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/BerkenkampTS017">Safe Model-based Reinforcement Learning with Stability Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/1705.08551">arXiv</a>)</span> <span class="note cites">&middot; 1150 citations</span>
+		<br><span class="authors">Felix Berkenkamp, Matteo Turchetta, Angela P. Schoellig, Andreas Krause</span>
+	</li>
+	<li id="zhao2026cast">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://openreview.net/forum?id=bmqxbwQYk6">CAST: Certifiable Aggregation of Smoothed Teachers for Robust Policy Adaptation</a>
+		<br><span class="authors">Zhongrui Zhao, Yanan Cai, Zhigang Lu, Longkun Guo, Ickjai Lee, Shuchao Pang, <a href="/researchers/minhui-xue/">Minhui Xue</a></span>
+	</li>
+	<li id="wang2025camp">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2025</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/uss/WangMGK00D00C025">CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization</a> <span class="note">(<a href="https://arxiv.org/abs/2501.17667">arXiv</a>)</span> <span class="note cites">&middot; 3 citations</span>
+		<br><span class="authors"><a href="/researchers/derui-wang/">Derui Wang</a>, Kristen Moore, Diksha Goel, Minjune Kim, Gang Li, Yang Li, Robin Doss, <a href="/researchers/minhui-xue/">Minhui Xue</a>, <a href="/researchers/bo-li/">Bo Li</a>, Seyit Camtepe, Liming Zhu</span>
+	</li>
+	<li id="tran2025starv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98679-6_17">StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/sung-woo-choi/">Sung Woo Choi</a>, <a href="/researchers/yuntao-li/">Yuntao Li</a>, <a href="/researchers/qing-liu/">Qing Liu</a>, Hideki Okamoto, Bardh Hoxha, <a href="/researchers/georgios-fainekos/">Georgios Fainekos</a></span>
+	</li>
+	<li id="majd2024repairing">
+		<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2024</span></a>
+		<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/iros58592.2024.10802650">Repairing Neural Networks for Safety in Robotic Systems using Predictive Models</a> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors">Keyvan Majd, Geoffrey Clark, <a href="/researchers/georgios-fainekos/">Georgios Fainekos</a>, Heni Ben Amor</span>
+	</li>
+	<li id="sun2024breaking">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/icml/SunGW24">Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents</a> <span class="note">(<a href="https://arxiv.org/abs/2406.18062">arXiv</a>)</span> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Chung-En Sun, <a href="/researchers/sicun-gao/">Sicun Gao</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a></span>
+	</li>
+	<li id="selvey2023formal">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2023</span></a>
+		<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2023/605">Formal Explanations of Neural Network Policies for Planning</a> <span class="note cites">&middot; 3 citations</span>
+		<br><span class="authors"><a href="/researchers/renee-selvey/">Renee Selvey</a>, <a href="/researchers/alban-grastien/">Alban Grastien</a>, <a href="/researchers/sylvie-thiebaux/">Sylvie Thiébaux</a></span>
+	</li>
+	<li id="lopez2023nnv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-37703-7_19">NNV 2.0: The Neural Network Verification Tool</a> <span class="note cites">&middot; 105 citations</span>
+		<br><span class="authors"><a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/sung-woo-choi/">Sung Woo Choi</a>, <a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+	<li id="bharti2022provable">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/BhartiZSZ22">Provable Defense against Backdoor Policies in Reinforcement Learning</a> <span class="note cites">&middot; 37 citations</span>
+		<br><span class="authors">Shubham Kumar Bharti, Xuezhou Zhang, Adish Singla, Jerry Zhu</span>
+	</li>
+	<li id="sun2022romax">
+		<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2022</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://doi.org/10.1109/icra46639.2022.9812321">ROMAX: Certifiably Robust Deep Multiagent Reinforcement Learning via Convex Relaxation</a> <span class="note cites">&middot; 25 citations</span>
+		<br><span class="authors">Chuangchuang Sun, <a href="/researchers/dong-ki-kim/">Dong-Ki Kim</a>, <a href="/researchers/jonathan-p-how/">Jonathan P. How</a></span>
+	</li>
+	<li id="kumar2022policy">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/Kumar0F22">Policy Smoothing for Provably Robust Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2106.11420">arXiv</a>)</span> <span class="note cites">&middot; 62 citations</span>
+		<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="tran2020nnv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-53288-8_1">NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems</a> <span class="note cites">&middot; 383 citations</span>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/xiaodong-yang/">Xiaodong Yang</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/patrick-musau/">Patrick Musau</a>, Luan Viet Nguyen, <a href="/researchers/weiming-xiang/">Weiming Xiang</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+</ul>
+
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

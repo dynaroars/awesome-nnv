@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>December 2019 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2019-12/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="December 2019">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2019-12/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>December 2019</h1></header>
+<article>
+<p class="digest-intro">ICLR 2020 and ICSE 2020 decisions: certified training is prominent, with COLT, CROWN-IBP, MACER and certified patch defenses, while randomized smoothing gains f-divergence and top-k certificates. Other directions include robustness verification for Transformers, learned branching for branch-and-bound, SAT-friendly binarized neural networks, LiPopt Lipschitz estimation and ReluDiff&#39;s differential verification.</p>
+<p>15 NNV papers accepted in December 2019, at ICLR 2020 and ICSE 2020.</p>
+<h2 class="digest-venue">ICLR 2020 <span class="note">14 papers</span></h2>
+<ul class="papers digest"><li id="dvijotham2020framework">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/DvijothamHBKQGX20">A Framework for robustness Certification of Smoothed Classifiers using F-Divergences</a>
+
+	<br><span class="authors"><a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Jamie Hayes, Borja Balle, <a href="/researchers/zico-kolter/">Zico Kolter</a>, <a href="/researchers/chongli-qin/">Chongli Qin</a>, András György, <a href="/researchers/kai-yuanqing-xiao/">Kai Yuanqing Xiao</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span><p class="digest-summary">Generalises randomized smoothing to arbitrary smoothing measures and perturbation classes, certifying robustness of black-box smoothed classifiers via f-divergences; reports state-of-the-art certified robustness on MNIST, CIFAR-10, ImageNet and Librispeech audio classification.</p>
+</li>
+<li id="balunovic2020adversarial">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BalunovicV20">Adversarial Training and Provable Defenses: Bridging the Gap</a>
+
+	<br><span class="authors"><a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">COLT, convex layerwise adversarial training, trains certifiably robust networks by having an adversary search inside the verifier&#39;s convex relaxation at each layer. Reaches 60.5% certified robustness and 78.4% accuracy on CIFAR-10 at 2/255 L∞, beating concurrent results.</p>
+</li>
+<li id="chiang2020certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ChiangNAZSG20">Certified Defenses for Adversarial Patches</a>
+
+	<br><span class="authors"><a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, Renkun Ni, <a href="/researchers/ahmed-abdelkader/">Ahmed Abdelkader</a>, Chen Zhu, Christoph Studer, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span><p class="digest-summary">Shows existing preprocessing defenses against adversarial patches break under simple white-box attacks, then gives the first certified defense against patch attacks with faster training methods, reporting good robustness transfer across patch shapes and preliminary results for sparse attacks.</p>
+</li>
+<li id="jia2020certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/JiaCWG20">Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/1912.09899">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">Extends randomized smoothing certificates from top-1 to top-k predictions, deriving a tight ℓ2 robustness radius under Gaussian noise. On ImageNet it reaches 62.8% certified top-5 accuracy for perturbations with ℓ2 norm below 0.5; also evaluated on CIFAR10.</p>
+</li>
+<li id="narodytska2020search">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/NarodytskaZGW20">In Search for a SAT-friendly Binarized Neural Network Architecture</a>
+
+	<br><span class="authors"><a href="/researchers/nina-narodytska/">Nina Narodytska</a>, Hongce Zhang, Aarti Gupta, <a href="/researchers/toby-walsh/">Toby Walsh</a></span><p class="digest-summary">Studies how binarized neural network architecture and training choices affect SAT-based reasoning, and proposes changes that yield SAT-friendly BNNs without accuracy loss, scaling existential and probabilistic queries to larger networks with significant speedups on all tested datasets.</p>
+</li>
+<li id="latorre2020lipschitz">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/GomezRC20">Lipschitz constant estimation of Neural Networks via sparse polynomial optimization</a> <span class="note">(<a href="https://arxiv.org/abs/2004.08688">arXiv</a>)</span>
+
+	<br><span class="authors">Fabian Latorre, Paul Rolland, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span><p class="digest-summary">LiPopt computes increasingly tight upper bounds on neural network Lipschitz constants via polynomial optimization reduced to LP or SDP, exploiting sparse connectivity for convolutional and pruned networks; gives better ℓ∞-Lipschitz estimates than baselines on random and MNIST networks.</p>
+</li>
+<li id="zhai2020macer">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZhaiDHZGRH020">MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius</a> <span class="note">(<a href="https://arxiv.org/abs/2001.02378">arXiv</a>)</span>
+
+	<br><span class="authors">Runtian Zhai, Chen Dan, <a href="/researchers/di-he/">Di He</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Boqing Gong, <a href="/researchers/pradeep-ravikumar/">Pradeep Ravikumar</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/liwei-wang/">Liwei Wang</a></span><p class="digest-summary">MACER trains provably robust smoothed classifiers by directly maximizing the certified ℓ2 radius from randomized smoothing, without adversarial attacks. On CIFAR-10, ImageNet, MNIST and SVHN it trains faster than adversarial training and achieves larger average certified radius.</p>
+</li>
+<li id="lu2020neural">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/LuK20">Neural Network Branching for Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/1912.01329">arXiv</a>)</span>
+
+	<br><span class="authors">Jingyue Lu, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary">Learns a branching strategy for branch-and-bound neural network verification with a graph neural network that imitates strong branching on the verified network&#39;s graph, roughly halving branches and verification time on convolutional networks and transferring to harder properties and larger networks.</p>
+</li>
+<li id="croce2020provable">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Croce020">Provable robustness against all adversarial <span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>l</mi><mi>p</mi></msub></mrow><annotation encoding="application/x-tex">l_p</annotation></semantics></math></span>-perturbations for <span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>≥</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">p\geq 1</annotation></semantics></math></span></a>
+
+	<br><span class="authors">Francesco Croce, <a href="/researchers/matthias-hein/">Matthias Hein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="shi2020robustness">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ShiZCHH20">Robustness Verification for Transformers</a> <span class="note">(<a href="https://arxiv.org/abs/2002.06622">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/kai-wei-chang/">Kai-Wei Chang</a>, <a href="/researchers/minlie-huang/">Minlie Huang</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">The first robustness verification algorithm for Transformers, handling the cross-nonlinearity and cross-position dependency of self-attention layers. Its certified bounds are much tighter than naive Interval Bound Propagation and reflect word importance in sentiment analysis.</p>
+</li>
+<li id="zhang2020towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZhangCXGSLBH20">Towards Stable and Efficient Training of Verifiably Robust Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1906.06316">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/hongge-chen/">Hongge Chen</a>, <a href="/researchers/chaowei-xiao/">Chaowei Xiao</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/duane-s-boning/">Duane S. Boning</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">CROWN-IBP trains verifiably robust networks by combining fast IBP bounds in a forward pass with tight CROWN linear-relaxation bounds in a backward pass, reaching 7.02% verified error on MNIST at ε=0.3 and 66.94% on CIFAR-10 at ε=8/255.</p>
+</li>
+<li id="welbl2020towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WelblHSGDSK20">Towards Verified Robustness under Text Deletion Interventions</a>
+
+	<br><span class="authors"><a href="/researchers/johannes-welbl/">Johannes Welbl</a>, <a href="/researchers/po-sen-huang/">Po-Sen Huang</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Martin Szummer, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span><p class="digest-summary">Formally verifies that decomposable-attention natural language inference models do not grow more confident when arbitrary word subsets are deleted, using interval bound propagation. IBP training raises verified samples on SNLI from 2.8% to 18.4%.</p>
+</li>
+<li id="meinke2020towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Meinke020">Towards neural networks that provably know when they don&#39;t know</a>
+
+	<br><span class="authors"><a href="/researchers/alexander-meinke/">Alexander Meinke</a>, <a href="/researchers/matthias-hein/">Matthias Hein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="baader2020universal">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/BaaderMV20">Universal Approximation with Certified Networks</a>
+
+	<br><span class="authors"><a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Proves a universal approximation theorem for interval-certified ReLU networks: any continuous function can be approximated by a network whose interval bound propagation over a region is arbitrarily close to the function&#39;s optimal output range there.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICSE 2020 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="paulsen2020reludiff">
+	<a class="tag-link" href="/conferences/icse/"><span class="tag accepted">ICSE 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3377811.3380337">ReluDiff: differential verification of deep neural networks</a>
+
+	<br><span class="authors"><a href="/researchers/brandon-paulsen/">Brandon Paulsen</a>, <a href="/researchers/jingbo-wang/">Jingbo Wang</a>, <a href="/researchers/chao-wang/">Chao Wang</a></span><p class="digest-summary">ReluDiff performs differential verification of two closely related networks, such as an original and its compressed version, using a forward interval pass that exploits their similarity and gradient-guided backward refinement, giving orders-of-magnitude speedups and more proved properties.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2019-11/">&larr; November 2019</a>
+<a href="/digest/2019/">All of 2019</a><a href="/digest/2020-02/">February 2020 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

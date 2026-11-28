@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Other | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Other: Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys. 75 papers at top venues.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/areas/other/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="Other">
+	<meta property="og:description" content="Other: Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys. 75 papers at top venues.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/areas/other/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/" class="current">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>Other</h1></header>
+<article>
+
+<p>Lipschitz certification, verifier soundness, proof checking, tools, benchmarks, and surveys.</p>
+<p>95 NNV papers in this area.</p>
+<div class="fig-row clear">
+<figure>
+<svg class="chart" viewBox="0 0 640 400" role="img" aria-label="Other: NNV papers per year by field"><defs><pattern id="pat-hash" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3H6M3 0V6" class="pat-line"/></pattern><pattern id="pat-stripe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V6" class="pat-line"/></pattern></defs><g class="key" data-series="ar-ml pat-hash" tabindex="0"><rect class="key-hit" x="31" y="3" width="36.8" height="18"/><rect class="ar-ml pat-hash" x="34" y="6" width="12" height="12"/><rect class="pat" x="34" y="6" width="12" height="12" fill="url(#pat-hash)"/><text x="52" y="16">ML</text></g><g class="key" data-series="ar-ai pat-stripe" tabindex="0"><rect class="key-hit" x="73.8" y="3" width="36.8" height="18"/><rect class="ar-ai pat-stripe" x="76.8" y="6" width="12" height="12"/><rect class="pat" x="76.8" y="6" width="12" height="12" fill="url(#pat-stripe)"/><text x="94.8" y="16">AI</text></g><g class="key" data-series="ar-lv" tabindex="0"><rect class="key-hit" x="116.6" y="3" width="36.8" height="18"/><rect class="ar-lv" x="119.6" y="6" width="12" height="12"/><text x="137.6" y="16">LV</text></g><g class="key" data-series="ar-cv" tabindex="0"><rect class="key-hit" x="159.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-cv" x="162.39999999999998" y="6" width="12" height="12"/><text x="180.39999999999998" y="16">CV</text></g><g class="key" data-series="ar-sec" tabindex="0"><rect class="key-hit" x="202.2" y="3" width="43.2" height="18"/><rect class="ar-sec" x="205.2" y="6" width="12" height="12"/><text x="223.2" y="16">Sec</text></g><g class="key" data-series="ar-pl" tabindex="0"><rect class="key-hit" x="251.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-pl" x="254.39999999999998" y="6" width="12" height="12"/><text x="272.4" y="16">PL</text></g><g class="key" data-series="ar-se" tabindex="0"><rect class="key-hit" x="294.2" y="3" width="36.8" height="18"/><rect class="ar-se" x="297.2" y="6" width="12" height="12"/><text x="315.2" y="16">SE</text></g><g class="key" data-series="ar-other" tabindex="0"><rect class="key-hit" x="337.0" y="3" width="209.6" height="18"/><rect class="ar-other" x="340.0" y="6" width="12" height="12"/><text x="358.0" y="16">Other (Rob, NLP, DA, DM, Emb)</text></g><line class="axis" x1="34" y1="376.0" x2="630" y2="376.0"/><text x="28" y="380.0" text-anchor="end">0</text><line class="grid" x1="34" y1="290.5" x2="630" y2="290.5"/><text x="28" y="294.5" text-anchor="end">5</text><line class="grid" x1="34" y1="205.0" x2="630" y2="205.0"/><text x="28" y="209.0" text-anchor="end">10</text><line class="grid" x1="34" y1="119.5" x2="630" y2="119.5"/><text x="28" y="123.5" text-anchor="end">15</text><line class="grid" x1="34" y1="34.0" x2="630" y2="34.0"/><text x="28" y="38.0" text-anchor="end">20</text><text x="61.1" y="393" text-anchor="middle">2017</text><text x="115.3" y="393" text-anchor="middle">2018</text><rect class="ar-ml pat-hash seg" x="154.5" y="358.9" width="30.0" height="17.1"><title>2019, ML: 1 papers</title></rect><rect class="pat" x="154.5" y="358.9" width="30.0" height="17.1" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="154.5" y="341.8" width="30.0" height="17.1"><title>2019, AI: 1 papers</title></rect><rect class="pat" x="154.5" y="341.8" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="154.5" y="324.7" width="30.0" height="17.1"><title>2019, LV: 1 papers</title></rect><rect class="ar-se seg" x="154.5" y="307.6" width="30.0" height="17.1"><title>2019, SE: 1 papers</title></rect><rect class="ar-other seg" x="154.5" y="290.5" width="30.0" height="17.1"><title>2019, Other (Rob, NLP, DA, DM, Emb): 1 papers</title></rect><text class="value" x="169.5" y="285.5" text-anchor="middle">5</text><text x="169.5" y="393" text-anchor="middle">2019</text><rect class="ar-ml pat-hash seg" x="208.6" y="290.5" width="30.0" height="85.5"><title>2020, ML: 5 papers</title></rect><rect class="pat" x="208.6" y="290.5" width="30.0" height="85.5" fill="url(#pat-hash)"/><rect class="ar-lv seg" x="208.6" y="256.3" width="30.0" height="34.2"><title>2020, LV: 2 papers</title></rect><text class="value" x="223.6" y="251.3" text-anchor="middle">7</text><text x="223.6" y="393" text-anchor="middle">2020</text><rect class="ar-ml pat-hash seg" x="262.8" y="290.5" width="30.0" height="85.5"><title>2021, ML: 5 papers</title></rect><rect class="pat" x="262.8" y="290.5" width="30.0" height="85.5" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="262.8" y="239.2" width="30.0" height="51.3"><title>2021, AI: 3 papers</title></rect><rect class="pat" x="262.8" y="239.2" width="30.0" height="51.3" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="262.8" y="222.1" width="30.0" height="17.1"><title>2021, LV: 1 papers</title></rect><rect class="ar-sec seg" x="262.8" y="187.9" width="30.0" height="34.2"><title>2021, Sec: 2 papers</title></rect><rect class="ar-se seg" x="262.8" y="170.8" width="30.0" height="17.1"><title>2021, SE: 1 papers</title></rect><text class="value" x="277.8" y="165.8" text-anchor="middle">12</text><text x="277.8" y="393" text-anchor="middle">2021</text><rect class="ar-ml pat-hash seg" x="317.0" y="256.3" width="30.0" height="119.7"><title>2022, ML: 7 papers</title></rect><rect class="pat" x="317.0" y="256.3" width="30.0" height="119.7" fill="url(#pat-hash)"/><rect class="ar-lv seg" x="317.0" y="222.1" width="30.0" height="34.2"><title>2022, LV: 2 papers</title></rect><rect class="ar-sec seg" x="317.0" y="205.0" width="30.0" height="17.1"><title>2022, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="317.0" y="187.9" width="30.0" height="17.1"><title>2022, PL: 1 papers</title></rect><text class="value" x="332.0" y="182.9" text-anchor="middle">11</text><text x="332.0" y="393" text-anchor="middle">2022</text><rect class="ar-ml pat-hash seg" x="371.2" y="307.6" width="30.0" height="68.4"><title>2023, ML: 4 papers</title></rect><rect class="pat" x="371.2" y="307.6" width="30.0" height="68.4" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="371.2" y="290.5" width="30.0" height="17.1"><title>2023, AI: 1 papers</title></rect><rect class="pat" x="371.2" y="290.5" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="371.2" y="256.3" width="30.0" height="34.2"><title>2023, LV: 2 papers</title></rect><rect class="ar-cv seg" x="371.2" y="239.2" width="30.0" height="17.1"><title>2023, CV: 1 papers</title></rect><rect class="ar-sec seg" x="371.2" y="136.6" width="30.0" height="102.6"><title>2023, Sec: 6 papers</title></rect><rect class="ar-se seg" x="371.2" y="102.4" width="30.0" height="34.2"><title>2023, SE: 2 papers</title></rect><text class="value" x="386.2" y="97.4" text-anchor="middle">16</text><text x="386.2" y="393" text-anchor="middle">2023</text><rect class="ar-ml pat-hash seg" x="425.4" y="290.5" width="30.0" height="85.5"><title>2024, ML: 5 papers</title></rect><rect class="pat" x="425.4" y="290.5" width="30.0" height="85.5" fill="url(#pat-hash)"/><rect class="ar-lv seg" x="425.4" y="239.2" width="30.0" height="51.3"><title>2024, LV: 3 papers</title></rect><rect class="ar-sec seg" x="425.4" y="153.7" width="30.0" height="85.5"><title>2024, Sec: 5 papers</title></rect><rect class="ar-se seg" x="425.4" y="119.5" width="30.0" height="34.2"><title>2024, SE: 2 papers</title></rect><text class="value" x="440.4" y="114.5" text-anchor="middle">15</text><text x="440.4" y="393" text-anchor="middle">2024</text><rect class="ar-ml pat-hash seg" x="479.5" y="290.5" width="30.0" height="85.5"><title>2025, ML: 5 papers</title></rect><rect class="pat" x="479.5" y="290.5" width="30.0" height="85.5" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="479.5" y="273.4" width="30.0" height="17.1"><title>2025, AI: 1 papers</title></rect><rect class="pat" x="479.5" y="273.4" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="479.5" y="222.1" width="30.0" height="51.3"><title>2025, LV: 3 papers</title></rect><rect class="ar-cv seg" x="479.5" y="187.9" width="30.0" height="34.2"><title>2025, CV: 2 papers</title></rect><rect class="ar-sec seg" x="479.5" y="153.7" width="30.0" height="34.2"><title>2025, Sec: 2 papers</title></rect><rect class="ar-pl seg" x="479.5" y="136.6" width="30.0" height="17.1"><title>2025, PL: 1 papers</title></rect><rect class="ar-se seg" x="479.5" y="119.5" width="30.0" height="17.1"><title>2025, SE: 1 papers</title></rect><text class="value" x="494.5" y="114.5" text-anchor="middle">15</text><text x="494.5" y="393" text-anchor="middle">2025</text><rect class="ar-ml pat-hash seg" x="533.7" y="256.3" width="30.0" height="119.7"><title>2026, ML: 7 papers</title></rect><rect class="pat" x="533.7" y="256.3" width="30.0" height="119.7" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="533.7" y="205.0" width="30.0" height="51.3"><title>2026, AI: 3 papers</title></rect><rect class="pat" x="533.7" y="205.0" width="30.0" height="51.3" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="533.7" y="170.8" width="30.0" height="34.2"><title>2026, LV: 2 papers</title></rect><rect class="ar-sec seg" x="533.7" y="153.7" width="30.0" height="17.1"><title>2026, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="533.7" y="136.6" width="30.0" height="17.1"><title>2026, PL: 1 papers</title></rect><text class="value" x="548.7" y="131.6" text-anchor="middle">14</text><text x="548.7" y="393" text-anchor="middle">2026</text><text x="602.9" y="393" text-anchor="middle">2027</text></svg>
+<figcaption>Papers per year, by CSRankings field.</figcaption>
+</figure>
+<figure>
+<svg class="chart pie" viewBox="0 0 640 400" role="img" aria-label="Other: NNV papers of the leading groups"><a class="pie-item pie-g0" href="../../groups/jia-psu/" aria-label="Jia group: 9 papers (10%)"><path class="slice" d="M320,200 L320.0,60.0 A140,140 0 0 1 403.1,87.3 Z"><title>Jia group: 9 papers (10%)</title></path><polyline class="leader" points="364.4,65.1 480.0,49.9 490.0,49.9"/><rect class="pie-hit" x="494.0" y="42.4" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="53.9">Jia group <tspan class="value">9 (10%)</tspan></tspan></text></a><a class="pie-item pie-g1" href="../../groups/reliable-ai/" aria-label="Reliable AI Lab: 6 papers (7%)"><path class="slice" d="M320,200 L403.1,87.3 A140,140 0 0 1 442.1,131.4 Z"><title>Reliable AI Lab: 6 papers (7%)</title></path><polyline class="leader" points="426.4,106.0 480.0,95.4 490.0,95.4"/><rect class="pie-hit" x="494.0" y="87.9" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="99.4">Reliable AI Lab <tspan class="value">6 (7%)</tspan></tspan></text></a><a class="pie-item pie-g2" href="../../groups/chong-xiang/" aria-label="Chong Xiang group: 6 papers (7%)"><path class="slice" d="M320,200 L442.1,131.4 A140,140 0 0 1 459.5,187.7 Z"><title>Chong Xiang group: 6 papers (7%)</title></path><polyline class="leader" points="455.7,158.0 480.0,153.3 490.0,153.3"/><rect class="pie-hit" x="494.0" y="145.8" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="157.3">Chong Xiang group <tspan class="value">6 (7%)</tspan></tspan></text></a><a class="pie-item pie-g3" href="../../groups/prateek-mittal/" aria-label="Prateek Mittal group: 6 papers (7%)"><path class="slice" d="M320,200 L459.5,187.7 A140,140 0 0 1 452.2,246.1 Z"><title>Prateek Mittal group: 6 papers (7%)</title></path><polyline class="leader" points="460.9,217.5 480.0,219.5 490.0,219.5"/><rect class="pie-hit" x="494.0" y="212.0" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="223.5">Prateek Mittal group <tspan class="value">6 (7%)</tspan></tspan></text></a><a class="pie-item pie-g4" href="../../groups/secure-learning/" aria-label="Secure Learning Lab: 5 papers (6%)"><path class="slice" d="M320,200 L452.2,246.1 A140,140 0 0 1 428.1,288.9 Z"><title>Secure Learning Lab: 5 papers (6%)</title></path><polyline class="leader" points="443.8,269.5 480.0,277.4 490.0,277.4"/><rect class="pie-hit" x="494.0" y="269.9" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="281.4">Secure Learning Lab <tspan class="value">5 (6%)</tspan></tspan></text></a><a class="pie-item pie-g5" href="../../groups/gong/" aria-label="Gong group: 5 papers (6%)"><path class="slice" d="M320,200 L428.1,288.9 A140,140 0 0 1 390.7,320.8 Z"><title>Gong group: 5 papers (6%)</title></path><polyline class="leader" points="412.1,308.1 480.0,320.2 490.0,320.2"/><rect class="pie-hit" x="494.0" y="312.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="324.2">Gong group <tspan class="value">5 (6%)</tspan></tspan></text></a><a class="pie-item pie-g6" href="../../groups/neuralsat/" aria-label="NeuralSAT: 4 papers (4%)"><path class="slice" d="M320,200 L390.7,320.8 A140,140 0 0 1 354.2,335.7 Z"><title>NeuralSAT: 4 papers (4%)</title></path><polyline class="leader" points="373.8,331.4 480.0,346.2 490.0,346.2"/><rect class="pie-hit" x="494.0" y="338.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="350.2">NeuralSAT <tspan class="value">4 (4%)</tspan></tspan></text></a><a class="pie-item pie-g7" href="../../groups/singh-uiuc/" aria-label="Singh group: 3 papers (3%)"><path class="slice" d="M320,200 L354.2,335.7 A140,140 0 0 1 324.9,339.9 Z"><title>Singh group: 3 papers (3%)</title></path><polyline class="leader" points="340.0,340.6 480.0,361.2 490.0,361.2"/><rect class="pie-hit" x="494.0" y="353.7" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="365.2">Singh group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g8" href="../../groups/nnv/" aria-label="NNV: 3 papers (3%)"><path class="slice" d="M320,200 L324.9,339.9 A140,140 0 0 1 295.4,337.8 Z"><title>NNV: 3 papers (3%)</title></path><polyline class="leader" points="310.0,341.6 160.0,369.1 150.0,369.1"/><rect class="pie-hit" x="-54.0" y="361.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="373.1">NNV <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g9" href="../../groups/socrates/" aria-label="Socrates: 3 papers (3%)"><path class="slice" d="M320,200 L295.4,337.8 A140,140 0 0 1 267.0,329.6 Z"><title>Socrates: 3 papers (3%)</title></path><polyline class="leader" points="280.4,336.4 160.0,354.1 150.0,354.1"/><rect class="pie-hit" x="-54.0" y="346.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="358.1">Socrates <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g10" href="../../groups/balazs-banhelyi/" aria-label="Balázs Bánhelyi group: 3 papers (3%)"><path class="slice" d="M320,200 L267.0,329.6 A140,140 0 0 1 240.9,315.5 Z"><title>Balázs Bánhelyi group: 3 papers (3%)</title></path><polyline class="leader" points="252.6,325.0 160.0,339.1 150.0,339.1"/><rect class="pie-hit" x="-54.0" y="331.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="343.1">Balázs Bánhelyi group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-g11" href="../../groups/mark-jelasity/" aria-label="Márk Jelasity group: 3 papers (3%)"><path class="slice" d="M320,200 L240.9,315.5 A140,140 0 0 1 218.4,296.3 Z"><title>Márk Jelasity group: 3 papers (3%)</title></path><polyline class="leader" points="227.9,308.1 160.0,320.2 150.0,320.2"/><rect class="pie-hit" x="-54.0" y="312.7" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="324.2">Márk Jelasity group <tspan class="value">3 (3%)</tspan></tspan></text></a><a class="pie-item pie-rest" href="../" aria-label="Other groups: 33 papers (37%)"><path class="slice" d="M320,200 L218.4,296.3 A140,140 0 0 1 320.0,60.0 Z"><title>Other groups: 33 papers (37%)</title></path><polyline class="leader" points="189.5,143.9 160.0,137.6 150.0,137.6"/><rect class="pie-hit" x="-54.0" y="130.1" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="141.6">Other groups <tspan class="value">33 (37%)</tspan></tspan></text></a></svg>
+<figcaption>Papers by leading group, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
+<div class="fig-row">
+<div>
+<h2>Leading researchers</h2>
+<ol><li><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a> <span class="note">(Jia group)</span>: 7</li><li><a href="/researchers/soheil-feizi/">Soheil Feizi</a> <span class="note">(Reliable AI Lab)</span>: 6</li><li><a href="/researchers/chong-xiang/">Chong Xiang</a> <span class="note">(Chong Xiang group)</span>: 6</li><li><a href="/researchers/prateek-mittal/">Prateek Mittal</a> <span class="note">(Prateek Mittal group)</span>: 6</li><li><a href="/researchers/bo-li/">Bo Li</a> <span class="note">(Secure Learning Lab)</span>: 5</li><li><a href="/researchers/neil-gong/">Neil Gong</a> <span class="note">(Gong group)</span>: 5</li><li><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a> <span class="note">(Singh group)</span>: 3</li><li><a href="/researchers/alexander-levine/">Alexander Levine</a> <span class="note">(Reliable AI Lab)</span>: 3</li><li><a href="/researchers/binghui-wang/">Binghui Wang</a> <span class="note">(Jia group)</span>: 3</li><li><a href="/researchers/jun-sun/">Jun Sun</a> <span class="note">(Socrates)</span>: 3</li><li><a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a> <span class="note">(NeuralSAT)</span>: 3</li><li><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a> <span class="note">(Reliable AI Lab)</span>: 3</li><li><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a> <span class="note">(NNV)</span>: 3</li><li><a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a> <span class="note">(Balázs Bánhelyi group)</span>: 3</li><li><a href="/researchers/mark-jelasity/">Márk Jelasity</a> <span class="note">(Márk Jelasity group)</span>: 3</li></ol>
+</div>
+<div>
+<h2>Leading groups</h2>
+<ol><li><a href="/groups/jia-psu/">Jia group</a>: 9</li><li><a href="/groups/reliable-ai/">Reliable AI Lab</a>: 6</li><li><a href="/groups/chong-xiang/">Chong Xiang group</a>: 6</li><li><a href="/groups/prateek-mittal/">Prateek Mittal group</a>: 6</li><li><a href="/groups/secure-learning/">Secure Learning Lab</a>: 5</li><li><a href="/groups/gong/">Gong group</a>: 5</li><li><a href="/groups/neuralsat/">NeuralSAT</a>: 4</li><li><a href="/groups/singh-uiuc/">Singh group</a>: 3</li><li><a href="/groups/nnv/">NNV</a>: 3</li><li><a href="/groups/socrates/">Socrates</a>: 3</li><li><a href="/groups/balazs-banhelyi/">Balázs Bánhelyi group</a>: 3</li><li><a href="/groups/mark-jelasity/">Márk Jelasity group</a>: 3</li></ol>
+</div>
+</div>
+<h2>Papers</h2>
+
+<ul class="papers">
+	<li id="luca2026certification">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://openreview.net/forum?id=hRqL7vRChh">Certification from Examples is Hard for Circuits and Transformers under Minimal Overparametrization</a> <span class="note">(<a href="https://arxiv.org/abs/2605.22964">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Artur Back de Luca, Kimon Fountoulakis</span>
+	</li>
+	<li id="zhong2026certified">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://openreview.net/forum?id=XhTzs21IA3">Certified but Private: Scalable Zero-Knowledge Proofs for Neural Network Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2608.17070">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Youwei Zhong, Ben Merbaum, Timos Antonopoulos, Ning Luo, CHARALAMPOS PAPAMANTHOU, Katerina Sotiraki, Ruzica Piskac</span>
+	</li>
+	<li id="cheng2026certified">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+		<a href="https://openreview.net/forum?id=tbVIr983oG">Certified Robust Interpretability via Concept-Space Stability under Interventional Proxies</a>
+		<br><span class="authors">Yanming Cheng, Di Zhang</span>
+	</li>
+	<li id="bournez2026iterated">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://openreview.net/forum?id=tnelXgpZB7">Iterated Narrow Networks: Turing Completeness at Width 4 on Convex Input Spaces and the Complexity of Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2611.02840">arXiv</a>)</span> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Olivier Bournez, Johanne Cohen, Adrian Wurm</span>
+	</li>
+	<li id="szasz2026towards">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/quantized/"><span class="tag own">Quantized &amp; bit-level</span></a>
+		<a href="https://openreview.net/forum?id=nHbkxmdykn">Towards Sound Verification of Deployed Neural Networks</a>
+		<br><span class="authors">Attila Szász, <a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a>, <a href="/researchers/mark-jelasity/">Márk Jelasity</a></span>
+	</li>
+	<li id="shen2026credit">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://openreview.net/forum?id=DQKoxCegwH">CREDIT: Certified Ownership Verification of Deep Neural Networks Against Model Extraction Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2602.20419">arXiv</a>)</span> <span class="note cites">&middot; 5 citations</span>
+		<br><span class="authors">Bolin Shen, Zhan Cheng, <a href="/researchers/neil-gong/">Neil Gong</a>, Fan Yao, Yushun Dong</span>
+	</li>
+	<li id="roy2026vnn">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-32526-6_21">VNN-LIB 2.0: Rigorous Foundations for Neural Network Verification</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/ann-roy/">Ann Roy</a>, <a href="/researchers/allen-antony/">Allen Antony</a>, <a href="/researchers/andrea-gimelli/">Andrea Gimelli</a>, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a></span>
+	</li>
+	<li id="yang2026ensemble">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/sp63933.2026.00043">Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees Against Data Poisoning Attacks</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors"><a href="/researchers/yuxin-yang-146-9561/">Yuxin Yang</a>, <a href="/researchers/qiang-li-72-872/">Qiang Li</a>, <a href="/researchers/runyang-feng/">Runyang Feng</a>, Liren Shan, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="froese2026parameterized">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/FroeseGHS26">Parameterized Hardness of Zonotope Containment and Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2509.22849">arXiv</a>)</span> <span class="note cites">&middot; 12 citations</span>
+		<br><span class="authors">Vincent Froese, Moritz Grillo, Christoph Hertrich, Moritz Stargalla</span>
+	</li>
+	<li id="lyu2026certmask">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i10.37716">CertMask: Certifiable Defense Against Adversarial Patches via Theoretically Optimal Mask Coverage</a> <span class="note">(<a href="https://arxiv.org/abs/2511.09834">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Xuntao Lyu, Ching-Chi Lin, Abdullah Al Arafat, Georg von der Brüggen, Jian-Jia Chen, Zhishan Guo</span>
+	</li>
+	<li id="he2026hiq">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i26.39312">HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2503.16342">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, Kai Wen</span>
+	</li>
+	<li id="duong2025generating">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/DuongND25">Generating and Checking DNN Verification Proofs</a> <span class="note cites">&middot; 12 citations</span>
+		<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span>
+	</li>
+	<li id="li2025destabilizing">
+		<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/ase63991.2025.00115">Destabilizing Neurons to Generate Challenging Neural Network Verification Benchmarks</a> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors"><a href="/researchers/linhan-li/">Linhan Li</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a></span>
+	</li>
+	<li id="singh2025automated">
+		<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1145/3720509">Automated Verification of Soundness of DNN Certifiers</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/avaljot-singh/">Avaljot Singh</a>, <a href="/researchers/yasmin-sarita/">Yasmin Sarita</a>, <a href="/researchers/charith-mendis/">Charith Mendis</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="yang2025graphprot">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2025/70">GraphProt: Certified Black-Box Shielding Against Backdoored Graph Models</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Xiao Yang, <a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/kai-zhou/">Kai Zhou</a>, Gaolei Li, Jianhua Li, Hang Zhang</span>
+	</li>
+	<li id="szasz2025no">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2025</span></a> <span class="tag other">spotlight</span> 🎉
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/quantized/"><span class="tag own">Quantized &amp; bit-level</span></a>
+		<a href="https://dblp.org/rec/conf/icml/SzaszBJ25">No Soundness in the Real World: On the Challenges of the Verification of Deployed Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2506.01054">arXiv</a>)</span> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Attila Szász, <a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a>, <a href="/researchers/mark-jelasity/">Márk Jelasity</a></span>
+	</li>
+	<li id="tobler2025formally">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98679-6_15">A Formally Verified Robustness Certifier for Neural Networks</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors">James Tobler, Hira Taqdees Syeda, Toby Murray</span>
+	</li>
+	<li id="wei2025modelverification">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98679-6_18">ModelVerification.jl: A Comprehensive Toolbox for Formally Verifying Deep Neural Networks</a> <span class="note cites">&middot; 22 citations</span>
+		<br><span class="authors"><a href="/researchers/tianhao-wei/">Tianhao Wei</a>, Hanjiang Hu, <a href="/researchers/luca-marzari/">Luca Marzari</a>, Kai S. Yun, Peizhi Niu, <a href="/researchers/xusheng-luo/">Xusheng Luo</a>, <a href="/researchers/changliu-liu/">Changliu Liu</a></span>
+	</li>
+	<li id="tran2025starv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-98679-6_17">StarV: A Qualitative and Quantitative Verification Tool for Learning-Enabled Systems</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/sung-woo-choi/">Sung Woo Choi</a>, <a href="/researchers/yuntao-li/">Yuntao Li</a>, <a href="/researchers/qing-liu/">Qing Liu</a>, Hideki Okamoto, Bardh Hoxha, <a href="/researchers/georgios-fainekos/">Georgios Fainekos</a></span>
+	</li>
+	<li id="jacob2025patchdemux">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1109/cvpr52734.2025.00929">PatchDEMUX: A Certifiably Robust Framework for Multi-label Classifiers Against Adversarial Patches</a> <span class="note cites">&middot; 3 citations</span>
+		<br><span class="authors">Dennis Jacob, <a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="wu2025towards">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a> <span class="tag other">spotlight</span> 🎉
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WuJDG25">Towards a Unified and Verified Understanding of Group-Operation Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2410.07476">arXiv</a>)</span> <span class="note cites">&middot; 14 citations</span>
+		<br><span class="authors">Wilson Wu, Louis Jaburi, Jacob Drori, Jason Gross</span>
+	</li>
+	<li id="sun2024achieving">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/SunMGV24">Achieving Domain-Independent Certified Robustness via Knowledge Continuity</a> <span class="note">(<a href="https://arxiv.org/abs/2411.01644">arXiv</a>)</span>
+		<br><span class="authors">Alan Sun, Chiyu Ma, Kenneth Ge, Soroush Vosoughi</span>
+	</li>
+	<li id="yang2024fedgmark">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/YangLHW24">FedGMark: Certifiably Robust Watermarking for Federated Graph Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2410.17533">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="yang2024distributed">
+		<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3658644.3690187">Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses</a> <span class="note cites">&middot; 43 citations</span>
+		<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="pham2024certified">
+		<a class="tag-link" href="/conferences/issta/"><span class="tag accepted">ISSTA 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+		<a href="https://doi.org/10.1145/3650212.3680322">Certified Continual Learning for Neural Network Regression</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/long-h-pham/">Long H. Pham</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span>
+	</li>
+	<li id="xiang2024patchcure">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/uss/0001WDPJM24">PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses</a> <span class="note">(<a href="https://arxiv.org/abs/2310.13076">arXiv</a>)</span> <span class="note cites">&middot; 16 citations</span>
+		<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Tong Wu, Sihui Dai, Jonathan Petit, <a href="/researchers/suman-jana/">Suman Jana</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="zhou2024crosscert">
+		<a class="tag-link" href="/conferences/fse/"><span class="tag accepted">FSE 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1145/3660827">CrossCert: A Cross-Checking Detection Approach to Patch Robustness Certification for Deep Learning Models</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Qilin Zhou, Zhengyuan Wei, Haipeng Wang, Bo Jiang, Wing-Kwong Chan</span>
+	</li>
+	<li id="shapira2024boosting">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-65630-9_19">Boosting Few-Pixel Robustness Verification via Covering Verification Designs</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/yuval-shapira/">Yuval Shapira</a>, <a href="/researchers/naor-wiesel/">Naor Wiesel</a>, <a href="/researchers/shahar-shabelman/">Shahar Shabelman</a>, <a href="/researchers/dana-drachsler-cohen/">Dana Drachsler-Cohen</a></span>
+	</li>
+	<li id="zhang2024certified">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-65630-9_18">Certified Robust Accuracy of Neural Networks Are Bounded Due to Bayes Errors</a> <span class="note cites">&middot; 14 citations</span>
+		<br><span class="authors"><a href="/researchers/ruihan-zhang/">Ruihan Zhang</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span>
+	</li>
+	<li id="banerjee2024interpreting">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/BanerjeeS024">Interpreting Robustness Proofs of Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2301.13845">arXiv</a>)</span> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors"><a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/avaljot-singh/">Avaljot Singh</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="pauli2024novel">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/PauliHAGKA024">Novel Quadratic Constraints for Extending LipSDP beyond Slope-Restricted Activations</a> <span class="note">(<a href="https://arxiv.org/abs/2401.14033">arXiv</a>)</span> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors">Patricia Pauli, <a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/siddharth-garg/">Siddharth Garg</a>, <a href="/researchers/farshad-khorrami/">Farshad Khorrami</a>, Frank Allgöwer, <a href="/researchers/bin-hu/">Bin Hu</a></span>
+	</li>
+	<li id="wang2024fcert">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/sp54263.2024.00240">FCert: Certifiably Robust Few-Shot Classification in the Era of Foundation Models</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/yanting-wang/">Yanting Wang</a>, <a href="/researchers/wei-zou/">Wei Zou</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span>
+	</li>
+	<li id="pei2024textguard">
+		<a class="tag-link" href="/conferences/ndss/"><span class="tag accepted">NDSS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/ndss/Pei000S24">TextGuard: Provable Defense against Backdoor Attacks on Text Classification</a> <span class="note cites">&middot; 42 citations</span>
+		<br><span class="authors"><a href="/researchers/hengzhi-pei/">Hengzhi Pei</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/wenbo-guo/">Wenbo Guo</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/dawn-song/">Dawn Song</a></span>
+	</li>
+	<li id="wang2023temporal">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/0002F23">Temporal Robustness against Data poisoning</a> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="xie2023unraveling">
+		<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1145/3576915.3623193">Unraveling the Connections between Privacy and Certified Robustness in Federated Learning Against Poisoning Attacks</a> <span class="note cites">&middot; 44 citations</span>
+		<br><span class="authors"><a href="/researchers/chulin-xie/">Chulin Xie</a>, Yunhui Long, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, Qinbin Li, <a href="/researchers/sanmi-koyejo/">Sanmi Koyejo</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="zhong2023expediting">
+		<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/ase56229.2023.00081">Expediting Neural Network Verification via Network Reduction</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors">Yuyi Zhong, Ruiwei Wang, Siau-Cheng Khoo</span>
+	</li>
+	<li id="li2023hobat">
+		<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/ase56229.2023.00033">HOBAT: Batch Verification for Homogeneous Structural Neural Networks</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Jingyang Li, Guoqiang Li</span>
+	</li>
+	<li id="jia2023pore">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/uss/JiaLHG23">PORE: Provably Robust Recommender Systems against Data Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2303.14601">arXiv</a>)</span> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/yupei-liu/">Yupei Liu</a>, <a href="/researchers/yuepeng-hu/">Yuepeng Hu</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span>
+	</li>
+	<li id="rezaei2023run">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/RezaeiBCF23">Run-off Election: Improved Provable Defense against Data Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2302.02300">arXiv</a>)</span> <span class="note cites">&middot; 30 citations</span>
+		<br><span class="authors">Keivan Rezaei, Kiarash Banihashem, Atoosa Malemir Chegini, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="lopez2023nnv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-37703-7_19">NNV 2.0: The Neural Network Verification Tool</a> <span class="note cites">&middot; 105 citations</span>
+		<br><span class="authors"><a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/sung-woo-choi/">Sung Woo Choi</a>, <a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+	<li id="amir2023verifying">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-37703-7_21">Verifying Generalization in Deep Learning</a> <span class="note cites">&middot; 24 citations</span>
+		<br><span class="authors"><a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/osher-maayan/">Osher Maayan</a>, <a href="/researchers/tom-zelazny/">Tom Zelazny</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/michael-schapira/">Michael Schapira</a></span>
+	</li>
+	<li id="zhang2023pointcert">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1109/cvpr52729.2023.00916">PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees</a> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors">Jinghuai Zhang, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/hongbin-liu/">Hongbin Liu</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span>
+	</li>
+	<li id="mangal2023perils">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/MangalWZLPF23">On the Perils of Cascading Robust Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2206.00278">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Ravi Mangal, <a href="/researchers/zifan-wang/">Zifan Wang</a>, Chi Zhang, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/corina-s-pasareanu/">Corina S. Pasareanu</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span>
+	</li>
+	<li id="xiang2023objectseeker">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1109/sp46215.2023.10179319">ObjectSeeker: Certifiably Robust Object Detection against Patch Hiding Attacks via Patch-agnostic Masking</a> <span class="note cites">&middot; 59 citations</span>
+		<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Alexander Valtchanov, <a href="/researchers/saeed-mahloujifar/">Saeed Mahloujifar</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="weber2023rab">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1109/sp46215.2023.10179451">RAB: Provable Robustness Against Backdoor Attacks</a> <span class="note cites">&middot; 211 citations</span>
+		<br><span class="authors"><a href="/researchers/maurice-weber/">Maurice Weber</a>, <a href="/researchers/xiaojun-xu/">Xiaojun Xu</a>, <a href="/researchers/bojan-karlas/">Bojan Karlas</a>, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="li2023sok">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/sp46215.2023.10179303">SoK: Certified Robustness for Deep Neural Networks</a> <span class="note cites">&middot; 283 citations</span>
+		<br><span class="authors"><a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="liu2023enhancing">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2023</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1609/aaai.v37i7.26065">Enhancing the Antidote: Improved Pointwise Certifications against Poisoning Attacks</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span>
+	</li>
+	<li id="wang2022quantitative">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/WangPJ22">A Quantitative Geometric Approach to Neural-Network Smoothness</a> <span class="note cites">&middot; 25 citations</span>
+		<br><span class="authors"><a href="/researchers/zi-wang/">Zi Wang</a>, <a href="/researchers/gautam-prakriya/">Gautam Prakriya</a>, <a href="/researchers/somesh-jha/">Somesh Jha</a></span>
+	</li>
+	<li id="liu2022copur">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LiuXK022">CoPur: Certifiably Robust Collaborative Inference via Feature Purification</a> <span class="note cites">&middot; 14 citations</span>
+		<br><span class="authors">Jing Liu, <a href="/researchers/chulin-xie/">Chulin Xie</a>, <a href="/researchers/sanmi-koyejo/">Sanmi Koyejo</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="wang2022lethal">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/00020F22">Lethal Dose Conjecture on Data Poisoning</a> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="bharti2022provable">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+		<a href="https://dblp.org/rec/conf/nips/BhartiZSZ22">Provable Defense against Backdoor Policies in Reinforcement Learning</a> <span class="note cites">&middot; 37 citations</span>
+		<br><span class="authors">Shubham Kumar Bharti, Xuezhou Zhang, Adish Singla, Jerry Zhu</span>
+	</li>
+	<li id="xiang2022patchcleanser">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/uss/0001MM22">PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier</a> <span class="note">(<a href="https://arxiv.org/abs/2108.09135">arXiv</a>)</span> <span class="note cites">&middot; 98 citations</span>
+		<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/saeed-mahloujifar/">Saeed Mahloujifar</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="wang2022improved">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/00020F22">Improved Certified Defenses against Data Poisoning with (Deterministic) Finite Aggregation</a> <span class="note">(<a href="https://arxiv.org/abs/2202.02628">arXiv</a>)</span> <span class="note cites">&middot; 70 citations</span>
+		<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="chen2022collective">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://dblp.org/rec/conf/icml/ChenLLYW22">On Collective Robustness of Bagging Against Data Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2205.13176">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/ruoxin-chen/">Ruoxin Chen</a>, Zenan Li, <a href="/researchers/jie-li/">Jie Li</a>, <a href="/researchers/junchi-yan/">Junchi Yan</a>, Chentao Wu</span>
+	</li>
+	<li id="pham2022verifying">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-13185-1_9">Verifying Neural Networks Against Backdoor Attacks</a> <span class="note cites">&middot; 16 citations</span>
+		<br><span class="authors"><a href="/researchers/long-h-pham/">Long H. Pham</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span>
+	</li>
+	<li id="laurel2022dual">
+		<a class="tag-link" href="/conferences/popl/"><span class="tag accepted">POPL 2022</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1145/3498718">A dual number abstraction for static analysis of Clarke Jacobians</a> <span class="note cites">&middot; 29 citations</span>
+		<br><span class="authors"><a href="/researchers/jacob-laurel/">Jacob Laurel</a>, <a href="/researchers/rem-yang/">Rem Yang</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a></span>
+	</li>
+	<li id="han2021scalecert">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/HanXHCLDGWC21">ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse Superficial Layers</a> <span class="note">(<a href="https://arxiv.org/abs/2110.14120">arXiv</a>)</span> <span class="note cites">&middot; 29 citations</span>
+		<br><span class="authors">Husheng Han, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/xing-hu/">Xing Hu</a>, Xiaobing Chen, <a href="/researchers/ling-liang/">Ling Liang</a>, Zidong Du, Qi Guo, Yanzhi Wang, Yunji Chen</span>
+	</li>
+	<li id="toledo2021distribution">
+		<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/ase51524.2021.9678590">Distribution Models for Falsification and Verification of DNNs</a> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors"><a href="/researchers/felipe-toledo/">Felipe Toledo</a>, <a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span>
+	</li>
+	<li id="xiang2021detectorguard">
+		<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1145/3460120.3484757">DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks</a> <span class="note cites">&middot; 95 citations</span>
+		<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="xiang2021patchguard">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/uss/0001BSM21">PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking</a> <span class="note">(<a href="https://arxiv.org/abs/2005.10884">arXiv</a>)</span> <span class="note cites">&middot; 198 citations</span>
+		<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Arjun Nitin Bhagoji, Vikash Sehwag, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span>
+	</li>
+	<li id="levine2021deep">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/0001F21">Deep Partition Aggregation: Provable Defenses against General Poisoning Attacks</a>
+		<br><span class="authors"><a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="metzen2021efficient">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/MetzenY21">Efficient Certified Defenses Against Patch Attacks on Image Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2102.04154">arXiv</a>)</span> <span class="note cites">&middot; 49 citations</span>
+		<br><span class="authors"><a href="/researchers/jan-hendrik-metzen/">Jan Hendrik Metzen</a>, <a href="/researchers/maksym-yatsura/">Maksym Yatsura</a></span>
+	</li>
+	<li id="singla2021fantastic">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/0002F21">Fantastic Four: Differentiable and Efficient Bounds on Singular Values of Convolution Layers</a> <span class="note cites">&middot; 20 citations</span>
+		<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span>
+	</li>
+	<li id="zombori2021fooling">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/ZomboriBCMJ21">Fooling a Complete Neural Network Verifier</a> <span class="note cites">&middot; 27 citations</span>
+		<br><span class="authors">Dániel Zombori, <a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a>, Tibor Csendes, István Megyeri, <a href="/researchers/mark-jelasity/">Márk Jelasity</a></span>
+	</li>
+	<li id="jia2021intrinsic">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://doi.org/10.1609/aaai.v35i9.16971">Intrinsic Certified Robustness of Bagging against Data Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2008.04495">arXiv</a>)</span> <span class="note cites">&middot; 158 citations</span>
+		<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span>
+	</li>
+	<li id="cao2021provably">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1609/aaai.v35i8.16849">Provably Secure Federated Learning against Malicious Clients</a> <span class="note">(<a href="https://arxiv.org/abs/2102.01854">arXiv</a>)</span> <span class="note cites">&middot; 202 citations</span>
+		<br><span class="authors"><a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span>
+	</li>
+	<li id="ashtiani2020black">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/AshtianiPU20">Black-box Certification and Learning under Adversarial Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/2006.16520">arXiv</a>)</span> <span class="note cites">&middot; 23 citations</span>
+		<br><span class="authors">Hassan Ashtiani, Vinayak Pathak, Ruth Urner</span>
+	</li>
+	<li id="tran2020nnv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-53288-8_1">NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems</a> <span class="note cites">&middot; 383 citations</span>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/xiaodong-yang/">Xiaodong Yang</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/patrick-musau/">Patrick Musau</a>, Luan Viet Nguyen, <a href="/researchers/weiming-xiang/">Weiming Xiang</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+	<li id="xu2020systematic">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-53288-8_5">Systematic Generation of Diverse Benchmarks for DNN Verification</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/dong-xu/">Dong Xu</a>, <a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a></span>
+	</li>
+	<li id="meinke2020towards">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/Meinke020">Towards neural networks that provably know when they don&#39;t know</a>
+		<br><span class="authors"><a href="/researchers/alexander-meinke/">Alexander Meinke</a>, <a href="/researchers/matthias-hein/">Matthias Hein</a></span>
+	</li>
+	<li id="baader2020universal">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/BaaderMV20">Universal Approximation with Certified Networks</a> <span class="note cites">&middot; 22 citations</span>
+		<br><span class="authors"><a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/matthew-mirman/">Matthew Mirman</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="sotoudeh2019computing">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/nips/SotoudehT19">Computing Linear Restrictions of Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1908.06214">arXiv</a>)</span> <span class="note cites">&middot; 29 citations</span>
+		<br><span class="authors"><a href="/researchers/matthew-sotoudeh/">Matthew Sotoudeh</a>, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span>
+	</li>
+	<li id="gopinath2019property">
+		<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2019</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+		<a href="https://doi.org/10.1109/ase.2019.00079">Property Inference for Deep Neural Networks</a> <span class="note cites">&middot; 105 citations</span>
+		<br><span class="authors"><a href="/researchers/divya-gopinath/">Divya Gopinath</a>, Hayes Converse, <a href="/researchers/corina-s-pasareanu/">Corina S. Pasareanu</a>, Ankur Taly</span>
+	</li>
+	<li id="cheng2019nn">
+		<a class="tag-link" href="/conferences/iccad/"><span class="tag accepted">ICCAD 2019</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1109/iccad45719.2019.8942153">nn-dependability-kit: Engineering Neural Networks for Safety-Critical Autonomous Driving Systems</a> <span class="note">(<a href="https://arxiv.org/abs/1811.06746">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/chih-hong-cheng/">Chih-Hong Cheng</a>, Chung-Hao Huang, Georg Nührenberg</span>
+	</li>
+	<li id="dathathri2019inverse">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+		<a href="https://doi.org/10.1609/aaai.v33i01.33013437">Inverse Abstraction of Neural Networks Using Symbolic Interpolation</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/sumanth-dathathri/">Sumanth Dathathri</a>, <a href="/researchers/sicun-gao/">Sicun Gao</a>, Richard M. Murray</span>
+	</li>
+	<li id="daggitt2026compositional">
+		<a class="tag-link" href="/conferences/icfp/"><span class="tag accepted">ICFP 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1145/3828680">Compositional Neural-Cyber-Physical System Verification in the Interactive Theorem Prover of Your Choice</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/alistair-sirman/">Alistair Sirman</a>, Alessandro Bruni, <a href="/researchers/samuel-teuber/">Samuel Teuber</a>, <a href="/researchers/josh-smart/">Josh Smart</a>, Grant O. Passmore</span>
+	</li>
+	<li id="splittgerber2026exlipbab">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2026/85">ExLipBaB: Exact Lipschitz Constant Computation for Piecewise Linear Neural Networks</a> <span class="note cites">&middot; 3 citations</span>
+		<br><span class="authors">Tom A. Splittgerber</span>
+	</li>
+	<li id="aleksandrov2026rocq">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+		<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-32526-6_23">The Rocq-NN-Roll Prover: Soundly Verifying Hyperproperties of Neural Networks in Rocq</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Andrei Aleksandrov, Malte Jackisch, Kim Völlinger</span>
+	</li>
+	<li id="li2025agnncert">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/uss/LiW25">AGNNCert: Defending Graph Neural Networks against Arbitrary Perturbations with Deterministic Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2502.00765">arXiv</a>)</span> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="mao2025ctbench">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2025</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/MaoBV25">CTBench: A Library and Benchmark for Certified Training</a> <span class="note">(<a href="https://arxiv.org/abs/2406.04848">arXiv</a>)</span> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors"><a href="/researchers/yuhao-mao/">Yuhao Mao</a>, Stefan Balauca, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="li2025deterministic">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1109/cvpr52734.2025.00473">Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/meng-pang/">Meng Pang</a>, <a href="/researchers/yun-dong/">Yun Dong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="salzer2025transformer">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SalzerAL25">Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning</a> <span class="note">(<a href="https://arxiv.org/abs/2405.18548">arXiv</a>)</span> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/eric-alsmann/">Eric Alsmann</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span>
+	</li>
+	<li id="zhang2025fairzk">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2025</span></a>
+		<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1109/sp61157.2025.00205">FairZK: A Scalable System to Prove Machine Learning Fairness in Zero-Knowledge</a> <span class="note cites">&middot; 14 citations</span>
+		<br><span class="authors">Tianyu Zhang, Shen Dong, Oyku Deniz Kose, Yanning Shen, Yupeng Zhang</span>
+	</li>
+	<li id="dahiya2024machine">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/uss/DahiyaS024">Machine Learning needs Better Randomness Standards: Randomised Smoothing and PRNG-based attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2306.14043">arXiv</a>)</span> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Pranav Dahiya, Ilia Shumailov, Ross Anderson</span>
+	</li>
+	<li id="havens2024fine">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/HavensAZ024">Fine-grained Local Sensitivity Analysis of Standard Dot-Product Self-Attention</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span>
+	</li>
+	<li id="wu2024marabou">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-65630-9_13">Marabou 2.0: A Versatile Formal Analyzer of Neural Networks</a> <span class="note cites">&middot; 183 citations</span>
+		<br><span class="authors"><a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/omri-isac/">Omri Isac</a>, <a href="/researchers/aleksandar-zeljic/">Aleksandar Zeljic</a>, Teruhiro Tagomori, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/wen-kokke/">Wen Kokke</a>, <a href="/researchers/idan-refaeli/">Idan Refaeli</a>, <a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/kyle-julian/">Kyle Julian</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/pei-huang/">Pei Huang</a>, Ori Lahav, <a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span>
+	</li>
+	<li id="guo2023patrol">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2023</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/uss/0002WWXS23">PATROL: Provable Defense against Adversarial Policy in Two-player Games</a>
+		<br><span class="authors"><a href="/researchers/wenbo-guo/">Wenbo Guo</a>, Xian Wu, Lun Wang, Xinyu Xing, <a href="/researchers/dawn-song/">Dawn Song</a></span>
+	</li>
+	<li id="salzer2023fundamental">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SalzerL23">Fundamental Limits in Formal Verification of Message-Passing Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2206.05070">arXiv</a>)</span> <span class="note cites">&middot; 16 citations</span>
+		<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span>
+	</li>
+	<li id="casadio2022neural">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-13185-1_11">Neural Network Robustness as a Verification Property: A Principled Case Study</a> <span class="note cites">&middot; 84 citations</span>
+		<br><span class="authors">Marco Casadio, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/wen-kokke/">Wen Kokke</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/idan-refaeli/">Idan Refaeli</a></span>
+	</li>
+	<li id="wu2022copa">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WuL0KKZ022">COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2203.08398">arXiv</a>)</span> <span class="note cites">&middot; 32 citations</span>
+		<br><span class="authors"><a href="/researchers/fan-wu/">Fan Wu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, Krishnaram Kenthapadi, <a href="/researchers/ding-zhao/">Ding Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="shriver2021dnnv">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_6">DNNV: A Framework for Deep Neural Network Verification</a> <span class="note cites">&middot; 69 citations</span>
+		<br><span class="authors"><a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span>
+	</li>
+	<li id="araujo2021lipschitz">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1609/aaai.v35i8.16824">On Lipschitz Regularization of Convolutional Layers using Toeplitz Matrix Theory</a> <span class="note cites">&middot; 54 citations</span>
+		<br><span class="authors"><a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, Benjamin Négrevergne, Yann Chevaleyre, <a href="/researchers/jamal-atif/">Jamal Atif</a></span>
+	</li>
+	<li id="xu2020automatic">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/nips/XuS0WCHKLH20">Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond</a> <span class="note">(<a href="https://arxiv.org/abs/2002.12920">arXiv</a>)</span> <span class="note cites">&middot; 469 citations</span>
+		<br><span class="authors"><a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/kai-wei-chang/">Kai-Wei Chang</a>, <a href="/researchers/minlie-huang/">Minlie Huang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a href="/researchers/xue-lin/">Xue Lin</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span>
+	</li>
+	<li id="chiang2020certified">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/ChiangNAZSG20">Certified Defenses for Adversarial Patches</a> <span class="note cites">&middot; 203 citations</span>
+		<br><span class="authors"><a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, Renkun Ni, <a href="/researchers/ahmed-abdelkader/">Ahmed Abdelkader</a>, Chen Zhu, Christoph Studer, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span>
+	</li>
+	<li id="katz2019marabou">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2019</span></a>
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-25540-4_26">The Marabou Framework for Verification and Analysis of Deep Neural Networks</a> <span class="note cites">&middot; 852 citations</span>
+		<br><span class="authors"><a href="/researchers/guy-katz/">Guy Katz</a>, Derek A. Huang, Duligur Ibeling, <a href="/researchers/kyle-julian/">Kyle Julian</a>, Christopher Lazarus, Rachel Lim, Parth Shah, Shantanu Thakoor, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/aleksandar-zeljic/">Aleksandar Zeljic</a>, <a href="/researchers/david-l-dill/">David L. Dill</a>, <a href="/researchers/mykel-j-kochenderfer/">Mykel J. Kochenderfer</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span>
+	</li>
+</ul>
+
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

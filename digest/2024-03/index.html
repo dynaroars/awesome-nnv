@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>March 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-03/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="March 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-03/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>March 2024</h1></header>
+<article>
+<p class="digest-intro">CAV 2024 and S&amp;P 2024 decisions: tools and control stand out, with Marabou 2.0, VELM&#39;s reachability-based safe exploration and neural barrier certificates for DNN-controlled systems. Other directions are few-pixel verification via covering designs, global two-safety properties, a Bayes-error bound on certified robust accuracy, and certified defenses for few-shot classification (FCert) and graph injection attacks.</p>
+<p>8 NNV papers accepted in March 2024, at CAV 2024 and S&amp;P 2024.</p>
+<h2 class="digest-venue">CAV 2024 <span class="note">6 papers</span></h2>
+<ul class="papers digest"><li id="shapira2024boosting">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65630-9_19">Boosting Few-Pixel Robustness Verification via Covering Verification Designs</a>
+
+	<br><span class="authors"><a href="/researchers/yuval-shapira/">Yuval Shapira</a>, <a href="/researchers/naor-wiesel/">Naor Wiesel</a>, <a href="/researchers/shahar-shabelman/">Shahar Shabelman</a>, <a href="/researchers/dana-drachsler-cohen/">Dana Drachsler-Cohen</a></span><p class="digest-summary">Speeds up L0 few-pixel robustness verification with covering verification designs, choosing among candidate coverings by predicting their block size distribution in closed form and building them on the fly in parallel; verification time drops by up to 5.1x on average.</p>
+</li>
+<li id="zhang2024certified">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65630-9_18">Certified Robust Accuracy of Neural Networks Are Bounded Due to Bayes Errors</a>
+
+	<br><span class="authors"><a href="/researchers/ruihan-zhang/">Ruihan Zhang</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span><p class="digest-summary">Derives an upper bound on certified robust accuracy from Bayes error under data distribution uncertainty, explaining why certified training lowers accuracy; for CIFAR10 the bound is 67.49%, while existing methods reached 62.84% by 2023.</p>
+</li>
+<li id="wu2024marabou">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65630-9_13">Marabou 2.0: A Versatile Formal Analyzer of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/omri-isac/">Omri Isac</a>, <a href="/researchers/aleksandar-zeljic/">Aleksandar Zeljic</a>, Teruhiro Tagomori, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/wen-kokke/">Wen Kokke</a>, <a href="/researchers/idan-refaeli/">Idan Refaeli</a>, <a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/kyle-julian/">Kyle Julian</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/pei-huang/">Pei Huang</a>, Ori Lahav, <a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span><p class="digest-summary">System description of version 2.0 of Marabou, a framework for formal analysis of neural networks, covering its architectural design and the main features and components added since the first release.</p>
+</li>
+<li id="wang2024safe">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65633-0_11">Safe Exploration in Reinforcement Learning by Reachability Analysis over Learned Models</a>
+
+	<br><span class="authors"><a href="/researchers/yuning-wang/">Yuning Wang</a>, <a href="/researchers/he-zhu/">He Zhu</a></span><p class="digest-summary">VELM keeps reinforcement learning exploration safe by learning symbolic environment models, running formal reachability analysis on them, and shielding the agent to states verified safe; it cuts safety violations compared with other safe learning methods without lowering reward.</p>
+</li>
+<li id="zhi2024unifying">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65630-9_20">Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems</a>
+
+	<br><span class="authors"><a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, <a href="/researchers/peixin-wang/">Peixin Wang</a>, <a href="/researchers/si-liu/">Si Liu</a>, C.-H. Luke Ong, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary">Verifies DNN-controlled systems by synthesizing neural barrier certificates, first for almost-sure safety and, if that fails, for lower and upper bounds on probabilistic safety over finite and infinite horizons, using k-inductive certificates and simulation-guided training on four systems.</p>
+</li>
+<li id="athavale2024verifying">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2024</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-65630-9_17">Verifying Global Two-Safety Properties in Neural Networks with Confidence</a>
+
+	<br><span class="authors"><a href="/researchers/anagha-athavale/">Anagha Athavale</a>, <a href="/researchers/ezio-bartocci/">Ezio Bartocci</a>, <a href="/researchers/maria-christakis/">Maria Christakis</a>, <a href="/researchers/matteo-maffei/">Matteo Maffei</a>, <a href="/researchers/dejan-nickovic/">Dejan Nickovic</a>, <a href="/researchers/georg-weissenbacher/">Georg Weissenbacher</a></span><p class="digest-summary">Verifies confidence-based 2-safety properties of DNNs, such as global robustness and global fairness, by self-composition with a new verifiable abstraction of softmax, proven sound and implemented on top of Marabou with evaluation on public benchmarks.</p>
+</li>
+</ul>
+<h2 class="digest-venue">S&amp;P 2024 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="wang2024fcert">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/sp54263.2024.00240">FCert: Certifiably Robust Few-Shot Classification in the Era of Foundation Models</a>
+
+	<br><span class="authors"><a href="/researchers/yanting-wang/">Yanting Wang</a>, <a href="/researchers/wei-zou/">Wei Zou</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span><p class="digest-summary">FCert is a certified defense against data poisoning of few-shot classifiers built on foundation models, provably keeping the predicted label when the number of poisoned support samples is bounded; it outperforms existing certified poisoning defenses on vision and text benchmarks.</p>
+</li>
+<li id="lai2024node">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/sp54263.2024.00241">Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/yulin-zhu/">Yulin Zhu</a>, <a href="/researchers/bailin-pan/">Bailin Pan</a>, <a href="/researchers/kai-zhou/">Kai Zhou</a></span><p class="digest-summary">Node-aware bi-smoothing certifies node classification against graph injection attacks with a model-agnostic smoothing scheme covering both evasion and poisoning; it derives certifiable conditions, extends two existing certification frameworks to node injection for comparison, and is also applied to recommendation systems.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-02/">&larr; February 2024</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-04/">April 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

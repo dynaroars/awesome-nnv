@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>December 2020 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2020-12/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="December 2020">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2020-12/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>December 2020</h1></header>
+<article>
+<p class="digest-intro">AAAI 2021 and ICSE 2021 decisions: certified training leads, with class-similarity-based verifiable training, SingleProp and Toeplitz-based Lipschitz regularization of convolutional layers. Other directions include certifying spatial robustness, SMT-based verification of quantized neural networks, reachability of Neural ODEs with stochastic guarantees and PROVERO&#39;s quantitative verification, plus certified defenses against data poisoning and malicious federated-learning clients.</p>
+<p>11 NNV papers accepted in December 2020, at AAAI 2021 and ICSE 2021.</p>
+<h2 class="digest-venue">AAAI 2021 <span class="note">10 papers</span></h2>
+<ul class="papers digest"><li id="wang2021adaptive">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i11.17223">Adaptive Verifiable Training Using Pairwise Class Similarity</a>
+
+	<br><span class="authors"><a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/kevin-eykholt/">Kevin Eykholt</a>, Taesung Lee, Jiyong Jang, Ian M. Molloy</span><p class="digest-summary">Improves verifiable training by clustering similar classes and assigning robustness criteria by inter-cluster similarity, via an Inter-Group Robustness Prioritization loss or a neural decision tree of sub-classifiers; clean performance improves up to 9.63% on Fashion-MNIST and 30.89% on CIFAR10.</p>
+</li>
+<li id="fan2021adversarial">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i8.16904">Adversarial Training and Provable Robustness: A Tale of Two Objectives</a> <span class="note">(<a href="https://arxiv.org/abs/2008.06081">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jiameng-fan/">Jiameng Fan</a>, <a href="/researchers/wenchao-li/">Wenchao Li</a></span><p class="digest-summary">Trains certifiably robust networks by jointly optimizing empirical (adversarial) and provable robustness objectives with a gradient-descent technique that removes bias in stochastic multi-gradients, with convergence analysis; it matches or beats prior work on ℓ∞ robustness, reaching 6.60% verified error on MNIST at ε=0.3 and 66.57% on CIFAR-10 at ε=8/255.</p>
+</li>
+<li id="ruoss2021efficient">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i3.16352">Efficient Certification of Spatial Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2009.09318">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/anian-ruoss/">Anian Ruoss</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Certifies robustness of vision models against vector field (spatial) transformations for the first time via model-agnostic convex relaxations that can be plugged into many neural network verifiers; experiments across architectures and datasets show effectiveness and scalability.</p>
+</li>
+<li id="boopathy2021fast">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i8.16840">Fast Training of Provably Robust Neural Networks by SingleProp</a> <span class="note">(<a href="https://arxiv.org/abs/2102.01208">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/akhilan-boopathy/">Akhilan Boopathy</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, Gaoyuan Zhang, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">SingleProp is a regularizer for training provably robust networks that needs only one extra forward propagation, making it cheaper than certified defenses that run certification during training; on MNIST and CIFAR-10 it trains faster with comparable certified accuracy.</p>
+</li>
+<li id="jia2021intrinsic">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i9.16971">Intrinsic Certified Robustness of Bagging against Data Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2008.04495">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">Proves that bagging with any base learner predicts the same label when the number of modified, deleted or inserted training examples stays below a threshold, which is tight without assumptions on the learner; on MNIST it reaches 91.1% certified accuracy against 100 arbitrarily changed training examples.</p>
+</li>
+<li id="araujo2021lipschitz">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i8.16824">On Lipschitz Regularization of Convolutional Layers using Toeplitz Matrix Theory</a>
+
+	<br><span class="authors"><a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, Benjamin Négrevergne, Yann Chevaleyre, <a href="/researchers/jamal-atif/">Jamal Atif</a></span><p class="digest-summary">Uses Toeplitz matrix theory to derive an upper bound on the Lipschitz constant of convolutional layers that is both tight and cheap to compute, and builds on it an algorithm for training Lipschitz-regularized convolutional neural networks.</p>
+</li>
+<li id="gruenbacher2021verification">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i13.17372">On the Verification of Neural ODEs with Stochastic Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2012.08863">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, Jacek Cyranka, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span><p class="digest-summary">Verifies Neural ODEs with Stochastic Lagrangian Reachability, which builds a tight Reachtube using global optimization and gives confidence intervals on its bounds, avoiding the wrapping effect; a forward-mode adjoint sensitivity method speeds up gradients, and convergence rates are established.</p>
+</li>
+<li id="cao2021provably">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i8.16849">Provably Secure Federated Learning against Malicious Clients</a> <span class="note">(<a href="https://arxiv.org/abs/2102.01854">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">Makes federated learning provably secure against malicious clients by training multiple global models on random client subsets and taking a majority vote, with a tight bound on tolerated malicious clients; it reaches 88% certified accuracy on MNIST with 20 of 1,000 clients malicious.</p>
+</li>
+<li id="henzinger2021scalable">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i5.16496">Scalable Verification of Quantized Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a></span><p class="digest-summary">Shows that bit-exact verification of quantized neural networks with bit-vector specifications is PSPACE-hard, and proposes three techniques to scale SMT-based verification of such networks, giving speed-ups of up to three orders of magnitude over existing approaches.</p>
+</li>
+<li id="wu2021tightening">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1609/aaai.v35i13.17388">Tightening Robustness Verification of Convolutional Neural Networks with Fine-Grained Linear Approximation</a>
+
+	<br><span class="authors"><a href="/researchers/yiting-wu/">Yiting Wu</a>, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary">DeepCert tightens robustness verification of convolutional networks with sigmoid-like activations through finer-grained linear approximations; on LeNet and MNIST/CIFAR models it improves the certified lower bound by up to 286.28% and runs up to 1566.76 times faster than other verifiers.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICSE 2021 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="baluta2021scalable">
+	<a class="tag-link" href="/conferences/icse/"><span class="tag accepted">ICSE 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/icse43902.2021.00039">Scalable Quantitative Verification For Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2002.06864">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/teodora-baluta/">Teodora Baluta</a>, Zheng Leong Chua, <a href="/researchers/kuldeep-s-meel/">Kuldeep S. Meel</a>, <a href="/researchers/prateek-saxena/">Prateek Saxena</a></span><p class="digest-summary">PROVERO, a quantitative verification framework for deep neural networks, runs tests until a probabilistic property is proven with formal guarantees, for deterministic or randomized DNNs; applied to adversarial robustness, it certifies large DNNs where existing verifiers are inconclusive, needing only black-box access.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2020-11/">&larr; November 2020</a>
+<a href="/digest/2020/">All of 2020</a><a href="/digest/2021-01/">January 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

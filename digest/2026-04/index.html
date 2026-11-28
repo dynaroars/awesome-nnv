@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2026 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2026-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2026">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2026-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2026</h1></header>
+<article>
+<p class="digest-intro">CAV 2026, ICML 2026, IJCAI 2026, ISSTA 2026 and RSS 2026 decisions: randomized smoothing and probabilistic certificates lead, including certified model ownership with CREDIT and Cert-LAS. Verification tooling grows toward theorem provers with Rocq-NN-Roll and VNN-LIB 2.0 in Agda, while transformers, segmentation networks and quantised networks get dedicated analyses; formal explanations cover Verified SHAP, Certified Circuits and GNN semifactuals.</p>
+<p>28 NNV papers accepted in April 2026, at CAV 2026, ICML 2026, IJCAI 2026, ISSTA 2026 and RSS 2026.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> ICML 2026 &middot; Seoul, South Korea <span class="note">13 / 5,632 ICML 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="anani2026certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://openreview.net/forum?id=IU0c9sP5b5">Certified Circuits: Stability Guarantees for Mechanistic Circuits</a> <span class="note">(<a href="https://arxiv.org/abs/2602.22968">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alaa-anani/">Alaa Anani</a>, <a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a href="/researchers/bernt-schiele/">Bernt Schiele</a>, <a href="/researchers/mario-fritz/">Mario Fritz</a>, Jonas Fischer</span><p class="digest-summary">Certified Circuits wrap any circuit discovery method with randomized data subsampling to certify that component inclusion is stable under bounded edits to the concept dataset; on ResNet, ViT and GPT-2, circuits reach up to 56% higher accuracy with up to 80% fewer components.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3407, HALL A &middot; Wed 8 Jul, 10:30–12:15 (Seoul time)</span></p>
+</li>
+<li id="boetius2026verified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://openreview.net/forum?id=48c42LVtLx">Verified SHAP: Provable Bounds for Exact Shapley Values of Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2605.24084">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/david-boetius/">David Boetius</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/stefan-leue/">Stefan Leue</a>, <a href="/researchers/tobias-sutter/">Tobias Sutter</a></span><p class="digest-summary">Uses neural network verification to compute arbitrarily tight lower and upper bounds on exact SHAP values of neural networks, eventually recovering the exact values, and scales to search spaces orders of magnitude larger than existing exact methods.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3316, HALL A &middot; Wed 8 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="zhou2026neural">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://openreview.net/forum?id=mJEVzcuDNF">Neural Vector Lyapunov–Razumikhin Certificates for Delayed Interconnected Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2604.00774">arXiv</a>)</span>
+
+	<br><span class="authors">Jingyuan Zhou, Yuexuan Wang, Kaidi Yang</span><p class="digest-summary">Learns and verifies neural vector Lyapunov–Razumikhin certificates for scalable input-to-state stability of discrete-time interconnected systems with communication delays; on mixed-autonomy platoons, drone formations and microgrids it verifies more efficiently with competitive control performance.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3105, HALL A &middot; Wed 8 Jul, 17:00–18:45 (Seoul time)</span></p>
+</li>
+<li id="qi2026cert">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=KmDPaiwdZh">Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2605.29809">arXiv</a>)</span>
+
+	<br><span class="authors">Leyi Qi, Yiming Li, Siyuan Liang, Zhengzhong Tu, Dacheng Tao</span><p class="digest-summary">Cert-LAS certifies ownership of text-to-image diffusion models by embedding watermarks with diffusion classifiers and layer-adaptive noise, then hypothesis-testing watermark responses against unwatermarked references; it is proven reliable under removal attacks under certain conditions and resists adaptive attacks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3101, HALL A &middot; Thu 9 Jul, 10:30–12:15 (Seoul time)</span></p>
+</li>
+<li id="yang2026semantic">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://openreview.net/forum?id=OXjToUQDz1">Semantic Robustness Certification for Vision-Language Models</a> <span class="note">(<a href="https://arxiv.org/abs/2606.18839">arXiv</a>)</span>
+
+	<br><span class="authors">Peiyu Yang, <a href="/researchers/paul-montague/">Paul Montague</a>, Feng Liu, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, Amar Kaur, Christopher Leckie, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a></span><p class="digest-summary">Certifies vision-language model predictions under semantic transformations such as shape, size and style, using text prompts as proxies and a closed-form decision boundary to certify ranges of transformation extent without extra data for each variation.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1507, HALL A &middot; Thu 9 Jul, 10:30–12:15 (Seoul time)</span></p>
+</li>
+<li id="shen2026credit">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://openreview.net/forum?id=DQKoxCegwH">CREDIT: Certified Ownership Verification of Deep Neural Networks Against Model Extraction Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2602.20419">arXiv</a>)</span>
+
+	<br><span class="authors">Bolin Shen, Zhan Cheng, <a href="/researchers/neil-gong/">Neil Gong</a>, Fan Yao, Yushun Dong</span><p class="digest-summary">CREDIT certifies ownership of DNNs against model extraction attacks by measuring model similarity with mutual information and setting a verification threshold backed by theoretical guarantees; evaluated on several mainstream datasets across domains and tasks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1009, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="delattre2026certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=nf7JT1jCSy">Certified Robustness under Heterogeneous Perturbations via Hybrid Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2605.12876">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/blaise-delattre/">Blaise Delattre</a>, Hengyu WU, Paul Caillon, Wei Yang Bryan Lim, YANG CAO</span><p class="digest-summary">Extends randomized smoothing to joint perturbations of discrete and continuous inputs via a Neyman–Pearson analysis, giving a closed-form one-dimensional certificate that generalizes both Gaussian and discrete smoothing; applied to multimodal text–image safety filtering.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1109, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="dhar2026does">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=Alelgxnwgs">Does a Hybrid Space-Aware Randomized Defense Improve Empirical and Certified Adversarial Robustness?</a>
+
+	<br><span class="authors">Joy Dhar, Manish Pandey, Behzad Bozorgtabar, Nayyar Zaidi, Wenyu Zhang, Weihong Li, Tingting Mu, Dwarikanath Mahapatra, Mahsa Baktashmotlagh, Trung Le, Chen Chen, Sajib Mistry, Camila Gonzalez, Samira Ebrahimi Kahou, Lina Yao, Piotr Koniusz, Robert Fisher, Dinh Phung, Bohyung Han, Nuno Vasconcelos, Pietro Lió</span><p class="digest-summary">HySCAN combines random weights and stochastic attention noise injection at training and inference to give ℓ2 certified guarantees and stronger empirical ℓ∞ robustness, improving certified robustness by up to about 9.6% and empirical robustness by up to about 5% without reducing clean accuracy.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1107, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="zargarbashi2026front">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=OfXpAituJ9">Front-Loaded Robust Conformal Prediction: Heavy Calibration, Minimal Test-Time Cost</a>
+
+	<br><span class="authors"><a href="/researchers/soroush-h-zargarbashi/">Soroush H. Zargarbashi</a>, <a href="/researchers/mohammad-sadegh-akhondzadeh/">Mohammad Sadegh Akhondzadeh</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary">Front-Loaded robust conformal prediction shifts randomized smoothing samples to calibration while using one or very few samples at test time, matching the test-time cost of existing methods while producing considerably smaller prediction sets at larger radii.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3002, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="zhang2026higher">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=u96qokgpPR">Higher-Order Certified Robustness for Regression</a> <span class="note">(<a href="https://arxiv.org/abs/2607.05536">arXiv</a>)</span>
+
+	<br><span class="authors">Jie Zhang, Natalie Frank</span><p class="digest-summary">Certifies regression models under randomized smoothing with a prediction-centered certificate built from means, variances and gradients of the smoothed model; on an MNIST rotation task, using gradient information gives significantly tighter certificates than α-smoothing.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1105, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="taheri2026probabilistic">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=itrFag3Z9v">Probabilistic Robustness Certificates against Adversarial Attacks</a>
+
+	<br><span class="authors">Sara Taheri, Majid Zamani</span><p class="digest-summary">Models stochastic gradient training as a dynamical system and uses neural barrier certificates with PAC guarantees from a scenario convex program to probabilistically certify the largest robust ℓp radius; model-agnostic and evaluated on MNIST, SVHN and CIFAR-10.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #1001, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="kaulen2026rethinking">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://openreview.net/forum?id=XoaS2r1ezP">Rethinking Evaluation Paradigms in IBP-based Certified Training</a> <span class="note">(<a href="https://arxiv.org/abs/2606.02134">arXiv</a>)</span>
+
+	<br><span class="authors">Konstantin Kaulen, Hadar Shavit, Holger Hoos</span><p class="digest-summary">Re-evaluates IBP-based certified training by comparing Pareto fronts of natural versus certified accuracy found with automated multi-objective hyperparameter tuning, exposing undertuned prior configurations, setting new best results and showing earlier advances were smaller than assumed.</p><p class="digest-where"><span><img class="flag" src="/img/flags/kr.svg" alt="South Korea" title="South Korea" width="16" height="12" loading="lazy"> <b>Seoul</b> &middot; Poster #3003, HALL A &middot; Thu 9 Jul, 14:30–16:15 (Seoul time)</span></p>
+</li>
+<li id="gosch2026certifying">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://openreview.net/forum?id=kQuvO5gaNr">Certifying Graph Neural Networks Against Label and Structure Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2611.03350">arXiv</a>)</span>
+
+	<br><span class="authors">Lukas Gosch, Xichuan Chen, <a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">ST-GPA certifies graph neural networks against node-label and graph-structure poisoning by enriching graph partitions with pseudo-labels and synthetic edges in a partition-and-aggregate scheme, significantly improving certificates across benchmarks while keeping strong clean accuracy.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IJCAI 2026 <span class="note">7 papers</span></h2>
+<ul class="papers digest"><li id="splittgerber2026exlipbab">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/85">ExLipBaB: Exact Lipschitz Constant Computation for Piecewise Linear Neural Networks</a>
+
+	<br><span class="authors">Tom A. Splittgerber</span><p class="digest-summary">ExLipBaB generalizes the LipBaB algorithm to compute exact Lipschitz constants of arbitrary continuous piecewise linear networks under p-norms, covering ReLU, LeakyReLU, GroupSort, MaxMin, FullSort and MaxPool, for uses such as benchmarking approximations and robustness guarantees for small models.</p>
+</li>
+<li id="gimelli2026leveraging">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/66">Leveraging Over-Parameterization to Improve the Verifiability of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/andrea-gimelli/">Andrea Gimelli</a>, <a href="/researchers/luca-oneto/">Luca Oneto</a>, <a href="/researchers/armando-tacchella/">Armando Tacchella</a></span><p class="digest-summary">Shows that over-parameterization can reduce neuron instability, a key factor in verification cost, so wider networks can become easier to verify; experiments suggest it may help reconcile the long-standing trade-off between generalization and verifiability of neural networks.</p>
+</li>
+<li id="davis2026lookahead">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/59">Lookahead Branching for Neural Network Verification</a>
+
+	<br><span class="authors">Liam Davis, <a href="/researchers/duo-zhou/">Duo Zhou</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a>, <a href="/researchers/haoze-wu/">Haoze Wu</a></span><p class="digest-summary">Adds lookahead branching to branch-and-bound neural network verifiers, framing the FSB heuristic as a special case and deriving extra lemmas that speed up search; implemented in Marabou and α-β-CROWN, it gives consistent speedups and up to 57% more solved instances.</p>
+</li>
+<li id="marzari2026probabilisticb">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/30">Probabilistic Verification of Recurrent Neural Networks for Single and Multi-Agent Reinforcement Learning</a>
+
+	<br><span class="authors"><a href="/researchers/luca-marzari/">Luca Marzari</a>, Enrico Marchesini</span><p class="digest-summary">RNN-ProVe estimates the probability of undesired behavior in recurrent RL policies by sampling the hidden states feasible under the trained policy and attaching statistical error bounds, giving high-confidence guarantees in partially observable single-agent and cooperative multi-agent tasks.</p>
+</li>
+<li id="alfano2026semifactual">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/459">Semifactual Explanations for GNN-based Classification: Formal Foundations, Complexity and Computation</a>
+
+	<br><span class="authors">Gianvincenzo Alfano, Sergio Greco, Domenico Mandaglio, Francesco Parisi, Reza Shahbazian, Irina Trubitsyna</span><p class="digest-summary">Studies semifactual explanations for GNN classifiers, the maximal subgraph perturbations that leave a prediction unchanged; analyzes the computational complexity of related reasoning and optimization problems and proposes a learning architecture that computes high-quality semifactuals.</p>
+</li>
+<li id="jiang2026synthesis">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/434">Synthesis and Verification of Transformer Programs</a>
+
+	<br><span class="authors">Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony W. Lin</span><p class="digest-summary">Verifies C-RASP transformer programs by reducing them to Lustre synchronous dataflow programs checked with SMT-based model checkers, and learns C-RASPs from examples via local search; demonstrated on transformer program minimization and constrained learning from partial specifications.</p>
+</li>
+<li id="alsmann2026complexity">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2026/460">The Complexity of Verifying Feedforward Neural Networks in Quantised Settings</a>
+
+	<br><span class="authors"><a href="/researchers/eric-alsmann/">Eric Alsmann</a>, <a href="/researchers/martin-lange/">Martin Lange</a>, <a href="/researchers/marco-salzer/">Marco Sälzer</a></span><p class="digest-summary">Maps the complexity of verifying feedforward networks with rational, quantised and dynamically quantised weights under linear-programming and bit-vector specifications: fixed-precision quantised verification is NP-complete for both, and upper bounds are given for dynamically quantised networks with bit-vector specifications.</p>
+</li>
+</ul>
+<h2 class="digest-venue">CAV 2026 <span class="note">6 papers</span></h2>
+<ul class="papers digest"><li id="liu2026atkverifier">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32526-6_24">ATKVerifier: Adaptive Top-K Constraints for Tighter Verification of Semantic Segmentation Networks</a>
+
+	<br><span class="authors"><a href="/researchers/yuehao-liu/">Yuehao Liu</a>, <a href="/researchers/cong-tian/">Cong Tian</a>, <a href="/researchers/yansong-dong/">Yansong Dong</a>, <a href="/researchers/liang-zhao/">Liang Zhao</a>, <a href="/researchers/chao-huang/">Chao Huang</a>, <a href="/researchers/wensheng-wang/">Wensheng Wang</a></span><p class="digest-summary">Verifies semantic segmentation networks with a constrained-star abstract domain that adds adaptive top-K lower bounds and affine upper bounds for MaxPool; on M2NIST it improves robust IoU by 8-25% over the ImageStar-based NNV baseline and certifies 35.2% more complete objects on a 24-layer network.</p>
+</li>
+<li id="ladner2026perception">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32537-2_23">Perception with Guarantees: Certified Pose Estimation via Reachability Analysis</a>
+
+	<br><span class="authors"><a href="/researchers/tobias-ladner/">Tobias Ladner</a>, <a href="/researchers/yasser-shoukry/">Yasser Shoukry</a>, <a href="/researchers/matthias-althoff/">Matthias Althoff</a></span><p class="digest-summary">Certifies 3D pose estimation from a single camera image and a known target geometry by formally bounding the pose with reachability analysis and neural network verification; experiments show efficient, accurate localization in both synthetic and real-world settings.</p>
+</li>
+<li id="liu2026precise">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32526-6_25">Precise Verification of Transformers Through ReLU-Catalyzed Abstraction Refinement</a> <span class="note">(<a href="https://arxiv.org/abs/2605.14294">arXiv</a>)</span>
+
+	<br><span class="authors">Hengjie Liu, <a href="/researchers/zhenya-zhang/">Zhenya Zhang</a>, <a href="/researchers/jianjun-zhao/">Jianjun Zhao</a></span><p class="digest-summary">Verifies transformers more precisely by expressing self-attention dot products as ReLU-based non-linear bounds, then reusing ReLU convex relaxations in rule-based and optimization-based frameworks; on sentiment-analysis robustness properties it improves precision over the baseline at an acceptable efficiency cost.</p>
+</li>
+<li id="wang2026qav">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32526-6_22">QAV-FT: Quadratic Approximation-Based Neural Network Verification via Fourier Series and Taylor Truncation</a>
+
+	<br><span class="authors">Han Wang, Xuyang Ding, Ying Xie, Yakun Sheng</span><p class="digest-summary">QAV-FT verifies networks with high-frequency activations such as Swish, GELU and Mish using Fourier-based quadratic abstractions and second-order propagation with Taylor remainder error control, reaching an average certification accuracy of 96.8% on MNIST-FC and other benchmarks.</p>
+</li>
+<li id="aleksandrov2026rocq">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32526-6_23">The Rocq-NN-Roll Prover: Soundly Verifying Hyperproperties of Neural Networks in Rocq</a>
+
+	<br><span class="authors">Andrei Aleksandrov, Malte Jackisch, Kim Völlinger</span><p class="digest-summary">Rocq-NN-Roll is a formally verified prover, built in Rocq, for rational-valued piecewise-affine neural networks that checks properties including hyperproperties by reducing them to linear inequalities over polyhedral regions, giving the first automated network proof support in an interactive theorem prover.</p>
+</li>
+<li id="roy2026vnn">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-32526-6_21">VNN-LIB 2.0: Rigorous Foundations for Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/ann-roy/">Ann Roy</a>, <a href="/researchers/allen-antony/">Allen Antony</a>, <a href="/researchers/andrea-gimelli/">Andrea Gimelli</a>, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a></span><p class="digest-summary">Gives VNN-LIB 2.0 formal foundations: a network theory that abstracts the semantics needed from model formats such as ONNX, plus a more expressive query language with formal syntax, type system and semantics, all mechanised in the Agda theorem prover.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ISSTA 2026 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="yang2026arq">
+	<a class="tag-link" href="/conferences/issta/"><span class="tag accepted">ISSTA 2026</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://conf.researchr.org/track/issta-2026/issta-2026-research-papers">ARQ: A Mixed-Precision Quantization Framework for Accurate and Certifiably Robust DNNs</a>
+
+	<br><span class="authors">Yuchen Yang, Yifan Zhao, <a href="/researchers/shubham-ugare/">Shubham Ugare</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a></span><p class="digest-summary">ARQ searches mixed-precision quantizations of DNNs with reinforcement learning while keeping the clean accuracy and certified robustness of randomized-smoothing classifiers; quantized networks match floating-point models using only 1.5% of instructions and reach the highest certified radius.</p>
+</li>
+</ul>
+<h2 class="digest-venue">RSS 2026 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="shen2026parallel">
+	<a class="tag-link" href="/conferences/rss/"><span class="tag accepted">RSS 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://www.roboticsproceedings.org/rss22/p191.html">Parallel Differentiable Reachability for Learning and Planning with Certified Neural Dynamics and Controllers</a>
+
+	<br><span class="authors">Keyi Shen, Glen Chou</span><p class="digest-summary">A parallel, differentiable reachability framework in JAX combines Taylor-model flowpipes with CROWN-style bound propagation for closed-loop neural dynamics and controllers, enabling certified training and reachability-aware MPC; demonstrated on manipulation and quadrotor tasks up to 72 dimensions, including hardware.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2026-03/">&larr; March 2026</a>
+<a href="/digest/2026/">All of 2026</a><a href="/digest/2026-05/">May 2026 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

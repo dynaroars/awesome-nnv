@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2022</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2022 decisions: randomized smoothing leads, extended to graph neural networks, multi-label and few-shot models and model invariances. Lipschitz networks and certified training follow with LOT and CRT, while complete verification advances through GCP-CROWN cutting planes and VPN for polynomial networks. Control work adds neural abstractions, neural Lyapunov control and stochastic barrier functions, alongside certified defenses against data poisoning such as BagFlip.</p>
+<p>28 NNV papers accepted in September 2022, at NeurIPS 2022.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> NeurIPS 2022 &middot; New Orleans, United States <span class="note">28 / 2,489 NeurIPS 2022 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="jin2022certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JinYZ22">Certifying Robust Graph Classification under Orthogonal Gromov-Wasserstein Threats</a>
+
+	<br><span class="authors"><a href="/researchers/hongwei-jin/">Hongwei Jin</a>, Zishun Yu, <a href="/researchers/xinhua-zhang/">Xinhua Zhang</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #910 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="zhang2022general">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangWXLLJHK22">General Cutting Planes for Bound-Propagation-Based Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/suman-jana/">Suman Jana</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">GCP-CROWN extends bound propagation in branch-and-bound neural network verification to arbitrary cutting planes, using cuts from MIP solvers on CPU alongside GPU bounding; first to fully solve oval20 and verifies twice as many oval21 instances as the best VNN-COMP 2021 tool.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #619 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="singla2022improvedb">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/0002F22">Improved techniques for deterministic l2 robustness</a>
+
+	<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Improves deterministic l2 certified robustness of 1-Lipschitz CNNs by replacing the last linear layer with a 1-hidden-layer MLP, faster Skew Orthogonal Convolution training and new pooling layers; provable robust accuracy rises 3.82% on CIFAR-10 and 4.75% on CIFAR-100.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #641 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="abate2022neural">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/AbateEG22">Neural Abstractions</a>
+
+	<br><span class="authors">Alessandro Abate, Alec Edwards, <a href="/researchers/mirco-giacobbe/">Mirco Giacobbe</a></span><p class="digest-summary">Safety verification of nonlinear dynamical models using neural networks as formal abstractions: CEGIS synthesises ReLU neural ODEs with certified error bounds, verified as affine hybrid automata in SpaceEx; performs comparably to Flow* and handles non-Lipschitz models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #833 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="meinke2022provably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MeinkeB022">Provably Adversarially Robust Detection of Out-of-Distribution Data (Almost) for Free</a>
+
+	<br><span class="authors"><a href="/researchers/alexander-meinke/">Alexander Meinke</a>, <a href="/researchers/julian-bitterwolf/">Julian Bitterwolf</a>, <a href="/researchers/matthias-hein/">Matthias Hein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #417 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="scholten2022randomized">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ScholtenSGBG22">Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2301.02039">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, Simon Geisler, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Gray-box randomized smoothing certificates for graph neural networks that randomly intercept messages and analyse whether adversarial nodes reach targets, certifying robustness against adversaries controlling entire nodes; graph sparsification further improves certifiable robustness.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #205 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="mazouz2022safety">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MazouzMRLL22">Safety Guarantees for Neural Network Dynamic Systems via Stochastic Barrier Functions</a>
+
+	<br><span class="authors">Rayan Mazouz, Karan Muvvala, Akash Ratheesh, <a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/morteza-lahijanian/">Morteza Lahijanian</a></span><p class="digest-summary">Safety guarantees for neural network dynamic models via stochastic barrier functions synthesised by sum-of-squares optimisation over piecewise-linear NN bounds, giving a lower bound on safety probability, plus linear-programming control synthesis; scales to multi-layer models with hundreds of neurons per layer.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #403 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="liang2022toward">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiangX00022">Toward Robust Spiking Neural Network Against Adversarial Perturbation</a>
+
+	<br><span class="authors"><a href="/researchers/ling-liang/">Ling Liang</a>, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/xing-hu/">Xing Hu</a>, Lei Deng, Yuan Xie</span><p class="digest-summary">Certified robust training for spiking neural networks with S-IBP and S-CROWN, bound propagation methods handling spiking neuron nonlinearities, with bounds for digital and spike inputs; reduces attack error by up to 37.7% at 3.7% accuracy loss.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #603 &middot; Tue 29 Nov, 11:00–13:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Wed 7 Dec, 19:00–21:00 (New Orleans time)</span></p>
+</li>
+<li id="vaishnavi2022accelerating">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/VaishnaviER22">Accelerating Certified Robustness Training via Knowledge Transfer</a>
+
+	<br><span class="authors">Pratik Vaishnavi, <a href="/researchers/kevin-eykholt/">Kevin Eykholt</a>, Amir Rahmati</span><p class="digest-summary">Certified Robustness Transfer (CRT) cuts the cost of certified training by transferring robustness from a robust teacher to a student through a new loss; on CIFAR-10 it speeds training by 8x on average with comparable robustness, and scales to ImageNet.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #205 &middot; Tue 29 Nov, 16:00–18:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Thu 8 Dec, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="cullen2022double">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/CullenMLER22">Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity</a>
+
+	<br><span class="authors"><a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Improves randomized-smoothing l2 certificates by exploiting transitivity of certifications and input-space geometry, called Geometrically-Informed Certified Robustness; certifications improve for more than 80% of Tiny-Imagenet instances, by 5% on average.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #731 &middot; Tue 29 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="zhou2022neural">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhouQSL22">Neural Lyapunov Control of Unknown Nonlinear Systems with Stability Guarantees</a>
+
+	<br><span class="authors"><a href="/researchers/ruikun-zhou/">Ruikun Zhou</a>, Thanin Quartz, Hans De Sterck, <a href="/researchers/jun-liu/">Jun Liu</a></span><p class="digest-summary">Learns a neural controller for unknown nonlinear systems together with a neural Lyapunov function certifying a region of attraction, using one network to learn dynamics, another for the controller and Lyapunov function, and an SMT solver to verify Lyapunov conditions.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #814 &middot; Tue 29 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="bethune2022pay">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BethuneBSMFG22">Pay attention to your loss : understanding misconceptions about Lipschitz neural networks</a>
+
+	<br><span class="authors"><a href="/researchers/louis-bethune/">Louis Béthune</a>, <a href="/researchers/thibaut-boissin/">Thibaut Boissin</a>, <a href="/researchers/mathieu-serrurier/">Mathieu Serrurier</a>, <a href="/researchers/franck-mamalet/">Franck Mamalet</a>, <a href="/researchers/corentin-friedrich/">Corentin Friedrich</a>, <a href="/researchers/alberto-gonzalez-sanz/">Alberto González-Sanz</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #331 &middot; Tue 29 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="rocamora2022sound">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Abad-RocamoraS022">Sound and Complete Verification of Polynomial Networks</a>
+
+	<br><span class="authors"><a href="/researchers/elias-abad-rocamora/">Elías Abad-Rocamora</a>, Mehmet Fatih Sahin, Fanghui Liu, <a href="/researchers/grigorios-chrysos/">Grigorios Chrysos</a>, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span><p class="digest-summary">VPN is a sound and complete verifier for polynomial networks that pairs a new bounding method with branch and bound, producing much tighter bounds than IBP and DeepT-Fast; validated on MNIST, CIFAR10 and STL10.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #438 &middot; Tue 29 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="wang2022quantitative">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/WangPJ22">A Quantitative Geometric Approach to Neural-Network Smoothness</a>
+
+	<br><span class="authors"><a href="/researchers/zi-wang/">Zi Wang</a>, <a href="/researchers/gautam-prakriya/">Gautam Prakriya</a>, <a href="/researchers/somesh-jha/">Somesh Jha</a></span><p class="digest-summary">Quantitative geometric framework for Lipschitz constant estimation of neural networks, yielding hardness and approximability results and SDP-based algorithms in the tool GeoLIP, which is more scalable and precise than existing tools for l-infinity perturbations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #413 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="liu2022copur">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiuXK022">CoPur: Certifiably Robust Collaborative Inference via Feature Purification</a>
+
+	<br><span class="authors">Jing Liu, <a href="/researchers/chulin-xie/">Chulin Xie</a>, <a href="/researchers/sanmi-koyejo/">Sanmi Koyejo</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #425 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Tue 6 Dec, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="shi2022efficiently">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ShiW0KH22">Efficiently Computing Local Lipschitz Constants of Neural Networks via Bound Propagation</a>
+
+	<br><span class="authors"><a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Computes l-infinity local Lipschitz constants of neural networks by linear bound propagation over a backward graph of the Clarke Jacobian, with tight relaxations and branch-and-bound; yields tighter bounds than relaxed methods and scales to larger models, with monotonicity analysis applications.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #804 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="xu2022lot">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/XuL022">LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/xiaojun-xu/">Xiaojun Xu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">LOT trains 1-Lipschitz convolution layers by parametrising orthogonal matrices and computing inverse square roots in the Fourier domain, with semi-supervised learning; raises deterministic l2 certified robustness, e.g. from 59.04% to 63.50% on CIFAR-10 at radius 36/255.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #233 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Thu 8 Dec, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="bharti2022provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BhartiZSZ22">Provable Defense against Backdoor Policies in Reinforcement Learning</a>
+
+	<br><span class="authors">Shubham Kumar Bharti, Xuezhou Zhang, Adish Singla, Jerry Zhu</span><p class="digest-summary">Provable defense against backdoor policies in reinforcement learning that sanitises the policy by projecting observed states onto a safe subspace estimated from few clean interactions, achieving epsilon-approximate optimality under triggers with bounded sample needs; tested on two Atari games.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #940 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="zhang2022rethinking">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangJH022">Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective</a>
+
+	<br><span class="authors"><a href="/researchers/bohang-zhang/">Bohang Zhang</a>, <a href="/researchers/du-jiang/">Du Jiang</a>, <a href="/researchers/di-he/">Di He</a>, <a href="/researchers/liwei-wang/">Liwei Wang</a></span><p class="digest-summary">Studies certified l-infinity robustness of Lipschitz networks through Boolean function representation, proving impossibility results for standard Lipschitz networks and explaining how order statistics bypass them; a unified Lipschitz network gives better certified robustness across datasets and radii.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #923 &middot; Wed 30 Nov, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="kang2022certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/KangLWL0022">Certifying Some Distributional Fairness with Subpopulation Decomposition</a>
+
+	<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/maurice-weber/">Maurice Weber</a>, Yang Liu, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Certifies distributional fairness of ML models by bounding performance loss on fairness-constrained distributions near the training distribution, decomposing data into analytical subpopulations with convex subproblems; tight under sensitive shifting and non-trivial under general shifting on six datasets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #938 &middot; Wed 30 Nov, 16:00–18:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Tue 6 Dec, 19:00–21:00 (New Orleans time)</span></p>
+</li>
+<li id="schuchardt2022invariance">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SchuchardtG22">Invariance-Aware Randomized Smoothing Certificates</a>
+
+	<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Gray-box randomized smoothing certificates that exploit model invariances such as permutation and Euclidean isometries, using group orbits plus provably tight certificates; tight certificates give much stronger guarantees, while the orbit-based method is a good practical approximation.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #417 &middot; Wed 30 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="melcer2022shield">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MelcerAT22">Shield Decentralization for Safe Multi-Agent Reinforcement Learning</a>
+
+	<br><span class="authors">Daniel Melcer, Christopher Amato, Stavros Tripakis</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #613 &middot; Wed 30 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="jordan2022zonotope">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JordanHDO22">Zonotope Domains for Lagrangian Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/matt-jordan/">Matt Jordan</a>, Jonathan Hayase, <a href="/researchers/alex-dimakis/">Alex Dimakis</a>, Sewoong Oh</span><p class="digest-summary">Neural network verification that uses zonotopes within a Lagrangian decomposition, splitting a deep network into many 2-layer subproblems solved by efficient relaxations and dual ascent; bounds beat linear programming and Lagrangian-based methods in both time and tightness.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #723 &middot; Wed 30 Nov, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="zhang2022bagflip">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangAD22">BagFlip: A Certified Defense Against Data Poisoning</a>
+
+	<br><span class="authors"><a href="/researchers/yuhao-zhang/">Yuhao Zhang</a>, <a href="/researchers/aws-albarghouthi/">Aws Albarghouthi</a>, <a href="/researchers/loris-d-antoni/">Loris D&#39;Antoni</a></span><p class="digest-summary">BagFlip is a model-agnostic certified defense against data poisoning that handles both trigger-less and backdoor attacks; on image classification and malware detection it matches or beats prior approaches for trigger-less attacks and beats them for backdoor attacks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #1037 &middot; Thu 1 Dec, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="wang2022lethal">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/00020F22">Lethal Dose Conjecture on Data Poisoning</a>
+
+	<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Lethal Dose Conjecture: if n clean samples suffice for accurate prediction, only Theta(N/n) poisoned samples out of N can be tolerated; implies DPA and FA defenses are asymptotically optimal, and data augmentation doubles or triples DPA certified robustness on CIFAR-10 and GTSRB.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #712 &middot; Thu 1 Dec, 11:00–13:00 (New Orleans time)</span></p>
+</li>
+<li id="jia2022multiguard">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Jia0G22">MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples</a>
+
+	<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, Wenjie Qu, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">MultiGuard certifies multi-label classifiers against l2-bounded adversarial perturbations by randomized smoothing with isotropic Gaussian noise, proving a number of ground-truth labels provably stay in the predicted set; evaluated on VOC 2007, MS-COCO and NUS-WIDE.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #923 &middot; Thu 1 Dec, 11:00–13:00 (New Orleans time)</span><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Spotlight talk &middot; Thu 8 Dec, 19:00–21:00 (New Orleans time)</span></p>
+</li>
+<li id="yang2022improving">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/YangZWZLPKLGZL22">Improving Certified Robustness via Statistical Learning with Logical Reasoning</a>
+
+	<br><span class="authors"><a href="/researchers/zhuolin-yang/">Zhuolin Yang</a>, <a href="/researchers/zhikuan-zhao/">Zhikuan Zhao</a>, <a href="/researchers/boxin-wang/">Boxin Wang</a>, <a href="/researchers/jiawei-zhang/">Jiawei Zhang</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/hengzhi-pei/">Hengzhi Pei</a>, <a href="/researchers/bojan-karlas/">Bojan Karlas</a>, Ji Liu, Heng Guo, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Improves certified robustness by combining statistical ML models with logical rules through Markov logic networks; proves certifying MLN robustness is #P-hard, derives the first certified bound for MLN, and outperforms prior methods on five image and text datasets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #438 &middot; Thu 1 Dec, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+<li id="pautov2022smoothed">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/PautovKTPO22">Smoothed Embeddings for Certified Few-Shot Learning</a>
+
+	<br><span class="authors"><a href="/researchers/mikhail-pautov/">Mikhail Pautov</a>, Olesya Kuznetsova, <a href="/researchers/nurislam-tursynbek/">Nurislam Tursynbek</a>, <a href="/researchers/aleksandr-petiushko/">Aleksandr Petiushko</a>, <a href="/researchers/ivan-v-oseledets/">Ivan V. Oseledets</a></span><p class="digest-summary">Extends randomized smoothing to few-shot learning models that map inputs to normalised embeddings, analysing their Lipschitz continuity to derive robustness certificates against l2-bounded perturbations; the theory is confirmed by experiments on several datasets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>New Orleans</b> &middot; Poster #417 &middot; Thu 1 Dec, 16:00–18:00 (New Orleans time)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-07/">&larr; July 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-10/">October 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

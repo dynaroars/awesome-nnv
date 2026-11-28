@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2020 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2020-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2020">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2020-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2020</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2020 decisions: randomized smoothing is prominent, from denoised smoothing for pretrained classifiers to patch, confidence and higher-order certificates. Bound propagation advances with auto_LiRPA, tightened single-neuron relaxations and memory-efficient SDP, alongside exact local Lipschitz computation. Certified monotonicity, including COMET, graph convolution networks, binarized neural networks with EEV and Revel&#39;s verified reinforcement-learning exploration broaden the scope.</p>
+<p>25 NNV papers accepted in September 2020, at NeurIPS 2020.</p>
+<h2 class="digest-venue">NeurIPS 2020 &middot; Virtual <span class="note">25 / 1,899 NeurIPS 2020 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="levine2020de">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/0001F20a">(De)Randomized Smoothing for Certifiable Defense against Patch Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2002.10733">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Certifies image classifiers against adversarial patches with a de-randomized smoothing scheme that yields deterministic certificates and trains faster than interval-bound methods; for 5x5 patches on CIFAR-10 it reaches about 57.6% certified accuracy versus at most 30.3% before, and scales to ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="fischer2020certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/FischerBV20">Certified Defense to Image Transformations via Randomized Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="curry2020certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/CurryCG020">Certifying Strategyproof Auction Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2006.08742">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/michael-j-curry/">Michael J. Curry</a>, <a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a>, <a href="/researchers/john-dickerson/">John Dickerson</a></span><p class="digest-summary">Verifies strategyproofness of RegretNet learned auction mechanisms under a given valuation profile with neural network verification techniques, modifying the architecture so it can be encoded exactly as an integer program, and produces certificates even where optimal mechanisms are unknown.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="sivaraman2020counterexample">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SivaramanFMB20">Counterexample-Guided Learning of Monotonic Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2006.08852">arXiv</a>)</span>
+
+	<br><span class="authors">Aishwarya Sivaraman, Golnoosh Farnadi, Todd D. Millstein, <a href="/researchers/guy-van-den-broeck/">Guy Van den Broeck</a></span><p class="digest-summary">COMET provably enforces monotonicity constraints on general ReLU networks at prediction time through counterexample-guided techniques, and uses monotonicity counterexamples as an inductive bias during training; on real-world datasets it outperforms existing monotonic learners.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="salman2020denoised">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/SalmanSYKK20">Denoised Smoothing: A Provable Defense for Pretrained Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2003.01908">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hadi-salman/">Hadi Salman</a>, <a href="/researchers/mingjie-sun/">Mingjie Sun</a>, <a href="/researchers/greg-yang/">Greg Yang</a>, Ashish Kapoor, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Denoised smoothing makes any pretrained image classifier provably ℓp-robust by prepending a custom-trained denoiser and applying randomized smoothing, without modifying the classifier, in white-box and black-box settings; demonstrated on ImageNet, CIFAR-10 and the Azure, Google, AWS and ClarifAI APIs.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="dathathri2020enabling">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/DathathriDKRUBS20">Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming</a> <span class="note">(<a href="https://arxiv.org/abs/2010.11645">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/sumanth-dathathri/">Sumanth Dathathri</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Alexey Kurakin, <a href="/researchers/aditi-raghunathan/">Aditi Raghunathan</a>, <a href="/researchers/jonathan-uesato/">Jonathan Uesato</a>, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, Shreya Shankar, <a href="/researchers/jacob-steinhardt/">Jacob Steinhardt</a>, Ian J. Goodfellow, <a href="/researchers/percy-liang/">Percy Liang</a>, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span><p class="digest-summary">A first-order dual SDP algorithm with memory linear in network activations, using iterative eigenvector methods via forward/backward passes on GPUs/TPUs, verifies networks not trained for verification; verified ℓ∞ accuracy rises from 1% to 88% on MNIST and 6% to 40% on CIFAR-10.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="jordan2020exactly">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JordanD20">Exactly Computing the Local Lipschitz Constant of ReLU Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2003.01219">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/matt-jordan/">Matt Jordan</a>, <a href="/researchers/alex-dimakis/">Alex Dimakis</a></span><p class="digest-summary">Relates the local Lipschitz constant of nonsmooth functions to the generalized Jacobian, proves strong inapproximability for ReLU networks, and gives an algorithm computing the local Lipschitz constant exactly, used to assess the tightness of other Lipschitz estimators and the effects of regularized training.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="mohapatra2020higher">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MohapatraKWC0D20">Higher-Order Certification For Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2010.06651">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jeet-mohapatra/">Jeet Mohapatra</a>, <a href="/researchers/ching-yun-ko/">Ching-Yun Ko</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary">Extends randomized smoothing certification by framing radius computation as nested optimization and using first-order and higher-order information of Gaussian-smoothed classifiers, certifying larger safety regions with gains on ℓ1 radii and color-space ℓ2 radii on CIFAR10 and ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="anderson2020neurosymbolic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/AndersonVDC20">Neurosymbolic Reinforcement Learning with Formally Verified Exploration</a> <span class="note">(<a href="https://arxiv.org/abs/2009.12612">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/greg-anderson/">Greg Anderson</a>, <a href="/researchers/abhinav-verma/">Abhinav Verma</a>, <a href="/researchers/isil-dillig/">Isil Dillig</a>, <a href="/researchers/swarat-chaudhuri/">Swarat Chaudhuri</a></span><p class="digest-summary">Revel enables provably safe exploration in reinforcement learning by mirror descent between a neurosymbolic policy class and a verifiable symbolic class, avoiding repeated verification of neural networks; it enforces safe exploration where Constrained Policy Optimization fails and finds better policies.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="tjandraatmadja2020convex">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TjandraatmadjaA20">The Convex Relaxation Barrier, Revisited: Tightened Single-Neuron Relaxations for Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2006.14076">arXiv</a>)</span>
+
+	<br><span class="authors">Christian Tjandraatmadja, Ross Anderson, Joey Huchette, Will Ma, Krunal Patel, Juan Pablo Vielma</span><p class="digest-summary">Derives the tightest convex relaxation of a ReLU over a box-bounded multivariate pre-activation input, separable in linear time, and builds LP-based and fast propagation verifiers on it that verify significantly more instances for a modest extra cost.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 8 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="zhang2020black">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangYGZ020">Black-Box Certification with Randomized Smoothing: A Functional Optimization Based Framework</a> <span class="note">(<a href="https://arxiv.org/abs/2002.09169">arXiv</a>)</span>
+
+	<br><span class="authors">Dinghuai Zhang, <a href="/researchers/mao-ye/">Mao Ye</a>, <a href="/researchers/chengyue-gong/">Chengyue Gong</a>, Zhanxing Zhu, <a href="/researchers/qiang-liu/">Qiang Liu</a></span><p class="digest-summary">Casts randomized smoothing certification as functional optimization, allowing non-Gaussian smoothing distributions and attacks beyond ℓ2, including ℓ1 and ℓ∞; the framework exposes an accuracy-robustness trade-off, and its new distributions certify better than previous works.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="liu2020certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiuHZ020">Certified Monotonic Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2011.10219">arXiv</a>)</span>
+
+	<br><span class="authors">Xingchao Liu, Xing Han, Na Zhang, <a href="/researchers/qiang-liu/">Qiang Liu</a></span><p class="digest-summary">Certifies monotonicity of general piecewise-linear neural networks with respect to chosen features by solving a mixed integer linear program, enabling training with increasing monotonicity regularization until certified; it is more accurate and efficient than methods like Deep Lattice Networks.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="jeong2020consistency">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JeongS20">Consistency Regularization for Certified Robustness of Smoothed Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2006.04062">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jongheon-jeong/">Jongheon Jeong</a>, <a href="/researchers/jinwoo-shin/">Jinwoo Shin</a></span><p class="digest-summary">Improves certified ℓ2 robustness of randomized-smoothing classifiers by regularizing prediction consistency over Gaussian noise during training, giving results better than or comparable to prior methods across architectures and datasets with less training cost and fewer hyperparameters.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="jia2020efficient">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JiaR20">Efficient Exact Verification of Binarized Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2005.03597">arXiv</a>)</span>
+
+	<br><span class="authors">Kai Jia, Martin C. Rinard</span><p class="digest-summary">EEV performs exact verification of binarized neural networks with a SAT solver that natively handles reified cardinality constraints, plus training for solver-friendly BNNs; it gives exact ℓ∞ robustness results on convolutional BNNs for MNIST and CIFAR10, hundreds to thousands of times faster than real-valued verification.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="lee2020lipschitz">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Lee0P20">Lipschitz-Certifiable Training with a Tight Outer Bound</a>
+
+	<br><span class="authors"><a href="/researchers/sungyoon-lee/">Sungyoon Lee</a>, <a href="/researchers/jaewook-lee/">Jaewook Lee</a>, Saerom Park</span><p class="digest-summary">Speeds up certifiable training with box constraint propagation (BCP), combining Lipschitz analysis and interval arithmetic for a tighter outer bound; it trains over 12 times faster than a dual relaxation method with comparable verification and reaches 20.1% verified accuracy on Tiny ImageNet (ℓ2, 36/255).</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 05:00–07:00 (UTC)</span></p>
+</li>
+<li id="bunel2020efficient">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BunelHBD20">An efficient nonconvex reformulation of stagewise convex optimization problems</a> <span class="note">(<a href="https://arxiv.org/abs/2010.14322">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/rudy-bunel/">Rudy Bunel</a>, Oliver Hinder, Srinadh Bhojanapalli, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a></span><p class="digest-summary">Reformulates stagewise convex problems, including neural network verification, as nonconvex problems with simple bound constraints solved by a modified projected gradient method that reaches the global optimum; it yields small duality gaps quickly and outpaces off-the-shelf and specialized verification solvers.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="ruoss2020learning">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/RuossBFV20">Learning Certified Individually Fair Representations</a>
+
+	<br><span class="authors"><a href="/researchers/anian-ruoss/">Anian Ruoss</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Learns representations certified for individual fairness: similar individuals are mapped within a certified ℓ∞ distance in latent space, so data consumers can certify fairness by proving ε-robustness of their classifier; evaluated on five real-world datasets with several fairness constraints.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 9 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="xu2020automatic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/XuS0WCHKLH20">Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond</a> <span class="note">(<a href="https://arxiv.org/abs/2002.12920">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/kai-wei-chang/">Kai-Wei Chang</a>, <a href="/researchers/minlie-huang/">Minlie Huang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a href="/researchers/xue-lin/">Xue Lin</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Generalizes LiRPA bounds such as CROWN to arbitrary computational graphs in an automatic, differentiable framework with loss fusion, enabling certified defense on DenseNet, ResNeXt and Transformer and, for the first time, on Tiny ImageNet and Downscaled ImageNet; released as the auto_LiRPA library.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="bitterwolf2020certifiably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BitterwolfM020">Certifiably Adversarially Robust Detection of Out-of-Distribution Data</a> <span class="note">(<a href="https://arxiv.org/abs/2007.08473">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/julian-bitterwolf/">Julian Bitterwolf</a>, <a href="/researchers/alexander-meinke/">Alexander Meinke</a>, <a href="/researchers/matthias-hein/">Matthias Hein</a></span><p class="digest-summary">Certifies worst-case out-of-distribution detection by using interval bound propagation to upper-bound classifier confidence over an ℓ∞-ball around OOD points and minimizing that bound in training; the guarantees generalize beyond the training OOD data with little accuracy loss.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="jin2020certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JinSPZ20">Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/hongwei-jin/">Hongwei Jin</a>, Zhan Shi, Venkata Jaya Shankar Ashish Peruri, <a href="/researchers/xinhua-zhang/">Xinhua Zhang</a></span><p class="digest-summary">Gives the first robustness certificate for graph convolution networks in graph classification under topological perturbations with local and global budgets, using Lagrange dualization and convex envelopes computed by dynamic programming; with robust training, more graphs are certified robust.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="kumar2020certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Kumar0FG20">Certifying Confidence via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2009.08061">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span><p class="digest-summary">Certifies the prediction confidence of smoothed classifiers, as average score or margin, by modifying the Neyman-Pearson lemma to compute radii within which confidence stays above a threshold; using the confidence distribution gives notably larger certified radii on CIFAR-10 and ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="chiang2020detection">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ChiangCAK0G20">Detection as Regression: Certified Object Detection with Median Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, <a href="/researchers/michael-j-curry/">Michael J. Curry</a>, <a href="/researchers/ahmed-abdelkader/">Ahmed Abdelkader</a>, <a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/john-dickerson/">John Dickerson</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="krishnan2020lipschitz">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/KrishnanMP20">Lipschitz Bounds and Provably Robust Training by Laplacian Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2006.03712">arXiv</a>)</span>
+
+	<br><span class="authors">Vishaal Krishnan, Abed AlRahman Al Makdah, Fabio Pasqualetti</span><p class="digest-summary">Trains models with provable adversarial robustness by framing learning as Lipschitz-constrained loss minimization whose Lagrangian saddle point solves a weighted Laplacian Poisson equation, solved by graph discretization and primal-dual updates; also shows a fundamental robustness-accuracy lower bound.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="zhang2020tightness">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/Zhang20">On the Tightness of Semidefinite Relaxations for Certifying Robustness to Adversarial Examples</a> <span class="note">(<a href="https://arxiv.org/abs/2006.06759">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/richard-y-zhang/">Richard Y. Zhang</a></span><p class="digest-summary">Gives a geometric test of when the SDP relaxation certificate for ReLU network robustness is exact, viewing it as projecting a point onto a hyperbola; the certificate is proven exact for one hidden layer under mild assumptions and explained as usually conservative for several layers.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+<li id="chen2020semialgebraic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/0002LMP20">Semialgebraic Optimization for Lipschitz Constants of ReLU Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2002.03657">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/tong-chen/">Tong Chen</a>, <a href="/researchers/jean-b-lasserre/">Jean B. Lasserre</a>, <a href="/researchers/victor-magron/">Victor Magron</a>, <a href="/researchers/edouard-pauwels/">Edouard Pauwels</a></span><p class="digest-summary">Estimates global and local Lipschitz constants of multi-layer ReLU networks with a semidefinite programming hierarchy combining polynomial lifting of ReLU derivatives with a weak Putinar positivity certificate, sometimes giving better bounds in less time than linear programming approaches.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 10 Dec, 17:00–19:00 (UTC)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2020-08/">&larr; August 2020</a>
+<a href="/digest/2020/">All of 2020</a><a href="/digest/2020-11/">November 2020 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

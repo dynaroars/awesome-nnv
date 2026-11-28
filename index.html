@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="Awesome NNV">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+	<meta name="generator" content="Hugo 0.168.0">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/" class="current">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>Neural-network verification groups, 2017&ndash;2027</h1></header>
+<article>
+<p>This site tracks <strong>neural-network verification (NNV)</strong> papers across 32 top conferences in artificial intelligence, machine learning, computer vision, natural language processing, data mining, programming languages, software engineering, formal methods, computer security, robotics, design automation, and embedded systems, grouped the same way as <a href="https://csrankings.org/">CSRankings</a>.</p>
+<p>Only papers focused on NNV are counted, including verifiers, bound propagation, certified training, probabilistic certification, and verified control. See <a href="areas/">Areas</a> for the full breakdown.</p>
+
+
+<div class="table-box">
+<p class="table-tools"><span class="graph-view period-view" role="group" aria-label="Papers counted" data-for="groups-table"><button type="button" data-p="0" aria-pressed="true" title="Papers accepted since November 2025">Last year</button><button type="button" data-p="1" aria-pressed="false" title="Papers accepted since November 2021">Last 5 years</button><button type="button" data-p="2" aria-pressed="false" title="All NNV papers since 2017">Total</button></span> <button type="button" class="more-columns" aria-expanded="false" aria-controls="groups-table" data-names="Hidden: {names}" data-show="Show {n} more columns" data-show-one="Show 1 more column" data-hide="Hide the field breakdown">Show the field breakdown</button></p>
+<div class="scroll pinned top">
+<table class="podium collapsed" id="groups-table" data-collapsible data-page-size="10">
+	<thead>
+	<tr>
+		<th rowspan="2" class="pin0 rank" data-nosort>#</th>
+		<th rowspan="2" class="l pin1">Group</th>
+		<th rowspan="2" class="l tools">Tools</th>
+		<th rowspan="2" class="l members" title="Top three by score; the group page lists everyone">Researchers</th>
+		<th colspan="12" data-extra>NNV papers by field</th>
+		<th colspan="2" class="period">Last year</th>
+		<th rowspan="2" title="Citations: OpenAlex citations of the group's NNV papers, all years, adding up a paper's preprint and published records. Shown for reference; not used in the ranking.">Citations</th>
+	</tr>
+	<tr>
+		
+<th data-extra title="Machine learning: ICML, ICLR, NeurIPS">ML</th>
+<th data-extra title="Computer vision: CVPR, ICCV, ECCV">CV</th>
+<th data-extra title="Programming languages: PLDI, POPL, ICFP, OOPSLA">PL</th>
+<th data-extra title="Software engineering: FSE, ICSE, ASE, ISSTA">SE</th>
+<th data-extra title="Logic and verification: CAV, LICS">LV</th>
+<th data-extra title="Artificial intelligence: AAAI, IJCAI">AI</th>
+<th data-extra title="Computer security: CCS, S&amp;P, USENIX Security, NDSS">Sec</th>
+<th data-extra title="Robotics: ICRA, IROS, RSS">Rob</th>
+<th data-extra title="Natural language processing: ACL, EMNLP, NAACL">NLP</th>
+<th data-extra title="Design automation: DAC, ICCAD">DA</th>
+<th data-extra title="Data mining: KDD">DM</th>
+<th data-extra title="Embedded and real-time systems: EMSOFT">Emb</th>
+
+		<th class="good" data-podium title="Papers: the group's NNV papers, in the period chosen above (last year from November 2025, last 5 years from November 2021, or all years). Ranked by papers, then score.">Papers</th>
+		<th class="score" title="Score: the CSRankings adjusted count over the same papers. Each paper gives 1 / (number of authors) to every author.">Score</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">1</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/marabou/" title="Marabou: Formal methods for reliable and correct software, especially formal verification of systems with machine-learned components such as neural networks and large language models.">Marabou</a><br><span class="group-home"><img class="flag" src="/img/flags/il.svg" alt="Israel" title="Israel" width="16" height="12" loading="lazy"> Hebrew University of Jerusalem</span></td>
+		<td class="l tools">Reluplex, Marabou</td>
+		<td class="l members" data-sort="15"><a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a>, <a href="/researchers/min-wu/">Min Wu</a>, <a class="more" href="/groups/marabou/">+12 more</a></td>
+		
+<td>10</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td>7</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="10001.2480" data-v0="10" data-v1="18" data-v2="23" data-s0="10001.2480" data-s1="18001.4740" data-s2="23001.5980">10</td>
+		<td class="score" data-v0="1.25" data-v1="1.47" data-v2="1.60">1.25</td>
+		<td>5441</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">2</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/daml/" title="DAML: Reliable and efficient machine learning, such as robustness and uncertainty, with a major focus on graphs (graph neural networks) and sequential data (LLMs, point processes).">DAML</a><br><span class="group-home"><img class="flag" src="/img/flags/de.svg" alt="Germany" title="Germany" width="16" height="12" loading="lazy"> Technical University of Munich</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="8"><a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a class="more" href="/groups/daml/">+5 more</a></td>
+		
+<td>19</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="05001.1320" data-v0="5" data-v1="16" data-v2="21" data-s0="05001.1320" data-s1="16001.2430" data-s2="21001.3850">5</td>
+		<td class="score" data-v0="1.13" data-v1="1.24" data-v2="1.39">1.13</td>
+		<td>456</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">3</span></td>
+		<td class="l pin1"><svg class="swatch hue4" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/vehicle/" title="Vehicle: Correctness of neural-symbolic programs that combine classical software with machine learning, through Vehicle, a tool for their end-to-end verification.">Vehicle</a> <img class="mini" src="/img/groups/vehicle.png" alt="" loading="lazy"><br><span class="group-home"><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> University of Western Australia</span></td>
+		<td class="l tools">Vehicle</td>
+		<td class="l members" data-sort="12"><a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/andrea-gimelli/">Andrea Gimelli</a>, <a href="/researchers/samuel-teuber/">Samuel Teuber</a>, <a class="more" href="/groups/vehicle/">+9 more</a></td>
+		
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>3</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="04001.1960" data-v0="4" data-v1="7" data-v2="7" data-s0="04001.1960" data-s1="07001.2550" data-s2="07001.2550">4</td>
+		<td class="score" data-v0="1.20" data-v1="1.25" data-v2="1.25">1.20</td>
+		<td>309</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">4</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/bai-xue/" title="Bai Xue group: Formal methods and control theory for deterministic and stochastic dynamical systems, safe reinforcement learning, autonomous and learning-enabled systems, and trustworthy AI.">Bai Xue group</a><br><span class="group-home"><img class="flag" src="/img/flags/cn.svg" alt="China" title="China" width="16" height="12" loading="lazy"> Institute of Software, Chinese Academy of Sciences</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="2"><a href="/researchers/bai-xue/">Bai Xue</a>, <a href="/researchers/ji-wang/">Ji Wang</a></td>
+		
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="04001.0810" data-v0="4" data-v1="5" data-v2="5" data-s0="04001.0810" data-s1="05001.0910" data-s2="05001.0910">4</td>
+		<td class="score" data-v0="1.08" data-v1="1.09" data-v2="1.09">1.08</td>
+		<td>35</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">5</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/neuralsat/" title="NeuralSAT: Automated reasoning: developing techniques to formalize, verify, and analyze both software systems and AI systems.">NeuralSAT</a> <img class="mini" src="/img/groups/neuralsat.jpg" alt="" loading="lazy"><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> George Mason University</span></td>
+		<td class="l tools">NeuralSAT, DNNV</td>
+		<td class="l members" data-sort="10"><a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a>, <a class="more" href="/groups/neuralsat/">+7 more</a></td>
+		
+<td>3</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>4</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.1890" data-v0="3" data-v1="8" data-v2="11" data-s0="03001.1890" data-s1="08001.4140" data-s2="11001.5260">3</td>
+		<td class="score" data-v0="1.19" data-v1="1.41" data-v2="1.53">1.19</td>
+		<td>204</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">6</span></td>
+		<td class="l pin1"><svg class="swatch hue7" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/singh-uiuc/" title="Singh group: Trustworthy AI drawing on machine learning, formal methods, mechanistic interpretability and AI safety: formal verification, synthesis, monitoring and interpretation of frontier AI systems.">Singh group</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> University of Illinois Urbana-Champaign</span></td>
+		<td class="l tools">DeepPoly, RaVeN, incremental verification</td>
+		<td class="l members" data-sort="13"><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/changming-xu/">Changming Xu</a>, <a class="more" href="/groups/singh-uiuc/">+10 more</a></td>
+		
+<td>13</td>
+
+<td>2</td>
+
+<td>9</td>
+
+<td>1</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.1370" data-v0="3" data-v1="18" data-v2="27" data-s0="03001.1370" data-s1="18001.5130" data-s2="27001.5770">3</td>
+		<td class="score" data-v0="1.14" data-v1="1.51" data-v2="1.58">1.14</td>
+		<td>2760</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">7</span></td>
+		<td class="l pin1"><svg class="swatch hue1 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/cora/" title="CORA: Proving safety of cyber-physical systems in uncertain environments, with methods that provably guarantee safe operation of systems such as autonomous cars, surgical robots and power grids.">CORA</a> <img class="mini" src="/img/groups/cora.png" alt="" loading="lazy"><br><span class="group-home"><img class="flag" src="/img/flags/de.svg" alt="Germany" title="Germany" width="16" height="12" loading="lazy"> Technical University of Munich</span></td>
+		<td class="l tools">CORA</td>
+		<td class="l members" data-sort="3"><a href="/researchers/matthias-althoff/">Matthias Althoff</a>, <a href="/researchers/tobias-ladner/">Tobias Ladner</a>, <a href="/researchers/lukas-koller/">Lukas Koller</a></td>
+		
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.1180" data-v0="3" data-v1="4" data-v2="4" data-s0="03001.1180" data-s1="04001.1330" data-s2="04001.1330">3</td>
+		<td class="score" data-v0="1.12" data-v1="1.13" data-v2="1.13">1.12</td>
+		<td>35</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">8</span></td>
+		<td class="l pin1"><svg class="swatch hue7" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/rubinstein/" title="Rubinstein group: AI safety, spanning the security and privacy of AI, including privacy analysis and the robustness of machine learning systems to data poisoning attacks.">Rubinstein group</a><br><span class="group-home"><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> University of Melbourne</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="8"><a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a>, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a class="more" href="/groups/rubinstein/">+5 more</a></td>
+		
+<td>9</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.1030" data-v0="3" data-v1="11" data-v2="11" data-s0="03001.1030" data-s1="11001.3330" data-s2="11001.3330">3</td>
+		<td class="score" data-v0="1.10" data-v1="1.33" data-v2="1.33">1.10</td>
+		<td>103</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">9</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/venus/" title="Venus: Making AI systems safe to deploy: finding their vulnerabilities, establishing formal guarantees on their behaviour, training them to be robust, and monitoring them with a focus on explainability.">Venus</a><br><span class="group-home"><img class="flag" src="/img/flags/gb.svg" alt="United Kingdom" title="United Kingdom" width="16" height="12" loading="lazy"> Imperial College London</span></td>
+		<td class="l tools">Venus, VeriNet</td>
+		<td class="l members" data-sort="13"><a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/yang-zheng/">Yang Zheng</a>, <a class="more" href="/groups/venus/">+10 more</a></td>
+		
+<td>4</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>7</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.1000" data-v0="3" data-v1="9" data-v2="14" data-s0="03001.1000" data-s1="09001.2880" data-s2="14001.4110">3</td>
+		<td class="score" data-v0="1.10" data-v1="1.29" data-v2="1.41">1.10</td>
+		<td>607</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">10</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/abcrown/" title="α,β-CROWN: Trustworthy AI for mission-critical tasks by formal and empirical means: scalable neural network verification by linear bound propagation, and safety and robustness of AI systems.">α,β-CROWN</a> <img class="mini" src="/img/groups/abcrown.png" alt="" loading="lazy"><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> University of Illinois Urbana-Champaign</span></td>
+		<td class="l tools">auto_LiRPA, CROWN, α,β-CROWN, GCP-CROWN</td>
+		<td class="l members" data-sort="40"><a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a class="more" href="/groups/abcrown/">+37 more</a></td>
+		
+<td>51</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>6</td>
+
+<td>5</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="03001.0920" data-v0="3" data-v1="33" data-v2="65" data-s0="03001.0920" data-s1="33001.5300" data-s2="65001.7500">3</td>
+		<td class="score" data-v0="1.09" data-v1="1.53" data-v2="1.75">1.09</td>
+		<td>12367</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">11</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/jia-psu/" title="Jia group: Security and safety of LLM-empowered AI systems such as agents, including poisoning, prompt injection and jailbreaks, and making these systems more trustworthy and transparent.">Jia group</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Pennsylvania State University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="25"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/yanting-wang/">Yanting Wang</a>, <a class="more" href="/groups/jia-psu/">+22 more</a></td>
+		
+<td>7</td>
+
+<td>8</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>7</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.1130" data-v0="2" data-v1="20" data-v2="25" data-s0="02001.1130" data-s1="20001.5540" data-s2="25001.7040">2</td>
+		<td class="score" data-v0="1.11" data-v1="1.55" data-v2="1.70">1.11</td>
+		<td>917</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">12</span></td>
+		<td class="l pin1"><svg class="swatch hue4" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/eran/" title="ERAN: Reliable, secure and trustworthy machine learning, especially large language models: controllability, security and privacy, reliable evaluation, watermarking, and robustness and fairness certification.">ERAN</a> <img class="mini" src="/img/groups/eran.png" alt="" loading="lazy"><br><span class="group-home"><img class="flag" src="/img/flags/ch.svg" alt="Switzerland" title="Switzerland" width="16" height="12" loading="lazy"> ETH Zurich</span></td>
+		<td class="l tools">ERAN, DeepPoly, PRIMA, MN-BaB, DiffAI</td>
+		<td class="l members" data-sort="19"><a href="/researchers/martin-vechev/">Martin Vechev</a>, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a class="more" href="/groups/eran/">+16 more</a></td>
+		
+<td>25</td>
+
+<td>2</td>
+
+<td>5</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0850" data-v0="2" data-v1="17" data-v2="36" data-s0="02001.0850" data-s1="17001.4400" data-s2="36001.8680">2</td>
+		<td class="score" data-v0="1.08" data-v1="1.44" data-v2="1.87">1.08</td>
+		<td>5054</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">13</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/alessandro-farinelli/" title="Alessandro Farinelli group: AI methods for robotics and cyber-physical systems: multi-agent coordination, decentralized optimization, reinforcement learning, and data analysis for cyber-physical systems.">Alessandro Farinelli group</a><br><span class="group-home"><img class="flag" src="/img/flags/it.svg" alt="Italy" title="Italy" width="16" height="12" loading="lazy"> University of Verona</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="5"><a href="/researchers/luca-marzari/">Luca Marzari</a>, <a href="/researchers/alessandro-farinelli/">Alessandro Farinelli</a>, <a href="/researchers/ferdinando-cicalese/">Ferdinando Cicalese</a>, <a class="more" href="/groups/alessandro-farinelli/">+2 more</a></td>
+		
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0700" data-v0="2" data-v1="5" data-v2="5" data-s0="02001.0700" data-s1="05001.1410" data-s2="05001.1410">2</td>
+		<td class="score" data-v0="1.07" data-v1="1.14" data-v2="1.14">1.07</td>
+		<td>68</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">14</span></td>
+		<td class="l pin1"><svg class="swatch hue6" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/dlv/" title="DLV / DeepGame: Modelling and analysis methods for complex systems, using simulation and formal verification, with particular emphasis on quantitative verification of probabilistic systems.">DLV / DeepGame</a><br><span class="group-home"><img class="flag" src="/img/flags/gb.svg" alt="United Kingdom" title="United Kingdom" width="16" height="12" loading="lazy"> University of Oxford</span></td>
+		<td class="l tools">DLV, DeepGame</td>
+		<td class="l members" data-sort="11"><a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a>, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a>, <a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a class="more" href="/groups/dlv/">+8 more</a></td>
+		
+<td>5</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td>5</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0620" data-v0="2" data-v1="10" data-v2="17" data-s0="02001.0620" data-s1="10001.2230" data-s2="17001.4430">2</td>
+		<td class="score" data-v0="1.06" data-v1="1.22" data-v2="1.44">1.06</td>
+		<td>1811</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">15</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/iscas-zhang/" title="DeepPAC: Applying formal methods to practical problems, such as verification of AI and neural networks, probabilistic model checking, program analysis and hardware correctness.">DeepPAC</a><br><span class="group-home"><img class="flag" src="/img/flags/cn.svg" alt="China" title="China" width="16" height="12" loading="lazy"> Institute of Software, Chinese Academy of Sciences</span></td>
+		<td class="l tools">DeepPAC, TrajPAC</td>
+		<td class="l members" data-sort="9"><a href="/researchers/pengfei-yang/">Pengfei Yang</a>, <a href="/researchers/lijun-zhang/">Lijun Zhang</a>, <a href="/researchers/cheng-chao-huang/">Cheng-Chao Huang</a>, <a class="more" href="/groups/iscas-zhang/">+6 more</a></td>
+		
+<td>1</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>4</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0590" data-v0="2" data-v1="7" data-v2="7" data-s0="02001.0590" data-s1="07001.2390" data-s2="07001.2390">2</td>
+		<td class="score" data-v0="1.06" data-v1="1.24" data-v2="1.24">1.06</td>
+		<td>88</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">16</span></td>
+		<td class="l pin1"><svg class="swatch hue8" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/ecnu/" title="Min Zhang group: Formal methods for safety-critical systems, such as real-time systems, AI-empowered systems and blockchains.">Min Zhang group</a><br><span class="group-home"><img class="flag" src="/img/flags/cn.svg" alt="China" title="China" width="16" height="12" loading="lazy"> East China Normal University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="13"><a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/si-liu/">Si Liu</a>, <a href="/researchers/yiting-wu/">Yiting Wu</a>, <a class="more" href="/groups/ecnu/">+10 more</a></td>
+		
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>3</td>
+
+<td>3</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0400" data-v0="2" data-v1="11" data-v2="12" data-s0="02001.0400" data-s1="11001.4490" data-s2="12001.4950">2</td>
+		<td class="score" data-v0="1.04" data-v1="1.45" data-v2="1.50">1.04</td>
+		<td>403</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">17</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/zhengfeng-yang/" title="Zhengfeng Yang group: Deep learning, machine learning and optimization, image and video processing, and software engineering (research fields listed on the faculty page).">Zhengfeng Yang group</a><br><span class="group-home"><img class="flag" src="/img/flags/cn.svg" alt="China" title="China" width="16" height="12" loading="lazy"> East China Normal University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="9"><a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a class="more" href="/groups/zhengfeng-yang/">+6 more</a></td>
+		
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>5</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0400" data-v0="2" data-v1="7" data-v2="9" data-s0="02001.0400" data-s1="07001.2090" data-s2="09001.2480">2</td>
+		<td class="score" data-v0="1.04" data-v1="1.21" data-v2="1.25">1.04</td>
+		<td>85</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">18</span></td>
+		<td class="l pin1"><svg class="swatch hue8" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/alexandre-allauzen/" title="MILES: Trustworthy and frugal machine learning (Lipschitz networks, certified robustness, randomized smoothing), the focus of the MILES team at LAMSADE (Paris-Dauphine University and PSL) that Alexandre Allauzen co-heads, with Alexandre Araujo and Blaise Delattre.">MILES</a><br><span class="group-home"><img class="flag" src="/img/flags/jp.svg" alt="Japan" title="Japan" width="16" height="12" loading="lazy"> Tokyo Institute of Technology</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="8"><a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/blaise-delattre/">Blaise Delattre</a>, <a href="/researchers/alexandre-allauzen/">Alexandre Allauzen</a>, <a class="more" href="/groups/alexandre-allauzen/">+5 more</a></td>
+		
+<td>12</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="02001.0310" data-v0="2" data-v1="11" data-v2="13" data-s0="02001.0310" data-s1="11001.1770" data-s2="13001.2230">2</td>
+		<td class="score" data-v0="1.03" data-v1="1.18" data-v2="1.22">1.03</td>
+		<td>422</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">19</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/nnv/" title="NNV: Formal verification techniques and software tools for cyber-physical systems, especially autonomous systems with AI and machine learning components such as neural networks.">NNV</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Vanderbilt University</span></td>
+		<td class="l tools">NNV, star sets</td>
+		<td class="l members" data-sort="13"><a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a>, <a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a class="more" href="/groups/nnv/">+10 more</a></td>
+		
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>6</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+
+		<td class="total good" data-sort="01001.0590" data-v0="1" data-v1="5" data-v2="10" data-s0="01001.0590" data-s1="05001.1990" data-s2="10001.3240">1</td>
+		<td class="score" data-v0="1.06" data-v1="1.20" data-v2="1.32">1.06</td>
+		<td>928</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">20</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/mathieu-serrurier/" title="Mathieu Serrurier group: 1-Lipschitz neural networks, robust by design, extended to large self-supervised models while keeping guarantees of robustness, certifiability and explainability.">Mathieu Serrurier group</a><br><span class="group-home"><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> University of Toulouse Jean Jaurès</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="7"><a href="/researchers/mathieu-serrurier/">Mathieu Serrurier</a>, <a href="/researchers/franck-mamalet/">Franck Mamalet</a>, <a href="/researchers/thibaut-boissin/">Thibaut Boissin</a>, <a class="more" href="/groups/mathieu-serrurier/">+4 more</a></td>
+		
+<td>3</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0590" data-v0="1" data-v1="4" data-v2="5" data-s0="01001.0590" data-s1="04001.1660" data-s2="05001.1940">1</td>
+		<td class="score" data-v0="1.06" data-v1="1.17" data-v2="1.19">1.06</td>
+		<td>115</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">21</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/oval/" title="OVAL: Design and analysis of optimization algorithms for problems that arise in computer vision and machine learning.">OVAL</a><br><span class="group-home"><img class="flag" src="/img/flags/gb.svg" alt="United Kingdom" title="United Kingdom" width="16" height="12" loading="lazy"> London School of Economics and Political Science</span></td>
+		<td class="l tools">OVAL BaB, Lagrangian decomposition</td>
+		<td class="l members" data-sort="4"><a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a>, <a href="/researchers/alessandro-de-palma/">Alessandro De Palma</a>, <a href="/researchers/harkirat-singh-behl/">Harkirat Singh Behl</a>, <a class="more" href="/groups/oval/">+1 more</a></td>
+		
+<td>10</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0590" data-v0="1" data-v1="4" data-v2="10" data-s0="01001.0590" data-s1="04001.0840" data-s2="10001.1440">1</td>
+		<td class="score" data-v0="1.06" data-v1="1.08" data-v2="1.14">1.06</td>
+		<td>705</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">22</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/cong-tian/" title="Cong Tian group: Formal verification in theory and practice: model checking theory, temporal logics and automata, formal verification of software systems, and logic programming.">Cong Tian group</a><br><span class="group-home"><img class="flag" src="/img/flags/cn.svg" alt="China" title="China" width="16" height="12" loading="lazy"> Xidian University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="5"><a href="/researchers/cong-tian/">Cong Tian</a>, <a href="/researchers/liang-zhao/">Liang Zhao</a>, <a href="/researchers/wensheng-wang/">Wensheng Wang</a>, <a class="more" href="/groups/cong-tian/">+2 more</a></td>
+		
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0520" data-v0="1" data-v1="2" data-v2="2" data-s0="01001.0520" data-s1="02001.1140" data-s2="02001.1140">1</td>
+		<td class="score" data-v0="1.05" data-v1="1.11" data-v2="1.11">1.05</td>
+		<td>1</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">23</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/gloro/" title="GloRo: Matt Fredrikson&#39;s group: globally-robust networks. Abbreviations: GloRo stands for globally-robust (networks); CMU: Carnegie Mellon University.">GloRo</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Carnegie Mellon University</span></td>
+		<td class="l tools">GloRo</td>
+		<td class="l members" data-sort="5"><a href="/researchers/matt-fredrikson/">Matt Fredrikson</a>, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/zifan-wang/">Zifan Wang</a>, <a class="more" href="/groups/gloro/">+2 more</a></td>
+		
+<td>7</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0440" data-v0="1" data-v1="4" data-v2="8" data-s0="01001.0440" data-s1="04001.1220" data-s2="08001.2360">1</td>
+		<td class="score" data-v0="1.04" data-v1="1.12" data-v2="1.24">1.04</td>
+		<td>277</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">24</span></td>
+		<td class="l pin1"><svg class="swatch hue7" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/maria-christakis/" title="Maria Christakis group: Software engineering and formal methods for more reliable and usable software, especially automatic test generation, program analysis and software verification.">Maria Christakis group</a><br><span class="group-home"><img class="flag" src="/img/flags/de.svg" alt="Germany" title="Germany" width="16" height="12" loading="lazy"> Saarland University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="10"><a href="/researchers/maria-christakis/">Maria Christakis</a>, <a href="/researchers/holger-hermanns/">Holger Hermanns</a>, <a href="/researchers/jorg-hoffmann/">Jörg Hoffmann</a>, <a class="more" href="/groups/maria-christakis/">+7 more</a></td>
+		
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0440" data-v0="1" data-v1="3" data-v2="5" data-s0="01001.0440" data-s1="03001.1260" data-s2="05001.1920">1</td>
+		<td class="score" data-v0="1.04" data-v1="1.13" data-v2="1.19">1.04</td>
+		<td>163</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">25</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/marco-salzer/" title="Marco Sälzer group: Connecting formal methods and machine learning: what neural networks can express, which properties can be verified algorithmically, and the computational complexity of these tasks.">Marco Sälzer group</a><br><span class="group-home"><img class="flag" src="/img/flags/de.svg" alt="Germany" title="Germany" width="16" height="12" loading="lazy"> RPTU Kaiserslautern-Landau</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="2"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/eric-alsmann/">Eric Alsmann</a></td>
+		
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0440" data-v0="1" data-v1="4" data-v2="4" data-s0="01001.0440" data-s1="04001.1300" data-s2="04001.1300">1</td>
+		<td class="score" data-v0="1.04" data-v1="1.13" data-v2="1.13">1.04</td>
+		<td>29</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">26</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/vorobeychik/" title="Vorobeychik group: Game theory in security and privacy, robust (especially adversarial) machine learning, innovation diffusion and marketing, computational vaccine design, and computational game theory and mechanism design.">Vorobeychik group</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Washington University in St. Louis</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="5"><a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a>, <a href="/researchers/junlin-wu/">Junlin Wu</a>, <a href="/researchers/andrew-clark/">Andrew Clark</a>, <a class="more" href="/groups/vorobeychik/">+2 more</a></td>
+		
+<td>5</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0400" data-v0="1" data-v1="6" data-v2="6" data-s0="01001.0400" data-s1="06001.1750" data-s2="06001.1750">1</td>
+		<td class="score" data-v0="1.04" data-v1="1.18" data-v2="1.18">1.04</td>
+		<td>243</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">27</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/formal-xai/" title="Formal XAI: Automated reasoning, artificial intelligence and machine learning, including the explanation and verification of deep learners (ANITI&#39;s DeepLEVER chair).">Formal XAI</a><br><span class="group-home"><img class="flag" src="/img/flags/sg.svg" alt="Singapore" title="Singapore" width="16" height="12" loading="lazy"> Nanyang Technological University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="9"><a href="/researchers/joao-marques-silva/">João Marques-Silva</a>, <a href="/researchers/nina-narodytska/">Nina Narodytska</a>, <a href="/researchers/alexey-ignatiev/">Alexey Ignatiev</a>, <a class="more" href="/groups/formal-xai/">+6 more</a></td>
+		
+<td>4</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>7</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0240" data-v0="1" data-v1="7" data-v2="12" data-s0="01001.0240" data-s1="07001.1750" data-s2="12001.3130">1</td>
+		<td class="score" data-v0="1.02" data-v1="1.18" data-v2="1.31">1.02</td>
+		<td>1246</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">28</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/peregrinn/" title="PeregriNN: Embedded and cyber-physical systems for robotics, IoT and pervasive sensing and control, with algorithms and systems that make them resilient, secure and privacy-preserving.">PeregriNN</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> University of California, Irvine</span></td>
+		<td class="l tools">PeregriNN</td>
+		<td class="l members" data-sort="3"><a href="/researchers/yasser-shoukry/">Yasser Shoukry</a>, <a href="/researchers/haitham-khedr/">Haitham Khedr</a>, <a href="/researchers/james-ferlez/">James Ferlez</a></td>
+		
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0240" data-v0="1" data-v1="2" data-v2="3" data-s0="01001.0240" data-s1="02001.0850" data-s2="03001.1370">1</td>
+		<td class="score" data-v0="1.02" data-v1="1.08" data-v2="1.14">1.02</td>
+		<td>88</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">29</span></td>
+		<td class="l pin1"><svg class="swatch hue8" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/linyi-li/" title="Linyi Li group: Trustworthy deep learning, focused on certifiably trustworthy deep learning and large foundation models, with verifiable guarantees of robustness, fairness and numerical reliability.">Linyi Li group</a><br><span class="group-home"><img class="flag" src="/img/flags/ca.svg" alt="Canada" title="Canada" width="16" height="12" loading="lazy"> Simon Fraser University</span></td>
+		<td class="l tools">DSRS, certified robustness</td>
+		<td class="l members" data-sort="5"><a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a class="more" href="/groups/linyi-li/">+2 more</a></td>
+		
+<td>14</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>3</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0190" data-v0="1" data-v1="18" data-v2="21" data-s0="01001.0190" data-s1="18001.2540" data-s2="21001.2940">1</td>
+		<td class="score" data-v0="1.02" data-v1="1.25" data-v2="1.29">1.02</td>
+		<td>1612</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">30</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/gong/" title="Gong group: Cybersecurity, with a recent focus on the security and safety of AI systems.">Gong group</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Duke University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="4"><a href="/researchers/neil-gong/">Neil Gong</a>, <a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/yuepeng-hu/">Yuepeng Hu</a>, <a class="more" href="/groups/gong/">+1 more</a></td>
+		
+<td>4</td>
+
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0150" data-v0="1" data-v1="6" data-v2="11" data-s0="01001.0150" data-s1="06001.1540" data-s2="11001.3260">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.15" data-v2="1.33">1.01</td>
+		<td>669</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">31</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/misailovic/" title="Misailovic group: Programming systems that make AI-intensive applications accurate, reliable, robust and resource-efficient, spanning programming languages, compilers and software engineering.">Misailovic group</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> University of Illinois Urbana-Champaign</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="2"><a href="/researchers/sasa-misailovic/">Sasa Misailovic</a>, <a href="/researchers/jacob-laurel/">Jacob Laurel</a></td>
+		
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td>3</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0150" data-v0="1" data-v1="5" data-v2="6" data-s0="01001.0150" data-s1="05001.1030" data-s2="06001.1280">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.10" data-v2="1.13">1.01</td>
+		<td>135</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">32</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/emmanouil-seferis/" title="Emmanouil Seferis group">Emmanouil Seferis group</a><br><span class="group-home"><img class="flag" src="/img/flags/gr.svg" alt="Greece" title="Greece" width="16" height="12" loading="lazy"> National Technical University of Athens</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="2"><a href="/researchers/emmanouil-seferis/">Emmanouil Seferis</a>, <a href="/researchers/stefanos-d-kollias/">Stefanos D. Kollias</a></td>
+		
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0150" data-v0="1" data-v1="2" data-v2="2" data-s0="01001.0150" data-s1="02001.0760" data-s2="02001.0760">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.08" data-v2="1.08">1.01</td>
+		<td>0</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">33</span></td>
+		<td class="l pin1"><svg class="swatch hue6" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/wenchao-li/" title="Wenchao Li group: Dependable computing: formal methods and machine learning techniques for building safe, reliable and secure systems, from chip design to multi-robot systems and self-driving cars.">Wenchao Li group</a><br><span class="group-home"><img class="flag" src="/img/flags/gb.svg" alt="United Kingdom" title="United Kingdom" width="16" height="12" loading="lazy"> University of Southampton</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="8"><a href="/researchers/wenchao-li/">Wenchao Li</a>, <a href="/researchers/chao-huang/">Chao Huang</a>, <a href="/researchers/qi-zhu/">Qi Zhu</a>, <a class="more" href="/groups/wenchao-li/">+5 more</a></td>
+		
+<td>1</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td>1</td>
+
+
+		<td class="total good" data-sort="01001.0130" data-v0="1" data-v1="4" data-v2="7" data-s0="01001.0130" data-s1="04001.1880" data-s2="07001.3530">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.19" data-v2="1.35">1.01</td>
+		<td>78</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">34</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/luca-laurenti/" title="Luca Laurenti group: Data-driven systems that are provably robust when interacting with a dynamic, uncertain world, drawing on stochastic systems, control theory, formal methods and AI.">Luca Laurenti group</a><br><span class="group-home"><img class="flag" src="/img/flags/nl.svg" alt="Netherlands" title="Netherlands" width="16" height="12" loading="lazy"> Delft University of Technology</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="3"><a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/andrea-patane/">Andrea Patanè</a>, <a href="/researchers/luca-cardelli/">Luca Cardelli</a></td>
+		
+<td>3</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0130" data-v0="1" data-v1="4" data-v2="5" data-s0="01001.0130" data-s1="04001.0830" data-s2="05001.1110">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.08" data-v2="1.11">1.01</td>
+		<td>155</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">35</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/alban-grastien/" title="Alban Grastien group: Symbolic artificial intelligence, mainly model-based diagnosis of discrete-event systems and AI planning, including path-finding.">Alban Grastien group</a><br><span class="group-home"><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> Australian National University</span></td>
+		<td class="l tools"></td>
+		<td class="l members" data-sort="3"><a href="/researchers/alban-grastien/">Alban Grastien</a>, <a href="/researchers/renee-selvey/">Renee Selvey</a>, <a href="/researchers/sylvie-thiebaux/">Sylvie Thiébaux</a></td>
+		
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>2</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0130" data-v0="1" data-v1="2" data-v2="2" data-s0="01001.0130" data-s1="02001.0670" data-s2="02001.0670">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.07" data-v2="1.07">1.01</td>
+		<td>12</td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">36</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/secure-learning/" title="Secure Learning Lab: AI security, trustworthy machine learning and alignment: making machine learning systems robust, private and generalizable with guarantees for real-world applications.">Secure Learning Lab</a><br><span class="group-home"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> University of Chicago</span></td>
+		<td class="l tools">TSS, CROP, COPA</td>
+		<td class="l members" data-sort="28"><a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a class="more" href="/groups/secure-learning/">+25 more</a></td>
+		
+<td>24</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td>3</td>
+
+<td>9</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+<td class="zero">0</td>
+
+
+		<td class="total good" data-sort="01001.0110" data-v0="1" data-v1="31" data-v2="36" data-s0="01001.0110" data-s1="31001.4680" data-s2="36001.5250">1</td>
+		<td class="score" data-v0="1.01" data-v1="1.47" data-v2="1.52">1.01</td>
+		<td>2203</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+<nav class="pager" aria-controls="groups-table" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
+<noscript><style>#groups-table tr.off-page { display: table-row ; }</style></noscript>
+</div>
+<aside class="callout"><p>Groups represent research teams known for a signature tool or line of work, similar to teams at <a href="https://sites.google.com/view/vnn2025">VNN-COMP</a>. Each researcher belongs to one group, and their institution is shown on their individual row.</p></aside>
+
+
+
+<h2 class="award-head">Oral, spotlight and highlight papers</h2>
+<p class="note">All years. Papers the conference chose for an oral, a spotlight or a highlight, from the ICLR, ICML, NeurIPS, CVPR and ECCV schedules and accepted-paper lists.</p>
+<div class="table-box">
+<div class="scroll pinned top">
+<table class="podium" id="award-groups" data-page-size="10">
+	<thead>
+	<tr>
+		<th class="pin0 rank" data-nosort>#</th>
+		<th class="l pin1">Group</th>
+		<th class="good" data-podium title="Oral, spotlight and highlight papers, all years">Total</th>
+		<th class="aw-o" title="Oral papers: about 1–5% of a conference's papers">Oral</th>
+		<th class="aw-s" title="Spotlight papers: about 4–16% of a conference's papers">Spotlight</th>
+		<th class="aw-h" title="Highlight papers (CVPR, ICCV): about 10–12% of a conference's papers">Highlight</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">1</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/abcrown/" title="α,β-CROWN">α,β-CROWN</a></td>
+		<td class="total good" data-sort="%!d(float64=0006)%!d(float64=0000)%!d(float64=0006)">6</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">6</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">2</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/daml/" title="DAML">DAML</a></td>
+		<td class="total good" data-sort="%!d(float64=0003)%!d(float64=0001)%!d(float64=0002)">3</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s">2</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">3</span></td>
+		<td class="l pin1"><svg class="swatch hue8" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/alexandre-allauzen/" title="MILES">MILES</a></td>
+		<td class="total good" data-sort="%!d(float64=0002)%!d(float64=0002)%!d(float64=0000)">2</td>
+		<td class="aw-o">2</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">4</span></td>
+		<td class="l pin1"><svg class="swatch hue4" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/eran/" title="ERAN">ERAN</a></td>
+		<td class="total good" data-sort="%!d(float64=0002)%!d(float64=0001)%!d(float64=0001)">2</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">5</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/reliable-ai/" title="Reliable AI Lab">Reliable AI Lab</a></td>
+		<td class="total good" data-sort="%!d(float64=0002)%!d(float64=0001)%!d(float64=0001)">2</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">6</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/deepmind/" title="DeepMind verification">DeepMind verification</a></td>
+		<td class="total good" data-sort="%!d(float64=0002)%!d(float64=0000)%!d(float64=0002)">2</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">2</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">7</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><rect class="shape" x="-4.9" y="-4.9" width="9.8" height="9.8"/></svg>
+ <a href="/groups/neuralsat/" title="NeuralSAT">NeuralSAT</a></td>
+		<td class="total good" data-sort="%!d(float64=0002)%!d(float64=0000)%!d(float64=0001)">2</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h">1</td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">8</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/aaron-j-havens/" title="Aaron J. Havens group">Aaron J. Havens group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">9</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/jia-psu/" title="Jia group">Jia group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr>
+		<td class="pin0 rank"><span class="cup"></span><span class="n">10</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/jongheon-jeong/" title="Jongheon Jeong group">Jongheon Jeong group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">11</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/misailovic/" title="Misailovic group">Misailovic group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">12</span></td>
+		<td class="l pin1"><svg class="swatch hue7" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/singh-uiuc/" title="Singh group">Singh group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">13</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/weiwei-liu/" title="Weiwei Liu group">Weiwei Liu group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0001)%!d(float64=0000)">1</td>
+		<td class="aw-o">1</td>
+		<td class="aw-s"><span class="na">&ndash;</span></td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">14</span></td>
+		<td class="l pin1"><svg class="swatch hue1" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/gloro/" title="GloRo">GloRo</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">15</span></td>
+		<td class="l pin1"><svg class="swatch hue3" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/ibm/" title="IBM Research">IBM Research</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">16</span></td>
+		<td class="l pin1"><svg class="swatch hue5" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/marabou/" title="Marabou">Marabou</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">17</span></td>
+		<td class="l pin1"><svg class="swatch hue4" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-6.9 6.9,0 0,6.9 -6.9,0"/></svg>
+ <a href="/groups/neurify/" title="Neurify">Neurify</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">18</span></td>
+		<td class="l pin1"><svg class="swatch hue2" viewBox="-8 -8 16 16" aria-hidden="true"><polygon class="shape" points="0,-7.2 6.2,3.6 -6.2,3.6"/></svg>
+ <a href="/groups/oval/" title="OVAL">OVAL</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">19</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/prdnn/" title="PRDNN">PRDNN</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	<tr class="off-page">
+		<td class="pin0 rank"><span class="cup"></span><span class="n">20</span></td>
+		<td class="l pin1"><svg class="swatch hue0 hollow" viewBox="-8 -8 16 16" aria-hidden="true"><circle class="shape" r="5.5"/></svg>
+ <a href="/groups/pasareanu/" title="Pasareanu group">Pasareanu group</a></td>
+		<td class="total good" data-sort="%!d(float64=0001)%!d(float64=0000)%!d(float64=0001)">1</td>
+		<td class="aw-o"><span class="na">&ndash;</span></td>
+		<td class="aw-s">1</td>
+		<td class="aw-h"><span class="na">&ndash;</span></td>
+	</tr>
+	</tbody>
+</table>
+</div>
+<nav class="pager" aria-controls="award-groups" aria-label="Pages" data-prev="Previous" data-next="Next" hidden></nav>
+<noscript><style>#award-groups tr.off-page { display: table-row ; }</style></noscript>
+</div>
+
+<div class="fig-row">
+<figure>
+<svg class="chart" viewBox="0 0 640 400" role="img" aria-label="NNV papers per year by field"><defs><pattern id="pat-hash" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3H6M3 0V6" class="pat-line"/></pattern><pattern id="pat-stripe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V6" class="pat-line"/></pattern></defs><g class="key" data-series="ar-ml pat-hash" tabindex="0"><rect class="key-hit" x="31" y="3" width="36.8" height="18"/><rect class="ar-ml pat-hash" x="34" y="6" width="12" height="12"/><rect class="pat" x="34" y="6" width="12" height="12" fill="url(#pat-hash)"/><text x="52" y="16">ML</text></g><g class="key" data-series="ar-ai pat-stripe" tabindex="0"><rect class="key-hit" x="73.8" y="3" width="36.8" height="18"/><rect class="ar-ai pat-stripe" x="76.8" y="6" width="12" height="12"/><rect class="pat" x="76.8" y="6" width="12" height="12" fill="url(#pat-stripe)"/><text x="94.8" y="16">AI</text></g><g class="key" data-series="ar-lv" tabindex="0"><rect class="key-hit" x="116.6" y="3" width="36.8" height="18"/><rect class="ar-lv" x="119.6" y="6" width="12" height="12"/><text x="137.6" y="16">LV</text></g><g class="key" data-series="ar-cv" tabindex="0"><rect class="key-hit" x="159.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-cv" x="162.39999999999998" y="6" width="12" height="12"/><text x="180.39999999999998" y="16">CV</text></g><g class="key" data-series="ar-sec" tabindex="0"><rect class="key-hit" x="202.2" y="3" width="43.2" height="18"/><rect class="ar-sec" x="205.2" y="6" width="12" height="12"/><text x="223.2" y="16">Sec</text></g><g class="key" data-series="ar-pl" tabindex="0"><rect class="key-hit" x="251.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-pl" x="254.39999999999998" y="6" width="12" height="12"/><text x="272.4" y="16">PL</text></g><g class="key" data-series="ar-se" tabindex="0"><rect class="key-hit" x="294.2" y="3" width="36.8" height="18"/><rect class="ar-se" x="297.2" y="6" width="12" height="12"/><text x="315.2" y="16">SE</text></g><g class="key" data-series="ar-other" tabindex="0"><rect class="key-hit" x="337.0" y="3" width="209.6" height="18"/><rect class="ar-other" x="340.0" y="6" width="12" height="12"/><text x="358.0" y="16">Other (Rob, NLP, DA, DM, Emb)</text></g><line class="axis" x1="34" y1="376.0" x2="630" y2="376.0"/><text x="28" y="380.0" text-anchor="end">0</text><line class="grid" x1="34" y1="307.6" x2="630" y2="307.6"/><text x="28" y="311.6" text-anchor="end">25</text><line class="grid" x1="34" y1="239.2" x2="630" y2="239.2"/><text x="28" y="243.2" text-anchor="end">50</text><line class="grid" x1="34" y1="170.8" x2="630" y2="170.8"/><text x="28" y="174.8" text-anchor="end">75</text><line class="grid" x1="34" y1="102.4" x2="630" y2="102.4"/><text x="28" y="106.4" text-anchor="end">100</text><line class="grid" x1="34" y1="34.0" x2="630" y2="34.0"/><text x="28" y="38.0" text-anchor="end">125</text><rect class="ar-ml pat-hash seg" x="46.1" y="370.5" width="30.0" height="5.5"><title>2017, ML: 2 papers</title></rect><rect class="pat" x="46.1" y="370.5" width="30.0" height="5.5" fill="url(#pat-hash)"/><rect class="ar-lv seg" x="46.1" y="365.1" width="30.0" height="5.5"><title>2017, LV: 2 papers</title></rect><rect class="ar-pl seg" x="46.1" y="362.3" width="30.0" height="2.7"><title>2017, PL: 1 papers</title></rect><text class="value" x="61.1" y="357.3" text-anchor="middle">5</text><text x="61.1" y="393" text-anchor="middle">2017</text><rect class="ar-ml pat-hash seg" x="100.3" y="340.4" width="30.0" height="35.6"><title>2018, ML: 13 papers</title></rect><rect class="pat" x="100.3" y="340.4" width="30.0" height="35.6" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="100.3" y="329.5" width="30.0" height="10.9"><title>2018, AI: 4 papers</title></rect><rect class="pat" x="100.3" y="329.5" width="30.0" height="10.9" fill="url(#pat-stripe)"/><rect class="ar-sec seg" x="100.3" y="324.0" width="30.0" height="5.5"><title>2018, Sec: 2 papers</title></rect><text class="value" x="115.3" y="319.0" text-anchor="middle">19</text><text x="115.3" y="393" text-anchor="middle">2018</text><rect class="ar-ml pat-hash seg" x="154.5" y="310.3" width="30.0" height="65.7"><title>2019, ML: 24 papers</title></rect><rect class="pat" x="154.5" y="310.3" width="30.0" height="65.7" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="154.5" y="285.7" width="30.0" height="24.6"><title>2019, AI: 9 papers</title></rect><rect class="pat" x="154.5" y="285.7" width="30.0" height="24.6" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="154.5" y="283.0" width="30.0" height="2.7"><title>2019, LV: 1 papers</title></rect><rect class="ar-cv seg" x="154.5" y="274.8" width="30.0" height="8.2"><title>2019, CV: 3 papers</title></rect><rect class="ar-sec seg" x="154.5" y="269.3" width="30.0" height="5.5"><title>2019, Sec: 2 papers</title></rect><rect class="ar-pl seg" x="154.5" y="258.4" width="30.0" height="10.9"><title>2019, PL: 4 papers</title></rect><rect class="ar-se seg" x="154.5" y="255.6" width="30.0" height="2.7"><title>2019, SE: 1 papers</title></rect><rect class="ar-other seg" x="154.5" y="239.2" width="30.0" height="16.4"><title>2019, Other (Rob, NLP, DA, DM, Emb): 6 papers</title></rect><text class="value" x="169.5" y="234.2" text-anchor="middle">50</text><text x="169.5" y="393" text-anchor="middle">2019</text><rect class="ar-ml pat-hash seg" x="208.6" y="241.9" width="30.0" height="134.1"><title>2020, ML: 49 papers</title></rect><rect class="pat" x="208.6" y="241.9" width="30.0" height="134.1" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="208.6" y="220.0" width="30.0" height="21.9"><title>2020, AI: 8 papers</title></rect><rect class="pat" x="208.6" y="220.0" width="30.0" height="21.9" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="208.6" y="206.4" width="30.0" height="13.7"><title>2020, LV: 5 papers</title></rect><rect class="ar-cv seg" x="208.6" y="200.9" width="30.0" height="5.5"><title>2020, CV: 2 papers</title></rect><rect class="ar-sec seg" x="208.6" y="198.2" width="30.0" height="2.7"><title>2020, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="208.6" y="195.4" width="30.0" height="2.7"><title>2020, PL: 1 papers</title></rect><rect class="ar-se seg" x="208.6" y="190.0" width="30.0" height="5.5"><title>2020, SE: 2 papers</title></rect><rect class="ar-other seg" x="208.6" y="176.3" width="30.0" height="13.7"><title>2020, Other (Rob, NLP, DA, DM, Emb): 5 papers</title></rect><text class="value" x="223.6" y="171.3" text-anchor="middle">73</text><text x="223.6" y="393" text-anchor="middle">2020</text><rect class="ar-ml pat-hash seg" x="262.8" y="280.2" width="30.0" height="95.8"><title>2021, ML: 35 papers</title></rect><rect class="pat" x="262.8" y="280.2" width="30.0" height="95.8" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="262.8" y="236.5" width="30.0" height="43.8"><title>2021, AI: 16 papers</title></rect><rect class="pat" x="262.8" y="236.5" width="30.0" height="43.8" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="262.8" y="211.8" width="30.0" height="24.6"><title>2021, LV: 9 papers</title></rect><rect class="ar-cv seg" x="262.8" y="195.4" width="30.0" height="16.4"><title>2021, CV: 6 papers</title></rect><rect class="ar-sec seg" x="262.8" y="181.7" width="30.0" height="13.7"><title>2021, Sec: 5 papers</title></rect><rect class="ar-pl seg" x="262.8" y="173.5" width="30.0" height="8.2"><title>2021, PL: 3 papers</title></rect><rect class="ar-se seg" x="262.8" y="168.1" width="30.0" height="5.5"><title>2021, SE: 2 papers</title></rect><rect class="ar-other seg" x="262.8" y="140.7" width="30.0" height="27.4"><title>2021, Other (Rob, NLP, DA, DM, Emb): 10 papers</title></rect><text class="value" x="277.8" y="135.7" text-anchor="middle">86</text><text x="277.8" y="393" text-anchor="middle">2021</text><rect class="ar-ml pat-hash seg" x="317.0" y="214.6" width="30.0" height="161.4"><title>2022, ML: 59 papers</title></rect><rect class="pat" x="317.0" y="214.6" width="30.0" height="161.4" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="317.0" y="179.0" width="30.0" height="35.6"><title>2022, AI: 13 papers</title></rect><rect class="pat" x="317.0" y="179.0" width="30.0" height="35.6" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="317.0" y="162.6" width="30.0" height="16.4"><title>2022, LV: 6 papers</title></rect><rect class="ar-cv seg" x="317.0" y="140.7" width="30.0" height="21.9"><title>2022, CV: 8 papers</title></rect><rect class="ar-sec seg" x="317.0" y="138.0" width="30.0" height="2.7"><title>2022, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="317.0" y="124.3" width="30.0" height="13.7"><title>2022, PL: 5 papers</title></rect><rect class="ar-se seg" x="317.0" y="113.3" width="30.0" height="10.9"><title>2022, SE: 4 papers</title></rect><rect class="ar-other seg" x="317.0" y="99.7" width="30.0" height="13.7"><title>2022, Other (Rob, NLP, DA, DM, Emb): 5 papers</title></rect><text class="value" x="332.0" y="94.7" text-anchor="middle">101</text><text x="332.0" y="393" text-anchor="middle">2022</text><rect class="ar-ml pat-hash seg" x="371.2" y="241.9" width="30.0" height="134.1"><title>2023, ML: 49 papers</title></rect><rect class="pat" x="371.2" y="241.9" width="30.0" height="134.1" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="371.2" y="214.6" width="30.0" height="27.4"><title>2023, AI: 10 papers</title></rect><rect class="pat" x="371.2" y="214.6" width="30.0" height="27.4" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="371.2" y="203.6" width="30.0" height="10.9"><title>2023, LV: 4 papers</title></rect><rect class="ar-cv seg" x="371.2" y="192.7" width="30.0" height="10.9"><title>2023, CV: 4 papers</title></rect><rect class="ar-sec seg" x="371.2" y="168.1" width="30.0" height="24.6"><title>2023, Sec: 9 papers</title></rect><rect class="ar-pl seg" x="371.2" y="154.4" width="30.0" height="13.7"><title>2023, PL: 5 papers</title></rect><rect class="ar-se seg" x="371.2" y="143.4" width="30.0" height="10.9"><title>2023, SE: 4 papers</title></rect><rect class="ar-other seg" x="371.2" y="127.0" width="30.0" height="16.4"><title>2023, Other (Rob, NLP, DA, DM, Emb): 6 papers</title></rect><text class="value" x="386.2" y="122.0" text-anchor="middle">91</text><text x="386.2" y="393" text-anchor="middle">2023</text><rect class="ar-ml pat-hash seg" x="425.4" y="236.5" width="30.0" height="139.5"><title>2024, ML: 51 papers</title></rect><rect class="pat" x="425.4" y="236.5" width="30.0" height="139.5" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="425.4" y="214.6" width="30.0" height="21.9"><title>2024, AI: 8 papers</title></rect><rect class="pat" x="425.4" y="214.6" width="30.0" height="21.9" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="425.4" y="198.2" width="30.0" height="16.4"><title>2024, LV: 6 papers</title></rect><rect class="ar-cv seg" x="425.4" y="173.5" width="30.0" height="24.6"><title>2024, CV: 9 papers</title></rect><rect class="ar-sec seg" x="425.4" y="151.6" width="30.0" height="21.9"><title>2024, Sec: 8 papers</title></rect><rect class="ar-pl seg" x="425.4" y="143.4" width="30.0" height="8.2"><title>2024, PL: 3 papers</title></rect><rect class="ar-se seg" x="425.4" y="132.5" width="30.0" height="10.9"><title>2024, SE: 4 papers</title></rect><rect class="ar-other seg" x="425.4" y="118.8" width="30.0" height="13.7"><title>2024, Other (Rob, NLP, DA, DM, Emb): 5 papers</title></rect><text class="value" x="440.4" y="113.8" text-anchor="middle">94</text><text x="440.4" y="393" text-anchor="middle">2024</text><rect class="ar-ml pat-hash seg" x="479.5" y="247.4" width="30.0" height="128.6"><title>2025, ML: 47 papers</title></rect><rect class="pat" x="479.5" y="247.4" width="30.0" height="128.6" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="479.5" y="200.9" width="30.0" height="46.5"><title>2025, AI: 17 papers</title></rect><rect class="pat" x="479.5" y="200.9" width="30.0" height="46.5" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="479.5" y="179.0" width="30.0" height="21.9"><title>2025, LV: 8 papers</title></rect><rect class="ar-cv seg" x="479.5" y="168.1" width="30.0" height="10.9"><title>2025, CV: 4 papers</title></rect><rect class="ar-sec seg" x="479.5" y="151.6" width="30.0" height="16.4"><title>2025, Sec: 6 papers</title></rect><rect class="ar-pl seg" x="479.5" y="129.8" width="30.0" height="21.9"><title>2025, PL: 8 papers</title></rect><rect class="ar-se seg" x="479.5" y="118.8" width="30.0" height="10.9"><title>2025, SE: 4 papers</title></rect><rect class="ar-other seg" x="479.5" y="110.6" width="30.0" height="8.2"><title>2025, Other (Rob, NLP, DA, DM, Emb): 3 papers</title></rect><text class="value" x="494.5" y="105.6" text-anchor="middle">97</text><text x="494.5" y="393" text-anchor="middle">2025</text><rect class="ar-ml pat-hash seg" x="533.7" y="231.0" width="30.0" height="145.0"><title>2026, ML: 53 papers</title></rect><rect class="pat" x="533.7" y="231.0" width="30.0" height="145.0" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="533.7" y="176.3" width="30.0" height="54.7"><title>2026, AI: 20 papers</title></rect><rect class="pat" x="533.7" y="176.3" width="30.0" height="54.7" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="533.7" y="159.9" width="30.0" height="16.4"><title>2026, LV: 6 papers</title></rect><rect class="ar-cv seg" x="533.7" y="146.2" width="30.0" height="13.7"><title>2026, CV: 5 papers</title></rect><rect class="ar-sec seg" x="533.7" y="143.4" width="30.0" height="2.7"><title>2026, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="533.7" y="135.2" width="30.0" height="8.2"><title>2026, PL: 3 papers</title></rect><rect class="ar-se seg" x="533.7" y="127.0" width="30.0" height="8.2"><title>2026, SE: 3 papers</title></rect><rect class="ar-other seg" x="533.7" y="113.3" width="30.0" height="13.7"><title>2026, Other (Rob, NLP, DA, DM, Emb): 5 papers</title></rect><text class="value" x="548.7" y="108.3" text-anchor="middle">96</text><text x="548.7" y="393" text-anchor="middle">2026</text><rect class="ar-se seg" x="587.9" y="373.3" width="30.0" height="2.7"><title>2027, SE: 1 papers</title></rect><text class="value" x="602.9" y="368.3" text-anchor="middle">1</text><text x="602.9" y="393" text-anchor="middle">2027</text></svg>
+<figcaption>NNV papers per year across all 32 conferences, broken down by field (includes all authors, not just listed researchers).</figcaption>
+</figure>
+<figure>
+<svg class="chart pie" viewBox="0 0 640 400" role="img" aria-label="NNV papers per primary area"><a class="pie-item pie-probabilistic" href="areas/probabilistic/" aria-label="Probabilistic certification: 156 papers (22%)"><path class="slice" d="M320,200 L320.0,88.0 A112,112 0 0 1 429.9,178.2 Z"><title>Probabilistic certification: 156 papers (22%)</title></path><polyline class="leader" points="392.3,111.9 452.0,99.5 462.0,99.5"/><rect class="pie-hit" x="466.0" y="86.0" width="200" height="27.0"/><text class="pie-label" text-anchor="start"><tspan x="466.0" y="97.5">Probabilistic certification</tspan><tspan x="466.0" y="109.5"><tspan class="value">156 (22%)</tspan></tspan></text></a><a class="pie-item pie-training" href="areas/training/" aria-label="Certified training: 101 papers (14%)"><path class="slice" d="M320,200 L429.9,178.2 A112,112 0 0 1 406.1,271.6 Z"><title>Certified training: 101 papers (14%)</title></path><polyline class="leader" points="430.5,228.1 452.0,232.0 462.0,232.0"/><rect class="pie-hit" x="466.0" y="224.5" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="466.0" y="236.0">Certified training <tspan class="value">101 (14%)</tspan></tspan></text></a><a class="pie-item pie-control" href="areas/control/" aria-label="NN control systems: 95 papers (13%)"><path class="slice" d="M320,200 L406.1,271.6 A112,112 0 0 1 324.4,311.9 Z"><title>NN control systems: 95 papers (13%)</title></path><polyline class="leader" points="370.4,302.2 452.0,316.6 462.0,316.6"/><rect class="pie-hit" x="466.0" y="309.1" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="466.0" y="320.6">NN control systems <tspan class="value">95 (13%)</tspan></tspan></text></a><a class="pie-item pie-bounds" href="areas/bounds/" aria-label="Bound propagation &amp; abstract interpretation: 83 papers (12%)"><path class="slice" d="M320,200 L324.4,311.9 A112,112 0 0 1 248.6,286.3 Z"><title>Bound propagation &amp; abstract interpretation: 83 papers (12%)</title></path><polyline class="leader" points="283.5,308.0 188.0,323.2 178.0,323.2"/><rect class="pie-hit" x="-26.0" y="309.7" width="200" height="27.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="321.2">Bound propagation &amp; abstract</tspan><tspan x="174.0" y="333.2">interpretation <tspan class="value">83 (12%)</tspan></tspan></text></a><a class="pie-item pie-other" href="areas/other/" aria-label="Other: 75 papers (11%)"><path class="slice" d="M320,200 L248.6,286.3 A112,112 0 0 1 210.7,224.2 Z"><title>Other: 75 papers (11%)</title></path><polyline class="leader" points="222.7,259.4 188.0,267.8 178.0,267.8"/><rect class="pie-hit" x="-26.0" y="260.3" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="271.8">Other <tspan class="value">75 (11%)</tspan></tspan></text></a><a class="pie-item pie-complete" href="areas/complete/" aria-label="Complete verification: 41 papers (6%)"><path class="slice" d="M320,200 L210.7,224.2 A112,112 0 0 1 209.1,184.0 Z"><title>Complete verification: 41 papers (6%)</title></path><polyline class="leader" points="206.1,204.3 188.0,204.9 178.0,204.9"/><rect class="pie-hit" x="-26.0" y="197.4" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="208.9">Complete verification <tspan class="value">41 (6%)</tspan></tspan></text></a><a class="pie-item pie-architectures" href="areas/architectures/" aria-label="Beyond feed-forward nets: 34 papers (5%)"><path class="slice" d="M320,200 L209.1,184.0 A112,112 0 0 1 218.8,152.0 Z"><title>Beyond feed-forward nets: 34 papers (5%)</title></path><polyline class="leader" points="210.9,167.1 188.0,178.1 178.0,178.1"/><rect class="pie-hit" x="-26.0" y="170.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="182.1">Beyond feed-forward nets <tspan class="value">34 (5%)</tspan></tspan></text></a><a class="pie-item pie-relational" href="areas/relational/" aria-label="Global &amp; relational properties: 33 papers (5%)"><path class="slice" d="M320,200 L218.8,152.0 A112,112 0 0 1 236.8,125.0 Z"><title>Global &amp; relational properties: 33 papers (5%)</title></path><polyline class="leader" points="225.2,136.7 188.0,157.1 178.0,157.1"/><rect class="pie-hit" x="-26.0" y="143.6" width="200" height="27.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="155.1">Global &amp; relational properties</tspan><tspan x="174.0" y="167.1"><tspan class="value">33 (5%)</tspan></tspan></text></a><a class="pie-item pie-explanations" href="areas/explanations/" aria-label="Formal explanations: 32 papers (4%)"><path class="slice" d="M320,200 L236.8,125.0 A112,112 0 0 1 261.0,104.8 Z"><title>Formal explanations: 32 papers (4%)</title></path><polyline class="leader" points="246.9,112.5 188.0,136.1 178.0,136.1"/><rect class="pie-hit" x="-26.0" y="128.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="140.1">Formal explanations <tspan class="value">32 (4%)</tspan></tspan></text></a><a class="pie-item pie-inputs" href="areas/inputs/" aria-label="Beyond ℓp input properties: 28 papers (4%)"><path class="slice" d="M320,200 L261.0,104.8 A112,112 0 0 1 286.0,93.3 Z"><title>Beyond ℓp input properties: 28 papers (4%)</title></path><polyline class="leader" points="272.3,96.5 188.0,121.1 178.0,121.1"/><rect class="pie-hit" x="-26.0" y="113.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="125.1">Beyond ℓp input properties <tspan class="value">28 (4%)</tspan></tspan></text></a><a class="pie-item pie-quantized" href="areas/quantized/" aria-label="Quantized &amp; bit-level: 14 papers (2%)"><path class="slice" d="M320,200 L286.0,93.3 A112,112 0 0 1 299.4,89.9 Z"><title>Quantized &amp; bit-level: 14 papers (2%)</title></path><polyline class="leader" points="292.2,89.5 188.0,106.1 178.0,106.1"/><rect class="pie-hit" x="-26.0" y="98.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="110.1">Quantized &amp; bit-level <tspan class="value">14 (2%)</tspan></tspan></text></a><a class="pie-item pie-repair" href="areas/repair/" aria-label="Repair &amp; patching: 13 papers (2%)"><path class="slice" d="M320,200 L299.4,89.9 A112,112 0 0 1 312.1,88.3 Z"><title>Repair &amp; patching: 13 papers (2%)</title></path><polyline class="leader" points="305.5,86.9 188.0,91.1 178.0,91.1"/><rect class="pie-hit" x="-26.0" y="83.6" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="95.1">Repair &amp; patching <tspan class="value">13 (2%)</tspan></tspan></text></a><a class="pie-item pie-outputs" href="areas/outputs/" aria-label="Beyond linear output properties: 8 papers (1%)"><path class="slice" d="M320,200 L312.1,88.3 A112,112 0 0 1 320.0,88.0 Z"><title>Beyond linear output properties: 8 papers (1%)</title></path><polyline class="leader" points="316.0,86.1 188.0,70.1 178.0,70.1"/><rect class="pie-hit" x="-26.0" y="56.6" width="200" height="27.0"/><text class="pie-label" text-anchor="end"><tspan x="174.0" y="68.1">Beyond linear output properties</tspan><tspan x="174.0" y="80.1"><tspan class="value">8 (1%)</tspan></tspan></text></a></svg>
+<figcaption>All NNV papers by primary area, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

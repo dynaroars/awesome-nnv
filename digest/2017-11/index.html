@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2017 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2017-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2017">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2017-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2017</h1></header>
+<article>
+<p class="digest-intro">AAAI 2018 decisions: safe reinforcement learning through formal verification with verified runtime monitoring and through shielding, alongside verification of properties of binarized deep neural networks.</p>
+<p>3 NNV papers accepted in November 2017, at AAAI 2018.</p>
+<ul class="papers digest"><li id="fulton2018safe">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2018</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v32i1.12107">Safe Reinforcement Learning via Formal Methods: Toward Safe Control Through Proof and Learning</a>
+
+	<br><span class="authors">Nathan Fulton, <a href="/researchers/andre-platzer/">André Platzer</a></span><p class="digest-summary">Ensures safe reinforcement learning by combining formal verification with verified runtime monitoring: safety guarantees hold while the agent explores within verified control choices, and on model violations it learns to return to modelled states; demonstrated on adaptive cruise control.</p>
+</li>
+<li id="alshiekh2018safe">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2018</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v32i1.11797">Safe Reinforcement Learning via Shielding</a> <span class="note">(<a href="https://arxiv.org/abs/1708.08611">arXiv</a>)</span>
+
+	<br><span class="authors">Mohammed Alshiekh, Roderick Bloem, Rüdiger Ehlers, Bettina Könighofer, Scott Niekum, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span><p class="digest-summary">Learns optimal reinforcement learning policies while enforcing temporal logic safety specifications with a synthesized shield that either restricts the agent to safe actions before it decides or corrects unsafe actions after, gives conditions to preserve learning convergence, and demonstrates it on several challenging scenarios.</p>
+</li>
+<li id="narodytska2018verifying">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2018</span></a>
+	<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v32i1.12206">Verifying Properties of Binarized Deep Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1709.06662">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/nina-narodytska/">Nina Narodytska</a>, Shiva Prasad Kasiviswanathan, Leonid Ryzhyk, Mooly Sagiv, <a href="/researchers/toby-walsh/">Toby Walsh</a></span><p class="digest-summary">Verifies properties of binarized neural networks, especially adversarial robustness, by encoding them exactly as Boolean formulas and using modern SAT solvers with a counterexample-guided search, scaling to medium-size image classification networks.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2017-09/">&larr; September 2017</a>
+<a href="/digest/2017/">All of 2017</a><a href="/digest/2018-01/">January 2018 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

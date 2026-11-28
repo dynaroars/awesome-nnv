@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2021</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2021 and POPL 2022 decisions: certified training and bound propagation lead, with Beta-CROWN, fast IBP training and local Lipschitz bounds. POPL contributed PRIMA multi-neuron abstractions, DeepJ for Clarke Jacobians and interval universal approximation. Other directions include center smoothing for structured outputs, SmoothMix, convex relaxations for simplex inputs and safety of Bayesian neural network policies.</p>
+<p>16 NNV papers accepted in September 2021, at NeurIPS 2021 and POPL 2022.</p>
+<h2 class="digest-venue">NeurIPS 2021 &middot; Virtual <span class="note">13 / 2,334 NeurIPS 2021 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="kumar2021center">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/KumarG21">Center Smoothing: Certified Robustness for Networks with Structured Outputs</a> <span class="note">(<a href="https://arxiv.org/abs/2102.09701">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span><p class="digest-summary">Center smoothing extends randomized smoothing to structured outputs such as sets, images and text, certifying that the output change, measured by a distance metric, stays small under any norm-bounded input perturbation, without much loss in base model performance.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 7 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="shi2021fast">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ShiWZYH21">Fast Certified Robust Training with Short Warmup</a> <span class="note">(<a href="https://arxiv.org/abs/2103.17268">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/jinfeng-yi/">Jinfeng Yi</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Speeds up IBP certified training with a new weight initialization, full batch normalization and regularization against exploded bounds and ReLU imbalance, reaching 65.03% verified error on CIFAR-10 and 82.36% on TinyImageNet in 160 and 80 epochs.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 7 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="behl2021overcoming">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BehlKTD21">Overcoming the Convex Barrier for Simplex Inputs</a>
+
+	<br><span class="authors"><a href="/researchers/harkirat-singh-behl/">Harkirat Singh Behl</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a></span><p class="digest-summary">Designs a tight convex relaxation for verifying robustness to perturbations within the probability simplex that stays linear in neuron count, improving l1 verified accuracy on CIFAR-10 and MNIST by up to 14.4% and verifying a multi-modal text-image classifier.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 7 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="jeong2021smoothmix">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JeongPKLKS21">SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2111.09277">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jongheon-jeong/">Jongheon Jeong</a>, <a href="/researchers/sejun-park/">Sejun Park</a>, Minkyu Kim, Heung-Chang Lee, Do-Guk Kim, <a href="/researchers/jinwoo-shin/">Jinwoo Shin</a></span><p class="digest-summary">SmoothMix trains smoothed classifiers on self-mixup combinations of samples along adversarial directions, calibrating confidence of over-confident near off-class samples, and markedly improves certified l2 robustness of randomized smoothing over existing robust training methods.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 7 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="leino2021relaxing">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LeinoF21">Relaxing Local Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2106.06624">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Introduces relaxed top-k robustness and affinity robustness, properties that allow some label sets to be close, and builds models that can be efficiently certified for them, giving lower rejection rates and higher certified accuracies than standard local robustness.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 8 Dec, 00:30–02:00 (UTC)</span></p>
+</li>
+<li id="huang2021training">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HuangZSKA21">Training Certifiably Robust Neural Networks with Efficient Local Lipschitz Bounds</a> <span class="note">(<a href="https://arxiv.org/abs/2111.01395">arXiv</a>)</span>
+
+	<br><span class="authors">Yujia Huang, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Yuanyuan Shi, <a href="/researchers/zico-kolter/">Zico Kolter</a>, <a href="/researchers/anima-anandkumar/">Anima Anandkumar</a></span><p class="digest-summary">Trains certifiably robust networks with a tighter, trainable local Lipschitz bound that removes rows and columns for activations constant near each input, plus clipped activations with learnable thresholds; it improves clean and certified accuracy on MNIST, CIFAR-10 and TinyImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 8 Dec, 00:30–02:00 (UTC)</span></p>
+</li>
+<li id="lee2021towards">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LeeLPL21">Towards Better Understanding of Training Certifiably Robust Models against Adversarial Examples</a>
+
+	<br><span class="authors"><a href="/researchers/sungyoon-lee/">Sungyoon Lee</a>, Woojin Lee, Jinseong Park, <a href="/researchers/jaewook-lee/">Jaewook Lee</a></span><p class="digest-summary">Identifies smoothness of the loss landscape, besides bound tightness, as a key factor in certifiable training with linear relaxations, and designs a training method with both properties that performs well across a wide range of perturbation sizes.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 8 Dec, 08:30–10:00 (UTC)</span></p>
+</li>
+<li id="tsay2021partition">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TsayKTM21">Partition-Based Formulations for Mixed-Integer Optimization of Trained ReLU Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2102.04373">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/calvin-tsay/">Calvin Tsay</a>, <a href="/researchers/jan-kronqvist/">Jan Kronqvist</a>, Alexander Thebelt, <a href="/researchers/ruth-misener/">Ruth Misener</a></span><p class="digest-summary">Partition-based mixed-integer formulations of trained ReLU networks group node inputs and take convex hulls over partitions via disjunctive programming, trading size against tightness; the smaller relaxations outperform existing formulations in experiments.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 9 Dec, 08:30–10:00 (UTC)</span></p>
+</li>
+<li id="han2021scalecert">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HanXHCLDGWC21">ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse Superficial Layers</a> <span class="note">(<a href="https://arxiv.org/abs/2110.14120">arXiv</a>)</span>
+
+	<br><span class="authors">Husheng Han, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/xing-hu/">Xing Hu</a>, Xiaobing Chen, <a href="/researchers/ling-liang/">Ling Liang</a>, Zidong Du, Qi Guo, Yanzhi Wang, Yunji Chen</span><p class="digest-summary">ScaleCert certifies defenses against adversarial patches on high-resolution images by using superficial important neurons for network compression, cutting adversarial region search and prediction noise; certified accuracy on ImageNet rises from 36.3% to 60.4%.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 9 Dec, 08:30–10:00 (UTC)</span></p>
+</li>
+<li id="chen2021semialgebraic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ChenLMP21">Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2106.01453">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/tong-chen/">Tong Chen</a>, <a href="/researchers/jean-b-lasserre/">Jean B. Lasserre</a>, <a href="/researchers/victor-magron/">Victor Magron</a>, <a href="/researchers/edouard-pauwels/">Edouard Pauwels</a></span><p class="digest-summary">Gives a semialgebraic representation of ReLU monotone deep equilibrium models so semidefinite programming can certify robustness under general Lq norms, estimate Lipschitz constants and propagate ellipsoidal uncertainty, outperforming existing monDEQ certification.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 9 Dec, 08:30–10:00 (UTC)</span></p>
+</li>
+<li id="berrada2021make">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/BerradaDDSBUGK21">Make Sure You&#39;re Unsure: A Framework for Verifying Probabilistic Specifications</a>
+
+	<br><span class="authors">Leonard Berrada, <a href="/researchers/sumanth-dathathri/">Sumanth Dathathri</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/jonathan-uesato/">Jonathan Uesato</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 9 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="wang2021beta">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/WangZXLJHK21">Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints for Neural Network Robustness Verification</a>
+
+	<br><span class="authors"><a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/xue-lin/">Xue Lin</a>, <a href="/researchers/suman-jana/">Suman Jana</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Encodes branch-and-bound neuron split constraints in bound propagation via optimizable β parameters, giving tighter bounds than LP verifiers at CROWN&#39;s GPU efficiency; with BaB it is up to three orders of magnitude faster than LP-based BaB, beats SDP verifiers with far less time, and powers α,β-CROWN, winner of VNN-COMP 2021.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 10 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+<li id="lechner2021infinite">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LechnerZCH21">Infinite Time Horizon Safety of Bayesian Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2111.03165">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span><p class="digest-summary">Verifies infinite-horizon safety of Bayesian neural network policies by training a separate deterministic certificate network, computing a safe weight set and rejecting posterior samples outside it; also extended to safe exploration in reinforcement learning.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 10 Dec, 16:30–18:00 (UTC)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">POPL 2022 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="laurel2022dual">
+	<a class="tag-link" href="/conferences/popl/"><span class="tag accepted">POPL 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1145/3498718">A dual number abstraction for static analysis of Clarke Jacobians</a>
+
+	<br><span class="authors"><a href="/researchers/jacob-laurel/">Jacob Laurel</a>, <a href="/researchers/rem-yang/">Rem Yang</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a></span><p class="digest-summary">DeepJ soundly bounds the Clarke Jacobian of Lipschitz, possibly non-differentiable functions with an abstract domain over dual numbers and forward-mode dual interval evaluation, analysing Lipschitz robustness of networks under rotation, contrast, haze and composed perturbations.</p>
+</li>
+<li id="wang2022interval">
+	<a class="tag-link" href="/conferences/popl/"><span class="tag accepted">POPL 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3498675">Interval universal approximation for neural networks</a>
+
+	<br><span class="authors"><a href="/researchers/zi-wang/">Zi Wang</a>, <a href="/researchers/aws-albarghouthi/">Aws Albarghouthi</a>, <a href="/researchers/gautam-prakriya/">Gautam Prakriya</a>, <a href="/researchers/somesh-jha/">Somesh Jha</a></span><p class="digest-summary">Proves an interval universal approximation theorem for networks with squashable activations, so provably robust l-infinity networks exist, but shows the needed range approximation problem is Delta-2-intermediate, so building such networks efficiently is inherently hard.</p>
+</li>
+<li id="muller2022prima">
+	<a class="tag-link" href="/conferences/popl/"><span class="tag accepted">POPL 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3498704">PRIMA: general and precise neural network certification via scalable convex hull approximations</a>
+
+	<br><span class="authors"><a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, Gleb Makarchuk, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/markus-puschel/">Markus Püschel</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">PRIMA verifies neural networks with any non-linear activation using multi-neuron convex abstractions from polynomial convex hull approximation algorithms; it verifies up to 20%, 30% and 34% more images on ReLU, Sigmoid and Tanh networks.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-08/">&larr; August 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-10/">October 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

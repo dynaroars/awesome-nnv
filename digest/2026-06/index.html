@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>June 2026 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2026-06/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="June 2026">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2026-06/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>June 2026</h1></header>
+<article>
+<p class="digest-intro">ECCV 2026 and IROS 2026 decisions: vision-focused verification, with IoUCert for anchor-based object detectors, robustness certificates for semantic segmentation and a local Lipschitz bound for Transformers, plus post-training reachability verification of safety-constrained RL policies for robot navigation.</p>
+<p>4 NNV papers accepted in June 2026, at ECCV 2026 and IROS 2026.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/se.svg" alt="Sweden" title="Sweden" width="16" height="12" loading="lazy"> ECCV 2026 &middot; Malmö, Sweden <span class="note">3 / 2,834 ECCV 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="massena2026fast">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-37550-6_1">Fast and Flexible Robustness Certificates for Semantic Segmentation</a> <span class="note">(<a href="https://arxiv.org/abs/2512.06010">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/thomas-massena/">Thomas Massena</a>, <a href="/researchers/corentin-friedrich/">Corentin Friedrich</a>, <a href="/researchers/franck-mamalet/">Franck Mamalet</a>, <a href="/researchers/mathieu-serrurier/">Mathieu Serrurier</a></span><p class="digest-summary">Builds semantic segmentation networks with built-in Lipschitz constraints and a framework that generalizes robustness certificates to segmentation, computing worst-case performance under ℓ2 attacks for many measures; it reaches competitive pixel accuracy on Cityscapes and certifies about 600 times faster than randomized smoothing with comparable certificates.</p><p class="digest-where"><span><img class="flag" src="/img/flags/se.svg" alt="Sweden" title="Sweden" width="16" height="12" loading="lazy"> <b>Malmö</b> &middot; Poster #429, ExHall &middot; Thu 10 Sep, 16:30–18:30 (Malmö time)</span></p>
+</li>
+<li id="yudin2026pay">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-37258-1_14">Pay Attention to Attention Distribution: A New Local Lipschitz Bound for Transformers</a> <span class="note">(<a href="https://arxiv.org/abs/2507.07814">arXiv</a>)</span>
+
+	<br><span class="authors">Nikolay Yudin, Sergei Kudriashov, Alexander Gaponov, Maxim V. Rakhuba</span><p class="digest-summary">Derives a tighter upper bound on the local Lipschitz constant of dot-product self-attention from refined closed-form bounds on the softmax Jacobian&#39;s singular values, showing how the attention distribution shapes it, and uses this to build JaSMin, a lightweight regularizer controlling the local Lipschitz constant of each block and the whole transformer.</p><p class="digest-where"><span><img class="flag" src="/img/flags/se.svg" alt="Sweden" title="Sweden" width="16" height="12" loading="lazy"> <b>Malmö</b> &middot; Poster #394, ExHall &middot; Thu 10 Sep, 16:30–18:30 (Malmö time)</span></p>
+</li>
+<li id="bruckner2026ioucert">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2026</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-032-37574-2_20">IoUCert: Robustness Verification for Anchor-Based Object Detectors</a> <span class="note">(<a href="https://arxiv.org/abs/2603.03043">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/benedikt-bruckner/">Benedikt Brückner</a>, <a href="/researchers/alejandro-j-mercado/">Alejandro J. Mercado</a>, <a href="/researchers/yanghao-zhang/">Yanghao Zhang</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">Verifies robustness of anchor-based object detectors in single-object settings with a coordinate transformation that avoids loose relaxations of box prediction and an Interval Bound Propagation method yielding optimal IoU bounds over anchor offsets, verifying tractable variants of SSD, YOLOv2 and YOLOv3 against various input perturbations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/se.svg" alt="Sweden" title="Sweden" width="16" height="12" loading="lazy"> <b>Malmö</b> &middot; Poster #199, ExHall &middot; Fri 11 Sep, 10:30–12:30 (Malmö time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">IROS 2026 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="he2026safety">
+	<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/iros61738.2026.11776536">Safety-Constrained Reinforcement Learning with Post-Training Reachability Verification for Robot Navigation</a>
+
+	<br><span class="authors">Qisong He, Xinmiao Huang, Jinwei Hu, Zhuoyun Li, Yi Dong, Changshun Wu, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a></span><p class="digest-summary">Trains robot navigation policies with CVaR-constrained TD3, then checks them by computing action reachable sets under bounded observation noise with Taylor Models; across ten scenarios it reaches 98.3% success and the highest safety verification rate, and transfers to a physical Jackal robot.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2026-05/">&larr; May 2026</a>
+<a href="/digest/2026/">All of 2026</a><a href="/digest/2026-07/">July 2026 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

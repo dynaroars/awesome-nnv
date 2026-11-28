@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beyond feed-forward nets | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Beyond feed-forward nets: Verification for transformers, RNNs, GNNs, language and vision-language models, and object detectors. 34 papers at top venues.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/areas/architectures/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="Beyond feed-forward nets">
+	<meta property="og:description" content="Beyond feed-forward nets: Verification for transformers, RNNs, GNNs, language and vision-language models, and object detectors. 34 papers at top venues.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/areas/architectures/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/" class="current">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>Beyond feed-forward nets</h1></header>
+<article>
+
+<p>Verification for transformers, RNNs, GNNs, language and vision-language models, and object detectors.</p>
+<p>98 NNV papers in this area.</p>
+<div class="fig-row clear">
+<figure>
+<svg class="chart" viewBox="0 0 640 400" role="img" aria-label="Beyond feed-forward nets: NNV papers per year by field"><defs><pattern id="pat-hash" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3H6M3 0V6" class="pat-line"/></pattern><pattern id="pat-stripe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0V6" class="pat-line"/></pattern></defs><g class="key" data-series="ar-ml pat-hash" tabindex="0"><rect class="key-hit" x="31" y="3" width="36.8" height="18"/><rect class="ar-ml pat-hash" x="34" y="6" width="12" height="12"/><rect class="pat" x="34" y="6" width="12" height="12" fill="url(#pat-hash)"/><text x="52" y="16">ML</text></g><g class="key" data-series="ar-ai pat-stripe" tabindex="0"><rect class="key-hit" x="73.8" y="3" width="36.8" height="18"/><rect class="ar-ai pat-stripe" x="76.8" y="6" width="12" height="12"/><rect class="pat" x="76.8" y="6" width="12" height="12" fill="url(#pat-stripe)"/><text x="94.8" y="16">AI</text></g><g class="key" data-series="ar-lv" tabindex="0"><rect class="key-hit" x="116.6" y="3" width="36.8" height="18"/><rect class="ar-lv" x="119.6" y="6" width="12" height="12"/><text x="137.6" y="16">LV</text></g><g class="key" data-series="ar-cv" tabindex="0"><rect class="key-hit" x="159.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-cv" x="162.39999999999998" y="6" width="12" height="12"/><text x="180.39999999999998" y="16">CV</text></g><g class="key" data-series="ar-sec" tabindex="0"><rect class="key-hit" x="202.2" y="3" width="43.2" height="18"/><rect class="ar-sec" x="205.2" y="6" width="12" height="12"/><text x="223.2" y="16">Sec</text></g><g class="key" data-series="ar-pl" tabindex="0"><rect class="key-hit" x="251.39999999999998" y="3" width="36.8" height="18"/><rect class="ar-pl" x="254.39999999999998" y="6" width="12" height="12"/><text x="272.4" y="16">PL</text></g><g class="key" data-series="ar-se" tabindex="0"><rect class="key-hit" x="294.2" y="3" width="36.8" height="18"/><rect class="ar-se" x="297.2" y="6" width="12" height="12"/><text x="315.2" y="16">SE</text></g><g class="key" data-series="ar-other" tabindex="0"><rect class="key-hit" x="337.0" y="3" width="209.6" height="18"/><rect class="ar-other" x="340.0" y="6" width="12" height="12"/><text x="358.0" y="16">Other (Rob, NLP, DA, DM, Emb)</text></g><line class="axis" x1="34" y1="376.0" x2="630" y2="376.0"/><text x="28" y="380.0" text-anchor="end">0</text><line class="grid" x1="34" y1="290.5" x2="630" y2="290.5"/><text x="28" y="294.5" text-anchor="end">5</text><line class="grid" x1="34" y1="205.0" x2="630" y2="205.0"/><text x="28" y="209.0" text-anchor="end">10</text><line class="grid" x1="34" y1="119.5" x2="630" y2="119.5"/><text x="28" y="123.5" text-anchor="end">15</text><line class="grid" x1="34" y1="34.0" x2="630" y2="34.0"/><text x="28" y="38.0" text-anchor="end">20</text><text x="61.1" y="393" text-anchor="middle">2017</text><text x="115.3" y="393" text-anchor="middle">2018</text><rect class="ar-ml pat-hash seg" x="154.5" y="341.8" width="30.0" height="34.2"><title>2019, ML: 2 papers</title></rect><rect class="pat" x="154.5" y="341.8" width="30.0" height="34.2" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="154.5" y="290.5" width="30.0" height="51.3"><title>2019, AI: 3 papers</title></rect><rect class="pat" x="154.5" y="290.5" width="30.0" height="51.3" fill="url(#pat-stripe)"/><rect class="ar-cv seg" x="154.5" y="273.4" width="30.0" height="17.1"><title>2019, CV: 1 papers</title></rect><rect class="ar-other seg" x="154.5" y="256.3" width="30.0" height="17.1"><title>2019, Other (Rob, NLP, DA, DM, Emb): 1 papers</title></rect><text class="value" x="169.5" y="251.3" text-anchor="middle">7</text><text x="169.5" y="393" text-anchor="middle">2019</text><rect class="ar-ml pat-hash seg" x="208.6" y="290.5" width="30.0" height="85.5"><title>2020, ML: 5 papers</title></rect><rect class="pat" x="208.6" y="290.5" width="30.0" height="85.5" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="208.6" y="273.4" width="30.0" height="17.1"><title>2020, AI: 1 papers</title></rect><rect class="pat" x="208.6" y="273.4" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-cv seg" x="208.6" y="256.3" width="30.0" height="17.1"><title>2020, CV: 1 papers</title></rect><rect class="ar-other seg" x="208.6" y="239.2" width="30.0" height="17.1"><title>2020, Other (Rob, NLP, DA, DM, Emb): 1 papers</title></rect><text class="value" x="223.6" y="234.2" text-anchor="middle">8</text><text x="223.6" y="393" text-anchor="middle">2020</text><rect class="ar-ml pat-hash seg" x="262.8" y="324.7" width="30.0" height="51.3"><title>2021, ML: 3 papers</title></rect><rect class="pat" x="262.8" y="324.7" width="30.0" height="51.3" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="262.8" y="307.6" width="30.0" height="17.1"><title>2021, AI: 1 papers</title></rect><rect class="pat" x="262.8" y="307.6" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="262.8" y="256.3" width="30.0" height="51.3"><title>2021, LV: 3 papers</title></rect><rect class="ar-cv seg" x="262.8" y="239.2" width="30.0" height="17.1"><title>2021, CV: 1 papers</title></rect><rect class="ar-sec seg" x="262.8" y="222.1" width="30.0" height="17.1"><title>2021, Sec: 1 papers</title></rect><rect class="ar-pl seg" x="262.8" y="205.0" width="30.0" height="17.1"><title>2021, PL: 1 papers</title></rect><text class="value" x="277.8" y="200.0" text-anchor="middle">10</text><text x="277.8" y="393" text-anchor="middle">2021</text><rect class="ar-ml pat-hash seg" x="317.0" y="256.3" width="30.0" height="119.7"><title>2022, ML: 7 papers</title></rect><rect class="pat" x="317.0" y="256.3" width="30.0" height="119.7" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="317.0" y="239.2" width="30.0" height="17.1"><title>2022, AI: 1 papers</title></rect><rect class="pat" x="317.0" y="239.2" width="30.0" height="17.1" fill="url(#pat-stripe)"/><rect class="ar-cv seg" x="317.0" y="187.9" width="30.0" height="51.3"><title>2022, CV: 3 papers</title></rect><rect class="ar-pl seg" x="317.0" y="170.8" width="30.0" height="17.1"><title>2022, PL: 1 papers</title></rect><text class="value" x="332.0" y="165.8" text-anchor="middle">12</text><text x="332.0" y="393" text-anchor="middle">2022</text><rect class="ar-ml pat-hash seg" x="371.2" y="239.2" width="30.0" height="136.8"><title>2023, ML: 8 papers</title></rect><rect class="pat" x="371.2" y="239.2" width="30.0" height="136.8" fill="url(#pat-hash)"/><rect class="ar-cv seg" x="371.2" y="222.1" width="30.0" height="17.1"><title>2023, CV: 1 papers</title></rect><rect class="ar-pl seg" x="371.2" y="205.0" width="30.0" height="17.1"><title>2023, PL: 1 papers</title></rect><text class="value" x="386.2" y="200.0" text-anchor="middle">10</text><text x="386.2" y="393" text-anchor="middle">2023</text><rect class="ar-ml pat-hash seg" x="425.4" y="222.1" width="30.0" height="153.9"><title>2024, ML: 9 papers</title></rect><rect class="pat" x="425.4" y="222.1" width="30.0" height="153.9" fill="url(#pat-hash)"/><rect class="ar-cv seg" x="425.4" y="187.9" width="30.0" height="34.2"><title>2024, CV: 2 papers</title></rect><rect class="ar-sec seg" x="425.4" y="136.6" width="30.0" height="51.3"><title>2024, Sec: 3 papers</title></rect><text class="value" x="440.4" y="131.6" text-anchor="middle">14</text><text x="440.4" y="393" text-anchor="middle">2024</text><rect class="ar-ml pat-hash seg" x="479.5" y="153.7" width="30.0" height="222.3"><title>2025, ML: 13 papers</title></rect><rect class="pat" x="479.5" y="153.7" width="30.0" height="222.3" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="479.5" y="102.4" width="30.0" height="51.3"><title>2025, AI: 3 papers</title></rect><rect class="pat" x="479.5" y="102.4" width="30.0" height="51.3" fill="url(#pat-stripe)"/><rect class="ar-cv seg" x="479.5" y="85.3" width="30.0" height="17.1"><title>2025, CV: 1 papers</title></rect><rect class="ar-sec seg" x="479.5" y="68.2" width="30.0" height="17.1"><title>2025, Sec: 1 papers</title></rect><text class="value" x="494.5" y="63.2" text-anchor="middle">18</text><text x="494.5" y="393" text-anchor="middle">2025</text><rect class="ar-ml pat-hash seg" x="533.7" y="239.2" width="30.0" height="136.8"><title>2026, ML: 8 papers</title></rect><rect class="pat" x="533.7" y="239.2" width="30.0" height="136.8" fill="url(#pat-hash)"/><rect class="ar-ai pat-stripe seg" x="533.7" y="136.6" width="30.0" height="102.6"><title>2026, AI: 6 papers</title></rect><rect class="pat" x="533.7" y="136.6" width="30.0" height="102.6" fill="url(#pat-stripe)"/><rect class="ar-lv seg" x="533.7" y="85.3" width="30.0" height="51.3"><title>2026, LV: 3 papers</title></rect><rect class="ar-cv seg" x="533.7" y="51.1" width="30.0" height="34.2"><title>2026, CV: 2 papers</title></rect><text class="value" x="548.7" y="46.1" text-anchor="middle">19</text><text x="548.7" y="393" text-anchor="middle">2026</text><text x="602.9" y="393" text-anchor="middle">2027</text></svg>
+<figcaption>Papers per year, by CSRankings field.</figcaption>
+</figure>
+<figure>
+<svg class="chart pie" viewBox="0 0 640 400" role="img" aria-label="Beyond feed-forward nets: NNV papers of the leading groups"><a class="pie-item pie-g0" href="../../groups/daml/" aria-label="DAML: 6 papers (15%)"><path class="slice" d="M320,200 L320.0,60.0 A140,140 0 0 1 435.2,120.5 Z"><title>DAML: 6 papers (15%)</title></path><polyline class="leader" points="386.0,74.3 480.0,60.1 490.0,60.1"/><rect class="pie-hit" x="494.0" y="52.6" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="64.1">DAML <tspan class="value">6 (15%)</tspan></tspan></text></a><a class="pie-item pie-g1" href="../../groups/singh-uiuc/" aria-label="Singh group: 4 papers (10%)"><path class="slice" d="M320,200 L435.2,120.5 A140,140 0 0 1 459.9,205.6 Z"><title>Singh group: 4 papers (10%)</title></path><polyline class="leader" points="456.4,160.5 480.0,156.0 490.0,156.0"/><rect class="pie-hit" x="494.0" y="148.5" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="160.0">Singh group <tspan class="value">4 (10%)</tspan></tspan></text></a><a class="pie-item pie-g2" href="../../groups/eran/" aria-label="ERAN: 3 papers (8%)"><path class="slice" d="M320,200 L459.9,205.6 A140,140 0 0 1 441.2,270.0 Z"><title>ERAN: 3 papers (8%)</title></path><polyline class="leader" points="456.4,239.5 480.0,244.0 490.0,244.0"/><rect class="pie-hit" x="494.0" y="236.5" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="248.0">ERAN <tspan class="value">3 (8%)</tspan></tspan></text></a><a class="pie-item pie-g3" href="../../groups/abcrown/" aria-label="α,β-CROWN: 2 papers (5%)"><path class="slice" d="M320,200 L441.2,270.0 A140,140 0 0 1 412.8,304.8 Z"><title>α,β-CROWN: 2 papers (5%)</title></path><polyline class="leader" points="430.0,289.8 480.0,299.9 490.0,299.9"/><rect class="pie-hit" x="494.0" y="292.4" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="303.9">α,β-CROWN <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g4" href="../../groups/jia-psu/" aria-label="Jia group: 2 papers (5%)"><path class="slice" d="M320,200 L412.8,304.8 A140,140 0 0 1 374.9,328.8 Z"><title>Jia group: 2 papers (5%)</title></path><polyline class="leader" points="395.9,320.0 480.0,333.5 490.0,333.5"/><rect class="pie-hit" x="494.0" y="326.0" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="337.5">Jia group <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g5" href="../../groups/marabou/" aria-label="Marabou: 2 papers (5%)"><path class="slice" d="M320,200 L374.9,328.8 A140,140 0 0 1 331.3,339.5 Z"><title>Marabou: 2 papers (5%)</title></path><polyline class="leader" points="354.0,337.9 480.0,353.4 490.0,353.4"/><rect class="pie-hit" x="494.0" y="345.9" width="200" height="15.0"/><text class="pie-label" text-anchor="start"><tspan x="494.0" y="357.4">Marabou <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g6" href="../../groups/alexandre-allauzen/" aria-label="MILES: 2 papers (5%)"><path class="slice" d="M320,200 L331.3,339.5 A140,140 0 0 1 286.5,335.9 Z"><title>MILES: 2 papers (5%)</title></path><polyline class="leader" points="308.6,341.5 160.0,360.4 150.0,360.4"/><rect class="pie-hit" x="-54.0" y="352.9" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="364.4">MILES <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g7" href="../../groups/marco-salzer/" aria-label="Marco Sälzer group: 2 papers (5%)"><path class="slice" d="M320,200 L286.5,335.9 A140,140 0 0 1 245.2,318.3 Z"><title>Marco Sälzer group: 2 papers (5%)</title></path><polyline class="leader" points="264.3,330.6 160.0,345.4 150.0,345.4"/><rect class="pie-hit" x="-54.0" y="337.9" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="349.4">Marco Sälzer group <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g8" href="../../groups/martin-lange/" aria-label="Martin Lange group: 2 papers (5%)"><path class="slice" d="M320,200 L245.2,318.3 A140,140 0 0 1 211.6,288.5 Z"><title>Martin Lange group: 2 papers (5%)</title></path><polyline class="leader" points="225.8,306.3 160.0,318.3 150.0,318.3"/><rect class="pie-hit" x="-54.0" y="310.8" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="322.3">Martin Lange group <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-g9" href="../../groups/hongwei-jin/" aria-label="Hongwei Jin group: 2 papers (5%)"><path class="slice" d="M320,200 L211.6,288.5 A140,140 0 0 1 189.1,249.6 Z"><title>Hongwei Jin group: 2 papers (5%)</title></path><polyline class="leader" points="197.0,271.0 160.0,279.0 150.0,279.0"/><rect class="pie-hit" x="-54.0" y="271.5" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="283.0">Hongwei Jin group <tspan class="value">2 (5%)</tspan></tspan></text></a><a class="pie-item pie-rest" href="../" aria-label="Other groups: 12 papers (31%)"><path class="slice" d="M320,200 L189.1,249.6 A140,140 0 0 1 320.0,60.0 Z"><title>Other groups: 12 papers (31%)</title></path><polyline class="leader" points="203.1,119.3 160.0,110.2 150.0,110.2"/><rect class="pie-hit" x="-54.0" y="102.7" width="200" height="15.0"/><text class="pie-label" text-anchor="end"><tspan x="146.0" y="114.2">Other groups <tspan class="value">12 (31%)</tspan></tspan></text></a></svg>
+<figcaption>Papers by leading group, largest first (clockwise from the top).</figcaption>
+</figure>
+</div>
+<div class="fig-row">
+<div>
+<h2>Leading researchers</h2>
+<ol><li><a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a> <span class="note">(DAML)</span>: 6</li><li><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a> <span class="note">(Singh group)</span>: 4</li><li><a href="/researchers/martin-vechev/">Martin Vechev</a> <span class="note">(ERAN)</span>: 3</li><li><a href="/researchers/huan-zhang/">Huan Zhang</a> <span class="note">(α,β-CROWN)</span>: 2</li><li><a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a> <span class="note">(DAML)</span>: 2</li><li><a href="/researchers/binghui-wang/">Binghui Wang</a> <span class="note">(Jia group)</span>: 2</li><li><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a> <span class="note">(DAML)</span>: 2</li><li><a href="/researchers/yan-scholten/">Yan Scholten</a> <span class="note">(DAML)</span>: 2</li><li><a href="/researchers/marco-salzer/">Marco Sälzer</a> <span class="note">(Marco Sälzer group)</span>: 2</li><li><a href="/researchers/martin-lange/">Martin Lange</a> <span class="note">(Martin Lange group)</span>: 2</li></ol>
+</div>
+<div>
+<h2>Leading groups</h2>
+<ol><li><a href="/groups/daml/">DAML</a>: 6</li><li><a href="/groups/singh-uiuc/">Singh group</a>: 4</li><li><a href="/groups/eran/">ERAN</a>: 3</li><li><a href="/groups/abcrown/">α,β-CROWN</a>: 2</li><li><a href="/groups/jia-psu/">Jia group</a>: 2</li><li><a href="/groups/marabou/">Marabou</a>: 2</li><li><a href="/groups/alexandre-allauzen/">MILES</a>: 2</li><li><a href="/groups/marco-salzer/">Marco Sälzer group</a>: 2</li><li><a href="/groups/martin-lange/">Martin Lange group</a>: 2</li><li><a href="/groups/hongwei-jin/">Hongwei Jin group</a>: 2</li></ol>
+</div>
+</div>
+<h2>Papers</h2>
+
+<ul class="papers">
+	<li id="hekal2026end">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://openreview.net/forum?id=SHNolnMBUT">End-to-End Verification of Neuro-symbolic Automata via Contrastive Logit-Gaps</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Abdelrahman Hekal, Vasileios Manginas, Nikolaos Manginas, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span>
+	</li>
+	<li id="delattre2026joint">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://openreview.net/forum?id=RhmrtYOQxz">Joint Certification for Attributed Graphs: Beyond Topology-Only Robustness</a>
+		<br><span class="authors"><a href="/researchers/blaise-delattre/">Blaise Delattre</a>, Hengyu WU, Wei Yang Bryan Lim, Yang Cao</span>
+	</li>
+	<li id="cullen2026what">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://openreview.net/forum?id=zdRy5kB5qm">What Was That Again? Certified Robustness for Automatic Speech Recognition</a> <span class="note">(<a href="https://arxiv.org/abs/2606.27698">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors"><a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/neil-g-marchant/">Neil G. Marchant</a>, Jiani Xie, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span>
+	</li>
+	<li id="yudin2026pay">
+		<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-37258-1_14">Pay Attention to Attention Distribution: A New Local Lipschitz Bound for Transformers</a> <span class="note">(<a href="https://arxiv.org/abs/2507.07814">arXiv</a>)</span> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors">Nikolay Yudin, Sergei Kudriashov, Alexander Gaponov, Maxim V. Rakhuba</span>
+	</li>
+	<li id="jiang2026synthesis">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2026/434">Synthesis and Verification of Transformer Programs</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Hongjian Jiang, Matthew Hague, Philipp Rümmer, Anthony W. Lin</span>
+	</li>
+	<li id="gosch2026certifying">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://openreview.net/forum?id=kQuvO5gaNr">Certifying Graph Neural Networks Against Label and Structure Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2611.03350">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Lukas Gosch, Xichuan Chen, <a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="liu2026atkverifier">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-32526-6_24">ATKVerifier: Adaptive Top-K Constraints for Tighter Verification of Semantic Segmentation Networks</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/yuehao-liu/">Yuehao Liu</a>, <a href="/researchers/cong-tian/">Cong Tian</a>, <a href="/researchers/yansong-dong/">Yansong Dong</a>, <a href="/researchers/liang-zhao/">Liang Zhao</a>, <a href="/researchers/chao-huang/">Chao Huang</a>, <a href="/researchers/wensheng-wang/">Wensheng Wang</a></span>
+	</li>
+	<li id="liu2026precise">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-32526-6_25">Precise Verification of Transformers Through ReLU-Catalyzed Abstraction Refinement</a> <span class="note">(<a href="https://arxiv.org/abs/2605.14294">arXiv</a>)</span> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors">Hengjie Liu, <a href="/researchers/zhenya-zhang/">Zhenya Zhang</a>, <a href="/researchers/jianjun-zhao/">Jianjun Zhao</a></span>
+	</li>
+	<li id="wang2026how">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WangCHRGS26">How Catastrophic is Your LLM? Certifying Risks in Conversation</a>
+		<br><span class="authors">Chengxiao Wang, <a href="/researchers/isha-chaudhary/">Isha Chaudhary</a>, <a href="/researchers/qian-hu/">Qian Hu</a>, Weitong Ruan, <a href="/researchers/rahul-gupta/">Rahul Gupta</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="shen2025reliabilityrag">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ShenIWXMK25">ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search</a> <span class="note cites">&middot; 38 citations</span>
+		<br><span class="authors">Zeyu Shen, Basileal Imana, Tong Wu, <a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a>, Aleksandra Korolova</span>
+	</li>
+	<li id="li2025agnncert">
+		<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/uss/LiW25">AGNNCert: Defending Graph Neural Networks against Arbitrary Perturbations with Deterministic Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2502.00765">arXiv</a>)</span> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="li2025deterministic">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://doi.org/10.1109/cvpr52734.2025.00473">Deterministic Certification of Graph Neural Networks against Graph Poisoning Attacks with Arbitrary Perturbations</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/meng-pang/">Meng Pang</a>, <a href="/researchers/yun-dong/">Yun Dong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="chaudhary2025certifying">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/ChaudharyH0Z0025">Certifying Counterfactual Bias in LLMs</a> <span class="note">(<a href="https://arxiv.org/abs/2405.18780">arXiv</a>)</span> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors"><a href="/researchers/isha-chaudhary/">Isha Chaudhary</a>, <a href="/researchers/qian-hu/">Qian Hu</a>, Manoj Kumar, Morteza Ziyadi, <a href="/researchers/rahul-gupta/">Rahul Gupta</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="emde2025shh">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/EmdePAKRL0B25">Shh, don&#39;t say that! Domain Certification in LLMs</a>
+		<br><span class="authors"><a href="/researchers/cornelius-emde/">Cornelius Emde</a>, Alasdair Paren, Preetham Arvind, Maxime Guillaume Kayser, <a href="/researchers/tom-rainforth/">Tom Rainforth</a>, <a href="/researchers/thomas-lukasiewicz/">Thomas Lukasiewicz</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/adel-bibi/">Adel Bibi</a></span>
+	</li>
+	<li id="salzer2025transformer">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SalzerAL25">Transformer Encoder Satisfiability: Complexity and Impact on Formal Reasoning</a> <span class="note">(<a href="https://arxiv.org/abs/2405.18548">arXiv</a>)</span> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/eric-alsmann/">Eric Alsmann</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span>
+	</li>
+	<li id="havens2024fine">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/icml/HavensAZ024">Fine-grained Local Sensitivity Analysis of Standard Dot-Product Self-Attention</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span>
+	</li>
+	<li id="hojny2024verifying">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+		<a href="https://dblp.org/rec/conf/icml/HojnyZCM24">Verifying message-passing neural networks via topology-based bounds tightening</a> <span class="note">(<a href="https://arxiv.org/abs/2402.13937">arXiv</a>)</span> <span class="note cites">&middot; 23 citations</span>
+		<br><span class="authors">Christopher Hojny, Shiqiang Zhang, Juan S. Campos, <a href="/researchers/ruth-misener/">Ruth Misener</a></span>
+	</li>
+	<li id="schuchardt2023provable">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/SchuchardtSG23">(Provable) Adversarial Robustness for Group Equivariant Tasks: Graphs, Point Clouds, Molecules, and More</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="zeqiri2023efficient">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/ZeqiriM0V23">Efficient Certified Training and Robustness Verification of Neural ODEs</a> <span class="note">(<a href="https://arxiv.org/abs/2303.05246">arXiv</a>)</span>
+		<br><span class="authors">Mustafa Zeqiri, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="salzer2023fundamental">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SalzerL23">Fundamental Limits in Formal Verification of Message-Passing Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2206.05070">arXiv</a>)</span> <span class="note cites">&middot; 16 citations</span>
+		<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span>
+	</li>
+	<li id="jin2022certifying">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/JinYZ22">Certifying Robust Graph Classification under Orthogonal Gromov-Wasserstein Threats</a> <span class="note cites">&middot; 5 citations</span>
+		<br><span class="authors"><a href="/researchers/hongwei-jin/">Hongwei Jin</a>, Zishun Yu, <a href="/researchers/xinhua-zhang/">Xinhua Zhang</a></span>
+	</li>
+	<li id="wu2022scalable">
+		<a class="tag-link" href="/conferences/oopsla/"><span class="tag accepted">OOPSLA 2022</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3563325">Scalable verification of GNN-based job schedulers</a> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors"><a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a>, Mahmood Sharif, <a href="/researchers/nina-narodytska/">Nina Narodytska</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="du2021cert">
+		<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2021</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1145/3460120.3484538">Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks</a> <span class="note cites">&middot; 53 citations</span>
+		<br><span class="authors"><a href="/researchers/tianyu-du/">Tianyu Du</a>, Shouling Ji, Lujia Shen, Yao Zhang, Jinfeng Li, Jie Shi, Chengfang Fang, Jianwei Yin, Raheem Beyah, <a href="/researchers/ting-wang/">Ting Wang</a></span>
+	</li>
+	<li id="christakis2021automated">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_9">Automated Safety Verification of Programs Invoking Neural Networks</a> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors"><a href="/researchers/maria-christakis/">Maria Christakis</a>, Hasan Ferit Eniser, <a href="/researchers/holger-hermanns/">Holger Hermanns</a>, <a href="/researchers/jorg-hoffmann/">Jörg Hoffmann</a>, Yugesh Kothari, <a href="/researchers/jianlin-li/">Jianlin Li</a>, Jorge A. Navas, <a href="/researchers/valentin-wustholz/">Valentin Wüstholz</a></span>
+	</li>
+	<li id="ryou2021scalable">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_10">Scalable Polyhedral Verification of Recurrent Neural Networks</a> <span class="note cites">&middot; 64 citations</span>
+		<br><span class="authors">Wonryong Ryou, Jiayu Chen, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, Andrei Marian Dan, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="bonaert2021fast">
+		<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2021</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3453483.3454056">Fast and precise certification of transformers</a> <span class="note cites">&middot; 62 citations</span>
+		<br><span class="authors"><a href="/researchers/gregory-bonaert/">Gregory Bonaert</a>, <a href="/researchers/dimitar-i-dimitrov/">Dimitar I. Dimitrov</a>, <a href="/researchers/maximilian-baader/">Maximilian Baader</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="schuchardt2021collective">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SchuchardtBKG21">Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2302.02829">arXiv</a>)</span> <span class="note cites">&middot; 19 citations</span>
+		<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/johannes-klicpera/">Johannes Klicpera</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="jin2020certified">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/JinSPZ20">Certified Robustness of Graph Convolution Networks for Graph Classification under Topological Attacks</a> <span class="note cites">&middot; 57 citations</span>
+		<br><span class="authors"><a href="/researchers/hongwei-jin/">Hongwei Jin</a>, Zhan Shi, Venkata Jaya Shankar Ashish Peruri, <a href="/researchers/xinhua-zhang/">Xinhua Zhang</a></span>
+	</li>
+	<li id="zugner2020certifiable">
+		<a class="tag-link" href="/conferences/kdd/"><span class="tag accepted">KDD 2020</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3394486.3403217">Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations</a>
+		<br><span class="authors"><a href="/researchers/daniel-zugner/">Daniel Zügner</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="wu2020robustness">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2020</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1109/cvpr42600.2020.00039">Robustness Guarantees for Deep Neural Networks on Videos</a> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors"><a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a></span>
+	</li>
+	<li id="shi2020robustness">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/ShiZCHH20">Robustness Verification for Transformers</a> <span class="note">(<a href="https://arxiv.org/abs/2002.06622">arXiv</a>)</span> <span class="note cites">&middot; 123 citations</span>
+		<br><span class="authors"><a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/kai-wei-chang/">Kai-Wei Chang</a>, <a href="/researchers/minlie-huang/">Minlie Huang</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span>
+	</li>
+	<li id="bojchevski2019certifiable">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2019</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/BojchevskiG19">Certifiable Robustness to Graph Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/1910.14356">arXiv</a>)</span> <span class="note cites">&middot; 162 citations</span>
+		<br><span class="authors"><a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="zugner2019certifiable">
+		<a class="tag-link" href="/conferences/kdd/"><span class="tag accepted">KDD 2019</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3292500.3330905">Certifiable Robustness and Robust Training for Graph Convolutional Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1906.12269">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/daniel-zugner/">Daniel Zügner</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="ko2019popqorn">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2019</span></a>
+		<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://dblp.org/rec/conf/icml/KoLWDWL19">POPQORN: Quantifying Robustness of Recurrent Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1905.07387">arXiv</a>)</span> <span class="note cites">&middot; 88 citations</span>
+		<br><span class="authors"><a href="/researchers/ching-yun-ko/">Ching-Yun Ko</a>, <a href="/researchers/zhaoyang-lyu/">Zhaoyang Lyu</a>, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a>, <a href="/researchers/ngai-wong/">Ngai Wong</a>, <a href="/researchers/dahua-lin/">Dahua Lin</a></span>
+	</li>
+	<li id="luca2026certification">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://openreview.net/forum?id=hRqL7vRChh">Certification from Examples is Hard for Circuits and Transformers under Minimal Overparametrization</a> <span class="note">(<a href="https://arxiv.org/abs/2605.22964">arXiv</a>)</span> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Artur Back de Luca, Kimon Fountoulakis</span>
+	</li>
+	<li id="bruckner2026ioucert">
+		<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2026</span></a>
+		<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-37574-2_20">IoUCert: Robustness Verification for Anchor-Based Object Detectors</a> <span class="note">(<a href="https://arxiv.org/abs/2603.03043">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/benedikt-bruckner/">Benedikt Brückner</a>, <a href="/researchers/alejandro-j-mercado/">Alejandro J. Mercado</a>, <a href="/researchers/yanghao-zhang/">Yanghao Zhang</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span>
+	</li>
+	<li id="marzari2026probabilisticb">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2026/30">Probabilistic Verification of Recurrent Neural Networks for Single and Multi-Agent Reinforcement Learning</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/luca-marzari/">Luca Marzari</a>, Enrico Marchesini</span>
+	</li>
+	<li id="alfano2026semifactual">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2026</span></a>
+		<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2026/459">Semifactual Explanations for GNN-based Classification: Formal Foundations, Complexity and Computation</a> <span class="note cites">&middot; 1 citation</span>
+		<br><span class="authors">Gianvincenzo Alfano, Sergio Greco, Domenico Mandaglio, Francesco Parisi, Reza Shahbazian, Irina Trubitsyna</span>
+	</li>
+	<li id="yang2026semantic">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2026</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://openreview.net/forum?id=OXjToUQDz1">Semantic Robustness Certification for Vision-Language Models</a> <span class="note">(<a href="https://arxiv.org/abs/2606.18839">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors">Peiyu Yang, <a href="/researchers/paul-montague/">Paul Montague</a>, Feng Liu, <a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, Amar Kaur, Christopher Leckie, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a></span>
+	</li>
+	<li id="ladner2026perception">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2026</span></a>
+		<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1007/978-3-032-32537-2_23">Perception with Guarantees: Certified Pose Estimation via Reachability Analysis</a> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/tobias-ladner/">Tobias Ladner</a>, <a href="/researchers/yasser-shoukry/">Yasser Shoukry</a>, <a href="/researchers/matthias-althoff/">Matthias Althoff</a></span>
+	</li>
+	<li id="liu2026certifying">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2026</span></a>
+		<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/LiuYLCZ26">Certifying the Full YOLO Pipeline: A Probabilistic Verification Approach</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors"><a href="/researchers/zongxin-liu/">Zongxin Liu</a>, Lijia Yu, Tao Lin, <a href="/researchers/zhiming-chi/">Zhiming Chi</a>, <a href="/researchers/lijun-zhang/">Lijun Zhang</a></span>
+	</li>
+	<li id="zhou2026certified">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i16.38377">Certified L2-Norm Robustness of 3D Point Cloud Recognition in the Frequency Domain</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Liang Zhou, Qiming Wang, Tianze Chen</span>
+	</li>
+	<li id="huang2026parameterized">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i42.40860">Parameterized Abstract Interpretation for Transformer Verification</a> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/pei-huang/">Pei Huang</a>, Dennis Wei, <a href="/researchers/omri-isac/">Omri Isac</a>, <a href="/researchers/haoze-wu/">Haoze Wu</a>, <a href="/researchers/min-wu/">Min Wu</a>, <a href="/researchers/clark-barrett/">Clark Barrett</a></span>
+	</li>
+	<li id="lin2026tighter">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2026</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v40i28.39533">Tighter Truncated Rectangular Prism Approximation for RNN Robustness Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2511.11699">arXiv</a>)</span> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Xingqi Lin, Liangyu Chen, Min Wu, <a href="/researchers/min-zhang/">Min Zhang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a></span>
+	</li>
+	<li id="kang2025c">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/KangCL25">C-SafeGen: Certified Safe LLM Generation with Claim-Based Streaming Guardrails</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, Zhaorun Chen, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="hashemi2025scaling">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/HashemiSOMJ25">Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/navid-hashemi/">Navid Hashemi</a>, <a href="/researchers/samuel-sasaki/">Samuel Sasaki</a>, Ipek Oguz, Meiyi Ma, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+	<li id="morris2025sound">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+		<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/MorrisH25">Sound Logical Explanations for Mean Aggregation Graph Neural Networks</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Matthew Morris, <a href="/researchers/ian-horrocks/">Ian Horrocks</a></span>
+	</li>
+	<li id="yang2025graphprot">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2025/70">GraphProt: Certified Black-Box Shielding Against Backdoored Graph Models</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Xiao Yang, <a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/kai-zhou/">Kai Zhou</a>, Gaolei Li, Jianhua Li, Hang Zhang</span>
+	</li>
+	<li id="salzer2025verifying">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2025</span></a>
+		<a class="tag-link" href="/areas/quantized/"><span class="tag other">Quantized &amp; bit-level</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2025/519">Verifying Quantized Graph Neural Networks is PSPACE-complete</a> <span class="note cites">&middot; 4 citations</span>
+		<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, François Schwarzentruber, Nicolas Troquard</span>
+	</li>
+	<li id="azzolin2025beyond">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2025</span></a>
+		<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/icml/AzzolinMPT25">Beyond Topological Self-Explainable GNNs: A Formal Explainability Perspective</a> <span class="note">(<a href="https://arxiv.org/abs/2502.02719">arXiv</a>)</span> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors">Steve Azzolin, <a href="/researchers/sagar-malhotra/">Sagar Malhotra</a>, Andrea Passerini, Stefano Teso</span>
+	</li>
+	<li id="rocamora2025certified">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/Abad-Rocamora0C25">Certified Robustness Under Bounded Levenshtein Distance</a> <span class="note">(<a href="https://arxiv.org/abs/2501.13676">arXiv</a>)</span> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors"><a href="/researchers/elias-abad-rocamora/">Elías Abad-Rocamora</a>, <a href="/researchers/grigorios-chrysos/">Grigorios Chrysos</a>, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span>
+	</li>
+	<li id="he2025certifying">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/HeYZ0HY025">Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2502.06892">arXiv</a>)</span> <span class="note cites">&middot; 8 citations</span>
+		<br><span class="authors">Bowei He, Lihao Yin, Hui-Ling Zhen, Jianping Zhang, Lanqing Hong, Mingxuan Yuan, Chen Ma</span>
+	</li>
+	<li id="sabanayagam2025exact">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a> <span class="tag other">spotlight</span> 🎉
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/SabanayagamGGG25">Exact Certification of (Graph) Neural Networks Against Label Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2412.00537">arXiv</a>)</span> <span class="note cites">&middot; 11 citations</span>
+		<br><span class="authors">Mahalakshmi Sabanayagam, Lukas Gosch, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a>, Debarghya Ghoshdastidar</span>
+	</li>
+	<li id="li2025provably">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/LiPD0W25">Provably Robust Explainable Graph Neural Networks against Graph Perturbation Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2502.04224">arXiv</a>)</span> <span class="note cites">&middot; 15 citations</span>
+		<br><span class="authors"><a href="/researchers/jiate-li/">Jiate Li</a>, <a href="/researchers/meng-pang/">Meng Pang</a>, <a href="/researchers/yun-dong/">Yun Dong</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="xu2025support">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2025</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/XuBV025">Support is All You Need for Certified VAE Training</a> <span class="note">(<a href="https://arxiv.org/abs/2504.11831">arXiv</a>)</span> <span class="note cites">&middot; 2 citations</span>
+		<br><span class="authors"><a href="/researchers/changming-xu/">Changming Xu</a>, <a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, Deepak Vasisht, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span>
+	</li>
+	<li id="korzh2025certification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2025</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v39i17.33974">Certification of Speaker Recognition Models to Additive Perturbations</a> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors">Dmitrii Korzh, Elvir Karimov, <a href="/researchers/mikhail-pautov/">Mikhail Pautov</a>, Oleg Y. Rogov, <a href="/researchers/ivan-v-oseledets/">Ivan V. Oseledets</a></span>
+	</li>
+	<li id="gao2024certified">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/GaoHXL24">Certified Robustness for Deep Equilibrium Models via Serialized Random Smoothing</a> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors">Weizhi Gao, Zhichao Hou, Han Xu, Xiaorui Liu</span>
+	</li>
+	<li id="yang2024fedgmark">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/YangLHW24">FedGMark: Certifiably Robust Watermarking for Federated Graph Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2410.17533">arXiv</a>)</span>
+		<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="yang2024distributed">
+		<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2024</span></a>
+		<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3658644.3690187">Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses</a> <span class="note cites">&middot; 43 citations</span>
+		<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span>
+	</li>
+	<li id="zhang2024protip">
+		<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-73411-3_26">ProTIP: Probabilistic Robustness Verification on Text-to-Image Diffusion Models Against Stochastic Perturbation</a> <span class="note">(<a href="https://arxiv.org/abs/2402.15429">arXiv</a>)</span> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors">Yi Zhang, Yun Tang, <a href="/researchers/wenjie-ruan/">Wenjie Ruan</a>, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a>, Siddartha Khastgir, Paul A. Jennings, Xingyu Zhao</span>
+	</li>
+	<li id="kang2024c">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/icml/KangGYS024">C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models</a> <span class="note">(<a href="https://arxiv.org/abs/2402.03181">arXiv</a>)</span> <span class="note cites">&middot; 65 citations</span>
+		<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/nezihe-merve-gurel/">Nezihe Merve Gürel</a>, Ning Yu, <a href="/researchers/dawn-song/">Dawn Song</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="lai2024collective">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/icml/LaiPCY024">Collective Certified Robustness against Graph Injection Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2403.01423">arXiv</a>)</span> <span class="note cites">&middot; 7 citations</span>
+		<br><span class="authors"><a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/bailin-pan/">Bailin Pan</a>, Kaihuang Chen, Yancheng Yuan, <a href="/researchers/kai-zhou/">Kai Zhou</a></span>
+	</li>
+	<li id="wang2024mmcert">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1109/cvpr52733.2024.02328">MMCert: Provable Defense Against Adversarial Attacks to Multi-Modal Models</a> <span class="note cites">&middot; 26 citations</span>
+		<br><span class="authors"><a href="/researchers/yanting-wang/">Yanting Wang</a>, Hongye Fu, <a href="/researchers/wei-zou/">Wei Zou</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span>
+	</li>
+	<li id="mukhoty2024certified">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/MukhotyAMX024">Certified Adversarial Robustness for Rate Encoded Spiking Neural Networks</a> <span class="note cites">&middot; 11 citations</span>
+		<br><span class="authors">Bhaskar Mukhoty, Hilal AlQuabeh, Giulia De Masi, Huan Xiong, Bin Gu</span>
+	</li>
+	<li id="kang2024colep">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/KangGL024">COLEP: Certifiably Robust Learning-Reasoning Conformal Prediction via Probabilistic Circuits</a> <span class="note">(<a href="https://arxiv.org/abs/2403.11348">arXiv</a>)</span> <span class="note cites">&middot; 14 citations</span>
+		<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, <a href="/researchers/nezihe-merve-gurel/">Nezihe Merve Gürel</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="xia2024gnncert">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2024</span></a> <span class="tag other">oral</span> 🎉
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/XiaYWJ24">GNNCert: Deterministic Certification of Graph Neural Networks against Adversarial Perturbations</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Zaishuo Xia, Han Yang, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span>
+	</li>
+	<li id="lai2024node">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1109/sp54263.2024.00241">Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks</a> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors"><a href="/researchers/yuni-lai/">Yuni Lai</a>, <a href="/researchers/yulin-zhu/">Yulin Zhu</a>, <a href="/researchers/bailin-pan/">Bailin Pan</a>, <a href="/researchers/kai-zhou/">Kai Zhou</a></span>
+	</li>
+	<li id="zhang2024text">
+		<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1109/sp54263.2024.00053">Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks</a> <span class="note cites">&middot; 69 citations</span>
+		<br><span class="authors">Xinyu Zhang, <a href="/researchers/hanbin-hong/">Hanbin Hong</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, Peng Huang, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/zhongjie-ba/">Zhongjie Ba</a>, <a href="/researchers/kui-ren/">Kui Ren</a></span>
+	</li>
+	<li id="lin2023certifiably">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LinXDZW23">Certifiably Robust Graph Contrastive Learning</a> <span class="note cites">&middot; 34 citations</span>
+		<br><span class="authors">Minhua Lin, Teng Xiao, Enyan Dai, Xiang Zhang, Suhang Wang</span>
+	</li>
+	<li id="havens2023exploiting">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/HavensAGK023">Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models</a> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors"><a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/siddharth-garg/">Siddharth Garg</a>, <a href="/researchers/farshad-khorrami/">Farshad Khorrami</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span>
+	</li>
+	<li id="huang2023rs">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/HuangMLBOR23">RS-Del: Edit Distance Robustness Certificates for Sequence Classifiers via Randomized Deletion</a> <span class="note cites">&middot; 35 citations</span>
+		<br><span class="authors"><a href="/researchers/zhuoqun-huang/">Zhuoqun Huang</a>, <a href="/researchers/neil-g-marchant/">Neil G. Marchant</a>, Keane Lucas, Lujo Bauer, <a href="/researchers/olga-ohrimenko/">Olga Ohrimenko</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span>
+	</li>
+	<li id="ye2023unit">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2023</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/Ye0ZDCWM23">UniT: A Unified Look at Certified Robust Training against Text Adversarial Perturbation</a> <span class="note cites">&middot; 6 citations</span>
+		<br><span class="authors">Muchao Ye, Ziyi Yin, Tianrong Zhang, <a href="/researchers/tianyu-du/">Tianyu Du</a>, Jinghui Chen, <a href="/researchers/ting-wang/">Ting Wang</a>, Fenglong Ma</span>
+	</li>
+	<li id="zhang2023trajpac">
+		<a class="tag-link" href="/conferences/iccv/"><span class="tag accepted">ICCV 2023</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1109/iccv51070.2023.00765">TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models</a> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors"><a href="/researchers/liang-zhang/">Liang Zhang</a>, <a href="/researchers/nathaniel-xu/">Nathaniel Xu</a>, <a href="/researchers/pengfei-yang/">Pengfei Yang</a>, <a href="/researchers/gaojie-jin/">Gaojie Jin</a>, <a href="/researchers/cheng-chao-huang/">Cheng-Chao Huang</a>, <a href="/researchers/lijun-zhang/">Lijun Zhang</a></span>
+	</li>
+	<li id="muller2023abstract">
+		<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2023</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1145/3591252">Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2110.08260">arXiv</a>)</span> <span class="note cites">&middot; 10 citations</span>
+		<br><span class="authors"><a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/robin-staab/">Robin Staab</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="yatsura2023certified">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/YatsuraSH0M23">Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation</a> <span class="note">(<a href="https://arxiv.org/abs/2209.05980">arXiv</a>)</span> <span class="note cites">&middot; 21 citations</span>
+		<br><span class="authors"><a href="/researchers/maksym-yatsura/">Maksym Yatsura</a>, Kaspar Sakmann, N. Grace Hua, <a href="/researchers/matthias-hein/">Matthias Hein</a>, <a href="/researchers/jan-hendrik-metzen/">Jan Hendrik Metzen</a></span>
+	</li>
+	<li id="yang2022improving">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/YangZWZLPKLGZL22">Improving Certified Robustness via Statistical Learning with Logical Reasoning</a> <span class="note cites">&middot; 24 citations</span>
+		<br><span class="authors"><a href="/researchers/zhuolin-yang/">Zhuolin Yang</a>, <a href="/researchers/zhikuan-zhao/">Zhikuan Zhao</a>, <a href="/researchers/boxin-wang/">Boxin Wang</a>, <a href="/researchers/jiawei-zhang/">Jiawei Zhang</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/hengzhi-pei/">Hengzhi Pei</a>, <a href="/researchers/bojan-karlas/">Bojan Karlas</a>, Ji Liu, Heng Guo, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span>
+	</li>
+	<li id="scholten2022randomized">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ScholtenSGBG22">Randomized Message-Interception Smoothing: Gray-box Certificates for Graph Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2301.02039">arXiv</a>)</span> <span class="note cites">&middot; 32 citations</span>
+		<br><span class="authors"><a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, Simon Geisler, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="rocamora2022sound">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/Abad-RocamoraS022">Sound and Complete Verification of Polynomial Networks</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors"><a href="/researchers/elias-abad-rocamora/">Elías Abad-Rocamora</a>, Mehmet Fatih Sahin, Fanghui Liu, <a href="/researchers/grigorios-chrysos/">Grigorios Chrysos</a>, <a href="/researchers/volkan-cevher/">Volkan Cevher</a></span>
+	</li>
+	<li id="liang2022toward">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2022</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/LiangX00022">Toward Robust Spiking Neural Network Against Adversarial Perturbation</a> <span class="note cites">&middot; 32 citations</span>
+		<br><span class="authors"><a href="/researchers/ling-liang/">Ling Liang</a>, <a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/xing-hu/">Xing Hu</a>, Lei Deng, Yuan Xie</span>
+	</li>
+	<li id="li2022vip">
+		<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1007/978-3-031-19806-9_33">ViP: Unified Certified Detection and Recovery for Patch Attack with Vision Transformers</a> <span class="note cites">&middot; 15 citations</span>
+		<br><span class="authors">Junbo Li, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Cihang Xie</span>
+	</li>
+	<li id="li2022cerdeq">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/icml/Li0L22">CerDEQ: Certifiable Deep Equilibrium Model</a> <span class="note cites">&middot; 11 citations</span>
+		<br><span class="authors">Mingjie Li, <a href="/researchers/yisen-wang/">Yisen Wang</a>, Zhouchen Lin</span>
+	</li>
+	<li id="salman2022certified">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1109/cvpr52688.2022.01471">Certified Patch Robustness via Smoothed Vision Transformers</a> <span class="note cites">&middot; 75 citations</span>
+		<br><span class="authors"><a href="/researchers/hadi-salman/">Hadi Salman</a>, Saachi Jain, <a href="/researchers/eric-wong/">Eric Wong</a>, <a href="/researchers/aleksander-madry/">Aleksander Madry</a></span>
+	</li>
+	<li id="chen2022towards">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2022</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+		<a href="https://doi.org/10.1109/cvpr52688.2022.01472">Towards Practical Certifiable Patch Defense with Vision Transformer</a> <span class="note cites">&middot; 92 citations</span>
+		<br><span class="authors">Zhaoyu Chen, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Wenqiang Zhang</span>
+	</li>
+	<li id="wei2022certified">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+		<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WeiK22">Certified Robustness for Deep Equilibrium Models via Interval Bound Propagation</a> <span class="note cites">&middot; 0 citations</span>
+		<br><span class="authors">Colin Wei, <a href="/researchers/zico-kolter/">Zico Kolter</a></span>
+	</li>
+	<li id="gruenbacher2022gotube">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v36i6.20631">GoTube: Scalable Statistical Verification of Continuous-Depth Models</a> <span class="note cites">&middot; 18 citations</span>
+		<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, Daniela Rus, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span>
+	</li>
+	<li id="chen2021semialgebraic">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2021</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ChenLMP21">Semialgebraic Representation of Monotone Deep Equilibrium Models and Applications to Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2106.01453">arXiv</a>)</span> <span class="note cites">&middot; 26 citations</span>
+		<br><span class="authors"><a href="/researchers/tong-chen/">Tong Chen</a>, <a href="/researchers/jean-b-lasserre/">Jean B. Lasserre</a>, <a href="/researchers/victor-magron/">Victor Magron</a>, <a href="/researchers/edouard-pauwels/">Edouard Pauwels</a></span>
+	</li>
+	<li id="lorenz2021robustness">
+		<a class="tag-link" href="/conferences/iccv/"><span class="tag accepted">ICCV 2021</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+		<a href="https://doi.org/10.1109/iccv48922.2021.00751">Robustness Certification for Point Cloud Models</a> <span class="note cites">&middot; 31 citations</span>
+		<br><span class="authors"><a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a href="/researchers/anian-ruoss/">Anian Ruoss</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span>
+	</li>
+	<li id="tran2021robustness">
+		<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2021</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+		<a href="https://doi.org/10.1007/978-3-030-81685-8_12">Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability</a> <span class="note cites">&middot; 65 citations</span>
+		<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, Neelanjana Pal, <a href="/researchers/patrick-musau/">Patrick Musau</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, Nathaniel Hamilton, <a href="/researchers/xiaodong-yang/">Xiaodong Yang</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span>
+	</li>
+	<li id="pabbaraju2021estimating">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+		<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/PabbarajuWK21">Estimating Lipschitz constants of monotone deep equilibrium models</a> <span class="note cites">&middot; 17 citations</span>
+		<br><span class="authors">Chirag Pabbaraju, <a href="/researchers/ezra-winston/">Ezra Winston</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span>
+	</li>
+	<li id="gruenbacher2021verification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2021</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v35i13.17372">On the Verification of Neural ODEs with Stochastic Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2012.08863">arXiv</a>)</span> <span class="note cites">&middot; 38 citations</span>
+		<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, Jacek Cyranka, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span>
+	</li>
+	<li id="chiang2020detection">
+		<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2020</span></a>
+		<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/nips/ChiangCAK0G20">Detection as Regression: Certified Object Detection with Median Smoothing</a>
+		<br><span class="authors"><a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, <a href="/researchers/michael-j-curry/">Michael J. Curry</a>, <a href="/researchers/ahmed-abdelkader/">Ahmed Abdelkader</a>, <a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/john-dickerson/">John Dickerson</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span>
+	</li>
+	<li id="bojchevski2020efficient">
+		<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/icml/BojchevskiKG20">Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More</a> <span class="note">(<a href="https://arxiv.org/abs/2008.12952">arXiv</a>)</span> <span class="note cites">&middot; 106 citations</span>
+		<br><span class="authors"><a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/johannes-klicpera/">Johannes Klicpera</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span>
+	</li>
+	<li id="carr2020verifiable">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2020</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2020/570">Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints</a> <span class="note">(<a href="https://arxiv.org/abs/2002.05615">arXiv</a>)</span> <span class="note cites">&middot; 54 citations</span>
+		<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span>
+	</li>
+	<li id="welbl2020towards">
+		<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2020</span></a>
+		<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://dblp.org/rec/conf/iclr/WelblHSGDSK20">Towards Verified Robustness under Text Deletion Interventions</a> <span class="note cites">&middot; 13 citations</span>
+		<br><span class="authors"><a href="/researchers/johannes-welbl/">Johannes Welbl</a>, <a href="/researchers/po-sen-huang/">Po-Sen Huang</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Martin Szummer, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span>
+	</li>
+	<li id="carr2019counterexample">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2019/768">Counterexample-Guided Strategy Improvement for POMDPs Using Recurrent Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1903.08428">arXiv</a>)</span> <span class="note cites">&middot; 43 citations</span>
+		<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, Ralf Wimmer, Alexandru Constantin Serban, Bernd Becker, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span>
+	</li>
+	<li id="cardelli2019statistical">
+		<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2019</span></a>
+		<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.24963/ijcai.2019/789">Statistical Guarantees for the Robustness of Bayesian Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1903.01980">arXiv</a>)</span> <span class="note cites">&middot; 74 citations</span>
+		<br><span class="authors"><a href="/researchers/luca-cardelli/">Luca Cardelli</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a>, <a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/nicola-paoletti/">Nicola Paoletti</a>, <a href="/researchers/andrea-patane/">Andrea Patanè</a>, <a href="/researchers/matthew-wicker/">Matthew Wicker</a></span>
+	</li>
+	<li id="wang2019knowing">
+		<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2019</span></a>
+		<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1109/cvpr.2019.01254">Knowing When to Stop: Evaluation and Verification of Conformity to Output-Size Specifications</a> <span class="note cites">&middot; 9 citations</span>
+		<br><span class="authors">Chenglong Wang, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, <a href="/researchers/po-sen-huang/">Po-Sen Huang</a>, <a href="/researchers/edward-grefenstette/">Edward Grefenstette</a>, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span>
+	</li>
+	<li id="akintunde2019verification">
+		<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2019</span></a>
+		<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+		<a href="https://doi.org/10.1609/aaai.v33i01.33016006">Verification of RNN-Based Neural Agent-Environment Systems</a> <span class="note cites">&middot; 79 citations</span>
+		<br><span class="authors"><a href="/researchers/michael-e-akintunde/">Michael E. Akintunde</a>, <a href="/researchers/andreea-kevorchian/">Andreea Kevorchian</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a>, <a href="/researchers/edoardo-pirovano/">Edoardo Pirovano</a></span>
+	</li>
+</ul>
+
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

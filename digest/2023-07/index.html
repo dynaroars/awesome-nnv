@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>July 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-07/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="July 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-07/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>July 2023</h1></header>
+<article>
+<p class="digest-intro">ASE 2023, ICCV 2023 and S&amp;P 2024 decisions: faster verification through network reduction and HOBAT&#39;s batch verification of homogeneous networks, Text-CRS certification against word-level textual attacks, TrajPAC for pedestrian trajectory prediction, and disaggregated measures of certified robustness.</p>
+<p>7 NNV papers accepted in July 2023, at ACL 2023, ASE 2023, DAC 2023, ICCV 2023 and S&amp;P 2024. 2 of them are placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">S&amp;P 2024 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="cullen2024it">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/sp54263.2024.00065">It&#39;s Simplex! Disaggregating Measures to Improve Certified Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/shijie-liu/">Shijie Liu</a>, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Argues that aggregate metrics hide per-sample behaviour of certified robustness and proposes dataset-independent and dataset-dependent analyses based on the output space of certified models; these lead to new certification approaches that certify 9% more samples at noise scale σ = 1.</p>
+</li>
+<li id="zhang2024text">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2024</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1109/sp54263.2024.00053">Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks</a>
+
+	<br><span class="authors">Xinyu Zhang, <a href="/researchers/hanbin-hong/">Hanbin Hong</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, Peng Huang, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/zhongjie-ba/">Zhongjie Ba</a>, <a href="/researchers/kui-ren/">Kui Ren</a></span><p class="digest-summary">Text-CRS certifies text classifiers against synonym substitution, word reordering, insertion and deletion via randomized smoothing, modelling each word-level operation as permutation plus embedding transformation with tailored noise distributions; it also gives the first certified accuracy benchmark for these four operations.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ASE 2023 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="zhong2023expediting">
+	<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/ase56229.2023.00081">Expediting Neural Network Verification via Network Reduction</a>
+
+	<br><span class="authors">Yuyi Zhong, Ruiwei Wang, Siau-Cheng Khoo</span><p class="digest-summary">Speeds up neural network verification by removing stable ReLU neurons and converting networks into sequential ReLU and affine layers before verification; applied with α,β-crown, VeriNet and PRIMA, it shrinks networks, accelerates verification and lets tools handle more architectures.</p>
+</li>
+<li id="li2023hobat">
+	<a class="tag-link" href="/conferences/ase/"><span class="tag accepted">ASE 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/ase56229.2023.00033">HOBAT: Batch Verification for Homogeneous Structural Neural Networks</a>
+
+	<br><span class="authors">Jingyang Li, Guoqiang Li</span><p class="digest-summary">HOBAT verifies batches of structurally homogeneous neural networks, such as candidates produced by continual learning, by abstracting same-position neurons across the batch into one neuron and refining iteratively; combined with bound propagation, it significantly improves on the vanilla approach.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ACL 2023 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="moon2023randomized">
+	<a class="tag-link" href="/conferences/acl/"><span class="tag accepted">ACL 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.18653/v1/2023.acl-long.282">Randomized Smoothing with Masked Inference for Adversarially Robust Text Classifications</a> <span class="note">(<a href="https://arxiv.org/abs/2305.06522">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors">Han Cheol Moon, Shafiq R. Joty, Ruochen Zhao, Megh Thakkar, Chi Xu</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">DAC 2023 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="zhao2023safe">
+	<a class="tag-link" href="/conferences/dac/"><span class="tag accepted">DAC 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/dac56929.2023.10247837">Safe DNN-type Controller Synthesis for Nonlinear Systems via Meta Reinforcement Learning</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/hanrui-zhao/">Hanrui Zhao</a>, <a href="/researchers/xia-zeng/">Xia Zeng</a>, <a href="/researchers/niuniu-qi/">Niuniu Qi</a>, <a href="/researchers/zhengfeng-yang/">Zhengfeng Yang</a>, <a href="/researchers/zhenbing-zeng/">Zhenbing Zeng</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICCV 2023 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="zhang2023trajpac">
+	<a class="tag-link" href="/conferences/iccv/"><span class="tag accepted">ICCV 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1109/iccv51070.2023.00765">TrajPAC: Towards Robustness Verification of Pedestrian Trajectory Prediction Models</a>
+
+	<br><span class="authors"><a href="/researchers/liang-zhang/">Liang Zhang</a>, <a href="/researchers/nathaniel-xu/">Nathaniel Xu</a>, <a href="/researchers/pengfei-yang/">Pengfei Yang</a>, <a href="/researchers/gaojie-jin/">Gaojie Jin</a>, <a href="/researchers/cheng-chao-huang/">Cheng-Chao Huang</a>, <a href="/researchers/lijun-zhang/">Lijun Zhang</a></span><p class="digest-summary">TrajPAC verifies robustness of pedestrian trajectory prediction models with a probably approximately correct (PAC) framework, after formally defining label and pure robustness; it finds counterexamples and evaluates Trajectron&#43;&#43;, MemoNet, AgentFormer and MID on ETH/UCY and Stanford Drone scenes.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-06/">&larr; June 2023</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-08/">August 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

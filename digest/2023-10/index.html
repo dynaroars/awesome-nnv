@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>October 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-10/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="October 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-10/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>October 2023</h1></header>
+<article>
+<p class="digest-intro">ICSE 2024 and POPL 2024 decisions: WraLU over-approximates the ReLU convex hull for verification within PRIMA, and VeRe uses linear-relaxation-based verification to localize faulty neurons and repair deep neural networks.</p>
+<p>2 NNV papers accepted in October 2023, at ICSE 2024 and POPL 2024.</p>
+<h2 class="digest-venue">POPL 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="ma2024relu">
+	<a class="tag-link" href="/conferences/popl/"><span class="tag accepted">POPL 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3632917">ReLU Hull Approximation</a>
+
+	<br><span class="authors"><a href="/researchers/zhongkui-ma/">Zhongkui Ma</a>, Jiaying Li, <a href="/researchers/guangdong-bai/">Guangdong Bai</a></span><p class="digest-summary">WraLU over-approximates the convex hull of ReLU for neural network verification by wrapping it in a polytope whose upper faces are built from the edges and vertices of the lower faces; integrated into PRIMA, it cuts LP constraints by up to half without losing precision.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICSE 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="ma2024vere">
+	<a class="tag-link" href="/conferences/icse/"><span class="tag accepted">ICSE 2024</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1145/3597503.3623332">VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/jianan-ma/">Jianan Ma</a>, <a href="/researchers/pengfei-yang/">Pengfei Yang</a>, <a href="/researchers/jingyi-wang/">Jingyi Wang</a>, <a href="/researchers/youcheng-sun/">Youcheng Sun</a>, <a href="/researchers/cheng-chao-huang/">Cheng-Chao Huang</a>, <a href="/researchers/zhen-wang/">Zhen Wang</a></span><p class="digest-summary">VeRe repairs deep neural networks by using linear-relaxation-based verification to localize faulty neurons symbolically and then optimizing their parameters; it cuts backdoor attack success from 98.47% to 0.38% on average and repairs all 36 safety-property tasks.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-09/">&larr; September 2023</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-11/">November 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

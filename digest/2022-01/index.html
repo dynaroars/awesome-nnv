@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2022</h1></header>
+<article>
+<p class="digest-intro">ICLR 2022, ICRA 2022 and USENIX Security 2022 decisions: randomized smoothing leads, with variance-reduced ensembles, top-k guarantees, conformal prediction and policy smoothing. Certified training covers IBP convergence, deep equilibrium models and Lipschitz networks, and reinforcement learning certification appears in COPA and CROP. REASSURE brings sound and complete repair, ROMAX targets multiagent RL, and PatchCleanser defends against adversarial patches.</p>
+<p>18 NNV papers accepted in January 2022, at ICLR 2022, ICRA 2022 and USENIX Security 2022.</p>
+<h2 class="digest-venue">ICLR 2022 &middot; Virtual <span class="note">15 / 1,095 ICLR 2022 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="zhang2022boosting">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZhangJH022">Boosting the Certified Robustness of L-infinity Distance Nets</a> <span class="note">(<a href="https://arxiv.org/abs/2110.06850">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/bohang-zhang/">Bohang Zhang</a>, <a href="/researchers/du-jiang/">Du Jiang</a>, <a href="/researchers/di-he/">Di He</a>, <a href="/researchers/liwei-wang/">Liwei Wang</a></span><p class="digest-summary">Shows l-infinity-distance nets have an inherent certified robustness advantage and improves their training with a loss mixing scaled cross-entropy and clipped hinge loss, raising certified accuracy on CIFAR-10 at eps 8/255 from 33.30% to 40.06%.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Mon 25 Apr, 09:30–11:30 (UTC)</span></p>
+</li>
+<li id="wu2022copa">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WuL0KKZ022">COPA: Certifying Robust Policies for Offline Reinforcement Learning against Poisoning Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2203.08398">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/fan-wu/">Fan Wu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, Krishnaram Kenthapadi, <a href="/researchers/ding-zhao/">Ding Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">COPA certifies offline reinforcement learning policies against training-time poisoning, bounding how many manipulated trajectories are tolerated under per-state action stability and cumulative reward criteria, with new partition and aggregation protocols; some certificates are proved tight, others NP-complete.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Mon 25 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="wu2022crop">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WuLHVZ022">CROP: Certifying Robust Policies for Reinforcement Learning through Functional Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2106.09292">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/fan-wu/">Fan Wu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/zijian-huang/">Zijian Huang</a>, <a href="/researchers/yevgeniy-vorobeychik/">Yevgeniy Vorobeychik</a>, <a href="/researchers/ding-zhao/">Ding Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">CROP certifies reinforcement learning policies at action and reward levels, using local smoothing of Q-function policies for per-state action robustness and global plus adaptive local smoothing for lower bounds on finite-horizon cumulative reward, evaluated on Atari, Highway and CartPole.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Mon 25 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="fu2022sound">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/FuL22">Sound and Complete Neural Network Repair with Minimality and Locality Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2110.07682">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/feisi-fu/">Feisi Fu</a>, <a href="/researchers/wenchao-li/">Wenchao Li</a></span><p class="digest-summary">REASSURE repairs ReLU networks by adding a patch network on the linear region of a buggy input, giving sound and complete repair that is minimal in function space and leaves outputs away from the repair region unchanged.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Mon 25 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="jia2022almost">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/JiaWCLG22">Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/2011.07633">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a>, <a href="/researchers/xiaoyu-cao/">Xiaoyu Cao</a>, <a href="/researchers/hongbin-liu/">Hongbin Liu</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">Derives an almost tight l0-norm certified robustness guarantee for top-k predictions using randomized smoothing; on ImageNet the smoothed classifier reaches 69.2% certified top-3 accuracy when an attacker may change 5 pixels.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 26 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="singla2022improved">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/0002SF22">Improved deterministic l2 robustness on CIFAR-10 and CIFAR-100</a> <span class="note">(<a href="https://arxiv.org/abs/2108.04062">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, Surbhi Singla, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Certifies 1-Lipschitz CNNs under l2 by relaxing orthogonalization of the last linear layer, adding a Householder activation and certificate regularization; provable robust accuracy rises 4.71% on CIFAR-100 and 5.81% on CIFAR-10.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 26 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="kumar2022policy">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Kumar0F22">Policy Smoothing for Provably Robust Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2106.11420">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Policy smoothing adds Gaussian noise to observations so the total reward of a reinforcement learning agent is certified against adaptive adversaries, based on an adaptive Neyman-Pearson lemma; tested on Cartpole, Pong, Freeway and Mountain Car.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 26 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="dimitrov2022provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Dimitrov0GV22">Provably Robust Adversarial Examples</a> <span class="note">(<a href="https://arxiv.org/abs/2007.12133">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/dimitar-i-dimitrov/">Dimitar I. Dimitrov</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Constructs provably robust adversarial examples, connected input regions certified to contain only adversarial inputs under pixel intensity or geometric perturbations, by iteratively refining sampled regions with volume-maximizing optimization until a verifier certifies them; PARADE finds regions with about 10^573 and 10^599 adversarial examples, and these regions are more effective against randomized smoothing defenses than the single attacks used to build them.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 26 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="ferrari2022complete">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/FerrariMJV22">Complete Verification via Multi-Neuron Relaxation Guided Branch-and-Bound</a> <span class="note">(<a href="https://arxiv.org/abs/2205.00263">arXiv</a>)</span>
+
+	<br><span class="authors">Claudio Ferrari, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/nikola-jovanovic/">Nikola Jovanovic</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Builds a complete verifier that uses multi-neuron convex relaxations to sharply reduce the number of branch-and-bound subproblems and a GPU-based dual optimizer to solve the rest, achieving a new state of the art on established benchmarks and up to 28% certification gains on more accurate networks.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 27 Apr, 09:30–11:30 (UTC)</span></p>
+</li>
+<li id="yang2022certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/YangLXK0L22">On the Certified Robustness for Ensemble Models and Beyond</a> <span class="note">(<a href="https://arxiv.org/abs/2107.10873">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhuolin-yang/">Zhuolin Yang</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/xiaojun-xu/">Xiaojun Xu</a>, <a href="/researchers/bhavya-kailkhura/">Bhavya Kailkhura</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Analyses certified robustness of ensembles, proving diversified gradients and large confidence margins are necessary and sufficient under model smoothness, and proposes Diversity Regularized Training, which yields higher certified L2 robustness than single and ensemble models on MNIST, CIFAR-10 and ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 27 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+<li id="wei2022certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WeiK22">Certified Robustness for Deep Equilibrium Models via Interval Bound Propagation</a>
+
+	<br><span class="authors">Colin Wei, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">IBP-MonDEQ is a deep equilibrium layer whose robustness is verified by interval bounds obtained as the unique fixed point of an IBP-inspired equilibrium equation; such models reach l-infinity certified robustness comparable to similar-sized explicit networks.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 28 Apr, 01:30–03:30 (UTC)</span></p>
+</li>
+<li id="zhang2022how">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZhangYJYHC022">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a> <span class="note">(<a href="https://arxiv.org/abs/2203.14195">arXiv</a>)</span>
+
+	<br><span class="authors">Yimeng Zhang, Yuguang Yao, Jinghan Jia, <a href="/researchers/jinfeng-yi/">Jinfeng Yi</a>, Mingyi Hong, <a href="/researchers/shiyu-chang/">Shiyu Chang</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a></span><p class="digest-summary">ZO-AE-DS defends black-box models using only queries by combining denoised smoothing with zeroth-order optimization and a prepended autoencoder to reduce gradient-estimate variance, improving accuracy, certified robustness and query complexity on image classification and reconstruction.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 28 Apr, 01:30–03:30 (UTC)</span></p>
+</li>
+<li id="wang2022convergence">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WangSGH22">On the Convergence of Certified Robust Training with Interval Bound Propagation</a> <span class="note">(<a href="https://arxiv.org/abs/2203.08961">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, Quanquan Gu, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Analyses convergence of Interval Bound Propagation certified training, proving that for an overparameterized two-layer ReLU network with logistic loss, gradient descent converges linearly to zero robust training error with high probability given small perturbation radius and large width.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 28 Apr, 01:30–03:30 (UTC)</span></p>
+</li>
+<li id="gendler2022adversarially">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/GendlerWDR22">Adversarially Robust Conformal Prediction</a>
+
+	<br><span class="authors">Asaf Gendler, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a>, <a href="/researchers/yaniv-romano/">Yaniv Romano</a></span><p class="digest-summary">Extends conformal prediction to adversarial inputs by smoothing the non-conformity score with Gaussian noise to bound its Lipschitz constant, giving prediction sets with finite-sample coverage under any l2-bounded attack; validated on CIFAR10, CIFAR100 and ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 28 Apr, 09:30–11:30 (UTC)</span></p>
+</li>
+<li id="horvath2022boosting">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2022</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/HorvathM0V22">Boosting Randomized Smoothing with Variance Reduced Classifiers</a>
+
+	<br><span class="authors"><a href="/researchers/miklos-z-horvath/">Miklós Z. Horváth</a>, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Uses ensembles as base models for randomized smoothing, since their lower variance under noise enlarges certified radii, and cuts sample complexity up to 55-fold; ensembles of 3 to 10 models reach average certified radius 0.86 on CIFAR10 and 1.11 on ImageNet.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 28 Apr, 17:30–19:30 (UTC)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">ICRA 2022 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="sun2022formal">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra46639.2022.9811866">Formal Verification of Stochastic Systems with ReLU Neural Network Controllers</a>
+
+	<br><span class="authors">Shiqi Sun, Yan Zhang, <a href="/researchers/xusheng-luo/">Xusheng Luo</a>, Panagiotis Vlantis, Miroslav Pajic, Michael M. Zavlanos</span><p class="digest-summary">Verifies safety of stochastic linear systems with Gaussian noise and ReLU network controllers by abstracting them as a graph, bounding transition probabilities with Satisfiability Modulo Convex formulas, and computing which initial states stay safe with given confidence over a horizon.</p>
+</li>
+<li id="sun2022romax">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra46639.2022.9812321">ROMAX: Certifiably Robust Deep Multiagent Reinforcement Learning via Convex Relaxation</a>
+
+	<br><span class="authors">Chuangchuang Sun, <a href="/researchers/dong-ki-kim/">Dong-Ki Kim</a>, <a href="/researchers/jonathan-p-how/">Jonathan P. How</a></span><p class="digest-summary">ROMAX trains multiagent reinforcement learning policies robust to worst-case updates of other agents, solving the inner minimisation of a minimax objective with convex relaxation of neural networks, which also gives a certified bound; it beats prior methods on mixed cooperative-competitive tasks.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2022 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="xiang2022patchcleanser">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/uss/0001MM22">PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier</a> <span class="note">(<a href="https://arxiv.org/abs/2108.09135">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/saeed-mahloujifar/">Saeed Mahloujifar</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">PatchCleanser certifies any image classifier against adversarial patches through two rounds of pixel masking; on ImageNet it reaches 83.9% top-1 clean accuracy and 62.1% certified robust accuracy against a 2%-pixel square patch.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-12/">&larr; December 2021</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-03/">March 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

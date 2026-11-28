@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2026 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2026-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2026">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2026-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2026</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2026 decisions: randomized smoothing and probabilistic certificates lead, from clustered smoothing for stochastic predictors to early stopping and cheap proxy certificates. Branch-and-bound verification gains combinatorial ℓ0 search in FocusBranch and reinforcement-learned branching, while neural control work certifies observers, safe RL and monotone systems; PANDA brings zero-knowledge proofs to robustness and fairness guarantees, alongside complexity results for narrow networks and Transformers.</p>
+<p>27 NNV papers accepted in September 2026, at NeurIPS 2026.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> Sydney, Australia <span class="note">17 / 5,303 NeurIPS 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="zargarbashi2026should">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=KfO6qMzPTr">Should We Pay This Much for Robustness? Efficient Proxy Certificates with Marginal Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2611.08035">arXiv</a>)</span>
+
+	<br><span class="authors">Sayed Soroush Haj Zargarbashi, <a href="/researchers/mohammad-sadegh-akhondzadeh/">Mohammad Sadegh Akhondzadeh</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary">Replaces costly randomized smoothing certificates with a cheap proxy tuned by robust conformal risk control to bound the marginal false-approval rate; standalone it needs one forward pass per input, and as a fallback it recovers randomized smoothing&#39;s certified ratio, extending to vision transformers and language models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4508, Hall 1–4 &middot; Tue 8 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="cheng2026certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/explanations/"><span class="tag own">Formal explanations</span></a>
+	<a href="https://openreview.net/forum?id=tbVIr983oG">Certified Robust Interpretability via Concept-Space Stability under Interventional Proxies</a>
+
+	<br><span class="authors">Yanming Cheng, Di Zhang</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S515, Hall 1–4 &middot; Tue 8 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="refaeli2026do">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://openreview.net/forum?id=hOaJ6pyv0j">Do Feature Interactions Break Explainability? Provable Explanations for Any-Order Neural Additive Models</a> <span class="note">(<a href="https://arxiv.org/abs/2611.11224">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/idan-refaeli/">Idan Refaeli</a>, <a href="/researchers/yizhak-yisrael-elboher/">Yizhak Yisrael Elboher</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/shahaf-bassan/">Shahaf Bassan</a></span><p class="digest-summary">Studies provably minimal sufficient explanations for neural additive models with feature interactions: the problem is Σ2P-hard even at constant order, but sparse interactions or an interaction-aware sufficiency notion make it tractable, yielding smaller, faster explanations from more accurate models than standard NAMs.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S512, Hall 1–4 &middot; Tue 8 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="lv2026ensuring">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/repair/"><span class="tag own">Repair &amp; patching</span></a>
+	<a href="https://openreview.net/forum?id=fMUyPAggFz">Ensuring Deployment-Time Safety of Neural Network Controlled Systems via Localized Certificate Repair</a> <span class="note">(<a href="https://arxiv.org/abs/2611.33813">arXiv</a>)</span>
+
+	<br><span class="authors">Xiaoyang Lv, <a href="/researchers/peixin-wang/">Peixin Wang</a>, Jianhao Bai, <a href="/researchers/bai-xue/">Bai Xue</a>, <a href="/researchers/min-zhang/">Min Zhang</a>, Luke Ong</span><p class="digest-summary">Repairs barrier certificates of neural network controlled systems at deployment time when new obstacles appear, keeping the original certificate in unchanged regions and staging localized repair, joint policy-certificate updates and localized retraining; on four benchmarks with five new obstacles it always succeeds within tens of seconds, 17.3× faster than retraining with 16.2% performance loss.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S609, Hall 1–4 &middot; Tue 8 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="cao2026multi">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=sAdaZuWvkE">Multi-Constrained Randomized Smoothing Certificates</a>
+
+	<br><span class="authors">Jimin Cao, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4905, Hall 1–4 &middot; Tue 8 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="saxena2026provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=I4p58bdzvx">Provable Robustness against Backdoor Attacks via the Primal-Dual Perspective on Differential Privacy</a> <span class="note">(<a href="https://arxiv.org/abs/2605.21780">arXiv</a>)</span>
+
+	<br><span class="authors">Aman Saxena, <a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/yan-scholten/">Yan Scholten</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Certifies robustness to backdoor attacks, which perturb training and test data jointly, by linking randomized smoothing to differential-privacy privacy profiles that compose training- and inference-time mechanisms; instantiated for DP-SGD and Deep Partition Aggregation and evaluated on MNIST and CIFAR-10.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S709, Hall 1–4 &middot; Tue 8 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="luca2026certification">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://openreview.net/forum?id=hRqL7vRChh">Certification from Examples is Hard for Circuits and Transformers under Minimal Overparametrization</a> <span class="note">(<a href="https://arxiv.org/abs/2605.22964">arXiv</a>)</span>
+
+	<br><span class="authors">Artur Back de Luca, Kimon Fountoulakis</span><p class="digest-summary">Proves that certifying a learned model equals its target from labeled examples can require exponentially many examples: one extra gate in threshold circuits of depth 2 or more, or constant overhead in log-precision Transformers, suffices; on binary addition, wrong models survive extensive checks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S1015, Hall 1–4 &middot; Wed 9 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="cullen2026halt">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://openreview.net/forum?id=1Zs088RXoL">Halt Fast! Early Stopping for Certified Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2606.27694">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Speeds up randomized smoothing certification with anytime-valid sequential testing: a lightweight meta-learner predicts image-specific priors for an E-process, cutting sample complexity 20-fold while keeping statistical guarantees and allowing compute to be allocated by application risk thresholds.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4406, Hall 1–4 &middot; Wed 9 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="chen2026flip">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://openreview.net/forum?id=TJXYYcODy8">FLIP: Fast and Accurate Global Lipschitz Estimation for Large Feedforward Networks</a>
+
+	<br><span class="authors">Hongbo Chen, Zihao Ren</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4407, Hall 1–4 &middot; Wed 9 Dec, 17:00–20:00 (Sydney time)</span><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Oral, Darling Harbour Theatre &middot; Tue 8 Dec, 16:45–17:00 (Sydney time)</span></p>
+</li>
+<li id="delattre2026joint">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://openreview.net/forum?id=RhmrtYOQxz">Joint Certification for Attributed Graphs: Beyond Topology-Only Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/blaise-delattre/">Blaise Delattre</a>, Hengyu WU, Wei Yang Bryan Lim, Yang Cao</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4408, Hall 1–4 &middot; Wed 9 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="yun2026provably">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://openreview.net/forum?id=PHVIRBgte1">Provably Safe, Yet Scalable Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2606.14536">arXiv</a>)</span>
+
+	<br><span class="authors">Kai Yun, Zeyang Li, Navid Azizan</span><p class="digest-summary">PS2-RL learns provably safe RL policies without explicitly computing invariant sets: a learned backup policy forward-integrates the dynamics to form an implicit control-invariant set, and a differentiable projection layer enforces safety during policy training; evaluated on robotic tasks with up to 10 state dimensions.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S2709, Hall 1–4 &middot; Wed 9 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="cullen2026what">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=zdRy5kB5qm">What Was That Again? Certified Robustness for Automatic Speech Recognition</a> <span class="note">(<a href="https://arxiv.org/abs/2606.27698">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/andrew-c-cullen/">Andrew C. Cullen</a>, <a href="/researchers/neil-g-marchant/">Neil G. Marchant</a>, Jiani Xie, <a href="/researchers/paul-montague/">Paul Montague</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Applies a certification-inspired pipeline to automatic speech recognition: a Two-Sided Atomic Audit statistically certifies token existence and adversarial exclusion, and a Rank-Based Tournament selects the output sequence; across four architectures, Word Error Rate drops by up to 55% relative.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4405, Hall 1–4 &middot; Wed 9 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="zhao2026cast">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a>
+	<a href="https://openreview.net/forum?id=bmqxbwQYk6">CAST: Certifiable Aggregation of Smoothed Teachers for Robust Policy Adaptation</a>
+
+	<br><span class="authors">Zhongrui Zhao, Yanan Cai, Zhigang Lu, Longkun Guo, Ickjai Lee, Shuchao Pang, <a href="/researchers/minhui-xue/">Minhui Xue</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S2815, Hall 1–4 &middot; Thu 10 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="sasaki2026learning">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://openreview.net/forum?id=CENjUqCe8j">Learning Reach-Set Geometry for Tighter Probabilistic Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/samuel-sasaki/">Samuel Sasaki</a>, <a href="/researchers/ben-wooding/">Ben Wooding</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S701, Hall 1–4 &middot; Thu 10 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="szasz2026towards">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/quantized/"><span class="tag own">Quantized &amp; bit-level</span></a>
+	<a href="https://openreview.net/forum?id=nHbkxmdykn">Towards Sound Verification of Deployed Neural Networks</a>
+
+	<br><span class="authors">Attila Szász, <a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a>, <a href="/researchers/mark-jelasity/">Márk Jelasity</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S4322, Hall 1–4 &middot; Thu 10 Dec, 10:00–13:00 (Sydney time)</span></p>
+</li>
+<li id="chiu2026affine">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://openreview.net/forum?id=jJKsS0Cmjn">Affine-Image Propagation for Tight and Scalable Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2611.26978">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hong-ming-chiu/">Hong-Ming Chiu</a>, <a href="/researchers/haoyu-li/">Haoyu Li</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/richard-y-zhang/">Richard Y. Zhang</a></span><p class="digest-summary">Tightens ℓ2 robustness verification of networks without Lipschitz regularization via affine-image SDP-CROWN, which bounds preactivations with affine-image constraints relaxed to scaled diagonal-dominance conditions for GPU use; verified accuracy rises 17–57.5% on five MNIST and CIFAR-10 networks, 27–63.5% with branch-and-bound.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S710, Hall 1–4 &middot; Thu 10 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+<li id="deng2026focusbranch">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://openreview.net/forum?id=VoRt2Q8ngL">FocusBranch: Combinatorial Branch-and-Bound for <span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">ℓ</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">\ell_0</annotation></semantics></math></span> Neural Network Robustness Verification</a>
+
+	<br><span class="authors">Renwei Deng, Yang He, <a href="/researchers/linyi-li/">Linyi Li</a>, Yuepeng Wang</span><p class="digest-summary">FocusBranch verifies ℓ0 local robustness by combinatorial branch-and-bound over nodes defined by a focus pixel set and a level, branching through upper shadows or covering designs and picking a strategy by sampling; it outperforms existing verifiers on MNIST, Fashion-MNIST and CIFAR-10 classifiers.</p><p class="digest-where"><span><img class="flag" src="/img/flags/au.svg" alt="Australia" title="Australia" width="16" height="12" loading="lazy"> <b>Sydney</b> &middot; Poster #S3901, Hall 1–4 &middot; Thu 10 Dec, 17:00–20:00 (Sydney time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> Paris, France <span class="note">6 / 1,067 NeurIPS 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="figueiredo2026clustered">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://openreview.net/forum?id=OeD82ZRKWm">Clustered Randomized Smoothing for Stochastic Prediction Functions</a> <span class="note">(<a href="https://arxiv.org/abs/2608.12037">arXiv</a>)</span>
+
+	<br><span class="authors">Eduardo Figueiredo, Frederik B Mathiesen, Julian F Schumann, Jens Kober, Arkady Zgonnikov, <a href="/researchers/luca-laurenti/">Luca Laurenti</a></span><p class="digest-summary">Clustered α-smoothing certifies stochastic multi-modal regressors by clustering noisy samples, smoothing within each cluster and mixing the results, bounding the probability that predictions land in mode regions; it lowers Wasserstein distance 27% in trajectory prediction and collision rate 90% in quadrotor control.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P243, Palais des congrès Poster Hall &middot; Wed 9 Dec, 11:00–13:00 (Paris time)</span></p>
+</li>
+<li id="bournez2026iterated">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://openreview.net/forum?id=tnelXgpZB7">Iterated Narrow Networks: Turing Completeness at Width 4 on Convex Input Spaces and the Complexity of Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2611.02840">arXiv</a>)</span>
+
+	<br><span class="authors">Olivier Bournez, Johanne Cohen, Adrian Wurm</span><p class="digest-summary">Shows that iterating a fixed width-4 ReLU network can simulate any Turing machine on the convex cube, so reachability ranges from NP-complete to undecidable depending on the time bound; at width 6, robust verification is NP-complete for tanh, sigmoid, GELU and other smooth activations.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P250, Palais des congrès Poster Hall &middot; Wed 9 Dec, 11:00–13:00 (Paris time)</span></p>
+</li>
+<li id="elboher2026pareto">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://openreview.net/forum?id=ZDDAP6WLxi">Pareto DNN Verification: Fast for Most Queries</a> <span class="note">(<a href="https://arxiv.org/abs/2512.20755">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yizhak-yisrael-elboher/">Yizhak Yisrael Elboher</a>, Avraham Raviv, Amihay Elboher, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, Hillel Kugler, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">PAVE adds early exits to DNNs and verifies robustness exit by exit, solving roughly 80% of queries in a fraction of the time of direct verification; break and continue optimizations cut SAFE-case time up to 10x, enabling verification of ResNet-18 on CIFAR-100.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P244, Palais des congrès Poster Hall &middot; Wed 9 Dec, 15:00–17:00 (Paris time)</span></p>
+</li>
+<li id="gursoy2026sparse">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://openreview.net/forum?id=fO3zFhG0ES">Sparse Sum-of-Squares Layers for Certified Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2610.34590">arXiv</a>)</span>
+
+	<br><span class="authors">Ege Gursoy, Nicolas Mansard</span><p class="digest-summary">Sparse SOS Layers make sum-of-squares certificates differentiable within learning pipelines by reusing the sparse forward solve in the backward pass, giving up to 2.7x faster warm calls and roughly 100x less memory; a design study reaches zero certified violations on unseen instances.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P153, Palais des congrès Poster Hall &middot; Thu 10 Dec, 11:00–13:00 (Paris time)</span></p>
+</li>
+<li id="palma2026learning">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://openreview.net/forum?id=3ccTPcDlNx">Learning Better Certified Models from Empirically-Robust Teachers</a> <span class="note">(<a href="https://arxiv.org/abs/2602.02626">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alessandro-de-palma/">Alessandro De Palma</a></span><p class="digest-summary">Improves certified training of ReLU networks through feature-space knowledge distillation from adversarially trained teachers, significantly raising the performance of existing certified training algorithms on robust computer vision benchmarks while keeping models amenable to verification.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P243, Palais des congrès Poster Hall &middot; Thu 10 Dec, 15:00–17:00 (Paris time)</span></p>
+</li>
+<li id="hekal2026end">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+	<a href="https://openreview.net/forum?id=SHNolnMBUT">End-to-End Verification of Neuro-symbolic Automata via Contrastive Logit-Gaps</a>
+
+	<br><span class="authors">Abdelrahman Hekal, Vasileios Manginas, Nikolaos Manginas, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/fr.svg" alt="France" title="France" width="16" height="12" loading="lazy"> <b>Paris</b> &middot; Poster #P239, Palais des congrès Poster Hall &middot; Fri 11 Dec, 15:00–17:00 (Paris time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> Atlanta, United States <span class="note">4 / 1,523 NeurIPS 2026 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="zhong2026certified">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://openreview.net/forum?id=XhTzs21IA3">Certified but Private: Scalable Zero-Knowledge Proofs for Neural Network Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2608.17070">arXiv</a>)</span>
+
+	<br><span class="authors">Youwei Zhong, Ben Merbaum, Timos Antonopoulos, Ning Luo, CHARALAMPOS PAPAMANTHOU, Katerina Sotiraki, Ruzica Piskac</span><p class="digest-summary">PANDA proves robustness and fairness of a neural network with zero-knowledge proofs while keeping its weights private, by proving CROWN&#39;s linear relaxation bounds for activations; it proves local robustness of networks above 2.9M parameters in 5 minutes, about 4 orders of magnitude beyond earlier ZKP systems.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Atlanta</b> &middot; Poster #A1105, Hall C1 &middot; Wed 9 Dec, 10:00–13:00 (Atlanta time)</span></p>
+</li>
+<li id="wang2026learning">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://openreview.net/forum?id=yy5SiFn9vr">Learning Provable Neural Network Observer for Uncertain Dynamical Systems</a> <span class="note">(<a href="https://arxiv.org/abs/2609.30819">arXiv</a>)</span>
+
+	<br><span class="authors">Zhangyi Wang, Jiaxu Liu, Chen Song, Chao Xu, Shengze Cai</span><p class="digest-summary">Trains neural network state observers with certified Lyapunov stability in two stages, point-guided Lyapunov pre-training on sampled states followed by LMI fine-tuning for a global certificate; it trains much faster than direct LMI methods and tracks better on nonlinear control benchmarks and X-29 aircraft.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Atlanta</b> &middot; Poster #A1007, Hall C1 &middot; Wed 9 Dec, 10:00–13:00 (Atlanta time)</span></p>
+</li>
+<li id="alavi2026scalable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://openreview.net/forum?id=0mIVNtnfDp">Scalable Neural Safety Certification via Monotonicity</a> <span class="note">(<a href="https://arxiv.org/abs/2611.11119">arXiv</a>)</span>
+
+	<br><span class="authors">Amirreza Alavi, Majid Zamani, Saber Jafarpour</span><p class="digest-summary">Certifies safety of unknown monotone dynamical systems from simulator queries with monotone neural barrier certificates built from Max-Monotone Networks, reducing checks to finitely many boundary cells and O(n) queries; it scales to oscillator networks with 13,659 states and traffic networks with 1,000 states.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Atlanta</b> &middot; Poster #A1116, Hall C1 &middot; Wed 9 Dec, 10:00–13:00 (Atlanta time)</span></p>
+</li>
+<li id="duong2026verifyingc">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2026</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://openreview.net/forum?id=U2N3YhilwS">Verifying Neural Networks with Reinforcement Learning</a> <span class="note">(<a href="https://arxiv.org/abs/2609.34553">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/thanh-le/">Thanh Le</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a></span><p class="digest-summary">RSB uses actor-critic reinforcement learning to refine branching heuristics in branch-and-bound DNN verifiers, rescaling baseline neuron scores with attention over neuron features and graph embeddings; on 600 challenging instances it solves 11% more and explores 50% fewer branches.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Atlanta</b> &middot; Poster #A412, Hall C1 &middot; Fri 11 Dec, 16:30–19:30 (Atlanta time)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2026-08/">&larr; August 2026</a>
+<a href="/digest/2026/">All of 2026</a><a href="/digest/2026-10/">October 2026 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>February 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-02/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="February 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-02/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>February 2024</h1></header>
+<article>
+<p class="digest-intro">CVPR 2024, PLDI 2024 and USENIX Security 2024 decisions: certified defenses for vision, including PatchCURE against adversarial patches, MMCert for multi-modal models, median randomized smoothing for super-resolution and a comparison of 1-Lipschitz layers. MaxLin tightens linear approximation for MaxPool-based CNNs, and RaVeN verifies input-relational properties with the DiffPoly domain.</p>
+<p>6 NNV papers accepted in February 2024, at CVPR 2024, PLDI 2024 and USENIX Security 2024.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> CVPR 2024 &middot; Seattle, United States <span class="note">4 / 2,716 CVPR 2024 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="chaouai2024universal">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52733.2024.00865">Universal Robustness via Median Randomized Smoothing for Real-World Super-Resolution</a>
+
+	<br><span class="authors">Zakariya Chaouai, Mohamed Tamaazousti</span><p class="digest-summary">Compares robustness methods for real-world image super-resolution and finds median randomized smoothing generalizes across adversarial attacks better than adversarial training, while also helping SR models handle blur, Gaussian noise and natural real-world corruptions.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Seattle</b> &middot; Poster #413, Arch 4A-E &middot; Wed 19 Jun, 17:00–18:30 (Seattle time)</span></p>
+</li>
+<li id="prach20241">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1109/cvpr52733.2024.02320">1-Lipschitz Layers Compared: Memory, Speed, and Certifiable Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/bernd-prach/">Bernd Prach</a>, Fabio Brau, Giorgio C. Buttazzo, <a href="/researchers/christoph-h-lampert/">Christoph H. Lampert</a></span><p class="digest-summary">Compares 1-Lipschitz layer methods for certifiably robust networks on computational complexity, memory, time per epoch, accuracy and certified robust accuracy, and gives guidelines for choosing a method based on the available resources.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Seattle</b> &middot; Poster #34, Arch 4A-E &middot; Fri 21 Jun, 17:00–18:30 (Seattle time)</span></p>
+</li>
+<li id="wang2024mmcert">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1109/cvpr52733.2024.02328">MMCert: Provable Defense Against Adversarial Attacks to Multi-Modal Models</a>
+
+	<br><span class="authors"><a href="/researchers/yanting-wang/">Yanting Wang</a>, Hongye Fu, <a href="/researchers/wei-zou/">Wei Zou</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a></span><p class="digest-summary">MMCert is a certified defense for multi-modal models that lower-bounds performance under bounded perturbations to every modality, such as changed pixels in RGB and depth images; on road segmentation and emotion recognition it beats a certified defense extended from unimodal models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Seattle</b> &middot; Poster #42, Arch 4A-E &middot; Fri 21 Jun, 17:00–18:30 (Seattle time)</span></p>
+</li>
+<li id="xiao2024towards">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2024</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/cvpr52733.2024.02339">Towards General Robustness Verification of MaxPool-Based Convolutional Neural Networks via Tightening Linear Approximation</a>
+
+	<br><span class="authors"><a href="/researchers/yuan-xiao/">Yuan Xiao</a>, <a href="/researchers/shiqing-ma/">Shiqing Ma</a>, <a href="/researchers/juan-zhai/">Juan Zhai</a>, <a href="/researchers/chunrong-fang/">Chunrong Fang</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/zhenyu-chen/">Zhenyu Chen</a></span><p class="digest-summary">MaxLin verifies robustness of MaxPool-based CNNs by tightening the linear approximation of MaxPool to certify larger lower bounds; on MNIST, CIFAR-10 and Tiny ImageNet networks it improves the certified bound by up to 110.60% with up to 5.13x speedup.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>Seattle</b> &middot; Poster #53, Arch 4A-E &middot; Fri 21 Jun, 17:00–18:30 (Seattle time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="xiang2024patchcure">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/uss/0001WDPJM24">PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses</a> <span class="note">(<a href="https://arxiv.org/abs/2310.13076">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Tong Wu, Sihui Dai, Jonathan Petit, <a href="/researchers/suman-jana/">Suman Jana</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">PatchCURE is a tunable framework of certified defenses against adversarial patches that trades off certifiable robustness, utility and computation; at efficiency close to undefended models it gains 16-23% absolute clean and certified robust accuracy over prior defenses.</p>
+</li>
+</ul>
+<h2 class="digest-venue">PLDI 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="banerjee2024input">
+	<a class="tag-link" href="/conferences/pldi/"><span class="tag accepted">PLDI 2024</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1145/3656377">Input-Relational Verification of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/debangshu-banerjee/">Debangshu Banerjee</a>, <a href="/researchers/changming-xu/">Changming Xu</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">RaVeN verifies input-relational DNN properties such as universal adversarial perturbation robustness and monotonicity with DiffPoly, an abstract domain tracking output differences between executions at every layer, combined with linear programming; it is substantially more precise than baselines.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-01/">&larr; January 2024</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-03/">March 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

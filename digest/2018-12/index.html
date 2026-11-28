@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>December 2018 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2018-12/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="December 2018">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2018-12/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>December 2018</h1></header>
+<article>
+<p class="digest-intro">ICLR 2019 decisions: mixed integer programming gives exact adversarial accuracy for piecewise-linear networks, while training for ReLU stability makes verification faster. Other directions include boosting robustness certification, statistical robustness estimates via multi-level splitting, and verification of nonlinear specifications such as energy conservation in learned dynamics.</p>
+<p>5 NNV papers accepted in December 2018, at ICLR 2019.</p>
+<ul class="papers digest"><li id="webb2019statistical">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2019</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WebbRTK19">A Statistical Approach to Assessing Neural Network Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/1811.07209">arXiv</a>)</span>
+
+	<br><span class="authors">Stefan Webb, <a href="/researchers/tom-rainforth/">Tom Rainforth</a>, Yee Whye Teh, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary">Estimates the probability that a network property is violated under an input model with multi-level splitting, a Monte Carlo rare-event method, giving statistical robustness estimates that emulate formal verification on benchmarks while scaling to larger networks.</p>
+</li>
+<li id="singh2019boosting">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2019</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SinghGPV19">Boosting Robustness Certification of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/timon-gehr/">Timon Gehr</a>, <a href="/researchers/markus-puschel/">Markus Püschel</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="tjeng2019evaluating">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2019</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/TjengXT19">Evaluating Robustness of Neural Networks with Mixed Integer Programming</a> <span class="note">(<a href="https://arxiv.org/abs/1711.07356">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/vincent-tjeng/">Vincent Tjeng</a>, <a href="/researchers/kai-yuanqing-xiao/">Kai Yuanqing Xiao</a>, <a href="/researchers/russ-tedrake/">Russ Tedrake</a></span><p class="digest-summary">Formulates verification of piecewise-linear networks as a mixed integer program with tight formulations and a presolve step, running two to three orders of magnitude faster and finding the exact adversarial accuracy of an MNIST classifier at ℓ∞ ε=0.1.</p>
+</li>
+<li id="xiao2019training">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2019</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XiaoTSM19">Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability</a> <span class="note">(<a href="https://arxiv.org/abs/1809.03008">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/kai-yuanqing-xiao/">Kai Yuanqing Xiao</a>, <a href="/researchers/vincent-tjeng/">Vincent Tjeng</a>, Nur Muhammad (Mahi) Shafiullah, <a href="/researchers/aleksander-madry/">Aleksander Madry</a></span><p class="digest-summary">Trains networks to be both robust and easier to verify by encouraging weight sparsity and ReLU stability; sparsity makes intractable verification tractable, and ReLU stability adds a 4-13x verification speedup across training procedures and verifiers.</p>
+</li>
+<li id="qin2019verification">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2019</span></a>
+	<a class="tag-link" href="/areas/outputs/"><span class="tag other">Beyond linear output properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/QinDOBSGUSK19">Verification of Non-Linear Specifications for Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/1902.09592">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chongli-qin/">Chongli Qin</a>, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Brendan O&#39;Donoghue, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/robert-stanforth/">Robert Stanforth</a>, <a href="/researchers/sven-gowal/">Sven Gowal</a>, <a href="/researchers/jonathan-uesato/">Jonathan Uesato</a>, Grzegorz Swirszcz, <a href="/researchers/pushmeet-kohli/">Pushmeet Kohli</a></span><p class="digest-summary">Extends neural network verification to convex-relaxable nonlinear specifications, such as energy conservation in learned dynamics, semantic label consistency under perturbation and bounded errors when summing handwritten digits, and verifies them effectively while exposing failure modes.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2018-11/">&larr; November 2018</a>
+<a href="/digest/2018/">All of 2018</a><a href="/digest/2019-02/">February 2019 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>September 2025 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2025-09/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="September 2025">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2025-09/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>September 2025</h1></header>
+<article>
+<p class="digest-intro">NeurIPS 2025 decisions: probabilistic certification leads, spanning AdaptDel for edit-distance robustness, robust conformal prediction from one sample and certified safe LLM generation with C-SafeGen. Bound propagation speeds up through Clip-and-Verify, neural control work certifies Lyapunov stability of RL policies and controllers, and MIBP-Cert certifies training against data perturbations; DNN verification proofs and provable gradient editing also appear.</p>
+<p>17 NNV papers accepted in September 2025, at NeurIPS 2025.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> San Diego, United States <span class="note">16 / 5,072 NeurIPS 2025 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="zhou2025clip">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhouCCHZ25">Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2512.11087">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/duo-zhou/">Duo Zhou</a>, Jorge Chavez, <a href="/researchers/hesun-chen/">Hesun Chen</a>, <a href="/researchers/grani-a-hanasusanto/">Grani A. Hanasusanto</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span><p class="digest-summary">Speeds up branch-and-bound neural network verification with Clip-and-Verify, which uses linear constraints from bound propagation to clip verified or irrelevant input regions and tighten intermediate bounds on GPU; integrated into α,β-CROWN, it cuts subproblems by up to 96%.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3908, Exhibit Hall C,D,E &middot; Wed 3 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="jin2025probabilistic">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JinXYGW25">Probabilistic Stability Guarantees for Feature Attributions</a>
+
+	<br><span class="authors">Helen Jin, <a href="/researchers/anton-xue/">Anton Xue</a>, Weiqiu You, Surbhi Goel, <a href="/researchers/eric-wong/">Eric Wong</a></span><p class="digest-summary">Certifies the stability of feature attributions with soft stability and a model-agnostic, sample-efficient stability certification algorithm (SCA) for any attribution method; Boolean function analysis explains why mild smoothing gives a better accuracy-stability trade-off, with evaluation on vision and language tasks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1407, Exhibit Hall C,D,E &middot; Wed 3 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="tao2025provable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/repair/"><span class="tag other">Repair &amp; patching</span></a>
+	<a href="https://dblp.org/rec/conf/nips/TaoT25">Provable Gradient Editing of Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/zhe-tao/">Zhe Tao</a>, <a href="/researchers/aditya-v-thakur/">Aditya V. Thakur</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1308, Exhibit Hall C,D,E &middot; Wed 3 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="long2025certifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LongCA25">Certifying Stability of Reinforcement Learning Policies using Generalized Lyapunov Functions</a>
+
+	<br><span class="authors">Kehan Long, Jorge Cortés, Nikolay Atanasov</span><p class="digest-summary">Certifies stability of reinforcement learning policies by learning generalized Lyapunov functions that augment RL value functions with neural residual terms and only require decrease on average over multiple steps; certifies Gymnasium and DeepMind Control policies and enlarges certified regions of attraction.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3209, Exhibit Hall C,D,E &middot; Wed 3 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="zhang2025scalable">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZhangKL25">Scalable Neural Network Geometric Robustness Validation via Hölder Optimisation</a>
+
+	<br><span class="authors"><a href="/researchers/yanghao-zhang/">Yanghao Zhang</a>, <a href="/researchers/panagiotis-kouvaros/">Panagiotis Kouvaros</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3916, Exhibit Hall C,D,E &middot; Wed 3 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="hashemi2025scaling">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HashemiSOMJ25">Scaling Data-Driven Probabilistic Robustness Analysis for Semantic Segmentation Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/navid-hashemi/">Navid Hashemi</a>, <a href="/researchers/samuel-sasaki/">Samuel Sasaki</a>, Ipek Oguz, Meiyi Ma, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3914, Exhibit Hall C,D,E &middot; Wed 3 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="liu2025fortifying">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiuALE25">Fortifying Time Series: DTW-Certified Robust Anomaly Detection</a> <span class="note">(<a href="https://arxiv.org/abs/2605.07690">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/shijie-liu/">Shijie Liu</a>, Tansu Alpcan, Christopher Leckie, <a href="/researchers/sarah-m-erfani/">Sarah M. Erfani</a></span><p class="digest-summary">Certifies time-series anomaly detectors against perturbations bounded in Dynamic Time Warping distance by adapting randomized smoothing and linking ℓp-norm certificates to DTW through a lower-bound transformation; F1-score under DTW-based attacks improves by up to 18.7% over traditional certified models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1407, Exhibit Hall C,D,E &middot; Thu 4 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="lorenz2025mibp">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LorenzKF25">MIBP-Cert: Certified Training against Data Perturbations with Mixed-Integer Bilinear Programs</a>
+
+	<br><span class="authors"><a href="/researchers/tobias-lorenz/">Tobias Lorenz</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a>, <a href="/researchers/mario-fritz/">Mario Fritz</a></span><p class="digest-summary">Certifies training against data errors, corruptions and poisoning with MIBP-Cert, which computes the set of parameters reachable from perturbed data via mixed-integer bilinear programming and a sound per-step relaxation, giving deterministic robustness bounds for continuous and discrete data under complex threat models.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3908, Exhibit Hall C,D,E &middot; Thu 4 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="shen2025reliabilityrag">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ShenIWXMK25">ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search</a>
+
+	<br><span class="authors">Zeyu Shen, Basileal Imana, Tong Wu, <a href="/researchers/chong-xiang/">Chong Xiang</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a>, Aleksandra Korolova</span><p class="digest-summary">Gives provable robustness for RAG-based web search against retrieval-corpus corruption with ReliabilityRAG, which finds a reliability-weighted Maximum Independent Set on a document contradiction graph to filter malicious documents, plus a scalable weighted sample-and-aggregate variant that keeps some guarantees.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1902, Exhibit Hall C,D,E &middot; Thu 4 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="li2025two">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/nips/LiZHZ25">Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion</a>
+
+	<br><span class="authors"><a href="/researchers/haoyu-li/">Haoyu Li</a>, <a href="/researchers/xiangru-zhong/">Xiangru Zhong</a>, <a href="/researchers/bin-hu/">Bin Hu</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a></span><p class="digest-summary">Jointly trains and verifies neural controllers and Lyapunov functions for continuous-time systems using Zubov-inspired sampling and domain expansion, extending α,β-CROWN to bound propagation through system Jacobians; regions of attraction grow 5 to 150,000 times and verification runs 40 to 10,000 times faster than dReal.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #2815, Exhibit Hall C,D,E &middot; Thu 4 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="ji2025abstract">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/JiLZZM25">Abstract Rendering: Certified Rendering Under 3D Semantic Uncertainty</a>
+
+	<br><span class="authors">Chenxi Ji, Yangge Li, <a href="/researchers/xiangru-zhong/">Xiangru Zhong</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/sayan-mitra/">Sayan Mitra</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1403, Exhibit Hall C,D,E &middot; Thu 4 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="huang2025adaptdel">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/HuangMOR25">AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/zhuoqun-huang/">Zhuoqun Huang</a>, <a href="/researchers/neil-g-marchant/">Neil G. Marchant</a>, <a href="/researchers/olga-ohrimenko/">Olga Ohrimenko</a>, <a href="/researchers/benjamin-rubinstein/">Benjamin Rubinstein</a></span><p class="digest-summary">Certifies sequence classifiers against edit-distance perturbations with AdaptDel, which extends randomized smoothing to deletion rates that adapt to input properties such as length; on natural language tasks the median certified region cardinality improves by up to 30 orders of magnitude.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3914, Exhibit Hall C,D,E &middot; Thu 4 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="duong2025generating">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/nips/DuongND25">Generating and Checking DNN Verification Proofs</a>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">Defines activation pattern tree proofs, a verifier-independent proof format for neural network verification, with a proven-correct, optimized checker; existing verifiers generate these proofs efficiently, and APTPchecker significantly outperforms prior work on 16 networks and 400 problems while staying robust to proof-structure differences across tools.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3918, Exhibit Hall C,D,E &middot; Thu 4 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="morris2025sound">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/nips/MorrisH25">Sound Logical Explanations for Mean Aggregation Graph Neural Networks</a>
+
+	<br><span class="authors">Matthew Morris, <a href="/researchers/ian-horrocks/">Ian Horrocks</a></span><p class="digest-summary">Characterizes the monotonic logical rules that can be sound for mean-aggregation graph neural networks with non-negative weights (MAGNNs) and gives a first-order logic fragment that explains any MAGNN prediction; restricting weights keeps comparable or better accuracy on inductive knowledge graph benchmarks.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3803, Exhibit Hall C,D,E &middot; Fri 5 Dec, 11:00–14:00 (San Diego time)</span></p>
+</li>
+<li id="kang2025c">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/nips/KangCL25">C-SafeGen: Certified Safe LLM Generation with Claim-Based Streaming Guardrails</a>
+
+	<br><span class="authors"><a href="/researchers/mintong-kang/">Mintong Kang</a>, Zhaorun Chen, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Provides certified safety for LLM generation through Claim-based Stream Decoding, which guards sequential claims with a streaming guardrail model and backtracks on risky ones; conformal analysis yields a high-probability upper bound on safety risk that can be controlled to any desired level asymptotically.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #1407, Exhibit Hall C,D,E &middot; Fri 5 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+<li id="duong2025compositional">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/DuongSND25">Compositional Neural Network Verification via Assume-Guarantee Reasoning</a>
+
+	<br><span class="authors"><a href="/researchers/hai-duong/">Hai Duong</a>, <a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/thanhvu-nguyen/">ThanhVu Nguyen</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a></span><p class="digest-summary">Scales verification to large networks with an assume-guarantee compositional framework, CoVeNN, that wraps an underlying verifier, splits the problem into sub-problems and refines assumptions iteratively to keep them accurate; on 7 networks and 140 properties it verifies nearly 7 times more problems than state-of-the-art verifiers.</p><p class="digest-where"><span><img class="flag" src="/img/flags/us.svg" alt="United States" title="United States" width="16" height="12" loading="lazy"> <b>San Diego</b> &middot; Poster #3812, Exhibit Hall C,D,E &middot; Fri 5 Dec, 16:30–19:30 (San Diego time)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/mx.svg" alt="Mexico" title="Mexico" width="16" height="12" loading="lazy"> Mexico City, Mexico <span class="note">1 / 202 NeurIPS 2025 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="zargarbashi2025one">
+	<a class="tag-link" href="/conferences/neurips/"><span class="tag accepted">NeurIPS 2025</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/nips/ZargarbashiAB25">One Sample is Enough to Make Conformal Prediction Robust</a>
+
+	<br><span class="authors"><a href="/researchers/soroush-h-zargarbashi/">Soroush H. Zargarbashi</a>, <a href="/researchers/mohammad-sadegh-akhondzadeh/">Mohammad Sadegh Akhondzadeh</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a></span><p class="digest-summary">Makes conformal prediction robust to bounded input noise with a single forward pass on a randomly perturbed input, certifying the conformal procedure itself via any binary certificate; RCP1 yields smaller average robust sets than methods using around 100 passes per input.</p><p class="digest-where"><span><img class="flag" src="/img/flags/mx.svg" alt="Mexico" title="Mexico" width="16" height="12" loading="lazy"> <b>Mexico City</b> &middot; Poster, Don Alberto 4 &middot; Wed 3 Dec, 13:00–16:00 (Mexico City time)</span></p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2025-08/">&larr; August 2025</a>
+<a href="/digest/2025/">All of 2025</a><a href="/digest/2025-11/">November 2025 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

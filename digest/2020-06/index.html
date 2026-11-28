@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>June 2020 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2020-06/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="June 2020">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2020-06/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>June 2020</h1></header>
+<article>
+<p class="digest-intro">ICML 2020 and IROS 2020 decisions: randomized smoothing theory leads, covering label-flipping certificates, curse-of-dimensionality limits, sparsity-aware certificates for graphs and optimal smoothing distributions. LayerCert offers hierarchical exact verification, curvature bounds give second-order certificates, and verification reaches neural network control policies and robot state estimation, plus robust training against programmable string transformations.</p>
+<p>11 NNV papers accepted in June 2020, at ICML 2020 and IROS 2020.</p>
+<h2 class="digest-venue">ICML 2020 &middot; Virtual <span class="note">10 / 1,084 ICML 2020 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="yang2020randomized">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/YangDHSR020">Randomized Smoothing of All Shapes and Sizes</a> <span class="note">(<a href="https://arxiv.org/abs/2002.08118">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/greg-yang/">Greg Yang</a>, Tony Duan, J. Edward Hu, <a href="/researchers/hadi-salman/">Hadi Salman</a>, <a href="/researchers/ilya-p-razenshteyn/">Ilya P. Razenshteyn</a>, <a href="/researchers/jerry-li/">Jerry Li</a></span><p class="digest-summary">A general theory for randomized smoothing finds optimal smoothing distributions via the Wulff Crystal and two methods for robust radii of any distribution, improving certified ℓ1 accuracy; Banach space cotypes show limits on certifying ℓp perturbations in high dimensions.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 14 Jul, 14:00–14:45 (UTC)</span></p>
+</li>
+<li id="rosenfeld2020certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/RosenfeldWRK20">Certified Robustness to Label-Flipping Attacks via Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2002.03018">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/elan-rosenfeld/">Elan Rosenfeld</a>, <a href="/researchers/ezra-winston/">Ezra Winston</a>, <a href="/researchers/pradeep-ravikumar/">Pradeep Ravikumar</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Uses randomized smoothing over arbitrary functions to certify classifiers against data poisoning, instantiated as linear classifiers certified against label flipping per test point with a deterministic analytical bound, little extra runtime, and the first multi-class label-flipping certificate.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 14 Jul, 16:00–16:45 (UTC)</span></p>
+</li>
+<li id="singla2020second">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/0002F20">Second-Order Provable Defenses against Adversarial Attacks</a> <span class="note">(<a href="https://arxiv.org/abs/2006.00731">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Computes ℓ2 robustness certificates for networks with differentiable activations via convex optimization when Hessian eigenvalues are bounded, using a differentiable curvature bound also as a regularizer; CRT reaches 69.79%, 57.78% and 53.19% certified accuracy on MNIST versus about 45% for IBP.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 15 Jul, 12:00–12:45 (UTC)</span></p>
+</li>
+<li id="ashtiani2020black">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/icml/AshtianiPU20">Black-box Certification and Learning under Adversarial Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/2006.16520">arXiv</a>)</span>
+
+	<br><span class="authors">Hassan Ashtiani, Vinayak Pathak, Ruth Urner</span><p class="digest-summary">Studies learning and third-party black-box certification of classifiers under adversarial perturbations in a PAC-type semi-supervised framework, giving possibility and impossibility results for VC-classes and analysing certification with a limited query budget.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 15 Jul, 15:00–15:45 (UTC)</span></p>
+</li>
+<li id="lim2020hierarchical">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/LimUY20">Hierarchical Verification for Adversarial Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2007.11826">arXiv</a>)</span>
+
+	<br><span class="authors">Cong Han Lim, Raquel Urtasun, Ersin Yumer</span><p class="digest-summary">LayerCert performs exact ℓp robustness verification of ReLU networks by exploring activation regions hierarchically along the nested hyperplane arrangement induced by layers, provably solving fewer and smaller convex programs than GeoCert and reducing running time.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 15 Jul, 17:00–17:45 (UTC)</span></p>
+</li>
+<li id="phan2020scalable">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/PhanTHJSD20">Scalable Differential Privacy with Certified Robustness in Adversarial Learning</a> <span class="note">(<a href="https://arxiv.org/abs/1903.09822">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/nhathai-phan/">NhatHai Phan</a>, <a href="/researchers/my-t-thai/">My T. Thai</a>, Han Hu, <a href="/researchers/ruoming-jin/">Ruoming Jin</a>, Tong Sun, <a href="/researchers/dejing-dou/">Dejing Dou</a></span><p class="digest-summary">Preserves differential privacy in adversarial learning for deep neural networks while certifying robustness, by randomizing input and latent spaces, an adversarial objective based on DP post-processing, and stochastic batch training that scales to large networks and datasets.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 15 Jul, 19:00–19:45 (UTC)</span></p>
+</li>
+<li id="zhang2020robustness">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ZhangAD20">Robustness to Programmable String Transformations via Augmented Abstract Training</a> <span class="note">(<a href="https://arxiv.org/abs/2002.09579">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/yuhao-zhang/">Yuhao Zhang</a>, <a href="/researchers/aws-albarghouthi/">Aws Albarghouthi</a>, <a href="/researchers/loris-d-antoni/">Loris D&#39;Antoni</a></span><p class="digest-summary">Trains NLP models robust to user-defined string transformations such as insertions, deletions, substitutions and swaps, specified in a programmable language, by splitting specifications into parts handled by search and by abstraction; evaluated on AG and SST2.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 16 Jul, 13:00–13:45 (UTC)</span></p>
+</li>
+<li id="bojchevski2020efficient">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/icml/BojchevskiKG20">Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More</a> <span class="note">(<a href="https://arxiv.org/abs/2008.12952">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/johannes-klicpera/">Johannes Klicpera</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">A sparsity-aware randomized smoothing certificate for discrete data that is model-agnostic, tight and efficient, with cost independent of input dimension or category count; it certifies any Graph Neural Network against perturbations to graph structure and node attributes.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 16 Jul, 19:00–19:45 (UTC)</span></p>
+</li>
+<li id="kumar2020curse">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Kumar0GF20">Curse of Dimensionality on Randomized Smoothing for Certifiable Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2002.03239">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Proves that for many i.i.d. smoothing distributions the largest certifiable ℓp radius shrinks with input dimension for p &gt; 2, so Gaussian smoothing is optimal up to a constant factor; uniform ℓ1 and ℓ∞ smoothing scale even worse, with CIFAR experiments.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 16 Jul, 22:00–22:45 (UTC)</span></p>
+</li>
+<li id="wang2020neural">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2020</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WangWD20">Neural Network Control Policy Verification With Persistent Adversarial Perturbation</a>
+
+	<br><span class="authors">Yuh-Shyang Wang, <a href="/researchers/tsui-wei-weng/">Tsui-Wei Weng</a>, <a href="/researchers/luca-daniel/">Luca Daniel</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 16 Jul, 22:00–22:45 (UTC)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">IROS 2020 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="huang2020practical">
+	<a class="tag-link" href="/conferences/iros/"><span class="tag accepted">IROS 2020</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/iros45743.2020.9340720">Practical Verification of Neural Network Enabled State Estimation System for Robotics</a>
+
+	<br><span class="authors">Wei Huang, Yifan Zhou, <a href="/researchers/youcheng-sun/">Youcheng Sun</a>, James Sharp, Simon Maskell, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a></span><p class="digest-summary">Verifies robustness of learning-enabled robot state estimation, where a neural network feeds a Bayes filter, by reducing it to labelled transition systems with payoffs and solving a constrained optimization; on a Kalman-filter WAMI vehicle tracking system it verifies robustness and finds counterexamples.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2020-04/">&larr; April 2020</a>
+<a href="/digest/2020/">All of 2020</a><a href="/digest/2020-07/">July 2020 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

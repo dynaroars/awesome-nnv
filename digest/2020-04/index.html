@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2020 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2020-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2020">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2020-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2020</h1></header>
+<article>
+<p class="digest-intro">CAV 2020 and IJCAI 2020 decisions: complete verification and tooling lead, with abstraction-refinement integrated into Marabou, faster geometric path enumeration, the NNV tool with ImageStar verification of large CNNs, and GDVB benchmark generation. IJCAI adds individual fairness, metamorphic testing with certified fairness mitigation for NLP models, and verifiable RNN-based policies for POMDPs.</p>
+<p>8 NNV papers accepted in April 2020, at CAV 2020 and IJCAI 2020.</p>
+<h2 class="digest-venue">CAV 2020 <span class="note">5 papers</span></h2>
+<ul class="papers digest"><li id="elboher2020abstraction">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-53288-8_3">An Abstraction-Based Framework for Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/yizhak-yisrael-elboher/">Yizhak Yisrael Elboher</a>, Justin Gottschlich, <a href="/researchers/guy-katz/">Guy Katz</a></span><p class="digest-summary">Shrinks neural networks by over-approximation so properties proven on the smaller abstract network hold for the original, refining with counterexample guidance on spurious results; integrated with Marabou, it significantly improves verification performance on larger networks.</p>
+</li>
+<li id="bak2020improved">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-53288-8_4">Improved Geometric Path Enumeration for Verifying ReLU Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, Kerianne Hobbs, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary">Speeds up exact geometric path enumeration verification of ReLU networks through a series of optimizations, several algorithmically new, running sometimes hundreds of times faster on ACAS Xu and often fastest on harder instances, even beating over-approximating methods.</p>
+</li>
+<li id="tran2020nnv">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/control/"><span class="tag own">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-53288-8_1">NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems</a>
+
+	<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/xiaodong-yang/">Xiaodong Yang</a>, <a href="/researchers/diego-manzanas-lopez/">Diego Manzanas Lopez</a>, <a href="/researchers/patrick-musau/">Patrick Musau</a>, Luan Viet Nguyen, <a href="/researchers/weiming-xiang/">Weiming Xiang</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary">NNV is a set-based verification tool for deep neural networks and learning-enabled cyber-physical systems, using polyhedra, star sets, zonotopes and abstract domains for exact and over-approximate reachability, with closed-loop analysis via CORA; case studies cover ACAS Xu and adaptive cruise control.</p>
+</li>
+<li id="xu2020systematic">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-53288-8_5">Systematic Generation of Diverse Benchmarks for DNN Verification</a>
+
+	<br><span class="authors"><a href="/researchers/dong-xu/">Dong Xu</a>, <a href="/researchers/david-shriver/">David Shriver</a>, <a href="/researchers/matthew-b-dwyer/">Matthew B. Dwyer</a>, <a href="/researchers/sebastian-elbaum/">Sebastian Elbaum</a></span><p class="digest-summary">GDVB generates diverse neural network verification benchmarks by systematically varying problem factors that affect verifier performance, offering richer and less biased sets of verification problems for comparing verifiers.</p>
+</li>
+<li id="tran2020verification">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2020</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-030-53288-8_2">Verification of Deep Convolutional Neural Networks Using ImageStars</a>
+
+	<br><span class="authors"><a href="/researchers/hoang-dung-tran/">Hoang-Dung Tran</a>, <a href="/researchers/stanley-bak/">Stanley Bak</a>, <a href="/researchers/weiming-xiang/">Weiming Xiang</a>, <a href="/researchers/taylor-t-johnson/">Taylor T. Johnson</a></span><p class="digest-summary">Verifies robustness of large CNNs such as VGG16 and VGG19 on ImageNet with the ImageStar set representation, combining concrete image operations with linear programming for exact and over-approximate analysis in NNV; it is less conservative and faster than zonotope and polytope methods.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IJCAI 2020 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="yeom2020individual">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2020/61">Individual Fairness Revisited: Transferring Techniques from Adversarial Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2002.07738">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/samuel-yeom/">Samuel Yeom</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Finds, for a given model, a metric under which it is individually fair: introduces minimal metrics and characterizes model behavior with them, then applies randomized smoothing to make complex models individually fair under a weighted Lᵖ metric, giving interpretable fairness guarantees at little utility cost.</p>
+</li>
+<li id="ma2020metamorphic">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2020</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2020/64">Metamorphic Testing and Certified Mitigation of Fairness Violations in NLP Models</a>
+
+	<br><span class="authors"><a href="/researchers/pingchuan-ma/">Pingchuan Ma</a>, <a href="/researchers/shuai-wang/">Shuai Wang</a>, Jin Liu</span><p class="digest-summary">Tests NLP models for fairness violations with metamorphic testing, then defines (ε, k)-fairness and smooths predictions to give certified fairness guarantees. Flags thousands of discriminatory inputs in popular commercial NLP models and adds certification at modest cost.</p>
+</li>
+<li id="carr2020verifiable">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2020</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2020/570">Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints</a> <span class="note">(<a href="https://arxiv.org/abs/2002.05615">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/steven-carr/">Steven Carr</a>, <a href="/researchers/nils-jansen/">Nils Jansen</a>, <a href="/researchers/ufuk-topcu/">Ufuk Topcu</a></span><p class="digest-summary">Extracts a finite-state controller from an RNN policy for POMDPs with an iterative quantized bottleneck insertion, verifies it against temporal logic specifications with formal tools, and uses verification diagnostics to adjust memory or retrain the RNN; it beats traditional POMDP synthesis by 3 orders of magnitude while staying within 2% of optimal values.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2020-02/">&larr; February 2020</a>
+<a href="/digest/2020/">All of 2020</a><a href="/digest/2020-06/">June 2020 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

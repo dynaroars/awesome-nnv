@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>April 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-04/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="April 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-04/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>April 2022</h1></header>
+<article>
+<p class="digest-intro">CAV 2022, IJCAI 2022 and ISSTA 2022 decisions: CAV papers target verifier efficiency through synthesised linear approximations and shared certificates, and verified safe reinforcement learning through Trainify and RINO reachability. IJCAI brought individual fairness guarantees and neuro-symbolic verification, while ISSTA defined epsilon-weakened robustness; backdoor verification also appears.</p>
+<p>10 NNV papers accepted in April 2022, at CAV 2022, IJCAI 2022 and ISSTA 2022.</p>
+<h2 class="digest-venue">CAV 2022 <span class="note">6 papers</span></h2>
+<ul class="papers digest"><li id="paulsen2022example">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_8">Example Guided Synthesis of Linear Approximations for Neural Network Verification</a>
+
+	<br><span class="authors"><a href="/researchers/brandon-paulsen/">Brandon Paulsen</a>, <a href="/researchers/chao-wang/">Chao Wang</a></span><p class="digest-summary">Automatically synthesises sound linear approximations of activation functions for neural network verification by learning from generated examples, then bounding violations with global optimisation to restore soundness; solves more verification problems than hand-crafted approximations.</p>
+</li>
+<li id="casadio2022neural">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_11">Neural Network Robustness as a Verification Property: A Principled Case Study</a>
+
+	<br><span class="authors">Marco Casadio, <a href="/researchers/ekaterina-komendantskaya/">Ekaterina Komendantskaya</a>, <a href="/researchers/matthew-l-daggitt/">Matthew L. Daggitt</a>, <a href="/researchers/wen-kokke/">Wen Kokke</a>, <a href="/researchers/guy-katz/">Guy Katz</a>, <a href="/researchers/guy-amir/">Guy Amir</a>, <a href="/researchers/idan-refaeli/">Idan Refaeli</a></span><p class="digest-summary">Sets out general principles for empirically analysing neural network robustness as a mathematical property across training, verification and deployment, comparing the many existing robustness notions, and applies them in a case study showing practical benefits.</p>
+</li>
+<li id="goubault2022rino">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_25">RINO: Robust INner and Outer Approximated Reachability of Neural Networks Controlled Systems</a>
+
+	<br><span class="authors">Eric Goubault, Sylvie Putot</span><p class="digest-summary">RINO computes inner and outer approximations of reachable sets for discrete- and continuous-time systems controlled by neural networks, combining zonotopes with mean-value AE extensions and Taylor methods; it is at least an order of magnitude faster than Verisig 2.0 and ReachNN*.</p>
+</li>
+<li id="fischer2022shared">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_7">Shared Certificates for Neural Network Verification</a> <span class="note">(<a href="https://arxiv.org/abs/2109.00542">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/marc-fischer/">Marc Fischer</a>, Christian Sprecher, <a href="/researchers/dimitar-i-dimitrov/">Dimitar I. Dimitrov</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Shared certificates reduce neural network verification cost by reusing intermediate-layer abstractions that overlap or contain each other across different inputs and perturbations, without precision loss; evaluated on image classifiers under patch and geometric perturbations.</p>
+</li>
+<li id="jin2022trainify">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_10">Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning</a>
+
+	<br><span class="authors"><a href="/researchers/peng-jin/">Peng Jin</a>, <a href="/researchers/jiaxu-tian/">Jiaxu Tian</a>, <a href="/researchers/dapeng-zhi/">Dapeng Zhi</a>, Xuejun Wen, <a href="/researchers/min-zhang/">Min Zhang</a></span><p class="digest-summary">Trainify trains deep reinforcement learning systems on coarse abstract state spaces and refines them from counterexamples in a CEGAR loop until all properties verify; on six control systems it yields provably safe policies without sacrificing reward or robustness.</p>
+</li>
+<li id="pham2022verifying">
+	<a class="tag-link" href="/conferences/cav/"><span class="tag accepted">CAV 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-13185-1_9">Verifying Neural Networks Against Backdoor Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/long-h-pham/">Long H. Pham</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span><p class="digest-summary">Verifies that a neural network is free of backdoors at a given success rate by combining statistical sampling with abstract interpretation, either proving absence of a backdoor or generating trigger inputs, avoiding the accuracy loss of randomized smoothing.</p>
+</li>
+</ul>
+<h2 class="digest-venue">IJCAI 2022 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="muravev2022certified">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2022</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2022/467">Certified Robustness via Randomized Smoothing over Multiplicative Parameters of Input Transformations</a>
+
+	<br><span class="authors"><a href="/researchers/nikita-muravev/">Nikita Muravev</a>, <a href="/researchers/aleksandr-petiushko/">Aleksandr Petiushko</a></span><p class="digest-summary">Randomized smoothing over multiplicative parameters of input transformations certifies classifiers against gamma correction perturbations; an asymmetric Rayleigh distribution gives better certificates than Gaussian, Laplace or uniform smoothing for some perturbation values.</p>
+</li>
+<li id="benussi2022individual">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2022</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2022/92">Individual Fairness Guarantees for Neural Networks</a>
+
+	<br><span class="authors">Elias Benussi, <a href="/researchers/andrea-patane/">Andrea Patanè</a>, <a href="/researchers/matthew-wicker/">Matthew Wicker</a>, <a href="/researchers/luca-laurenti/">Luca Laurenti</a>, <a href="/researchers/marta-kwiatkowska/">Marta Kwiatkowska</a></span><p class="digest-summary">Certifies epsilon-delta individual fairness of feed-forward neural networks under learnt metrics such as Mahalanobis distance, globally bounding nonlinearities with piecewise-linear functions encoded as MILP; a modified loss yields networks orders of magnitude fairer than prior methods.</p>
+</li>
+<li id="xie2022neuro">
+	<a class="tag-link" href="/conferences/ijcai/"><span class="tag accepted">IJCAI 2022</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.24963/ijcai.2022/503">Neuro-Symbolic Verification of Deep Neural Networks</a>
+
+	<br><span class="authors">Xuan Xie, Kristian Kersting, <a href="/researchers/daniel-neider/">Daniel Neider</a></span><p class="digest-summary">Neuro-symbolic verification lets neural networks serve as part of logical specifications, extending verification to complex real-world properties such as stopping before a stop sign, and can be implemented on top of existing neural network verification infrastructure.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ISSTA 2022 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="huang2022weakened">
+	<a class="tag-link" href="/conferences/issta/"><span class="tag accepted">ISSTA 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1145/3533767.3534373">ε-weakened robustness of deep neural networks</a> <span class="note">(<a href="https://arxiv.org/abs/2110.15764">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/pei-huang/">Pei Huang</a>, Yuting Yang, Minghao Liu, Fuqi Jia, Feifei Ma, Jian Zhang</span><p class="digest-summary">Defines epsilon-weakened robustness, bounding the proportion of adversarial examples in a region, proves its decision problem PP-complete and gives statistical decision and maximum-radius algorithms with user-controlled error, polynomial in network dimension and size.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-03/">&larr; March 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-05/">May 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

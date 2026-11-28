@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>November 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-11/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="November 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-11/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>November 2021</h1></header>
+<article>
+<p class="digest-intro">AAAI 2022 decisions: neural-network control systems lead, with neural supermartingales for stability, RNN controller synthesis, GoTube statistical reachability, and Taylor models combined with zonotopes. Probabilistic certification work includes CC-CERT, DeformRS and input-specific sampling for randomized smoothing, alongside SDP verification tightened with linear cuts.</p>
+<p>13 NNV papers accepted in November 2021, at AAAI 2022 and EMNLP 2021. 3 of them are placed by conference date, as the notification date is not recorded.</p>
+<h2 class="digest-venue">AAAI 2022 <span class="note">10 papers</span></h2>
+<ul class="papers digest"><li id="pautov2022cc">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i7.20768">CC-CERT: A Probabilistic Approach to Certify General Robustness of Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/mikhail-pautov/">Mikhail Pautov</a>, <a href="/researchers/nurislam-tursynbek/">Nurislam Tursynbek</a>, Marina Munkhoeva, <a href="/researchers/nikita-muravev/">Nikita Muravev</a>, <a href="/researchers/aleksandr-petiushko/">Aleksandr Petiushko</a>, <a href="/researchers/ivan-v-oseledets/">Ivan V. Oseledets</a></span><p class="digest-summary">CC-CERT gives probabilistic robustness certificates for neural networks under general attacks, including semantic transformations such as rotation and translation, by estimating failure probability under a sampled attack distribution with Chernoff-Cramer bounds.</p>
+</li>
+<li id="alfarra2022deformrs">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i6.20546">DeformRS: Certifying Input Deformations with Randomized Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/motasem-alfarra/">Motasem Alfarra</a>, <a href="/researchers/adel-bibi/">Adel Bibi</a>, Naeemullah Khan, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/bernard-ghanem/">Bernard Ghanem</a></span><p class="digest-summary">DeformRS-VF and DeformRS-Par certify networks against vector-field and parameterized input deformations, such as rotations, translations, scaling and affine maps, via randomized smoothing; DeformRS-Par reaches 39% certified accuracy for rotations within 10 degrees on ImageNet.</p>
+</li>
+<li id="delgrange2022distillation">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i6.20602">Distillation of RL Policies with Formal Guarantees via Variational Abstraction of Markov Decision Processes</a>
+
+	<br><span class="authors"><a href="/researchers/florent-delgrange/">Florent Delgrange</a>, <a href="/researchers/ann-nowe/">Ann Nowé</a>, <a href="/researchers/guillermo-a-perez/">Guillermo A. Pérez</a></span><p class="digest-summary">Distills deep RL policies into discrete latent Markov decision process models learned by a variational autoencoder, with bisimulation bounds and PAC guarantees that let formal MDP methods check reachability, safety-constrained reachability and discounted-reward objectives.</p>
+</li>
+<li id="gruenbacher2022gotube">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i6.20631">GoTube: Scalable Statistical Verification of Continuous-Depth Models</a>
+
+	<br><span class="authors"><a href="/researchers/sophie-a-gruenbacher/">Sophie A. Gruenbacher</a>, <a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/ramin-m-hasani/">Ramin M. Hasani</a>, Daniela Rus, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a>, <a href="/researchers/scott-a-smolka/">Scott A. Smolka</a>, <a href="/researchers/radu-grosu/">Radu Grosu</a></span><p class="digest-summary">GoTube statistically verifies continuous-depth neural models by solving global optimization problems over time to build a reachable tube that is conservative up to chosen probability and tightness, avoiding the wrapping effect and outscaling existing reachability tools.</p>
+</li>
+<li id="chen2022input">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i6.20579">Input-Specific Robustness Certification for Randomized Smoothing</a>
+
+	<br><span class="authors"><a href="/researchers/ruoxin-chen/">Ruoxin Chen</a>, <a href="/researchers/jie-li/">Jie Li</a>, <a href="/researchers/junchi-yan/">Junchi Yan</a>, Ping Li, Bin Sheng</span><p class="digest-summary">Input-Specific Sampling speeds up randomized smoothing certification by adapting the sample size to each input while bounding the radius loss; it certifies over three times faster on CIFAR-10 and ImageNet at a cost of 0.05 certified radius.</p>
+</li>
+<li id="gu2022recurrent">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i5.20476">Recurrent Neural Network Controllers Synthesis with Stability Guarantees for Partially Observed Systems</a>
+
+	<br><span class="authors">Fangda Gu, He Yin, Laurent El Ghaoui, Murat Arcak, Peter J. Seiler, <a href="/researchers/ming-jin/">Ming Jin</a></span><p class="digest-summary">Synthesizes recurrent neural network controllers for partially observed nonlinear uncertain systems with stability guarantees, using convex conditions from integral quadratic constraints and the S-lemma enforced by a projected policy gradient method that needs fewer samples.</p>
+</li>
+<li id="lechner2022stability">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i7.20695">Stability Verification in Stochastic Control Systems via Neural Network Supermartingales</a>
+
+	<br><span class="authors"><a href="/researchers/mathias-lechner/">Mathias Lechner</a>, <a href="/researchers/dorde-zikelic/">Dorde Zikelic</a>, <a href="/researchers/krishnendu-chatterjee/">Krishnendu Chatterjee</a>, <a href="/researchers/thomas-a-henzinger/">Thomas A. Henzinger</a></span><p class="digest-summary">Verifies almost-sure asymptotic stability of nonlinear stochastic control systems with neural network policies by learning neural ranking supermartingales, which also give the first bounds on stabilization time; tested on stochastic reinforcement learning environments.</p>
+</li>
+<li id="lan2022tight">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/complete/"><span class="tag own">Complete verification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i7.20689">Tight Neural Network Verification via Semidefinite Relaxations and Linear Reformulations</a>
+
+	<br><span class="authors">Jianglin Lan, <a href="/researchers/yang-zheng/">Yang Zheng</a>, <a href="/researchers/alessio-lomuscio/">Alessio Lomuscio</a></span><p class="digest-summary">Tightens SDP-based neural network verification by adding linear cuts from the reformulation-linearisation technique to a layerwise SDP relaxation; on MNIST networks of about 10k nodes the share of certified cases rises from 0% to 82%.</p>
+</li>
+<li id="huai2022towards">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i6.20651">Towards Automating Model Explanations with Certified Robustness Guarantees</a>
+
+	<br><span class="authors">Mengdi Huai, Jinduo Liu, Chenglin Miao, Liuyi Yao, Aidong Zhang</span><p class="digest-summary">A concept-based interpretation method that automatically produces prototype-based concept explanations without human intervention and gives certified robustness guarantees that these explanations hold under adversarial perturbations, tested on real-world datasets.</p>
+</li>
+<li id="schilling2022verification">
+	<a class="tag-link" href="/conferences/aaai/"><span class="tag accepted">AAAI 2022</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1609/aaai.v36i7.20790">Verification of Neural-Network Control Systems by Integrating Taylor Models and Zonotopes</a>
+
+	<br><span class="authors">Christian Schilling, Marcelo Forets, Sebastián Guadalupe</span><p class="digest-summary">Verifies closed-loop neural-network control systems by chaining Taylor-model reachability for the dynamics with zonotope analysis for the network without losing dependency information; the tool is the first to analyse all benchmarks of an annual NNCS reachability competition.</p>
+</li>
+</ul>
+<h2 class="digest-venue">EMNLP 2021 <span class="note">3 papers</span></h2>
+<ul class="papers digest"><li id="zhang2021certified">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2021</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.18653/v1/2021.emnlp-main.82">Certified Robustness to Programmable Transformations in LSTMs</a> <span class="note">(<a href="https://arxiv.org/abs/2102.07818">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors"><a href="/researchers/yuhao-zhang/">Yuhao Zhang</a>, <a href="/researchers/aws-albarghouthi/">Aws Albarghouthi</a>, <a href="/researchers/loris-d-antoni/">Loris D&#39;Antoni</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="zhang2021profanity">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.18653/v1/2021.emnlp-main.418">Profanity-Avoiding Training Framework for Seq2seq Models with Certified Robustness</a>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors">Hengtong Zhang, Tianhang Zheng, Yaliang Li, Jing Gao, Lu Su, Bo Li</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="olivier2021sequential">
+	<a class="tag-link" href="/conferences/emnlp/"><span class="tag accepted">EMNLP 2021</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.18653/v1/2021.emnlp-main.514">Sequential Randomized Smoothing for Adversarially Robust Speech Recognition</a> <span class="note">(<a href="https://arxiv.org/abs/2112.03000">arXiv</a>)</span>
+ <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>
+	<br><span class="authors">Raphaël Olivier, Bhiksha Raj</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2021-10/">&larr; October 2021</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-12/">December 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

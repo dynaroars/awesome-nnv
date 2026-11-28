@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>March 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-03/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="March 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-03/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>March 2022</h1></header>
+<article>
+<p class="digest-intro">CVPR 2022 decisions: certified patch defenses built on vision transformers within smoothing-based certification, and 3DeformRS, which specialises randomized smoothing to spatial deformations of point clouds.</p>
+<p>3 NNV papers accepted in March 2022, at CVPR 2022.</p>
+<ul class="papers digest"><li id="s20223deformrs">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2022</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/cvpr52688.2022.01474">3DeformRS: Certifying Spatial Deformations on Point Clouds</a>
+
+	<br><span class="authors"><a href="/researchers/gabriel-perez-s/">Gabriel Pérez S.</a>, <a href="/researchers/juan-c-perez/">Juan C. Pérez</a>, <a href="/researchers/motasem-alfarra/">Motasem Alfarra</a>, <a href="/researchers/silvio-giancola/">Silvio Giancola</a>, <a href="/researchers/bernard-ghanem/">Bernard Ghanem</a></span><p class="digest-summary">3DeformRS certifies point cloud DNNs against parameterised spatial deformations such as rotation and twisting by specialising randomized smoothing to vector-field deformations; for PointNet under 3-degree z-rotation it gives a 3x larger certificate 20x faster than prior work.</p>
+</li>
+<li id="salman2022certified">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52688.2022.01471">Certified Patch Robustness via Smoothed Vision Transformers</a>
+
+	<br><span class="authors"><a href="/researchers/hadi-salman/">Hadi Salman</a>, Saachi Jain, <a href="/researchers/eric-wong/">Eric Wong</a>, <a href="/researchers/aleksander-madry/">Aleksander Madry</a></span><p class="digest-summary">Uses vision transformers within smoothing-based certified patch defenses, exploiting their ability to handle heavily masked images to obtain better certified patch robustness, faster inference and no substantial drop in standard accuracy.</p>
+</li>
+<li id="chen2022towards">
+	<a class="tag-link" href="/conferences/cvpr/"><span class="tag accepted">CVPR 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://doi.org/10.1109/cvpr52688.2022.01472">Towards Practical Certifiable Patch Defense with Vision Transformer</a>
+
+	<br><span class="authors">Zhaoyu Chen, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Wenqiang Zhang</span><p class="digest-summary">Certifies image classifiers against patch attacks by placing a Vision Transformer inside Derandomized Smoothing, trained with progressive smoothed image modeling and using isolated band unit self-attention; on ImageNet it reaches 41.70% certified accuracy under 2% patches, against 26.00% before.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-01/">&larr; January 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-04/">April 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

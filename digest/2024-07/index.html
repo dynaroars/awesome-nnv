@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>July 2024 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2024-07/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="July 2024">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2024-07/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>July 2024</h1></header>
+<article>
+<p class="digest-intro">CCS 2024, ECCV 2024 and ISSTA 2024 decisions: vision-focused certification, including certifiably robust image watermarks and face recognition, cross-input certified training for universal perturbations and ProTIP for text-to-image diffusion models. Certified continual learning for neural network regression and a certified defense against backdoors in federated graph learning complete the picture.</p>
+<p>7 NNV papers accepted in July 2024, at CCS 2024, ECCV 2024 and ISSTA 2024.</p>
+<h2 class="digest-venue">ECCV 2024 <span class="note">5 papers</span></h2>
+<ul class="papers digest"><li id="choi2024adversarial">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-73004-7_10">Adversarial Robustification via Text-to-Image Diffusion Models</a> <span class="note">(<a href="https://arxiv.org/abs/2407.18658">arXiv</a>)</span>
+
+	<br><span class="authors">Daewon Choi, <a href="/researchers/jongheon-jeong/">Jongheon Jeong</a>, Huiwon Jang, <a href="/researchers/jinwoo-shin/">Jinwoo Shin</a></span><p class="digest-summary">Achieves provable adversarial robustness without data by turning text-to-image diffusion models into adaptable denoisers in a denoise-and-classify pipeline, adapted with a few synthetic reference images; applied to pre-trained CLIP it raises certified robustness of its zero-shot classifiers while keeping accuracy, beating approaches that use full training data.</p>
+</li>
+<li id="jiang2024certifiably">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-72980-5_25">Certifiably Robust Image Watermark</a> <span class="note">(<a href="https://arxiv.org/abs/2407.04086">arXiv</a>)</span>
+
+	<br><span class="authors">Zhengyuan Jiang, Moyang Guo, <a href="/researchers/yuepeng-hu/">Yuepeng Hu</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/neil-gong/">Neil Gong</a></span><p class="digest-summary">Extends randomized smoothing to image watermarking, deriving certified robustness guarantees against both removal and forgery attacks and algorithms to estimate them, and evaluates the resulting watermarks for certified and empirical robustness.</p>
+</li>
+<li id="xu2024cross">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/relational/"><span class="tag own">Global &amp; relational properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-73650-6_14">Cross-Input Certified Training for Universal Perturbations</a> <span class="note">(<a href="https://arxiv.org/abs/2405.09176">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/changming-xu/">Changming Xu</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">Trains networks certifiably robust to universal adversarial perturbations with CITRUS, a cross-input certified training method; across datasets, architectures and perturbation sizes it improves standard accuracy by up to 10.3% over traditional certified training and reaches state-of-the-art certified UAP accuracy.</p>
+</li>
+<li id="zhang2024protip">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-73411-3_26">ProTIP: Probabilistic Robustness Verification on Text-to-Image Diffusion Models Against Stochastic Perturbation</a> <span class="note">(<a href="https://arxiv.org/abs/2402.15429">arXiv</a>)</span>
+
+	<br><span class="authors">Yi Zhang, Yun Tang, <a href="/researchers/wenjie-ruan/">Wenjie Ruan</a>, <a href="/researchers/xiaowei-huang/">Xiaowei Huang</a>, Siddartha Khastgir, Paul A. Jennings, Xingyu Zhao</span><p class="digest-summary">Defines probabilistic robustness for text-to-image diffusion models and estimates it with statistical guarantees, using sequential analysis with efficacy and futility early stopping and adaptive concentration inequalities to pick the number of stochastic perturbations; ProTIP is effective and efficient on common models and ranks common defences.</p>
+</li>
+<li id="paik2024towards">
+	<a class="tag-link" href="/conferences/eccv/"><span class="tag accepted">ECCV 2024</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://doi.org/10.1007/978-3-031-73013-9_9">Towards Certifiably Robust Face Recognition</a>
+
+	<br><span class="authors">Seunghun Paik, Dongsoo Kim, Chanwoo Hwang, Sunpill Kim, Jae Hong Seo</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ISSTA 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="pham2024certified">
+	<a class="tag-link" href="/conferences/issta/"><span class="tag accepted">ISSTA 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://doi.org/10.1145/3650212.3680322">Certified Continual Learning for Neural Network Regression</a>
+
+	<br><span class="authors"><a href="/researchers/long-h-pham/">Long H. Pham</a>, <a href="/researchers/jun-sun/">Jun Sun</a></span><p class="digest-summary">Certified continual learning keeps the verified correctness properties of a neural network intact for as long as possible while it is retrained on new data, extending existing continual learning methods; across several networks, trained models keep their certified correctness and usually high utility.</p>
+</li>
+</ul>
+<h2 class="digest-venue">CCS 2024 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="yang2024distributed">
+	<a class="tag-link" href="/conferences/ccs/"><span class="tag accepted">CCS 2024</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://doi.org/10.1145/3658644.3690187">Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses</a>
+
+	<br><span class="authors"><a href="/researchers/yuxin-yang/">Yuxin Yang</a>, <a href="/researchers/qiang-li/">Qiang Li</a>, <a href="/researchers/jinyuan-jia/">Jinyuan Jia</a>, <a href="/researchers/yuan-hong/">Yuan Hong</a>, <a href="/researchers/binghui-wang/">Binghui Wang</a></span><p class="digest-summary">Proposes a subgraph-trigger backdoor attack on federated graph learning and a certified defense that splits test graphs into subgraphs and takes a majority vote, giving deterministic, provably tight robustness against triggers of any shape and location across six graph datasets.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2024-06/">&larr; June 2024</a>
+<a href="/digest/2024/">All of 2024</a><a href="/digest/2024-08/">August 2024 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

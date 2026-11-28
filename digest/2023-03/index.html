@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>March 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-03/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="March 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-03/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>March 2023</h1></header>
+<article>
+<p class="digest-intro">S&amp;P 2023 decisions: certified defenses against patch hiding attacks on object detection (ObjectSeeker) and against backdoor attacks (RAB), plus a systematization of certified robustness for deep neural networks.</p>
+<p>3 NNV papers accepted in March 2023, at S&amp;P 2023.</p>
+<ul class="papers digest"><li id="xiang2023objectseeker">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://doi.org/10.1109/sp46215.2023.10179319">ObjectSeeker: Certifiably Robust Object Detection against Patch Hiding Attacks via Patch-agnostic Masking</a>
+
+	<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Alexander Valtchanov, <a href="/researchers/saeed-mahloujifar/">Saeed Mahloujifar</a>, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">ObjectSeeker certifies object detectors against patch hiding attacks through patch-agnostic masking that removes the patch without knowing its shape, size or location; certified robustness improves by about 10-40% absolute over prior work with roughly 1% clean performance drop.</p>
+</li>
+<li id="weber2023rab">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://doi.org/10.1109/sp46215.2023.10179451">RAB: Provable Robustness Against Backdoor Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/maurice-weber/">Maurice Weber</a>, <a href="/researchers/xiaojun-xu/">Xiaojun Xu</a>, <a href="/researchers/bojan-karlas/">Bojan Karlas</a>, <a href="/researchers/ce-zhang/">Ce Zhang</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">RAB certifies robustness against backdoor attacks through a randomized smoothing framework and smoothed training with a proven tight bound, plus an exact smooth-training algorithm for K-NN; gives the first certified backdoor robustness benchmark on MNIST, CIFAR-10 and ImageNette.</p>
+</li>
+<li id="li2023sok">
+	<a class="tag-link" href="/conferences/sp/"><span class="tag accepted">S&amp;P 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://doi.org/10.1109/sp46215.2023.10179303">SoK: Certified Robustness for Deep Neural Networks</a>
+
+	<br><span class="authors"><a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Systematization of certifiably robust approaches for deep neural networks: a taxonomy of robustness verification and robust training methods, their strengths, limits and connections, open challenges, and an open-source platform benchmarking more than 20 representative approaches.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2023-02/">&larr; February 2023</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-04/">April 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

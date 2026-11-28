@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>May 2022 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2022-05/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="May 2022">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2022-05/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>May 2022</h1></header>
+<article>
+<p class="digest-intro">ICML 2022 decisions: randomized smoothing dominates, from Double Sampling Randomized Smoothing and bounded-support smoothing to GSmooth and TPC for semantic transformations, plus watermarks, NLP and image retrieval. Lipschitz and certified training work includes the Convex Potential Layer, CerDEQ and linearity grafting, with FairSmooth for group fairness and Finite Aggregation against data poisoning.</p>
+<p>16 NNV papers accepted in May 2022, at ICML 2022.</p>
+<ul class="papers digest"><li id="meunier2022dynamical">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/MeunierDAA22">A Dynamical System Perspective for Lipschitz Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2110.12690">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/laurent-meunier/">Laurent Meunier</a>, <a href="/researchers/blaise-delattre/">Blaise Delattre</a>, <a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/alexandre-allauzen/">Alexandre Allauzen</a></span><p class="digest-summary">Builds 1-Lipschitz neural networks by viewing residual networks as continuous-time dynamical systems, introducing the Convex Potential Layer from convex-potential ResNet flows; experiments show scalability and benefits as a provable l2 defense against adversarial examples.</p>
+</li>
+<li id="li2022cerdeq">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Li0L22">CerDEQ: Certifiable Deep Equilibrium Model</a>
+
+	<br><span class="authors">Mingjie Li, <a href="/researchers/yisen-wang/">Yisen Wang</a>, Zhouchen Lin</span><p class="digest-summary">CerDEQ enables certified training of deep equilibrium models by bounding outputs through bound propagation with the adjoint DEQ, plus weight orthogonalisation; at epsilon 8/255 it reaches 64.72% certified error on CIFAR-10 and 94.45% on Tiny ImageNet.</p>
+</li>
+<li id="kou2022certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/KouZW22">Certified Adversarial Robustness Under the Bounded Support Set</a>
+
+	<br><span class="authors">Yiwen Kou, Qinyuan Zheng, <a href="/researchers/yisen-wang/">Yisen Wang</a></span><p class="digest-summary">Generalises f-divergence-based randomized smoothing to Wasserstein and total-variation frameworks that handle smoothing measures with bounded support, such as uniform distributions; proves negative certified robustness results for lq perturbations, validated on CIFAR-10 with ResNet.</p>
+</li>
+<li id="bansal2022certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/BansalCCJWMDG22">Certified Neural Network Watermarks with Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2207.07972">arXiv</a>)</span>
+
+	<br><span class="authors">Arpit Bansal, <a href="/researchers/ping-yeh-chiang/">Ping-Yeh Chiang</a>, <a href="/researchers/michael-j-curry/">Michael J. Curry</a>, Rajiv Jain, Curtis Wigington, Varun Manjunatha, <a href="/researchers/john-dickerson/">John Dickerson</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a></span><p class="digest-summary">Certifiable watermarking of neural networks using randomized smoothing over model parameters, guaranteeing the watermark cannot be removed unless parameters change by more than an l2 threshold; also more empirically robust than earlier watermarking methods.</p>
+</li>
+<li id="zhao2022certified">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ZhaoMDLDZ22">Certified Robustness Against Natural Language Attacks by Causal Intervention</a> <span class="note">(<a href="https://arxiv.org/abs/2205.12331">arXiv</a>)</span>
+
+	<br><span class="authors">Haiteng Zhao, Chang Ma, Xinshuai Dong, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang</span><p class="digest-summary">CISS certifies NLP models against word substitution attacks by learning causal effects through smoothing in latent semantic space; on YELP its certified robustness beats the runner-up by 6.7%, with 79.4% empirical robustness under syntactic attacks.</p>
+</li>
+<li id="weber2022certifying">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WeberLWZ0022">Certifying Out-of-Domain Generalization for Blackbox Functions</a> <span class="note">(<a href="https://arxiv.org/abs/2202.01679">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/maurice-weber/">Maurice Weber</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/boxin-wang/">Boxin Wang</a>, <a href="/researchers/zhikuan-zhao/">Zhikuan Zhao</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/ce-zhang/">Ce Zhang</a></span><p class="digest-summary">Certifies distributional robustness of black-box models with bounded losses using the Hellinger distance, scaling to ImageNet and non-smooth losses; gives the first non-vacuous certified out-of-domain generalization on ImageNet and beats prior methods on smaller tasks.</p>
+</li>
+<li id="li2022double">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/LiZ0L22">Double Sampling Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2206.07912">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/jiawei-zhang/">Jiawei Zhang</a>, <a href="/researchers/tao-xie/">Tao Xie</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">Double Sampling Randomized Smoothing (DSRS) tightens l2 certificates using probabilities from an additional smoothing distribution, provably certifying radius of order sqrt(d) under mild assumptions; certifies larger radii than baselines on MNIST, CIFAR-10 and ImageNet.</p>
+</li>
+<li id="hao2022gsmooth">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/HaoYD0SZ22">GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2206.04310">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/zhongkai-hao/">Zhongkai Hao</a>, Chengyang Ying, <a href="/researchers/yinpeng-dong/">Yinpeng Dong</a>, <a href="/researchers/hang-su/">Hang Su</a>, Jian Song, <a href="/researchers/jun-zhu/">Jun Zhu</a></span><p class="digest-summary">GSmooth generalises randomized smoothing to certify robustness against general semantic transformations, including ones without closed forms such as defocus blur and pixelate, using dimension augmentation and a surrogate image-to-image network to approximate transformations.</p>
+</li>
+<li id="wang2022improved">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/icml/00020F22">Improved Certified Defenses against Data Poisoning with (Deterministic) Finite Aggregation</a> <span class="note">(<a href="https://arxiv.org/abs/2202.02628">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/wenxiao-wang/">Wenxiao Wang</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Finite Aggregation certifies robustness against data poisoning by training base classifiers on overlapping unions of small disjoint subsets, improving on DPA; certified fractions rise by up to 3.05%, 3.87% and 4.77% on MNIST, CIFAR-10 and GTSRB.</p>
+</li>
+<li id="jin2022input">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/JinZZW22">Input-agnostic Certified Group Fairness via Gaussian Parameter Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2206.11423">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jiayin-jin/">Jiayin Jin</a>, Zeru Zhang, <a href="/researchers/yang-zhou/">Yang Zhou</a>, Lingfei Wu</span><p class="digest-summary">FairSmooth certifies group fairness of classifiers independent of input distribution using Gaussian parameter smoothing and averaged per-group smooth classifiers; nonlinear functional analysis shows the resulting manifold has an input-independent global Lipschitz constant.</p>
+</li>
+<li id="sukenik2022intriguing">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/SukenikKG22">Intriguing Properties of Input-Dependent Randomized Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2110.05365">arXiv</a>)</span>
+
+	<br><span class="authors">Peter Súkeník, Aleksei Kuvshinov, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Shows input-dependent randomized smoothing methods lack formal guarantees and suffer from the curse of dimensionality, then gives a framework and concrete variance design that permits certified input-dependent smoothing under strict restrictions, tested on CIFAR10 and MNIST.</p>
+</li>
+<li id="chen2022linearity">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ChenZZCLCW22">Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness</a> <span class="note">(<a href="https://arxiv.org/abs/2206.07839">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/tianlong-chen/">Tianlong Chen</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, Zhenyu Zhang, <a href="/researchers/shiyu-chang/">Shiyu Chang</a>, <a href="/researchers/sijia-liu/">Sijia Liu</a>, <a href="/researchers/pin-yu-chen/">Pin-Yu Chen</a>, <a href="/researchers/zhangyang-wang/">Zhangyang Wang</a></span><p class="digest-summary">Linearity grafting linearises insignificant ReLU neurons and optimises their slopes and intercepts to tighten certified bounds, improving certifiable robustness by over 30% on CIFAR-10 without certified training and scaling complete verification to 17M-parameter models.</p>
+</li>
+<li id="chen2022collective">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ChenLLYW22">On Collective Robustness of Bagging Against Data Poisoning</a> <span class="note">(<a href="https://arxiv.org/abs/2205.13176">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/ruoxin-chen/">Ruoxin Chen</a>, Zenan Li, <a href="/researchers/jie-li/">Jie Li</a>, <a href="/researchers/junchi-yan/">Junchi Yan</a>, Chentao Wu</span><p class="digest-summary">Certifies general bagging collectively against global data poisoning by solving a binary integer linear program for the maximum number of simultaneously changed predictions, bounds the tolerable poison budget for vanilla bagging, and proposes hash bagging, a deterministic hash-based subsampling that improves robustness almost for free.</p>
+</li>
+<li id="wu2022retrievalguard">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/WuZH22">RetrievalGuard: Provably Robust 1-Nearest Neighbor Image Retrieval</a> <span class="note">(<a href="https://arxiv.org/abs/2206.11225">arXiv</a>)</span>
+
+	<br><span class="authors">Yihan Wu, Hongyang Zhang, Heng Huang</span><p class="digest-summary">RetrievalGuard is a provably robust 1-nearest-neighbour image retrieval method that smooths the retrieval model to a bounded Lipschitz constant, keeping Recall@1 invariant to l2 adversarial perturbations within a computable radius.</p>
+</li>
+<li id="wang2022robustness">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/icml/Wang022">Robustness Verification for Contrastive Learning</a>
+
+	<br><span class="authors"><a href="/researchers/zekai-wang/">Zekai Wang</a>, <a href="/researchers/weiwei-liu/">Weiwei Liu</a></span><p class="digest-summary">RVCL is a robustness verification framework for contrastive learning encoders that avoids dependence on attacks, labels and downstream tasks, using extreme value theory to relate encoder robust radius to downstream radius; evaluates robustness of both models and images.</p>
+</li>
+<li id="chu2022tpc">
+	<a class="tag-link" href="/conferences/icml/"><span class="tag accepted">ICML 2022</span></a>
+	<a class="tag-link" href="/areas/inputs/"><span class="tag other">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/probabilistic/"><span class="tag own">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/icml/ChuLL22">TPC: Transformation-Specific Smoothing for Point Cloud Models</a> <span class="note">(<a href="https://arxiv.org/abs/2201.12733">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/wenda-chu/">Wenda Chu</a>, <a href="/researchers/linyi-li/">Linyi Li</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">TPC certifies point cloud models against semantic transformations such as rotation, shearing and tapering with transformation-specific smoothing, covering additive, composable and indirectly composable categories; certified accuracy against z-axis twisting within 20 degrees rises from 20.3% to 83.8%.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-04/">&larr; April 2022</a>
+<a href="/digest/2022/">All of 2022</a><a href="/digest/2022-06/">June 2022 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

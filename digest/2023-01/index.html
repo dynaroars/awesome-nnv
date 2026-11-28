@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2023 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2023-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2023">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2023-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2023</h1></header>
+<article>
+<p class="digest-intro">ICLR 2023, ICRA 2023 and USENIX Security 2023 decisions: randomized smoothing leads, with diffusion-based denoised smoothing (DensePure, DiffSmooth), DMAE and localized smoothing. Certified training covers small boxes, SDP-based Lipschitz Layers and geometric transformations, and ICRA adds reachability analysis of neural network dynamical systems, including ReachLipBnB.</p>
+<p>20 NNV papers accepted in January 2023, at ICLR 2023, ICRA 2023 and USENIX Security 2023.</p>
+<h2 class="digest-venue"><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> ICLR 2023 &middot; Kigali, Rwanda <span class="note">17 / 837 ICLR 2023 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="mangal2023perils">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MangalWZLPF23">On the Perils of Cascading Robust Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2206.00278">arXiv</a>)</span>
+
+	<br><span class="authors">Ravi Mangal, <a href="/researchers/zifan-wang/">Zifan Wang</a>, Chi Zhang, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/corina-s-pasareanu/">Corina S. Pasareanu</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a></span><p class="digest-summary">Shows that the robustness certifier of cascading ensembles of certifiably robust networks is unsound and presents the CasA attack, which finds adversarial inputs for up to 88% of samples claimed certifiably robust and drops accuracy to as low as 11%.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #139, MH1-2-3-4 &middot; Mon 1 May, 11:30–13:30 (Kigali time)</span></p>
+</li>
+<li id="yang2023provable">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/YangLM023">Provable Defense Against Geometric Transformations</a> <span class="note">(<a href="https://arxiv.org/abs/2207.11177">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/rem-yang/">Rem Yang</a>, <a href="/researchers/jacob-laurel/">Jacob Laurel</a>, <a href="/researchers/sasa-misailovic/">Sasa Misailovic</a>, <a href="/researchers/gagandeep-singh/">Gagandeep Singh</a></span><p class="digest-summary">Provides the first deterministic certified training against geometric transformations such as scaling and rotation, using a GPU-optimized verifier 60x to 42,600x faster than existing ones; trained networks reach top certified geometric robustness and clean accuracy, including for autonomous driving.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #155, MH1-2-3-4 &middot; Mon 1 May, 11:30–13:30 (Kigali time)</span><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Oral, AD11 &middot; Mon 1 May, 11:10–11:20 (Kigali time)</span></p>
+</li>
+<li id="voracek2023sound">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/quantized/"><span class="tag own">Quantized &amp; bit-level</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Voracek023">Sound Randomized Smoothing in Floating-Point Arithmetic</a>
+
+	<br><span class="authors"><a href="/researchers/vaclav-voracek/">Václav Vorácek</a>, <a href="/researchers/matthias-hein/">Matthias Hein</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #136, MH1-2-3-4 &middot; Mon 1 May, 11:30–13:30 (Kigali time)</span></p>
+</li>
+<li id="delgrange2023wasserstein">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/DelgrangeN023">Wasserstein Auto-encoded MDPs: Formal Verification of Efficiently Distilled RL Policies with Many-sided Guarantees</a> <span class="note">(<a href="https://arxiv.org/abs/2303.12558">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/florent-delgrange/">Florent Delgrange</a>, <a href="/researchers/ann-nowe/">Ann Nowé</a>, <a href="/researchers/guillermo-a-perez/">Guillermo A. Pérez</a></span><p class="digest-summary">WAE-MDP distils RL policies into discrete latent models by minimising a penalised optimal-transport distance, giving bisimulation guarantees so formal verification transfers to the distilled policy; distillation runs up to 10 times faster with better latent model quality.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #117, MH1-2-3-4 &middot; Mon 1 May, 11:30–13:30 (Kigali time)</span></p>
+</li>
+<li id="sun2023certifiably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SunZHLFGH23">Certifiably Robust Policy Learning against Adversarial Multi-Agent Communication</a>
+
+	<br><span class="authors">Yanchao Sun, Ruijie Zheng, Parisa Hassanzadeh, Yongyuan Liang, <a href="/researchers/soheil-feizi/">Soheil Feizi</a>, Sumitra Ganesh, Furong Huang</span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #117, MH1-2-3-4 &middot; Mon 1 May, 16:30–18:30 (Kigali time)</span></p>
+</li>
+<li id="zeqiri2023efficient">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZeqiriM0V23">Efficient Certified Training and Robustness Verification of Neural ODEs</a> <span class="note">(<a href="https://arxiv.org/abs/2303.05246">arXiv</a>)</span>
+
+	<br><span class="authors">Mustafa Zeqiri, <a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Verifies and certifiably trains high-dimensional neural ODEs with GAINS, which combines ODE solvers with variable but discrete time steps, a graph representation of solver trajectories and an abstraction over that graph, cutting runtime from O(exp(d)&#43;exp(T)) to O(d&#43;T² log²T); evaluated on MNIST, FMNIST and PHYSIO-NET.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #135, MH1-2-3-4 &middot; Tue 2 May, 11:30–13:30 (Kigali time)</span></p>
+</li>
+<li id="carlini2023certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/CarliniTDRSK23">(Certified!!) Adversarial Robustness for Free!</a> <span class="note">(<a href="https://arxiv.org/abs/2206.10550">arXiv</a>)</span>
+
+	<br><span class="authors">Nicholas Carlini, Florian Tramèr, <a href="/researchers/krishnamurthy-dvijotham/">Krishnamurthy Dvijotham</a>, Leslie Rice, <a href="/researchers/mingjie-sun/">Mingjie Sun</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Achieves certified ℓ2 robustness with only off-the-shelf models through denoised smoothing that pairs a pretrained diffusion model with a standard classifier, certifying 71% ImageNet accuracy at radius 0.5, 14 points above the prior best, without fine-tuning.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #140, MH1-2-3-4 &middot; Tue 2 May, 16:30–18:30 (Kigali time)</span></p>
+</li>
+<li id="araujo2023unified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/AraujoHDA023">A Unified Algebraic Perspective on Lipschitz Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2303.03169">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/alexandre-araujo/">Alexandre Araujo</a>, <a href="/researchers/aaron-j-havens/">Aaron J. Havens</a>, <a href="/researchers/blaise-delattre/">Blaise Delattre</a>, <a href="/researchers/alexandre-allauzen/">Alexandre Allauzen</a>, <a href="/researchers/bin-hu/">Bin Hu</a></span><p class="digest-summary">Unifies many 1-Lipschitz layer designs as analytical solutions of a common SDP condition and, with the Gershgorin circle theorem, derives new parameterizations called SDP-based Lipschitz Layers (SLL), which outperform previous approaches in certified robust accuracy on image classification.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #29, MH1-2-3-4 &middot; Tue 2 May, 16:30–18:30 (Kigali time)</span><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Oral, Auditorium &middot; Tue 2 May, 15:40–15:50 (Kigali time)</span></p>
+</li>
+<li id="schuchardt2023localized">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SchuchardtWBG23">Localized Randomized Smoothing for Collective Robustness Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2210.16140">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, Tom Wollschläger, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Localized randomized smoothing gives collective robustness certificates for multi-output models such as segmentation and node classification, scaling noise per input region by its importance to each output; it Pareto-dominates existing certificates in accuracy and certificate strength.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #40, MH1-2-3-4 &middot; Wed 3 May, 11:30–13:30 (Kigali time)</span><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Oral, AD11 &middot; Wed 3 May, 10:10–10:20 (Kigali time)</span></p>
+</li>
+<li id="wicker2023robust">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WickerHCW23">Robust Explanation Constraints for Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2212.08507">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/matthew-wicker/">Matthew Wicker</a>, Juyeon Heo, Luca Costabello, <a href="/researchers/adrian-weller/">Adrian Weller</a></span><p class="digest-summary">Certifies the robustness of gradient-based explanations against bounded input or parameter manipulation by propagating symbolic intervals through forward and backward passes; the differentiable bounds enable training, yielding explanation-robustness certificates on all six datasets tested.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #96, MH1-2-3-4 &middot; Wed 3 May, 11:30–13:30 (Kigali time)</span></p>
+</li>
+<li id="muller2023certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a> <span class="tag other">oral</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MullerE0V23">Certified Training: Small Boxes are All You Need</a> <span class="note">(<a href="https://arxiv.org/abs/2210.04871">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, Franziska Eckert, <a href="/researchers/marc-fischer/">Marc Fischer</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Trains certifiably robust networks with SABR, which propagates interval bounds over a small, carefully selected subset of the adversarial input region to approximate the worst-case loss with less approximation error, outperforming existing certified defenses in both standard and certified accuracy across perturbation sizes and datasets.</p><p class="digest-where"><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Poster #119, MH1-2-3-4 &middot; Wed 3 May, 16:30–18:30 (Kigali time)</span><span><img class="flag" src="/img/flags/rw.svg" alt="Rwanda" title="Rwanda" width="16" height="12" loading="lazy"> <b>Kigali</b> &middot; Oral, AD10 &middot; Wed 3 May, 16:00–16:10 (Kigali time)</span></p>
+</li>
+<li id="yatsura2023certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a><a class="tag-link" href="/areas/outputs/"><span class="tag own">Beyond linear output properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/YatsuraSH0M23">Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation</a> <span class="note">(<a href="https://arxiv.org/abs/2209.05980">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/maksym-yatsura/">Maksym Yatsura</a>, Kaspar Sakmann, N. Grace Hua, <a href="/researchers/matthias-hein/">Matthias Hein</a>, <a href="/researchers/jan-hendrik-metzen/">Jan Hendrik Metzen</a></span><p class="digest-summary">Demasked Smoothing certifies semantic segmentation models against adversarial patches without retraining or architecture changes, supporting certified detection and recovery; on ADE20K it certifies 64% of pixel predictions for a 1% patch in detection and 48% for a 0.5% patch in recovery.</p>
+</li>
+<li id="wu2023denoising">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/WuYGZ0H23">Denoising Masked Autoencoders Help Robust Classification</a> <span class="note">(<a href="https://arxiv.org/abs/2210.06983">arXiv</a>)</span>
+
+	<br><span class="authors">Quanlin Wu, Hang Ye, Yuntian Gu, Huishuai Zhang, <a href="/researchers/liwei-wang/">Liwei Wang</a>, <a href="/researchers/di-he/">Di He</a></span><p class="digest-summary">Denoising Masked AutoEncoders (DMAE) pre-train a Transformer encoder to reconstruct images corrupted by Gaussian noise and masking, then use it as the base classifier for Gaussian smoothing; DMAE ViT-Large sets new certified accuracy records on ImageNet and transfers to CIFAR-10.</p>
+</li>
+<li id="xiao2023densepure">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XiaoCJWNLA0S23">DensePure: Understanding Diffusion Models for Adversarial Robustness</a>
+
+	<br><span class="authors"><a href="/researchers/chaowei-xiao/">Chaowei Xiao</a>, <a href="/researchers/zhongzhu-chen/">Zhongzhu Chen</a>, <a href="/researchers/kun-jin/">Kun Jin</a>, <a href="/researchers/jiongxiao-wang/">Jiongxiao Wang</a>, Weili Nie, Mingyan Liu, <a href="/researchers/anima-anandkumar/">Anima Anandkumar</a>, <a href="/researchers/bo-li/">Bo Li</a>, <a href="/researchers/dawn-song/">Dawn Song</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="salzer2023fundamental">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/other/"><span class="tag own">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SalzerL23">Fundamental Limits in Formal Verification of Message-Passing Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2206.05070">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/marco-salzer/">Marco Sälzer</a>, <a href="/researchers/martin-lange/">Martin Lange</a></span><p class="digest-summary">Proves that output reachability of graph-classifier message-passing neural networks over unbounded graphs cannot be formally verified, while output reachability and adversarial robustness of node-classifier MPNNs become verifiable when the degree of input graphs is bounded in advance.</p>
+</li>
+<li id="kumar2023provable">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/Kumar0GF23">Provable Robustness against Wasserstein Distribution Shifts via Input Randomization</a>
+
+	<br><span class="authors"><a href="/researchers/aounon-kumar/">Aounon Kumar</a>, <a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/tom-goldstein/">Tom Goldstein</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>
+</li>
+<li id="zeng2023towards">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2023</span></a>
+	<a class="tag-link" href="/areas/relational/"><span class="tag other">Global &amp; relational properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZengS0KLHJ23">Towards Robustness Certification Against Universal Perturbations</a>
+
+	<br><span class="authors">Yi Zeng, <a href="/researchers/zhouxing-shi/">Zhouxing Shi</a>, <a href="/researchers/ming-jin/">Ming Jin</a>, Feiyang Kang, <a href="/researchers/lingjuan-lyu/">Lingjuan Lyu</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a>, Ruoxi Jia</span><p class="digest-summary">Certifies neural network robustness against universal perturbations shared across all samples, combining linear relaxation-based perturbation analysis with MILP, plus population-level error bounds from a sampled batch; supports comparing defenses and detecting backdoor target classes.</p>
+</li>
+</ul>
+<h2 class="digest-venue">ICRA 2023 <span class="note">2 papers</span></h2>
+<ul class="papers digest"><li id="chen2023one">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://doi.org/10.1109/icra48891.2023.10160643">One-Shot Reachability Analysis of Neural Network Dynamical Systems</a>
+
+	<br><span class="authors">Shaoru Chen, Victor M. Preciado, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a></span><p class="digest-summary">Reachability analysis of neural network dynamical systems that verifies the unrolled system in one shot rather than recursively propagating bounds, proven to reduce compounding over-approximation error; the performance gap is characterised and demonstrated on a cart-pole system.</p>
+</li>
+<li id="entesari2023reachlipbnb">
+	<a class="tag-link" href="/conferences/icra/"><span class="tag accepted">ICRA 2023</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://doi.org/10.1109/icra48891.2023.10160732">ReachLipBnB: A branch-and-bound method for reachability analysis of neural autonomous systems using Lipschitz bounds</a>
+
+	<br><span class="authors"><a href="/researchers/taha-entesari/">Taha Entesari</a>, <a href="/researchers/sina-sharifi/">Sina Sharifi</a>, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a></span><p class="digest-summary">ReachLipBnB computes reachable sets of neural networks and neural-network-controlled systems using directional Lipschitz bounds from a convex program inside branch-and-bound, with PCA on sampled trajectories to choose polyhedral directions; evaluated in open- and closed-loop settings.</p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2023 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="zhang2023diffsmooth">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2023</span></a>
+	<a class="tag-link" href="/areas/probabilistic/"><span class="tag other">Probabilistic certification</span></a>
+	<a href="https://dblp.org/rec/conf/uss/ZhangCZX023">DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing</a> <span class="note">(<a href="https://arxiv.org/abs/2308.14333">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jiawei-zhang/">Jiawei Zhang</a>, <a href="/researchers/zhongzhu-chen/">Zhongzhu Chen</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/chaowei-xiao/">Chaowei Xiao</a>, <a href="/researchers/bo-li/">Bo Li</a></span><p class="digest-summary">DiffSmooth certifies classifiers by purifying inputs with diffusion models and then applying local smoothing, backed by analysis bounding recovered instances near the original; it raises certified ImageNet accuracy at ℓ2 radius 1.5 from 36.0% to 53.0%.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2022-12/">&larr; December 2022</a>
+<a href="/digest/2023/">All of 2023</a><a href="/digest/2023-02/">February 2023 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

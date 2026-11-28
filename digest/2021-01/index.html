@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2021 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2021-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2021">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2021-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2021</h1></header>
+<article>
+<p class="digest-intro">ICLR 2021 and USENIX Security 2021 decisions: certified training leads, with Cayley-transform orthogonal layers, compositional architectures and detection-aware IBP. Complete verification speeds up with GPU-based LiRPA branch-and-bound and geometric projections, while a floating-point attack shows how to fool a complete verifier. Patch defenses such as BagCert and PatchGuard, and collective certificates for graph neural networks, also appear.</p>
+<p>15 NNV papers accepted in January 2021, at ICLR 2021 and USENIX Security 2021.</p>
+<h2 class="digest-venue">ICLR 2021 &middot; Virtual <span class="note">14 / 860 ICLR 2021 papers are NNV, by poster session</span></h2>
+<ul class="papers digest"><li id="sahoo2021scaling">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/explanations/"><span class="tag other">Formal explanations</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SahooV0S021">Scaling Symbolic Methods using Gradients for Neural Model Explanation</a> <span class="note">(<a href="https://arxiv.org/abs/2006.16322">arXiv</a>)</span>
+
+	<br><span class="authors">Subham Sekhar Sahoo, Subhashini Venugopalan, Li Li, Rishabh Singh, Patrick Riley</span><p class="digest-summary">Scales SMT-based analysis to large networks for model explanation by using Integrated Gradients to select first-layer neurons, then solving for minimal input masks that keep those activations above a threshold; resulting saliency maps on MNIST, ImageNet and Beer Reviews are sparser with higher saliency scores.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Mon 3 May, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="levine2021deep">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/0001F21">Deep Partition Aggregation: Provable Defenses against General Poisoning Attacks</a>
+
+	<br><span class="authors"><a href="/researchers/alexander-levine/">Alexander Levine</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary note">No summary yet: no abstract was found for this paper.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 4 May, 00:00–02:00 (UTC)</span></p>
+</li>
+<li id="metzen2021efficient">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/training/"><span class="tag own">Certified training</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MetzenY21">Efficient Certified Defenses Against Patch Attacks on Image Classifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2102.04154">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jan-hendrik-metzen/">Jan Hendrik Metzen</a>, <a href="/researchers/maksym-yatsura/">Maksym Yatsura</a></span><p class="digest-summary">BagCert combines a model architecture with a certification procedure for adversarial patches, plus a loss for end-to-end training of certified patch robustness; on CIFAR10 it certifies 10,000 examples in 43 seconds on one GPU, with 86% clean and 60% certified accuracy against 5x5 patches.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 4 May, 08:00–10:00 (UTC)</span></p>
+</li>
+<li id="palma2021scaling">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/PalmaBBTK21">Scaling the Convex Barrier with Active Sets</a>
+
+	<br><span class="authors"><a href="/researchers/alessandro-de-palma/">Alessandro De Palma</a>, <a href="/researchers/harkirat-singh-behl/">Harkirat Singh Behl</a>, <a href="/researchers/rudy-bunel/">Rudy Bunel</a>, <a href="/researchers/philip-torr/">Philip Torr</a>, <a href="/researchers/m-pawan-kumar/">M. Pawan Kumar</a></span><p class="digest-summary">A dual algorithm operating on a small active set of dual variables makes a tighter, exponentially sized linear relaxation of piecewise-linear activations practical, with GPU parallelism and anytime valid bounds; it gives better bounds than off-the-shelf solvers in a fraction of their time.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Tue 4 May, 08:00–10:00 (UTC)</span></p>
+</li>
+<li id="singla2021fantastic">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/0002F21">Fantastic Four: Differentiable and Efficient Bounds on Singular Values of Convolution Layers</a>
+
+	<br><span class="authors"><a href="/researchers/sahil-singla/">Sahil Singla</a>, <a href="/researchers/soheil-feizi/">Soheil Feizi</a></span><p class="digest-summary">Derives four provable, differentiable upper bounds on the spectral norm of 2D multi-channel convolution layers and takes their minimum as an efficient bound usable to bound Lipschitz constants or curvature; as a regularizer it improves generalization and robustness on MNIST and CIFAR-10.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 5 May, 00:00–02:00 (UTC)</span></p>
+</li>
+<li id="zombori2021fooling">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/ZomboriBCMJ21">Fooling a Complete Neural Network Verifier</a>
+
+	<br><span class="authors">Dániel Zombori, <a href="/researchers/balazs-banhelyi/">Balázs Bánhelyi</a>, Tibor Csendes, István Megyeri, <a href="/researchers/mark-jelasity/">Márk Jelasity</a></span><p class="digest-summary">Shows floating-point roundoff can be exploited to build adversarial networks whose true robustness differs sharply from what a complete verifier reports, and to plant backdoors the verifier misses; a small weight perturbation is offered as a simple defense against this attack.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 5 May, 08:00–10:00 (UTC)</span></p>
+</li>
+<li id="trockman2021orthogonalizing">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/TrockmanK21">Orthogonalizing Convolutional Layers with the Cayley Transform</a> <span class="note">(<a href="https://arxiv.org/abs/2104.07167">arXiv</a>)</span>
+
+	<br><span class="authors">Asher Trockman, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Parameterizes orthogonal convolutional layers by applying the Cayley transform to skew-symmetric convolutions in the Fourier domain; networks with these layers outperform prior deterministic certified defenses against ℓ2-bounded adversaries while scaling to larger architectures.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 5 May, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="sheikholeslami2021provably">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SheikholeslamiL21">Provably robust classification of adversarial examples with detection</a>
+
+	<br><span class="authors">Fatemeh Sheikholeslami, Ali Lotfi, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Jointly trains a provably robust classifier and detector by adding an abstain/detection class and extending interval bound propagation to this objective under ℓ∞ perturbations; it outperforms plain IBP on MNIST and CIFAR-10, especially for large perturbations such as 8/255 and 16/255.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Wed 5 May, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="pabbaraju2021estimating">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/bounds/"><span class="tag other">Bound propagation &amp; abstract interpretation</span></a><a class="tag-link" href="/areas/architectures/"><span class="tag own">Beyond feed-forward nets</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/PabbarajuWK21">Estimating Lipschitz constants of monotone deep equilibrium models</a>
+
+	<br><span class="authors">Chirag Pabbaraju, <a href="/researchers/ezra-winston/">Ezra Winston</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Bounds the Lipschitz constants of monotone deep equilibrium models as a simple function of the strong monotonicity parameter, for both input-output and weight-output maps; the bounds are small relative to standard DNNs and yield depth-independent PAC-Bayes generalization bounds.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 6 May, 00:00–02:00 (UTC)</span></p>
+</li>
+<li id="muller2021certify">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/MullerBV21">Certify or Predict: Boosting Certified Robustness with Compositional Architectures</a>
+
+	<br><span class="authors"><a href="/researchers/mark-niklas-muller/">Mark Niklas Müller</a>, <a href="/researchers/mislav-balunovic/">Mislav Balunovic</a>, <a href="/researchers/martin-vechev/">Martin Vechev</a></span><p class="digest-summary">Boosts certified robustness without retraining by pairing an accurate deep network with a smaller certified network and adaptively selecting which one processes each input; on CIFAR-10 at ℓ∞ 2/255 it reaches 90.1% natural accuracy with 27.5% certified robustness.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 6 May, 08:00–10:00 (UTC)</span></p>
+</li>
+<li id="schuchardt2021collective">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/architectures/"><span class="tag other">Beyond feed-forward nets</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SchuchardtBKG21">Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks</a> <span class="note">(<a href="https://arxiv.org/abs/2302.02829">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/jan-schuchardt/">Jan Schuchardt</a>, <a href="/researchers/aleksandar-bojchevski/">Aleksandar Bojchevski</a>, <a href="/researchers/johannes-klicpera/">Johannes Klicpera</a>, <a href="/researchers/stephan-gunnemann/">Stephan Günnemann</a></span><p class="digest-summary">Collective robustness certificates for Graph Neural Networks count how many predictions stay stable under a single shared perturbation, fusing single-node certificates using locality; on Citeseer node classification the average number of certifiable feature perturbations rises from 7 to 351.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 6 May, 08:00–10:00 (UTC)</span></p>
+</li>
+<li id="donti2021enforcing">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/control/"><span class="tag other">NN control systems</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/DontiRFK21">Enforcing robust control guarantees within neural network policies</a> <span class="note">(<a href="https://arxiv.org/abs/2011.08105">arXiv</a>)</span>
+
+	<br><span class="authors">Priya L. Donti, Melrose Roderick, <a href="/researchers/mahyar-fazlyab/">Mahyar Fazlyab</a>, <a href="/researchers/zico-kolter/">Zico Kolter</a></span><p class="digest-summary">Builds neural-network control policies that enforce the same provable robustness criteria as robust control by embedding convex-optimization-based projection layers, improving average-case performance over robust control and worst-case stability over non-robust deep RL on several domains.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Thu 6 May, 16:00–18:00 (UTC)</span></p>
+</li>
+<li id="fromherz2021fast">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a> <span class="tag other">spotlight</span> 🎉
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/FromherzLFPP21">Fast Geometric Projections for Local Robustness Certification</a> <span class="note">(<a href="https://arxiv.org/abs/2002.04742">arXiv</a>)</span>
+
+	<br><span class="authors">Aymeric Fromherz, <a href="/researchers/klas-leino/">Klas Leino</a>, <a href="/researchers/matt-fredrikson/">Matt Fredrikson</a>, Bryan Parno, <a href="/researchers/corina-s-pasareanu/">Corina S. Pasareanu</a></span><p class="digest-summary">Checks ℓ2 local robustness of piecewise-linear feed-forward networks by searching for decision boundaries in nearby linear regions using simple geometric projections, implemented in parallel on GPU; it is more precise than many approximate verifiers and orders of magnitude faster than complete ones.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 7 May, 00:00–02:00 (UTC)</span></p>
+</li>
+<li id="xu2021fast">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2021</span></a>
+	<a class="tag-link" href="/areas/complete/"><span class="tag other">Complete verification</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/XuZ0WJLH21">Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers</a> <span class="note">(<a href="https://arxiv.org/abs/2011.13824">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/kaidi-xu/">Kaidi Xu</a>, <a href="/researchers/huan-zhang/">Huan Zhang</a>, <a href="/researchers/shiqi-wang/">Shiqi Wang</a>, <a href="/researchers/yihan-wang/">Yihan Wang</a>, <a href="/researchers/suman-jana/">Suman Jana</a>, <a href="/researchers/xue-lin/">Xue Lin</a>, <a href="/researchers/cho-jui-hsieh/">Cho-Jui Hsieh</a></span><p class="digest-summary">Replaces linear programming in branch-and-bound complete verification with backward-mode LiRPA on GPUs, adding gradient-based bound tightening, batch splits and minimal LP use to keep completeness; on a single GPU it runs an order of magnitude faster than LP-based approaches.</p><p class="digest-where"><span><b>Virtual</b> &middot; Poster &middot; Fri 7 May, 00:00–02:00 (UTC)</span></p>
+</li>
+</ul>
+<h2 class="digest-venue">USENIX Security 2021 <span class="note">1 paper</span></h2>
+<ul class="papers digest"><li id="xiang2021patchguard">
+	<a class="tag-link" href="/conferences/uss/"><span class="tag accepted">USENIX Security 2021</span></a>
+	<a class="tag-link" href="/areas/other/"><span class="tag other">Other</span></a><a class="tag-link" href="/areas/inputs/"><span class="tag own">Beyond ℓp input properties</span></a>
+	<a href="https://dblp.org/rec/conf/uss/0001BSM21">PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking</a> <span class="note">(<a href="https://arxiv.org/abs/2005.10884">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/chong-xiang/">Chong Xiang</a>, Arjun Nitin Bhagoji, Vikash Sehwag, <a href="/researchers/prateek-mittal/">Prateek Mittal</a></span><p class="digest-summary">PatchGuard provably defends image classifiers against localized adversarial patches by using CNNs with small receptive fields to bound corrupted features and a robust masking aggregation, with strong provable and clean accuracy on ImageNet, ImageNette and CIFAR-10.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2020-12/">&larr; December 2020</a>
+<a href="/digest/2021/">All of 2021</a><a href="/digest/2021-02/">February 2021 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>

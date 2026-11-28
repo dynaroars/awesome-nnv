@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>January 2018 | Awesome NNV</title>
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css?v=b754438f30">
+	<meta name="description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<link rel="canonical" href="https://awesome-nnv.roars.dev/digest/2018-01/">
+	<meta property="og:site_name" content="Awesome NNV">
+	<meta property="og:title" content="January 2018">
+	<meta property="og:description" content="Tracking neural-network verification papers and researchers across 16 top conferences in ML, CV, PL, SE, and formal methods since 2017.">
+	<meta property="og:url" content="https://awesome-nnv.roars.dev/digest/2018-01/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+	<meta name="robots" content="index, follow">
+</head>
+<body>
+<nav>
+	<span class="lang"><button class="theme" type="button" title="Switch light and dark mode" aria-label="Switch light and dark mode">🌙</button></span>
+	<a class="site" href="/"><img class="site-logo" src="/favicon.svg" alt="" width="22" height="22">Awesome NNV</a>
+	<span class="links">
+	<a href="/">Groups</a>
+	<a href="/researchers/">Researchers</a>
+	<a href="/collaboration/">Collaboration</a>
+	<a href="/areas/">Areas</a>
+	<a href="/papers/">Papers</a>
+	<a href="/conferences/">Conferences</a>
+	<a href="/digest/" class="current">Monthly digest</a>
+	<a href="/about/">About</a>
+	<a href="/feedback/">Feedback</a>
+	</span>
+</nav>
+<main>
+<header><h1>January 2018</h1></header>
+<article>
+<p class="digest-intro">ICLR 2018 decisions: certified training emerges, with a differentiable semidefinite relaxation that certifies and trains one-hidden-layer networks, and principled adversarial training over a Wasserstein ball that certifies distributional robustness.</p>
+<p>2 NNV papers accepted in January 2018, at ICLR 2018.</p>
+<ul class="papers digest"><li id="raghunathan2018certified">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a><a class="tag-link" href="/areas/bounds/"><span class="tag own">Bound propagation &amp; abstract interpretation</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/RaghunathanSL18">Certified Defenses against Adversarial Examples</a> <span class="note">(<a href="https://arxiv.org/abs/1801.09344">arXiv</a>)</span>
+
+	<br><span class="authors"><a href="/researchers/aditi-raghunathan/">Aditi Raghunathan</a>, <a href="/researchers/jacob-steinhardt/">Jacob Steinhardt</a>, <a href="/researchers/percy-liang/">Percy Liang</a></span><p class="digest-summary">Certifies one-hidden-layer networks against adversarial attacks via a differentiable semidefinite relaxation bound that is also optimized during training; on MNIST the resulting certificate guarantees no attack within ε=0.1 per pixel exceeds 35% test error.</p>
+</li>
+<li id="sinha2018certifying">
+	<a class="tag-link" href="/conferences/iclr/"><span class="tag accepted">ICLR 2018</span></a>
+	<a class="tag-link" href="/areas/training/"><span class="tag other">Certified training</span></a>
+	<a href="https://dblp.org/rec/conf/iclr/SinhaND18">Certifying Some Distributional Robustness with Principled Adversarial Training</a> <span class="note">(<a href="https://arxiv.org/abs/1710.10571">arXiv</a>)</span>
+
+	<br><span class="authors">Aman Sinha, Hongseok Namkoong, John C. Duchi</span><p class="digest-summary">Trains models with distributionally robust optimization over a Wasserstein ball via a Lagrangian penalty, augmenting updates with worst-case data perturbations; for smooth losses this provably gives moderate robustness and certifies robustness of the population loss at low cost.</p>
+</li>
+</ul>
+<nav class="digest-nav"><a href="/digest/2017-11/">&larr; November 2017</a>
+<a href="/digest/2018/">All of 2018</a><a href="/digest/2018-04/">April 2018 &rarr;</a>
+</nav>
+</article>
+</main>
+<footer>
+	Data from <a href="https://dblp.org">dblp</a> (CC0), 2017&ndash;2027, built 2026-11-28.
+	<a href="/about/">Sources and rules</a> &middot; <a href="https://github.com/dynaroars/awesome-nnv">Code and data</a>
+</footer>
+<script src="/site.js?v=3a9e064b5e" defer></script>
+</body>
+</html>
