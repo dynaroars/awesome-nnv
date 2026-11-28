@@ -1,4 +1,4 @@
-{{- $f := . }}
-{{- range hugo.Data.meta.fields }}
+{{- $f := .f }}
+{{- range .fl }}
 {{ partial "num.html" (index $f .key) }}
 {{- end }}

@@ -15,7 +15,7 @@
 		<th rowspan="2" title="Citations: OpenAlex citations of the group's NNV papers, all years, adding up a paper's preprint and published records. Shown for reference; not used in the ranking.">Citations</th>
 	</tr>
 	<tr>
-		{{ partial "field-heads.html" . }}
+		{{ partial "field-heads.html" hugo.Data.meta.fields }}
 		<th class="good" data-podium title="Papers: the group's NNV papers, in the period chosen above (last year from {{ $from }}, last 5 years from {{ $five }}, or all years). Ranked by papers, then score.">Papers</th>
 		<th class="score" title="Score: the CSRankings adjusted count over the same papers. Each paper gives 1 / (number of authors) to every author.">Score</th>
 	</tr>
@@ -30,7 +30,7 @@
 		<td class="l pin1">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .slug | relURL }}" title="{{ .name }}{{ with .topic | default .description }}: {{ . }}{{ end }}">{{ .label }}</a>{{ with .logo }} <img class="mini" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ with .institution }}<br><span class="group-home">{{ partial "flag.html" $g.institution_country }} {{ . }}</span>{{ end }}</td>
 		<td class="l tools">{{ delimit .tools ", " }}</td>
 		<td class="l members" data-sort="{{ len .members }}">{{ range $k, $m := first 3 .members }}{{ if $k }}, {{ end }}<a href="{{ printf "researchers/%s/" $m.slug | relURL }}">{{ $m.name }}</a>{{ end }}{{ with sub (len .members) 3 }}{{ if gt . 0 }}, <a class="more" href="{{ printf "groups/%s/" $g.slug | relURL }}">+{{ . }} more</a>{{ end }}{{ end }}</td>
-		{{ partial "field-cells.html" .fields }}
+		{{ partial "field-cells.html" (dict "f" .fields "fl" hugo.Data.meta.fields) }}
 		<td class="total good" data-sort="{{ printf "%010.4f" (add (mul .recent_papers 1000.0) .recent_score) }}" data-v0="{{ .recent_papers }}" data-v1="{{ .five_papers }}" data-v2="{{ .papers }}" data-s0="{{ printf "%010.4f" (add (mul .recent_papers 1000.0) .recent_score) }}" data-s1="{{ printf "%010.4f" (add (mul .five_papers 1000.0) .five_score) }}" data-s2="{{ printf "%010.4f" (add (mul .papers 1000.0) .score) }}">{{ .recent_papers }}</td>
 		<td class="score" data-v0="{{ printf "%.2f" .recent_score }}" data-v1="{{ printf "%.2f" .five_score }}" data-v2="{{ printf "%.2f" .score }}">{{ printf "%.2f" .recent_score }}</td>
 		<td>{{ .citations }}</td>

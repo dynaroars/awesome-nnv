@@ -7,7 +7,7 @@
 <p>{{ len $g.members }} listed researcher{{ if ne (len $g.members) 1 }}s{{ end }}, {{ $g.papers }} NNV paper{{ if ne (int $g.papers) 1 }}s{{ end }} (shared papers counted once), {{ $g.citations }} citations, and a score of {{ printf "%.2f" $g.score }}.</p>
 {{ partial "award-line.html" (dict "x" $g "who" "groups" "href" "#award-groups") }}
 {{- $members := slice }}{{ range $g.members }}{{ $members = $members | append (index (where hugo.Data.researchers "slug" .slug) 0) }}{{ end }}
-{{ partial "researcher-table.html" (dict "rows" (sort $members "member_rank") "id" "members-table" "group" false) }}
+{{ partial "researcher-table.html" (dict "rows" (sort $members "member_rank") "id" "members-table" "group" false "hide0" true) }}
 <div class="fig-row clear">
 <figure>
 {{ $g.chart | safeHTML }}

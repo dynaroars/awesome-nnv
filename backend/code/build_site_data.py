@@ -407,7 +407,8 @@ FIVE_FROM = f"{_T.year - 5}-{_T.month:02d}-01"
 
 def group_home(g, members):
     """A group's institution: groups.csv's `institution` if set; else the member institution its name's bracket names
-    ("Jia group (Penn State)"); else the one most members are at (a tie goes to the higher-ranked member)."""
+    ("Jia group (Penn State)"); else the one most members active in the last year are at (all members when none was; a tie goes to the higher-ranked
+    member)."""
     named = [r for r in members if r["institution_name"]]
     if g.get("institution"):
         hit = next((r for r in named if r["institution_name"] == g["institution"]), None)
@@ -415,8 +416,9 @@ def group_home(g, members):
     for r in named:
         if group_label(g["name"], r["institution_name"], r["institution"]) != g["name"]:
             return r["institution_name"], r["country"]
-    count = collections.Counter(r["institution_name"] for r in named)
-    best = max(named, key=lambda r: count[r["institution_name"]], default=None)  # first of the top count = highest rank
+    live = [r for r in named if r.get("recent_papers")] or named
+    count = collections.Counter(r["institution_name"] for r in live)
+    best = max(live, key=lambda r: count[r["institution_name"]], default=None)
     return (best["institution_name"], best["country"]) if best else ("", "")
 
 

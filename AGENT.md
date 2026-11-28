@@ -232,6 +232,10 @@ the site uses.
   is the feed's `estimated` flag; only round or cycle labels are taken from `note`. Place parsing and the country
   table mirror cspicks' `csconfs/place.ts`; a flag shows only when its svg is in `static/img/flags` (flag-icons
   7.2.3). The countdown is to the minute.
+- **A group's institution** (`group_home`; the maintainer's rule of 2026-11-28): `groups.csv`'s `institution` if set, else the
+  institution its name's bracket names, else the one most members who published in the last year are at (all members
+  when none did; a tie goes to the higher-ranked member): NeuralSAT is George Mason, not Virginia.
+- **Group pages** hide the field columns in which no member has a paper (`hide0`; the other tables keep all of them).
 - **Group pages** list their members by this year's papers, then this year's score, all-year papers, all-year
   score and citations (`member_rank`, the maintainer's order of 2026-11-27).
 - **Last year** (the maintainer's definition, 2026-11-27): papers accepted on or after `RECENT_FROM`, the first of the
