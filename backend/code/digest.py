@@ -8,7 +8,8 @@ conference's own pages), resolved per paper in this order:
   3. for several cycles, the cycle named like the paper's journal issue (OOPSLA1, OOPSLA2); otherwise the last
      notification not after the day the acceptance was first seen (approximate: the paper may come from an earlier
      cycle);
-  4. none: the paper is listed under "no acceptance date yet", never placed by its conference month.
+  4. none: the paper is placed in its conference month (`by_conf`) and kept in `undated`, so the automatic update
+     still looks for its notification date.
 `digest.csv` is the record: one row per paper, keyed by venue, year and normalized title (paper keys change when dblp
 replaces a conference-site record), never deleted. `digest_months.csv` holds each month's short introduction.
 """
@@ -258,9 +259,11 @@ def build(papers, warn=lambda text: None, today=None):
                 warn(f"digest: {p['key']} not found in the {p['venue']} {p['year']} schedule")
         if not when:
             undated.append(entry)
-            continue
+            cm = conference_month(p["venue"], p["year"])
+            when = {"date": datetime.date(int(cm[:4]), int(cm[5:]), 1), "approx": True, "cycle": "", "source": ""}
+            entry["by_conf"] = True
         month = when["date"].strftime("%Y-%m")
-        if month > conference_month(p["venue"], p["year"]):
+        if not entry.get("by_conf") and month > conference_month(p["venue"], p["year"]):
             warn(f"digest: {p['key']} accepted {when['date']} after its conference month {conference_month(p['venue'], p['year'])}")
         end = datetime.date(when["date"].year, when["date"].month, calendar.monthrange(when["date"].year, when["date"].month)[1])
         added = day((row or {}).get("added", ""))
@@ -291,6 +294,7 @@ def build(papers, warn=lambda text: None, today=None):
         intro = intros.get(month, {})
         out.append({"month": month, "label": month_label(month), "in_progress": month == today.strftime("%Y-%m"),
                     "intro": intro.get("intro", ""), "papers": items, "count": len(items),
+                    "by_conf": sum(1 for e in items if e.get("by_conf")),
                     "groups": sorted(gs.values(), key=lambda g: -len(g["papers"])),
                     "venues": [f"{v} {y}" for v, y in venues], "vlist": vl,
                     "summarised": sum(1 for e in items if e["summary"])})
@@ -313,7 +317,7 @@ def main():
     d = build(papers)
     missing = [e for m in d["months"] for e in m["papers"] if not e["summary"]]
     print(f"{added} rows added to digest.csv; {sum(m['count'] for m in d['months'])} papers in {len(d['months'])} months, "
-          f"{len(missing)} without a summary, {len(d['undated'])} without an acceptance date", file=sys.stderr)
+          f"{len(missing)} without a summary, {len(d['undated'])} without an acceptance date (placed in their conference month)", file=sys.stderr)
     for e in d["undated"]:
         print(f"  no acceptance date: {VENUE_NAME[e['venue']]} {e['year']} {e['title'][:80]}", file=sys.stderr)
 

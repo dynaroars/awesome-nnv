@@ -2,10 +2,5 @@
 {{ .Content }}
 {{- with hugo.Data.digest }}
 {{- with index .years 0 }}{{ partial "digest-year.html" (dict "year" .year) }}{{ end }}
-{{- with .undated }}
-<h2>No acceptance date yet</h2>
-<p>These papers belong to the digest's conference years, but their conference's notification date is not recorded yet, so they are not placed in a month.</p>
-<ul class="papers">{{ range . }}{{ partial "digest-paper.html" . }}{{ end }}</ul>
-{{- end }}
 {{- end }}
 {{- end }}

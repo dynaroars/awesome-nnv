@@ -4,6 +4,7 @@
 	<a class="tag-link" href="{{ printf "areas/%s/" .area | relURL }}"><span class="tag other">{{ .area_name }}</span></a>
 	{{- range .tags }}<a class="tag-link" href="{{ printf "areas/%s/" .key | relURL }}"><span class="tag own">{{ .name }}</span></a>{{ end }}
 	<a href="{{ .url }}">{{ partial "title.html" .title }}</a>{{ if .unofficial }} <span class="unofficial" title="Accepted according to an author's page; not yet in the conference's published list or dblp">unofficial</span>{{ end }}{{ with .arxiv }} <span class="note">(<a href="https://arxiv.org/abs/{{ . }}">arXiv</a>)</span>{{ end }}
+{{ if .by_conf }} <span class="note" title="The conference's notification date is not recorded, so the paper is listed in the month the conference started">(by conference date)</span>{{ end }}
 	<br><span class="authors">
 	{{- range $k, $a := .authors }}{{ if $k }}, {{ end }}{{ if $a.slug }}<a href="{{ printf "researchers/%s/" $a.slug | relURL }}">{{ $a.name }}</a>{{ else }}{{ $a.name }}{{ end }}{{ end }}</span>
 	{{- with .summary }}<p class="digest-summary">{{ . }}</p>{{ else }}<p class="digest-summary note">No summary yet: no abstract was found for this paper.</p>{{ end }}

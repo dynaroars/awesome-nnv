@@ -5,7 +5,7 @@
 {{- range $i, $m := $months }}{{ if eq $m.month $key }}
 {{- if $m.in_progress }}<p class="note">This month is still in progress: papers are added as conferences announce their acceptances.</p>{{ end }}
 {{- with $m.intro }}<p class="digest-intro">{{ . }}</p>{{ end }}
-<p>{{ $m.count }} NNV paper{{ if ne (int $m.count) 1 }}s{{ end }} accepted in {{ $m.label }}, at {{ delimit $m.venues ", " " and " }}.</p>
+<p>{{ $m.count }} NNV paper{{ if ne (int $m.count) 1 }}s{{ end }} {{ if eq (int $m.by_conf) (int $m.count) }}listed{{ else }}accepted{{ end }} in {{ $m.label }}, at {{ delimit $m.venues ", " " and " }}.{{ with $m.by_conf }} {{ if eq (int .) (int $m.count) }}{{ if eq (int .) 1 }}It is{{ else }}They are{{ end }}{{ else }}{{ . }} of them {{ if eq (int .) 1 }}is{{ else }}are{{ end }}{{ end }} placed by conference date, as the notification date is not recorded.{{ end }}</p>
 {{- if or (gt (len $m.groups) 1) (index $m.groups 0).city }}
 {{- range $m.groups }}
 <h2 class="digest-venue">{{ with .flag }}{{ partial "flag.html" . }} {{ end }}{{ .name }}{{ if and .city (ne .city .name) }} &middot; {{ .city }}{{ end }}{{ with .flag }}, {{ index hugo.Data.meta.countries . }}{{ end }} <span class="note">{{ if .total }}{{ len .papers }} / {{ lang.FormatNumber 0 .total }} {{ .label }} papers are NNV, by poster session{{ else }}{{ len .papers }} paper{{ if ne (len .papers) 1 }}s{{ end }}{{ end }}</span></h2>

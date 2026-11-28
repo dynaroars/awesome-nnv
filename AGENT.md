@@ -334,7 +334,9 @@ per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder)
   never from memory. Revision-stage venues (FSE, ISSTA, ICSE, OOPSLA, ICFP) use the first acceptance decision.
 - Resolution per paper: its own `accepted` date in `digest.csv`; else the venue-year's single cycle; else the cycle
   named like its PACMPL issue (OOPSLA1/OOPSLA2, `issue` carried from dblp); else the latest notification not after
-  the day the acceptance was seen, marked approximate; else "no acceptance date yet" (never the conference month).
+  the day the acceptance was seen, marked approximate; else the conference's start month (the maintainer's request
+  of 2026-11-28; `by_conf`, shown as "(by conference date)"), and the paper stays in `undated` so the automatic
+  update keeps asking for that venue-year's notification date. The digest page has no "no acceptance date" list.
 - `backend/data/csv/digest.csv`: the record, one row per paper keyed by venue, year and normalized title (paper keys
   change when dblp replaces a site record), never deleted; `summary` is one or two sentences in our own words from
   the abstract only (`basis` = the abstract's URL; no abstract, no summary; never from the OpenReview reviews).
