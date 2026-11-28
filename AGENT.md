@@ -308,7 +308,7 @@ per year (`/digest/YYYY/`) in a single `write_stubs` call (it clears the folder)
   NeurIPS 2022 papers had "Spotlight" sessions), and ICML 2021's "Spotlight" decision is ignored (it was every
   non-oral paper). Each paper carries `pres`: a tag in the Papers venue column, and all-time counts per group and
   researcher (`oral`, `spotlight`, `highlight`, `awards`, `award_rank`) for the tables below the rankings on the front
-  page and Researchers (`partials/award-table.html`). Digest papers no longer show their acceptance date.
+  page and Researchers (`partials/award-table.html`). The three columns share one violet hue, darkest for the rarest (`--oral`, `--spot`, `--hl`; about 1–5%, 4–16% and 10–12% of a conference's papers in the 2023–2026 schedules), checked for text contrast in both themes. Digest papers no longer show their acceptance date.
 - Abstracts for summaries (`fetch_abstracts.py`, 2026-11-28): OpenReview, then the arXiv id from OpenAlex, then an
   arXiv title search (exact title ignoring case and punctuation, plus a shared author surname; hits kept in
   `backend/data/json/arxiv_titles.json`, which also gives the paper its arXiv link), then OpenAlex, then the local

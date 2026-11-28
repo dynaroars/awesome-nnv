@@ -2,7 +2,7 @@
 <ul class="papers">
 	{{- range .papers }}
 	<li id="{{ .id }}">
-		<a class="tag-link" href="{{ printf "conferences/%s/" .venue | relURL }}"><span class="tag accepted">{{ .venue_name }} {{ .year }}</span></a>
+		<a class="tag-link" href="{{ printf "conferences/%s/" .venue | relURL }}"><span class="tag accepted">{{ .venue_name }} {{ .year }}</span></a>{{ with .pres }} <span class="tag other">{{ . }}</span> 🎉{{ end }}
 		<a class="tag-link" href="{{ printf "areas/%s/" .area | relURL }}"><span class="tag other">{{ .area_name }}</span></a>
 		{{- range .tags }}<a class="tag-link" href="{{ printf "areas/%s/" .key | relURL }}"><span class="tag own">{{ .name }}</span></a>{{ end }}
 		<a href="{{ .url }}">{{ partial "title.html" .title }}</a>{{ if .unofficial }} <span class="unofficial" title="Accepted according to an author's page; not yet in the conference's published list or dblp">unofficial</span>{{ end }}{{ with .arxiv }} <span class="note">(<a href="https://arxiv.org/abs/{{ . }}">arXiv</a>)</span>{{ end }}{{ if ne .citations nil }} <span class="note cites">&middot; {{ .citations }} citation{{ if ne (int .citations) 1 }}s{{ end }}</span>{{ end }}

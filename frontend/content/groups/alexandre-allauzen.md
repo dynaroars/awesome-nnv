@@ -1,4 +1,4 @@
 ---
-title: "Alexandre Allauzen group"
+title: "MILES"
 key: "alexandre-allauzen"
 ---

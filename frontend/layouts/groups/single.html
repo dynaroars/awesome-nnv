@@ -5,6 +5,7 @@
 {{- with $g.topic }}<p>{{ . }}{{ with $g.topic_source }} <span class="note">(from <a href="{{ . }}">its webpage</a>)</span>{{ end }}</p>{{ end }}
 <p>{{ with $g.tools }}Tools: {{ delimit . ", " }}. {{ end }}{{ with $g.url }}<a href="{{ . }}">Website</a>.{{ end }}{{ with $g.institutions }} Institutions: {{ delimit . ", " }}.{{ end }}</p>
 <p>{{ len $g.members }} listed researcher{{ if ne (len $g.members) 1 }}s{{ end }}, {{ $g.papers }} NNV paper{{ if ne (int $g.papers) 1 }}s{{ end }} (shared papers counted once), {{ $g.citations }} citations, and a score of {{ printf "%.2f" $g.score }}.</p>
+{{ partial "award-line.html" (dict "x" $g "who" "groups" "href" "#award-groups") }}
 {{- $members := slice }}{{ range $g.members }}{{ $members = $members | append (index (where hugo.Data.researchers "slug" .slug) 0) }}{{ end }}
 {{ partial "researcher-table.html" (dict "rows" (sort $members "member_rank") "id" "members-table" "group" false) }}
 <div class="fig-row clear">

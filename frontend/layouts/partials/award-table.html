@@ -1,7 +1,7 @@
 {{- $rows := .rows }}{{ $id := .id }}{{ $g := .groups | default false }}
 {{- if $rows }}
 <h2 class="award-head">Oral, spotlight and highlight papers</h2>
-<p class="note">All years. Papers the conference chose for an oral, a spotlight or a highlight, from the ICLR, ICML, NeurIPS, CVPR and ECCV schedules and accepted-paper lists; the other conferences do not mark them.</p>
+<p class="note">All years. Papers the conference chose for an oral, a spotlight or a highlight, from the ICLR, ICML, NeurIPS, CVPR and ECCV schedules and accepted-paper lists.</p>
 <div class="table-box">
 <div class="scroll pinned top">
 <table class="podium" id="{{ $id }}" data-page-size="10">
@@ -11,9 +11,9 @@
 		<th class="l pin1">{{ if $g }}Group{{ else }}Researcher{{ end }}</th>
 		{{- if not $g }}<th class="l">Group</th>{{ end }}
 		<th class="good" data-podium title="Oral, spotlight and highlight papers, all years">Total</th>
-		<th title="Oral papers">Oral</th>
-		<th title="Spotlight papers">Spotlight</th>
-		<th title="Highlight papers (CVPR)">Highlight</th>
+		<th class="aw-o" title="Oral papers: about 1–5% of a conference's papers">Oral</th>
+		<th class="aw-s" title="Spotlight papers: about 4–16% of a conference's papers">Spotlight</th>
+		<th class="aw-h" title="Highlight papers (CVPR, ICCV): about 10–12% of a conference's papers">Highlight</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -27,9 +27,9 @@
 		<td class="l">{{ partial "swatch.html" . }} <a href="{{ printf "groups/%s/" .group | relURL }}" title="{{ .group_name }}">{{ cond site.Params.local .group_label_local .group_label }}</a></td>
 		{{- end }}
 		<td class="total good" data-sort="{{ printf "%04d%04d%04d" .awards .oral .spotlight }}">{{ .awards }}</td>
-		<td>{{ with .oral }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
-		<td>{{ with .spotlight }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
-		<td>{{ with .highlight }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
+		<td class="aw-o">{{ with .oral }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
+		<td class="aw-s">{{ with .spotlight }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
+		<td class="aw-h">{{ with .highlight }}{{ . }}{{ else }}<span class="na">&ndash;</span>{{ end }}</td>
 	</tr>
 	{{- end }}
 	</tbody>

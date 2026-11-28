@@ -160,8 +160,13 @@ def aw(ps):
 
 
 def aw_rank(xs):
-    for k, x in enumerate(sorted(xs, key=lambda x: (-x["awards"], -x["oral"], -x["spotlight"], -x["highlight"], x["name"]))):
+    ky = lambda x: (x["awards"], x["oral"], x["spotlight"], x["highlight"])
+    ys = [x for x in xs if x["awards"]]
+    for k, x in enumerate(sorted(xs, key=lambda x: tuple(-v for v in ky(x)) + (x["name"],))):
         x["award_rank"] = k
+        x["award_place"] = 1 + sum(1 for y in ys if ky(y) > ky(x)) if x["awards"] else 0
+        x["award_tied"] = sum(1 for y in ys if ky(y) == ky(x)) > 1 if x["awards"] else False
+        x["award_of"] = len(ys)
 
 
 def institution(r, info, prof=None, site=None, signed=""):
